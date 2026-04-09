@@ -5,12 +5,18 @@ OHDSI ATLAS / feedernet 다기관 연구 자동화 툴킷 (v0.2.0)
 **연구설계 YAML 하나로 전체 파이프라인을 자동 실행합니다:**
 
 ```
-연구설계 YAML  →  코호트 JSON 자동생성  →  ATLAS 업로드  →  Generate  →  Estimation 실행  →  결과 다운로드
+┌─────────────────── Python (atlas-auto) ───────────────────┐  ┌──── R ────┐
+│                                                           │  │           │
+│  연구설계    코호트 JSON    ATLAS     Estimation   결과    │  │  Pooled   │
+│  YAML    →  자동생성    →  업로드  →  실행     →  다운로드 │→ │  Analysis │
+│                                                           │  │  + Shiny  │
+└───────────────────────────────────────────────────────────┘  └───────────┘
 ```
 
 ```
 본원 (DB 직접 접속)     →  R 패키지 직접 실행 (CohortMethod)
 타기관 (웹만 접근 가능)  →  feedernet WebAPI REST 호출 (Python)
+결과 통합 분석          →  R meta-analysis (EvidenceSynthesis / DerSimonian-Laird)
 ```
 
 ---
@@ -48,7 +54,7 @@ atlas_auto_ms/
 ├── pyproject.toml                      # pip install 지원
 ├── README.md
 ├── .gitignore
-├── src/atlas_auto/                     # 패키지 본체
+├── src/atlas_auto/                     # Python 패키지
 │   ├── __init__.py                     #   export: FedernetClient, EstimationBuilder,
 │   │                                   #           CohortDesigner, StudyProtocol
 │   ├── client.py                       #   feedernet 포탈 + WebAPI 클라이언트
@@ -59,6 +65,10 @@ atlas_auto_ms/
 │   ├── cli.py                          #   CLI: atlas-auto 명령
 │   └── data/
 │       └── concepts.py                 #   OMOP Concept ID 레퍼런스 (300+)
+├── R/                                  # R 분석 코드
+│   ├── pooled_analysis.R               #   메타분석 + Evidence Explorer
+│   ├── run_pooled.R                    #   실행 스크립트
+│   └── install_dependencies.R          #   R 패키지 설치
 └── examples/
     ├── study_protocol_example.yaml     #   연구설계 프로토콜 템플릿 (핵심)
     ├── config_example.yaml             #   인증/DB 설정 템플릿
@@ -425,6 +435,79 @@ ATLAS URL:  /atlas-resolve/v2.12.0/7/203/main
 | Bearer 토큰 | `login_with_bearer_token("eyJ...")` | API 토큰 |
 
 쿠키/토큰 얻기: 브라우저 F12 → Network → XHR 요청 → Headers → Cookie 또는 Authorization 복사
+
+---
+
+## Pooled Analysis (R 메타분석)
+
+다기관 result.zip 다운로드 후 R로 통합 분석합니다.
+
+### 전체 워크플로우
+
+```bash
+# Step 1: Python - 다기관 estimation 실행 & 결과 다운로드
+atlas-auto protocol --study my_study.yaml --config config.yaml
+atlas-auto download --config config.yaml --project 2908 --analysis 10858
+
+# Step 2: R - 메타분석 & Shiny 뷰어
+Rscript R/run_pooled.R ./results
+```
+
+### R 환경 셋업 (최초 1회)
+
+```r
+source("R/install_dependencies.R")
+```
+
+필요 패키지: `meta`, `EvidenceSynthesis`, `EmpiricalCalibration`, `ParallelLogger`, `readr`, `SqlRender`
+
+### R에서 직접 실행
+
+```r
+source("R/pooled_analysis.R")
+
+run_pooled_analysis(
+  results_folder = "./results",       # result.zip들이 있는 폴더
+  method = "DL",                      # "DL" 또는 "BayesianNonNormal"
+  max_cores = 4,
+  launch_shiny = TRUE,                # Evidence Explorer 자동 실행
+  blind = FALSE
+)
+```
+
+### 메타분석 방법
+
+| 방법 | 설명 | 장점 |
+|------|------|------|
+| `DL` | DerSimonian-Laird random effects | 빠름, 간단, 대부분 상황에 적합 |
+| `BayesianNonNormal` | Bayesian non-normal likelihood (Schuemie 2021) | 소수/영 이벤트에 강건, 권장 |
+
+### 출력 구조
+
+```
+results/
+├── CAUHS_5.3.1_03_241515_result.zip      # 기관별 원본 결과
+├── CHNUH_5.3.1_01_241528_result.zip
+├── ...
+├── staging/                               # 표준화된 이름 (자동 생성)
+│   ├── Results_CAUHS_5.3.1_03.zip
+│   └── Results_CHNUH_5.3.1_01.zip
+├── meta_analysis/                         # 메타분석 결과
+│   └── Results_MetaAnalysis.zip
+└── shiny_data/                            # Evidence Explorer 데이터
+    ├── CAUHS_5.3.1_03.rds
+    ├── CHNUH_5.3.1_01.rds
+    └── MetaAnalysis.rds
+```
+
+### Evidence Explorer
+
+메타분석 완료 후 자동으로 Shiny 앱이 실행됩니다:
+- 기관별 결과 비교
+- Forest plot
+- PS distribution
+- Calibrated/uncalibrated 결과
+- Negative control diagnostics
 
 ---
 
