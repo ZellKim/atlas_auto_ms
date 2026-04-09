@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-auto"
+version = "0.2.0"
+description = "OHDSI ATLAS/feedernet 자동화 - 코호트 설계, Estimation 실행, 결과 다운로드"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "requests>=2.28.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+atlas-auto = "atlas_auto.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

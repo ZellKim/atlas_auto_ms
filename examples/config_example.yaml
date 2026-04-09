@@ -1,0 +1,62 @@
+# ============================================================
+# atlas-auto 설정 파일 템플릿
+# ============================================================
+# cp config_example.yaml config.yaml 후 실제 값으로 수정하세요.
+# config.yaml은 .gitignore에 포함되어 git에 올라가지 않습니다.
+# ============================================================
+
+study_package_dir: "/path/to/estimation_model/E01_E04_clinical_ms_v6_nomatch"
+work_dir: "./output"
+
+# ============================================================
+# feedernet 포탈 인증
+# ============================================================
+portal:
+  url: "https://www.feedernet.com"
+  email: "your@email.com"
+  password: "YOUR_FEEDERNET_PW"
+
+  # 자동 로그인 실패 시 브라우저에서 쿠키 복사:
+  # cookie_string: "JSESSIONID=abc123; token=xyz456"
+
+  # 또는 Bearer 토큰:
+  # bearer_token: "eyJhbGciOiJIUzUxMiJ9..."
+
+# ============================================================
+# 본원 설정 (DB 직접 접속, R 실행 시 필요)
+# ============================================================
+local_site:
+  database_id: "MY_HOSPITAL"
+  database_name: "내 병원"
+  database_description: "OMOP CDM"
+  dbms: "postgresql"
+  server: "localhost/ohdsi"
+  port: 5432
+  user: "db_user"
+  password: "db_password"
+  cdm_schema: "cdm"
+  cohort_schema: "results"
+  cohort_table: "cohort"
+  temp_schema: null
+  output_folder: "./output/local"
+  max_cores: 4
+  min_cell_count: 5
+
+# ============================================================
+# 타기관 설정 (feedernet API 경유)
+# ============================================================
+# ATLAS URL: /atlas-resolve/v2.12.0/{group_id}/{site_id}/main
+# → WebAPI:  /api/v1/atlas/{group_id}/{site_id}
+# ============================================================
+remote_sites:
+  - name: "SiteA_Hospital"
+    group_id: 7
+    site_id: 203
+    source_name: null
+    output_dir: "./output/SiteA"
+    reuse_existing_cohorts: false
+
+  # - name: "SiteB_Hospital"
+  #   group_id: 7
+  #   site_id: 305
+  #   output_dir: "./output/SiteB"

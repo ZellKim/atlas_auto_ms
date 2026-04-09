@@ -1,0 +1,37 @@
+# credentials & config
+config.yaml
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 결과 파일 (대용량)
+results/
+
+# 레거시 스크립트 (하드코딩 credentials 포함)
+automation/
+
+# 대용량 참고 패키지
+tool_package/
+
+# 기존 R 패키지
+estimation_model/
+
+# 테스트 출력
+test_output/
+output/
