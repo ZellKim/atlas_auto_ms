@@ -183,8 +183,67 @@ result.zip/script/extras/result/cmOutput/
 
 ---
 
+## 7. 커스텀 R 패키지 (바이오마커 기술통계) — 진행중
+
+### 목적
+
+현재 biomarker estimation(CohortMethod)은 이진 이벤트 발생률만 비교.
+바이오마커의 **연속값 기술통계**(평균, SD, median, IQR)와 **수술 전후 변화량** 분석이 필요.
+
+### 접근 방식
+
+feedernet에서 실행하는 건 결국 R 패키지 zip → Docker 실행.
+ATLAS Estimation skeleton 구조를 유지하면서 `execute()` 안에서 measurement 테이블을 직접 쿼리하는 커스텀 패키지를 만들어 배포.
+
+```
+커스텀 R 패키지/
+├── DESCRIPTION
+├── NAMESPACE
+├── R/Main.R          # execute() — measurement 쿼리 + 기술통계
+├── inst/settings/    # 바이오마커 concept ID 목록
+├── extras/CodeToRun.R
+└── renv.lock
+```
+
+### feedernet 업로드 흐름 (확인 중)
+
+feedernet 포탈에서 analysis에 R 패키지를 연결하는 API 흐름:
+
+```
+1. POST /api/v1/projects/{pid}/analysis          → analysis 생성 (name)
+2. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas       → ATLAS 기관 목록
+3. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}  → estimation 목록 (확인 필요)
+4. (다음 단계) estimation 선택 → import → zip 생성 연결
+5. POST /api/v1/project/{pid}/analysis/{aid}/execution    → 실행 트리거
+```
+
+- Step 3~4는 feedernet 점검(2026-04-11 23:30) 이후 이어서 확인 예정
+- ATLAS에 커스텀 estimation을 import한 뒤 feedernet에서 가져오는 방식
+
+### 분석 설계 (테스트용)
+
+- **Target**: E01_Appendectomy (cohort 1072)
+- **시간 구간**: pre_365d, post_30d, post_90d, post_365d, post_1y+
+- **바이오마커 23종**: WBC, Neutrophil, Lymphocyte, Eosinophil, Monocyte, Basophil, CRP, ESR, RF, ANA, Glucose(DM/preDM), HbA1c, LDL, TG, HDL, GFR, Uric acid, ALT, GGT, ALP, Albumin, Hemoglobin
+- **출력**: 구간별 N, mean, SD, median, Q1, Q3, min, max (요약 통계만, 환자 개인정보 없음)
+
+### 참고: 기존 estimation 패키지 구조
+
+`estimation_model/E01_E04_clinical_ms_v6_nomatch/` 참조:
+- R 패키지 표준 구조 (DESCRIPTION, NAMESPACE, R/, inst/, extras/)
+- `R/Main.R`의 `execute()` 함수가 진입점
+- feedernet Docker가 `connectionDetails`, `cdmDatabaseSchema` 등을 주입
+- 출력은 `outputFolder`에 저장 → result.zip으로 반환
+
+---
+
 ## TODO
 
+- [ ] **커스텀 R 패키지 제작 (바이오마커 기술통계)**
+  - [ ] feedernet 업로드 API 흐름 Step 3~4 확인
+  - [ ] R 패키지 skeleton 작성 (measurement 쿼리 + 기술통계 요약)
+  - [ ] KHNMC(본원)에서 테스트 실행
+  - [ ] 성공 시 전체 기관 배포
 - [ ] `R/pooled_analysis.R`를 IPD pooled analysis로 재작성
   - [ ] result.zip에서 StudyPop/Ps/CmData 추출
   - [ ] 다기관 환자 데이터 합침 + site 변수
