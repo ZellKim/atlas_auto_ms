@@ -1,7 +1,7 @@
 # atlas-auto 프로젝트 진행 상황
 
 **repo**: https://github.com/ZellKim/atlas_auto_ms
-**최종 업데이트**: 2026-04-09
+**최종 업데이트**: 2026-04-11
 
 ---
 
@@ -41,7 +41,73 @@
 
 ---
 
-## 2. R 코드 (수정 필요)
+## 2. 현재 진행중인 Estimation 실행 (2026-04-11)
+
+### Analysis 10957: v7b_noStop (E01_E04_clinical_ms_v7b_maxCohort50k_noStop)
+
+**프로젝트 2908 / Analysis 10957**
+- 설정: maxCohortSize=50000, stopOnError=false
+- 최초 실행: 2026-04-07
+- 전체 기관 실행 트리거: 2026-04-11
+
+| 상태 | 수 | 기관 |
+|------|:--:|------|
+| COMPLETE | 6 | 아주대, 중앙대, 충남대, 대구동산(06), 순천향 서울, 창원경상국립대 |
+| RUNNING | 12 | 동탄성심, 대구가톨릭대, 대구동산(05), 이화의료원, 울산대, 건양대, 순천향 천안, 강원대, 강동경희대, 강동성심, 제천명지, 국제성모 |
+| WAITING | 7 | 원광대, 순천향 부천, 부산대, 경희의료원, 원자력병원, 경상국립대, 동산병원 |
+| FAILED | 4 | 명지, 순천향 구미, 부천 세종, 인천 세종 |
+
+### Analysis 10961: biomarker_v1 (B01_B23_biomarker_ms_v1)
+
+**프로젝트 2908 / Analysis 10961**
+- 설정: maxCohortSize=50000, stopOnError=false
+- 최초 실행 (본원만): 2026-04-08
+- 전체 기관 실행 트리거: 2026-04-11
+
+| 상태 | 수 | 기관 |
+|------|:--:|------|
+| COMPLETE | 1 | 강동경희대(본원, 9h 53m) |
+| 신규 트리거 | 28 | 나머지 전체 기관 |
+
+---
+
+## 3. Cloud 모니터링 (신규, 2026-04-11)
+
+### cloud_monitor/
+
+feedernet estimation 실행 상태를 자동 모니터링하여 Telegram으로 알림.
+
+| 파일 | 역할 |
+|------|------|
+| `cloud_monitor/main.py` | Cloud Function - 상태 체크 + Telegram 알림 |
+| `cloud_monitor/requirements.txt` | 의존성 (functions-framework, requests, google-cloud-storage) |
+| `cloud_monitor/DEPLOY.md` | GCP 배포 가이드 |
+
+**아키텍처:**
+```
+Cloud Scheduler (매 1시간, KST)
+    ↓ HTTP trigger
+Cloud Function (feedernet-monitor)
+    ↓
+    1. feedernet 로그인
+    2. Analysis 10957, 10961 상태 조회
+    3. 이전 상태와 비교 (GCS에 저장)
+    4. 완료 기관 증가 시 → Telegram 알림
+    5. 전체 완료 시 → "ALL COMPLETE" 알림
+    6. 변화 없으면 → 알림 안 함 (로그만)
+```
+
+**배포 정보:**
+- GCP Project: `investment-os-chain`
+- Region: `us-east1`
+- Function: `feedernet-monitor`
+- Scheduler: `feedernet-monitor-trigger` (매 정시)
+- 상태 저장: `gs://investment-os-regiem-state/monitor/feedernet_monitor_state.json`
+- 비용: $0/월 (무료 티어)
+
+---
+
+## 4. R 코드 (수정 필요)
 
 ### 현재 상태
 
@@ -82,29 +148,15 @@
 ```
 result.zip/script/extras/result/cmOutput/
 ├── CmData_l1_t1072_c1074.zip      # 환자별 공변량 (SQLite)
-├── CmData_l1_t1072_c1076.zip
-├── CmData_l1_t1072_c1121.zip
 ├── StudyPop_l1_t1072_c1074_*.rds   # 환자별 생존 데이터 (33개)
 ├── Ps_l1_t1072_c1074_*.rds         # 환자별 PS (36개)
 ├── StratPop_l1_t1072_c1074_*.rds   # PS 층화 데이터 (33개)
 └── om_*.rds                        # 결과 모델 (193개)
 ```
 
-| 파일 | 컬럼 | 용도 |
-|------|------|------|
-| StudyPop*.rds | subjectId, treatment, survivalTime, outcomeCount, timeAtRisk | 생존 데이터 풀링 |
-| Ps*.rds | subjectId, propensityScore, preferenceScore, treatment | 재매칭용 PS |
-| StratPop*.rds | StudyPop + stratumId | 이미 층화된 데이터 |
-| CmData*.zip | 전체 환자별 공변량 (SQLite) | PS 재추정 |
-
-### 기존 R 코드
-
-- 로컬에 IPD pooled analysis R 코드가 작성되어 있으나 구글드라이브에 동기화 안 됨
-- 찾아서 올리거나 새로 작성 필요
-
 ---
 
-## 3. 예제 & 문서 (완료, push됨)
+## 5. 예제 & 문서 (완료, push됨)
 
 | 파일 | 상태 |
 |------|:----:|
@@ -119,7 +171,7 @@ result.zip/script/extras/result/cmOutput/
 
 ---
 
-## 4. git에 포함되지 않는 것 (.gitignore)
+## 6. git에 포함되지 않는 것 (.gitignore)
 
 | 폴더 | 이유 |
 |------|------|
@@ -128,24 +180,6 @@ result.zip/script/extras/result/cmOutput/
 | `estimation_model/` | 기존 R 패키지 (E01_E04_clinical_ms_v6_nomatch) |
 | `tool_package/` | 참고용 Data2Evidence 패키지 |
 | `config.yaml` | feedernet 비밀번호 포함 |
-
----
-
-## 5. 다른 환경에서 사용법
-
-```bash
-# Python 패키지 설치
-pip install git+https://github.com/ZellKim/atlas_auto_ms.git
-
-# config.yaml 작성 (feedernet 인증 정보)
-# my_study.yaml 작성 (연구설계)
-
-# 실행
-atlas-auto protocol --study my_study.yaml --config config.yaml
-
-# R pooled analysis (TODO: IPD 방식으로 재작성 필요)
-Rscript R/run_pooled.R ./results
-```
 
 ---
 
@@ -160,3 +194,6 @@ Rscript R/run_pooled.R ./results
 - [ ] 로컬에 있는 기존 IPD pooled R 코드 찾아서 반영
 - [ ] `R/install_dependencies.R`에 survival, MatchIt 등 추가
 - [ ] README.md의 R 섹션을 IPD pooled analysis로 수정
+- [ ] v7b, biomarker 전체 기관 estimation 완료 후 결과 다운로드
+- [ ] FAILED 기관 원인 파악 (명지, 순천향 구미, 부천/인천 세종)
+- [ ] Cloud 모니터링 완료 후 스케줄러 정리

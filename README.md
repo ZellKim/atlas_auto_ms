@@ -53,6 +53,7 @@ from atlas_auto import FedernetClient, EstimationBuilder, StudyProtocol
 atlas_auto_ms/
 ├── pyproject.toml                      # pip install 지원
 ├── README.md
+├── PROGRESS.md                         # 프로젝트 진행 상황 & TODO
 ├── .gitignore
 ├── src/atlas_auto/                     # Python 패키지
 │   ├── __init__.py                     #   export: FedernetClient, EstimationBuilder,
@@ -69,6 +70,10 @@ atlas_auto_ms/
 │   ├── pooled_analysis.R               #   메타분석 + Evidence Explorer
 │   ├── run_pooled.R                    #   실행 스크립트
 │   └── install_dependencies.R          #   R 패키지 설치
+├── cloud_monitor/                      # GCP Cloud Function - 실행 모니터링
+│   ├── main.py                         #   상태 체크 + Telegram 알림
+│   ├── requirements.txt                #   의존성
+│   └── DEPLOY.md                       #   GCP 배포 가이드
 └── examples/
     ├── study_protocol_example.yaml     #   연구설계 프로토콜 템플릿 (핵심)
     ├── config_example.yaml             #   인증/DB 설정 템플릿
@@ -508,6 +513,33 @@ results/
 - PS distribution
 - Calibrated/uncalibrated 결과
 - Negative control diagnostics
+
+---
+
+## Cloud 모니터링 (Estimation 실행 추적)
+
+다기관 estimation 실행 상태를 GCP Cloud Function으로 자동 모니터링합니다.
+
+```
+Cloud Scheduler (매 1시간)
+    ↓ HTTP trigger
+Cloud Function (feedernet-monitor)
+    ↓ feedernet 로그인 → 상태 조회 → 이전 상태와 비교
+    ↓
+    완료 기관 증가 → Telegram 알림
+    전체 완료      → "ALL COMPLETE" 알림
+    변화 없음      → 알림 안 함
+```
+
+- 이전 상태는 GCS에 JSON으로 저장 (stateless function 간 상태 유지)
+- 배포 가이드: [cloud_monitor/DEPLOY.md](cloud_monitor/DEPLOY.md)
+- 비용: $0/월 (GCP 무료 티어)
+
+```bash
+# 스케줄러 일시정지/재개
+gcloud scheduler jobs pause feedernet-monitor-trigger --location=us-east1
+gcloud scheduler jobs resume feedernet-monitor-trigger --location=us-east1
+```
 
 ---
 
