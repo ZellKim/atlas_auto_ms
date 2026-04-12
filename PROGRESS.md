@@ -1,7 +1,7 @@
 # atlas-auto 프로젝트 진행 상황
 
 **repo**: https://github.com/ZellKim/atlas_auto_ms
-**최종 업데이트**: 2026-04-11
+**최종 업데이트**: 2026-04-12
 
 ---
 
@@ -205,20 +205,37 @@ ATLAS Estimation skeleton 구조를 유지하면서 `execute()` 안에서 measur
 └── renv.lock
 ```
 
-### feedernet 업로드 흐름 (확인 중)
+### feedernet 업로드 흐름 (API 확인 완료, 2026-04-12)
 
-feedernet 포탈에서 analysis에 R 패키지를 연결하는 API 흐름:
+feedernet 포탈에서 analysis에 ATLAS estimation을 연결하는 전체 API 흐름:
 
 ```
-1. POST /api/v1/projects/{pid}/analysis          → analysis 생성 (name)
-2. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas       → ATLAS 기관 목록
-3. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}  → estimation 목록 (확인 필요)
-4. (다음 단계) estimation 선택 → import → zip 생성 연결
-5. POST /api/v1/project/{pid}/analysis/{aid}/execution    → 실행 트리거
+1. POST /api/v1/projects/{pid}/analysis                        → analysis 생성 (name)
+2. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas             → ATLAS 기관 목록
+3. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}   → 해당 ATLAS의 estimation 목록
+4. POST /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}   → estimation import
+   body: {atlasResearchId: <id>, atlasResearchName: "<name>", researchType: "ESTIMATION"}
+   → feedernet이 ATLAS에서 estimationZip을 자동 생성/다운로드하여 research에 연결
+5. POST /api/v1/project/{pid}/analysis/{aid}/execution          → 실행 트리거
+   body: {researchName: "<name>", executionType: "ESTIMATION", cdmIds: [...]}
 ```
 
-- Step 3~4는 feedernet 점검(2026-04-11 23:30) 이후 이어서 확인 예정
-- ATLAS에 커스텀 estimation을 import한 뒤 feedernet에서 가져오는 방식
+### 커스텀 R 코드 실행의 제약 (2026-04-12 확인)
+
+**결론: API로는 커스텀 zip 업로드 불가**
+
+- feedernet은 ATLAS에서 zip을 자동 생성해서 가져오는 구조
+- API로 zip 파일 직접 업로드/교체하는 엔드포인트 없음 (415 Unsupported Media Type)
+- ATLAS WebAPI에서 estimation zip 다운로드도 500 에러 (feedernet 내부 전용)
+- researchType은 ESTIMATION, PREDICTION 2종만 지원
+
+### 가능한 우회 방안
+
+| 방안 | 설명 | 제약 |
+|------|------|------|
+| **A. 웹 포탈 수동 업로드** | feedernet UI에서 zip 직접 업로드 가능 여부 확인 필요 | 미확인 |
+| **B. FeatureExtraction covariate** | estimation spec에 `MeasurementValueLongTerm: true` 등 설정 → baseline characteristics에 바이오마커 mean/SD 포함 | **수술 전(baseline)만** 가능, 수술 후 시간 구간별 불가 |
+| **C. 에비드넷 문의** | 커스텀 R 패키지 배포 방법 공식 문의 | 시간 소요 |
 
 ### 분석 설계 (테스트용)
 
@@ -240,7 +257,10 @@ feedernet 포탈에서 analysis에 R 패키지를 연결하는 API 흐름:
 ## TODO
 
 - [ ] **커스텀 R 패키지 제작 (바이오마커 기술통계)**
-  - [ ] feedernet 업로드 API 흐름 Step 3~4 확인
+  - [x] feedernet 업로드 API 흐름 전체 확인 (Step 1~5)
+  - [x] 커스텀 zip 업로드 가능 여부 API 탐색 → 불가 확인
+  - [ ] feedernet 웹 포탈에서 zip 직접 업로드 가능 여부 확인
+  - [ ] 우회 방안 결정 (웹 업로드 / FeatureExtraction covariate / 에비드넷 문의)
   - [ ] R 패키지 skeleton 작성 (measurement 쿼리 + 기술통계 요약)
   - [ ] KHNMC(본원)에서 테스트 실행
   - [ ] 성공 시 전체 기관 배포
