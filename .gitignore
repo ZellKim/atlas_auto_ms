@@ -35,3 +35,12 @@ estimation_model/
 # 테스트 출력
 test_output/
 output/
+
+# 로컬에서 가져온 원본 (fromlocal/)
+fromlocal/
+
+# pooled analysis 데이터 (대용량)
+R/pooled_analysis/cmData*/
+R/pooled_analysis/matched_results*/
+R/pooled_analysis/export_combined/
+R/pooled_analysis/output/

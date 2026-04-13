@@ -107,41 +107,49 @@ Cloud Function (feedernet-monitor)
 
 ---
 
-## 4. R 코드 (수정 필요)
+## 4. IPD Pooled Analysis R 코드 (로컬에서 통합, 2026-04-13)
 
-### 현재 상태
+### 현재 상태: 로컬 코드 통합 완료
 
-| 파일 | 상태 | 문제 |
+기존 `R/pooled_analysis.R` (잘못된 meta-analysis)은 유지하되, 로컬 PC에서 가져온 **실제 IPD pooled analysis 파이프라인**을 `R/pooled_analysis/`에 통합.
+
+### R/pooled_analysis/ 파이프라인 (실행 순서)
+
+```
+00_config.R           → 사이트 경로, 코호트 ID, outcome/NC 정의
+    ↓
+01_pool_cmdata.R      → 다기관 CmData(SQLite) 합침 + rowId 재매핑 + site 변수
+    ↓
+02_run_pooled_analysis.R → PS 재추정(Cyclops) → IPTW/층화/매칭 → Cox regression
+    ↓
+03_meta_analysis.R    → 기관별 결과로 BayesianNonNormal/DL 메타분석
+    ↓
+04_calibrate_and_report.R → Empirical calibration + Forest plot + 요약 테이블
+```
+
+| 파일 | 상태 | 역할 |
 |------|:----:|------|
-| `R/pooled_analysis.R` | ❌ 잘못됨 | meta-analysis(DL/Bayesian)로 작성. IPD pooled가 아님 |
-| `R/run_pooled.R` | ❌ 잘못됨 | 위와 동일 |
-| `R/install_dependencies.R` | ⚠️ 부분 | survival, MatchIt 등 IPD용 패키지 누락 |
+| `00_config.R` | ✅ | 설정 (사이트, 코호트, outcome, NC) |
+| `01_pool_cmdata.R` | ✅ | CmData 풀링 + site covariate |
+| `02_run_pooled_analysis.R` | ✅ | PS→IPTW/층화/매칭→Cox (3가지 방법) |
+| `03_meta_analysis.R` | ✅ | Bayesian/DL 메타분석 |
+| `04_calibrate_and_report.R` | ✅ | Calibration + Forest plot |
+| `ipd_pooled_cyclops.R` | ✅ | 독립 실행 IPD pooled (1:2 매칭, Cyclops) |
+| `ipd_pooled_cyclops_v7.R` | ✅ | v7 데이터용 (경로만 다름) |
+| `ipd_pooled_matching.py` | ✅ | Python 버전 (scikit-learn + lifelines) |
+| `update_and_rerun.py` | ✅ | 완료 감시→다운로드→분석 자동화 |
 
-### 필요한 IPD Pooled Analysis 워크플로우
+### 의존 R 패키지 (18개)
 
-```
-1. 각 기관 result.zip에서 환자 개별 데이터 추출
-   - StudyPop*.rds (subjectId, treatment, survivalTime, outcomeCount)
-   - Ps*.rds (subjectId, propensityScore, preferenceScore)
-   - CmData*.zip (전체 공변량 SQLite) — PS 재추정 시 필요
+CohortMethod, Cyclops, Andromeda, survival, FeatureExtraction,
+EmpiricalCalibration, EvidenceSynthesis, meta, dplyr, ggplot2,
+ParallelLogger, readr, SqlRender, DBI, RSQLite
 
-2. 전체 기관 데이터 합침
-   - rbind로 환자 데이터 통합
-   - site 변수 추가 (기관 식별)
+### 주의: 하드코딩 경로 수정 필요
 
-3. PS 재추정 & 재매칭
-   - site 포함하여 PS 재추정
-   - 기관별로 재매칭 (1:1 또는 1:N)
-
-4. Cox regression
-   - site-stratified Cox regression (strata = site)
-   - 또는 site를 공변량으로 포함
-
-5. 결과 산출
-   - Hazard ratio + 95% CI
-   - Kaplan-Meier 곡선
-   - Forest plot (기관별 + pooled)
-```
+- `00_config.R`: `resultFolders$AUMC` 등 → 실제 result 경로로 수정
+- `ipd_pooled_cyclops*.R`: `BASE_DIR` → 실제 pooled_analysis 경로
+- `collect_pooled_data.py`: Windows 절대 경로 → 상대 경로로 수정
 
 ### result.zip 내 환자수준 데이터 구조 (확인됨)
 
@@ -177,9 +185,12 @@ result.zip/script/extras/result/cmOutput/
 |------|------|
 | `automation/` | 레거시 스크립트, 하드코딩된 credentials (비밀번호 평문) |
 | `results/` | 대용량 result.zip (수백 MB) |
-| `estimation_model/` | 기존 R 패키지 (E01_E04_clinical_ms_v6_nomatch) |
+| `estimation_model/` | R 패키지 + estimation export JSON/zip |
 | `tool_package/` | 참고용 Data2Evidence 패키지 |
+| `fromlocal/` | 로컬 PC에서 가져온 원본 파일 |
 | `config.yaml` | feedernet 비밀번호 포함 |
+| `R/pooled_analysis/cmData*/` | 대용량 CmData SQLite |
+| `R/pooled_analysis/matched_results*/` | 매칭 결과 |
 
 ---
 
@@ -270,8 +281,8 @@ feedernet 포탈에서 analysis에 ATLAS estimation을 연결하는 전체 API �
   - [ ] PS 재추정 & 재매칭
   - [ ] Site-stratified Cox regression
   - [ ] Kaplan-Meier + Forest plot
-- [ ] 로컬에 있는 기존 IPD pooled R 코드 찾아서 반영
-- [ ] `R/install_dependencies.R`에 survival, MatchIt 등 추가
+- [x] 로컬에 있는 기존 IPD pooled R 코드 찾아서 반영 (fromlocal → R/pooled_analysis/)
+- [ ] `R/install_dependencies.R`에 Cyclops, Andromeda, DBI, RSQLite 등 추가
 - [ ] README.md의 R 섹션을 IPD pooled analysis로 수정
 - [ ] v7b, biomarker 전체 기관 estimation 완료 후 결과 다운로드
 - [ ] FAILED 기관 원인 파악 (명지, 순천향 구미, 부천/인천 세종)
