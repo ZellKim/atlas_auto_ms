@@ -13,9 +13,9 @@ library(Andromeda)
 library(survival)
 
 # --- 설정 ---
-BASE_DIR <- "c:/Users/adam/Desktop/새 폴더 (7)/pooled_analysis"
-CMDATA_DIR <- file.path(BASE_DIR, "cmData_v7")
-OUTPUT_DIR <- file.path(BASE_DIR, "matched_results_cyclops_v7")
+BASE_DIR <- "C:/Users/data1/Desktop/atlas_auto_cmdata"
+CMDATA_DIR <- file.path(BASE_DIR, "cmData")
+OUTPUT_DIR <- file.path(BASE_DIR, "matched_results_cyclops")
 dir.create(OUTPUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 SITES <- sort(list.dirs(CMDATA_DIR, recursive = FALSE, full.names = FALSE))

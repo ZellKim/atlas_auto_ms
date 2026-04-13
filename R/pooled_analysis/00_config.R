@@ -20,12 +20,14 @@ library(readr)
 # 각 기관의 result 폴더 경로를 지정하세요
 # 구조: result/cmOutput/CmData_l1_t1072_c1074.zip + result/export/*.csv
 
+# cmData 로컬 경로 (구글 드라이브가 아닌 로컬 디스크에 저장)
+cmDataBaseDir <- "C:/Users/data1/Desktop/atlas_auto_cmdata"
+
 resultFolders <- list(
-  AUMC  = "c:/Users/adam/Desktop/새 폴더 (7)/AUMC/script/extras/result"
-  # GNUCH = "/path/to/GNUCH/result",
-  # CAUHS = "/path/to/CAUHS/result",
-  # JCMJ  = "/path/to/JCMJ/result",
-  # KWMC  = "/path/to/KWMC/result"
+  AUMC  = "C:/Users/data1/Desktop/atlas_auto_cmdata/results/AUMC/script/extras/result"
+  # GNUCH = ".../GNUCH/script/extras/result",
+  # CAUHS = ".../CAUHS/script/extras/result",
+  # 사이트 추가 시 result.zip 해제 경로 지정
 )
 
 siteNames <- names(resultFolders)
@@ -83,7 +85,7 @@ priorOutcomeLookback <- 99999
 cmDataFileName <- "CmData_l1_t1072_c1074.zip"
 
 # -- 출력 폴더 ----------------------------------------------------------------
-outputFolder <- "c:/Users/adam/Desktop/새 폴더 (7)/pooled_analysis/output"
+outputFolder <- "C:/Users/data1/Desktop/atlas_auto_cmdata/output"
 if (!dir.exists(outputFolder)) dir.create(outputFolder, recursive = TRUE)
 
 # -- 병렬 처리 ----------------------------------------------------------------
