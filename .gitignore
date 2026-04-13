@@ -39,6 +39,9 @@ output/
 # 로컬에서 가져온 원본 (fromlocal/)
 fromlocal/
 
+# OHDSI repos JSON (API 데이터, MD 레퍼런스만 커밋)
+ohdsi_repos.json
+
 # pooled analysis 데이터 (대용량)
 R/pooled_analysis/cmData*/
 R/pooled_analysis/matched_results*/
