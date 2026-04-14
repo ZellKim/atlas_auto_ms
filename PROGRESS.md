@@ -265,25 +265,42 @@ feedernet 포탈에서 analysis에 ATLAS estimation을 연결하는 전체 API �
 
 ---
 
+## 8. IPD Pooled Analysis 실행 결과 (2026-04-13)
+
+16개 기관 pooled. Cyclops PS + 1:2 매칭 + site-stratified Cox.
+결과 CSV: `C:\Users\data1\Desktop\atlas_auto_cmdata\pooled_results_v7b\`, `pooled_results_biomarker\`
+
+**v7b 핵심 발견**: T2DM 3개 비교 모두 감소 (HR 0.47~0.75), Crohn's 증가 (HR 3.25), Parkinson's 감소 (HR 0.37~0.53)
+**Biomarker 핵심**: WBC/Neutrophil/Lymphocyte ↓, Eosinophil/Monocyte/Basophil ↑ (면역 shift)
+
+### 환경 (이 PC)
+
+- R 4.5.2 + Rtools 4.5, Java JDK 21 (`C:\Users\data1\java\jdk-21.0.10+7`)
+- OHDSI: CohortMethod 4.2.2, Andromeda 0.6.0, FeatureExtraction 3.2.0
+- duckdb 제거 필요 (RSQLite dispatch 충돌)
+- CmData 로컬: `C:\Users\data1\Desktop\atlas_auto_cmdata\`
+
+---
+
+## 9. Characterization (바이오마커 기술통계) — 진행중
+
+ATLAS Characterization으로 수술 전/후 바이오마커 mean/SD 비교.
+- Design ID: 113, 코호트: 1072(baseline), 1255(+30d), 1256(+90d), 1257(+365d)
+- KHNMC 실행 중 (gen_id=3242)
+- **Achilles drilldown**으로 CDM 전체 분포(min, Q1, median, Q3, max) 조회 가능 확인됨
+
+---
+
 ## TODO
 
-- [ ] **커스텀 R 패키지 제작 (바이오마커 기술통계)**
-  - [x] feedernet 업로드 API 흐름 전체 확인 (Step 1~5)
-  - [x] 커스텀 zip 업로드 가능 여부 API 탐색 → 불가 확인
-  - [ ] feedernet 웹 포탈에서 zip 직접 업로드 가능 여부 확인
-  - [ ] 우회 방안 결정 (웹 업로드 / FeatureExtraction covariate / 에비드넷 문의)
-  - [ ] R 패키지 skeleton 작성 (measurement 쿼리 + 기술통계 요약)
-  - [ ] KHNMC(본원)에서 테스트 실행
-  - [ ] 성공 시 전체 기관 배포
-- [ ] `R/pooled_analysis.R`를 IPD pooled analysis로 재작성
-  - [ ] result.zip에서 StudyPop/Ps/CmData 추출
-  - [ ] 다기관 환자 데이터 합침 + site 변수
-  - [ ] PS 재추정 & 재매칭
-  - [ ] Site-stratified Cox regression
-  - [ ] Kaplan-Meier + Forest plot
-- [x] 로컬에 있는 기존 IPD pooled R 코드 찾아서 반영 (fromlocal → R/pooled_analysis/)
-- [ ] `R/install_dependencies.R`에 Cyclops, Andromeda, DBI, RSQLite 등 추가
-- [ ] README.md의 R 섹션을 IPD pooled analysis로 수정
-- [ ] v7b, biomarker 전체 기관 estimation 완료 후 결과 다운로드
-- [ ] FAILED 기관 원인 파악 (명지, 순천향 구미, 부천/인천 세종)
-- [ ] Cloud 모니터링 완료 후 스케줄러 정리
+- [ ] **바이오마커 기술통계**
+  - [x] ATLAS Characterization 설계 (shifted 코호트 + Measurement Value preset)
+  - [ ] KHNMC Characterization 결과 확인
+  - [ ] Achilles drilldown으로 코호트별 분포 (min, Q1, median, Q3, max)
+  - [ ] 다기관 확장
+- [ ] v7b/biomarker RUNNING 기관 완료 후 추가 다운로드 + 재분석
+- [ ] FAILED 기관 원인 파악 (건양대, 명지, 부천/인천 세종)
+- [ ] fromlocal 폴더 삭제 (동기화 안정화 후)
+- [ ] `R/install_dependencies.R` 업데이트
+- [ ] README.md R 섹션 수정
+- [ ] Cloud 모니터링 완료 후 스케줄러 ��리
