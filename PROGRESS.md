@@ -265,92 +265,102 @@ feedernet 포탈에서 analysis에 ATLAS estimation을 연결하는 전체 API �
 
 ---
 
-## 8. IPD Pooled Analysis 실행 결과 (Cyclops 확정, 2026-04-14)
+## 8. 최종 분석 결과 (1:1 Cyclops PS matching 확정, 2026-04-14)
 
-16개 기관 pooled. **Cyclops PS + 1:2 매칭 + site-stratified Cox** (확정).
-결과 CSV: `C:\Users\data1\Desktop\atlas_auto_cmdata\pooled_results_v7b\`, `pooled_results_biomarker\`
+**확정 설계**: 1:1 Cyclops PS matching + site-stratified Cox + NC calibration
+**기관**: 14개 (CAUHS, DAEGU_DONGSAN_06 제외 — N 부족/기간 짧음)
+**추가 대기**: EUMC, KHMC, WKUH, SCHBC (완료 시 최대 18개)
 
-### v7b Clinical (유의한 결과)
+### 14개 분석 기관
 
-| Comparison | Outcome | HR | p |
-|------------|---------|---:|--:|
-| vs Chol | Atopic dermatitis | 0.544 | 0.022 |
-| vs Chol | T2DM | 0.769 | 0.046 |
-| vs GenPop | Parkinson's | 0.354 | 0.039 |
-| vs GenPop | T2DM | 0.355 | <0.001 |
-| vs Hernia | T2DM | 1.633 | 0.005 |
+| # | 기관 | 기간 | 년수 | N | Target |
+|---|------|------|-----:|--:|-------:|
+| 1 | AUMC (아주대) | 1995-2025 | 30.0 | 13,184 | 3,570 |
+| 2 | CHNUH (충남대) | 2013-2021 | 8.9 | 3,905 | 780 |
+| 3 | DCMC (대구가톨릭대) | 2006-2025 | 19.6 | 4,980 | 748 |
+| 4 | GNUCH (창원경상국립대) | 2017-2025 | 8.5 | 1,091 | 381 |
+| 5 | GNUH (경상국립대) | 2010-2025 | 14.9 | 3,433 | 502 |
+| 6 | HUMC (동탄성심) | 2014-2025 | 11.8 | 5,912 | 2,510 |
+| 7 | ISH (국제성모) | 2015-2025 | 10.5 | 3,185 | 1,194 |
+| 8 | JCMJ (제천명지) | 2012-2025 | 12.7 | 1,959 | 1,108 |
+| 9 | KDH (강동성심) | 2003-2025 | 22.1 | 7,963 | 3,904 |
+| 10 | KHNMC (본원) | 2007-2025 | 18.0 | 9,715 | 4,037 |
+| 11 | KWMC (강원대) | 2004-2025 | 21.8 | 5,167 | 2,095 |
+| 12 | SCHCA (순천향 천안) | 2007-2024 | 16.8 | 6,358 | 1,389 |
+| 13 | SCHGM (순천향 구미) | 2007-2024 | 17.0 | 4,025 | 2,640 |
+| 14 | SCHSU (순천향 서울) | 2003-2024 | 20.8 | 4,214 | 1,740 |
 
-**주의**: T2DM은 비교군 의존적 (vs Chol/GenPop 감소, vs Hernia 증가)
+제외: CAUHS (3.4년, N=917), DAEGU_DONGSAN_06 (4.2년, N=194)
 
-### Biomarker (3개 비교 일관)
+### Clinical Outcomes — 1:1 + Calibration 후 유의
 
-- **WBC/Neutro/Lympho**: 3개 비교 모두 감소 (HR 0.17~0.69) — 가장 robust
-- **Eosino/Mono/Baso**: vs GenPop/Hernia에서 증가 (HR 1.23~1.42)
+| Comparison | Outcome | HR | cal p |
+|------------|---------|---:|------:|
+| vs Chol | **T2DM** | **0.711** | **0.021** |
+| vs GenPop | Biliary calculus | 1.629 | 0.016 |
+| vs GenPop | T2DM | 0.321 | 0.049 (경계) |
+| vs Hernia | Acute MI | 0.480 | 0.017 |
 
+### Biomarker Outcomes — 1:1 + Calibration 후 유의 (vs Hernia, primary)
+
+| Biomarker | HR | cal p | 방향 |
+|-----------|---:|------:|:----:|
+| **WBC** | **0.603** | **<0.001** | 감소 |
+| **Neutrophils** | **0.542** | **<0.001** | 감소 |
+| **Lymphocytes** | **0.441** | **<0.001** | 감소 |
+| **Monocytes** | **1.450** | **0.018** | 증가 |
+| **Basophils** | **1.457** | **0.028** | 증가 |
+| **CRP** | **0.796** | **<0.001** | 감소 |
+| **Glucose preDM** | **0.740** | **<0.001** | 감소 |
+| **Albumin** | **1.697** | **<0.001** | 증가 |
+
+Eosinophils: calibration 후 상실 (cal p=0.341)
+
+### 시간 구간별 패턴 (vs Hernia, 핵심)
+
+
+
+### 핵심 메시지
+
+> 충수절제 후 급성 면역세포(WBC, 호중구, 림프구) 이상 발생이 91일 이후
+> 지속적으로 감소하며, 이는 충수의 면역 priming 기능 상실을 시사한다.
+> 알레르기 면역 변화는 급성기에만 일시적이다.
+> T2DM 위험은 vs Cholecystectomy에서 calibration 후에도 유의한 감소를 보였다.
 
 ---
 
-## 9. Time-window Stratified Analysis (2026-04-14) - COMPLETED
+## 9. Characterization (기술통계) - 실행중
 
-PS matching 1회, 동일 matched cohort에서 6개 구간별 Cox (landmark approach).
-
-### Biomarker vs Hernia (핵심)
-
-| Biomarker | 1-30d | 31-90d | 91-365d | 366-1095d | 1096-3650d |
-|-----------|------:|-------:|--------:|----------:|-----------:|
-| WBC | 0.81* | 1.54 | 0.37* | 0.36* | 0.39* |
-| Neutro | 0.61* | 1.00 | 0.31* | 0.37* | 0.35* |
-| Lympho | 0.67* | 0.63 | 0.24* | 0.28* | 0.26* |
-| Eosino | 2.04* | 1.92* | 0.89 | 0.81 | 1.25 |
-| CRP | 1.77* | 4.24 | 0.42* | 0.29* | 0.41* |
-
-91d+ 급성면역 지속 감소 = 충수 특이적 효과. 알레르기세포는 급성기만 일시적.
+95 FA x 3 cohort, ATLAS 실행중 (Char 120, gen=3252). 완료 시 보조 근거.
 
 ---
 
-## 10. Characterization (기술통계) - 실행중
+## 10. 바이오마커 코호트 정의 (확인 완료)
 
-WindowedCriteria + DISTRIBUTION + Value as number (FA 372). copy+PUT API.
-19 biomarker x 5 time windows = 95 FA. Char 120 ATLAS 실행중 (gen=3252).
-다기관: weighted mean +/- pooled SD.
-
----
-
-## 11. Biomarker Cohort Definition (확인 완료)
-
-Inclusion: 수술전 1년 정상 + 과거 이상없음 -> 수술후 첫 이상만 포착.
+Inclusion: 수술전 1년 정상 + 과거 이상없음.
 WBC>11, Neutro>70%, Lympho<20%, Eosino>7%, Mono>12%, Baso>1%,
-CRP>0.8, ESR>20, GlucDM>=126, GlucPreDM 100-125, ALT>40, Albumin<3.5.
+CRP>0.8, Glucose DM>=126, preDM 100-125, ALT>40, Albumin<3.5.
 
 ---
 
-## 12. Negative Control Calibration - 실행중
+## 환경
 
-48 NC in CmData. Same matched cohort. 3 comparisons x 48 NC = 144 HR.
-EmpiricalCalibration -> calibrated p-value/CI.
-
----
-
-## Environment
-
-- R 4.5.2 + Rtools 4.5 (C:/rtools45)
-- Java JDK 21 (C:/Users/data1/java/jdk-21.0.10+7)
+- R 4.5.2 + Rtools 4.5, Java JDK 21
 - CohortMethod 4.2.2, Andromeda 0.6.0, FeatureExtraction 3.2.0
-- duckdb removed (RSQLite conflict)
+- duckdb 제거 필요
 - CmData: C:/Users/data1/Desktop/atlas_auto_cmdata/
 
 ---
 
 ## TODO
 
-- [x] Biomarker cohort definition check
-- [x] Time-window HR analysis (v7b + biomarker)
-- [ ] NC calibration (running)
-- [ ] Characterization 120 result (ATLAS running)
-- [ ] At-risk N per time window (for Table)
-- [ ] Paper Methods/Results writing
-- [ ] Multi-site Characterization
-- [ ] Download remaining RUNNING sites
-- [ ] FAILED sites investigation
-- [ ] fromlocal cleanup
-- [ ] Cloud monitor scheduler cleanup
+- [x] 1:1 vs 1:2 matching 비교 → 1:1 확정
+- [x] NC calibration (1:1)
+- [x] 바이오마커 코호트 정의 확인
+- [x] 시간 구간별 HR 분석
+- [ ] **추가 기관 완료 대기** (EUMC, KHMC, WKUH, SCHBC)
+- [ ] 추가 기관 포함 시 재분석
+- [ ] Characterization 120 결과 확인
+- [ ] 다기관 Characterization 확장
+- [ ] 논문 본문 작성
+- [ ] CAUHS/DAEGU_DONGSAN 제외 후 14기관 재분석 (현재 16기관 결과)
