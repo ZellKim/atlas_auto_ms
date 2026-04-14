@@ -215,41 +215,35 @@ POST /cohort-characterization/import (body: export JSON)
 import re
 
 def get_latest_static_source(sources):
-    """최신 static source 선택."""
-    # 제외: 정확히 cdmpv53m, cdmpv53w, cdm, cdm_sample + sourceName에 monthly/weekly
-    exclude_keys = {'cdmpv53m', 'cdmpv53w', 'cdm', 'cdm_sample'}
-    
-    tier1 = []  # cdmpv53_YYYYMMDD (순수 static, 최우선)
-    tier2 = []  # 나머지 (과거 스냅샷, 버전번호만 등)
-    
+    """최신 static source 선택.
+    sourceName 패턴: {기관코드}_{CDM버전}_{번호} (예: GNUCH_5.3.1_06)
+    마지막 _숫자가 가장 큰 것이 최신 static DB.
+    monthly/weekly는 제외.
+    """
+    static = []
     for s in sources:
-        sk = s['sourceKey']
         sn = s['sourceName']
-        if sk in exclude_keys or 'monthly' in sn.lower() or 'weekly' in sn.lower():
+        # monthly/weekly 제외
+        if 'monthly' in sn.lower() or 'weekly' in sn.lower():
             continue
-        if re.match(r'^cdmpv53_\d{6}$', sk):
-            tier1.append(s)
-        else:
-            tier2.append(s)
+        # 마지막 _숫자 추출
+        m = re.search(r'_(\d+)$', sn)
+        if m:
+            static.append((int(m.group(1)), s))
     
-    if tier1:
-        return sorted(tier1, key=lambda s: s['sourceKey'])[-1]
-    elif tier2:
-        return sorted(tier2, key=lambda s: s['sourceKey'])[-1]
+    if static:
+        # 번호가 가장 큰 것 = 최신
+        return sorted(static, key=lambda x: x[0])[-1][1]
     else:
-        # fallback: estimation과 같은 source (_251128)
-        for s in sources:
-            if '_251128' in s['sourceKey']:
-                return s
+        # static이 없으면 전체에서 마지막
         return sources[-1] if sources else None
 ```
 
-**패턴 정리**:
-- `cdmpv53_YYYYMMDD` → static (Tier 1, 최우선)
-- `cdmpv53m_YYYYMMDD` → 과거 monthly 스냅샷 (Tier 2)
-- `cdmpv53m` (뒤에 없음) → **현재 monthly → 제외**
-- `cdmpv53w` → **현재 weekly → 제외**
-- `cdm`, `cdm_sample` → 제외
+**sourceName 패턴**:
+- `GNUCH_5.3.1_06` → `_06` = static 6번째 (최신)
+- `GNUCH_5.3.1_monthly` → 제외
+- `GNUCH_5.3.1_weekly` → 제외
+- 마지막 `_숫자`가 클수록 최신
 
 ### 5.3 Characterization 다기관 배포 검증 결과 (2026-04-14)
 
