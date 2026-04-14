@@ -212,12 +212,44 @@ POST /cohort-characterization/import (body: export JSON)
 - sourceKey에서 `m`이나 `monthly/weekly` 포함 여부로 필터
 
 ```python
-# 최신 static source 선택
-sources = client.get_sources()
-static = [s for s in sources 
-          if not any(k in s['sourceKey'] for k in ['monthly', 'weekly', 'cdmpv53m'])]
-latest = sorted(static, key=lambda s: s['sourceKey'])[-1]
+import re
+
+def get_latest_static_source(sources):
+    """최신 static source 선택."""
+    # 제외: 정확히 cdmpv53m, cdmpv53w, cdm, cdm_sample + sourceName에 monthly/weekly
+    exclude_keys = {'cdmpv53m', 'cdmpv53w', 'cdm', 'cdm_sample'}
+    
+    tier1 = []  # cdmpv53_YYYYMMDD (순수 static, 최우선)
+    tier2 = []  # 나머지 (과거 스냅샷, 버전번호만 등)
+    
+    for s in sources:
+        sk = s['sourceKey']
+        sn = s['sourceName']
+        if sk in exclude_keys or 'monthly' in sn.lower() or 'weekly' in sn.lower():
+            continue
+        if re.match(r'^cdmpv53_\d{6}$', sk):
+            tier1.append(s)
+        else:
+            tier2.append(s)
+    
+    if tier1:
+        return sorted(tier1, key=lambda s: s['sourceKey'])[-1]
+    elif tier2:
+        return sorted(tier2, key=lambda s: s['sourceKey'])[-1]
+    else:
+        # fallback: estimation과 같은 source (_251128)
+        for s in sources:
+            if '_251128' in s['sourceKey']:
+                return s
+        return sources[-1] if sources else None
 ```
+
+**패턴 정리**:
+- `cdmpv53_YYYYMMDD` → static (Tier 1, 최우선)
+- `cdmpv53m_YYYYMMDD` → 과거 monthly 스냅샷 (Tier 2)
+- `cdmpv53m` (뒤에 없음) → **현재 monthly → 제외**
+- `cdmpv53w` → **현재 weekly → 제외**
+- `cdm`, `cdm_sample` → 제외
 
 ### 5.3 Characterization 다기관 배포 검증 결과 (2026-04-14)
 
