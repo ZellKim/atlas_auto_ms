@@ -186,7 +186,40 @@ GET /cdmresults/{sourceKey}/measurement/{conceptId}
 **핵심**: CmData 생성 시 사용한 패키지 버전과 분석 시 사용하는 버전을 **일치**시켜야 함.
 - `estimation_model/renv.lock`에서 버전 확인 가능
 
-### 5.2 feedernet API 제약
+### 5.2 Characterization 다기관 배포 방법 (2026-04-14 발견)
+
+**핵심: export → import 방식으로 다기관 자동화 가능**
+
+```python
+# KHNMC에서 export
+GET /cohort-characterization/{id}/export → 전체 JSON (코호트+FA 포함)
+
+# 다른 기관에 import
+POST /cohort-characterization/import (body: export JSON)
+→ 코호트 + FA 자동 생성
+```
+
+**FA 개별 생성 시 제약 (참고)**:
+- PRESET copy: 모든 기관에서 500 (IllegalArgumentException)
+- POST로 FA 생성: design이 빈 배열로 저장됨
+- PUT으로 design 채우기: 한번에 하면 500, **2단계로 나누면 성공** (1차: 시간, 2차: concept)
+- WindowedCriteria FA: **UI에서만 최초 생성 가능**, 이후 copy+PUT으로 복제
+- **가장 간단한 방법**: UI에서 빈 WindowedCriteria FA 1개 생성 → copy+2단계 PUT
+
+**source 선택 규칙**:
+- 기본: static DB 중 최신 (예: `cdmpv53_251128`)
+- 제외: `_monthly`, `_weekly` (주기변환 DB)
+- sourceKey에서 `m`이나 `monthly/weekly` 포함 여부로 필터
+
+```python
+# 최신 static source 선택
+sources = client.get_sources()
+static = [s for s in sources 
+          if not any(k in s['sourceKey'] for k in ['monthly', 'weekly', 'cdmpv53m'])]
+latest = sorted(static, key=lambda s: s['sourceKey'])[-1]
+```
+
+### 5.3 feedernet API 제약
 
 | 제약 | 상세 |
 |------|------|
