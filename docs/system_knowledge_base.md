@@ -219,7 +219,62 @@ static = [s for s in sources
 latest = sorted(static, key=lambda s: s['sourceKey'])[-1]
 ```
 
-### 5.3 feedernet API 제약
+### 5.3 Characterization 다기관 배포 검증 결과 (2026-04-14)
+
+**검증 완료**: KHNMC → GNUCH export/import 성공, 6분 만에 결과 산출.
+
+```
+KHNMC (Char 121) export
+    ↓ JSON (코호트+FA 31개 포함)
+GNUCH import → Char 39 생성
+    ↓ 코호트 Generate + 실행
+    ↓ 6분 완료 (KHNMC 5시간+ vs GNUCH 6분 — N 차이)
+결과: CRP, Neutrophils 시점별 mean/median/Q1/Q3 정상 산출
+```
+
+**GNUCH CRP 수술 전후 변화 (검증 데이터)**:
+
+| 시점 | N | Median | Q1 | Q3 |
+|------|--:|-------:|---:|---:|
+| Pre 365d | 138 | 3.9 | 1.1 | 24.7 |
+| Post 1-30d | 211 | **50.2** | 14.2 | 117.1 |
+| Post 31-90d | 38 | 6.6 | 1.4 | 40.2 |
+| Post 91-365d | 64 | **2.0** | 0.6 | 11.4 |
+| Post 1y-3y | 69 | **2.1** | 0.7 | 8.5 |
+
+→ 수술 직후 급등 → 91일 이후 수술 전보다 낮아짐 → HR 시간구간 분석과 일치
+
+**다기관 배포 절차 (확정)**:
+
+```python
+# 1. KHNMC에서 Characterization export
+GET /cohort-characterization/{id}/export → char_json
+
+# 2. 각 기관에서 import
+POST /cohort-characterization/import (body: char_json)
+
+# 3. 최신 static source 선택
+sources = client.get_sources()
+static = [s for s in sources 
+          if 'monthly' not in s['sourceKey'] and 'weekly' not in s['sourceKey']
+          and not s['sourceKey'].endswith('m')]
+sk = sorted(static, key=lambda s: s['sourceKey'])[-1]['sourceKey']
+
+# 4. 코호트 Generate
+client.generate_cohort(cohort_id, sk)
+client.wait_for_cohort_generation(cohort_id, sk)
+
+# 5. Characterization 실행
+POST /cohort-characterization/{new_id}/generation/{sk}
+```
+
+**주의사항**:
+- source 선택: 항상 최신 static DB (`_YYYYMMDD` 형식 중 최신)
+- monthly/weekly DB 제외 (특별한 이유 없는 한)
+- 기관별 소요시간: N에 비례 (GNUCH 1K=6분, KHNMC 10K=5시간+)
+- group_id ≠ orgId: 기관별 ATLAS URL에서 직접 확인 필요
+
+### 5.4 feedernet API 제약
 
 | 제약 | 상세 |
 |------|------|
