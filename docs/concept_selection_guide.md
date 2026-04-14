@@ -263,7 +263,60 @@ Claude:
 
 ---
 
-## 7. 주의사항
+## 7. 참조 데이터 경로
+
+### 7.1 Concept Frequency DB
+
+| 소스 | 경로 | 내용 | 기관 수 |
+|------|------|------|--------:|
+| ATLAS Achilles | `C:\Users\data1\Desktop\atlas_auto_cmdata\concept_frequency\{기관}_{domain}.csv` | OMOP concept별 numPersons, percentPersons | 20 |
+| ATLAS Distribution | `C:\Users\data1\Desktop\atlas_auto_cmdata\concept_frequency\KHNMC_measurement_distribution.csv` | min, Q1, median, Q3, max | 1 (KHNMC) |
+| KCD 매핑 | `C:\Users\data1\Desktop\atlas_auto_cmdata\concept_frequency\{기관}_kcd_{domain}.csv` | KCD→concept 매핑 + frequency | 10 |
+
+### 7.2 KCDtoConcept_id 참조
+
+경로: `g:\내 드라이브\KHNMC\atlas_auto_with_claude\KCDtoConcept_id\KCDtoConcept_id\`
+
+| 파일 | 내용 | 활용 |
+|------|------|------|
+| `all_kcd_map.csv` | **279,507행**. 기관별 KCD→OMOP concept 매핑 + frequency | KCD 코드로 concept 검색 |
+| `all_KCD.csv` | KCD 코드 목록 (A00~Y99) | KCD 코드 참조 |
+| `kcd_code_list.csv` | 진단 KCD 코드 (I60, I61 등) | 특정 질환군 KCD |
+| `kcd_code_list_procedure.csv` | 시술 KCD 코드 (HA401 등) | 시술 KCD |
+| `hospital_list.csv` | 기관별 MapBase 스키마 매핑 | DB 스키마 참조 |
+| `kcd_to_concept.R` | MapBase DB 쿼리 스크립트 | 새 KCD 매핑 시 참조 (credentials 별도 관리) |
+
+**주의**: `kcd_to_concept.R`에 DB credentials 포함 — git에 커밋하지 말 것
+
+### 7.3 활용 예시
+
+**예: "고혈압(I10) 환자가 아주대에 몇 명?"**
+
+```python
+# all_kcd_map.csv에서 검색
+import csv
+with open('all_kcd_map.csv') as f:
+    for row in csv.DictReader(f):
+        if row['hospital'] == '아주대' and row['common_cd'].startswith('I10'):
+            print(f"{row['common_cd']}: concept={row['concept_id']} ({row['concept_name']}), freq={row['frequency']}")
+```
+
+**예: "CRP concept이 16개 분석 기관 전부에 있는가?"**
+
+```python
+# concept_frequency/에서 기관별 measurement.csv 검색
+import os, csv
+for f in os.listdir('concept_frequency'):
+    if f.endswith('_measurement.csv'):
+        with open(f) as fh:
+            for row in csv.DictReader(fh):
+                if row['conceptId'] == '3020460':  # CRP
+                    print(f"{f}: N={row['numPersons']}")
+```
+
+---
+
+## 8. 주의사항
 
 1. **Standard concept만 사용**: Non-standard concept은 기관마다 매핑이 다를 수 있음
 2. **includeDescendants 신중히**: 너무 넓으면 의도치 않은 concept 포함
