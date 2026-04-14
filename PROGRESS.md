@@ -1,7 +1,7 @@
 # atlas-auto 프로젝트 진행 상황
 
 **repo**: https://github.com/ZellKim/atlas_auto_ms
-**최종 업데이트**: 2026-04-12
+**최종 업데이트**: 2026-04-14
 
 ---
 
@@ -265,42 +265,92 @@ feedernet 포탈에서 analysis에 ATLAS estimation을 연결하는 전체 API �
 
 ---
 
-## 8. IPD Pooled Analysis 실행 결과 (2026-04-13)
+## 8. IPD Pooled Analysis 실행 결과 (Cyclops 확정, 2026-04-14)
 
-16개 기관 pooled. Cyclops PS + 1:2 매칭 + site-stratified Cox.
+16개 기관 pooled. **Cyclops PS + 1:2 매칭 + site-stratified Cox** (확정).
 결과 CSV: `C:\Users\data1\Desktop\atlas_auto_cmdata\pooled_results_v7b\`, `pooled_results_biomarker\`
 
-**v7b 핵심 발견**: T2DM 3개 비교 모두 감소 (HR 0.47~0.75), Crohn's 증가 (HR 3.25), Parkinson's 감소 (HR 0.37~0.53)
-**Biomarker 핵심**: WBC/Neutrophil/Lymphocyte ↓, Eosinophil/Monocyte/Basophil ↑ (면역 shift)
+### v7b Clinical (유의한 결과)
 
-### 환경 (이 PC)
+| Comparison | Outcome | HR | p |
+|------------|---------|---:|--:|
+| vs Chol | Atopic dermatitis | 0.544 | 0.022 |
+| vs Chol | T2DM | 0.769 | 0.046 |
+| vs GenPop | Parkinson's | 0.354 | 0.039 |
+| vs GenPop | T2DM | 0.355 | <0.001 |
+| vs Hernia | T2DM | 1.633 | 0.005 |
 
-- R 4.5.2 + Rtools 4.5, Java JDK 21 (`C:\Users\data1\java\jdk-21.0.10+7`)
-- OHDSI: CohortMethod 4.2.2, Andromeda 0.6.0, FeatureExtraction 3.2.0
-- duckdb 제거 필요 (RSQLite dispatch 충돌)
-- CmData 로컬: `C:\Users\data1\Desktop\atlas_auto_cmdata\`
+**주의**: T2DM은 비교군 의존적 (vs Chol/GenPop 감소, vs Hernia 증가)
+
+### Biomarker (3개 비교 일관)
+
+- **WBC/Neutro/Lympho**: 3개 비교 모두 감소 (HR 0.17~0.69) — 가장 robust
+- **Eosino/Mono/Baso**: vs GenPop/Hernia에서 증가 (HR 1.23~1.42)
+
 
 ---
 
-## 9. Characterization (바이오마커 기술통계) — 진행중
+## 9. Time-window Stratified Analysis (2026-04-14) - COMPLETED
 
-ATLAS Characterization으로 수술 전/후 바이오마커 mean/SD 비교.
-- Design ID: 113, 코호트: 1072(baseline), 1255(+30d), 1256(+90d), 1257(+365d)
-- KHNMC 실행 중 (gen_id=3242)
-- **Achilles drilldown**으로 CDM 전체 분포(min, Q1, median, Q3, max) 조회 가능 확인됨
+PS matching 1회, 동일 matched cohort에서 6개 구간별 Cox (landmark approach).
+
+### Biomarker vs Hernia (핵심)
+
+| Biomarker | 1-30d | 31-90d | 91-365d | 366-1095d | 1096-3650d |
+|-----------|------:|-------:|--------:|----------:|-----------:|
+| WBC | 0.81* | 1.54 | 0.37* | 0.36* | 0.39* |
+| Neutro | 0.61* | 1.00 | 0.31* | 0.37* | 0.35* |
+| Lympho | 0.67* | 0.63 | 0.24* | 0.28* | 0.26* |
+| Eosino | 2.04* | 1.92* | 0.89 | 0.81 | 1.25 |
+| CRP | 1.77* | 4.24 | 0.42* | 0.29* | 0.41* |
+
+91d+ 급성면역 지속 감소 = 충수 특이적 효과. 알레르기세포는 급성기만 일시적.
+
+---
+
+## 10. Characterization (기술통계) - 실행중
+
+WindowedCriteria + DISTRIBUTION + Value as number (FA 372). copy+PUT API.
+19 biomarker x 5 time windows = 95 FA. Char 120 ATLAS 실행중 (gen=3252).
+다기관: weighted mean +/- pooled SD.
+
+---
+
+## 11. Biomarker Cohort Definition (확인 완료)
+
+Inclusion: 수술전 1년 정상 + 과거 이상없음 -> 수술후 첫 이상만 포착.
+WBC>11, Neutro>70%, Lympho<20%, Eosino>7%, Mono>12%, Baso>1%,
+CRP>0.8, ESR>20, GlucDM>=126, GlucPreDM 100-125, ALT>40, Albumin<3.5.
+
+---
+
+## 12. Negative Control Calibration - 실행중
+
+48 NC in CmData. Same matched cohort. 3 comparisons x 48 NC = 144 HR.
+EmpiricalCalibration -> calibrated p-value/CI.
+
+---
+
+## Environment
+
+- R 4.5.2 + Rtools 4.5 (C:/rtools45)
+- Java JDK 21 (C:/Users/data1/java/jdk-21.0.10+7)
+- CohortMethod 4.2.2, Andromeda 0.6.0, FeatureExtraction 3.2.0
+- duckdb removed (RSQLite conflict)
+- CmData: C:/Users/data1/Desktop/atlas_auto_cmdata/
 
 ---
 
 ## TODO
 
-- [ ] **바이오마커 기술통계**
-  - [x] ATLAS Characterization 설계 (shifted 코호트 + Measurement Value preset)
-  - [ ] KHNMC Characterization 결과 확인
-  - [ ] Achilles drilldown으로 코호트별 분포 (min, Q1, median, Q3, max)
-  - [ ] 다기관 확장
-- [ ] v7b/biomarker RUNNING 기관 완료 후 추가 다운로드 + 재분석
-- [ ] FAILED 기관 원인 파악 (건양대, 명지, 부천/인천 세종)
-- [ ] fromlocal 폴더 삭제 (동기화 안정화 후)
-- [ ] `R/install_dependencies.R` 업데이트
-- [ ] README.md R 섹션 수정
-- [ ] Cloud 모니터링 완료 후 스케줄러 ��리
+- [x] Biomarker cohort definition check
+- [x] Time-window HR analysis (v7b + biomarker)
+- [ ] NC calibration (running)
+- [ ] Characterization 120 result (ATLAS running)
+- [ ] At-risk N per time window (for Table)
+- [ ] Paper Methods/Results writing
+- [ ] Multi-site Characterization
+- [ ] Download remaining RUNNING sites
+- [ ] FAILED sites investigation
+- [ ] fromlocal cleanup
+- [ ] Cloud monitor scheduler cleanup

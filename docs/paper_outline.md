@@ -113,31 +113,55 @@ of Clinical Outcomes and Biomarker Changes**
 - Figure 1: PS distribution before/after matching
 - Table 2: Baseline characteristics (matched cohort)
 
-### 3.2 Clinical Outcomes (v7b)
+### 3.2 Clinical Outcomes — Cyclops PS, 1:2 matched, site-stratified Cox
 
-#### 3.2.1 vs Cholecystectomy (N=19,087 + 38,170 matched)
+#### 3.2.1 vs Cholecystectomy (N=9,188 + 18,366 matched)
 - Table 3: HR, 95% CI, p-value for 11 outcomes
-- 유의한 결과: T2DM (HR 0.555), CDI (HR 0.605), Biliary calculus (HR 0.460), RA (HR 0.684)
+- 유의한 결과:
+  - Atopic dermatitis: HR 0.544 (0.324-0.916), p=0.022
+  - **T2DM: HR 0.769 (0.595-0.995), p=0.046**
+- 경계: Crohn's HR 2.499 (p=0.054), RA HR 0.621 (p=0.064)
 
-#### 3.2.2 vs General Population (N=7,486 + 14,972 matched)
-- T2DM (HR 0.468), Parkinson's (HR 0.366)
+#### 3.2.2 vs General Population (N=7,483 + 13,342 matched)
+- **Parkinson's: HR 0.354 (0.132-0.950), p=0.039**
+- Biliary calculus: HR 1.446 (1.075-1.945), p=0.015
+- **T2DM: HR 0.355 (0.237-0.531), p<0.001**
 
-#### 3.2.3 vs Hernia Repair (N=8,442 + 16,875 matched)
-- Crohn's (HR 3.247), Parkinson's (HR 0.526), T2DM (HR 0.745), CDI (HR 0.627), CRC (HR 0.655)
+#### 3.2.3 vs Hernia Repair (N=12,768 + 6,388 matched)
+- Biliary calculus: HR 1.325 (1.041-1.687), p=0.022
+- **T2DM: HR 1.633 (1.158-2.302), p=0.005** ← 방향 반대 (논의 필요)
 
 - Figure 2: Forest plot — 3개 비교군 × 11 outcomes
 
-### 3.3 Biomarker Outcomes
+**T2DM 해석 주의**: vs Cholecystectomy/General Pop에서 감소, vs Hernia repair에서 증가. 
+비교군 특성의 차이 (hernia repair 환자의 대사적 특성)가 영향을 줄 수 있음.
 
-#### 3.3.1 Immune Cell Markers (vs Hernia Repair)
-- Table 4: 혈액세포 바이오마커 HR
-- **급성 면역 감소**: WBC (0.529), Neutrophils (0.486), Lymphocytes (0.442)
-- **알레르기 면역 증가**: Eosinophils (1.334), Monocytes (1.383), Basophils (1.423)
-- Figure 3: Immune shift diagram
+### 3.3 Biomarker Outcomes — Cyclops PS, 1:2 matched, site-stratified Cox
 
-#### 3.3.2 Metabolic & Inflammatory Markers
-- CRP (0.855), Glucose preDM (0.693)
-- Triglyceride (1.546), ALT (1.233), Albumin (1.596)
+#### 3.3.1 Immune Cell Markers — 3개 비교 일관 패턴
+
+**급성 면역 마커 감소 (3개 비교 모두 일관)**:
+| Biomarker | vs Chol HR | vs GenPop HR | vs Hernia HR |
+|-----------|----------:|------------:|-----------:|
+| WBC | 0.266*** | 0.635*** | 0.529*** |
+| Neutrophils | 0.173*** | 0.533*** | 0.486*** |
+| Lymphocytes | 0.178*** | 0.686*** | 0.442*** |
+
+**알레르기/만성 면역 마커 증가 (vs GenPop, vs Hernia에서 일관)**:
+| Biomarker | vs Chol HR | vs GenPop HR | vs Hernia HR |
+|-----------|----------:|------------:|-----------:|
+| Eosinophils | 0.437 | 1.410*** | 1.334*** |
+| Monocytes | 0.889* | 1.415*** | 1.383*** |
+| Basophils | 0.605* | 1.230** | 1.423*** |
+
+- vs Cholecystectomy에서 방향이 다른 이유: 담낭절제술 환자의 baseline 면역 상태 차이
+- Figure 3: Immune shift diagram (vs GenPop/Hernia 기준)
+
+#### 3.3.2 대사/염증 마커
+- Glucose preDM: HR 0.693-0.731 (vs Chol, vs Hernia에서 감소)
+- ALT: vs Chol 0.332***, vs Hernia 1.233*** (비교군 의존적)
+- Albumin: vs GenPop 1.722***, vs Hernia 1.596*** (증가)
+- Triglyceride: vs Hernia 1.546** (증가)
 
 ### 3.4 Characterization (보조 근거)
 - Table 5: 수술 전/후 시점별 바이오마커 mean, SD (KHNMC 기준)
@@ -151,44 +175,54 @@ of Clinical Outcomes and Biomarker Changes**
 ## 4. Discussion
 
 ### 4.1 주요 발견 요약
-- T2DM: 3개 비교 모두 유의한 감소 → 리뷰의 "unlikely" 반박
-- Crohn's: 증가 확인 → 리뷰 지지
-- Parkinson's: 감소 → Killinger(2018) 지지, 리뷰 논쟁 해소
-- CDI: 감소 → "safe house" 가설 지지
-- Immune shift: 새로운 바이오마커 근거
+
+1. **WBC/Neutrophil/Lymphocyte 감소**: 3개 비교 모두 일관 (가장 robust한 발견)
+2. **Eosinophil/Monocyte/Basophil 증가**: vs GenPop, vs Hernia에서 일관
+3. **T2DM**: vs Cholecystectomy (HR 0.77), vs GenPop (HR 0.36)에서 감소, 단 vs Hernia에서 증가 (HR 1.63) — 비교군 의존적
+4. **Parkinson's**: vs GenPop에서 감소 (HR 0.35), 다른 비교에서 NS
+5. **Atopic dermatitis**: vs Cholecystectomy에서 감소 (HR 0.54)
 
 ### 4.2 기존 문헌과의 비교
 
-#### T2DM — 새로운 발견
-- Wei(2015): positive correlation (HR 1.3)
-- Lee(2018): neutral (일반인구), positive (<30세)
-- **우리 결과: 반대 방향 (HR 0.47~0.75, 감소)**
-- 가능한 설명: PS matching으로 교란 통제 후 실제 효과 드러남
-- 충수 제거 → 만성 염증 감소 → 인슐린 저항성 감소?
+#### T2DM — 비교군에 따라 다른 결과 (nuanced finding)
+- Wei(2015): positive (HR 1.3) — unmatched
+- Lee(2018): positive (<30세만)
+- **우리 결과**: Cyclops PS matching 후 vs Cholecystectomy/GenPop에서 **감소**, vs Hernia에서 **증가**
+- 해석: 담낭절제술 환자는 비만/대사증후군 빈도가 높아 비교 시 충수절제 그룹이 상대적으로 낮게 나올 수 있음. 탈장수술 환자는 상대적으로 건강한 대사 profile을 가져 반대 방향. **비교군 선택이 결론을 결정**하는 중요한 방법론적 시사점.
 
-#### Crohn's disease — 확인
-- Kaplan(2007): SIR 1.52, Kaplan(2008) meta: RR 1.61
-- **우리 결과: HR 3.25 (vs hernia repair)**
-- 장 면역 조절 기능 상실 → 장 염증 취약
+#### Parkinson's disease — 부분적 지지
+- Killinger(2018): -19.3% 감소
+- Liu(2020): OR 0.84 감소
+- Lu(2020) meta: 연관 없음
+- Chin(2024) meta: 연관 없음
+- **우리 결과: vs GenPop HR 0.354 (p=0.039), 다른 비교에서 NS**
+- 이벤트 수 적음(5+29) → 주의 필요. 비수술 대조군에서만 유의한 것은 수술 자체의 영향 배제 후에도 연관이 있을 수 있음을 시사.
 
-#### Parkinson's disease — 논쟁 해소
-- Killinger(2018): -19.3% (52년 추적)
-- Mohammed(20xx): HR 3.19 (반대 방향, 6개월 washout)
-- **우리 결과: HR 0.37~0.53 → Killinger 지지**
-- Gut-brain axis: 충수 제거 → α-synuclein 축적 부위 제거
+#### Crohn's disease — 경향 확인 (borderline)
+- Kaplan(2008) meta: RR 1.61
+- **우리 결과: vs Cholecystectomy HR 2.499 (p=0.054)** — borderline
+- 이벤트 적음 (10+8). 기관 수 증가 시 유의해질 가능성.
 
-### 4.3 면역 메커니즘 해석
+### 4.3 면역 메커니즘 해석 — Immune Shift
+
+가장 robust한 발견은 **혈액세포 마커의 변화**:
 
 ```
-충수 (lymphoid tissue, "priming station")
+충수 (GALT, "priming station")
     ↓ 제거
-급성 면역 반응 능력 ↓              알레르기/Th2 면역 경향 ↑
-(WBC, Neutro, Lympho ↓)          (Eosino, Mono, Baso ↑)
-    ↓                                ↓
-T2DM ↓ (만성 염증 감소)          Crohn's ↑ (장 면역 조절 상실)
-CDI ↓ (장내 세균총 변화)          
-Parkinson's ↓ (α-syn 축적 감소)
+급성 면역 반응 능력 ↓                    알레르기/Th2 면역 경향 ↑
+WBC  0.27~0.64 (↓↓↓ 일관)              Eosinophils 1.33~1.41 (↑↑)
+Neutro 0.17~0.53 (↓↓↓ 일관)            Monocytes  1.38~1.42 (↑↑)
+Lympho 0.18~0.69 (↓↓↓ 일관)            Basophils  1.23~1.42 (↑↑)
 ```
+
+이 패턴은:
+- **충수의 B/T 세포 priming 기능 상실** → 급성 면역 반응 감소
+- **Th1→Th2 shift** → 호산구/단핵구/호염기구 우세
+- Zhang et al.(2025)의 실험적 발견 (appendiceal B → Th1/Th17 촉진)과 일치
+- Scarpa et al.(2025)의 dendritic cell activation 발견과 보완적
+
+**임상적 의미**: vs Cholecystectomy에서 면역세포 전반이 감소하는 것은, 담낭절제술 환자의 높은 염증 baseline 때문일 수 있으며, vs GenPop/Hernia에서 나타나는 Eosinophil/Monocyte/Basophil 증가가 충수 제거 특이적 면역 shift를 더 정확히 반영.
 
 ### 4.4 강점
 1. **16개 기관 다기관**: 한국 CDM 네트워크 최대 규모
