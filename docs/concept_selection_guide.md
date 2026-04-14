@@ -316,7 +316,91 @@ for f in os.listdir('concept_frequency'):
 
 ---
 
-## 8. 주의사항
+## 8. Concept 검증 절차 — 코호트 생성 + Frequency 확인
+
+연구 실행 전 반드시 수행. "concept ID가 맞는지, 환자가 충분한지" 확인.
+
+### 8.1 절차
+
+```
+Step 1: 코호트 정의 생성 (ATLAS WebAPI)
+Step 2: 코호트 Generate (CDM에서 환자 추출)
+Step 3: N수 확인 (기관별)
+Step 4: 부족하면 concept 수정 (descendant 추가, cutoff 조정)
+```
+
+### 8.2 API 활용 — 자동화 가능
+
+```python
+from atlas_auto import FedernetClient
+
+client = FedernetClient()
+client.login_portal(email, pw)
+client.connect_site(group_id, site_id)
+
+# Step 1: 코호트 생성
+cohort = client.create_cohort_definition(
+    name="[TEST] Appendectomy",
+    expression={...}  # CIRCE JSON
+)
+
+# Step 2: Generate
+source_key = client.get_source_key()
+client.generate_cohort(cohort["id"], source_key)
+client.wait_for_cohort_generation(cohort["id"], source_key, timeout=600)
+
+# Step 3: N수 확인
+report = client.get_cohort_report(cohort["id"], source_key)
+# → personCount, recordCount
+```
+
+### 8.3 다기관 Frequency 확인
+
+본원(KHNMC)에서 확인 후, 다른 기관에서도 확인해야 함.
+접근 가능한 기관의 ATLAS에서 동일 코호트를 Generate.
+
+```python
+# 다기관 순회 — atlas 목록에서 v2.12.0 기관만
+resp = session.get(f'{base}/api/v1/projects/{pid}/analysis/{aid}/atlas')
+sites = [a for a in resp.json()['content'] if a['version'] == 'v2.12.0']
+
+for site in sites:
+    webapi = f'{base}/api/v1/atlas/{site["orgId"]}/{site["atlasId"]}'
+    # 코호트 생성 → Generate → N수 확인
+```
+
+**주의**: 타기관 ATLAS에 코호트를 생성하면 해당 기관에 남음. 테스트 후 삭제 필요.
+
+### 8.4 검증 기준
+
+| 항목 | 기준 | 조치 |
+|------|------|------|
+| Target N | ≥ 1,000 | 미달 시 concept 확장 (descendant) |
+| Comparator N | ≥ Target N | 1:1 매칭 가능하도록 |
+| Outcome N | ≥ 100 (전체) | 미달 시 risk window 확장 또는 outcome 변경 |
+| NC N | ≥ 50개 NC × ≥ 20 events | calibration 정확도 |
+| 기관별 최소 N | ≥ 100 | 미달 기관은 분석 제외 고려 |
+
+### 8.5 빈도 부족 시 대응
+
+| 문제 | 대응 |
+|------|------|
+| concept이 CDM에 없음 | descendant 포함, 또는 다른 concept으로 대체 |
+| N이 너무 적음 | risk window 확장 (1~3650 → 1~5475) |
+| 특정 기관만 없음 | 해당 기관 CDM 버전/매핑 확인 |
+| measurement value 없음 | unit 포함 concept으로 변경 |
+
+### 8.6 검증 결과 기록 템플릿
+
+| Cohort | Concept ID | KHNMC N | AUMC N | CAUHS N | ... | 판정 |
+|--------|-----------|--------:|-------:|--------:|-----|:----:|
+| Appendectomy | 4198190 | 4,082 | 3,570 | 249 | ... | ✅ |
+| WBC > 11 | 3010813 | 2,146 | 1,884 | 262 | ... | ✅ |
+| RF > 20 | 3019971 | 5 | 3 | 0 | ... | ⚠️ 부족 |
+
+---
+
+## 9. 주의사항
 
 1. **Standard concept만 사용**: Non-standard concept은 기관마다 매핑이 다를 수 있음
 2. **includeDescendants 신중히**: 너무 넓으면 의도치 않은 concept 포함
