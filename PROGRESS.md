@@ -13,7 +13,7 @@
 
 | 모듈 | 역할 |
 |------|------|
-| `client.py` | feedernet 포탈 + WebAPI 클라이언트 |
+| `client.py` | feedernet 포탈 + WebAPI 클라이언트 + concept 검증 메서드 |
 | `builder.py` | Estimation JSON 스펙 빌더 (TCO, PS, covariates) |
 | `cohort_designer.py` | YAML → ATLAS CIRCE JSON |
 | `protocol.py` | 전체 파이프라인 오케스트레이션 |
@@ -22,80 +22,85 @@
 
 ### Cloud 모니터링 (`cloud_monitor/`) — 배포됨
 
-GCP Cloud Function + Scheduler → Telegram 알림. Project: `investment-os-chain`, Region: `us-east1`.
+GCP Cloud Function + Scheduler → Telegram 알림.
+MONITOR_TARGETS: 11000, 11001, 11003, 11004 (4개 analysis)
 
 ### R 분석 (`R/pooled_analysis/`) — 통합 완료
 
-IPD pooled analysis 파이프라인 10개 파일. Cyclops PS + 1:1 matching + site-stratified Cox.
+IPD pooled analysis 파이프라인. Cyclops PS + 1:1 matching + site-stratified Cox.
 
 ---
 
-## 확정: 13개 기관 (2026-04-15 재확정)
+## 확정: 13개 기관 (2026-04-15)
 
 AUMC, CHNUH, DCMC, GNUCH, HUMC, ISH, JCMJ, KDH, KHNMC, KWMC, SCHCA, SCHGM, SCHSU
-— multi-concept OR 코호트 + Achilles 재수집 후 17개 바이오마커 전부 가용.
-GNUH만 CRP 누락으로 제외 (1개 기관).
+— multi-concept OR + Achilles 재수집 후 22개 바이오마커 전부 가용.
+GNUH만 CRP 누락으로 제외.
 
-### IPD Pooled Analysis
+### Primary comparators
 
-| 분석 | 14-site | 10-site | **7-site** |
-|------|---------|---------|-----------|
-| v7b (clinical) | ✅ | ✅ | ✅ |
-| biomarker | ✅ | ✅ | ✅ |
-| NC + calibration | ✅ | ✅ | ✅ |
-
-### Characterization (PRESET × 5구간)
-
-7개 기관 × 5구간 = 35개 Characterization 완료. 결과: `char_preset_all_results.csv`
+vs Cholecystectomy, vs Hernia Repair. vs GenPop은 supplementary (maxCohortSize capping + NC bias).
 
 ---
 
-## 확정된 결과 (7-site, 1:1 matching, calibration 후)
+## 진행 중: Estimation v2 실행
 
-**Primary comparators: vs Chol, vs Hernia. vs GenPop은 supplementary** (maxCohortSize=50K capping + NC bias 심함).
+| Analysis | ID | 내용 | 상태 |
+|----------|:---:|------|:---:|
+| clinical_v8_full | 11000 | 11 clinical outcomes (전체) | 🔄 실행 중 |
+| biomarker_v2_full | 11001 | 22 biomarker outcomes (전체) | 🔄 실행 중 |
+| **clinical_v8_changed** | **11003** | 1270(T2DM), 1271(AMI) — 변경분만 | 🔄 실행 중 |
+| **biomarker_v2_changed** | **11004** | 1262~1268 — 변경분만 | 🔄 실행 중 |
 
-### Clinical — 유의한 결과 (primary)
+13개 기관 + EUMC/KHMC 추가. 11003/11004가 먼저 끝날 예정.
 
-| Comparison | Outcome | HR | cal p |
-|------------|---------|---:|------:|
-| vs Chol | Biliary calculus | 0.729 | 0.003 |
-| vs Chol | T2DM | 0.689 | 0.041 |
-| vs Hernia | Biliary calculus | 1.984 | 0.007 |
+---
 
-### Biomarker — vs Hernia 유의한 결과
+## 확보된 자산
 
-| Biomarker | HR | cal p | 방향 |
-|-----------|---:|------:|:----:|
-| WBC | 0.600 | <0.001 | 감소 |
-| Neutrophils | 0.475 | <0.001 | 감소 |
-| Lymphocytes | 0.409 | <0.001 | 감소 |
-| CRP | 0.674 | <0.001 | 감소 |
-| GlucPreDM | 0.774 | 0.032 | 감소 |
-| Albumin | 1.527 | <0.001 | 증가 |
+### 데이터
 
-### Baseline Characteristics (pre-matching)
+| 데이터 | 파일 | 상태 |
+|--------|------|:---:|
+| Achilles 23기관 × 5 domain | `concept_frequency/{기관}_{domain}.csv` | ✅ |
+| Characterization (PRESET 5구간) | `char_preset_all_results.csv` | ✅ 13기관 |
+| 바이오마커 concept 매핑 | `biomarker_concept_by_site.csv` | ✅ |
+| 기관 4종 ID 매핑 | `site_id_mapping_full.csv` | ✅ 23기관 |
+| PRESET FA 목록 | `atlas_preset_fa_list.csv` | ✅ 105개 |
+| API 엔드포인트 | `atlas_webapi_endpoints_full.csv` | ✅ 70+ |
+| 코호트 네이밍 v2 | `cohort_naming_v2.csv` | ✅ 33 outcomes |
+| 바이오마커 unit 정보 | 수집 중 | 🔄 |
 
-| | Appendectomy | Cholecystectomy | Hernia Repair |
-|--|--:|--:|--:|
-| N | 16,013 | 27,244 | 8,966 |
-| Female (%) | 8,319 (52.0%) | 13,744 (50.4%) | 2,727 (30.4%) |
-| Mean age | ~47 | ~56 | ~62 |
+### 이전 분석 결과 (참고용)
+
+| 분석 | 상태 |
+|------|:---:|
+| 14-site v7b/bio/NC + calibration | ✅ |
+| 10-site 민감도 분석 | ✅ |
+| 7-site v7b/bio/NC + calibration | ✅ |
+| IPD baseline (7-site) | ✅ |
 
 ---
 
 ## TODO
 
-- [x] 기관별 데이터 검증 → 7개 → Achilles 재수집 + multi-concept OR → **13개 기관 재확정**
-- [x] 7-site v7b + bio + NC + calibration 완료 (참고용)
-- [x] Outcome 코호트 v2 확정 (clinical 수정 2건 + biomarker 수정 7건)
-- [ ] **feedernet estimation v2 재설계 + 13개 기관 실행**
-- [ ] 13-site v7b + bio + NC + calibration
-- [ ] Table 1 생성 (baseline characteristics)
-- [ ] Figure 2 (time-window HR plot), Figure 3 (NC calibration plot)
+- [x] 기관별 데이터 검증 → 13개 기관 확정
+- [x] Outcome 코호트 v2 확정 (clinical 2 + biomarker 7 수정)
+- [x] feedernet estimation v2 설계 + 실행 트리거
+- [x] 23기관 × 5 domain Achilles 수집 완료
+- [x] API 엔드포인트 치트시트 정리
+- [x] 기관 4종 ID 매핑 완성
+- [x] client.py concept 검증 메서드 추가
+- [ ] **13-site estimation v2 완료 대기**
+- [ ] 결과 다운로드 + CmData 추출
+- [ ] 13-site IPD 분석 (v7b + bio + NC + calibration)
+- [ ] 13-site time-window HR
+- [ ] IPD baseline characteristics (13-site)
+- [ ] KM curves 생성
 - [ ] Characterization 결과 → Table 5 (weighted mean ± pooled SD)
 - [ ] STROCSS 형식으로 논문 재정리
 - [ ] IRB 확인
 - [ ] Research Registry 등록
 - [ ] Cover letter 작성
 - [ ] 공저자 확정
-- [ ] Cloud monitor scheduler 정리
+- [ ] Cloud monitor scheduler 정리 (전체 완료 후)
