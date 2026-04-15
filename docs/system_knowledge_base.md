@@ -452,7 +452,7 @@ Distribution: min, P10, P25, median, P75, P90, max. **CDM 전체 환자** 대상
 | 바이오마커 | Unit 변이 | cutoff 영향 | 대응 |
 |-----------|----------|-----------|------|
 | **CRP** | mg/dL vs mg/L | **10배** | **코호트 2개 분리**: 1274(>0.8 mgdL) + 1275(>8 mgL), 기관별 선택 |
-| **Neutro#** | 10³/μL vs /μL (ISH) | **1000배** | ISH만 해당, %로 대체 |
+| **Neutro#** | 10³/μL vs /μL (AUMC,ISH,KHNMC) | **1000배** | **코호트 2개 분리**: 1276(>7.7 thou) + 1277(>7700 uL), 기관별 선택 |
 | ALT/GGT/ALP | U/L vs IU/L | 없음 (동일) | |
 | RF | IU/mL vs U/mL | 없음 (동일) | |
 
