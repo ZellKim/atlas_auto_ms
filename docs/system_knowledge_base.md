@@ -447,6 +447,17 @@ GET /cdmresults/{sourceKey}/measurement/{conceptId}     # value distribution
 domain: condition, drug, procedure, measurement, observation, visit.
 Distribution: min, P10, P25, median, P75, P90, max. **CDM 전체 환자** 대상 (코호트 특이적 아님).
 
+**★ Unit 차이 주의 (2026-04-15 발견)**:
+
+| 바이오마커 | Unit 변이 | cutoff 영향 | 대응 |
+|-----------|----------|-----------|------|
+| **CRP** | mg/dL vs mg/L | **10배** | OR concept 또는 unit별 cutoff 분리 |
+| **Neutro#** | 10³/μL vs /μL (ISH) | **1000배** | ISH만 해당, %로 대체 |
+| ALT/GGT/ALP | U/L vs IU/L | 없음 (동일) | |
+| RF | IU/mL vs U/mL | 없음 (동일) | |
+
+기관별 unit 상세: `atlas_auto_cmdata/biomarker_units_by_site.csv`
+
 **23개 기관 × 5 domain Achilles 수집 완료** (2026-04-15):
 저장 위치: `atlas_auto_cmdata/concept_frequency/{기관코드}_{domain}.csv`
 신규 연구 시 기관별 concept 가용성 확인은 이 파일을 먼저 참조.
