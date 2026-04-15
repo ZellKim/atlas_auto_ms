@@ -96,7 +96,22 @@ CAUHS (3.4년, N=917), DAEGU_DONGSAN_06 (4.2년, N=194) 제외.
 | 13 | SCHGM | 2007-2024 (17.0y) | 4,025 | 2,640 |
 | 14 | SCHSU | 2003-2024 (20.8y) | 4,214 | 1,740 |
 
-### 2.3 기관별 ID 체계 (4종)
+### 2.3 API 참조 패키지 (`tool_package/`)
+
+feedernet/ATLAS API 사용이 가능한 이유: `tool_package/`에 원본 패키지 소스가 있어 API 엔드포인트, 파라미터 구조를 직접 참조 가능.
+
+| 패키지 | 역할 |
+|--------|------|
+| `WebAPI-master` | ATLAS WebAPI 엔드포인트 구조 (cohort, estimation, characterization, vocabulary) |
+| `evidnet` | feedernet 포탈 API 구조 (project, analysis, execution) |
+| `Data2Evidence-develop` | estimation/characterization 실행 구조 |
+| `Hades-main` | OHDSI R 패키지 전체 구조 |
+| `Cyclops-main` | PS fitting 로직 |
+| `EmpiricalCalibration-main` | NC calibration |
+| `OmopVocabularyKorea-master` | 한국 CDM 용어 매핑 |
+| `TheBookOfOhdsiKorea-master` | OHDSI 방법론 한국어 번역 |
+
+### 2.4 기관별 ID 체계 (4종)
 
 feedernet에서 기관을 식별하는 ID가 **4가지** 존재하며, 모두 다름:
 
