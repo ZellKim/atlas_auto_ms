@@ -16,6 +16,12 @@
 | `docs/paper_draft.md` | 논문 본문 |
 | `docs/paper_ijs_checklist.md` | IJS 투고 체크리스트 + 논문 구조 |
 
+### API 사용 원칙
+
+- **API 호출 전 반드시 `system_knowledge_base.md §1` 엔드포인트 치트시트를 참조**
+- 엔드포인트를 기억에 의존하지 말 것 (하이픈 유무, 단수/복수 혼용)
+- 기관 ID는 `site_id_mapping_full.csv` 참조 (group_id ≠ site_id ≠ orgId ≠ cdmId)
+
 ### 문서 운영 원칙
 
 - **새 발견 / 변동사항 / 이슈 해결** → `docs/system_knowledge_base.md`에 기록

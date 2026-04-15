@@ -14,6 +14,8 @@
 
 ## 1. API 엔드포인트 치트시트
 
+> **★ API 호출 전 반드시 이 치트시트를 참조할 것.** 엔드포인트를 기억에 의존하면 하이픈 유무, 단수/복수 등으로 오류 발생함. 전체 목록: `atlas_auto_cmdata/atlas_webapi_endpoints_full.csv`
+
 ### 포탈 API (`https://www.feedernet.com/api/v1/`)
 
 | Method | Endpoint | 용도 |
