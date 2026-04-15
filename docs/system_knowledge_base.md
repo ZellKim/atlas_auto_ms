@@ -96,7 +96,20 @@ CAUHS (3.4년, N=917), DAEGU_DONGSAN_06 (4.2년, N=194) 제외.
 | 13 | SCHGM | 2007-2024 (17.0y) | 4,025 | 2,640 |
 | 14 | SCHSU | 2003-2024 (20.8y) | 4,214 | 1,740 |
 
-### 2.3 Source 선택 규칙
+### 2.3 기관별 ID 체계 (4종)
+
+feedernet에서 기관을 식별하는 ID가 **4가지** 존재하며, 모두 다름:
+
+| ID | 용도 | 예시(KHNMC) |
+|---|---|---|
+| **group_id** | ATLAS WebAPI 접속 (`connect_site(group_id, site_id)`) | 7 |
+| **site_id (=atlasId)** | ATLAS 인스턴스 | 203 |
+| **portal orgId** | feedernet 포탈 기관 식별 | 14 |
+| **cdmId** | feedernet execution 대상 CDM | 583 |
+
+전체 매핑: `atlas_auto_cmdata/site_id_mapping_full.csv` (23개 기관)
+
+### 2.4 Source 선택 규칙
 
 - 기본: static DB 중 최신 (`sourceName` 끝 `_숫자`가 가장 큰 것)
 - 제외: `_monthly`, `_weekly`
