@@ -44,6 +44,10 @@ MONITOR_TARGETS = {
         "name": "biomarker_v2_full",
         "project_id": 5104,
     },
+    11009: {
+        "name": "biomarker_v2_changed_plus_crp",
+        "project_id": 5104,
+    },
 }
 
 
