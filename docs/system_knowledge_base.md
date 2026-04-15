@@ -94,6 +94,7 @@
 - Estimation 직접 POST 500 에러 → **copy + PUT 방식 사용**
 - Achilles는 해당 concept 직접 빈도만 반환 (descendant 미포함)
 - evidnet은 R 패키지 (REST API 아님) — execute(), createCohorts() 등 R 함수
+- **cohortdefinition vs cohort-definition**: 하이픈 없는 `/cohortdefinition/`이 정확. 하이픈 있으면 404. 같은 패턴: `/cohort-characterization/`은 하이픈 있음, `/feature-analysis/`도 하이픈 있음 — 일관성 없으므로 항상 확인
 
 ---
 
