@@ -65,7 +65,7 @@ client.connect_site(group_id, site_id)
 | 13 | 29 | 206 | SCHBC | 순천향대 부천병원 | SCHBC_5.3.1_03 |
 | 14 | 30 | 208 | SCHGM | 순천향대 구미병원 | SCHGM_5.3.3_03 |
 | 15 | 67 | 204 | MJH | 명지병원 | MJH_5.3.1_06 |
-| 16 | 69 | 226 | JCMJ | 제천명지병원 | JCMJ_5.3.1_04 |
+| 16 | **93** | 226 | JCMJ | 제천명지병원 | JCMJ_5.3.1_04 (구 ATLAS: group=69/DKUH) |
 | 17 | 81 | 222 | ISH | 국제성모병원 | ISH_5.3.1_05 |
 | 18 | 86 | 224 | GNUCH | 창원경상국립대학교병원 | GNUCH_5.3.1_06 |
 | 19 | 88 | 198 | GNUH | 경상국립대학교병원 | GNUH_5.3.1_07 |
@@ -182,7 +182,132 @@ POST /cohort-characterization/{new_id}/generation/{sourceKey}  → 실행
 
 검증: KHNMC→GNUCH export/import 성공 (6분 완료, N 비례).
 
-### 4.6 수동 다운로드
+### 4.6 PRESET FA 방식 (확정, 2026-04-15)
+
+**CRITERIA_SET(copy+PUT) 방식은 concept이 안 잡히는 문제 발견** → PRESET FA 방식으로 전환.
+
+`MeasurementValueLongTerm` (PRESET id=42)을 사용하면:
+- concept별 자동 분리 (모든 measurement가 개별 행으로 산출)
+- mean, SD, median, Q1, Q3, min, max, P10, P90 전부 포함
+- export/import 시 concept 소실 없음
+
+**핵심: PRESET FA의 시간 구간은 Characterization의 `parameters`로 제어한다.**
+기본값(longTermStartDays=-365, endDays=0)을 원하는 구간으로 오버라이드.
+단, endDays는 Long/Medium/Short 3개 window가 공유하므로, 구간별 별도 Characterization 생성:
+
+| Characterization | longTermStartDays | endDays | 구간 |
+|---|---|---|---|
+| Bio_Pre365 | -365 | -1 | 수술 전 |
+| Bio_Post1_30 | 1 | 30 | 급성기 |
+| Bio_Post31_90 | 31 | 90 | 아급성기 |
+| Bio_Post91_365 | 91 | 365 | 단기만성 |
+| Bio_Post1y3y | 366 | 1095 | 중기 |
+
+**AnyTimePrior(id=63)**: startDay 조절 불가 (전체 과거 고정). CDM Inventory 용도로 사용.
+
+### 4.7 PRESET FA ID 참조
+
+PRESET FA 목록은 `atlas_preset_fa_list.csv` (105개)에 저장. 주요 ID:
+
+| ID | 이름 | statType | 용도 |
+|----|------|----------|------|
+| 42 | Measurement Value Long Term | DISTRIBUTION | **바이오마커 기술통계 (시간구간 지정)** |
+| 58 | Measurement Value Short Term | DISTRIBUTION | 바이오마커 (Short term) |
+| 61 | Measurement Value Medium Term | DISTRIBUTION | 바이오마커 (Medium term) |
+| 63 | Measurement Value Any Time Prior | DISTRIBUTION | **CDM Inventory (전체 기간)** |
+| 74 | Demographics Gender | PREVALENCE | 성별 |
+| 71 | Demographics Age Group | PREVALENCE | 연령 |
+| 49 | Charlson Index | DISTRIBUTION | CCI |
+
+**주의**: Characterization API로 직접 생성(`POST /cohort-characterization`)하면 FA가 비어있을 수 있음. **반드시 export → import 방식**으로 생성해야 FA가 정상 등록됨.
+
+### 4.8 기관별 concept ID 차이
+
+- CBC 항목: 절대값(#/volume) vs 백분율(/100 leukocytes) 기관마다 다름
+- Glucose: 일반(3004501) vs 공복(3037110)
+- 취합 시: 전 기관 결과 전수 조사 후 다수 기관이 쓰는 concept 기준으로 통일
+- 매핑 테이블: `atlas_auto_cmdata/biomarker_concept_mapping.csv`
+- PRESET FA 목록: `atlas_auto_cmdata/atlas_preset_fa_list.csv`
+
+**★ 바이오마커 outcome 코호트 재설계 필요 (2026-04-15 발견)**:
+
+같은 검사인데 기관마다 다른 LOINC concept ID를 사용하는 경우, outcome 코호트의 concept set에 **모든 변이 concept을 OR 조건**으로 포함해야 함. 단일 concept만 넣으면 해당 concept이 없는 기관에서 이벤트 0이 됨.
+
+예: Neutrophils %
+- 3017354: Segmented neutrophils/100 leukocytes (KHNMC, GNUCH, GNUH, JCMJ, KHNMC)
+- 3018010: Neutrophils/100 leukocytes (AUMC, KDH, HUMC)
+- 둘 다 같은 단위(%), 같은 cutoff(>70) → concept set에 둘 다 포함
+
+**OR 필요한 concept (7개 기관 기준)**:
+
+| Biomarker | Concept A | Concept B | Cutoff | 해당 기관 |
+|---|---|---|---|---|
+| WBC | 3000905 | 3010813 | >11 (10³/μL) | KDH=A, 나머지=B |
+| Neutro% | 3017354 (Seg.) | 3018010 | >70 (%) | AUMC/KDH/KHNMC=B |
+| Mono% | 3002385 | 3019069 | >12 (%) | HUMC=A |
+| Glucose | 3004501 | 3037110 (fasting) | ≥126 (mg/dL) | HUMC=B |
+
+나머지 12개 바이오마커는 전 기관 concept 동일.
+기관별 상세: `atlas_auto_cmdata/biomarker_concept_by_site.csv`
+Achilles frequency: `atlas_auto_cmdata/concept_frequency/{기관}_measurement.csv`
+
+**최종 확정: 22개 바이오마커, 13개 기관 (2026-04-15)**
+
+AUMC, CHNUH, DCMC, GNUCH, HUMC, ISH, JCMJ, KDH, KHNMC, KWMC, SCHCA, SCHGM, SCHSU.
+GNUH 제외 (CRP 없음). GFR 제외 (2개 기관 누락). ANA는 estimation에 포함하되 characterization 기술통계는 제외 (ValueAsConcept).
+
+OR multi-concept 코호트 7개: WBC, Neutro, Mono, GlucDM, GlucPreDM, Hgb (+ GFR 제외됨)
+기존 코호트 15개: 단일 concept 그대로 사용.
+
+**Characterization 기술통계 보고 방침**:
+- 단위 동일한 OR (WBC, Glucose, Hgb): 합산 보고
+- 단위 다른 OR (Neutro %, Neutro #, Mono %, Mono #): **분리 보고**
+- ANA: 기술통계 제외
+
+**주의: Concept 참조는 반드시 CONCEPT_ID 기준**. LOINC CONCEPT_CODE로 조회/매핑하지 말 것 — 코드 혼동으로 잘못된 concept을 넣는 실수 발생함 (3002385 RDW를 Mono로 오인한 사례).
+
+**절차**:
+1. 위 바이오마커 outcome 코호트의 concept set에 변이 concept을 OR로 포함
+2. cutoff 동일 확인 (단위 같으면 OK, 다르면 별도 cutoff)
+3. Achilles frequency로 기관별 concept 존재 여부 사전 검증
+4. feedernet에서 재실행
+
+### 4.11 Outcome 코호트 v2 변경 내역 (2026-04-15 확정)
+
+**13개 기관, 33개 outcome (clinical 11 + biomarker 22)**
+
+Clinical 수정 2건:
+| 코호트 ID | 변경 | 이유 |
+|----------|------|------|
+| 1270 O07_T2DM_v2 | Fasting glucose(3037110) ≥126 OR 추가 | HUMC 등에서 fasting concept만 있는 기관 커버 |
+| 1271 O06_AcuteMI_v2 | Inpatient Visit 조건 제거 | 이벤트 수 확보 (입원 제한으로 과소 추정) |
+
+Biomarker 수정 7건:
+| 코호트 ID | Concepts (OR) | Cutoff |
+|----------|--------------|--------|
+| 1262 B_WBC_v2 | 3000905 + 3010813 | >11 (×10³/μL) |
+| 1263 B_Neutro_v2 | 3017354 + 3018010 (%) + 3017732 (#) | >70% / >7.7 |
+| 1265 B_GlucDM_v2 | 3004501 + 3037110 | ≥126 (mg/dL) |
+| 1266 B_Mono_v3 | 3019069 (%) + 3001604 (#) | >12% / >0.8 |
+| 1267 B_GlucPreDM_v2 | 3004501 + 3037110 | 100-125 (mg/dL) |
+| 1268 B_Hgb_v2 | 3000963 + 3027484 | <12 (g/dL) |
+
+Clinical 기존 유지 9건: UC(81893), CD(201606), Asthma(317009), Atopic(133834), RA(80809), CDI(193688), Parkinson(381270), BilCalc(4145627), CRC(197500+74582)
+— condition은 includeDescendants로 기관 간 차이 커버됨.
+
+Biomarker 기존 유지 15건: Lympho(3002030), Eosino(3006504), Baso(3022096), CRP(3020460), ESR(3015183), RF(3021614), ANA(3029103), HbA1c(3004410), LDL(3028437), TG(3022192), HDL(3007070), UA(3037556), ALT(3006923), GGT(3026910), ALP(3035995)
+
+### 4.9 CDM Measurement Inventory (2026-04-15)
+
+**목적**: 다음 연구 시 기관별 데이터 검증 없이 바로 사용할 수 있도록, 전 기관 measurement concept + unit + 기술통계를 미리 수집.
+
+- **코호트**: CDM_AnyVisit (모든 방문 환자, cohort id=1259 KHNMC)
+- **FA**: Measurement Value Any Time Prior (PRESET id=63)
+- **배포**: 23개 기관 (DKUH 제외)
+- **결과**: 기관별 모든 measurement concept의 N, mean, SD, median, Q1, Q3
+- 배포 기록: `atlas_auto_cmdata/cdm_inventory_v3_deploy.json`
+
+### 4.10 수동 다운로드
 
 ATLAS 웹 UI CSV에 min, P10, P25, median, P75, P90, max 포함.
 API result에는 mean/count만 나오는 경우 있음 → UI 다운로드가 더 상세.
@@ -297,7 +422,16 @@ source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 
 **핵심**: CmData 생성 시 패키지 버전과 분석 시 버전을 **일치**시켜야 함.
 
-### 7.3 feedernet API 제약
+### 7.4 Characterization API 이슈 (2026-04-15 발견)
+
+| 문제 | 원인 | 해결 |
+|------|------|------|
+| CRITERIA_SET FA에 concept 안 잡힘 | copy+PUT으로 conceptSets 설정해도 실행 시 `any_measurement`로 합산 | **PRESET FA 방식으로 전환** |
+| `POST /cohort-characterization`로 생성하면 FA 비어있음 | 직접 POST는 FA 참조가 안 됨 | **export → import 방식으로만 생성** |
+| PRESET FA id=41을 `MeasurementValueAnyTimePrior`로 오인 | id=41은 `Distinct Condition Count Long Term` | **PRESET FA 목록 참조 필수** (`atlas_preset_fa_list.csv`) |
+| JCMJ group_id 혼동 | 구 ATLAS(group=69, DKUH)와 신 ATLAS(group=93, JCMJ) 공존 | **group=93만 사용, 69는 폐기** |
+
+### 7.5 feedernet API 제약
 
 | 제약 | 상세 |
 |------|------|
@@ -308,7 +442,7 @@ source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 | FA POST | CRITERIA_SET 직접 생성 500 → copy+PUT만 가능 |
 | statType PUT | 500 에러 → aggregate id만 변경 가능 |
 
-### 7.4 기관 서버 이슈
+### 7.6 기관 서버 이슈
 
 | 유형 | 증상 | 원인 |
 |------|------|------|
@@ -375,10 +509,11 @@ source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 분석 포함 16개 기관 중 COMPLETE 17 / RUNNING 5 / WAITING 2 / FAILED 5 (2026-04-14 기준).
 상세 execId: execution_records 삭제 전 백업 참조 또는 feedernet API로 실시간 조회.
 
-### 9.3 Characterization: Bio17_PrePost
+### 9.3 Characterization: PRESET × 5구간 (확정)
 
-17 biomarker × 5 time window = 85 FAs. KHNMC에서 생성 → 13개 기관 배포.
-2026-04-15 기준: 7/14 완료, 6 실행 중, 1 실패 (JCMJ).
+PRESET MeasurementValueLongTerm × 5 시간 구간, parameters 오버라이드.
+14개 기관 배포 → concept 가용성 검증 → **7개 기관 확정** (AUMC, GNUCH, GNUH, HUMC, JCMJ, KDH, KHNMC).
+나머지 7개 기관은 CBC concept 누락으로 제외 (CHNUH 결과 없음, DCMC/ISH/KWMC/SCHCA/SCHGM/SCHSU CBC 불완전).
 
 ---
 
@@ -389,17 +524,22 @@ source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 ```
 1.  ATLAS에서 cohort 정의 + estimation 설계
 1b. 공변량 설정 검토 (builder.py covariate_settings — 연구마다 다름)
-2.  feedernet analysis 생성 + ATLAS import
-3.  전체 기관 execution 트리거
-4.  Cloud monitoring 설정 (GCP Cloud Function)
-5.  완료 기관 result.zip 다운로드
-6.  CmData 추출 (zip → SQLite)
-7.  IPD pooled analysis (Cyclops PS + Cox)
-8.  시간 구간별 분석 (필요 시)
-9.  Negative control calibration
-10. Characterization (보조 기술통계, 필요 시)
-11. 결과 정리 + 논문
+2.  ★ 기관별 데이터 검증 (concept 가용성 + unit 통일 확인)
+    → PRESET Characterization으로 전 기관 measurement 전수 조사
+    → 바이오마커 concept ID/unit이 통일된 기관만 분석에 포함
+3.  feedernet analysis 생성 + ATLAS import
+4.  전체 기관 execution 트리거
+5.  Cloud monitoring 설정 (GCP Cloud Function)
+6.  완료 기관 result.zip 다운로드
+7.  CmData 추출 (zip → SQLite)
+8.  IPD pooled analysis (Cyclops PS + Cox)
+9.  시간 구간별 분석 (필요 시)
+10. Negative control calibration
+11. Characterization (보조 기술통계)
+12. 결과 정리 + 논문
 ```
+
+**교훈 (충수절제술 연구)**: 14개 기관으로 시작했으나, Characterization 결과 CBC 항목 concept이 통일된 기관은 7개뿐. estimation을 14개로 돌린 후 7개로 다시 돌리는 이중 작업 발생. **데이터 검증을 먼저 하면 방지 가능.**
 
 ### 10.2 주요 스크립트
 
@@ -474,8 +614,9 @@ C:\Users\data1\Desktop\atlas_auto_cmdata\
 - [ ] ATLAS에서 코호트 정의 (target, comparator, outcomes, NCs)
 - [ ] Estimation 설계 (PS settings, risk window)
 - [ ] **공변량 설정 검토** (`builder.py` covariate_settings 커스텀)
+- [ ] **★ 기관별 데이터 검증** — PRESET Characterization으로 measurement concept 전수 조사 → concept/unit 통일 가능한 기관만 선정
 - [ ] feedernet analysis 생성 + ATLAS import
-- [ ] 전체 기관 execution 트리거
+- [ ] 선정된 기관만 execution 트리거
 - [ ] Cloud monitoring 활성화
 - [ ] 완료 기관 result.zip 다운로드
 - [ ] CmData 추출 (zip → SQLite)
