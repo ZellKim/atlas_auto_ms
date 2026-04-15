@@ -1,10 +1,17 @@
 # International Journal of Surgery 투고 체크리스트
 
+> 논문 본문은 → `paper_draft.md`, 논문 구조/outline은 이 파일에 통합.
+
 ## 타겟 저널
 - **International Journal of Surgery (IJS)**
 - IF: 12.5
 - 첫 결정: 2-3주
 - 가이드라인: **STROCSS** (관찰 연구용) 또는 STROBE
+
+## 제목 (안)
+
+1. **Immune Shift After Appendectomy: A Multi-center IPD Pooled Analysis of Clinical Outcomes and Biomarker Changes**
+2. Appendectomy and Long-term Clinical Outcomes and Biomarker Changes: A Multi-center Comparative Effectiveness Study Using the OMOP Common Data Model
 
 ---
 
@@ -67,13 +74,26 @@
 - [ ] Line numbering
 - [ ] Double spacing
 
+### Figures & Tables 목록
+
+| # | 유형 | 내용 |
+|---|------|------|
+| Table 1 | 기관별 환자 수 | 14개 기관, target/comparator 수 |
+| Table 2 | Baseline characteristics | PS matching 후 공변량 균형 |
+| Table 3 | Clinical outcome HR | 3개 비교 × 11 outcome |
+| Table 4 | Biomarker outcome HR | 3개 비교 × 17 biomarker |
+| Table 5 | Characterization mean/SD | 수술 전/후 시점별 (보조) |
+| Figure 1 | PS distribution | Before/after matching |
+| Figure 2 | Forest plot (clinical) | time-window HR plot |
+| Figure 3 | Calibration plot | Negative control |
+| Figure 4 | Immune shift diagram | 면역세포 변화 패턴 |
+
 ### 아직 해야 할 것
-- [ ] 14개 기관 제외 후 재분석 (현재 16개 기관 기준)
-- [ ] Table 1 생성 (baseline characteristics)
-- [ ] Figure 2 생성 (time-window HR plot)
-- [ ] Figure 3 생성 (NC calibration plot)
+
+> TODO 상세는 → `PROGRESS.md`
+
+- [ ] Table 1, Figure 2, Figure 3 생성
 - [ ] Characterization 결과 통합 (Table 5)
-- [ ] 95% CI 수치 추가
 - [ ] 공저자 확정
 - [ ] IRB 확인
 - [ ] Research Registry 등록

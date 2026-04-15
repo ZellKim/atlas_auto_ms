@@ -2,18 +2,23 @@
 
 ## 목적
 
-이 문서는 충수절제술 연구를 수행하면서 축적된 feedernet/ATLAS API 활용법, 이슈 사항, 해결 방법을 정리하여 **향후 새로운 연구 주제에 재사용 가능한 시스템**으로 구축하기 위한 것입니다.
+이 문서는 feedernet/ATLAS API 활용법, 기관 매핑, 분석 방법론, 이슈 해결, 실행 기록을 **한 곳에** 정리하여 향후 새로운 연구에 재사용 가능한 중앙 지식 저장소입니다.
+
+> **문서 구조 원칙**: 변동사항, 새로 발견한 사항, 이슈 해결은 모두 이 문서에 기록합니다.
+> - `PROGRESS.md` — 현재 상태 + TODO만 (간결한 스냅샷)
+> - `concept_selection_guide.md` — Concept ID 선정 전용 가이드
+> - `paper_draft.md` — 논문 본문
+> - `paper_ijs_checklist.md` — 투고 체크리스트
 
 ---
 
-## 1. feedernet API 구조 (확인 완료)
+## 1. feedernet API 구조
 
 ### 1.1 인증
 
 ```python
 client.login_portal(email, password)
-# → POST /api/v1/auth/login
-# → session cookie 자동 관리
+# → POST /api/v1/auth/login → session cookie 자동 관리
 ```
 
 ### 1.2 기관 ATLAS 접속
@@ -39,56 +44,95 @@ client.connect_site(group_id, site_id)
 
 ---
 
-## 2. 연구 실행 파이프라인 (검증 완료)
+## 2. 기관 매핑 (v2.12.0)
 
-### 2.1 Estimation 실행 흐름
+### 2.1 전체 기관 목록 (24개)
 
-```
-1. POST /api/v1/projects/{pid}/analysis
-   → analysis 생성 (name만)
+| # | group_id | site_id | CDM코드 | 기관명 | 최신 Source |
+|---|---------|---------|---------|--------|-----------|
+| 1 | 3 | 190 | PNUH | 부산대학교병원 | PNUH_5.3.0_04 |
+| 2 | 4 | 201 | KDH | 강동성심병원 | KDH_5.3.1_08 |
+| 3 | 5 | 197 | EUMC | 이화의료원(목동,서울) | EUMC_5.3.1_07 |
+| 4 | 7 | 203 | KHNMC | 강동경희대학교병원 (본원) | KHNMC_5.3.1_08 |
+| 5 | 9 | 191 | AUMC | 아주대학교병원 | AUMC_5.3.1_11 |
+| 6 | 10 | 213 | KWMC | 강원대학교병원 | KWMC_5.3.1_09 |
+| 7 | 11 | 202 | KHMC | 경희의료원 | KHMC_5.3.1_07 |
+| 8 | 13 | 188 | WKUH | 원광대학교병원 | WKUH_5.3.1_07 |
+| 9 | 16 | 196 | DCMC | 대구가톨릭대학교병원 | DCMC_5.3.1_06 |
+| 10 | 18 | 202 | CHAMC | 차의과학대 | CHAMC_5.3.1_03 |
+| 11 | 27 | 209 | SCHSU | 순천향대 서울병원 | SCHSU_5.3.3_03 |
+| 12 | 28 | 207 | SCHCA | 순천향대 천안병원 | SCHCA_5.3.3_03 |
+| 13 | 29 | 206 | SCHBC | 순천향대 부천병원 | SCHBC_5.3.1_03 |
+| 14 | 30 | 208 | SCHGM | 순천향대 구미병원 | SCHGM_5.3.3_03 |
+| 15 | 67 | 204 | MJH | 명지병원 | MJH_5.3.1_06 |
+| 16 | 69 | 226 | JCMJ | 제천명지병원 | JCMJ_5.3.1_04 |
+| 17 | 81 | 222 | ISH | 국제성모병원 | ISH_5.3.1_05 |
+| 18 | 86 | 224 | GNUCH | 창원경상국립대학교병원 | GNUCH_5.3.1_06 |
+| 19 | 88 | 198 | GNUH | 경상국립대학교병원 | GNUH_5.3.1_07 |
+| 20 | 91 | 225 | KCCH | 원자력병원 | KCCH_5.3.1_05 |
+| 21 | 95 | 227 | CHNUH | 충남대학교병원 | CHNUH_5.3.1_01 |
+| 22 | 99 | 243 | UUH | 울산대학교병원 | UUH_5.3.0_04 |
+| 23 | 103 | 235 | DSMC | 동산병원(대구동산) | DSMC_5.3.1_06 |
+| 24 | 117 | 256 | HUMC | 동탄성심병원 | HUMC_DONGTAN_5.3.1_04 |
 
-2. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas
-   → 접근 가능한 ATLAS 기관 목록
+### 2.2 분석에 포함된 14개 기관 (확정)
 
-3. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}
-   → 해당 ATLAS의 estimation 목록
+CAUHS (3.4년, N=917), DAEGU_DONGSAN_06 (4.2년, N=194) 제외.
 
-4. POST /api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId}
-   body: {atlasResearchId, atlasResearchName, researchType: "ESTIMATION"}
-   → estimation import (feedernet이 ATLAS에서 R 패키지 zip 자동 생성)
+| # | CDM코드 | 기간 | N | Target |
+|---|---------|------|--:|-------:|
+| 1 | AUMC | 1995-2025 (30.0y) | 13,184 | 3,570 |
+| 2 | CHNUH | 2013-2021 (8.9y) | 3,905 | 780 |
+| 3 | DCMC | 2006-2025 (19.6y) | 4,980 | 748 |
+| 4 | GNUCH | 2017-2025 (8.5y) | 1,091 | 381 |
+| 5 | GNUH | 2010-2025 (14.9y) | 3,433 | 502 |
+| 6 | HUMC | 2014-2025 (11.8y) | 5,912 | 2,510 |
+| 7 | ISH | 2015-2025 (10.5y) | 3,185 | 1,194 |
+| 8 | JCMJ | 2012-2025 (12.7y) | 1,959 | 1,108 |
+| 9 | KDH | 2003-2025 (22.1y) | 7,963 | 3,904 |
+| 10 | KHNMC | 2007-2025 (18.0y) | 9,715 | 4,037 |
+| 11 | KWMC | 2004-2025 (21.8y) | 5,167 | 2,095 |
+| 12 | SCHCA | 2007-2024 (16.8y) | 6,358 | 1,389 |
+| 13 | SCHGM | 2007-2024 (17.0y) | 4,025 | 2,640 |
+| 14 | SCHSU | 2003-2024 (20.8y) | 4,214 | 1,740 |
 
-5. POST /api/v1/project/{pid}/analysis/{aid}/execution
-   body: {researchName, executionType: "ESTIMATION", cdmIds: [...]}
-   → 다기관 실행 트리거
-```
+### 2.3 Source 선택 규칙
 
-### 2.2 상태 확인
-
-```python
-GET /api/v1/project/{pid}/analysis/{aid}/execution
-→ groups[].executionList[].executionStatus
-  EXECUTING_DOCKER, WAITING, FINISHED_SUCCESSFULLY, FINISHED_WITH_ERROR, CANCELED
-```
-
-### 2.3 결과 다운로드
-
-```python
-GET .../execution/{eid}/files → file 목록
-GET .../execution/{eid}/files/{fid}/download → result.zip
-```
-
-### 2.4 실행 취소
-
-```python
-DELETE /api/v1/project/{pid}/analysis/{aid}/execution
-body: {executionId}
-```
+- 기본: static DB 중 최신 (`sourceName` 끝 `_숫자`가 가장 큰 것)
+- 제외: `_monthly`, `_weekly`
+- 코드: `get_latest_static_source()` — `re.search(r'_(\d+)$', sourceName)`
 
 ---
 
-## 3. Characterization API (새로 발견)
+## 3. 연구 실행 파이프라인
 
-### 3.1 Feature Analysis 유형
+### 3.1 Estimation 실행 흐름
+
+```
+1. POST /api/v1/projects/{pid}/analysis           → analysis 생성
+2. GET  /api/v1/projects/{pid}/analysis/{aid}/atlas → 기관 목록
+3. GET  .../atlas/{atlasId}                         → estimation 목록
+4. POST .../atlas/{atlasId}                         → estimation import
+   body: {atlasResearchId, atlasResearchName, researchType: "ESTIMATION"}
+5. POST /api/v1/project/{pid}/analysis/{aid}/execution → 실행 트리거
+   body: {researchName, executionType: "ESTIMATION", cdmIds: [...]}
+```
+
+### 3.2 상태 확인 / 결과 다운로드 / 취소
+
+```python
+GET  /api/v1/project/{pid}/analysis/{aid}/execution         # 상태
+GET  .../execution/{eid}/files/{fid}/download                # 결과
+DELETE /api/v1/project/{pid}/analysis/{aid}/execution        # 취소 (body: {executionId})
+```
+
+상태값: `EXECUTING_DOCKER`, `WAITING`, `FINISHED_SUCCESSFULLY`, `FINISHED_WITH_ERROR`, `CANCELED`
+
+---
+
+## 4. Characterization API
+
+### 4.1 Feature Analysis 유형
 
 | 유형 | 특징 | API 생성 |
 |------|------|:--------:|
@@ -96,257 +140,268 @@ body: {executionId}
 | **CRITERIA_SET** | criteria 기반 커스텀 | ⚠️ copy+PUT만 가능 |
 | **CUSTOM_FE** | SQL 직접 작성 | ✅ POST 가능, 실행 실패 |
 
-### 3.2 CRITERIA_SET 생성 방법 (검증 완료)
-
-**직접 POST는 안 됨** → `copy` + `PUT` 방식 사용:
+### 4.2 CRITERIA_SET 생성: copy + 2단계 PUT
 
 ```python
 # Step 1: 기존 FA 복사
-GET /feature-analysis/{id}/copy
-→ 새 FA 생성 (id 자동 부여)
+GET /feature-analysis/{id}/copy → 새 FA (id 자동 부여)
 
-# Step 2: PUT으로 수정 (이름, 시간 구간 등)
-PUT /feature-analysis/{new_id}
-→ 시간 구간, conceptSets, aggregate 변경 가능
+# Step 2a: PUT — 이름 + 시간 구간
+PUT /feature-analysis/{new_id} (name, StartWindow 변경)
+
+# Step 2b: PUT — concept
+PUT /feature-analysis/{new_id} (CodesetId, conceptSets 변경)
 ```
 
-### 3.3 시간 구간 설정
+**한번에 하면 500 에러** → 반드시 2단계로 분리.
+
+### 4.3 시간 구간 설정
 
 ```json
 "StartWindow": {
-    "Start": {"Days": 1, "Coeff": 1},   // +1 = after index, -1 = before
+    "Start": {"Days": 1, "Coeff": 1},   // Coeff: +1=after, -1=before index
     "End": {"Days": 30, "Coeff": 1},
-    "UseIndexEnd": false,
-    "UseEventEnd": false
+    "UseIndexEnd": false, "UseEventEnd": false
 }
 ```
 
-### 3.4 Distribution stat을 얻으려면
+### 4.4 Distribution 통계 얻기
 
 - `criteriaType`: **WindowedCriteria** (CriteriaGroup 아님)
 - `statType`: **DISTRIBUTION**
 - `aggregate`: **Value as number (id=7)**
 - 결과: mean, SD, median, P25, P75, min, max
 
-### 3.5 concept별 분류
-
-- `CodesetId = null` → 모든 measurement 합산 (의미 없음)
-- `CodesetId = 0` + `conceptSets` 지정 → 특정 concept만
-
-### 3.6 Characterization 실행
+### 4.5 다기관 배포: export → import
 
 ```python
-POST /cohort-characterization/{id}/generation/{sourceKey}
-GET  /cohort-characterization/{id}/generation → status 확인
-GET  /cohort-characterization/generation/{genId}/result → 결과 (result, 단수)
+GET  /cohort-characterization/{id}/export   → KHNMC에서 전체 JSON
+POST /cohort-characterization/import        → 타 기관에 import (코호트+FA 자동 생성)
+POST /cohort-characterization/{new_id}/generation/{sourceKey}  → 실행
 ```
 
-### 3.7 수동 다운로드
+검증: KHNMC→GNUCH export/import 성공 (6분 완료, N 비례).
 
-ATLAS 웹 UI에서 다운로드하면 **CSV에 min, P10, P25, median, P75, P90, max** 포함.
+### 4.6 수동 다운로드
+
+ATLAS 웹 UI CSV에 min, P10, P25, median, P75, P90, max 포함.
 API result에는 mean/count만 나오는 경우 있음 → UI 다운로드가 더 상세.
 
 ---
 
-## 4. Achilles 결과 활용
-
-### 4.1 Concept Frequency
+## 5. Achilles 결과 활용
 
 ```python
-GET /cdmresults/{sourceKey}/{domain}
-→ conceptId, numPersons, percentPersons, recordsPerPerson
+GET /cdmresults/{sourceKey}/{domain}                    # concept별 frequency
+GET /cdmresults/{sourceKey}/measurement/{conceptId}     # value distribution
 ```
 
-domain: condition, drug, procedure, measurement, observation, visit
-
-### 4.2 Measurement Value Distribution
-
-```python
-GET /cdmresults/{sourceKey}/measurement/{conceptId}
-→ measurementValueDistribution: min, P10, P25, median, P75, P90, max
-```
-
-**CDM 전체 환자** 대상 (코호트 특이적 아님).
+domain: condition, drug, procedure, measurement, observation, visit.
+Distribution: min, P10, P25, median, P75, P90, max. **CDM 전체 환자** 대상 (코호트 특이적 아님).
 
 ---
 
-## 5. 이슈 사항 & 해결 방법
+## 6. 분석 방법론
 
-### 5.1 R 패키지 호환성
+### 6.1 IPD Pooled Analysis (Main)
+
+- **데이터**: 다기관 CmData (SQLite) — result.zip에서 추출
+- **PS**: Cyclops (Laplace prior, cross-validation) + site dummy covariate
+- **매칭**: 1:1 nearest-neighbor, caliper = 0.2 × SD(logit PS)
+- **Outcome model**: Site-stratified Cox proportional hazard regression
+- **공변량 (이번 연구)**: Demographics(Gender, AgeGroup) + ConditionLongTerm + DrugLongTerm → 7,751 covariates
+
+### 6.2 시간 구간별 분석 (Landmark)
+
+PS matching은 1회만 → 매칭된 동일 코호트에서 시간 구간별 Cox.
+
+| 구간 | 기간 | 목적 |
+|------|------|------|
+| 1-30d | 급성기 | 수술 스트레스 (모든 수술군 동일 예상) |
+| 31-90d | 아급성기 | 스트레스 회복 후 차이 시작 |
+| 91-365d | 단기 만성 | 충수 특이적 효과 |
+| 366-1095d | 중기 | 면역 shift 지속 여부 |
+| 1096-3650d | 장기 | 장기 면역 변화 |
+| 1-3650d | 전체 | reference |
+
+```r
+# 구간별 로직 핵심
+oc <- outcomes[daysToEvent >= windowStart & daysToEvent <= windowEnd]
+df <- df[df$maxFollow >= windowStart]  # 구간까지 생존한 환자만
+df$time <- pmin(daysToObsEnd, windowEnd) - windowStart + 1
+```
+
+**해석**: 급성기에서만 유의 → 수술 스트레스. 91d+ 유의 → 충수 특이적.
+
+### 6.3 Characterization (보조 기술통계)
+
+- WindowedCriteria + DISTRIBUTION + Value as number → mean, SD, median, Q1, Q3
+- 다기관 통합: **weighted mean ± pooled SD** (기관별 N, mean, SD로 계산)
+- median/Q1/Q3는 기관별 개별 보고 (supplementary)
+
+### 6.4 Negative Control Calibration
+
+- 48+ NC outcomes, EmpiricalCalibration 패키지
+- NC HR 분포 기준: median ≈ 1.0, 유의 비율 ≈ 5%
+- vs GenPop은 bias 심함 (median 0.654, 27.7% 양성) → vs Chol, vs Hernia가 primary
+
+### 6.5 분석 규모 (충수절제술 연구)
+
+| 항목 | 수 |
+|------|---:|
+| 기관 (primary) | 14 |
+| 비교군 | 3 (Cholecystectomy, General Pop, Hernia repair) |
+| Clinical outcomes | 11 |
+| Biomarker outcomes | 17 |
+| 시간 구간 | 6 |
+| Negative controls | 48+ |
+
+---
+
+## 7. 이슈 사항 & 해결 방법
+
+### 7.1 R 패키지 호환성
 
 | 문제 | 원인 | 해결 |
 |------|------|------|
-| `loadCohortMethodData` 실패 ('from' and 'to') | Andromeda 1.x가 0.6.0 형식 못 읽음 | **Andromeda 0.6.0 설치** |
-| FeatureExtraction 로드 실패 | Andromeda >= 1.0.0 요구 | **FeatureExtraction 3.2.0으로 다운그레이드** |
-| CohortMethod 설치 실패 | Rtools 미설치 | **Rtools 4.5 설치** |
-| rJava 로드 실패 | JAVA_HOME 미설정 | **JDK 21 설치 + JAVA_HOME 설정** |
-| `no slot of name "conn_ref"` | duckdb가 RSQLite dispatch 오염 | **duckdb 패키지 제거** |
-| Rtools "cc1 not found" | gcc libexec 경로 누락 | **R 스크립트 내에서 PATH 설정** |
+| `loadCohortMethodData` 실패 | Andromeda 1.x가 0.6.0 형식 못 읽음 | **Andromeda 0.6.0** |
+| FeatureExtraction 로드 실패 | Andromeda >= 1.0.0 요구 | **FeatureExtraction 3.2.0** |
+| CohortMethod 설치 실패 | Rtools 미설치 | **Rtools 4.5** |
+| rJava 로드 실패 | JAVA_HOME 미설정 | **JDK 21 + JAVA_HOME** |
+| `no slot of name "conn_ref"` | duckdb가 RSQLite dispatch 오염 | **duckdb 제거** |
+| Rtools "cc1 not found" | gcc libexec 경로 누락 | **R 내 PATH 설정** |
+| sparse→dense 메모리 폭발 | Cyclops PS fitting | CohortMethod 내부 함수 사용 (sparse 유지) |
 
-**핵심**: CmData 생성 시 사용한 패키지 버전과 분석 시 사용하는 버전을 **일치**시켜야 함.
-- `estimation_model/renv.lock`에서 버전 확인 가능
+### 7.2 R 스크립트 실행 ��경
 
-### 5.2 Characterization 다기관 배포 방법 (2026-04-14 발견)
+**원칙: R 스크립트는 VS Code R 터미��에서 `source()`로 실행한다.**
 
-**핵심: export → import 방식으로 다기관 자동화 가능**
+bash에서 `Rscript`로 호출하면 JAVA_HOME 누락, 메모리 경합(Claude+VSCode가 2GB+ 점유) 등 불필요한 문제가 발생한다. VS Code R 터미널은 사용자 환경변수가 자동 적용되고 메모리도 안정적이다.
 
-```python
-# KHNMC에서 export
-GET /cohort-characterization/{id}/export → 전체 JSON (코호트+FA 포함)
-
-# 다른 기관에 import
-POST /cohort-characterization/import (body: export JSON)
-→ 코호트 + FA 자동 생성
+```r
+# VS Code R 터미널���서 실행
+source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 ```
 
-**FA 개별 생성 시 제약 (참고)**:
-- PRESET copy: 모든 기관에서 500 (IllegalArgumentException)
-- POST로 FA 생성: design이 빈 배열로 저장됨
-- PUT으로 design 채우기: 한번에 하면 500, **2단계로 나누면 성공** (1차: 시간, 2차: concept)
-- WindowedCriteria FA: **UI에서만 최초 생성 가능**, 이후 copy+PUT으로 복제
-- **가장 간단한 방법**: UI에서 빈 WindowedCriteria FA 1개 생성 → copy+2단계 PUT
+메모리 부족 시에만 `rm() + gc()`로 대응하면 된다.
 
-**source 선택 규칙**:
-- 기본: static DB 중 최신 (예: `cdmpv53_251128`)
-- 제외: `_monthly`, `_weekly` (주기변환 DB)
-- sourceKey에서 `m`이나 `monthly/weekly` 포함 여부로 필터
+### 7.3 기관 변동 시 민감도 분석 원칙
 
-```python
-import re
-
-def get_latest_static_source(sources):
-    """최신 static source 선택.
-    sourceName 패턴: {기관코드}_{CDM버전}_{번호} (예: GNUCH_5.3.1_06)
-    마지막 _숫자가 가장 큰 것이 최신 static DB.
-    monthly/weekly는 제외.
-    """
-    static = []
-    for s in sources:
-        sn = s['sourceName']
-        # monthly/weekly 제외
-        if 'monthly' in sn.lower() or 'weekly' in sn.lower():
-            continue
-        # 마지막 _숫자 추출
-        m = re.search(r'_(\d+)$', sn)
-        if m:
-            static.append((int(m.group(1)), s))
-    
-    if static:
-        # 번호가 가장 큰 것 = 최신
-        return sorted(static, key=lambda x: x[0])[-1][1]
-    else:
-        # static이 없으면 전체에서 마지막
-        return sources[-1] if sources else None
-```
-
-**sourceName 패턴**:
-- `GNUCH_5.3.1_06` → `_06` = static 6번째 (최신)
-- `GNUCH_5.3.1_monthly` → 제외
-- `GNUCH_5.3.1_weekly` → 제외
-- 마지막 `_숫자`가 클수록 최신
-
-### 5.3 Characterization 다기관 배포 검증 결과 (2026-04-14)
-
-**검증 완료**: KHNMC → GNUCH export/import 성공, 6분 만에 결과 산출.
+기관 수를 변경(제외/추가)하여 재분석할 때는 **반드시 최종 단계(NC + Calibration)까지 완료한 후 비교**한다. Calibration 전 raw HR만으로 비교하면 bias 보정 없이 판단하게 되어 의미 없다.
 
 ```
-KHNMC (Char 121) export
-    ↓ JSON (코호트+FA 31개 포함)
-GNUCH import → Char 39 생성
-    ↓ 코호트 Generate + 실행
-    ↓ 6분 완료 (KHNMC 5시간+ vs GNUCH 6분 — N 차이)
-결과: CRP, Neutrophils 시점별 mean/median/Q1/Q3 정상 산출
+1. v7b (clinical) → 2. biomarker → 3. NC → 4. calibration → 5. 비교
 ```
 
-**GNUCH CRP 수술 전후 변화 (검증 데이터)**:
+중간 단계(예: raw HR)에서 비교하지 말 것.
 
-| 시점 | N | Median | Q1 | Q3 |
-|------|--:|-------:|---:|---:|
-| Pre 365d | 138 | 3.9 | 1.1 | 24.7 |
-| Post 1-30d | 211 | **50.2** | 14.2 | 117.1 |
-| Post 31-90d | 38 | 6.6 | 1.4 | 40.2 |
-| Post 91-365d | 64 | **2.0** | 0.6 | 11.4 |
-| Post 1y-3y | 69 | **2.1** | 0.7 | 8.5 |
+**핵심**: CmData 생성 시 패키지 버전과 분석 시 버전을 **일치**시켜야 함.
 
-→ 수술 직후 급등 → 91일 이후 수술 전보다 낮아짐 → HR 시간구간 분석과 일치
-
-**다기관 배포 절차 (확정)**:
-
-```python
-# 1. KHNMC에서 Characterization export
-GET /cohort-characterization/{id}/export → char_json
-
-# 2. 각 기관에서 import
-POST /cohort-characterization/import (body: char_json)
-
-# 3. 최신 static source 선택
-sources = client.get_sources()
-static = [s for s in sources 
-          if 'monthly' not in s['sourceKey'] and 'weekly' not in s['sourceKey']
-          and not s['sourceKey'].endswith('m')]
-sk = sorted(static, key=lambda s: s['sourceKey'])[-1]['sourceKey']
-
-# 4. 코호트 Generate
-client.generate_cohort(cohort_id, sk)
-client.wait_for_cohort_generation(cohort_id, sk)
-
-# 5. Characterization 실행
-POST /cohort-characterization/{new_id}/generation/{sk}
-```
-
-**주의사항**:
-- source 선택: 항상 최신 static DB (`_YYYYMMDD` 형식 중 최신)
-- monthly/weekly DB 제외 (특별한 이유 없는 한)
-- 기관별 소요시간: N에 비례 (GNUCH 1K=6분, KHNMC 10K=5시간+)
-- group_id ≠ orgId: 기관별 ATLAS URL에서 직접 확인 필요
-
-### 5.4 feedernet API 제약
+### 7.3 feedernet API 제약
 
 | 제약 | 상세 |
 |------|------|
-| 커스텀 zip 업로드 불가 | API로 research zip 직접 업로드 안 됨 (415) |
+| 커스텀 zip 업로드 불가 | API로 직접 업로드 안 됨 (415) |
 | researchType | ESTIMATION, PREDICTION만 지원 |
 | DateAdjustment | ATLAS v2.12.0에서 cohort에 적용해도 무시됨 |
-| CUSTOM_FE | FA 생성은 되지만 Characterization 실행 시 SQL 프레임워크 충돌 |
-| Feature Analysis POST | CRITERIA_SET 직접 생성 500 에러 → copy+PUT만 가능 |
-| statType 변경 | PUT으로 statType 변경 시 500 → aggregate id만 변경 가능 |
+| CUSTOM_FE | FA 생성 되지만 실행 시 SQL 프레임워크 충돌 |
+| FA POST | CRITERIA_SET 직접 생성 500 → copy+PUT만 가능 |
+| statType PUT | 500 에러 → aggregate id만 변경 가능 |
 
-### 5.3 기관 서버 이슈
+### 7.4 기관 서버 이슈
 
 | 유형 | 증상 | 원인 |
 |------|------|------|
 | HTTP -1 | 즉시 실패 | 서버 다운 / 방화벽 |
-| 504 Gateway Timeout (180s) | nginx 타임아웃 | 서버 과부하 / Achilles 미실행 |
+| 504 Timeout (180s) | nginx 타임아웃 | 서버 과부하 |
 | NO SOURCE | sources 빈 배열 | CDM source 미등록 |
-| estimation FAILED (즉시) | 시작시간 없이 실패 | CDM 환경 문제 |
-| estimation FAILED (0:07) | 수분 후 실패 | R 패키지 의존성 / 코호트 없음 |
-
-### 5.4 메모리 이슈
-
-- Cyclops PS fitting 시 sparse→dense 변환: 수십 GB 필요
-- 해결: CohortMethod 내부 함수 사용 (sparse 유지) 또는 subsampling
+| FAILED (즉시) | 시작시간 없이 실패 | CDM 환경 문제 |
+| FAILED (수분) | 수분 후 실패 | R 의존성 / 코호트 없음 |
 
 ---
 
-## 6. 분석 파이프라인 템플릿
+## 8. R 환경 설정
 
-### 6.1 새 연구 시작 순서
+| 항목 | 값 |
+|------|-----|
+| R | 4.5.2 |
+| Rtools | 4.5 (C:\rtools45) |
+| Java | JDK 21 (C:\Users\data1\java\jdk-21.0.10+7) |
+| CohortMethod | 4.2.2 (CmData 호환) |
+| Andromeda | 0.6.0 (CmData 호환) |
+| FeatureExtraction | 3.2.0 |
+| Cyclops | latest |
+| duckdb | **제거 필수** (RSQLite 충돌) |
+| ATLAS | v2.12.0 (feedernet) |
+| CmData 경로 | C:\Users\data1\Desktop\atlas_auto_cmdata\ |
+
+---
+
+## 9. 실행 기록
+
+### 9.1 Analysis 10957: v7b_noStop
+
+**Package**: E01_E04_clinical_ms_v7b_maxCohort50k_noStop | maxCohortSize=50000, stopOnError=false
+
+| CDM | 기관 | 상태 | execId |
+|-----|------|:----:|--------|
+| AUMC_5.3.1_11 | 아주대 | COMPLETE | 242052 |
+| CAUHS_5.3.1_03 | 중앙대 | COMPLETE | 242045 |
+| CHNUH_5.3.1_01 | 충남대 | COMPLETE | 242043 |
+| DAEGU_DONGSAN_06 | 대구동산 | COMPLETE | 242233 |
+| DCMC_5.3.1_06 | 대구가톨릭대 | COMPLETE | 242604 |
+| GNUCH_5.3.1_06 | 창원경상국립대 | COMPLETE | 242044 |
+| GNUH_5.3.1_07 | 경상국립대 | COMPLETE | 242474 |
+| HUMC_DONGTAN_04 | 동탄성심 | COMPLETE | 242475 |
+| ISH_5.3.1_05 | 국제성모 | COMPLETE | 242476 |
+| JCMJ_5.3.1_04 | 제천명지 | COMPLETE | 242477 |
+| KDH_5.3.1_08 | 강동성심 | COMPLETE | 242479 |
+| KHNMC_5.3.1_08 | 본원 | COMPLETE | 242603 |
+| KWMC_5.3.1_09 | 강원대 | COMPLETE | 242482 |
+| SCHCA_5.3.3_03 | 순천향 천안 | COMPLETE | 242602 |
+| SCHGM_5.3.3_03 | 순천향 구미 | COMPLETE | 242494 |
+| SCHSU_5.3.3_03 | 순천향 서울 | COMPLETE | 242048 |
+| SCHBC_5.3.1_03 | 순천향 부천 | RUNNING | 242485 |
+| KHMC_5.3.1_07 | 경희의료원 | RUNNING | 242480 |
+| EUMC_5.3.1_07 | 이화의료원 | FAILED | 242046 |
+| KYUH_5.3_01 | 건양대 | FAILED | 242599 |
+| MJH_5.3.1_06 | 명지 | FAILED | 242598 |
+| SEJONG_BCN/ICN | 세종 | FAILED | — |
+
+### 9.2 Analysis 10961: biomarker_v1
+
+**Package**: B01_B23_biomarker_ms_v1 | maxCohortSize=50000, stopOnError=false
+
+분석 포함 16개 기관 중 COMPLETE 17 / RUNNING 5 / WAITING 2 / FAILED 5 (2026-04-14 기준).
+상세 execId: execution_records 삭제 전 백업 참조 또는 feedernet API로 실시간 조회.
+
+### 9.3 Characterization: Bio17_PrePost
+
+17 biomarker × 5 time window = 85 FAs. KHNMC에서 생성 → 13개 기관 배포.
+2026-04-15 기준: 7/14 완료, 6 실행 중, 1 실패 (JCMJ).
+
+---
+
+## 10. 분석 파이프라인 템플릿
+
+### 10.1 새 연구 시작 순서
 
 ```
-1. ATLAS에서 cohort 정의 + estimation 설계
-2. feedernet에서 analysis 생성 + ATLAS import
-3. 전체 기관 execution 트리거
-4. Cloud monitoring 설정 (GCP Cloud Function)
-5. 완료 기관 result.zip 다운로드 (로컬)
-6. CmData 추출 (zip → SQLite)
-7. IPD pooled analysis (Cyclops PS + Cox)
-8. 시간 구간별 분석
-9. Negative control calibration
-10. Characterization (보조 기술통계)
+1.  ATLAS에서 cohort 정의 + estimation 설계
+1b. 공변량 설정 검토 (builder.py covariate_settings — 연구마다 다름)
+2.  feedernet analysis 생성 + ATLAS import
+3.  전체 기관 execution 트리거
+4.  Cloud monitoring 설정 (GCP Cloud Function)
+5.  완료 기관 result.zip 다운로드
+6.  CmData 추출 (zip → SQLite)
+7.  IPD pooled analysis (Cyclops PS + Cox)
+8.  시간 구간별 분석 (필요 시)
+9.  Negative control calibration
+10. Characterization (보조 기술통계, 필요 시)
 11. 결과 정리 + 논문
 ```
 
-### 6.2 주요 스크립트
+### 10.2 주요 스크립트
 
 | 스크립트 | 용도 |
 |---------|------|
@@ -357,75 +412,76 @@ POST /cohort-characterization/{new_id}/generation/{sk}
 | `create_biomarker_fas_v2.py` | Characterization FA 자동 생성 (copy+PUT) |
 | `cloud_monitor/main.py` | GCP Cloud Function 모니터링 |
 
-### 6.3 결과 저장 구조
+### 10.3 결과 저장 구조
 
 ```
 C:\Users\data1\Desktop\atlas_auto_cmdata\
-├── results_v7b/           # v7b result.zip (기관별)
-├── results_biomarker/     # biomarker result.zip
-├── cmData_v7b/            # CmData SQLite (기관별/비교별)
+├── results_v7b/               # result.zip (기관별)
+├── results_biomarker/
+├── cmData_v7b/                # CmData SQLite
 ├── cmData_biomarker/
-├── pooled_results_v7b/    # Cyclops pooled HR
-├── pooled_results_biomarker/
-├── pooled_results_timewindow/    # 시간 구간별 HR
-├── pooled_results_timewindow_bio/
-├── pooled_results_nc/     # Negative control HR
-├── calibration_results/   # Calibrated HR
-├── concept_frequency/     # 기관별 concept frequency
-└── char_*.json            # Characterization 결과
+├── pooled_14sites_v7b/        # 14-site Cyclops HR
+├── pooled_14sites_bio/
+├── pooled_10sites_v7b/        # 10-site 민감도 분석
+├── pooled_10sites_bio/
+├── pooled_*_nc/               # Negative control HR
+├── calibration_results/       # Calibrated HR
+├── concept_frequency/         # 기관별 concept frequency
+└── char_*.json                # Characterization 결과
 ```
 
 ---
 
-## 7. 향후 활용 계획
+## 11. 향후 활용
 
-### 7.1 새 연구 주제 적용
+### 11.1 새 연구 적용
 
 이 시스템은 **연구 주제만 바꾸면** 동일 파이프라인으로 실행 가능:
 
 1. **코호트 변경**: ATLAS에서 새 target/comparator/outcome 정의
 2. **Estimation 생성**: `atlas_auto` 패키지로 자동 생성
+   - **공변량 설정 필수 검토**: `builder.add_cm_analysis(covariate_settings=custom_cov)`
+   - 이번 연구 기본값: Demographics(Gender, AgeGroup) + ConditionLongTerm + DrugLongTerm → 7,751 covariates
+   - 연구에 따라 Measurement, Procedure, CharlsonIndex, VisitCount 등 추가/변경 필요
+   - TCO별 `excluded_covariate_concept_ids`로 특정 concept 제외 가능
 3. **실행 + 모니터링**: 동일 API + Cloud Function
 4. **분석**: 동일 R 스크립트 (outcome ID만 변경)
 
-### 7.2 시스템 개선 방향
+### 11.2 시스템 개선 방향
 
 | 개선 사항 | 우선순위 | 설명 |
 |----------|:--------:|------|
 | feedernet 커스텀 패키지 업로드 | 높음 | 에비드넷 문의 또는 UI 경로 확인 |
-| Characterization 다기관 자동화 | 중간 | 기관별 ATLAS에 FA 생성 + 실행 |
 | 결과 자동 취합 파이프라인 | 중간 | 다운로드 → 추출 → 분석 → 보고서 |
 | 음성 대조군 자동 선택 | 낮음 | CohortMethod NC 선택 자동화 |
 | Shiny 대시보드 | 낮음 | 실시간 실행 상태 + 결과 시각화 |
 
-### 7.3 재사용 가능한 자산
+### 11.3 재사용 자산
 
 | 자산 | 위치 | 설명 |
 |------|------|------|
 | `src/atlas_auto/` | GitHub | feedernet API 클라이언트 (pip installable) |
 | `R/pooled_analysis/` | GitHub | IPD pooled analysis 파이프라인 |
-| `cloud_monitor/` | GCP 배포 | Telegram 알림 모니터링 |
-| `OHDSI_REPOS.md` | GitHub | OHDSI 패키지 레퍼런스 |
-| `docs/` | GitHub | 방법론, 실행 기록, 논문 구조 |
-| `automation/` | 로컬 | 레거시 스크립트 (참고용) |
+| `cloud_monitor/` | GCP | Telegram 알림 모니터링 |
+| `docs/` | GitHub | 지식 베이스, 논문, 가이드 |
 
 ---
 
-## 8. 연구별 체크리스트
+## 12. 연구별 체크리스트
 
-새 연구를 시작할 때 이 체크리스트를 따르세요:
+새 연구를 시작할 때:
 
 - [ ] ATLAS에서 코호트 정의 (target, comparator, outcomes, NCs)
-- [ ] Estimation 설계 (PS settings, risk window, covariates)
+- [ ] Estimation 설계 (PS settings, risk window)
+- [ ] **공변량 설정 검토** (`builder.py` covariate_settings 커스텀)
 - [ ] feedernet analysis 생성 + ATLAS import
 - [ ] 전체 기관 execution 트리거
 - [ ] Cloud monitoring 활성화
 - [ ] 완료 기관 result.zip 다운로드
-- [ ] CmData 추출 (zip → SQLite 폴더)
+- [ ] CmData 추출 (zip → SQLite)
 - [ ] R 환경 확인 (패키지 버전 호환성, duckdb 제거)
 - [ ] IPD pooled analysis (Cyclops 1:1 PS matching + Cox)
 - [ ] 시간 구간별 분석 (필요 시)
-- [ ] Negative control HR 산출
-- [ ] EmpiricalCalibration 적용
+- [ ] Negative control HR + EmpiricalCalibration
 - [ ] Characterization (보조 기술통계, 필요 시)
-- [ ] 결과 정리 + 논문/보고서 작성
+- [ ] 결과 정리 + 논문/보고서
