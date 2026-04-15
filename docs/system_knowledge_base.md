@@ -97,6 +97,13 @@
 - Achilles는 해당 concept 직접 빈도만 반환 (descendant 미포함)
 - evidnet은 R 패키지 (REST API 아님) — execute(), createCohorts() 등 R 함수
 - **cohortdefinition vs cohort-definition**: 하이픈 없는 `/cohortdefinition/`이 정확. 하이픈 있으면 404. 같은 패턴: `/cohort-characterization/`은 하이픈 있음, `/feature-analysis/`도 하이픈 있음 — 일관성 없으므로 항상 확인
+- **DQM 환경**: feedernet 내부 전용 인프라. 외부 접근 불가 (DNS NXDOMAIN).
+  - DQM ATLAS: `api.feedernet.co.kr/atlas/v2.7.6/...`
+  - Docker 관리: `proxy.feedernet.kr/...`
+  - 각 기관 CDM: PostgreSQL (db=omop)
+  - 37개 기관 DQM 존재 (우리 연구 참여 기관보다 많음)
+  - 커스텀 쿼리 실행하려면 에비드넷 관리자 협조 필요
+  - 상세 정보: `atlas_auto_cmdata/SENSITIVE_DO_NOT_COMMIT/` (git 미포함)
 
 ---
 
