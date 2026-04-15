@@ -12,9 +12,94 @@
 
 ---
 
-## 1. feedernet API 구조
+## 1. API 엔드포인트 치트시트
 
-### 1.1 인증
+### 포탈 API (`https://www.feedernet.com/api/v1/`)
+
+| Method | Endpoint | 용도 |
+|--------|----------|------|
+| POST | `/auth/login` | 로그인 (email/password → cookie) |
+| GET | `/dashboard/organizations` | 기관 목록 |
+| POST | `/projects/{pid}/analysis` | analysis 생성 |
+| GET | `/projects/{pid}/analysis` | analysis 목록 (**복수** projects) |
+| GET | `/projects/{pid}/analysis/{aid}/atlas` | ATLAS 기관 목록 |
+| GET | `/projects/{pid}/analysis/{aid}/atlas/{atlasId}` | 해당 ATLAS estimation 목록 |
+| POST | `/projects/{pid}/analysis/{aid}/atlas/{atlasId}` | estimation import (body: atlasResearchId, researchType) |
+| POST | `/project/{pid}/analysis/{aid}/execution` | 실행 트리거 (**단수** project, body: cdmIds) |
+| GET | `/project/{pid}/analysis/{aid}/execution` | 실행 상태 조회 |
+| DELETE | `/project/{pid}/analysis/{aid}/execution` | 실행 취소 (body: executionId) |
+| GET | `.../execution/{eid}/files` | 결과 파일 목록 |
+| GET | `.../execution/{eid}/files/{fid}/download` | result.zip 다운로드 |
+
+### ATLAS WebAPI (`/api/v1/atlas/{group_id}/{site_id}/`)
+
+| Method | Endpoint | 용도 |
+|--------|----------|------|
+| GET | `/info` | ATLAS 버전 확인 |
+| GET | `/source/sources` | CDM source 목록 |
+| **코호트** | | |
+| GET | `/cohortdefinition` | 코호트 목록 |
+| GET | `/cohortdefinition/{id}` | 코호트 상세 |
+| POST | `/cohortdefinition` | 코호트 생성 |
+| POST | `/cohortdefinition/{id}/generate/{sourceKey}` | 코호트 Generate |
+| GET | `/cohortdefinition/{id}/info` | Generate 상태/결과 |
+| GET | `/cohortdefinition/{id}/report/{sourceKey}` | 코호트 리포트 (N수 등) |
+| **Estimation** | | |
+| GET | `/estimation/` | estimation 목록 |
+| GET | `/estimation/{id}` | estimation 상세 (specification 포함) |
+| GET | `/estimation/{id}/copy` | estimation 복사 |
+| PUT | `/estimation/{id}` | estimation 수정 |
+| GET | `/estimation/{id}/export` | estimation export (zip용 JSON) |
+| POST | `/estimation/import` | estimation import |
+| GET | `/estimation/{id}/generation` | 실행 상태 |
+| **Characterization** | | |
+| GET | `/cohort-characterization?size=200` | characterization 목록 |
+| POST | `/cohort-characterization` | characterization 생성 (FA 비어있을 수 있음) |
+| GET | `/cohort-characterization/{id}/export` | export (FA 포함) |
+| POST | `/cohort-characterization/import` | import (**FA 정상 등록됨, 권장**) |
+| POST | `/cohort-characterization/{id}/generation/{sourceKey}` | 실행 |
+| GET | `/cohort-characterization/{id}/generation` | 실행 상태 |
+| GET | `/cohort-characterization/generation/{genId}/result?size=500` | 결과 조회 |
+| **Feature Analysis** | | |
+| GET | `/feature-analysis?size=200&type=PRESET` | PRESET FA 목록 |
+| GET | `/feature-analysis/{id}/copy` | FA 복사 |
+| PUT | `/feature-analysis/{id}` | FA 수정 (2단계 PUT 필요) |
+| **Vocabulary** | | |
+| GET | `/vocabulary/concept/{id}` | concept 상세 |
+| GET | `/vocabulary/search/{query}` | concept 검색 |
+| **Achilles** | | |
+| GET | `/cdmresults/{sourceKey}/{domain}` | concept frequency (condition/measurement/drug 등) |
+| GET | `/cdmresults/{sourceKey}/measurement/{conceptId}` | measurement drilldown (unit, distribution) |
+
+### 추가 유용 엔드포인트
+
+| Method | Endpoint | 용도 |
+|--------|----------|------|
+| GET | `/estimation/{id}/download` | R 패키지 zip 직접 다운로드 |
+| GET | `/vocabulary/concept/{id}/descendants` | 하위 concept 조회 |
+| POST | `/vocabulary/{sourceKey}/resolveConceptSetExpression` | concept set → 실제 concept 해석 |
+| GET | `/cdmresults/{sourceKey}/dashboard` | CDM 대시보드 (전체 요약) |
+| GET | `/cdmresults/{sourceKey}/person` | 인구통계 |
+| GET | `/cdmresults/{sourceKey}/observationPeriod` | 관찰 기간 |
+| GET | `/cohortdefinition/{id}/copy` | 코호트 복사 |
+| GET | `/feature-analysis/aggregates` | 집계 방식 목록 |
+
+전체 엔드포인트 (70+): `atlas_auto_cmdata/atlas_webapi_endpoints_full.csv`
+원본 소스: `tool_package/WebAPI-master/` (Java JAX-RS), `tool_package/evidnet/` (R 패키지, REST API 아님)
+
+### 주의사항
+
+- 포탈 API: `project`(단수) vs `projects`(복수) 혼용
+- Characterization 직접 POST는 FA가 비어있을 수 있음 → **export/import 방식 권장**
+- Estimation 직접 POST 500 에러 → **copy + PUT 방식 사용**
+- Achilles는 해당 concept 직접 빈도만 반환 (descendant 미포함)
+- evidnet은 R 패키지 (REST API 아님) — execute(), createCohorts() 등 R 함수
+
+---
+
+## 2. feedernet API 구조
+
+### 2.1 인증
 
 ```python
 client.login_portal(email, password)
