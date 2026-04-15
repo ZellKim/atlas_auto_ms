@@ -47,3 +47,4 @@ R/pooled_analysis/cmData*/
 R/pooled_analysis/matched_results*/
 R/pooled_analysis/export_combined/
 R/pooled_analysis/output/
+*.log
