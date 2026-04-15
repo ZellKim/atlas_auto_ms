@@ -559,7 +559,19 @@ PRESET MeasurementValueLongTerm × 5 시간 구간, parameters 오버라이드.
 | 11 | feedernet cdmId ≠ atlasId ≠ group_id | execution API에서 CDM not found | 기존 execution에서 cdmId 매핑 추출 |
 | 12 | feedernet estimation 서버 불안정으로 즉시 실패 | 일부 기관 FINISHED_WITH_ERROR | 재실행 |
 
-### 10.2 구조적 교훈
+### 10.2 기록 우선순위
+
+변동사항을 기록할 때 **재사용 가치가 높은 것부터** 기록한다:
+
+1. **ID 매핑, 인프라 정보** — 기관별 4종 ID, source 매핑 등. 신규 연구 때 가장 먼저 필요하고, 없으면 매번 헤맴
+2. **API 제약/우회법** — feedernet/ATLAS에서 안 되는 것과 대안. 시행착오 방지
+3. **concept 매핑** — 기관별 measurement/condition concept 차이. 연구 설계의 핵심
+4. **분석 방법론** — PS matching, calibration 등. 코드에 이미 있으므로 후순위
+5. **실행 기록** — 특정 연구의 상태. 일시적이므로 최하 우선순위
+
+원칙: **"다음 연구에서 처음부터 다시 찾아야 하는 정보"가 가장 중요하다.**
+
+### 10.3 구조적 교훈
 
 1. **데이터 검증을 estimation 전에 수행** — Achilles로 기관별 concept 전수 조사 후 기관 선정
 2. **measurement concept은 descendant 없음** — condition과 달리 OR로 변이 concept을 직접 포함해야 함
