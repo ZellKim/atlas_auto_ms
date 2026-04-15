@@ -28,12 +28,12 @@ STATE_BLOB = "monitor/feedernet_monitor_state.json"
 
 # 모니터링 대상
 MONITOR_TARGETS = {
-    10957: {
-        "name": "v7b_noStop (E01_E04_clinical_ms_v7b_maxCohort50k_noStop)",
+    11000: {
+        "name": "clinical_v8 (E01_E04_clinical_ms_v8_multiConcept)",
         "project_id": 2908,
     },
-    10961: {
-        "name": "biomarker_v1 (B01_B23_biomarker_ms_v1)",
+    11001: {
+        "name": "biomarker_v2 (B01_B23_biomarker_ms_v2_multiConcept)",
         "project_id": 2908,
     },
 }
