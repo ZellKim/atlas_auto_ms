@@ -568,6 +568,128 @@ class FedernetClient:
         return resp.json()
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # Vocabulary & Achilles — concept 검증
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    def get_concept(self, concept_id: int) -> dict:
+        """Concept 상세 조회"""
+        resp = self.session.get(f"{self.webapi_url}/vocabulary/concept/{concept_id}", timeout=15)
+        resp.raise_for_status()
+        return resp.json()
+
+    def get_descendants(self, concept_id: int) -> list:
+        """Concept의 하위(descendant) concept 목록 조회"""
+        resp = self.session.get(
+            f"{self.webapi_url}/vocabulary/concept/{concept_id}/descendants", timeout=30)
+        resp.raise_for_status()
+        return resp.json()
+
+    def get_achilles_frequency(self, source_key: str, domain: str) -> list:
+        """Achilles concept frequency 조회 (condition/drug/measurement/procedure/observation)"""
+        resp = self.session.get(
+            f"{self.webapi_url}/cdmresults/{source_key}/{domain}", timeout=120)
+        resp.raise_for_status()
+        return resp.json()
+
+    def get_achilles_drilldown(self, source_key: str, domain: str, concept_id: int) -> list:
+        """Achilles concept drilldown (unit, distribution 등)"""
+        resp = self.session.get(
+            f"{self.webapi_url}/cdmresults/{source_key}/{domain}/{concept_id}", timeout=30)
+        resp.raise_for_status()
+        return resp.json()
+
+    def check_concept_availability(self, concept_id: int, source_key: str, domain: str = "condition",
+                                   include_descendants: bool = True) -> dict:
+        """기관에서 concept이 존재하는지 확인 (descendant 포함).
+
+        Returns:
+            {
+                "concept_id": int,
+                "direct_count": int,         # 해당 concept 직접 빈도
+                "descendant_count": int,      # descendant들의 합산 빈도
+                "total_count": int,           # direct + descendant
+                "descendant_concepts": [...], # 빈도 있는 descendant 목록
+            }
+        """
+        # Achilles frequency 가져오기
+        try:
+            achilles = self.get_achilles_frequency(source_key, domain)
+        except Exception:
+            return {"concept_id": concept_id, "direct_count": 0,
+                    "descendant_count": 0, "total_count": 0, "descendant_concepts": []}
+
+        freq_map = {int(r.get("conceptId", 0)): int(r.get("numPersons", 0)) for r in achilles}
+
+        direct = freq_map.get(concept_id, 0)
+
+        desc_total = 0
+        desc_list = []
+        if include_descendants:
+            try:
+                descendants = self.get_descendants(concept_id)
+                for d in descendants:
+                    did = d.get("CONCEPT_ID", 0)
+                    n = freq_map.get(did, 0)
+                    if n > 0:
+                        desc_total += n
+                        desc_list.append({"concept_id": did,
+                                          "concept_name": d.get("CONCEPT_NAME", ""),
+                                          "count": n})
+            except Exception:
+                pass
+
+        return {
+            "concept_id": concept_id,
+            "direct_count": direct,
+            "descendant_count": desc_total,
+            "total_count": direct + desc_total,
+            "descendant_concepts": sorted(desc_list, key=lambda x: -x["count"]),
+        }
+
+    def check_concept_across_sites(self, concept_id: int, sites: list, domain: str = "condition",
+                                   include_descendants: bool = True) -> dict:
+        """여러 기관에서 concept 가용성 한번에 확인.
+
+        Args:
+            concept_id: 확인할 concept ID
+            sites: [(group_id, site_id, code), ...] 리스트
+            domain: condition/drug/measurement/procedure/observation
+            include_descendants: descendant 포함 여부
+
+        Returns:
+            {code: {"total_count": N, "direct_count": N, ...}, ...}
+        """
+        results = {}
+        for gid, sid, code in sites:
+            try:
+                self.connect_site(gid, sid)
+                sources = self.get_sources()
+                # 최신 static source 선택
+                import re as _re
+                static = []
+                for s in sources:
+                    sn = s["sourceName"]
+                    if "monthly" in sn.lower() or "weekly" in sn.lower():
+                        continue
+                    m = _re.search(r"_(\d+)$", sn)
+                    if m:
+                        static.append((int(m.group(1)), s))
+                latest = sorted(static, key=lambda x: x[0])[-1][1] if static else (
+                    sources[-1] if sources else None)
+                if not latest:
+                    results[code] = {"total_count": 0, "error": "NO SOURCE"}
+                    continue
+
+                sk = latest["sourceKey"]
+                result = self.check_concept_availability(concept_id, sk, domain, include_descendants)
+                results[code] = result
+                logger.info(f"{code}: concept {concept_id} total={result['total_count']}")
+            except Exception as e:
+                results[code] = {"total_count": 0, "error": str(e)[:60]}
+
+        return results
+
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # 유틸리티
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
