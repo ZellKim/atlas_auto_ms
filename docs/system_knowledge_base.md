@@ -447,6 +447,11 @@ GET /cdmresults/{sourceKey}/measurement/{conceptId}     # value distribution
 domain: condition, drug, procedure, measurement, observation, visit.
 Distribution: min, P10, P25, median, P75, P90, max. **CDM 전체 환자** 대상 (코호트 특이적 아님).
 
+**23개 기관 × 5 domain Achilles 수집 완료** (2026-04-15):
+저장 위치: `atlas_auto_cmdata/concept_frequency/{기관코드}_{domain}.csv`
+신규 연구 시 기관별 concept 가용성 확인은 이 파일을 먼저 참조.
+한계: 해당 concept 직접 빈도만 반환, descendant는 별도 검색 필요.
+
 ---
 
 ## 6. 분석 방법론
