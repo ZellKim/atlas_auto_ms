@@ -370,16 +370,16 @@ df$time <- pmin(daysToObsEnd, windowEnd) - windowStart + 1
 - NC HR 분포 기준: median ≈ 1.0, 유의 비율 ≈ 5%
 - vs GenPop은 bias 심함 (median 0.654, 27.7% 양성) → vs Chol, vs Hernia가 primary
 
-### 6.5 분석 규모 (충수절제술 연구)
+### 6.5 분석 규모 (충수절제술 연구, v2 확정)
 
-| 항목 | 수 |
-|------|---:|
-| 기관 (primary) | 14 |
-| 비교군 | 3 (Cholecystectomy, General Pop, Hernia repair) |
-| Clinical outcomes | 11 |
-| Biomarker outcomes | 17 |
-| 시간 구간 | 6 |
-| Negative controls | 48+ |
+| 항목 | 수 | 비고 |
+|------|---:|------|
+| 기관 | 13 | GNUH 제외 (CRP 없음) |
+| 비교군 | 2 primary + 1 supplementary | vs Chol, vs Hernia (primary) / vs GenPop (supplementary) |
+| Clinical outcomes | 11 | AMI v2 (입원 제거), T2DM v2 (fasting glucose 추가) |
+| Biomarker outcomes | 22 | GFR 제외, 6개 multi-concept OR |
+| 시간 구간 | 6 | |
+| Negative controls | 48+ | |
 
 ---
 
@@ -509,11 +509,51 @@ source("C:/Users/data1/Desktop/atlas_auto_cmdata/ipd_10sites_bio.R")
 분석 포함 16개 기관 중 COMPLETE 17 / RUNNING 5 / WAITING 2 / FAILED 5 (2026-04-14 기준).
 상세 execId: execution_records 삭제 전 백업 참조 또는 feedernet API로 실시간 조회.
 
-### 9.3 Characterization: PRESET × 5구간 (확정)
+### 9.3 Analysis 11000/11001: v8 full (2026-04-15)
+
+clinical_v8 + biomarker_v2 전체 outcome. 13+2기관(EUMC/KHMC 추가) 실행 중.
+
+### 9.4 Analysis 11003/11004: v8 changed only (2026-04-15)
+
+**변경된 outcome만 별도 estimation**으로 분리 실행 — 실행 시간 단축.
+- 11003 (clinical): 1270(T2DM v2), 1271(AMI v2) — 2 outcomes
+- 11004 (biomarker): 1262(WBC), 1263(Neutro), 1266(Mono), 1265(GlucDM), 1267(GlucPreDM), 1268(Hgb) — 6 outcomes
+- 13개 기관 실행 중. 변경 안 된 outcome은 기존 v7b/v1 result 재사용.
+
+### 9.5 Characterization: PRESET × 5구간
 
 PRESET MeasurementValueLongTerm × 5 시간 구간, parameters 오버라이드.
-14개 기관 배포 → concept 가용성 검증 → **7개 기관 확정** (AUMC, GNUCH, GNUH, HUMC, JCMJ, KDH, KHNMC).
-나머지 7개 기관은 CBC concept 누락으로 제외 (CHNUH 결과 없음, DCMC/ISH/KWMC/SCHCA/SCHGM/SCHSU CBC 불완전).
+13개 기관 배포 완료. Achilles 재수집 + multi-concept OR 후 13개 기관 확정.
+
+---
+
+## 10. 2026-04-15 발견/오류/수정 전체 기록
+
+### 10.1 발견 사항
+
+| # | 발견 | 영향 | 대응 |
+|---|------|------|------|
+| 1 | CRITERIA_SET FA에서 concept이 안 잡힘 (any_measurement로 합산) | Bio17 Characterization 14개 기관 전부 무효 | PRESET FA 방식으로 전환 |
+| 2 | 기관별 measurement concept ID가 다름 (Neutro %, #/vol 등) | estimation에서 일부 기관 이벤트 0 | multi-concept OR 코호트 설계 |
+| 3 | Achilles measurement 파일 6개 기관 누락 | 7개 기관으로 오판 (실제 13개 가용) | Achilles API 재수집 → 13개 확정 |
+| 4 | concept 3002385를 Monocytes로 오인 | 실제는 RDW (적혈구분포폭) | 정확한 concept 3001604로 교체 |
+| 5 | Hgb estimation concept(3027484)과 Achilles 주력 concept(3000963) 불일치 | Hgb 이벤트 누락 가능 | multi-concept OR (둘 다 포함) |
+| 6 | ANA는 ValueAsConcept (양성/음성) 방식 | Characterization 기술통계 불가 | estimation만 포함, 기술통계 제외 |
+| 7 | Acute MI 코호트에 Inpatient Visit 제한 | 이벤트 수 과소 추정 | 입원 조건 제거 (v2) |
+| 8 | T2DM Lab 확인에 Fasting glucose(3037110) 누락 | 일부 기관에서 lab 확인 실패 | OR로 추가 (v2) |
+| 9 | vs GenPop comparator maxCohortSize=50K capping | 리뷰어 지적 가능 | supplementary로 이동 |
+| 10 | feedernet estimation POST로 직접 생성 500 에러 | cohortDefinitions 누락 | ATLAS copy+PUT 방식으로 우회 |
+| 11 | feedernet cdmId ≠ atlasId ≠ group_id | execution API에서 CDM not found | 기존 execution에서 cdmId 매핑 추출 |
+| 12 | feedernet estimation 서버 불안정으로 즉시 실패 | 일부 기관 FINISHED_WITH_ERROR | 재실행 |
+
+### 10.2 구조적 교훈
+
+1. **데이터 검증을 estimation 전에 수행** — Achilles로 기관별 concept 전수 조사 후 기관 선정
+2. **measurement concept은 descendant 없음** — condition과 달리 OR로 변이 concept을 직접 포함해야 함
+3. **concept 참조는 CONCEPT_ID 기준** — LOINC CONCEPT_CODE로 매핑하면 오류 발생
+4. **변경된 outcome만 별도 estimation** — 전체를 다시 돌릴 필요 없이 변경분만 분리 실행 가능
+5. **Characterization은 PRESET FA + parameters 오버라이드** — CRITERIA_SET copy+PUT은 concept 소실
+6. **feedernet ID 체계**: group_id(ATLAS) ≠ orgId(feedernet portal) ≠ cdmId(execution) — 매핑 필수
 
 ---
 
