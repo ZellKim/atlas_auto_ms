@@ -57,35 +57,9 @@ The remaining [TBD] institutions contributed data spanning [TBD]–2025, with ob
 
 **Clinical outcomes ([TBD])**: Ulcerative colitis, Crohn's disease, asthma, atopic dermatitis, rheumatoid arthritis, Clostridioides difficile infection, Parkinson's disease, biliary calculus, acute myocardial infarction, type 2 diabetes mellitus (lab-confirmed), and colorectal cancer.
 
-**Biomarker outcomes ([TBD])**: Defined as first-onset laboratory abnormality after index date, requiring: (1) at least one normal value within 365 days prior to index in any available measurement concept (ANY criterion), and (2) no prior abnormal values in entire history across all measurement concepts (ALL criterion). This design captures exclusively *de novo* post-surgical abnormalities.
+**Biomarker outcomes ([TBD])**: Defined as first-onset laboratory abnormality after index date, requiring: (1) at least one normal value within 365 days prior to index, and (2) no prior abnormal values in entire history. This design captures exclusively *de novo* post-surgical abnormalities. For biomarkers with multiple measurement concepts or units across institutions, variant concepts and unit-appropriate cutoffs were applied to maximize capture (details in Supplementary Methods).
 
-For biomarkers with multiple measurement concepts across institutions (e.g., segmented neutrophils vs. total neutrophils), all variant concepts were included as OR conditions with appropriate unit-specific cutoffs. For biomarkers with different units across institutions (e.g., CRP in mg/dL vs. mg/L), separate outcome cohorts were created for each unit, and site-appropriate results were selected during analysis.
-
-| Biomarker | Abnormality Criterion | Reference |
-|-----------|----------------------|-----------|
-| Leukocytes (WBC) | > 11 ×10³/μL | WHO standard |
-| Neutrophils (%) | > 70% | CBC differential |
-| Neutrophils (#) | > 7.7 ×10³/μL or > 7700 /μL | CBC differential |
-| Lymphocytes | < 20% | CBC differential |
-| Eosinophils | > 7% | Normal range 1–7% |
-| Monocytes | > 12% or > 0.8 ×10³/μL | Normal range 2–12% |
-| Basophils | > 1% | Normal range 0–1% |
-| CRP | > 0.8 mg/dL or > 8 mg/L | Clinical reference |
-| ESR | > 20 mm/hr | Clinical reference |
-| Rheumatoid factor | > 13 IU/mL | Clinical reference |
-| ANA | Positive (ValueAsConcept) | Clinical reference |
-| Glucose (DM) | ≥ 126 mg/dL | ADA criteria |
-| Glucose (preDM) | 100–125 mg/dL | ADA criteria |
-| HbA1c | ≥ 6.5% | ADA criteria |
-| LDL | ≥ 160 mg/dL | ATP III |
-| Triglyceride | ≥ 200 mg/dL | ATP III |
-| HDL | < 40 mg/dL | ATP III |
-| Uric acid | > 7 mg/dL | Clinical reference |
-| ALT | > 40 U/L | Clinical reference |
-| GGT | > 50 U/L | Clinical reference |
-| ALP | > 120 U/L | Clinical reference |
-| Albumin | < 3.5 g/dL | Clinical reference |
-| Hemoglobin | < 12 g/dL | Clinical reference |
+Biomarker categories included: immune cells (WBC, neutrophils, lymphocytes, eosinophils, monocytes, basophils), inflammatory markers (CRP, ESR, rheumatoid factor, ANA), metabolic markers (glucose, HbA1c, LDL, triglyceride, HDL), hepatic markers (ALT, GGT, ALP, albumin), and hematologic markers (uric acid, hemoglobin). Cutoffs were based on established clinical reference ranges (Supplementary Table S1).
 
 **Negative control outcomes ([TBD])**: Conditions with no known causal relationship to appendectomy, used for empirical calibration.
 
@@ -169,22 +143,19 @@ The time-window analysis is critical for distinguishing surgical stress from app
 ### 4.4 Strengths
 
 1. Multi-center design using standardized OMOP CDM across [TBD] institutions
-2. IPD pooled analysis with Cyclops propensity score matching — more powerful than meta-analysis
+2. IPD pooled analysis with Cyclops propensity score matching — more powerful than aggregate meta-analysis
 3. Two active surgical comparators enabling distinction of surgical stress vs. appendix-specific effects
-4. Comprehensive biomarker outcomes — first study to simultaneously assess [TBD] biomarkers
-5. Time-window stratified analysis — novel approach to temporal characterization
-6. Empirical calibration with [TBD] negative controls — rigorous bias assessment
-7. Pre-study data validation — institutional concept availability verified via Achilles reports
+4. Comprehensive biomarker outcomes — first study to simultaneously assess [TBD] biomarkers alongside clinical outcomes
+5. Time-window stratified analysis — novel approach to temporal characterization of immune changes
+6. Empirical calibration with [TBD] negative controls — rigorous assessment and adjustment for systematic bias
 
 ### 4.5 Limitations
 
 1. Retrospective observational design — association, not causation
 2. Biomarker outcomes are binary (first abnormality) — does not capture continuous value changes directly (supplementary characterization provides this)
-3. Measurement concept heterogeneity — different institutions use different LOINC codes for the same laboratory test, requiring multi-concept OR cohort design
-4. Unit heterogeneity — CRP measured in mg/dL at some institutions and mg/L at others, requiring dual-cutoff approach
-5. Korean population — generalizability to other ethnicities requires further study
-6. Appendicitis severity (perforated vs. non-perforated) not distinguishable in CDM
-7. General population comparator excluded from primary analysis due to maxCohortSize capping and substantial negative control bias
+3. Korean population — generalizability to other ethnicities requires further study
+4. Appendicitis severity (perforated vs. non-perforated) not distinguishable in CDM
+5. Laboratory measurement heterogeneity across institutions required harmonization procedures (see Supplementary Methods)
 
 ### 4.6 Clinical Implications
 
@@ -222,7 +193,20 @@ The time-window analysis is critical for distinguishing surgical stress from app
 
 ## Supplementary Materials
 
-- General population comparison results
-- Full negative control outcome list and HRs
-- Institution-specific biomarker concept mapping
-- Unit-specific CRP and Neutrophil results by institution
+### Supplementary Methods
+- Biomarker outcome cohort definitions with cutoffs (Table S1)
+- Multi-concept harmonization: variant measurement concepts across institutions
+- Unit heterogeneity handling: dual-cutoff approach for CRP (mg/dL vs mg/L) and neutrophils (#/volume unit differences)
+- Institution-specific concept availability verification via Achilles data quality reports
+- feedernet distributed research network architecture
+
+### Supplementary Tables
+- Table S1: Complete biomarker outcome definitions with concept IDs and cutoffs
+- Table S2: Institution-specific measurement concept mapping
+- Table S3: General population comparison results
+- Table S4: Full negative control outcome list and HRs
+- Table S5: Unit-specific CRP and Neutrophil results by institution
+
+### Supplementary Figures
+- Figure S1: Institution-specific forest plots
+- Figure S2: PS distribution before/after matching by comparator
