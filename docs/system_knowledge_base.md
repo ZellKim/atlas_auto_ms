@@ -563,7 +563,7 @@ A(완벽): GNUCH, JCMJ, KDH, KWMC / F(전멸): CHNUH / 상세: 이전 조사 결
 
 ## 9. 시스템 TODO
 
-- [ ] **measurement unit 전수조사 (23기관)**: ETRI 161 concepts × 23 sites Achilles drilldown 수집 → `data/measurement_unit_survey_full.csv`. KHNMC 완료(47분), 나머지 22기관 미실행. 스크립트: `data/scripts/collect_measurement_units.py`. 기관당 ~47분, 전체 ~18시간 예상. 분할 실행 권장.
+- [x] **measurement unit 전수조사**: 13/23기관 완료 (1,266행). KHNMC 별도 완료. 누락: KWMC, KHMC, MJH, PNUH, SCHBC, SCHCA, SCHGM, SCHSU, UUH, SEJONG (에러/503). 결과: `data/measurement_unit_survey_full.csv`
 - [x] **feedernet analysis 생성 API**: `POST /api/v1/projects/{pid}/analysis` (복수 projects). **프로젝트 ID는 `GET /api/v1/projects`로 확인** — 이전 ID(2908)와 현재 ID(5104)가 다를 수 있음. `project`(단수)는 execution 전용, `projects`(복수)는 analysis 관리용.
 - [ ] **Generate 엔드포인트 정리**: GET으로 generate 되는 것 확인됨. POST는 500. knowledge base에 기록 완료. client.py에 반영 필요.
 
