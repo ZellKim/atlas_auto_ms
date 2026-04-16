@@ -45,7 +45,72 @@ client.login_portal(email, password)
 client.connect_site(group_id=7, site_id=203)  # KHNMC
 ```
 
-### 2.2 Execution 상태 확인
+### 2.2 Estimation 생성 → 실행 전체 흐름
+
+```python
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Step 1: 프로젝트 ID 확인 (하드코딩 금지!)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+resp = session.get(f'{base}/api/v1/projects')           # ★ 복수 projects
+projects = resp.json().get('content', [])
+pid = next(p['id'] for p in projects if '연구이름' in p['name'])
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Step 2: ATLAS에 Estimation spec 생성
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 방법 A: import (실패 시 B로)
+resp = client.session.post(f'{client.webapi_url}/estimation/import', json=spec)
+
+# 방법 B: copy + PUT (안정적)
+resp = client.session.get(f'{client.webapi_url}/estimation/{existing_id}/copy')
+new_id = resp.json().get('id')
+copy_data = resp.json()
+copy_data['specification'] = json.dumps(spec)
+client.session.put(f'{client.webapi_url}/estimation/{new_id}', json=copy_data)
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Step 3: feedernet Analysis 생성
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+resp = session.post(f'{base}/api/v1/projects/{pid}/analysis',    # ★ 복수 projects
+    json={'name': 'study_name'})
+# → analysis 목록에서 새 ID 확인
+resp = session.get(f'{base}/api/v1/projects/{pid}/analysis')
+fed_aid = resp.json()['content'][0]['id']  # 최신이 첫번째
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Step 4: Estimation Import (ATLAS → feedernet)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# atlas site list에서 KHNMC site_id(203) 확인
+resp = session.get(f'{base}/api/v1/projects/{pid}/analysis/{fed_aid}/atlas')
+atlas_site_id = 203  # site_id = KHNMC
+
+resp = session.post(
+    f'{base}/api/v1/projects/{pid}/analysis/{fed_aid}/atlas/{atlas_site_id}',
+    json={
+        'atlasResearchId': atlas_est_id,    # ATLAS estimation ID
+        'atlasResearchName': 'study_name',
+        'researchType': 'ESTIMATION',
+    })
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Step 5: Execution 트리거
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+resp = session.post(
+    f'{base}/api/v1/project/{pid}/analysis/{fed_aid}/execution',  # ★ 단수 project
+    json={
+        'cdmIds': [588, 566, ...],           # site_id_mapping_full.csv의 cdmId
+        'researchName': 'study_name',        # ★ 필수!
+        'executionType': 'ESTIMATION',
+    })
+```
+
+**⚠️ 핵심 주의**:
+- 프로젝트 ID는 `GET /api/v1/projects`로 **매번 확인** (하드코딩 금지)
+- analysis 생성/목록은 `projects`(복수), execution은 `project`(단수)
+- estimation import 시 `atlasResearchId`는 ATLAS WebAPI의 estimation ID
+- `researchName` 누락 시 null 에러
+
+### 2.3 Execution 상태 확인
 
 ```python
 resp = session.get(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution')
