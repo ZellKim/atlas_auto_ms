@@ -48,3 +48,6 @@ R/pooled_analysis/matched_results*/
 R/pooled_analysis/export_combined/
 R/pooled_analysis/output/
 *.log
+
+# 연구 특이적 파일 (Google Drive 연구 폴더로 이동)
+KCDtoConcept_id/

@@ -53,7 +53,7 @@ from atlas_auto import FedernetClient, EstimationBuilder, StudyProtocol
 atlas_auto_ms/
 ├── pyproject.toml                      # pip install 지원
 ├── README.md
-├── PROGRESS.md                         # 프로젝트 진행 상황 & TODO
+├── PROGRESS.md                         # (연구별 폴더로 이동, git 미추적)
 ├── .gitignore
 ├── src/atlas_auto/                     # Python 패키지
 │   ├── __init__.py                     #   export: FedernetClient, EstimationBuilder,
@@ -71,21 +71,19 @@ atlas_auto_ms/
 │   ├── site_mapping/                   #   기관 4종 ID + sourceKey 매핑 (24기관)
 │   ├── biomarker/                      #   기관별 concept & unit 매핑
 │   ├── atlas_reference/                #   API 엔드포인트, PRESET FA, ETRI measurement
-│   ├── cohort_definitions/             #   재사용 코호트 JSON (10개)
+│   ├── cohort_definitions/             #   (연구별 폴더로 이동)
 │   ├── concept_frequency/              #   Achilles 23기관×5domain (168 files)
 │   ├── characterization/               #   PRESET characterization 결과
 │   ├── reference/                      #   R 환경설정, 이슈 히스토리
 │   └── scripts/                        #   데이터 수집/생성 Python 스크립트
-├── docs/                               # 문서
+├── docs/                               # 시스템 문서
 │   ├── system_knowledge_base.md        #   API 레시피, 운영 지식, 체크리스트
-│   ├── concept_selection_guide.md      #   Concept ID 선정 가이드
-│   ├── paper_draft.md                  #   논문 본문
-│   └── irb_protocol.md                 #   IRB 프로토콜
+│   └── concept_selection_guide.md      #   Concept ID 선정 가이드
 ├── R/                                  # R 분석 코드
 │   ├── pooled_analysis.R               #   메타분석 + Evidence Explorer
 │   ├── run_pooled.R                    #   실행 스크립트
 │   ├── install_dependencies.R          #   R 패키지 설치
-│   └── reference_scripts/              #   IPD/Calibration/KM 참고 스크립트 (20개)
+│   └── reference_scripts/              #   (연구별 폴더로 이동)
 ├── cloud_monitor/                      # GCP Cloud Function - 실행 모니터링
 │   ├── main.py                         #   상태 체크 + Telegram 알림
 │   ├── requirements.txt                #   의존성

@@ -238,23 +238,53 @@ df$time <- pmin(daysToObsEnd, windowEnd) - windowStart + 1
 
 ## 7. 파이프라인 + 체크리스트
 
+### 7.0 3계층 저장 구조
+
+```
+1. GitHub (atlas_auto_ms)           ← 시스템 코드 + 참조 데이터 (연구 공통)
+   ├── src/atlas_auto/              ← Python 패키지
+   ├── data/site_mapping/           ← 기관 매핑 (공통)
+   ├── data/concept_frequency/      ← Achilles (공통)
+   ├── data/atlas_reference/        ← API, ETRI list (공통)
+   └── docs/system_knowledge_base.md
+
+2. Google Drive (연구별 폴더)        ← 연구 문서, 설계 (공유/백업)
+   └── KHNMC/{연구명}/
+       ├── CLAUDE.md                ← 연구별 컨텍스트
+       ├── PROGRESS.md              ← 연구별 진행상황
+       ├── docs/                    ← paper, IRB, checklist
+       ├── cohort_definitions/      ← 이 연구의 코호트 JSON
+       ├── estimation_model/        ← estimation spec
+       └── data/                    ← 연구별 데이터 (characterization 등)
+
+3. Local Desktop ({연구명}_cmdata/) ← 무거운 결과 파일
+   ├── results/                    ← result.zip (기관별)
+   ├── cmData/                     ← CmData SQLite
+   └── pooled_results/             ← HR 결과
+```
+
+**원칙**: git에는 연구 특이적 파일을 넣지 않는다. 시스템은 `pip install`로 가져오고, 연구별 폴더에서 import하여 사용.
+
 ### 7.1 새 연구 시작 순서
 
 ```
+0.  pip install atlas-auto (또는 git clone)
+0b. Google Drive에 연구 폴더 생성 + CLAUDE.md 작성
 1.  ATLAS에서 cohort 정의 + estimation 설계
 1b. 공변량 설정 검토 (builder.py covariate_settings — 연구마다 다름)
 2.  ★ 기관별 데이터 검증 (Achilles로 concept 가용성 + unit 확인)
+    → data/concept_frequency/ 먼저 참조, 없으면 API 수집
     → concept/unit 통일 가능한 기관만 선정
 3.  feedernet analysis 생성 + ATLAS import
 4.  전체 기관 execution 트리거
 5.  Cloud monitoring 설정 (GCP Cloud Function)
-6.  완료 기관 result.zip 다운로드
-7.  CmData 추출 (zip → SQLite)
+6.  완료 기관 result.zip 다운로드 → Local Desktop
+7.  CmData 추출 (zip → SQLite) → Local Desktop
 8.  IPD pooled analysis (Cyclops PS + Cox)
 9.  시간 구간별 분석 (필요 시)
 10. Negative control calibration
 11. Characterization (보조 기술통계)
-12. 결과 정리 + 논문
+12. 결과 정리 + 논문 → Google Drive
 ```
 
 **교훈**: 데이터 검증(2단계)을 estimation 전에 반드시 수행. 안 하면 기관 수 변경으로 이중 작업 발생.
