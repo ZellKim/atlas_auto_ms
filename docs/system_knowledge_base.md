@@ -312,10 +312,28 @@ OutcomeModel → HR, 95% CI, p-value
 | **StudyPop** | X | X | O | risk window + prior outcome 제거 |
 | **StratPop** | O | O | O | 최종 분석 대상, Cox 입력 |
 
-**feedernet 결과 vs IPD pooled 분석**:
-- feedernet result.zip = **기관 단독** PS fitting → StudyPop/StratPop/HR
-- IPD pooled = **전 기관 CmData 합산** → site dummy covariate로 통합 PS fitting
-- IPD pooled 시 feedernet의 StudyPop/StratPop은 사용하지 않고 **CmData부터 다시 처리**
+### 2.10 다기관 분석 방법 비교
+
+**feedernet 결과 (기관별 독립 실행)**:
+- 각 기관이 **독립된 PS model**로 fitting → StudyPop → StratPop → HR
+- result.zip의 export CSV = 기관별 HR (Shiny Evidence Explorer용)
+- 기관별 HR → meta-analysis pooling 가능 (DL, Bayesian)
+
+**IPD pooled (CmData 합산, 우리 방식)**:
+- 전 기관 CmData를 합산 → **통합 PS model** (site dummy covariate 포함)
+- Cyclops large-scale LASSO로 수천 개 covariates + site dummy 동시 fitting
+- 1:1 PS matching → site-stratified Cox → pooled HR
+- feedernet의 StudyPop/StratPop은 사용하지 않고 **CmData부터 다시 처리**
+
+**StratPop 합산은 왜 안 하나?**:
+- 기관별 PS model이 다르므로, 기관 A의 PS=0.3 ≠ 기관 B의 PS=0.3
+- 합산 시 PS 보정 의미가 희석됨
+- site-stratified Cox로 일부 보완 가능하지만 통합 PS fitting이 정석
+- 소규모 기관에서 매칭 pool이 작아 매칭 성공률 저하
+
+**선택 기준**:
+- IPD pooled (기본): 기관별 outcome N이 작을 때. 통합 PS로 검정력 최대화
+- Meta-analysis (선택): 기관별 outcome N이 충분할 때만. 기관별 HR의 이질성 평가 가능
 
 ---
 
