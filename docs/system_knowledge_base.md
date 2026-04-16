@@ -11,13 +11,9 @@
 | 기관 4종 ID 매핑 (24기관) | `data/site_mapping/site_id_mapping_full.csv` |
 | 기관 sourceKey 매핑 | `data/site_mapping/source_key_mapping.csv` |
 | PRESET FA 목록 (105개) | `data/atlas_reference/atlas_preset_fa_list.csv` |
-| 코호트 네이밍 | `data/atlas_reference/cohort_naming_v2.csv` |
 | ETRI measurement 리스트 | `data/atlas_reference/etri_measurement_list.csv` |
-| 바이오마커 concept 매핑 | `data/biomarker/biomarker_concept_by_site.csv` |
 | 바이오마커 unit 매핑 | `data/biomarker/biomarker_units_by_site.csv` |
 | Achilles frequency (23기관×5domain) | `data/concept_frequency/` |
-| Characterization 결과 | `data/characterization/char_preset_all_results.csv` |
-| 코호트 정의 JSON | `data/cohort_definitions/` |
 | R 환경 설정 | `data/reference/r_environment.csv` |
 | 이슈 히스토리 (13건+) | `data/reference/issue_history.csv` |
 
@@ -50,7 +46,7 @@ client.connect_site(group_id=7, site_id=203)  # KHNMC
 ### 2.2 Execution 상태 확인
 
 ```python
-resp = session.get(f'{base}/api/v1/project/2908/analysis/{aid}/execution')
+resp = session.get(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution')
 groups = resp.json().get('content', [])   # list of execution groups
 latest_by_cdm = {}
 for group in groups:
@@ -172,10 +168,10 @@ PUT /feature-analysis/{new_id}               → 2단계: concept
 - **Concept 참조는 반드시 CONCEPT_ID 기준** — LOINC CONCEPT_CODE로 매핑하면 오류 (이슈 #4)
 - **measurement concept은 descendant 없음** — condition과 달리 OR로 변이 concept 직접 포함
 - **기관별 concept 차이**: CBC(절대값 vs 백분율), Glucose(일반 vs 공복) 등 → Achilles frequency로 사전 검증
-- **unit 이질성**: CRP(mg/dL vs mg/L, 10배), Neutro#(thou/uL vs /uL, 1000배) → dual-unit 코호트 분리 필요
+- **unit 이질성**: 같은 검사라도 기관별 단위가 다를 수 있음 (예: mg/dL vs mg/L = 10배) → dual-unit 코호트 분리 필요
 - **multi-concept OR 코호트의 InclusionRules**: Prior normal = **ANY**, No prior abnormal = **ALL** (ALL로 하면 한 concept만 있는 기관에서 환자 0명)
 
-상세 매핑: `data/biomarker/biomarker_concept_by_site.csv`, `data/biomarker/biomarker_units_by_site.csv`
+unit 전수조사: `data/biomarker/biomarker_units_by_site.csv`
 
 ---
 
@@ -301,14 +297,10 @@ df$time <- pmin(daysToObsEnd, windowEnd) - windowStart + 1
 
 | 스크립트 | 용도 |
 |---------|------|
-| `R/reference_scripts/ipd_*sites_*.R` | IPD Cyclops PS + Cox |
-| `R/reference_scripts/run_calibration*.R` | NC Calibration |
-| `R/reference_scripts/ipd_cyclops_timewindow*.R` | 시간 구간별 HR |
-| `R/reference_scripts/make_baseline*.R` | Baseline table |
-| `R/reference_scripts/make_km_curves*.R` | KM curves |
 | `data/scripts/collect_measurement_units.py` | 전 기관 unit 전수조사 |
 | `data/scripts/create_multi_concept_cohorts.py` | multi-concept 코호트 생성 |
 | `cloud_monitor/main.py` | GCP Telegram 모니터링 |
+| R 분석 스크립트 (IPD, calibration, KM 등) | 연구별 폴더의 `R/reference_scripts/` 참조 |
 
 ---
 
