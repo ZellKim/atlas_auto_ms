@@ -163,14 +163,49 @@ PUT /feature-analysis/{new_id}               → 2단계: concept
 
 ---
 
-## 4. Concept 매핑 원칙
+## 4. Concept ID 탐색 프로세스
 
-- **Concept 참조는 반드시 CONCEPT_ID 기준** — LOINC CONCEPT_CODE로 매핑하면 오류 (이슈 #4)
+### 4.1 탐색 순서 (확정)
+
+```
+Step 1. Achilles frequency에서 직접 검색 (1차 소스)
+  → data/concept_frequency/{기관}_{domain}.csv
+  → 실제 CDM에 존재하는 concept만 반환
+  → descendant는 개별 concept으로 나옴 (합산 필요)
+
+Step 2. ATLAS vocabulary API로 보완
+  → /vocabulary/search/{query} — 키워드 검색
+  → /vocabulary/concept/{id}/descendants — 하위 개념 조회
+  → /vocabulary/concept/{id}/related — 매핑 관계 확인
+
+Step 3. (참고만) KCDtoConcept_id/all_kcd_map.csv
+  → 기관별 KCD→SNOMED 실제 매핑 (과거 시점 스냅샷)
+  → 업데이트 반영 안 될 수 있으므로 참고용만
+```
+
+### 4.2 핵심 주의사항
+
+- **Achilles 우선**: vocabulary 검색보다 Achilles frequency가 실제 CDM 상태를 반영
+- **KCD→SNOMED 매핑이 예상과 다를 수 있음**: 예) F90.0(ADHD)이 438409가 아닌 4047120으로 매핑된 사례 → Achilles에서 확인 필수
+- **includeDescendants=true 시뮬레이션**: Achilles에서는 개별 concept만 나오므로, descendants 전부를 수동 합산해야 실제 코호트 크기 추정 가능
+- **Concept 참조는 반드시 CONCEPT_ID 기준** — LOINC/KCD CONCEPT_CODE로 매핑하면 오류
 - **measurement concept은 descendant 없음** — condition과 달리 OR로 변이 concept 직접 포함
-- **기관별 concept 차이**: CBC(절대값 vs 백분율), Glucose(일반 vs 공복) 등 → Achilles frequency로 사전 검증
-- **unit 이질성**: 같은 검사라도 기관별 단위가 다를 수 있음 (예: mg/dL vs mg/L = 10배) → dual-unit 코호트 분리 필요
-- **multi-concept OR 코호트의 InclusionRules**: Prior normal = **ANY**, No prior abnormal = **ALL** (ALL로 하면 한 concept만 있는 기관에서 환자 0명)
+- **unit 이질성**: 같은 검사라도 기관별 단위가 다를 수 있음 → dual-unit 코호트 분리 필요
+- **multi-concept OR 코호트의 InclusionRules**: Prior normal = **ANY**, No prior abnormal = **ALL**
 
+### 4.3 Achilles 수집 코드
+
+```python
+# frequency (concept별 인원수) — 이미 data/concept_frequency/에 수집 완료
+data = client.get_achilles_frequency(source_key, domain)
+# domain: condition, drug, measurement, procedure, observation
+
+# drilldown (unit + value distribution) — measurement 전용
+data = client.get_achilles_drilldown(source_key, 'measurement', concept_id)
+# recordsByUnit, measurementValueDistribution 필드 참조
+```
+
+sourceKey: `data/site_mapping/source_key_mapping.csv` 참조
 unit 전수조사: `data/biomarker/biomarker_units_by_site.csv`
 
 ---
