@@ -29,6 +29,8 @@
 - **Estimation copy+PUT 시 cohortDefinitions에 새 코호트 full expression 반드시 포함** — 누락 시 1~5시간 실행 후 에러 메시지 없이 실패 (이슈 #10, #13)
 - **Characterization 직접 POST는 FA가 비어있을 수 있음** → export/import 방식만 사용
 - **기관별 ID 4종** 모두 다름: group_id(ATLAS) ≠ site_id(atlasId) ≠ orgId(포탈) ≠ cdmId(execution)
+- **코호트 Generate는 GET** (POST 아님!): `GET /cohortdefinition/{id}/generate/{sourceKey}` — POST로 보내면 500 에러
+- **코호트 생성 시 expression은 object로**: `json={'name':..., 'expression': expr_dict}` — string으로 보내면 400 에러
 
 ---
 
