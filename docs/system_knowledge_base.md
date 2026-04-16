@@ -220,7 +220,7 @@ unit 전수조사: `data/biomarker/biomarker_units_by_site.csv`
 - 매칭: 1:1 nearest-neighbor, caliper = 0.2 × SD(logit PS)
 - Outcome model: Site-stratified Cox proportional hazard regression
 - 공변량: Demographics(Gender, AgeGroup) + ConditionLongTerm + DrugLongTerm (연구마다 커스텀)
-- Forest plot: IPD에서 site별 Cox → 기관별 HR + pooled HR
+- Forest plot: outcome별 pooled HR 표시 (기관별 HR은 outcome N 부족으로 미산출)
 
 **IPD vs Meta-analysis 선택 기준**:
 - **IPD pooled (기본)**: 기관별 outcome event 수가 적을 때 (대부분의 다기관 CDM 연구). 전체 데이터를 합산하여 PS fitting하므로 검정력 높음.

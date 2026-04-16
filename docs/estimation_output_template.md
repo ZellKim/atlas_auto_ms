@@ -16,7 +16,7 @@
 | **Propensity scores** | Figure: PS distribution (before/after) | Main Figure 2 | preference_score_dist.csv |
 | **Covariate balance** | Figure: Love plot (SMD scatter) | Main Figure 3 | covariate_balance.csv |
 | **Systematic error** | Figure: NC calibration plot | Main Figure 6 | negative_control_outcome.csv |
-| **Forest plot** | Figure: 기관별 HR + IPD pooled HR | Main Figure 4 | IPD site별 Cox + site-stratified Cox |
+| **Forest plot** | Figure: Outcome별 IPD pooled HR | Main Figure 4 | site-stratified Cox |
 | **Kaplan-Meier** | Figure: KM curves + risk table | Main Figure 5 | kaplan_meier_dist.csv |
 | **Subgroups** | Table: Subgroup HR | Supplementary (해당 시) | subgroup analysis |
 
@@ -40,7 +40,7 @@
 | **Figure 1** | Study Flow (Attrition) | 코호트 선정 흐름도 | attrition.csv |
 | **Figure 2** | PS Distribution | Before/after matching, preference score | preference_score_dist.csv |
 | **Figure 3** | Covariate Balance | Love plot: SMD before vs after (target line 0.1) | covariate_balance.csv |
-| **Figure 4** | Forest Plot | 기관별 HR + IPD pooled HR (site-stratified Cox) | IPD: site별 Cox → forest |
+| **Figure 4** | Forest Plot | Outcome별 IPD pooled HR 요약 | site-stratified Cox |
 | **Figure 5** | Kaplan-Meier | 주요 outcome cumulative hazard + N at risk | kaplan_meier_dist.csv |
 | **Figure 6** | NC Calibration | NC HR scatter + calibration curve, 유의 비율 | negative_control_outcome.csv |
 
@@ -52,7 +52,7 @@
 | **Table S2** | NC Outcome List | 전체 NC 목록 + 개별 HR |
 | **Table S3** | PS Model Covariates | PS model non-zero coefficients (top 50) |
 | **Table S4** | Power + Time at Risk | 통계 검정력, 추적 기간 분포 (min, Q1, median, Q3, max) |
-| **Table S5** | Site-specific Results | 기관별 HR (IPD site별 Cox) + 이질성 (I², Cochran Q) |
+| **Table S5** | ~~Site-specific Results~~ | 기관별 outcome N이 대부분 불충분하여 기관별 HR 미산출. outcome N 충분 시에만 고려 |
 | **Table S6** | Sensitivity Analysis | 기관 제외/추가, matching ratio 변동 결과 |
 | **Table S7** | Time-window HR (해당 시) | 시간 구간별 HR 변화 |
 
@@ -60,7 +60,7 @@
 
 | # | 이름 | 내용 |
 |---|------|------|
-| **Figure S1** | Site-specific Forest Plot | 기관별 HR + pooled HR forest plot (IPD 기반) |
+| **Figure S1** | ~~Site-specific Forest Plot~~ | 기관별 outcome N 불충분 시 제외. N 충분 시에만 생성 |
 | **Figure S2** | Calibrated vs Uncalibrated | Calibration 전후 HR 비교 scatter |
 | **Figure S3** | Time-window HR Plot (해당 시) | 시간 구간별 HR trajectory |
 | **Figure S4** | Subgroup Forest Plot (해당 시) | 성별, 연령 등 하위군 HR |
