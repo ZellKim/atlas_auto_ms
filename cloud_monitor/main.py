@@ -28,8 +28,8 @@ STATE_BLOB = "monitor/feedernet_monitor_state.json"
 
 # 모니터링 대상
 MONITOR_TARGETS = {
-    11017: {
-        "name": "clinical_final (11 outcomes)",
+    11019: {
+        "name": "clinical_final_v4 (11 outcomes, T2DM=1285)",
         "project_id": 5104,
     },
     11018: {
