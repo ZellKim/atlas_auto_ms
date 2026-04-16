@@ -19,18 +19,88 @@
 
 ---
 
-## 1. API 핵심 주의사항
+## 1. API 체계
 
-> 엔드포인트 전체 목록은 CSV 참조. 여기는 **함정과 운영 규칙**만 기록.
+feedernet에는 **2개의 독립된 API**가 있다. 같은 쿠키로 인증되지만 역할이 다르다.
 
-- **`project`(단수) vs `projects`(복수)**: 실행 트리거는 단수(`/project/`), 분석 목록은 복수(`/projects/`)
-- **`cohortdefinition`은 하이픈 없음**, `cohort-characterization`과 `feature-analysis`는 하이픈 있음 — 일관성 없으므로 항상 CSV 확인
-- **sourceKey ≠ cdmName**: cdmName은 `KHNMC_5.3.1_08`, sourceKey는 `cdmpv53_251128` 등 별도 값. `data/site_mapping/source_key_mapping.csv` 참조 또는 `/source/sources` API로 조회
-- **Estimation copy+PUT 시 cohortDefinitions에 새 코호트 full expression 반드시 포함** — 누락 시 1~5시간 실행 후 에러 메시지 없이 실패 (이슈 #10, #13)
-- **Characterization 직접 POST는 FA가 비어있을 수 있음** → export/import 방식만 사용
-- **기관별 ID 4종** 모두 다름: group_id(ATLAS) ≠ site_id(atlasId) ≠ orgId(포탈) ≠ cdmId(execution)
-- **코호트 Generate는 GET** (POST 아님!): `GET /cohortdefinition/{id}/generate/{sourceKey}` — POST로 보내면 500 에러
-- **코호트 생성 시 expression은 object로**: `json={'name':..., 'expression': expr_dict}` — string으로 보내면 400 에러
+### 1.1 ATLAS WebAPI — 기관별 ATLAS 인스턴스
+
+```
+Base URL: /api/v1/atlas/{group_id}/{site_id}/
+용도: 코호트, estimation, vocabulary, Achilles (기관 단위)
+접속: client.connect_site(group_id, site_id) → client.webapi_url
+```
+
+| Method | Endpoint | 용도 | 주의 |
+|--------|----------|------|------|
+| **코호트** | | | |
+| POST | `/cohortdefinition` | 코호트 생성 | expression은 **object**로 (string 아님 → 400) |
+| **GET** | `/cohortdefinition/{id}/generate/{sourceKey}` | 코호트 Generate | **GET이다!** POST → 500 |
+| GET | `/cohortdefinition/{id}/info` | Generate 상태/결과 (personCount) | |
+| **Estimation** | | | |
+| GET | `/estimation/{id}` | estimation 상세 | spec은 `specification` 필드 (JSON string) |
+| GET | `/estimation/{id}/copy` | 복사 → 새 ID | 안정적 생성 방법 |
+| PUT | `/estimation/{id}` | 수정 | spec은 `json.dumps(spec)`으로 string 전달 |
+| POST | `/estimation/import` | import | 실패 시 copy+PUT 방식 사용 |
+| **Vocabulary** | | | |
+| GET | `/vocabulary/search/{query}` | concept 검색 | |
+| GET | `/vocabulary/concept/{id}/descendants` | 하위 concept | |
+| GET | `/source/sources` | CDM source 목록 | **sourceKey ≠ cdmName** |
+| **Achilles** | | | |
+| GET | `/cdmresults/{sourceKey}/{domain}` | concept frequency | domain: condition/drug/measurement/... |
+| GET | `/cdmresults/{sourceKey}/measurement/{conceptId}` | drilldown (unit, distribution) | |
+| **Characterization** | | | |
+| POST | `/cohort-characterization/import` | import (export → import 방식만 사용) | 직접 POST는 FA 비어있음 |
+| GET | `/cohort-characterization/{id}/export` | export | |
+
+### 1.2 feedernet 포탈 API — 다기관 실행 관리
+
+```
+Base URL: /api/v1/
+용도: 프로젝트, analysis, execution 관리 (다기관 중앙 관리)
+접속: client.session (로그인 쿠키 자동)
+★ projects(복수) = 관리, project(단수) = 실행
+```
+
+| Method | Endpoint | 용도 | 주의 |
+|--------|----------|------|------|
+| **프로젝트** | | | |
+| GET | `/projects` | 프로젝트 목록 | **ID 매번 확인 (하드코딩 금지)** |
+| **Analysis (복수 projects)** | | | |
+| POST | `/projects/{pid}/analysis` | analysis 생성 | 복수 `projects` |
+| GET | `/projects/{pid}/analysis` | analysis 목록 | 복수 `projects` |
+| GET | `/projects/{pid}/analysis/{aid}/atlas` | ATLAS 기관 목록 | |
+| POST | `/projects/{pid}/analysis/{aid}/atlas/{siteId}` | estimation import | body: atlasResearchId, researchType |
+| **Execution (단수 project)** | | | |
+| POST | `/project/{pid}/analysis/{aid}/execution` | 실행 트리거 | 단수 `project`, **researchName 필수** |
+| GET | `/project/{pid}/analysis/{aid}/execution` | 상태 조회 | 응답: content[] → executionList[] 중첩 |
+| POST | `/project/{pid}/analysis/{aid}/execution/{eid}/cancel` | 취소 | WAITING + EXECUTING 모두 가능 |
+| GET | `.../execution/{eid}/files` | 결과 파일 목록 | |
+| GET | `.../execution/{eid}/files/{fid}/download` | 다운로드 | |
+
+### 1.3 ATLAS UI vs API
+
+```
+ATLAS UI  (브라우저)  = feedernet.com/atlas-resolve/v2.12.0/{gid}/{sid}/main
+ATLAS WebAPI (Python) = feedernet.com/api/v1/atlas/{gid}/{sid}/
+→ 같은 백엔드. UI에서 클릭 = API 호출과 동일.
+```
+
+### 1.4 함정 정리
+
+| 함정 | 설명 |
+|------|------|
+| `project` vs `projects` | 실행=단수, 관리=복수 |
+| 프로젝트 ID 변경 | 하드코딩 금지 → `GET /projects`로 확인 |
+| `cohortdefinition` 하이픈 | 없음. `cohort-characterization`은 있음 |
+| sourceKey ≠ cdmName | `GET /source/sources`로 조회 |
+| 기관 ID 4종 | group_id ≠ site_id ≠ orgId ≠ cdmId |
+| Generate는 GET | POST → 500 |
+| 코호트 expression | object로 전송 (string → 400) |
+| estimation spec | string으로 전송 (`json.dumps(spec)`) |
+| cohortDefinitions | full expression 포함 필수 (누락 → 수시간 후 실패) |
+| NC concept set | `conceptSets` + `crossReference`로 설정 (`negativeControls[]` 아님) |
+| NC 없으면 | 2-5분 만에 전 기관 실패 |
 
 ---
 
@@ -39,113 +109,84 @@
 ### 2.1 인증
 
 ```python
-# automation/ 스크립트에 하드코딩된 login_portal 호출부 확인
 client = FedernetClient()
-client.login_portal(email, password)
-client.connect_site(group_id=7, site_id=203)  # KHNMC
+client.login_portal(email, password)  # automation/ 스크립트에서 확인
+client.connect_site(group_id=7, site_id=203)  # → client.webapi_url 설정
+# session = client.session  # 포탈 API도 같은 세션 사용
 ```
 
 ### 2.2 Estimation 생성 → 실행 전체 흐름
 
 ```python
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Step 1: 프로젝트 ID 확인 (하드코딩 금지!)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-resp = session.get(f'{base}/api/v1/projects')           # ★ 복수 projects
-projects = resp.json().get('content', [])
-pid = next(p['id'] for p in projects if '연구이름' in p['name'])
+base = client.PORTAL_URL  # https://www.feedernet.com
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Step 2: ATLAS에 Estimation spec 생성
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 방법 A: import (실패 시 B로)
-resp = client.session.post(f'{client.webapi_url}/estimation/import', json=spec)
+# ━━━ Step 1: 프로젝트 ID 확인 ━━━  [포탈 API]
+resp = session.get(f'{base}/api/v1/projects')
+pid = resp.json()['content'][0]['id']  # 하드코딩 금지
 
-# 방법 B: copy + PUT (안정적)
+# ━━━ Step 2: ATLAS estimation 생성 ━━━  [ATLAS WebAPI]
 resp = client.session.get(f'{client.webapi_url}/estimation/{existing_id}/copy')
-new_id = resp.json().get('id')
+new_id = resp.json()['id']
 copy_data = resp.json()
-copy_data['specification'] = json.dumps(spec)
+copy_data['specification'] = json.dumps(spec)  # spec에 cohortDefinitions + conceptSets + crossRef 포함
 client.session.put(f'{client.webapi_url}/estimation/{new_id}', json=copy_data)
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Step 3: feedernet Analysis 생성
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-resp = session.post(f'{base}/api/v1/projects/{pid}/analysis',    # ★ 복수 projects
-    json={'name': 'study_name'})
-# → analysis 목록에서 새 ID 확인
+# ━━━ Step 3: feedernet analysis 생성 ━━━  [포탈 API, 복수 projects]
+session.post(f'{base}/api/v1/projects/{pid}/analysis', json={'name': '...'})
 resp = session.get(f'{base}/api/v1/projects/{pid}/analysis')
-fed_aid = resp.json()['content'][0]['id']  # 최신이 첫번째
+fed_aid = resp.json()['content'][0]['id']
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Step 4: Estimation Import (ATLAS → feedernet)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# atlas site list에서 KHNMC site_id(203) 확인
-resp = session.get(f'{base}/api/v1/projects/{pid}/analysis/{fed_aid}/atlas')
-atlas_site_id = 203  # site_id = KHNMC
+# ━━━ Step 4: estimation import ━━━  [포탈 API, 복수 projects]
+session.post(f'{base}/api/v1/projects/{pid}/analysis/{fed_aid}/atlas/{site_id}',
+    json={'atlasResearchId': new_id, 'atlasResearchName': '...', 'researchType': 'ESTIMATION'})
 
-resp = session.post(
-    f'{base}/api/v1/projects/{pid}/analysis/{fed_aid}/atlas/{atlas_site_id}',
-    json={
-        'atlasResearchId': atlas_est_id,    # ATLAS estimation ID
-        'atlasResearchName': 'study_name',
-        'researchType': 'ESTIMATION',
-    })
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Step 5: Execution 트리거
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-resp = session.post(
-    f'{base}/api/v1/project/{pid}/analysis/{fed_aid}/execution',  # ★ 단수 project
-    json={
-        'cdmIds': [588, 566, ...],           # site_id_mapping_full.csv의 cdmId
-        'researchName': 'study_name',        # ★ 필수!
-        'executionType': 'ESTIMATION',
-    })
+# ━━━ Step 5: execution 트리거 ━━━  [포탈 API, 단수 project]
+session.post(f'{base}/api/v1/project/{pid}/analysis/{fed_aid}/execution',
+    json={'cdmIds': [...], 'researchName': '...', 'executionType': 'ESTIMATION'})
 ```
 
-**⚠️ 핵심 주의**:
-- 프로젝트 ID는 `GET /api/v1/projects`로 **매번 확인** (하드코딩 금지)
-- analysis 생성/목록은 `projects`(복수), execution은 `project`(단수)
-- estimation import 시 `atlasResearchId`는 ATLAS WebAPI의 estimation ID
-- `researchName` 누락 시 null 에러
-- **NC는 `conceptSets` + `conceptSetCrossReference`로 설정** (spec.negativeControls[] 배열 아님!):
-  ```
-  spec.conceptSets[]: NC outcome concept set (54+ items)
-  spec.conceptSetCrossReference[]: 각 TCO에 연결
-    → {conceptSetId: N, targetName: "negativeControlOutcomes", targetIndex: i, propertyName: "outcomeId"}
-  ```
-  없으면 2-5분 만에 전 기관 FINISHED_WITH_ERROR
-- **exclude concept set**: outcome + target condition concepts를 PS에서 제외. 같은 방식으로 conceptSets + crossReference 연결:
-  ```
-  → {conceptSetId: M, targetName: "estimationAnalysisSettings.analysisSpecification.targetComparatorOutcomes", targetIndex: i, propertyName: "excludedCovariateConceptIds"}
-  ```
+### 2.3 Estimation spec 필수 구성
 
-### 2.3 Execution 상태 확인
+```python
+spec = {
+    'cohortDefinitions': [...],          # full expression 포함 필수
+    'conceptSets': [
+        {'id': 0, 'name': 'NC outcomes', 'expression': {'items': [...]}},  # NC 54+
+        {'id': 1, 'name': 'Exclude covariates', 'expression': {'items': [...]}},
+    ],
+    'conceptSetCrossReference': [        # 각 TCO × (NC + exclude) = N개
+        {'conceptSetId': 0, 'targetName': 'negativeControlOutcomes',
+         'targetIndex': i, 'propertyName': 'outcomeId'},
+        {'conceptSetId': 1,
+         'targetName': 'estimationAnalysisSettings.analysisSpecification.targetComparatorOutcomes',
+         'targetIndex': i, 'propertyName': 'excludedCovariateConceptIds'},
+    ],
+    'negativeControlOutcomeCohortDefinition': {
+        'occurrenceType': 'all', 'detectOnDescendants': True,
+        'domains': ['condition', 'procedure'],
+    },
+    'estimationAnalysisSettings': { ... },  # TCO + CM analysis
+}
+# ★ spec.negativeControls[] 배열은 사용하지 않음
+```
+
+### 2.4 Execution 상태 확인  [포탈 API, 단수 project]
 
 ```python
 resp = session.get(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution')
-groups = resp.json().get('content', [])   # list of execution groups
-latest_by_cdm = {}
+groups = resp.json().get('content', [])
 for group in groups:
-    for ex in group.get('executionList', []):  # ★ 중첩 구조!
-        cdm = ex.get('cdmName')
+    for ex in group.get('executionList', []):  # ★ 중첩 구조
         status = ex.get('executionStatus')     # FINISHED_SUCCESSFULLY 등
+        cdm = ex.get('cdmName')
         eid = ex.get('id')
-        latest_by_cdm[cdm] = ex  # 최신 그룹이 뒤에 오므로 덮어씀
 ```
 
-상태값: `EXECUTING_PREPARING`, `EXECUTING_DOCKER`, `WAITING`, `FINISHED_SUCCESSFULLY`, `FINISHED_WITH_ERROR`, `CANCELED`
-
-### 2.3 Execution 트리거
+### 2.5 Execution 취소  [포탈 API, 단수 project]
 
 ```python
-session.post(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution',
-    json={'cdmIds': [...], 'researchName': '...', 'executionType': 'ESTIMATION'})
-# researchName 필수! 빠지면 null 에러
+session.post(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution/{eid}/cancel')
 ```
-
-기본 20개 기관 cdmId: `site_id_mapping_full.csv`의 `cdmId` 컬럼 참조.
 
 ### 2.4 Execution 취소
 
