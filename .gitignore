@@ -49,5 +49,11 @@ R/pooled_analysis/export_combined/
 R/pooled_analysis/output/
 *.log
 
-# 연구 특이적 파일 (Google Drive 연구 폴더로 이동)
+# 연구별 폴더 (Drive 백업, git 미추적)
+studies/
 KCDtoConcept_id/
+
+# 연구 특이적 파일 (로컬에만)
+PROGRESS.md
+docs/paper_*.md
+docs/irb_*.md
