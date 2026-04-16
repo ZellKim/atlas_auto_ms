@@ -853,16 +853,44 @@ C:\Users\data1\Desktop\atlas_auto_cmdata\
 
 ## §10 CdmInspection & FeatureExtraction unit_concept_id 검증 (2026-04-16)
 
-### 10.1 KHNMC unit_concept_id 현황
+### 10.1 전 기관 unit_concept_id 전수조사 (2026-04-16)
 
-CdmInspection 보고서에서 unit_concept_id 매핑 부족이 지적됨.
-실제 `data/biomarker/biomarker_units_by_site.csv` 확인 결과:
+데이터: `data/biomarker/biomarker_units_by_site.csv` (13개 기관 × 22개 바이오마커)
+분류 기준: NO_UNIT(≥99% 누락), MIXED(10~99%), OK(<10%)
 
-- WBC(3010813), Neutro%(3017354), Neutro#(3017732), PLT(3002030) 등: **100% unit_concept_id=0**
-- CRP(3020460), Albumin(3024561), ESR(3015183): unit_concept_id=0과 정상 매핑 혼재
-- Hb(3000963): 99.4% unit_concept_id=0
+**기관별 요약**:
 
-→ 대부분의 measurement에서 value_as_number는 존재하지만 unit만 매핑 안 된 상태.
+| 기관 | 총 항목 | OK | MIXED | NO_UNIT | 등급 |
+|------|:---:|:---:|:---:|:---:|:---:|
+| GNUCH | 20 | 20 | 0 | 0 | A (완벽) |
+| JCMJ | 20 | 20 | 0 | 0 | A |
+| KDH | 22 | 21 | 1 | 0 | A |
+| KWMC | 22 | 21 | 1 | 0 | A |
+| AUMC | 21 | 18 | 0 | 3 | B (양호) |
+| HUMC | 22 | 19 | 3 | 0 | B |
+| DCMC | 22 | 11 | 5 | 6 | C (주의) |
+| ISH | 21 | 9 | 1 | 11 | D (불량) |
+| SCHCA | 21 | 5 | 8 | 8 | D |
+| SCHGM | 20 | 4 | 7 | 9 | D |
+| SCHSU | 22 | 2 | 10 | 10 | D |
+| KHNMC | 21 | 1 | 7 | 13 | D |
+| CHNUH | 14 | 0 | 0 | 14 | F (전멸) |
+
+**공통적으로 unit 누락이 많은 measurement**:
+- WBC(3010813): 7개 기관 NO_UNIT (AUMC, CHNUH, DCMC, ISH, KHNMC, SCHCA, SCHGM, SCHSU)
+- Neutro#(3017732): 5개 기관 NO_UNIT
+- CBC differential (Lympho%, Eosino%, Baso%, Mono%): 순천향 계열 + KHNMC 전부 NO_UNIT
+- HbA1c: AUMC, CHNUH, KHNMC, SCHSU NO_UNIT
+- ALT: CHNUH, ISH, KHNMC, SCHGM NO_UNIT
+
+**unit 매핑이 양호한 measurement** (거의 모든 기관 OK):
+- ESR, RF, HbA1c(일부 제외), Glucose(일부 제외)
+- CRP: 대부분 OK (단, mg/dL vs mg/L 단위 차이 주의)
+
+**CRP 단위 이질성** (별도 주의):
+- mg/dL: AUMC, JCMJ, KHNMC, KWMC, SCHSU
+- mg/L: DCMC, GNUCH, HUMC, KDH, SCHCA
+→ 10배 차이, 코호트 정의 시 dual-unit 대응 필요 (이미 1274/1275로 대응 완료)
 
 ### 10.2 FeatureExtraction 영향 분석
 
