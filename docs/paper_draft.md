@@ -91,7 +91,25 @@ OHDSI ATLAS v2.12.0 via feedernet distributed research network; R 4.5.2 with Coh
 
 [TBD] institutions met inclusion criteria. A total of [TBD] appendectomy patients, [TBD] cholecystectomy patients, and [TBD] hernia repair patients were identified.
 
-**Table 1**: Institutional characteristics (to be generated from final data)
+**Table 1: Institutional Characteristics**
+
+| Institution | CDM Period | Total CDM Persons | Appendectomy | Cholecystectomy | Hernia Repair |
+|------------|-----------|------------------:|-------------:|----------------:|--------------:|
+| AUMC | 1993–2026 | 2,938,928 | [TBD] | [TBD] | [TBD] |
+| CHNUH | 2012–2021 | 842,542 | [TBD] | [TBD] | [TBD] |
+| DCMC | 2005–2025 | 1,016,405 | [TBD] | [TBD] | [TBD] |
+| GNUCH | 2016–2025 | 397,763 | [TBD] | [TBD] | [TBD] |
+| HUMC | 2006–2025 | 1,083,633 | [TBD] | [TBD] | [TBD] |
+| ISH | 2014–2025 | 611,154 | [TBD] | [TBD] | [TBD] |
+| JCMJ | 2011–2025 | 256,051 | [TBD] | [TBD] | [TBD] |
+| KDH | 1986–2025 | 1,290,120 | [TBD] | [TBD] | [TBD] |
+| KHNMC | 2006–2025 | 1,155,514 | [TBD] | [TBD] | [TBD] |
+| KWMC | 2003–2025 | 704,987 | [TBD] | [TBD] | [TBD] |
+| SCHCA | 2003–2023 | 1,094,848 | [TBD] | [TBD] | [TBD] |
+| SCHGM | 2003–2023 | 770,294 | [TBD] | [TBD] | [TBD] |
+| SCHSU | 2002–2023 | 1,228,445 | [TBD] | [TBD] | [TBD] |
+| [+TBD additional institutions if validated] | | | | | |
+| **Total** | **1986–2026** | **[TBD]** | **[TBD]** | **[TBD]** | **[TBD]** |
 
 After 1:1 propensity score matching:
 - vs Cholecystectomy: [TBD] matched pairs
