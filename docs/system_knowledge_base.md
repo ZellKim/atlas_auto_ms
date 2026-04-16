@@ -109,6 +109,8 @@ resp = session.post(
 - analysis 생성/목록은 `projects`(복수), execution은 `project`(단수)
 - estimation import 시 `atlasResearchId`는 ATLAS WebAPI의 estimation ID
 - `researchName` 누락 시 null 에러
+- **NC concept set 필수**: estimation spec의 `conceptSets`에 NC outcome concept set + `conceptSetCrossReference`로 각 TCO에 연결 필수. 없으면 2-5분 만에 전 기관 FINISHED_WITH_ERROR
+- **exclude concept set**: outcome + target condition concepts를 PS에서 제외하는 concept set도 같이 연결
 
 ### 2.3 Execution 상태 확인
 
