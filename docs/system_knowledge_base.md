@@ -361,7 +361,15 @@ A(완벽): GNUCH, JCMJ, KDH, KWMC / F(전멸): CHNUH / 상세: 이전 조사 결
 
 ---
 
-## 9. DQM 인프라
+## 9. 시스템 TODO
+
+- [ ] **measurement unit 전수조사 (23기관)**: ETRI 161 concepts × 23 sites Achilles drilldown 수집 → `data/measurement_unit_survey_full.csv`. KHNMC 완료(47분), 나머지 22기관 미실행. 스크립트: `data/scripts/collect_measurement_units.py`. 기관당 ~47분, 전체 ~18시간 예상. 분할 실행 권장.
+- [ ] **feedernet analysis 생성 API 확인**: 포탈 API로 analysis 생성 불가 (Project not found). UI에서만 가능한지, 다른 엔드포인트가 있는지 확인 필요.
+- [ ] **Generate 엔드포인트 정리**: GET으로 generate 되는 것 확인됨. POST는 500. knowledge base에 기록 완료. client.py에 반영 필요.
+
+---
+
+## 10. DQM 인프라
 
 feedernet 내부 전용. 외부 접근 불가 (DNS NXDOMAIN).
 - DQM ATLAS: `api.feedernet.co.kr/atlas/v2.7.6/...`
