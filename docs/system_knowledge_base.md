@@ -29,7 +29,7 @@
 | POST | `/projects/{pid}/analysis/{aid}/atlas/{atlasId}` | estimation import (body: atlasResearchId, researchType) |
 | POST | `/project/{pid}/analysis/{aid}/execution` | 실행 트리거 (**단수** project, body: cdmIds) |
 | GET | `/project/{pid}/analysis/{aid}/execution` | 실행 상태 조회 |
-| DELETE | `/project/{pid}/analysis/{aid}/execution` | 실행 취소 (body: executionId) |
+| POST | `/project/{pid}/analysis/{aid}/execution/{eid}/cancel` | **실행 취소 (WAITING만, EXECUTING 불가)** |
 | GET | `.../execution/{eid}/files` | 결과 파일 목록 |
 | GET | `.../execution/{eid}/files/{fid}/download` | result.zip 다운로드 |
 
