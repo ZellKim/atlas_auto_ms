@@ -252,6 +252,40 @@ unzip(zipFile, exdir = "AUMC")
 
 기존 스크립트: `automation/download_results.py`
 
+### 2.8 result.zip 구조
+
+```
+result.zip/
+├── cmOutput/                              ← CohortMethod 중간 산출물
+│   ├── CmData_l1_t{T}_c{C}/              ← 원본 데이터 (SQLite/Andromeda)
+│   │   ├── cohorts                        ←   T/C 코호트 + PS 적합 전
+│   │   ├── outcomes                       ←   outcome event
+│   │   ├── covariates                     ←   공변량 (sparse matrix)
+│   │   ├── covariateRef                   ←   공변량 이름 매핑
+│   │   └── analysisRef                    ←   분석 설정
+│   ├── StudyPop_l1_s1_t{T}_c{C}_o{O}.rds ← PS 매칭 + risk window 적용된 population
+│   ├── Ps_l1_s1_t{T}_c{C}.rds            ← PS model
+│   ├── StrPop_l1_s1_t{T}_c{C}_o{O}.rds   ← stratified population
+│   └── outcomeModelReference.rds          ← 결과 참조
+├── export/                                ← CSV 요약 (Shiny + 분석용)
+│   ├── cohort_method_result.csv           ←   기관별 HR
+│   ├── negative_control_outcome.csv       ←   NC HR
+│   ├── covariate_balance.csv              ←   SMD
+│   ├── preference_score_dist.csv          ←   PS 분포
+│   ├── kaplan_meier_dist.csv              ←   KM 데이터
+│   ├── attrition.csv                      ←   환자 흐름
+│   ├── propensity_model.csv               ←   PS model coefficients
+│   └── ...
+├── balance/                               ← covariate balance 상세
+├── ShinyApp/                              ← Evidence Explorer 데이터
+└── log.txt                                ← 실행 로그
+```
+
+**feedernet 결과 vs IPD pooled 분석**:
+- feedernet result.zip의 StudyPop/HR = **기관 단독 PS fitting** 결과
+- 우리 IPD pooled = **전 기관 CmData 합산 → site dummy covariate로 통합 PS fitting**
+- 따라서 IPD pooled 시 feedernet의 StudyPop/HR은 사용하지 않고, **CmData부터 다시 처리**
+
 ---
 
 ## 3. Characterization 운영
