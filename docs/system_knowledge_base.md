@@ -281,10 +281,41 @@ result.zip/
 └── log.txt                                ← 실행 로그
 ```
 
+### 2.9 CohortMethod 파이프라인 (CmData → StudyPop → StratPop)
+
+```
+CmData (SQLite)
+  │  원본: T/C 코호트 + outcome + covariates (sparse matrix)
+  │  PS 미적합, 매칭 안 됨, risk window 미적용
+  │
+  ↓ createStudyPopulation(riskWindowStart, riskWindowEnd, removeSubjectsWithPriorOutcome)
+  │
+StudyPop (.rds)
+  │  risk window 적용, prior outcome 제거, washout 적용
+  │  PS 미적합, 매칭 안 됨
+  │
+  ↓ createPs() — PS score 계산
+  ↓ matchOnPs() 또는 stratifyByPs()
+  │
+StratPop (.rds)
+  │  PS matching(1:1) 또는 stratification(5분위) 완료
+  │  ★ 최종 분석 대상 population
+  │
+  ↓ fitOutcomeModel(modelType="cox", stratified=TRUE)
+  │
+OutcomeModel → HR, 95% CI, p-value
+```
+
+| 파일 | PS 적합 | 매칭/층화 | risk window | 용도 |
+|------|:---:|:---:|:---:|------|
+| **CmData** | X | X | X | 원본 데이터, IPD pooled 분석 시작점 |
+| **StudyPop** | X | X | O | risk window + prior outcome 제거 |
+| **StratPop** | O | O | O | 최종 분석 대상, Cox 입력 |
+
 **feedernet 결과 vs IPD pooled 분석**:
-- feedernet result.zip의 StudyPop/HR = **기관 단독 PS fitting** 결과
-- 우리 IPD pooled = **전 기관 CmData 합산 → site dummy covariate로 통합 PS fitting**
-- 따라서 IPD pooled 시 feedernet의 StudyPop/HR은 사용하지 않고, **CmData부터 다시 처리**
+- feedernet result.zip = **기관 단독** PS fitting → StudyPop/StratPop/HR
+- IPD pooled = **전 기관 CmData 합산** → site dummy covariate로 통합 PS fitting
+- IPD pooled 시 feedernet의 StudyPop/StratPop은 사용하지 않고 **CmData부터 다시 처리**
 
 ---
 
