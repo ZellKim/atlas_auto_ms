@@ -312,7 +312,24 @@ OutcomeModel → HR, 95% CI, p-value
 | **StudyPop** | X | X | O | risk window + prior outcome 제거 |
 | **StratPop** | O | O | O | 최종 분석 대상, Cox 입력 |
 
-### 2.10 다기관 분석 방법 비교
+### 2.10 feedernet estimation 실행 구조
+
+```
+ATLAS (KHNMC 1개 기관에서 설계)
+  └── estimation spec (cohortDefinitions + TCO + NC + PS설정)
+       ↓ feedernet이 export 시 CIRCE JSON → SQL 변환
+R 패키지 생성 (inst/sql/ + inst/settings/)
+       ↓ 각 기관 Docker 컨테이너에 배포
+각 기관에서 독립 실행:
+  1. createCohorts() ← 동일한 SQL을 각 기관 CDM DB에서 실행 (코호트 복제가 아님)
+  2. runCohortMethod() ← PS fitting + matching + Cox
+  3. packageResults() ← result.zip 생성
+```
+
+코호트를 각 기관에 "복제"하는 것이 아니라, **같은 코호트 정의 SQL을 각 기관 CDM에서 실행**하는 구조.
+따라서 ATLAS에서 1개 기관에만 설계하면 feedernet이 전 기관에 동일 SQL을 배포/실행한다.
+
+### 2.11 다기관 분석 방법 비교
 
 **feedernet 결과 (기관별 독립 실행)**:
 - 각 기관이 **독립된 PS model**로 fitting → StudyPop → StratPop → HR
