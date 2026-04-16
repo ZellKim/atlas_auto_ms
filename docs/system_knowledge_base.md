@@ -221,6 +221,35 @@ feedernet에서 기관을 식별하는 ID가 **4가지** 존재하며, 모두 �
 
 전체 매핑: `atlas_auto_cmdata/site_id_mapping_full.csv` (23개 기관)
 
+**기본 실행 대상: 20개 기관**
+
+```python
+CDM_IDS_20 = [
+    588,  # AUMC
+    273,  # CHNUH
+    566,  # DCMC
+    575,  # GNUCH
+    535,  # HUMC
+    562,  # ISH
+    506,  # JCMJ
+    537,  # KDH
+    558,  # KHMC
+    583,  # KHNMC
+    554,  # KWMC
+    539,  # MJH
+    548,  # PNUH
+    318,  # SCHBC
+    335,  # SCHCA
+    337,  # SCHGM
+    333,  # SCHSU
+    459,  # UUH
+    581,  # EUMC
+    312,  # WKUH
+]
+```
+
+신규 연구 시 이 20개 기관에 일괄 실행 후, 데이터 검증 결과에 따라 기관 선정.
+
 ### 2.4 Source 선택 규칙
 
 - 기본: static DB 중 최신 (`sourceName` 끝 `_숫자`가 가장 큰 것)
