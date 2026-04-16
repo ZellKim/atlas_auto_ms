@@ -61,15 +61,31 @@ atlas_auto_ms/
 │   ├── client.py                       #   feedernet 포탈 + WebAPI 클라이언트
 │   ├── builder.py                      #   Estimation JSON 스펙 빌더
 │   ├── cohort_designer.py              #   YAML 코호트 정의 → CIRCE JSON 변환기
+│   ├── cohort_validator.py             #   코호트 정의 검증
 │   ├── protocol.py                     #   StudyProtocol: YAML → 전체 파이프라인
 │   ├── runner.py                       #   본원(R) + 타기관(API) 통합 실행
 │   ├── cli.py                          #   CLI: atlas-auto 명령
 │   └── data/
 │       └── concepts.py                 #   OMOP Concept ID 레퍼런스 (300+)
+├── data/                               # 참조 데이터 (신규 연구 재사용)
+│   ├── site_mapping/                   #   기관 4종 ID + sourceKey 매핑 (24기관)
+│   ├── biomarker/                      #   기관별 concept & unit 매핑
+│   ├── atlas_reference/                #   API 엔드포인트, PRESET FA, ETRI measurement
+│   ├── cohort_definitions/             #   재사용 코호트 JSON (10개)
+│   ├── concept_frequency/              #   Achilles 23기관×5domain (168 files)
+│   ├── characterization/               #   PRESET characterization 결과
+│   ├── reference/                      #   R 환경설정, 이슈 히스토리
+│   └── scripts/                        #   데이터 수집/생성 Python 스크립트
+├── docs/                               # 문서
+│   ├── system_knowledge_base.md        #   API 레시피, 운영 지식, 체크리스트
+│   ├── concept_selection_guide.md      #   Concept ID 선정 가이드
+│   ├── paper_draft.md                  #   논문 본문
+│   └── irb_protocol.md                 #   IRB 프로토콜
 ├── R/                                  # R 분석 코드
 │   ├── pooled_analysis.R               #   메타분석 + Evidence Explorer
 │   ├── run_pooled.R                    #   실행 스크립트
-│   └── install_dependencies.R          #   R 패키지 설치
+│   ├── install_dependencies.R          #   R 패키지 설치
+│   └── reference_scripts/              #   IPD/Calibration/KM 참고 스크립트 (20개)
 ├── cloud_monitor/                      # GCP Cloud Function - 실행 모니터링
 │   ├── main.py                         #   상태 체크 + Telegram 알림
 │   ├── requirements.txt                #   의존성
@@ -89,6 +105,7 @@ atlas_auto_ms/
 | `client.py` | `FedernetClient` | feedernet 포탈 로그인, 기관 연결, 코호트/Estimation CRUD, 결과 다운로드 |
 | `builder.py` | `EstimationBuilder` | Estimation JSON 스펙을 프로그래밍 방식으로 구성 (TCO, PS, Cox 등) |
 | `cohort_designer.py` | `CohortDesigner` | YAML 코호트 정의 → ATLAS CIRCE JSON 변환 |
+| `cohort_validator.py` | `cohort_validator` | 코호트 정의 검증 (concept 존재 여부, 기관별 가용성) |
 | `protocol.py` | `StudyProtocol` | YAML 하나로 전체 파이프라인 오케스트레이션 |
 | `runner.py` | `run_study()` | config.yaml 기반 본원+타기관 통합 실행 |
 | `data/concepts.py` | `CONDITIONS`, `DRUGS`, ... | OMOP Standard Concept ID 레퍼런스 |
