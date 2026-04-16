@@ -10,7 +10,8 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
 ## 현재 활성 연구
 
-**studies/appendectomy/** — 충수절제술 다기관 비교효과 연구
+**studies/allergic_diseases/** — 소아 알레르기-틱/ADHD 다기관 연구
+(studies/appendectomy/ — 충수절제술 연구, estimation 실행 중)
 
 ## feedernet 핵심 함정 (매번 확인)
 
