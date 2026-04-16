@@ -8,7 +8,7 @@ id,issue,impact,resolution
 7,Acute MI 코호트에 Inpatient Visit 제한,이벤트 수 과소 추정,입원 조건 제거 (v2)
 8,T2DM Lab 확인에 Fasting glucose(3037110) 누락,일부 기관에서 lab 확인 실패,OR로 추가 (v2)
 9,vs GenPop comparator maxCohortSize=50K capping,리뷰어 지적 가능,supplementary로 이동
-10,feedernet estimation POST로 직접 생성 500 에러,cohortDefinitions 누락,ATLAS copy+PUT 방식으로 우회
+10,feedernet estimation POST 500 에러,API 직접 생성 불가,ATLAS copy+PUT 방식으로 우회
 11,feedernet cdmId ≠ atlasId ≠ group_id,execution API에서 CDM not found,기존 execution에서 cdmId 매핑 추출
 12,feedernet estimation 서버 불안정으로 즉시 실패,일부 기관 FINISHED_WITH_ERROR,재실행
-13,clinical_final_v4(11019) 7기관 실패,outcomeIds에 1285(T2DM_v3)인데 cohortDefinitions에 1270(v2)만 있음,PUT으로 1270→1285 교체 후 전체 재실행 (2026-04-16)
+13,clinical_final_v4(11019) 7기관 반복 실패,cohortDefinitions 누락이 아니라 stopOnError=True + 1285(T2DM_v3) 코호트 SQL 에러,stopOnError=False로 변경 후 재실행. feedernet은 export 시 ATLAS에서 cohortDefinitions를 자동 resolve하므로 spec에 expression 없어도 실행 가능

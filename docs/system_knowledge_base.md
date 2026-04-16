@@ -98,7 +98,7 @@ ATLAS WebAPI (Python) = feedernet.com/api/v1/atlas/{gid}/{sid}/
 | Generate는 GET | POST → 500 |
 | 코호트 expression | object로 전송 (string → 400) |
 | estimation spec | string으로 전송 (`json.dumps(spec)`) |
-| cohortDefinitions | full expression 포함 필수 (누락 → 수시간 후 실패) |
+| ~~cohortDefinitions 누락~~ | **오류 아님**. feedernet이 export 시 ATLAS에서 자동 resolve. estimation spec에 expression 없어도 실행 가능. 이전 이슈 #10, #13은 다른 원인 (stopOnError + 특정 outcome SQL 에러) |
 | NC concept set | `conceptSets` + `crossReference`로 설정 (`negativeControls[]` 아님) |
 | NC conceptSets items=0 | **정상** — ATLAS가 conceptSetId로 실행 시점에 resolve. `GET /estimation/{id}`는 items 미포함, `GET /estimation/{id}/export`는 포함 |
 
