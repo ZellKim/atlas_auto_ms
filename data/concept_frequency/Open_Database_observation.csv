@@ -1,0 +1,846 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4015724,Administrative statuses||Prevention status||Immunization status||Vaccination required,66205,0.569006,4.07
+4214956,NA||Situation with explicit context||Finding with explicit context||History of clinical finding in subject,63534,0.54605,2.81
+440927,Prevention status||Monitoring status||Chronic disease monitoring status||High risk drug monitoring status,53004,0.455549,3.49
+2614666,"NA||NA||NA||Ground mileage, per statute mile",34663,0.297915,2.38
+4046550,Care regime||Care of patient states||Perioperative care||Postoperative care,31743,0.272819,1.6
+440922,Monitoring status||Chronic disease monitoring status||Diabetic monitoring status||Diabetic on insulin,25287,0.217332,1.35
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,24858,0.213645,1.28
+4058431,Past history of procedure||H/O: surgery||History of operation on musculoskeletal system||H/O: artificial joint,24067,0.206846,1.78
+2614669,"NA||NA||NA||Ambulance service, basic life support, non-emergency transport, (bls)",23101,0.198544,1.66
+2614668,"NA||NA||NA||Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",22473,0.193147,1.32
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,21689,0.186408,1.41
+4059467,Past history of procedure||H/O: surgery||H/O: artificial organ/tissue||H/O: artificial eye lens,19755,0.169787,1.37
+2720870,"NA||NA||NA||Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",16326,0.140316,1.33
+40479553,Device status||Device in situ||Cardiac implant in situ||Cardiac pacemaker in situ,16299,0.140084,1.27
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,15419,0.13252,1.4
+2614670,"NA||NA||NA||Ambulance service, basic life support, emergency transport (bls-emergency)",13922,0.119654,1.16
+37396891,Procedure||Regimes and therapies||Therapeutic regimen||Antineoplastic chemotherapy regimen,12196,0.10482,2.0
+2101868,"Procedure by method||Procedure with a procedure focus||Substance abuse prevention assessment||Tobacco use assessed (CAD, CAP, COPD, PV) (DM)",11584,0.09956,1.13
+436583,Event||Exposure to potentially harmful entity||Exposure to mechanical force||Fall,10813,0.092934,1.14
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,10582,0.090948,1.15
+2101897,"Current Procedural Terminology Concept||Category II Codes||Patient History||Current tobacco non-user (CAD, CAP, COPD, PV) (DM) (IBD)",9912,0.08519,1.13
+4060089,Past history of procedure||History of thoracic surgery||H/O: artificial organ/tissue||H/O: artificial heart valve,9636,0.082818,1.33
+4058419,Situation with explicit context||Procedure with explicit context||Past history of procedure||H/O: surgery,9325,0.080145,1.16
+2102861,Procedure on visual system||Procedure on visual system||Procedure on nerve||Optic nerve head evaluation performed (EC),9233,0.079354,1.16
+4090651,NA||Clinical finding||Clinical history and observation findings||Dialysis finding,8956,0.076973,2.27
+2108533,"Therapeutic procedure||Management procedure||Therapeutic, Preventive or Other Interventions||Oral antiplatelet therapy prescribed (CAD)",8709,0.07485,1.1
+2617827,"NA||NA||NA||Eligible clinician attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications",8504,0.073089,1.1
+2720581,NA||NA||NA||Set-up portable x-ray equipment,8490,0.072968,1.22
+4059356,Past history of procedure||H/O: surgery||H/O: tissue/organ recipient||History of renal transplant,8433,0.072478,2.16
+43530634,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||History of tobacco use,8192,0.070407,1.1
+2102836,"Procedure by site||Procedure on body system||Procedure on visual system||Dilated macular exam performed, including documentation of the presence or absence of macular thickening or hemorrhage and the level of macular degeneration severity (EC)",7873,0.067665,1.13
+2617267,NA||NA||NA||Md recertification hha pt,7800,0.067038,1.08
+2617268,NA||NA||NA||Md certification hha patient,7521,0.06464,1.08
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,7321,0.062921,1.15
+2108554,"Therapeutic procedure||Drug therapy||Therapeutic, Preventive or Other Interventions||Documentation that administration of prophylactic parenteral antibiotic was initiated within 1 hour (if fluoroquinolone or vancomycin, 2 hours) prior to surgical incision (or start of procedure when no incision is required) as ordered (PERI 2)",7318,0.062895,1.3
+2314342,"Procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Handling and/or conveyance of specimen for transfer from the office to a laboratory",7318,0.062895,1.07
+4032376,Therapeutic procedure||Therapy||Rehabilitation therapy||Physical rehabilitation therapy procedure,7062,0.060695,1.29
+2617452,"NA||NA||NA||Hospital observation service, per hour",6951,0.059741,1.14
+40481022,Device in situ||Cardiac implant in situ||Cardiac defibrillator in situ||Automatic implantable cardiac defibrillator in situ,6311,0.054241,1.16
+2106386,Procedure on organ||Procedure on heart||Electrocardiographic procedure||12-Lead ECG Performed (EM),6038,0.051894,1.16
+2720895,"NA||NA||NA||Transportation of portable x-ray equipment and personnel to home or nursing home, per trip to facility or location, one patient seen",6009,0.051645,1.15
+4061946,Procedure with a procedure focus||Medication monitoring||High risk drug monitoring||Follow-up risk drug assessment,5984,0.05143,1.2
+437175,"Fall||Accidental fall||Fall on same level||Fall on same level from slipping, tripping or stumbling",5797,0.049823,1.06
+440279,NA||Event||Accidental event||Accident,5648,0.048542,1.08
+4060985,Weight finding||Overweight||Obese||Body mass index 30+ - obesity,5336,0.045861,1.07
+2101941,"Procedure||Procedure by method||Patient History||Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)",5305,0.045594,1.07
+2108553,"Therapeutic procedure||Procedure||Therapeutic, Preventive or Other Interventions||Documentation of order for prophylactic parenteral antibiotics to be given within 1 hour (if fluoroquinolone or vancomycin, 2 hours) prior to surgical incision (or start of procedure when no incision is required) (PERI 2)",5236,0.045001,1.21
+2514491,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordinatio",5118,0.043987,1.05
+4215685,NA||Situation with explicit context||Procedure with explicit context||Past history of procedure,4678,0.040206,1.06
+4076788,Regimes and therapies||Care regime||Care of body sites||Stoma care procedure,4622,0.039724,1.07
+441488,Disease||Complication||Adverse reaction||Adverse reaction to substance,4440,0.03816,1.29
+4323908,Procedure with explicit context||Past history of procedure||H/O: surgery||History of cosmetic plastic surgery,4427,0.038048,1.06
+2108546,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Pneumococcal vaccine administered or previously received (COPD) (PV), (IBD)",4394,0.037765,1.07
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,4190,0.036011,1.11
+4059465,Past history of procedure||H/O: surgery||History of thoracic surgery||H/O: lung recipient,4132,0.035513,1.08
+2106285,"Procedure on body system||Examination of body system||Examination of body function||Most recent diastolic blood pressure less than 80 mm Hg (HTN, CKD, CAD) (DM)",3878,0.03333,1.06
+2106254,Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Most recent LDL-C less than 100 mg/dL (CAD) (DM),3672,0.031559,1.06
+4059320,Finding with explicit context||History of clinical finding in subject||H/O: Disorder||H/O: respiratory disease,3638,0.031267,1.03
+4014023,Procedure||Regimes and therapies||Palliative procedure||Palliative care,3619,0.031104,1.05
+2102854,Procedure on organ||Procedure on visual system||Procedure on retina||Dilated retinal eye exam with interpretation by an ophthalmologist or optometrist documented and reviewed (DM),3585,0.030812,1.06
+4011950,NA||Qualifier value||General information qualifier||Patient need for,3371,0.028972,1.14
+2108688,"Current Procedural Terminology Concept||Procedure||Therapeutic, Preventive or Other Interventions||Counseling about the benefits and/or risks of the Age-Related Eye Disease Study (AREDS) formulation for preventing progression of age-related macular degeneration (AMD) provided to patient and/or caregiver(s) (EC)",3366,0.028929,1.07
+4081759,Clinical finding||Administrative statuses||Follow-up status||Transplant follow-up,3221,0.027683,1.25
+433942,Event||Accidental event||Accident||Accident while engaged in household activity,3183,0.027357,1.03
+2107158,"Radiographic imaging procedure||Radiographic imaging procedure by site||Radiographic procedure of chest||Mammogram assessment category of  benign,  documented (RAD)",3173,0.027271,1.09
+2514490,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. ",3162,0.027176,1.03
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,3077,0.026446,1.19
+4219847,Finding with explicit context||Possible clinical finding||Suspected clinical finding||Disease suspected,3076,0.026437,1.02
+4309371,Procedure by intent||Therapeutic procedure||Therapy||Occupational therapy,3033,0.026067,1.1
+2106182,Radiography of intestine||Procedure on sigmoid colon||Sigmoidoscopy||Colorectal cancer screening results documented and reviewed (PV),2961,0.025449,1.05
+2101922,Procedure by method||Patient History||Risk assessment||Patient screened for future fall risk; documentation of no falls in the past year or only 1 fall without injury in the past year (GER),2840,0.024409,1.05
+2106281,"Procedure on body system||Examination of body system||Examination of body function||Most recent systolic blood pressure less than 130 mm Hg (DM), (HTN, CKD, CAD)",2789,0.02397,1.04
+2106236,Measurement of substance||Protein measurement||Glucohemoglobin measurement||Most recent hemoglobin A1c (HbA1c) level less than 7.0% (DM),2782,0.02391,1.03
+2617269,Regimes and therapies||Personal and environmental management regime||Supervision||Home health care supervision,2630,0.022604,1.06
+2514492,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling ",2549,0.021908,1.03
+4150253,Administrative statuses||Consent status||Consent status for immunizations||Immunization consent not given,2533,0.02177,1.02
+2106213,"Procedure by method||Procedure||Procedure with a procedure focus||Oxygen saturation results documented and reviewed (includes assessment through pulse oximetry or arterial blood gas measurement) (CAP, COPD) (EM)",2497,0.021461,1.09
+2720896,"NA||NA||NA||Transportation of portable x-ray equipment and personnel to home or nursing home, per trip to facility or location, more than one patient seen",2440,0.020971,1.07
+439224,Propensity to adverse reactions||Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Drug allergy,2435,0.020928,1.09
+2102841,"Procedure by site||Procedure on body system||Procedure on visual system||Dilated macular or fundus exam performed, including documentation of the presence or absence of macular edema and level of severity of retinopathy (EC)",2408,0.020696,1.03
+2720869,"NA||NA||NA||Low osmolar contrast material, 200-299 mg/ml iodine concentration, per ml",2405,0.02067,1.04
+2617881,NA||NA||NA||Influenza immunization administered or previously received,2399,0.020618,1.03
+2107152,"Radiographic imaging procedure||Radiographic imaging procedure by site||Radiographic procedure of chest||Mammogram assessment category of  negative,  documented (RAD)",2388,0.020524,1.03
+2614667,"NA||NA||NA||Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",2334,0.02006,1.03
+4059464,Past history of procedure||H/O: surgery||H/O: tissue/organ recipient||H/O: liver recipient,2292,0.019699,1.36
+4176605,Past history of procedure||H/O: surgery||History of thoracic surgery||History of mastectomy,2261,0.019432,1.03
+4021200,Procedure||Regimes and therapies||Care regime||Care of patient states,2201,0.018917,1.03
+2213587,"Procedure with a procedure focus||Procedure||Renal care management||End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 4 or more face-to-face visits by a physician or other qualified health care professional per month",2199,0.0189,2.87
+2102832,"Procedure by method||Procedure with a procedure focus||Report procedure||Vital signs (temperature, pulse, respiratory rate, and blood pressure) documented and reviewed (CAP) (EM)",2181,0.018745,1.05
+2102833,Procedure on body system||Procedure on nervous system||Physical Examination||Mental status assessed (CAP) (EM),2141,0.018401,1.07
+2614664,"NA||NA||NA||Ambulance (als or bls) oxygen and oxygen supplies, life sustaining situation",2044,0.017567,1.06
+2617803,NA||NA||NA||Patient with documented results of a central dual-energy x-ray absorptiometry (dxa) ever being performed,1979,0.017009,1.02
+4058861,Past history of procedure||H/O: surgery||History of operation on musculoskeletal system||H/O: bone tissue recipient,1940,0.016674,1.02
+4058860,Past history of procedure||History of thoracic surgery||H/O: tissue/organ recipient||H/O: heart recipient,1913,0.016441,1.21
+4058429,Past history of procedure||History of thoracic surgery||H/O: tissue/organ recipient||H/O: heart valve recipient,1874,0.016106,1.06
+4060094,Finding with explicit context||History of clinical finding in subject||H/O: machine dependence||H/O: respirator dependence,1795,0.015427,1.06
+4192270,H/O: Disorder||History of disorder of connective tissue||H/O: fracture||H/O: hip fracture,1776,0.015264,1.19
+2101910,Evaluation procedure||Physical assessment||Patient History||Presence or absence of urinary incontinence assessed (GER),1775,0.015255,1.03
+2110382,"Procedure by intent||Therapeutic procedure||Radiation oncology AND/OR radiotherapy||Radiation exposure or exposure time in final report for procedure using fluoroscopy, documented (RAD)",1709,0.014688,1.1
+2106238,Measurement of substance||Protein measurement||Glucohemoglobin measurement||Most recent hemoglobin A1c (HbA1c) level 7.0-9.0% (DM),1665,0.01431,1.02
+4065060,Procedure||General examination of patient||Specialized medical examination||Medicolegal examination,1590,0.013665,1.01
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,1559,0.013399,1.01
+2109560,Procedure on organ||Procedure on visual system||Report procedure||Findings of dilated macular or fundus exam communicated to the physician or other qualified health care professional managing the diabetes care (EC),1555,0.013365,1.03
+2108551,"Therapeutic procedure||Therapy||Therapeutic, Preventive or Other Interventions||Appropriate empiric antibiotic prescribed (CAP), (EM)",1522,0.013081,1.06
+4081756,Clinical finding||Administrative statuses||Follow-up status||Radiotherapy follow-up,1518,0.013047,1.1
+4253306,Possible clinical finding||Suspected clinical finding||Disease suspected||Suspected neurological disease,1515,0.013021,1.01
+2617883,"NA||NA||NA||Influenza immunization was not administered, reason not given",1507,0.012952,1.01
+4060705,Body measurement finding||Weight finding||Overweight||Body mass index 25-29 - overweight,1494,0.01284,1.02
+4058862,Procedure with explicit context||Past history of procedure||H/O: surgery||H/O: artificial organ/tissue,1486,0.012772,1.02
+4215543,Possible clinical finding||Suspected clinical finding||Disease suspected||Suspected respiratory disease,1475,0.012677,1.01
+437525,General finding of observation of patient||Body measurement finding||Weight finding||Overweight,1466,0.0126,1.06
+43021378,Possible clinical finding||Suspected clinical finding||Disease suspected||Suspected infectious disease,1464,0.012583,1.01
+4016354,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Bacillus anthracis,1452,0.012479,1.01
+4201412,Procedure by intent||Therapeutic procedure||Therapy||Speech therapy,1446,0.012428,1.04
+4305831,NA||NA||Event||Exposure to potentially harmful entity,1432,0.012307,1.01
+2414357,"Procedure by method||Special Services, Procedures and Reports||Provision of services and equipment||Supplies and materials (except spectacles), provided by the physician or other qualified health care professional over and above those usually included with the office visit or other services rendered (list drugs, trays, supplies, or materials provided)",1401,0.012041,1.02
+4060088,Past history of procedure||H/O: surgery||H/O: tissue/organ recipient||H/O: skin recipient,1370,0.011775,1.02
+4058858,Procedure with explicit context||Past history of procedure||H/O: surgery||H/O: tissue/organ recipient,1350,0.011603,1.01
+2617211,"NA||NA||NA||Diabetes outpatient self-management training services, individual, per 30 minutes",1337,0.011491,1.02
+438857,Body measurement finding||Height / growth finding||General finding of height||Decrease in height,1329,0.011422,1.04
+2106370,Radiographic imaging procedure by site||Radiographic imaging procedure by site||Radiographic procedure on cardiovascular system||Documentation in final CT or MRI report of presence or absence of hemorrhage and mass lesion and acute infarction (STR),1283,0.011027,1.05
+2106284,"Procedure on body system||Examination of body system||Examination of body function||Most recent systolic blood pressure greater than or equal to 140 mm Hg (HTN, CKD, CAD) (DM)",1280,0.011001,1.03
+2514489,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coor",1269,0.010907,1.01
+2617477,"Therapy||Psychotherapy||Group psychotherapy||Group psychotherapy other than of a multiple-family group, in a partial hospitalization setting, approximately 45 to 50 minutes",1258,0.010812,4.72
+2720868,"NA||NA||NA||Low osmolar contrast material, 100-199 mg/ml iodine concentration, per ml",1220,0.010485,1.02
+441194,"Accident||Accident due to physical impact or mechanical violence||Overexertion, strenuous movements and vibration||Overexertion and strenuous movements",1205,0.010357,1.03
+40479426,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to sexually transmissible disorder,1177,0.010116,1.13
+2106187,"Procedure on body system||Procedure on cardiovascular system||Diagnostic/Screening Processes or Results||Left ventricular ejection fraction (LVEF) less than 40% or documentation of moderately or severely depressed left ventricular systolic function (CAD, HF)",1163,0.009996,1.03
+2106152,"Procedure||Procedure by method||Organ or system related test||Lipid panel results documented and reviewed (must include total cholesterol, HDL-C, triglycerides and calculated LDL-C) (CAD)",1150,0.009884,1.02
+4029804,Professional / ancillary services care||Respiratory therapy||Therapeutic exercise||Physiotherapeutic breathing exercise,1137,0.009772,1.04
+2106371,"Radiography of head||Regional contrast radiology||MRI of head||CT or MRI of the brain performed in the hospital within 24 hours of arrival or performed in an outpatient imaging center, to confirm initial diagnosis of stroke, TIA or intracranial hemorrhage (STR)",1137,0.009772,1.12
+4163058,Propensity to adverse reactions to drug||Drug allergy||Drug groups primarily affecting the central nervous system allergy||Opioid analgesic allergy,1128,0.009695,1.01
+2213588,"Procedure with a procedure focus||Procedure||Renal care management||End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 2-3 face-to-face visits by a physician or other qualified health care professional per month",1126,0.009678,1.61
+4289178,Therapeutic procedure||Therapy||Occupational therapy||Vocational rehabilitation,1123,0.009652,1.01
+2614662,NA||NA||NA||Als routine disposable supplies,1120,0.009626,1.05
+2414345,"Procedure||Special Services, Procedures and Reports||Perioperative care||Postoperative follow-up visit, normally included in the surgical package, to indicate that an evaluation and management service was performed during a postoperative period for a reason(s) related to the original procedure",1105,0.009497,1.01
+2617254,"Procedure on heart||Cardiac support procedure||Enhanced external counterpulsation||External counterpulsation, per treatment session",1092,0.009385,1.32
+4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,1079,0.009274,1.03
+2106158,Radiographic imaging procedure by site||Radiographic procedure of chest||Mammography||Screening mammography results documented and reviewed (PV),1068,0.009179,1.02
+4167777,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Drug allergy||Analgesic allergy,1052,0.009042,1.01
+2106286,"Procedure on body system||Examination of body system||Examination of body function||Most recent diastolic blood pressure 80-89 mm Hg (HTN, CKD, CAD) (DM)",1046,0.00899,1.03
+2106282,"Procedure on body system||Examination of body system||Examination of body function||Most recent systolic blood pressure 130-139 mm Hg (DM),(HTN, CKD, CAD)",1045,0.008981,1.01
+2617801,"Procedure on retina||Ocular slit lamp examination||Slit lamp fundus examination||Dilated macular or fundus exam performed, including documentation of the presence or absence of macular edema and level of severity of retinopathy",1035,0.008895,1.02
+2614681,Patient referral||Referral to service||Referral to Accident and Emergency service||Unlisted ambulance service,1033,0.008878,1.04
+4147565,Body measurement finding||Finding of body mass index||Decreased body mass index||Body mass index less than 20,1028,0.008835,1.01
+2108782,"Regimes and therapies||Regimes and therapies||Therapeutic, Preventive or Other Interventions||Active warming used intraoperatively for the purpose of maintaining normothermia, or at least 1 body temperature equal to or greater than 36 degrees Centigrade (or 96.8 degrees Fahrenheit) recorded within the 30 minutes immediately before or the 15 minute",997,0.008569,1.1
+40484564,NA||Situation with explicit context||Finding with explicit context||Risk of exposure to communicable disease,992,0.008526,1.41
+441192,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons,985,0.008466,1.01
+40756989,"Procedure||Procedure related to anesthesia and sedation||Therapeutic, Preventive or Other Interventions||Duration of general or neuraxial anesthesia 60 minutes or longer, as documented in the anesthesia record (CRIT) (Peri2)",981,0.008431,1.09
+2106869,Procedure on visual system||Procedure on visual system||Procedure on eye||Intraocular pressure (IOP) reduced by a value of greater than or equal to 15% from the pre-intervention level (EC),981,0.008431,1.02
+4178305,Procedure with explicit context||Past history of procedure||H/O: surgery||History of cataract extraction,980,0.008423,1.05
+2617820,NA||NA||NA||Bmi is documented within normal parameters and no follow-up plan is required,978,0.008406,1.02
+2106342,"Procedure on neck||Procedure on cardiovascular system||Measurement||Carotid imaging study report (includes direct or indirect reference to measurements of distal internal carotid diameter as the denominator for stenosis measurement) (STR, RAD)",974,0.008371,1.07
+4019953,Social context||Person||Person in the healthcare environment||Donor for medical or surgical procedure,968,0.00832,1.02
+4058850,Past history of procedure||H/O: surgery||H/O: limb amputation||H/O: lower limb amputation,964,0.008285,1.01
+2414352,"Medicine Services and Procedures||Special Services, Procedures and Reports||Provider-specific procedure||Service(s) provided between 10:00 PM and 8:00 AM at 24-hour facility, in addition to basic service",938,0.008062,1.01
+40757059,"Procedure||Procedure related to anesthesia and sedation||Therapeutic, Preventive or Other Interventions||Duration of general or neuraxial anesthesia less than 60 minutes, as documented in the anesthesia record (CRIT) (Peri2)",937,0.008053,1.1
+2106252,Measurement of substance||Protein measurement||Glucohemoglobin measurement||Most recent hemoglobin A1c level greater than 9.0% (DM),936,0.008045,1.01
+4327746,Person in the healthcare environment||Donor for medical or surgical procedure||Tissue donor||Egg donor,932,0.00801,1.01
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,921,0.007916,1.04
+2617804,"NA||NA||NA||Patient with central dual-energy x-ray absorptiometry (dxa) results not documented, reason not given",916,0.007873,1.01
+441749,Exposure to mechanical force||Fall||Accidental fall||Fall on or from stairs or steps,913,0.007847,1.02
+4060091,Finding with explicit context||History of clinical finding in subject||H/O: pacemaker in situ||H/O: cardiac pacemaker in situ,900,0.007735,1.03
+2101942,"Procedure||Procedure by method||Patient History||Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)",897,0.007709,1.01
+4093763,Care of patient states||Ostomy care||Enterostomy management and care||Colostomy management and care,878,0.007546,1.06
+2101895,"Current Procedural Terminology Concept||Category II Codes||Patient History||Current tobacco smoker (CAD, CAP, COPD, PV) (DM)",872,0.007494,1.02
+435991,Exposure to potentially harmful entity||Exposure to mechanical force||Fall||Accidental fall,869,0.007469,1.01
+4058432,Past history of procedure||H/O: surgery||H/O: artificial organ/tissue||H/O: artificial bladder,859,0.007383,1.01
+2617334,Procedure by method||Procedure categorized by device involved||Provision of device||Provide inr test mater/equip,858,0.007374,1.29
+2614656,NA||NA||NA||Bls routine disposable supplies,856,0.007357,1.04
+434219,Allergic reaction||Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis,849,0.007297,1.01
+2617212,"NA||NA||NA||Diabetes outpatient self-management training services, group session (2 or more), per 30 minutes",844,0.007254,1.16
+4171434,Prevention status||Immunization status||Immunization invitation status||Immunization refused,837,0.007194,1.01
+261047,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral partial vocal cord paralysis,835,0.007176,1.03
+2101918,Procedure by method||Patient History||Risk assessment||Patient screened for future fall risk; documentation of 2 or more falls in the past year or any fall with injury in the past year (GER),831,0.007142,1.02
+2106255,Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Most recent LDL-C 100-129 mg/dL (CAD) (DM),830,0.007134,1.01
+4058430,Past history of procedure||H/O: surgery||H/O: tissue/organ recipient||H/O: cornea recipient,824,0.007082,1.18
+261888,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral complete paralysis of vocal cords,820,0.007048,1.05
+4117957,NA||Observable entity||Process||Activity,818,0.00703,1.02
+4058421,Past history of procedure||H/O: surgery||H/O: limb amputation||H/O: upper limb amputation,813,0.006987,1.01
+2108529,"Procedure by method||Procedure by intent||Therapeutic, Preventive or Other Interventions||Pharmacologic therapy (other than minerals/vitamins) for osteoporosis prescribed (OP) (IBD)",807,0.006936,1.01
+200781,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral small kidney,789,0.006781,1.04
+40479323,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Variola virus,788,0.006773,1.01
+4059468,Past history of procedure||H/O: surgery||H/O: artificial organ/tissue||H/O: artificial blood vessel,787,0.006764,1.02
+136997,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral hyperactive labyrinthine dysfunction,787,0.006764,1.01
+4193155,History of clinical finding in subject||H/O: Disorder||History of disorder of connective tissue||H/O: fracture,782,0.006721,1.14
+2106190,Procedure||Procedure by method||Measurement of respiratory function||Spirometry results documented and reviewed (COPD),771,0.006626,1.01
+74045,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral loss of labyrinthine reactivity,769,0.006609,1.03
+40479329,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Neisseria meningitidis,764,0.006566,1.01
+2108550,"Therapeutic procedure||Procedure||Therapeutic, Preventive or Other Interventions||Documentation that an order was given for venous thromboembolism (VTE) prophylaxis to be given within 24 hours prior to incision time or 24 hours after surgery end time (PERI 2)",757,0.006506,1.12
+2106189,"Procedure on body system||Procedure on cardiovascular system||Diagnostic/Screening Processes or Results||Left ventricular ejection fraction (LVEF) greater than or equal to 40% or documentation as normal or mildly depressed left ventricular systolic function (CAD, HF)",755,0.006489,1.02
+40479430,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Rubella virus,753,0.006472,1
+2617323,"Voice exercises||Speech and language breathing exercises||Respiratory expansion exercises||Therapeutic procedures to improve respiratory function, other than described by g0237, one on one, face to face, per 15 minutes (includes monitoring)",752,0.006463,1.76
+40479428,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to varicella,752,0.006463,1.02
+40479343,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human poliovirus,745,0.006403,1.0
+40479356,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Vibrio cholerae,740,0.00636,1.0
+436882,Fall||Accidental fall||Fall from furniture||Fall from bed,736,0.006326,1.01
+45766277,Equipment finding||Device status||Device in situ||Cardiac implant in situ,726,0.00624,1.02
+4058867,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||H/O: CSF drainage device,725,0.006231,1.01
+40479434,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Rabies virus,715,0.006145,1.01
+2108547,"Therapeutic procedure||Procedure||Therapeutic, Preventive or Other Interventions||Documentation of order for cefazolin OR cefuroxime for antimicrobial prophylaxis (PERI 2)",709,0.006094,1.1
+2614674,"Multisystem procedure||Life support procedure||Advanced life support||Advanced life support, level 2 (als 2)",708,0.006085,1.02
+201449,Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation of leg without complication||Unilateral traumatic amputation of leg below knee without complication,702,0.006033,1.23
+4170581,Care regime||Care of patient states||Ostomy care||Enterostomy management and care,698,0.005999,1.06
+4012491,Functional finding||Eating abilities - finding||Finding related to ability to chew||Difficulty chewing,689,0.005922,1.02
+4196300,"Donor for medical or surgical procedure||Tissue donor||Egg donor||Human oocyte donor, age 35 and older",678,0.005827,1.0
+2617828,"NA||NA||NA||Current list of medications not documented as obtained, updated, or reviewed by the eligible clinician, reason not given",666,0.005724,1.01
+4022061,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Blood donor,658,0.005655,1.0
+2614660,NA||NA||NA||Als specialized service disposable supplies; iv drug therapy,645,0.005544,1.01
+2108552,"Therapeutic procedure||Drug therapy||Therapeutic, Preventive or Other Interventions||Documentation that prophylactic antibiotics were given within 4 hours prior to surgical incision or given intraoperatively (PERI 2)",639,0.005492,1.09
+433930,Railway and road transport accidents||Motor vehicle traffic accident||Traffic accident on public road||Motor vehicle on road in collision with another motor vehicle,636,0.005466,1.02
+4325873,Procedure with explicit context||Past history of procedure||H/O: surgery||History of laparoscopic adjustable gastric banding,632,0.005432,1.0
+4279614,NA||Event||Immediately dangerous to life and health condition||Asphyxiation,619,0.00532,1.22
+2414343,"Procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Handling and/or conveyance of specimen for transfer from the patient in other than an office to a laboratory (distance may be indicated)",618,0.005311,1.01
+4163175,Propensity to adverse reactions to substance||Drug allergy||Allergy to dye||Diagnostic dye allergy,606,0.005208,1.01
+40481819,Clinical finding||Clinical history and observation findings||Eating / feeding / drinking finding||Early satiety,605,0.0052,1.06
+2617849,NA||NA||NA||Beta-blocker therapy prescribed,591,0.005079,1.02
+4135421,Body measurement finding||Finding of body mass index||Normal body mass index||Body mass index 20-24 - normal,587,0.005045,1.0
+2617808,Procedure on body system||Procedure on nervous system||Procedure on lower extremity||Lower extremity neurological exam performed and documented,581,0.004993,1.01
+4060079,Past history of procedure||H/O: surgery||History of thoracic surgery||H/O: pneumonectomy,577,0.004959,1.02
+201899,Finding with explicit context||Unilateral clinical finding||Unilateral inguinal hernia||Unilateral recurrent inguinal hernia,576,0.00495,1.11
+2108541,"Procedure on body system||Procedure on respiratory system||Therapeutic, Preventive or Other Interventions||Inhaled bronchodilator prescribed (COPD)",575,0.004942,1.01
+432807,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects,574,0.004933,1.02
+2110380,"Procedure with a clinical finding focus||Infection control procedure||Patient Safety||All elements of maximal sterile barrier technique, hand hygiene, skin preparation and, if ultrasound is used, sterile ultrasound techniques followed (CRIT)",568,0.004882,1.07
+4239720,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Drug allergy||Allergy to anti-infective agent,567,0.004873,1
+2106161,Procedure by method||Procedure by intent||Screening procedure||Patient screened for unhealthy alcohol use using a systematic screening method (PV) (DSP),556,0.004779,1.01
+4058284,Finding with explicit context||History of clinical finding in subject||H/O: Disorder||H/O: eye disorder,553,0.004753,1.03
+2101902,Procedure on body system||Procedure on visual system||Patient History||Visual functional status assessed (EC),550,0.004727,1.01
+2108556,"Therapeutic procedure||Recommendation to||Therapeutic, Preventive or Other Interventions||Documentation that order was given to discontinue prophylactic antibiotics within 24 hours of surgical end time, non-cardiac procedure (PERI 2)",549,0.004718,1.11
+2614675,NA||NA||NA||Specialty care transport (sct),545,0.004684,1.01
+2617821,NA||NA||NA||Bmi not documented and no reason is given,544,0.004675,1.02
+4169307,Propensity to adverse reactions||Propensity to adverse reactions||Propensity to adverse reactions to substance||Allergy to substance,541,0.00465,1.04
+434046,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral mixed conductive and sensorineural hearing loss with unrestricted hearing on the contralateral side,539,0.004632,1.16
+432814,Clinical history and observation findings||Equipment finding||Device status||Device withdrawn and / or removed,530,0.004555,1.19
+201998,Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation of leg without complication||Unilateral traumatic amputation of leg at OR above knee without complication,520,0.004469,1.24
+2106382,"Radiography of head||Regional contrast radiology||MRI of head||CT or MRI of the brain performed greater than 24 hours after arrival to the hospital or performed in an outpatient imaging center for purpose other than confirmation of initial diagnosis of stroke, TIA, or intracranial hemorrhage (STR)",519,0.004461,1.02
+4081758,Clinical finding||Administrative statuses||Follow-up status||Fracture therapy follow-up,513,0.004409,1.22
+437165,Accidental event||Vehicle accident||Railway and road transport accidents||Motor vehicle traffic accident,513,0.004409,1.01
+2102872,"Procedure on extremity||Procedure on lower extremity||Procedure on foot||Foot examination performed (includes examination through visual inspection, sensory exam with monofilament, and pulse exam - report when any of the 3 components are completed) (DM)",509,0.004375,1.03
+2106191,"Procedure||Procedure by method||Measurement of respiratory function||Spirometry test results demonstrate FEV1/FVC less than 70% with COPD symptoms (eg, dyspnea, cough/sputum, wheezing) (CAP, COPD)",509,0.004375,1.02
+2617799,NA||NA||NA||Left ventricular ejection fraction (lvef) >= 40% or documentation as normal or mildly depressed left ventricular systolic function,494,0.004246,1.01
+437643,Finding of activity of daily living||Finding of walking||Finding of gait||Abnormal gait,494,0.004246,1.0
+2617456,NA||NA||NA||Lev 3 hosp type b ed visit,486,0.004177,1.01
+2617335,NA||NA||NA||Md inr test revie inter mgmt,483,0.004151,1.04
+2108525,"Therapy||Smoking cessation therapy||Therapeutic, Preventive or Other Interventions||Tobacco use cessation intervention, counseling (COPD, CAP, CAD, Asthma) (DM) (PV)",473,0.004065,1.01
+2106256,Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Most recent LDL-C greater than or equal to 130 mg/dL (CAD) (DM),466,0.004005,1.01
+433735,Toxic effect of alcohol||Toxic effect of ethyl alcohol||Alcohol intoxication||Acute alcoholic intoxication in alcoholism,448,0.00385,1.08
+2101835,Regimes and therapies||Toileting regime||Patient Management||Urinary incontinence plan of care documented (GER),445,0.003825,1.01
+2101911,"Evaluation procedure||Physical assessment||Patient History||Urinary incontinence characterized (eg, frequency, volume, timing, type of symptoms, how bothersome) (GER)",444,0.003816,1.03
+43020581,Waiting list status||Patient on waiting list||Patient awaiting procedure||On waiting list for organ transplant,439,0.003773,1.02
+2107133,Radiographic imaging procedure||Radiographic imaging procedure by site||Radiographic procedure of chest||Mammogram assessment category of  incomplete: need additional imaging evaluation  documented (RAD),438,0.003764,1.01
+438872,Eating finding||Finding of eating pattern||Finding of quantity of eating||Excessive eating - polyphagia,433,0.003721,1.05
+2213597,"Procedure with a procedure focus||End-Stage Renal Disease Services||Renal care management||End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 20 years of age and older",432,0.003713,1.89
+435372,General finding of observation of patient||Body measurement finding||Weight finding||Underweight,430,0.003696,1.02
+4102123,Propensity to adverse reactions to substance||Allergy to substance||Allergy to rubber||Latex allergy,422,0.003627,1.01
+40482298,Past history of procedure||H/O: surgery||History of gastrectomy||History of total gastrectomy,418,0.003593,1
+2514488,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other p",415,0.003567,1.0
+141305,Finding with explicit context||Unilateral clinical finding||Unilateral sensory hearing loss||Unilateral sensorineural hearing loss with unrestricted hearing on the contralateral side,414,0.003558,1.14
+2514485,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordinati",399,0.003429,1.01
+4168873,"Propensity to adverse reactions to drug||Drug allergy||Vaccine, immunoglobulins and antisera allergy||Vaccines allergy",395,0.003395,1.0
+2101839,Regimes and therapies||Monitoring procedure||Patient Management||Glaucoma plan of care documented (EC),392,0.003369,1.01
+435443,Fall||Accidental fall||Fall from furniture||Fall from wheelchair,390,0.003352,1.02
+2614677,"NA||NA||NA||Rotary wing air mileage, per statute mile",389,0.003343,1.07
+2108013,"Procedure on musculoskeletal system||Procedure on skeletal system||Radioisotope study of musculoskeletal system||Final report for bone scintigraphy study includes correlation with existing relevant imaging studies (eg, X ray, MRI, CT) corresponding to the same anatomical region in question (NUC_MED)",387,0.003326,1.11
+2617876,NA||NA||NA||Most recent blood pressure has a systolic measurement of >= 140 mmhg and/or a diastolic measurement of >= 90 mmhg,386,0.003318,1
+4303805,Allergic reaction||Allergic reaction to substance||Allergic reaction to animal||Allergic reaction to bite and/or sting,385,0.003309,1.06
+2617819,"NA||NA||NA||Bmi documented outside normal parameters, no follow-up plan documented, no reason given",384,0.0033,1.01
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,383,0.003292,1.06
+2617478,"Therapy||Psychotherapy||Group psychotherapy||Interactive group psychotherapy, in a partial hospitalization setting, approximately 45 to 50 minutes",383,0.003292,2.28
+2617817,NA||NA||NA||Bmi is documented above normal parameters and a follow-up plan is documented,381,0.003275,1.01
+2614672,"NA||NA||NA||Ambulance service, conventional air services, transport, one way (rotary wing)",378,0.003249,1.01
+440121,Finding with explicit context||Unilateral clinical finding||Unilateral conductive hearing loss||Unilateral conductive hearing loss with unrestricted hearing on the contralateral side,375,0.003223,1.04
+2414350,"Patient encounter procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Service(s) provided in the office during regularly scheduled evening, weekend, or holiday office hours, in addition to basic service",370,0.00318,1.0
+440012,Fall||Accidental fall||Fall from furniture||Fall from chair or bed,364,0.003128,1.0
+2720866,"NA||NA||NA||High osmolar contrast material, 350-399 mg/ml iodine concentration, per ml",362,0.003111,1.01
+433496,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral sensory hearing loss,361,0.003103,1.08
+436299,Exposure to mechanical force||Fall||Accidental fall||Fall from one level to another,360,0.003094,1.04
+2106327,Procedure||Radiographic imaging procedure||X-ray photon absorptiometry||Central dual-energy X-ray absorptiometry (DXA) results documented (OP)(IBD),360,0.003094,1.0
+4188027,Propensity to adverse reactions||Propensity to adverse reactions to substance||Propensity to adverse reactions to food||Food allergy,359,0.003085,1.01
+2617455,NA||NA||NA||Lev 2 hosp type b ed visit,358,0.003077,1.01
+2414355,"Procedure||Special Services, Procedures and Reports||Therapeutic procedure||Service(s) provided on an emergency basis in the office, which disrupts other scheduled office services, in addition to basic service",357,0.003068,1.01
+2414349,"Procedure||Special Services, Procedures and Reports||Visit out of hours||Services provided in the office at times other than regularly scheduled office hours, or days when the office is normally closed (eg, holidays, Saturday or Sunday), in addition to basic service",354,0.003042,1.0
+4092491,Clinical history/examination observable||General physiological development observable||Adolescent development||Puberty stage,353,0.003034,1.01
+4239721,Propensity to adverse reactions to substance||Propensity to adverse reactions to food||Food allergy||Allergy to seafood,346,0.002974,1
+2101879,"Procedure on musculoskeletal system||Physiologic measurement||Rheumatology disorder monitoring||Osteoarthritis symptoms and functional status assessed (may include the use of a standardized scale or the completion of an assessment questionnaire, such as the SF-36, AAOS Hip & Knee Questionnaire) (OA) [Instructions: Report when osteoarthritis is addre",344,0.002957,1.0
+442289,NA||Event||Death||Death in less than 24 hours from onset of symptoms,344,0.002957,1.01
+137846,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral shortlasting neuralgiform pain with conjunctival injection and tearing syndrome,341,0.002931,1.01
+2514487,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with oth",339,0.002914,1.01
+4250603,Care regime||Care of patient states||Growth and development treatments and procedures||Adolescent care,337,0.002896,1.0
+4022059,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Eye donor for corneal transplant,336,0.002888,1.0
+2106888,Procedure by method||Evaluation procedure||Risk assessment||Falls risk assessment documented (GER),334,0.002871,1.04
+40663933,Drug therapy||Drug prophylaxis||Anti-platelet prophylaxis||Aspirin or another antiplatelet therapy used,333,0.002862,1.02
+2108545,"Procedure by intent||Therapeutic procedure||Viral immunization||Influenza immunization ordered or administered (COPD, PV, CKD, ESRD)(IBD)",329,0.002828,1.17
+2721637,"NA||NA||NA||Clinic visit/encounter, all-inclusive",326,0.002802,1.01
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,325,0.002793,1.01
+197022,Unilateral clinical finding||Unilateral inguinal hernia||Unilateral inguinal hernia with obstruction but no gangrene||Unilateral recurrent inguinal hernia with obstruction but no gangrene,324,0.002785,1.05
+2617882,"NA||NA||NA||Influenza immunization was not administered for reasons documented by clinician (e.g., patient allergy or other medical reasons, patient declined or other patient reasons, vaccine not available or other system reasons)",323,0.002776,1
+2617814,NA||NA||NA||Footwear evaluation performed and documented,322,0.002767,1.01
+4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,321,0.002759,1.0
+442010,Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis||Seafood-induced anaphylaxis,321,0.002759,1.0
+2108690,"Procedure by method||Management procedure||Therapeutic, Preventive or Other Interventions||Tamoxifen or aromatase inhibitor (AI) prescribed (ONC)",321,0.002759,1.02
+440071,Monitoring status||Chronic disease monitoring status||Gout monitoring status||Gout associated problem,320,0.00275,1.08
+2101840,Procedure||Procedure by method||Patient Management||Falls plan of care documented (GER),319,0.002742,1.03
+4022650,Person in the healthcare environment||Donor for medical or surgical procedure||Tissue donor||Bone tissue donor,318,0.002733,1.0
+42872393,Nutritional finding||Dietary finding||Dietary history||Inappropriate diet and eating habits,318,0.002733,1.0
+2108712,"Procedure by method||Procedure with a procedure focus||Therapeutic, Preventive or Other Interventions||Disease modifying anti-rheumatic drug therapy prescribed or dispensed (RA)",317,0.002724,1.02
+4139681,Propensity to adverse reactions to substance||Propensity to adverse reactions to food||Food allergy||Allergy to dairy product,317,0.002724,1.0
+4240902,Propensity to adverse reactions to food||Food allergy||Allergy to legumes||Allergy to peanuts,316,0.002716,1
+4010838,Clinical history and observation findings||Height / growth finding||General growth finding||Increased body growth,312,0.002682,1
+2514486,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physici",310,0.002664,1
+4023166,Social and personal history finding||Social context finding||Disturbance in life pattern||Gambling,307,0.002639,1
+442116,Propensity to adverse reactions to substance||Propensity to adverse reactions to food||Food allergy||Allergy to eggs,306,0.00263,1.0
+4084635,Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis||Egg white-induced anaphylaxis,303,0.002604,1
+437442,Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis||Cow's milk protein-induced anaphylaxis,302,0.002596,1.0
+435987,Anaphylaxis due to substance||Food anaphylaxis||Anaphylaxis due to vegetable||Peanut-induced anaphylaxis,298,0.002561,1.0
+2617453,NA||NA||NA||Direct admission of patient for hospital observation care,290,0.002492,1.02
+4328437,Donor for medical or surgical procedure||Blood donor||Blood product donor||Whole blood donor,289,0.002484,1.0
+443560,Anaphylaxis due to substance||Food anaphylaxis||Seafood-induced anaphylaxis||Anaphylaxis due to fish,289,0.002484,1
+2108611,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Aspirin received within 24 hours before emergency department arrival or during emergency department stay (EM)",286,0.002458,1.01
+441482,Clinical finding||Administrative statuses||Patient encounter status||Administrative reason for encounter,285,0.002449,1.17
+2106887,Procedure on visual system||Procedure on visual system||Procedure on eye||Intraocular pressure (IOP) reduced by a value less than 15% from the pre-intervention level (EC),283,0.002432,1.02
+2106967,Procedure to identify antibody||Category II Codes||Diagnostic/Screening Processes or Results||Estrogen receptor (ER) or progesterone receptor (PR) positive breast cancer (ONC),282,0.002424,1.03
+4059343,NA||Situation with explicit context||Finding with explicit context||H/O: non-drug allergy,281,0.002415,1.01
+437257,Toxic effect of ethyl alcohol||Alcohol intoxication||Acute alcoholic intoxication in alcoholism||Continuous acute alcoholic intoxication in alcoholism,278,0.002389,1.09
+2106274,Protein measurement||Urine protein test||Urine albumin measurement||Negative microalbuminuria test result documented and reviewed (DM),278,0.002389,1.02
+4302047,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Drug allergy||Anesthetic allergy,277,0.002381,1
+196731,Finding with explicit context||Unilateral clinical finding||Unilateral femoral hernia with obstruction but no gangrene||Unilateral recurrent femoral hernia with obstruction but no gangrene,275,0.002364,1
+379831,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral neural hearing loss,274,0.002355,1.04
+443567,Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis||Anaphylaxis due to vegetable,273,0.002346,1.03
+2106805,"Procedure||Laboratory test||Histologic test||pT category (primary tumor), pN category (regional lymph nodes), and histologic grade documented in pathology report (PATH)",271,0.002329,1.03
+437478,Accident due to animal or plant||Accidental physical contact with animal||Bite of animal||Bite of nonvenomous arthropod,269,0.002312,1.01
+2106289,"Procedure on body system||Examination of body system||Examination of body function||Most recent diastolic blood pressure greater than or equal to 90 mm Hg (HTN, CKD, CAD) (DM)",268,0.002303,1
+40479204,Anaphylaxis||Anaphylaxis due to substance||Food anaphylaxis||Anaphylaxis due to seed,267,0.002295,1
+2617270,NA||NA||NA||Hospice care supervision,266,0.002286,1.01
+2106328,Referral to service||Referral for diagnostic investigation||Refer for imaging||Central dual-energy X-ray absorptiometry (DXA) ordered (OP)(IBD),257,0.002209,1
+196462,Finding with explicit context||Unilateral clinical finding||Unilateral femoral hernia without obstruction AND without gangrene||Unilateral recurrent femoral hernia without obstruction AND without gangrene,254,0.002183,1
+433116,Bite of animal||Bite of mammal||Bite of domestic pet||Dog bite,247,0.002123,1.05
+4251903,Monitoring procedure||Surveillance||Procedure with a procedure focus||Family planning surveillance,246,0.002114,1.45
+4144274,Residence and accommodation circumstances - finding||Housing ownership and tenure - finding||Homeless||Housing lack,246,0.002114,1.04
+196728,Finding with explicit context||Unilateral clinical finding||Unilateral femoral hernia with gangrene||Unilateral recurrent femoral hernia with gangrene,245,0.002106,1.0
+192496,Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation of leg with complication||Unilateral traumatic amputation of leg below knee with complication,239,0.002054,1.09
+432803,Exposure to mechanical force||Fall||Accidental fall||Fall from ladder,239,0.002054,1
+2102813,Taking patient vital signs||Physical examination||Taking patient vital signs||Blood pressure measured (CKD)(DM),237,0.002037,1.0
+2617454,NA||NA||NA||Lev 1 hosp type b ed visit,237,0.002037,1.01
+4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,230,0.001977,1.97
+2106522,Procedure on body system||Procedure on organ||Removal||Cytogenetic testing performed on bone marrow at time of diagnosis or prior to initiating treatment (HEM),229,0.001968,1.0
+434819,Poisoning by drug AND/OR medicinal substance||Poisoning by psychotropic agent||Poisoning due to chemical substance||Poisoning by benzodiazepine-based tranquilizer,226,0.001942,1.16
+42872460,General finding of observation of patient||Weight finding||Overweight||Overweight in childhood,224,0.001925,1
+2106864,"Measurement||Measurement of substance||Red blood cell test||Hemoglobin level 11 g/dL to 12.9 g/dL (CKD, ESRD)",223,0.001917,1.22
+4027509,NA||Clinical finding||Clinical history and observation findings||Contraception,218,0.001874,1.25
+433083,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by analgesic drug||Poisoning by opiate AND/OR related narcotic,215,0.001848,1.15
+2106273,Protein measurement||Urine protein test||Urine albumin measurement||Positive microalbuminuria test result documented and reviewed (DM),214,0.001839,1.01
+2101934,Procedure by method||Procedure with a procedure focus||Review of medication||Discharge medications reconciled with the current medication list in outpatient medical record (COA) (GER),206,0.00177,1.01
+435151,Event||Abuse||Physical abuse||Physical child abuse,204,0.001753,1
+4252735,History finding||Social and personal history finding||Life event finding||Bereavement,202,0.001736,1.0
+2106279,Procedure on organ||Procedure on visual system||Procedure on retina||Low risk for retinopathy (no evidence of retinopathy in the prior year) (DM),202,0.001736,1
+436868,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally caught in or between objects,201,0.001728,1.01
+2108549,"Therapeutic procedure||Recommendation to||Therapeutic, Preventive or Other Interventions||Documentation that an order was given to discontinue prophylactic antibiotics within 48 hours of surgical end time, cardiac procedures (PERI 2)",201,0.001728,1.11
+2106291,"Measurement||Measurement of substance||Urea measurement||Kt/V equal to or greater than 1.2 and less than 1.7 (Clearance of urea [Kt]/volume [V]) (ESRD, P-ESRD)",199,0.00171,1.23
+2108540,"Procedure by method||Procedure by intent||Therapeutic, Preventive or Other Interventions||Documentation of receipt of counseling on exercise and either both calcium and vitamin D use or counseling regarding both calcium and vitamin D use (OP)",197,0.001693,1
+2101944,Procedure by method||Patient History||Physical assessment||Pain severity quantified; no pain present (COA) (ONC),197,0.001693,1.01
+198023,Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation of leg with complication||Unilateral traumatic amputation of leg at OR above knee with complication,194,0.001667,1.02
+40481797,"Traumatic abnormality by morphology||Fracture||Fracture, incomplete||Torus fracture",191,0.001642,1.02
+4014829,NA||Procedure||Procedure by method||Consultation,191,0.001642,1.02
+2102840,Procedure by site||Procedure on body system||Procedure on visual system||Dilated fundus evaluation performed within 12 months prior to cataract surgery (EC),189,0.001624,1.01
+439391,Event||Abuse||Physical abuse||Physical abuse of adult,188,0.001616,1.01
+436320,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally struck by falling object,187,0.001607,1
+80569,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation below elbow without complication,186,0.001599,1.01
+2106280,"Procedure on visual system||Visual testing||Refraction assessment||Pre-surgical (cataract) axial length, corneal power measurement and method of intraocular lens power calculation documented within 12 months prior to surgery (EC)",186,0.001599,1.01
+438028,Clinical finding||Disease||Poisoning||Poisoning by drug AND/OR medicinal substance,185,0.00159,1.12
+437460,Event||Abuse||Sexual abuse||Child sex abuse,175,0.001504,1
+194800,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral traumatic amputation of leg with complication,175,0.001504,1
+436001,Event||Abuse||Emotional abuse||Emotional abuse of adult,174,0.001495,1.01
+2108621,"Procedure on blood vessel||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Bisphosphonate therapy, intravenous, ordered or received (HEM)",173,0.001487,1
+439459,Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against stationary object||Accidental kicking against stationary object,172,0.001478,1
+2211294,Current Procedural Terminology Concept||Category II Codes||Structural Measures||Patient information entered into a recall system that includes: target date for the next exam specified and a process to follow up with patients regarding missed or unscheduled appointments (ML),171,0.00147,1.02
+2614679,"NA||NA||NA||Noncovered ambulance mileage, per mile (e.g., for miles traveled beyond closest appropriate facility)",171,0.00147,1.02
+2101880,Procedure by method||Therapeutic evaluation||Symptom control||Use of anti-inflammatory or analgesic over-the-counter (OTC) medications for symptom relief assessed (OA),170,0.001461,1
+441765,Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against projected object,169,0.001452,1.04
+2108679,Radiation therapy treatment planning service||Therapeutic procedure||Treatment planning for teletherapy||3-dimensional conformal radiotherapy (3D-CRT) or intensity modulated radiation therapy (IMRT) received (PRCA),168,0.001444,1.08
+2720865,"NA||NA||NA||High osmolar contrast material, 300-349 mg/ml iodine concentration, per ml",166,0.001427,1.01
+437483,"Killing||Homicide||Homicide and assault by fight, brawl and rape||Homicide or assault by unarmed fight or brawl",166,0.001427,1.01
+2514484,"Procedure by method||Procedure by method||Patient evaluation and management||Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other ",163,0.001401,1
+440002,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by sedative AND/OR hypnotic,163,0.001401,1.14
+4315363,"Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool||Accidents caused by knives, swords and daggers",157,0.001349,1
+2106302,"Measurement||Measurement of substance||Urea measurement||Kt/V greater than or equal to 1.7 (Clearance of urea [Kt]/volume [V]) (ESRD, P-ESRD)",151,0.001298,1.12
+2108646,"Therapeutic procedure||Introduction||Therapeutic, Preventive or Other Interventions||Beta blocker administered within 24 hours prior to surgical incision (CABG)",148,0.001272,1.07
+2614680,"NA||NA||NA||Ambulance response and treatment, no transport",148,0.001272,1
+434223,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent,147,0.001263,1.24
+2106626,Procedure||Laboratory procedure||Laboratory procedure categorized by method||Flow cytometry studies performed at time of diagnosis or prior to initiating treatment (HEM),146,0.001255,1
+2106566,Procedure by method||Laboratory procedure||Laboratory test||Documentation of iron stores prior to initiating erythropoietin therapy (HEM),146,0.001255,1.03
+2106851,"Procedure||Tumor marker measurement||Trace element measurement||Serum levels of calcium, phosphorus, intact Parathyroid Hormone (PTH) and lipid profile ordered (CKD)",142,0.00122,1.01
+439237,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person||Assault,142,0.00122,1.01
+378421,Polyneuropathy||Toxic polyneuropathy||Toxic effect of ethyl alcohol||Alcoholic polyneuropathy,140,0.001203,1.18
+2101845,Current Procedural Terminology Concept||Procedure||Patient encounter procedure||Subsequent visit for episode (BkP),140,0.001203,1.01
+2106867,"Measurement||Measurement of substance||Red blood cell test||Hemoglobin level less than 11 g/dL (CKD, ESRD)",139,0.001195,1.06
+4179332,Social and personal history finding||Role relationship pattern||Parenting finding||Parent-child problem,135,0.00116,1.04
+2108724,"Procedure on trunk||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||External beam radiotherapy as primary therapy to prostate with or without nodal irradiation (PRCA)",135,0.00116,1.24
+2101896,"Current Procedural Terminology Concept||Category II Codes||Patient History||Current smokeless tobacco user (eg, chew, snuff) (PV)",132,0.001134,1
+4058863,Past history of procedure||H/O: surgery||H/O: artificial organ/tissue||H/O: artificial eyeglobe,132,0.001134,1
+2106910,Procedure||Procedure by method||Evaluation procedure||American Joint Committee on Cancer (AJCC) stage documented and reviewed (ONC),127,0.001092,1.01
+2108631,"Repair of coronary artery||Coronary artery bypass graft||Therapeutic, Preventive or Other Interventions||Internal mammary artery graft performed for primary, isolated coronary artery bypass graft procedure (CABG)",125,0.001074,1.12
+4152813,Social and personal history finding||Social context finding||Social problem not due to a mental disorder||Family disruption,125,0.001074,1
+441261,Toxic effect of ethyl alcohol||Alcohol intoxication||Acute alcoholic intoxication in alcoholism||Episodic acute alcoholic intoxication in alcoholism,124,0.001066,1.06
+2101933,"Procedure||Discharge from establishment||Patient discharge||Patient discharged from an inpatient facility (eg, hospital, skilled nursing facility, or rehabilitation facility) within the last 60 days (GER)",122,0.001049,1
+434549,Fall||Accidental fall||Fall from furniture||Fall from toilet seat,122,0.001049,1
+2720700,NA||NA||NA||Telehealth originating site facility fee,122,0.001049,1
+2617469,"Procedure||Procedure by site||Physical examination||Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment",121,0.00104,1
+2617875,NA||NA||NA||Most recent blood pressure has a systolic measurement of < 140 mmhg and a diastolic measurement of < 90 mmhg,120,0.001031,1.01
+378121,Toxic effect of alcohol||Toxic effect of ethyl alcohol||Psychoactive substance-induced organic mental disorder||Idiosyncratic intoxication,118,0.001014,1.04
+441198,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by gastrointestinal system drug||Poisoning by antacid AND/OR antigastric secretion drug,117,0.001006,1.04
+2617457,NA||NA||NA||Lev 4 hosp type b ed visit,117,0.001006,1
+2108613,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient receiving erythropoietin therapy (HEM)",116,0.000997,1.03
+2101836,Procedure||Category II Codes||Patient Management||Elevated blood pressure plan of care documented (CKD),116,0.000997,1
+432609,"Toxic effect of ethyl alcohol||Alcohol intoxication||Acute alcoholic intoxication in alcoholism||Acute alcoholic intoxication in remission, in alcoholism",115,0.000988,1.02
+443315,"Accident due to loss of control of motor vehicle on road||Accident to motor vehicle on road due to tire burst||Motor vehicle traffic accident due to motor vehicle going out of control due to burst tire, without collision on the highway||Motor vehicle traffic accident due to motor vehicle going out of control due to burst tire, without collision on the highway, driver of motor vehicle injured",114,0.00098,1.01
+4084011,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by analgesic drug||Poisoning by opiate analgesic drug,113,0.000971,1.11
+433095,Fall||Accidental fall||Fall on or from stairs or steps||Fall on or from steps,113,0.000971,1.02
+2617333,NA||NA||NA||Demonstrate use home inr mon,110,0.000945,1
+2617905,NA||NA||NA||Patient receiving angiotensin converting enzyme (ace) inhibitor or angiotensin receptor blocker (arb) therapy,110,0.000945,1.02
+4302252,Reproductive care||Procedure||Procedure with a clinical finding focus||High risk pregnancy care,107,0.00092,1.53
+2106303,"Procedure by method||Evaluation procedure||Risk assessment||Suicide risk assessed (MDD, MDD ADOL)",105,0.000902,1.05
+2108585,"Therapeutic procedure||Management procedure||Therapeutic, Preventive or Other Interventions||Oral antiplatelet therapy prescribed at discharge (STR)",105,0.000902,1.02
+438941,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning due to chemical substance||Hydantoin derivative poisoning,104,0.000894,1.16
+440270,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by antidepressant,104,0.000894,1.09
+4023168,"Household, family and support network finding||Housing, local environment and transport finding||Residence and accommodation circumstances - finding||Lives alone",104,0.000894,1.02
+2614622,NA||NA||NA||Non-emergency transportation: wheelchair van,103,0.000885,1.05
+2617938,"NA||NA||NA||Functional outcome assessment documented as positive using a standardized tool and a care plan based on identified deficiencies on the date of functional outcome assessment, is documented",100,0.000859,1
+2101847,"Procedure||Procedure||Patient encounter procedure||Interval of 3 or more years since patient's last colonoscopy, documented (End/Polyp)",99,0.000851,1.01
+2720861,"NA||NA||NA||High osmolar contrast material, up to 149 mg/ml iodine concentration, per ml",99,0.000851,1.01
+2108684,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient not receiving erythropoiesis-stimulating agents (ESA) therapy (CKD)",99,0.000851,1.01
+2617818,NA||NA||NA||Bmi is documented below normal parameters and a follow-up plan is documented,96,0.000825,1
+2102074,"Interview, history AND/OR physical examination||Examination by method||Patient History||Functional status assessed (COA) (RA)",94,0.000808,1
+2720864,"NA||NA||NA||High osmolar contrast material, 250-299 mg/ml iodine concentration, per ml",94,0.000808,1
+2107340,Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage I: T1c (tumor size > 1 cm to 2 cm) documented (ONC),93,0.000799,1
+2720798,"NA||NA||NA||Dermagraft, per square centimeter",92,0.000791,1.09
+4086928,Administrative statuses||Prevention status||Contraception status||IUCD status,91,0.000782,1.08
+2101841,"Procedure||Treatment planning for chemotherapy||Treatment planning for chemotherapy, secondary course||Planned chemotherapy regimen, including at a minimum: drug(s) prescribed, dose, and duration, documented prior to initiation of a new treatment regimen (ONC)",90,0.000774,1
+2108560,"Repair of vein||Patient management procedure||Therapeutic, Preventive or Other Interventions||Referred for an arteriovenous (AV) fistula (ESRD, CKD)",89,0.000765,1.04
+440891,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by psychostimulant||Poisoning by central nervous system stimulant,89,0.000765,1.08
+442240,"Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Entanglement in wheel of pedal cycle||Pedal cycle accident involving entanglement in wheel of pedal cycle, pedal cyclist injured",88,0.000756,1
+2109565,Report procedure||Referral to clinic||Sickness/injury care case management||Documentation of communication that a fracture occurred and that the patient was or should be tested or treated for osteoporosis (OP),87,0.000748,1.02
+2108694,"Procedure by method||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Adjuvant chemotherapy referred, prescribed, or previously received for Stage III colon cancer (ONC)",86,0.000739,1
+2617800,NA||NA||NA||Left ventricular ejection fraction (lvef) not performed or documented,84,0.000722,1.02
+2101843,Procedure by method||Procedure with a procedure focus||Patient Management||Plan of care to address pain documented (COA) (ONC),84,0.000722,1
+440288,Event||Accidental event||Accident||Accident while engaged in sports activity,84,0.000722,1
+2108583,"Therapeutic procedure||Drug therapy||Therapeutic, Preventive or Other Interventions||Deep vein thrombosis (DVT) prophylaxis received by end of hospital day 2 (STR)",83,0.000713,1.02
+2101838,Procedure by intent||Screening procedure||Screening for disorder||Anemia plan of care documented (ESRD),83,0.000713,1.13
+2107358,Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage II documented (ONC),83,0.000713,1
+2617809,NA||NA||NA||Lower extremity neurological exam not performed,82,0.000705,1.01
+4053562,Vehicle accident||Railway and road transport accidents||Motor vehicle traffic accident||Traffic accident on public road,82,0.000705,1.02
+2720863,"NA||NA||NA||High osmolar contrast material, 200-249 mg/ml iodine concentration, per ml",82,0.000705,1.02
+433946,Fall||Accidental fall||Fall on same level||Fall on same level due to impact against another person,82,0.000705,1.07
+2617872,NA||NA||NA||Angiotensin converting enzyme (ace) inhibitor or angiotensin receptor blocker (arb) therapy prescribed,81,0.000696,1
+437456,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by anticonvulsant,81,0.000696,1.01
+2108564,"Renal dialysis||Hemodialysis||Therapeutic, Preventive or Other Interventions||Hemodialysis via functioning arteriovenous (AV) fistula (ESRD)",80,0.000688,1.12
+2617815,NA||NA||NA||Footwear evaluation was not performed,79,0.000679,1
+4301925,Process||Activity of daily living||Moving in the environment||Self-propelled locomotion activity,79,0.000679,1
+2617830,"NA||NA||NA||Eligible clinician attests to documenting in the medical record the patient is not eligible for a current list of medications being obtained, updated, or reviewed by the eligible clinician",78,0.00067,1.01
+2617822,"NA||NA||NA||Bmi not documented, documentation the patient is not eligible for bmi calculation",77,0.000662,1.03
+442444,"Traffic accident on public road||Motor vehicle on road in collision with pedestrian||Pedestrian hit by motor vehicle||Motor vehicle traffic accident involving pedestrian hit by motor vehicle, pedestrian injured",76,0.000653,1
+2720793,"NA||NA||NA||Apligraf, per square centimeter",76,0.000653,1.07
+2108590,Procedure by intent||Therapeutic procedure||Therapy||Documentation that rehabilitation services were considered (STR),75,0.000645,1.04
+434842,"Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Accidental poisoning by drugs, medicines and biologicals",75,0.000645,1.01
+2101936,Procedure on gastrointestinal tract||Monitoring of patient||Patient History||GERD symptoms assessed after 12 months of therapy (GERD),75,0.000645,1
+2720794,"NA||NA||NA||Oasis wound matrix, per square centimeter",74,0.000636,1.08
+2101900,"Screening procedure||Screening for disorder||Screening for mental disorders||DSM-5 criteria for major depressive disorder documented at the initial evaluation (MDD, MDD ADOL)",74,0.000636,1.03
+2106968,Procedure to identify antibody||Category II Codes||Diagnostic/Screening Processes or Results||Estrogen receptor (ER) and progesterone receptor (PR) negative breast cancer (ONC),74,0.000636,1
+376974,Toxic effect of metal||Toxic effect of metal||Poisoning by iron||Siderosis of eye,74,0.000636,1
+4094126,Problem||Social and personal history finding||Problem situation relating to social and personal history||Family problems,72,0.000619,1.01
+4047392,Care of patient states||Reproductive care||Antenatal/postnatal care||Postpartum care,72,0.000619,1.03
+2102860,Procedure on eye region||Imaging||Physical Examination||Eye imaging validated to match diagnosis from 7 standard field stereoscopic photos results documented and reviewed (DM),71,0.00061,1
+2102814,Procedure||Physiological monitoring regime||Weight monitoring||Weight recorded (PAG),70,0.000602,1
+432808,Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by powered hand tool,70,0.000602,1
+2108683,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient receiving erythropoiesis-stimulating agents (ESA) therapy (CKD)",68,0.000584,1
+2106212,Procedure||Procedure by method||Measurement of respiratory function||Spirometry test results demonstrate FEV1/FVC greater than or equal to 70% or patient does not have COPD symptoms (COPD),68,0.000584,1
+2101943,Procedure by method||Patient History||Physical assessment||Pain severity quantified; pain present (COA) (ONC),67,0.000576,1.01
+2720854,"NA||NA||NA||Low osmolar contrast material, 400 or greater mg/ml iodine concentration, per ml",67,0.000576,1
+440919,Poisoning by analgesic drug||Poisoning by opiate analgesic drug||Methadone analog poisoning||Poisoning by methadone,66,0.000567,1.33
+2106844,"Procedure||Protein measurement||Tumor marker measurement||Prostate-specific antigen (PSA), and primary tumor (T) stage, and Gleason score documented prior to initiation of treatment (PRCA)",66,0.000567,1.02
+2617940,"NA||NA||NA||Functional outcome assessment using a standardized tool not documented, reason not given",66,0.000567,1
+2108707,"Procedure by method||Procedure by intent||Therapeutic, Preventive or Other Interventions||Continuous (12-months) therapy with proton pump inhibitor (PPI) or histamine H2 receptor antagonist (H2RA) received (GERD)",64,0.00055,1
+434697,Behavior finding||Health-related behavior finding||Tobacco use and exposure - finding||Maternal tobacco abuse,63,0.000541,1.03
+2108614,"Therapeutic procedure||Procedure with explicit context||Therapeutic, Preventive or Other Interventions||Patient not receiving erythropoietin therapy (HEM)",62,0.000533,1
+2106862,"Measurement||Measurement of substance||Red blood cell test||Hemoglobin level greater than or equal to 13 g/dL (CKD, ESRD)",61,0.000524,1.02
+434247,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by antirheumatic,60,0.000516,1
+4251171,Employment finding||Finding of employment status||Stopped work||Unemployed,59,0.000507,1
+4169658,"Household, family and support network finding||Finding related to care and support circumstances and networks||Support system deficit||No help available",59,0.000507,1.12
+2107454,"Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC colon cancer, Stage IV documented (ONC)",58,0.000498,1
+2614671,"NA||NA||NA||Ambulance service, conventional air services, transport, one way (fixed wing)",58,0.000498,1
+2108775,"Procedure||Procedure by method||Therapeutic, Preventive or Other Interventions||Patient counseled during the initial visit to maintain or resume normal activities (BkP)",57,0.00049,1.02
+4268558,"History finding||Social and personal history finding||Environmental finding||Housing, local environment and transport finding",57,0.00049,1.04
+2107385,Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage IV documented (ONC),56,0.000481,1
+4191386,Care regime||Care of patient states||Reproductive care||Fertility care,56,0.000481,1.02
+433080,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by cardiovascular system drug||Poisoning by cardiac rhythm regulator,56,0.000481,1.05
+2614659,NA||NA||NA||Als specialized service disposable supplies; defibrillation (to be used only in jurisdictions where defibrillation cannot be performed in bls ambulances),56,0.000481,1
+2614676,"NA||NA||NA||Fixed wing air mileage, per statute mile",56,0.000481,1.12
+433376,Accident||Accident due to contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials,56,0.000481,1
+433951,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by tranquilizer,55,0.000473,1.05
+2614663,"NA||NA||NA||Ambulance waiting time (als or bls), one half (1/2) hour increments",55,0.000473,1
+438931,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Foreign body accidentally entering eye and adnexa",55,0.000473,1
+433657,Exposure to mechanical force||Fall||Accidental fall||Fall from furniture,53,0.000456,1.02
+2720574,"Procedure by method||Introduction||Infusion||Infusion therapy, using other than chemotherapeutic drugs, per visit",53,0.000456,1
+2414361,"Provider-specific procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Special reports such as insurance forms, more than the information conveyed in the usual medical communications or standard reporting form",53,0.000456,1
+2102877,"Procedure||Procedure by site||Physical examination||Physical examination on the date of the initial visit for low back pain performed, in accordance with specifications (BkP)",53,0.000456,1
+440894,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by anti-infective agent||Poisoning by heavy metal anti-infective,53,0.000456,2.81
+2107160,"Radiographic imaging procedure||Radiographic imaging procedure by site||Radiographic procedure of chest||Mammogram assessment category of  probably benign,  documented (RAD)",52,0.000447,1
+4119499,General finding of observation of patient||Patient status finding||Finding of resuscitation status||Not for resuscitation,52,0.000447,1
+439987,"Accidental event||Accident||Accident due to contact with hot or corrosive substance||Accident caused by hot liquid and vapor, including steam",52,0.000447,1
+441193,Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements,52,0.000447,1
+2617953,"NA||NA||NA||Coordinated care fee, risk adjusted maintenance, level 3",51,0.000438,1
+4144149,"Household, family and support network finding||Finding related to care and support circumstances and networks||Relatives involved with care||Cared for by family",51,0.000438,1
+2101955,"Procedure by method||Procedure with a procedure focus||Therapeutic evaluation||Back pain and function assessed, including all of the following: Pain assessment and functional status and patient history, including notation of presence or absence of  red flags  (warning signs) and assessment of prior treatment and response, and employ",50,0.00043,1
+433935,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by psychostimulant,50,0.00043,1.16
+4145781,Situation with explicit context||Procedure with explicit context||Procedure not done||Medical care unavailable,49,0.000421,1.02
+442031,Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against stationary object,48,0.000413,1
+4148887,Clinical finding||Administrative statuses||Waiting list status||Patient on waiting list,48,0.000413,1
+2107558,"Monitoring of patient||Chronic disease monitoring||Rheumatology disorder monitoring||Rheumatoid arthritis (RA) disease activity, low (RA)",48,0.000413,1
+438331,Event||Intentionally harming self||Suicide||Suicide - cut/stab,47,0.000404,1
+2109552,Procedure with a procedure focus||Procedure education||Self-care patient education||Patient counseled on self-examination for new or changing moles (ML),47,0.000404,1.02
+2617331,Procedure||Patient encounter procedure||Follow-up encounter||Followup eval of foot pt lop,46,0.000395,1
+42741582,Current Procedural Terminology Concept||Category II Codes||Patient History||Subsequent episode for condition (NMA-No Measure Associated),46,0.000395,1.02
+433647,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by central nervous system muscle tone depressant,46,0.000395,1
+439371,"Accidental event||Accident||Motor vehicle on road in collision with thrown object||Motor vehicle traffic accident involving collision, on highway, between motor vehicle and object thrown in front of motor vehicle, driver of motor vehicle injured",46,0.000395,1
+2414358,"Procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Educational supplies, such as books, tapes, and pamphlets, for the patient's education at cost to physician or other qualified health care professional",45,0.000387,1
+2414363,"Procedure by method||Special Services, Procedures and Reports||Procedure with a procedure focus||Analysis of clinical data stored in computers (eg, ECGs, blood pressures, hematologic data)",45,0.000387,1
+2107334,"Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage I: T1mic, T1a or T1b (tumor size < 1 cm) documented (ONC)",45,0.000387,1
+438638,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation",44,0.000378,1
+4061405,Prevention status||Contraception status||IUCD status||Intrauterine contraceptive device fitted,44,0.000378,1.16
+2617833,"NA||NA||NA||Screening for depression not completed, documented reason",44,0.000378,1.05
+2106278,"Situation with explicit context||Procedure with explicit context||Regimes and therapies||Documentation of treatment for nephropathy (eg, patient receiving dialysis, patient being treated for ESRD, CRF, ARF, or renal insufficiency, any visit to a nephrologist) (DM)",43,0.00037,1
+433393,Exposure to mechanical force||Fall||Accidental fall||Fall into hole,43,0.00037,1
+441764,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation or ingestion of foreign body with respiratory obstruction or suffocation",43,0.00037,1
+2617831,NA||NA||NA||Screening for depression is documented as being positive and a follow-up plan is documented,42,0.000361,1
+2617802,NA||NA||NA||Dilated macular or fundus exam not performed,42,0.000361,1
+438945,Poisoning by psychotropic agent||Poisoning by tranquilizer||Accidental poisoning by tranquillizers||Accidental poisoning by benzodiazepine-based tranquilizer,41,0.000352,1
+4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,41,0.000352,1
+4052625,Social and personal history finding||Social context finding||Financial circumstances - finding||Financial problem,41,0.000352,1
+434237,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accident caused by woodworking or forming machine,41,0.000352,1
+4256343,Regimes and therapies||Care regime||Care provision regime||Medical/dental care,41,0.000352,1
+4261613,History finding||Social context finding||Social problem not due to a mental disorder||Educational problem,40,0.000344,1
+2617946,"NA||NA||NA||Coordinated care fee, maintenance rate",40,0.000344,1.25
+4329840,Social and personal history finding||Social context finding||Social problem not due to a mental disorder||Legal problem,40,0.000344,1
+2110363,"Procedure on digestive tract||Procedure on gastrointestinal tract||Procedure by intent||Dysphagia screening conducted prior to order for or receipt of any foods, fluids, or medication by mouth (STR)",39,0.000335,1.05
+2101901,Procedure||Procedure by method||Patient History||History obtained regarding new or changing moles (ML),39,0.000335,1.03
+441201,Fall||Accidental fall||Fall from one level to another||Fall from building,39,0.000335,1
+4022081,"Environmental finding||Housing, local environment and transport finding||Residence and accommodation circumstances - finding||Living in residential institution",39,0.000335,1
+2617850,NA||NA||NA||Pt w/abn lvef inelig b-bloc,39,0.000335,1
+2109607,Procedure with a procedure focus||Healthcare information exchange||Informing health care professional||Treatment plan communicated to provider(s) managing continuing care within 1 month of diagnosis (ML),39,0.000335,1
+433931,"Poisoning||Poisoning by drug AND/OR medicinal substance||Accidental poisoning by drugs, medicines and biologicals||Accidental poisoning by drug primarily affecting cardiovascular system",39,0.000335,1
+40663934,"NA||NA||NA||Aspirin or another antiplatelet therapy not used, reason not given",38,0.000327,1
+2108718,"Hormone therapy||Situation with explicit context||Therapeutic, Preventive or Other Interventions||Patient not receiving glucocorticoid therapy (RA)",38,0.000327,1
+4084847,Management procedure||Patient management procedure||Patient referral||Refer - no direct consultation,38,0.000327,1
+440925,NA||Event||Intentionally harming self||Suicide,38,0.000327,1.03
+444166,"Motor vehicle accident off public road||Accident involving off-road land motor vehicle||Overturning of off-road land motor vehicle||Nontraffic accident involving overturning of off-road motor vehicle, except snow vehicle, driver of motor vehicle injured",38,0.000327,1
+2102857,Procedure on eye region||Provider-specific procedure||Physician service||7 standard field stereoscopic photos with interpretation by an ophthalmologist or optometrist documented and reviewed (DM),38,0.000327,1
+435718,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning due to chemical substance||Poisoning by adrenal cortical steroid,38,0.000327,1.03
+4241216,Clinical finding||Clinical history and observation findings||Contraception||Oral contraception,37,0.000318,1.08
+2108536,"Situation with explicit context||Respiratory disease monitoring||Therapeutic, Preventive or Other Interventions||Persistent asthma, preferred long term control medication or an acceptable alternative treatment, prescribed (NMA-No Measure Associated)",37,0.000318,1
+2617330,NA||NA||NA||Initial foot exam pt lops,37,0.000318,1
+433919,Poisoning by drug AND/OR medicinal substance||Poisoning by analgesic drug||Poisoning due to chemical substance||Poisoning by heroin,36,0.000309,1
+4084661,Care provision regime||Professional / ancillary services care||Social care||Foster care,36,0.000309,1
+437187,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by striking by blunt or thrown object,36,0.000309,1
+4276272,"Social and personal history finding||Legal, financial, employment and/or socioeconomic history finding||Employment finding||History relating to military service - finding",36,0.000309,1
+2108566,"Renal dialysis||Hemodialysis||Therapeutic, Preventive or Other Interventions||Hemodialysis via functioning arteriovenous (AV) graft (ESRD)",36,0.000309,1
+440923,Poisoning by drug AND/OR medicinal substance||Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||Poisoning by surface (topical) AND/OR infiltration anesthetic,36,0.000309,1.03
+2614661,NA||NA||NA||Als specialized service disposable supplies; esophageal intubation,36,0.000309,1
+433664,Event||Accidental event||Accident due to environmental factor||Accident due to hot weather,36,0.000309,1.03
+435997,Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against person or object in sports,35,0.000301,1
+4181604,Clinical finding||Clinical history and observation findings||Contraception||Subcutaneous contraceptive implant,35,0.000301,1.03
+2614624,NA||NA||NA||Non-emergency transportation: per mile - case worker or social worker,34,0.000292,1.24
+438664,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by hormone AND/OR synthetic substitute||Accidental poisoning by hormones and synthetic substitutes,34,0.000292,1
+435986,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by bacterial vaccine||Poisoning by BCG vaccine",34,0.000292,1
+437158,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by analgesic drug,34,0.000292,1
+2614673,"NA||NA||NA||Paramedic intercept (pi), rural area, transport furnished by a volunteer ambulance company which is prohibited by state law from billing third party payers",34,0.000292,1
+2106848,"Procedure||Procedure by method||Evaluation procedure||Intermediate risk of recurrence, prostate cancer (PRCA)",34,0.000292,1
+2110364,"Introduction||Feeding regime||Patient Safety||Patient receiving or eligible to receive foods, fluids, or medication by mouth (STR)",34,0.000292,1
+2107452,"Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC colon cancer, Stage III documented (ONC)",34,0.000292,1
+2108567,"Procedure by method||Perfusion||Therapeutic, Preventive or Other Interventions||Hemodialysis via catheter (ESRD)",33,0.000284,1.06
+2108776,"Recommendation to||Recommendation regarding activity||Therapeutic, Preventive or Other Interventions||Patient counseled during the initial visit for an episode of back pain against bed rest lasting 4 days or longer (BkP)",33,0.000284,1
+441833,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Pathological drug intoxication,32,0.000275,1
+4081426,Procedure with explicit context||Procedure not done||Medical care unavailable||Residence remote from medical care,32,0.000275,1
+2617939,"NA||NA||NA||Functional outcome assessment not documented as being performed, documentation the patient is not eligible for a functional outcome assessment using a standardized tool",32,0.000275,1.03
+433374,Accidental fall||Fall on same level||Fall on same level due to nature of surface||Fall due to roller skates or skateboard,32,0.000275,1.03
+2101833,"Procedure||Renal dialysis||Patient Management||Hemodialysis plan of care documented (ESRD, P-ESRD)",32,0.000275,1.03
+2108722,"Regimes and therapies||Procedure with a procedure focus||Therapeutic, Preventive or Other Interventions||Patient not receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis (RA)",32,0.000275,1
+2101907,"Patient status observation||Procedure||Patient encounter procedure||Alarm symptoms (involuntary weight loss, dysphagia, or gastrointestinal bleeding) assessed; none present (GERD)",32,0.000275,1
+2617842,"NA||NA||NA||Pain assessment not documented as being performed, documentation the patient is not eligible for a pain assessment using a standardized tool",32,0.000275,1
+2617458,NA||NA||NA||Lev 5 hosp type b ed visit,32,0.000275,1
+442360,"Accident||Accident involving animal being ridden||Thrown from animal being ridden||Thrown from animal being ridden, rider of animal injured",32,0.000275,1
+2102873,Procedure on soft tissue||Procedure on skin and/or subcutaneous tissue||Procedure on skin||Complete physical skin exam performed (ML),31,0.000266,1.03
+2614665,"NA||NA||NA||Extra ambulance attendant, ground (als or bls) or air (fixed or rotary winged); (requires medical review)",31,0.000266,1
+443915,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by autonomous nervous system drug,31,0.000266,1
+4086927,Clinical finding||Administrative statuses||Prevention status||Contraception status,30,0.000258,1
+440598,NA||NA||Event||Overexertion,29,0.000249,1
+434236,Exposure to mechanical force||Fall||Accidental fall||Fall involving sports equipment,29,0.000249,1
+438915,Poisoning by drug AND/OR medicinal substance||Poisoning due to chemical substance||Poisoning by antibacterial drug||Poisoning by penicillin,29,0.000249,1
+2107381,Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage III documented (ONC),29,0.000249,1
+4230178,Regimes and therapies||Care regime||Care of patient states||Reproductive care,29,0.000249,1
+4177768,Drug-related disorder||Drug overdose||Overdose of drug primarily affecting the musculoskeletal system||Uric acid drug overdose,29,0.000249,1
+4052931,History finding||Social and personal history finding||Finding of personal status||Abandoned child,29,0.000249,1.03
+443197,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by cardiovascular system drug||Capillary-active drug poisoning,28,0.000241,1
+2614657,NA||NA||NA||Bls specialized service disposable supplies; defibrillation (used by als ambulances and bls ambulances in jurisdictions where defibrillation is permitted in bls ambulances),28,0.000241,1
+2101898,"Monitoring procedure||Monitoring of patient||Respiratory disease monitoring||Persistent asthma (mild, moderate or severe) (Asthma)",28,0.000241,1
+2106324,"Provider-specific procedure||Psychologic AND/OR psychiatric procedure AND/OR service||Psychologic evaluation or test procedure||Major depressive disorder, in remission (MDD)",28,0.000241,1.11
+442578,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by anticonvulsant||Poisoning by succinimide,28,0.000241,1
+2720857,"NA||NA||NA||Oral magnetic resonance contrast agent, per 100 ml",28,0.000241,1.04
+2108588,"Procedure||Continuous infusion of therapeutic substance||Therapeutic, Preventive or Other Interventions||Documentation that tissue plasminogen activator (t-PA) administration was considered (STR)",28,0.000241,1
+2720867,"NA||NA||NA||High osmolar contrast material, 400 or greater mg/ml iodine concentration, per ml",27,0.000232,1
+443377,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Antiallergenic drug poisoning,27,0.000232,1.11
+2108558,"Management procedure||Chart related administrative procedure||Therapeutic, Preventive or Other Interventions||Hypertension plan of care documented as appropriate (NMA-No Measure Associated)",27,0.000232,1
+432504,Event||Accidental event||Accident||Accident caused by fire and flames,27,0.000232,1
+2108586,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Anticoagulant therapy prescribed at discharge (STR)",27,0.000232,1
+441458,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by anti-parkinsonism drug,27,0.000232,1
+2617851,NA||NA||NA||Beta-blocker therapy not prescribed,26,0.000223,1
+2213589,"Procedure with a procedure focus||Procedure||Renal care management||End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 1 face-to-face visit by a physician or other qualified health care professional per month",26,0.000223,1.12
+2107308,Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC Breast Cancer Stage 0 documented (ONC),26,0.000223,1
+2106924,Procedure||Procedure by method||Evaluation procedure||Cancer stage documented in medical record as metastatic and reviewed (ONC),26,0.000223,1
+444043,Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||General anesthetic drug poisoning||Poisoning by intravenous anesthetic,26,0.000223,1
+444229,Poisoning by drug AND/OR medicinal substance||Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||Local anesthetic toxicity,26,0.000223,1
+437432,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by typhus vaccine",26,0.000223,1
+2617864,NA||NA||NA||High or very high risk of recurrence of prostate cancer,26,0.000223,1
+442936,"Accident due to loss of control of motor vehicle on road||Accident due to mechanical failure in motor vehicle on road||Motor vehicle traffic accident due to motor vehicle going out of control due to failure of mechanical part, without collision on the highway||Motor vehicle traffic accident due to motor vehicle going out of control due to failure of mechanical part, without collision on the highway, passenger of motor vehicle injured",25,0.000215,1
+438930,"Poisoning||Poisoning by drug AND/OR medicinal substance||Accidental poisoning by drugs, medicines and biologicals||Accidental poisoning by drug affecting blood constituent",25,0.000215,1.12
+2720856,"Procedure by method||Introduction||Injection||Injection, iron-based magnetic resonance contrast agent, per ml",25,0.000215,1.04
+444392,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by rabies vaccine",25,0.000215,1
+439615,Exposure to mechanical force||Fall||Accidental fall||Fall from stationary vehicle,25,0.000215,1
+437732,Poisoning||Poisoning due to chemical substance||Toxic effect of metal||Toxic effect of chromium,25,0.000215,1
+432800,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by cutting and stabbing instruments,25,0.000215,1
+2106849,"Procedure||Procedure by method||Evaluation procedure||High risk of recurrence, prostate cancer (PRCA)",25,0.000215,1
+443952,Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning due to chemical substance||Poisoning by gaseous anesthetic||Poisoning by halothane,25,0.000215,1
+2108725,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||External beam radiotherapy with or without nodal irradiation as adjuvant or salvage therapy for prostate cancer patient (PRCA)",24,0.000206,1.17
+437194,"Biological substance poisoning||Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine",24,0.000206,1
+443758,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by anti-infective agent||Poisoning by throat anti-infective,24,0.000206,1
+2101892,"Procedure by method||Procedure by intent||Screening procedure||Pneumococcus immunization status assessed (CAP, COPD)",24,0.000206,1
+441731,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by smallpox vaccine",24,0.000206,1
+437748,NA||Event||Accidental event||Industrial accident,24,0.000206,1
+2617909,"NA||NA||NA||Screening for depression is documented as negative, a follow-up plan is not required",24,0.000206,1
+2106290,"Measurement||Measurement of substance||Urea measurement||Kt/V less than 1.2 (Clearance of urea [Kt]/volume [V]) (ESRD, P-ESRD)",24,0.000206,1.04
+2101894,Procedure by method||Viral immunization||Screening procedure||Influenza immunization status assessed (CAP),24,0.000206,1
+2101905,Procedure by method||Procedure||Physical assessment||Ischemic stroke symptom onset of less than 3 hours prior to arrival (STR),23,0.000198,1
+2720897,"NA||NA||NA||Transportation of portable ekg to facility or location, per patient",23,0.000198,1.04
+321179,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by drug acting on respiratory system,23,0.000198,1
+2106326,Provider-specific procedure||Psychologic AND/OR psychiatric procedure AND/OR service||Psychologic evaluation or test procedure||Documentation of new diagnosis of initial or recurrent episode of major depressive disorder (MDD),23,0.000198,1.04
+435148,Event||Intentionally harming self||Suicide||Suicide - firearms,23,0.000198,1
+2107572,"Procedure||Procedure by method||Rheumatology disorder monitoring||Disease prognosis for rheumatoid arthritis assessed, good prognosis documented (RA)",23,0.000198,1
+2107422,"Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC colon cancer, Stage II documented (ONC)",22,0.000189,1
+437434,Poisoning by drug AND/OR medicinal substance||Poisoning||Toxic effect of noxious substance eaten as food||Toxic effect from eating mushrooms,22,0.000189,1
+435419,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by yellow fever vaccine",22,0.000189,1
+435725,Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||Local anesthetic toxicity||Poisoning by peripheral nerve AND/OR plexus-blocking anesthetic,22,0.000189,1
+2107557,Screening for disorder||Infection screening||Diagnostic/Screening Processes or Results||TB screening performed and results interpreted within six months prior to initiation of first-time biologic disease modifying anti-rheumatic drug therapy for RA (RA),22,0.000189,1
+434543,Exposure to non-mechanical force||Exposure to radiation||Overexposure to radiation||Overexposure to visual and ultraviolet light sources,22,0.000189,1
+438294,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by poliomyelitis vaccine",22,0.000189,1
+437167,Event||Accidental event||Accident||Accident caused by firearm missile,22,0.000189,1
+4296024,Social context finding||Social problem not due to a mental disorder||Family disruption||Family disruption due to divorce,22,0.000189,1
+438324,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by dietetic drug,22,0.000189,1
+438942,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by mixed viral-rickettsial AND bacterial vaccine",21,0.00018,1
+2617460,NA||NA||NA||Trauma response team associated with hospital critical care service,21,0.00018,1
+436311,Poisoning by drug AND/OR medicinal substance||Poisoning by antirheumatic||Poisoning by local anti-inflammatory drug||Local anti-infective and anti-inflammatory poisoning,21,0.00018,1.05
+4056745,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning due to chemical substance||Glutethimide poisoning,21,0.00018,1
+4095059,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by antidepressant||Selective serotonin re-uptake inhibitor poisoning,21,0.00018,1
+432534,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery,21,0.00018,1
+2720859,"Procedure by method||Introduction||Injection||Injection, octafluoropropane microspheres, per ml",21,0.00018,1
+2108652,"Procedure on head||Procedure on organ||Therapeutic, Preventive or Other Interventions||Topical preparations (including OTC) prescribed for acute otitis externa (AOE)",21,0.00018,1
+2108708,"Procedure by method||Procedure by intent||Therapeutic, Preventive or Other Interventions||No continuous (12-months) therapy with either proton pump inhibitor (PPI) or histamine H2 receptor antagonist (H2RA) received (GERD)",21,0.00018,1
+443007,"Accident due to loss of control of motor vehicle on road||Accident due to motor vehicle on road travelling at excessive speed||Motor vehicle traffic accident due to motor vehicle going out of control due to excessive speed, without collision on the highway||Motor vehicle traffic accident due to motor vehicle going out of control due to excessive speed, without collision on the highway, motor cyclist injured",21,0.00018,1
+438303,Accidental fall||Fall on same level||Fall on same level due to impact against another person||Fall on same level from sports contact,20,0.000172,1
+438947,Accident due to contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot liquid||Burning due to contact with hot water,20,0.000172,1
+4059988,Situation with explicit context||A/N risk factors||A/N care: obstetric risk||A/N care: poor obstetric history,20,0.000172,1
+2107559,"Monitoring of patient||Chronic disease monitoring||Rheumatology disorder monitoring||Rheumatoid arthritis (RA) disease activity, moderate (RA)",20,0.000172,1
+440895,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by autonomous nervous system drug||Poisoning by parasympathomimetic drug,20,0.000172,1
+443253,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Biological substance poisoning,20,0.000172,1
+2108665,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient did not start or is not receiving antiviral treatment for Hepatitis C during the measurement period (HEP-C)",19,0.000163,1
+4059635,Employment finding||Work and retirement-related problems||Problems at work||Work maladjustment problem,19,0.000163,1
+76819,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Congenital unilateral subluxation of hip,19,0.000163,1
+4055254,NA||Procedure||Regimes and therapies||Support,19,0.000163,1
+432796,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent,19,0.000163,1
+443505,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by anticonvulsant||Oxazolidine derivative poisoning,18,0.000155,1
+441197,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by quinoline AND/OR hydroxyquinoline derivative,18,0.000155,1
+442304,Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||Local anesthetic toxicity||Poisoning by spinal anesthetic,18,0.000155,1
+2101906,Procedure by method||Procedure||Physical assessment||Ischemic stroke symptom onset greater than or equal to 3 hours prior to arrival (STR),18,0.000155,1
+2101876,Monitoring of patient||Respiratory disease monitoring||Patient History||Asthma symptoms evaluated (includes documentation of numeric frequency of symptoms or patient completion of an asthma assessment tool/survey/questionnaire) (NMA-No Measure Associated),18,0.000155,1
+2101873,Procedure by method||Vocational rehabilitation||Personal assessment||Level of activity assessed (NMA-No Measure Associated),18,0.000155,1
+2617832,"NA||NA||NA||Depression screening not documented, reason not given",18,0.000155,1
+2108678,"Procedure by method||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Adjuvant (ie, in combination with external beam radiotherapy to the prostate for prostate cancer) hormonal therapy (gonadotropin-releasing hormone [GnRH] agonist or antagonist) prescribed/administered (PRCA)",18,0.000155,1
+432777,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by cardiovascular system drug||Poisoning by antivaricose drug AND/OR sclerosing agent,18,0.000155,1
+2211310,Radiographic imaging procedure||Radiographic imaging procedure by site||Structural Measures||Patient information entered into a reminder system with a target due date for the next mammogram (RAD),18,0.000155,1
+4298549,Social and personal history finding||Social context finding||Social problem not due to a mental disorder||Problem with aged in-laws,18,0.000155,1
+2108548,"Situation with explicit context||Procedure with explicit context||Therapeutic, Preventive or Other Interventions||Documentation that prophylactic antibiotics were neither given within 4 hours prior to surgical incision nor given intraoperatively (PERI 2)",17,0.000146,1
+4061827,Vehicle accident||Railway and road transport accidents||Motor vehicle traffic accident||Noncollision motor vehicle traffic accident involving injury by moving part of the vehicle while boarding or alighting,17,0.000146,1
+435129,"Poisoning||Poisoning by drug AND/OR medicinal substance||Eye, otorhinolaryngological, skin and dental drug poisoning||Topical dental drug poisoning",17,0.000146,1
+2106847,"Procedure||Procedure by method||Evaluation procedure||Low risk of recurrence, prostate cancer (PRCA)",17,0.000146,1
+2107561,"Procedure||Procedure by method||Rheumatology disorder monitoring||Disease prognosis for rheumatoid arthritis assessed, poor prognosis documented (RA)",17,0.000146,1
+4052171,Social context finding||Social problem not due to a mental disorder||Legal problem||Lost custody of children,17,0.000146,1
+2617873,NA||NA||NA||Ace/arb not rx'd; doc reas,17,0.000146,1
+4141864,Seen by service||Seen by surgical service||Seen by dental surgery service||Seen by orthodontics service,17,0.000146,1
+4221420,Procedure||Administrative procedure||Medicolegal procedure||Medical testimony,16,0.000138,1.06
+2414344,"Procedure||Special Services, Procedures and Reports||Miscellaneous Medicine Services||Handling, conveyance, and/or any other service in connection with the implementation of an order involving devices (eg, designing, fitting, packaging, handling, delivery or mailing) when devices such as orthotics, protectives, prosthetics are fabricated b",16,0.000138,1
+40658517,"Procedure by method||Introduction||Injection||Injection, non-radioactive, non-contrast, visualization adjunct (e.g., methylene blue, isosulfan blue), 1 mg",16,0.000138,1
+443711,Poisoning by drug AND/OR medicinal substance||Poisoning by anesthetic AND/OR muscle-tone depressant||Poisoning by anesthetic agent||Poisoning by gaseous anesthetic,16,0.000138,1
+436864,"Poisoning||Poisoning by drug AND/OR medicinal substance||Accidental poisoning by drugs, medicines and biologicals||Accidental poisoning by anticonvulsant and antiparkinsonism drugs",16,0.000138,1
+4030415,History finding||Social context finding||Social problem not due to a mental disorder||Illegitimate pregnancy,16,0.000138,1
+137083,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral incomplete cleft palate,16,0.000138,1
+441761,Poisoning||Poisoning due to chemical substance||Toxic effect of alcohol||Methyl alcohol causing toxic effect,16,0.000138,1
+444230,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by sedative AND/OR hypnotic||Poisoning by mixed sedative,16,0.000138,1
+2101872,Procedure by method||History AND physical examination||Personal assessment||Anginal symptoms and level of activity assessed (NMA-No Measure Associated),16,0.000138,1
+4121313,"History finding||Social and personal history finding||Legal, financial, employment and/or socioeconomic history finding||Employment finding",16,0.000138,1
+436584,"Vaccine, immunoglobulins and antisera poisoning||Vaccine poisoning||Poisoning by viral AND/OR rickettsial vaccine||Poisoning by measles vaccine",16,0.000138,1
+4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,16,0.000138,1
+437738,Accidental event||Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road,16,0.000138,1
+258862,Situation with explicit context||Finding with explicit context||Unilateral clinical finding||Unilateral complete cleft palate,15,0.000129,1
+2101940,Current Procedural Terminology Concept||Procedure||Patient encounter procedure||Subsequent evaluation for condition (HEP C)(EPI),15,0.000129,1
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,15,0.000129,1.07
+434845,Event||Accidental event||Accident due to environmental factor||Accidents due to excessive heat,15,0.000129,1
+2108654,"Situation with explicit context||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Systemic antimicrobial therapy not prescribed (AOE)",15,0.000129,1
+2108719,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient receiving <10 mg daily prednisone (or equivalent), or RA activity is worsening, or glucocorticoid use is for less than 6 months (RA)",15,0.000129,1
+443912,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning due to chemical substance||Poisoning by butyrophenone-based tranquilizer,15,0.000129,1
+439207,Disease||Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning by oxytocic agent,15,0.000129,1
+439216,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by antidepressant||Accidental poisoning by antidepressants,15,0.000129,1
+2106683,Radiography of gastrointestinal tract||Radiography of esophagus||Diagnostic/Screening Processes or Results||Barium swallow test not ordered (GERD),15,0.000129,1
+437160,"Poisoning||Poisoning by drug AND/OR medicinal substance||Eye, otorhinolaryngological, skin and dental drug poisoning||Poisoning by skin AND/OR mucous membrane drug",15,0.000129,1
+443504,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning due to chemical substance||Methaqualone compound poisoning,15,0.000129,1
+2108721,"Regimes and therapies||Procedure with a procedure focus||Therapeutic, Preventive or Other Interventions||Patient receiving first-time biologic disease modifying anti-rheumatic drug therapy for rheumatoid arthritis (RA)",15,0.000129,1.07
+2106276,Protein measurement||Urine protein test||Urine albumin measurement||Positive macroalbuminuria test result documented and reviewed (DM),15,0.000129,1
+432515,Poisoning||Poisoning by drug AND/OR medicinal substance||Poisoning due to chemical substance||Poisoning by sulfonamide,15,0.000129,1
+2108528,"Procedure||Procedure by method||Therapeutic, Preventive or Other Interventions||Patient education, written/oral, appropriate for patients with heart failure, performed (NMA-No Measure Associated)",15,0.000129,1
+443280,Event||Intentionally harming self||Suicide||Suicide - jumping from a high place,15,0.000129,1
+2110381,"Procedure||Category II Codes||Patient Safety||Use of appropriate radiation dose reduction devices OR manual techniques for appropriate moderation of exposure, documented (RAD)",15,0.000129,1
+439983,Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Accident involving off-road land motor vehicle,14,0.00012,1
+432804,Accidental fall||Fall from one level to another||Fall on or from ladders or scaffolding||Fall from scaffold,14,0.00012,1
+4314713,"Household, family and support network finding||Role relationship pattern||Parenting finding||Abusive parenting",14,0.00012,1
+133305,Finding with explicit context||Unilateral clinical finding||Unilateral cleft lip||Unilateral complete cleft lip,14,0.00012,1
+2108682,"Monitoring procedure||Monitoring of patient||Therapeutic, Preventive or Other Interventions||Patient either not receiving care in the intensive care unit (ICU) OR not receiving mechanical ventilation OR receiving mechanical ventilation greater than 24 hours (CRIT)",14,0.00012,1.07
+437477,Exposure to mechanical force||Fall||Accidental fall||Fall from playground equipment,14,0.00012,1
+42741581,Current Procedural Terminology Concept||Category II Codes||Patient History||New episode for condition (NMA-No Measure Associated),14,0.00012,1
+4061426,NA||Situation with explicit context||A/N risk factors||A/N care: obstetric risk,14,0.00012,1.14
+2213593,"Procedure with a procedure focus||Regimes and therapies||Renal care management||End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 20 years of age and older",13,0.000112,1.15
+2211305,"Procedure||Procedure by intent||Structural Measures||Mammogram assessment category (eg, Mammography Quality Standards Act [MQSA], Breast Imaging Reporting and Data System [BI-RADS], or FDA approved equivalent categories) entered into an internal database to allow for analysis of abnormal interpretation (rec",13,0.000112,1
+435172,Fall||Accidental fall||Fall on or from stairs or steps||Fall on or from escalator,13,0.000112,1
+2721977,"Therapeutic procedure||Therapy||Hearing therapy AND/OR auditory rehabilitation||Hearing service, miscellaneous",13,0.000112,1
+443063,Accident caused by fire and flames||Conflagration in private dwelling||Accident caused by noxious fumes from conflagration in private dwelling||Accident caused by smoke from conflagration in private dwelling,13,0.000112,1
+2108793,"Therapeutic procedure||Therapy||Therapeutic, Preventive or Other Interventions||Compression therapy prescribed (CWC)",13,0.000112,1.08
+433949,Accidental physical contact with animal||Bite of animal||Bite of mammal||Human bite,13,0.000112,1.08
+2617816,NA||NA||NA||Clinician documented that patient was not an eligible candidate for footwear evaluation measure,13,0.000112,1
+2106846,Procedure on musculoskeletal system||Procedure on skeletal system||Radioisotope study of musculoskeletal system||Bone scan not performed prior to initiation of treatment nor at any time since diagnosis of prostate cancer (PRCA),13,0.000112,1
+2721917,Provider-specific procedure||Psychologic AND/OR psychiatric procedure AND/OR service||Psychologic evaluation or test procedure||Conformity evaluation,13,0.000112,1
+438052,Event||Accidental event||Accident due to environmental factor||Accident due to excessive cold,13,0.000112,1
+438317,Toxic effect of metal||Toxic effect of heavy metal||Toxic effect of mercury AND/OR its compounds||Mercurial diuretic poisoning,13,0.000112,1
+440308,Exposure to potentially harmful entity||Exposure to mechanical force||Fall||Fall on snow,13,0.000112,1
+443621,Poisoning by drug AND/OR medicinal substance||Poisoning by analgesic drug||Poisoning by aromatic analgesic||Accidental poisoning by aromatic analgesic,13,0.000112,1
+437465,"Accidental event||Accident||Motor vehicle nontraffic accident involving fall while boarding or alighting from motor vehicle, except off-road motor vehicle, not on public highway||Motor vehicle nontraffic accident involving fall while boarding or alighting from motor vehicle, except off-road motor vehicle, not on public highway, passenger of motor vehicle injured",13,0.000112,1
+437741,Accident||Accident due to contact with hot or corrosive substance||Burning caused by caustic and corrosive substance||Accidental burning caused by caustic and corrosive substance,13,0.000112,1
+140208,Finding with explicit context||Unilateral clinical finding||Unilateral complete cleft palate||Unilateral complete cleft palate with cleft lip,12,0.000103,1
+439337,"Accidental event||Accident||Motor vehicle on road in collision with unridden animal||Motor vehicle traffic accident involving collision, on highway, between motor vehicle and animal, passenger of motor vehicle injured",12,0.000103,1
+436589,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accident caused by diving or jumping into water",12,0.000103,1
+443040,"Railway and road transport accidents||Motor vehicle traffic accident||Noncollision motor vehicle traffic accident involving injury by moving part of the vehicle while boarding or alighting||Noncollision motor vehicle traffic accident involving injury by moving part of the vehicle while boarding or alighting, passenger of motor vehicle injured",12,0.000103,1
+443352,Seen by professional||Seen by health professional||Seen by specialist physician||Seen by pediatrician,12,0.000103,1
+436294,Poisoning by psychotropic agent||Poisoning due to chemical substance||Phenothiazine poisoning||Poisoning by phenothiazine-based tranquilizer,12,0.000103,1.08
+2108677,"Trunk excision||Trunk excision||Therapeutic, Preventive or Other Interventions||Patient counseling at a minimum on all of the following treatment options for clinically localized prostate cancer: active surveillance, and interstitial prostate brachytherapy, and external beam radiotherapy, and radical prostatectomy, provided prior to ",12,0.000103,1.25
+42872383,"Pregnancy, childbirth and puerperium finding||Prevention status||Antenatal care status||Insufficient prenatal care",12,0.000103,1
+137978,Finding with explicit context||Unilateral clinical finding||Unilateral cleft lip||Unilateral incomplete cleft lip,12,0.000103,1
+2720651,"NA||NA||NA||Pharmacy supply fee for oral anti-cancer, oral anti-emetic or immunosuppressive drug(s); for a subsequent prescription in a 30-day period",12,0.000103,1.5
+436874,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accident caused by agricultural machine,12,0.000103,1
+4164432,Poisoning by psychotropic agent||Poisoning by psychostimulant||Poisoning due to chemical substance||Poisoning by amphetamine,12,0.000103,1
+438306,Poisoning by drug AND/OR medicinal substance||Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by psychodysleptic,12,0.000103,1.17
+2101935,Procedure by method||Evaluation procedure||Physical assessment||Auricular or periauricular pain assessed (AOE),12,0.000103,1
+2414360,"Procedure education||Special Services, Procedures and Reports||Provider-specific procedure||Physician or other qualified health care professional qualified by education, training, licensure/regulation (when applicable) educational services rendered to patients in a group setting (eg, prenatal, obesity, or diabetic instructions)",11,9.5e-05,1
+433400,Clinical finding||Clinical history and observation findings||Contraception||Emergency contraception,11,9.5e-05,1
+435145,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by horticultural cutting machines||Accident caused by powered lawn mower,11,9.5e-05,1
+2617263,Administrative procedure||Meetings and conferences||Team conference||Scheduled interdisciplinary team conference (minimum of three exclusive of patient care nursing staff) with patient present,11,9.5e-05,1
+132439,Finding with explicit context||Unilateral clinical finding||Unilateral incomplete cleft palate||Unilateral incomplete cleft palate with cleft lip,11,9.5e-05,1
+432507,Event||Intentionally harming self||Suicide||Suicide - hanging,11,9.5e-05,1
+2108659,Immunization||Category II Codes||Viral immunization||Hepatitis A vaccine injection administered or previously received (HEP-C),11,9.5e-05,1.09
+2617954,"NA||NA||NA||Coordinated care fee, risk adjusted maintenance, level 4",10,8.6e-05,1
+43530904,Reproductive care||Antenatal/postnatal care||Antenatal care||Antenatal care for woman with history of recurrent miscarriage,10,8.6e-05,1
+441470,Accidental event||Accident due to environmental factor||Accident due to excessive cold||Accident due to cold weather,10,8.6e-05,1
+2618167,"Therapy||Rehabilitation therapy||Social rehabilitation||Psychosocial rehabilitation services, per 15 minutes",10,8.6e-05,1.2
+435166,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by firearms,10,8.6e-05,1
+4315359,Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accidents caused by powered household appliances and implements,10,8.6e-05,1
+439605,Accidental event||Accident||Accident caused by fire and flames||Ignition of highly inflammable material,10,8.6e-05,1
+2721975,"NA||NA||NA||Ear impression, each",10,8.6e-05,1
+443109,Event||Abuse||Domestic abuse||Abuse of partner,10,8.6e-05,1
+4096598,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by antidepressant||Tetracyclic antidepressant drug poisoning,10,8.6e-05,1
+2617908,"NA||NA||NA||Pain assessment documented as positive using a standardized tool, follow-up plan not documented, reason not given",10,8.6e-05,1
+442941,"Motor vehicle accident||Motor vehicle accident off public road||Motor vehicle nontraffic accident involving being trapped by door of motor vehicle while boarding or alighting from motor vehicle, except off-road motor vehicle, not on public highway||Nontraffic accident involving being trapped by door of motor vehicle while boarding or alighting from motor vehicle, except off-road vehicle, not on highway, driver of motor vehicle injured",10,8.6e-05,1
+2106826,Procedure||Nucleic acid assay||Viral nucleic acid assay||Ribonucleic acid (RNA) testing for Hepatitis C viremia ordered or results documented (HEP C),10,8.6e-05,1
+2106711,Procedure||Nucleic acid assay||Viral nucleic acid assay||RNA testing for Hepatitis C documented as performed within 6 months prior to initiation of antiviral treatment for Hepatitis C (HEP-C),10,8.6e-05,1
+4061433,"NA||Situation with explicit context||A/N risk factors||A/N care: multiparous, older than 35 years",10,8.6e-05,2
+2720577,"NA||NA||NA||Chemotherapy administration by infusion technique only, per visit",10,8.6e-05,1
+2106843,Procedure||Microbiology procedure||Infectious agent genotype identification||Hepatitis C genotype testing documented as performed prior to initiation of antiviral treatment for Hepatitis C (HEP C),10,8.6e-05,1
+438920,Motor vehicle traffic accident||Traffic accident on public road||Motor vehicle on road in collision with another motor vehicle||Motor vehicle traffic accident involving re-entrant collision with another motor vehicle,9,7.7e-05,1.33
+433927,Motor vehicle accident||Motor vehicle accident off public road||Accident involving wind-powered land vehicle||Accident involving ice yacht,9,7.7e-05,1
+438630,Event||Exposure to potentially harmful entity||Exposure to non-mechanical force||Exposure to radiation,9,7.7e-05,1
+2108526,"Therapeutic procedure||Therapy||Therapeutic, Preventive or Other Interventions||Tobacco use cessation intervention, pharmacologic therapy (COPD, CAD, CAP, PV, Asthma) (DM) (PV)",9,7.7e-05,1
+432806,Accidental fall||Fall from one level to another||Fall from geological formation||Fall from cliff,9,7.7e-05,1
+2106218,Measurement of substance||Measurement of substance||Oxygen measurement||Oxygen saturation greater than 88% or PaO2 greater than 55 mm Hg (COPD),9,7.7e-05,1
+440600,Exposure to attack by other person||Assault||Assault with body part||Assault by human bite,9,7.7e-05,1
+2108539,Procedure by intent||Therapeutic procedure||Therapy||Therapeutic exercise for the involved joint(s) instructed or physical or occupational therapy prescribed (OA),9,7.7e-05,1
+4287251,Poisoning by CNS drug||Poisoning by psychotropic agent||Poisoning by antidepressant||Tricyclic antidepressant poisoning,9,7.7e-05,1.11
+2213592,"Procedure with a procedure focus||Surveillance||Renal care management||End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",9,7.7e-05,1
+433934,Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp pointed object||Accident caused by needle,9,7.7e-05,1.11
+439616,Exposure to mechanical force||Fall||Accidental fall||Fall into manhole,8,6.9e-05,1
+2213584,"Procedure with a procedure focus||Surveillance||Renal care management||End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a physicia",8,6.9e-05,1
+2617874,"NA||NA||NA||Angiotensin converting enzyme (ace) inhibitor or angiotensin receptor blocker (arb) therapy not prescribed, reason not given",8,6.9e-05,1
+2617877,"NA||NA||NA||Blood pressure measurement not performed or documented, reason not given",8,6.9e-05,1
+437463,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by pushing from high place,8,6.9e-05,1
+2108534,Procedure by method||Management procedure||Warfarin monitoring||Warfarin therapy prescribed (NMA-No Measure Associated),8,6.9e-05,1
+2313710,"Procedure on inner ear||Vestibular function test||Vestibular Function Tests, Without Electrical Recording||Spontaneous nystagmus, including gaze",8,6.9e-05,1
+4021168,Clinical finding||Clinical history and observation findings||Contraception||Natural contraception,8,6.9e-05,1
+2108681,"Monitoring procedure||Monitoring of patient||Therapeutic, Preventive or Other Interventions||Patient receiving care in the intensive care unit (ICU) and receiving mechanical ventilation, 24 hours or less (CRIT)",8,6.9e-05,1
+438037,Poisoning by opiate analgesic drug||Methadone analog poisoning||Poisoning by methadone||Accidental poisoning by methadone,8,6.9e-05,1
+442435,"Traffic accident on public road||Accident to motor vehicle on road, not involving collision||Accident due to object falling in or on moving motor vehicle on road||Noncollision motor vehicle traffic accident involving object falling in or on motor vehicle while in motion, driver of motor vehicle injured",7,6e-05,1
+439481,Poisoning by psychotropic agent||Poisoning by psychostimulant||Poisoning by central nervous system stimulant||Accidental poisoning by central nervous system stimulants,7,6e-05,1
+435442,Exposure to mechanical force||Fall||Accidental fall||Fall into well,7,6e-05,1
+443620,NA||Event||Abuse||Abuse by relative of victim,7,6e-05,1
+2106845,Procedure on musculoskeletal system||Procedure on skeletal system||Radioisotope study of musculoskeletal system||Bone scan performed prior to initiation of treatment or at any time since diagnosis of prostate cancer (PRCA),7,6e-05,1
+2108720,"Procedure by intent||Therapeutic procedure||Therapeutic, Preventive or Other Interventions||Patient receiving >=10 mg daily prednisone (or equivalent) for longer than 6 months, and improvement or no change in disease activity (RA)",7,6e-05,1
+2721600,NA||NA||NA||Sales tax,7,6e-05,1
+2414362,"Medicine Services and Procedures||Special Services, Procedures and Reports||Provider-specific procedure||Unusual travel (eg, transportation and escort of patient)",7,6e-05,1
+2110366,Feeding and dietary regime||Feeding regime||Patient Safety||NPO (nothing by mouth) ordered (STR),7,6e-05,1
+2101908,"Procedure on digestive tract||Procedure on gastrointestinal tract||Physical assessment||Alarm symptoms (involuntary weight loss, dysphagia, or gastrointestinal bleeding) assessed; 1 or more present (GERD)",7,6e-05,1
+4062664,"Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Motor vehicle nontraffic accident involving fall from motor vehicle, except off-road motor vehicle, while in motion, not on public highway",7,6e-05,1
+2720576,"NA||NA||NA||Chemotherapy administration by other than infusion technique only (e.g., subcutaneous, intramuscular, push), per visit",7,6e-05,1
+2108674,"Procedure with a procedure focus||Procedure education||Therapeutic, Preventive or Other Interventions||Patient counseled about risks of alcohol use (HEP-C)",7,6e-05,1
+4032150,Activity||Motor behavior||Physical activity||Sports activity,7,6e-05,1
+442651,"Traffic accident on public road||Accident to motor vehicle on road, not involving collision||Fire starting in motor vehicle while in motion on road||Noncollision motor vehicle traffic accident involving fire starting in motor vehicle while in motion, passenger of motor vehicle injured",7,6e-05,1
+438668,Event||Accidental event||Accident due to environmental factor||Accidents due to travel and motion,7,6e-05,1.14
+4114936,Finding related to ability to use transport||Finding related to ability to use private transport||Finding related to ability to ride a bicycle||Does ride a bicycle,7,6e-05,1
+4237906,Poisoning by psychotropic agent||Poisoning due to chemical substance||Poisoning by central nervous system stimulant||Poisoning by caffeine,6,5.2e-05,1
+438938,Accidental event||Accident||Accident caused by fire and flames||Accident with controlled fire,6,5.2e-05,1
+443033,"Accident while boarding or alighting from motor vehicle on road||Fall from car in street while boarding or alighting||Noncollision motor vehicle traffic accident involving fall from car in street while boarding or alighting||Noncollision motor vehicle traffic accident involving fall from car in street while boarding or alighting, driver of motor vehicle injured",6,5.2e-05,1
+438058,Exposure to attack by other person||Assault||Sexual assault||Rape - assault,6,5.2e-05,1
+2414354,"Medicine Services and Procedures||Special Services, Procedures and Reports||Provider-specific procedure||Service(s) typically provided in the office, provided out of the office at request of patient, in addition to basic service",6,5.2e-05,1
+2720862,"NA||NA||NA||High osmolar contrast material, 150-199 mg/ml iodine concentration, per ml",6,5.2e-05,1
+435174,Event||Intentionally harming self||Suicide||Suicide - drowning,6,5.2e-05,1
+2101899,Monitoring procedure||Monitoring of patient||Respiratory disease monitoring||Intermittent asthma (Asthma),6,5.2e-05,1
+2102876,"Procedure on head AND/OR neck||Pure tone audiometry||Pure tone audiometry, extended, impedance testing||Tympanic membrane mobility assessed with pneumatic otoscopy or tympanometry (OME)",6,5.2e-05,1
+2108544,Procedure by method||Procedure with a procedure focus||Viral immunization||Influenza immunization recommended (COPD) (IBD),6,5.2e-05,1
+2107391,"Procedure||Procedure by intent||Diagnostic/Screening Processes or Results||AJCC colon cancer, Stage 0 documented (ONC)",6,5.2e-05,1
+433939,NA||NA||Event||Abuse,6,5.2e-05,1.17
+2720803,"NA||NA||NA||Gammagraft, per square centimeter",6,5.2e-05,1
+441465,Toxic effect of alcohol||Toxic effect of ethyl alcohol||Disorder caused by alcohol||Accidental poisoning by alcoholic beverage,6,5.2e-05,1
+2213595,"Procedure with a procedure focus||End-Stage Renal Disease Services||Renal care management||End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 2-11 years of age",6,5.2e-05,2.83
+2213596,"Procedure with a procedure focus||End-Stage Renal Disease Services||Renal care management||End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 12-19 years of age",6,5.2e-05,1.17
+2101837,Procedure by intent||Therapeutic procedure||Protein measurement||Plan of care for elevated hemoglobin level documented for patient receiving Erythropoiesis-Stimulating Agent therapy (ESA) (CKD),6,5.2e-05,1

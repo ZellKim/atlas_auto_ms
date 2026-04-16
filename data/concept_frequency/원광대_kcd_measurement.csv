@@ -1,0 +1,32 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+35225637,Metastasis to liver and intrahepatic bile duct,Measurement,C787,Secondary malignant neoplasm of liver and intrahepatic bile duct,8395
+35226073,Metastasis to bone and bone marrow,Measurement,C795,Secondary Malignant Neoplasm of Bone and Bone Marrow,3701
+35226285,Metastasis to retroperitoneum and peritoneum,Measurement,C786,Malignant ascites NOS,3209
+35226080,Metastasis to brain and cerebral meninges,Measurement,C793,Secondary Malignant Neoplasm of Brain and Cerebral Meninges,1798
+36769301,Metastasis to bone,Measurement,C7950,Secondary malignant neoplasm of bone,1614
+36768862,Metastasis to brain,Measurement,C7930,Secondary malignant neoplasm of brain,1359
+35226258,Metastasis to pleura,Measurement,C782,Malignant pleural effusion NOS,1146
+4236592,Human Bocavirus present,Measurement,J2180,Acute bronchiolitis due to human bocavirus,933
+4046263,Enzyme measurement,Measurement,R749,Abnormal Level of unspecified Serum Enzyme,900
+35226230,Metastasis to ovary,Measurement,C7969,"Secondary malignant neoplasm of ovary, Unspecified side",523
+4262074,Human parainfluenza virus present,Measurement,J2181,Acute bronchiolitis due to parainfluenza virus,501
+35225557,Metastasis to large intestine and rectum,Measurement,C785,Secondary Malignant Neoplasm of Large Intestine and Rectum,485
+35225568,Metastasis to adrenal gland,Measurement,C797,Secondary Malignant Neoplasm of Adrenal Gland,409
+35225673,Metastasis to skin,Measurement,C792,Secondary Malignant Neoplasm of Skin,311
+4045159,Hormone measurement,Measurement,R947,Abnormal Results of other Endocrine Function Studies,311
+35225719,Metastasis to small intestine,Measurement,C784,Secondary Malignant Neoplasm of Small Intestine,283
+35225608,Metastasis to kidney and renal pelvis,Measurement,C7909,"Secondary malignant neoplasm of kidney and renal pelvis, unepecified side",185
+35225542,Metastasis to mediastinum,Measurement,C781,Secondary Malignant Neoplasm of Mediastinum,154
+4098179,Immunology laboratory test,Measurement,R769,"Abnormal Immunological Finding in Serum, unspecified",104
+4246053,Blood test,Measurement,R789,"Finding of unspecified substances, not normally found in blood",86
+4055657,Serum/plasma protein test,Measurement,R779,"Abnormality of Plasma Protein, unspecified",83
+35226074,Metastasis to bone marrow,Measurement,C7951,Secondary malignant neoplasm of bone marrow,37
+4098353,Red blood cell test,Measurement,R71,Volume abnormal red-cell NOS,30
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Abnormality of Alphafetoprotein,30
+35226290,Metastasis to right kidney and renal pelvis,Measurement,C7900,"Secondary malignant neoplasm of kidney and renal pelvis, Right",19
+4353510,Globulin measurement,Measurement,R771,Hyperglobulinemia NOS,19
+35226099,Metastasis to cerebral meninges,Measurement,C7931,Secondary malignant neoplasm of cerebral meninges,14
+35225628,Metastasis to left kidney and renal pelvis,Measurement,C7901,"Secondary malignant neoplasm of kidney and renal pelvis, left",8
+4097664,Albumin measurement,Measurement,R770,Abnormality of Albumin,7
+4095027,Antibody titer measurement,Measurement,R760,Raised Antibody Titre,2
+4041715,Blood ethanol measurement,Measurement,Y909,"Presence of Alcohol in Blood, Level not specified",2

@@ -1,7 +1,7 @@
 # 프로젝트 진행 상황
 
 **repo**: https://github.com/ZellKim/atlas_auto_ms
-**최종 업데이트**: 2026-04-15
+**최종 업데이트**: 2026-04-16
 
 > 상세 지식(API, 방법론, 이슈 해결, 기관 매핑, 실행 기록)은 → `docs/system_knowledge_base.md`
 
@@ -23,7 +23,7 @@
 ### Cloud 모니터링 (`cloud_monitor/`) — 배포됨
 
 GCP Cloud Function + Scheduler → Telegram 알림.
-MONITOR_TARGETS: 11000, 11001, 11003, 11004 (4개 analysis)
+MONITOR_TARGETS: 11018, 11019 (2개 analysis)
 
 ### R 분석 (`R/pooled_analysis/`) — 통합 완료
 
@@ -43,16 +43,20 @@ vs Cholecystectomy, vs Hernia Repair. vs GenPop은 supplementary (maxCohortSize 
 
 ---
 
-## 진행 중: Estimation v2 실행
+## 진행 중: Estimation Final 실행
+
+이전 v2 (11000~11004)에서 오류 수정 후 최종 재실행:
+- CRP dual-unit 코호트 수정 (1274 mg/dL, 1275 mg/L)
+- Neutro# dual-unit 코호트 수정 (1276 thou/uL, 1277 /uL)
+- execution cancel 버그 수정 (EXECUTING 상태 포함)
+- cohortDefinitions 누락 수정
 
 | Analysis | ID | 내용 | 상태 |
 |----------|:---:|------|:---:|
-| clinical_v8_full | 11000 | 11 clinical outcomes (전체) | 🔄 실행 중 |
-| biomarker_v2_full | 11001 | 22 biomarker outcomes (전체) | 🔄 실행 중 |
-| **clinical_v8_changed** | **11003** | 1270(T2DM), 1271(AMI) — 변경분만 | 🔄 실행 중 |
-| **biomarker_v2_changed** | **11004** | 1262~1268 — 변경분만 | 🔄 실행 중 |
+| **clinical_final_v4** | **11019** | 11 clinical outcomes | 🔄 실행 중 |
+| **biomarker_final** | **11018** | 22 biomarker outcomes | 🔄 실행 중 |
 
-13개 기관 + EUMC/KHMC 추가. 11003/11004가 먼저 끝날 예정.
+13개 기관 대상.
 
 ---
 
@@ -60,16 +64,21 @@ vs Cholecystectomy, vs Hernia Repair. vs GenPop은 supplementary (maxCohortSize 
 
 ### 데이터
 
-| 데이터 | 파일 | 상태 |
+참조 데이터를 `data/`로 통합 정리 (원본: `C:\Users\data1\Desktop\atlas_auto_cmdata`)
+
+| 데이터 | 경로 | 상태 |
 |--------|------|:---:|
-| Achilles 23기관 × 5 domain | `concept_frequency/{기관}_{domain}.csv` | ✅ |
-| Characterization (PRESET 5구간) | `char_preset_all_results.csv` | ✅ 13기관 |
-| 바이오마커 concept 매핑 | `biomarker_concept_by_site.csv` | ✅ |
-| 기관 4종 ID 매핑 | `site_id_mapping_full.csv` | ✅ 23기관 |
-| PRESET FA 목록 | `atlas_preset_fa_list.csv` | ✅ 105개 |
-| API 엔드포인트 | `atlas_webapi_endpoints_full.csv` | ✅ 70+ |
-| 코호트 네이밍 v2 | `cohort_naming_v2.csv` | ✅ 33 outcomes |
-| 바이오마커 unit 정보 | 수집 중 | 🔄 |
+| Achilles 23기관 × 5 domain | `data/concept_frequency/` (168 files) | ✅ |
+| Characterization (PRESET 5구간) | `data/characterization/char_preset_all_results.csv` | ✅ 13기관 |
+| 바이오마커 concept 매핑 | `data/biomarker/biomarker_concept_by_site.csv` | ✅ |
+| 바이오마커 unit 정보 | `data/biomarker/biomarker_units_by_site.csv` | ✅ |
+| 기관 4종 ID 매핑 | `data/site_mapping/site_id_mapping_full.csv` | ✅ 23기관 |
+| PRESET FA 목록 | `data/atlas_reference/atlas_preset_fa_list.csv` | ✅ 105개 |
+| API 엔드포인트 | `data/atlas_reference/atlas_webapi_endpoints_full.csv` | ✅ 70+ |
+| 코호트 네이밍 v2 | `data/atlas_reference/cohort_naming_v2.csv` | ✅ 33 outcomes |
+| 코호트 정의 JSON | `data/cohort_definitions/` (10 files) | ✅ |
+| Python 생성 스크립트 | `data/scripts/` (5 files) | ✅ |
+| R 분석 참고 스크립트 | `R/reference_scripts/` (20 files) | ✅ |
 
 ### 이전 분석 결과 (참고용)
 
@@ -91,7 +100,8 @@ vs Cholecystectomy, vs Hernia Repair. vs GenPop은 supplementary (maxCohortSize 
 - [x] API 엔드포인트 치트시트 정리
 - [x] 기관 4종 ID 매핑 완성
 - [x] client.py concept 검증 메서드 추가
-- [ ] **13-site estimation v2 완료 대기**
+- [x] 참조 데이터 `data/`로 통합 정리
+- [ ] **13-site estimation final 완료 대기 (11018, 11019)**
 - [ ] 결과 다운로드 + CmData 추출
 - [ ] 13-site IPD 분석 (v7b + bio + NC + calibration)
 - [ ] 13-site time-window HR

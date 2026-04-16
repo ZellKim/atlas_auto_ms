@@ -1,0 +1,28 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+36770544,Metastasis to liver,Measurement,C787,Secondary malignant neoplasm of liver and intrahepatic bile duct,32222
+36769180,Metastasis,Measurement,C799,Sarcomatosis (secondary) NOS,21352
+704985,Metastasis to abdomen,Measurement,C786,Pseudomyxoma of peritonei,17778
+36769301,Metastasis to bone,Measurement,C7950,Secondary malignant neoplasm of bone,10937
+36770283,Metastasis to lung,Measurement,C780,Intrabronchial malignant neoplasm of lung,10483
+35225543,Metastasis to large intestine,Measurement,C785,Secondary malignant neoplasm of large intestine and rectum,6571
+36770040,Metastasis to gastrointestinal tract,Measurement,C7889,Secondary malignant neoplasm of  Unspecified digestive organ,6522
+35225775,Metastasis to nervous system,Measurement,C794,Secondary malignant neoplasm of retina,6447
+35226152,Metastasis to genital organs,Measurement,C7981,Secondary malignant neoplasm of genital organs,3398
+35225580,Metastasis to urinary system,Measurement,C791,Secondary malignant neoplasm of bladder and other and unspecified urinary organs,1283
+4046263,Enzyme measurement,Measurement,R749,Abnormal level of unspecified serum enzyme,1058
+4236592,Human Bocavirus present,Measurement,J2180,Acute bronchiolitis due to human bocavirus,880
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Abnormality of alphafetoprotein,706
+35226280,Metastasis to respiratory tract,Measurement,C783,Secondary malignant neoplasm of other and unspecified respiratory organs,415
+4246053,Blood test,Measurement,R789,"Finding of unspecified substances, not normally found in blood",385
+4262074,Human parainfluenza virus present,Measurement,J2181,Acute bronchiolitis due to parainfluenza virus,339
+35226074,Metastasis to bone marrow,Measurement,C7951,Secondary malignant neoplasm of bone marrow,116
+4055657,Serum/plasma protein test,Measurement,R779,"Abnormality of plasma protein, unspecified",82
+4097664,Albumin measurement,Measurement,R770,Abnormality of albumin,68
+4098179,Immunology laboratory test,Measurement,R769,"Abnormal immunological finding in serum, unspecified",43
+35225556,Metastasis to breast,Measurement,C7980,Secondary malignant neoplasm of breast,29
+4353510,Globulin measurement,Measurement,R771,Hyperglobulinemia NOS,27
+4041715,Blood ethanol measurement,Measurement,Y909,"Presence of alcohol in blood, level not specified",16
+4098353,Red blood cell test,Measurement,R71,Poikilocytosis,14
+4045159,Hormone measurement,Measurement,R947,Abnormal results of other endocrine function studies,10
+4095027,Antibody titer measurement,Measurement,R760,Raised antibody titre,5
+37203929,Measurement of level of substance in blood,Measurement,R784,Finding of other drugs of addictive potential in blood,2

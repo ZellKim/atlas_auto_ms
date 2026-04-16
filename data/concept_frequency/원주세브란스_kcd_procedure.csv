@@ -1,0 +1,7 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+4213387,Breech extraction,Procedure,O830,Breech extraction,111
+4073422,Spontaneous breech delivery,Procedure,O801,Spontaneous breech delivery,23
+4115153,Medical termination of pregnancy,Procedure,O04,Medical abortion,19
+4075168,Assisted breech delivery,Procedure,O831,Breech delivery NOS,12
+4088084,Low forceps delivery,Procedure,O810,Low forceps delivery,1
+4128030,Delivery procedure,Procedure,O832,Other manipulation-assisted delivery,1

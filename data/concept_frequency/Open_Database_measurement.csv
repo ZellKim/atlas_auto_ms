@@ -1,0 +1,790 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+2212648,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Complete blood count||Blood count; complete (CBC), automated (Hgb, Hct, RBC, WBC and platelet count) and automated differential WBC count",74550,0.640728,4.09
+2212093,"Evaluation procedure||Pathology and Laboratory Procedures||Physiologic measurement||Comprehensive metabolic panel This panel must include the following: Albumin (82040) Bilirubin, total (82247) Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Phosphatase, alkaline (84075) Pot",72071,0.619422,3.42
+2212095,"Laboratory procedure||Pathology and Laboratory Procedures||Organ or system related test||Lipid panel This panel must include the following: Cholesterol, serum, total (82465) Lipoprotein, direct measurement, high density cholesterol (HDL cholesterol) (83718) Triglycerides (84478)",65753,0.565121,2.73
+2212731,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Prothrombin time||Prothrombin time,64655,0.555684,3.37
+2212593,Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Thyroid stimulating hormone (TSH),56813,0.488286,2.19
+2212090,"Evaluation procedure||Pathology and Laboratory Procedures||Physiologic measurement||Basic metabolic panel (Calcium, total) This panel must include the following: Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Potassium (84132) Sodium (84295) Urea nitrogen (BUN) (84520)",56071,0.481908,2.18
+2313816,"Procedure on thorax||Procedure on organ||Procedure on heart||Electrocardiogram, routine ECG with at least 12 leads; interpretation and report only",52384,0.45022,2.24
+2212392,Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Hemoglobin; glycosylated (A1C),51209,0.440121,1.94
+2212166,"Urine examination||Urinalysis Procedures||Urinalysis, routine and microscopic||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; automated, with microscopy",41009,0.352456,1.62
+2313814,"Procedure on thorax||Procedure on organ||Procedure on heart||Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",39251,0.337347,1.63
+2212649,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Complete blood count||Blood count; complete (CBC), automated (Hgb, Hct, RBC, WBC and platelet count)",30907,0.265634,1.45
+2313815,"Procedure on thorax||Procedure on organ||Procedure on heart||Electrocardiogram, routine ECG with at least 12 leads; tracing only, without interpretation and report",30164,0.259248,1.6
+2212996,"Pathology and Laboratory Procedures||Urinalysis||Urine culture||Culture, bacterial; quantitative colony count, urine",30005,0.257881,1.52
+2212168,"Pathology and Laboratory Procedures||Urinalysis Procedures||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; automated, without microscopy",28916,0.248522,1.34
+2212290,"Pathology and Laboratory Procedures||Protein measurement||Enzyme measurement||Creatine kinase (CK), (CPK); total",27732,0.238346,1.38
+2212099,"Laboratory procedure||Pathology and Laboratory Procedures||Organ or system related test||Hepatic function panel This panel must include the following: Albumin (82040) Bilirubin, total (82247) Bilirubin, direct (82248) Phosphatase, alkaline (84075) Protein, total (84155) Transferase, alanine amino (ALT) (SGPT) (84460) Transferase, aspartate am",26448,0.22731,1.32
+2212294,Pathology and Laboratory Procedures||Measurement||Measurement of substance||Creatinine; blood,25460,0.218819,1.42
+2212591,Thyroid hormone measurement||Thyroid hormone tests||Thyroxine measurement||Thyroxine; free,25215,0.216713,1.29
+2212238,"Pathology and Laboratory Procedures||Vitamin measurement||Vitamin D measurement||Vitamin D; 25 hydroxy, includes fraction(s), if performed",25170,0.216326,1.28
+2212542,Pathology and Laboratory Procedures||Protein measurement||Tumor marker measurement||Prostate specific antigen (PSA); total,24688,0.212184,1.29
+2212453,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Magnesium,22070,0.189683,1.31
+2212598,Pathology and Laboratory Procedures||Protein measurement||Transferase||Transferase; alanine amino (ALT) (SGPT),22008,0.18915,1.29
+2212165,"Urine examination||Urinalysis Procedures||Urinalysis, routine and microscopic||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; non-automated, with microscopy",21756,0.186984,1.24
+2212167,"Pathology and Laboratory Procedures||Urinalysis Procedures||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents||Urinalysis, by dip stick or tablet reagent for bilirubin, glucose, hemoglobin, ketones, leukocytes, nitrite, pH, protein, specific gravity, urobilinogen, any number of these constituents; non-automated, without microscopy",21509,0.184861,1.23
+2212300,Pathology and Laboratory Procedures||Measurement of substance||Vitamin measurement||Cyanocobalamin (Vitamin B-12),21218,0.18236,1.27
+2212359,"Pathology and Laboratory Procedures||Chemistry Procedures||Glucose measurement||Glucose; quantitative, blood (except reagent strip)",21150,0.181776,1.26
+2212421,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Iron,21066,0.181054,1.71
+2212295,Pathology and Laboratory Procedures||Measurement||Measurement of substance||Creatinine; other source,20765,0.178467,1.29
+2212742,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Thromboplastin time, partial (PTT)||Thromboplastin time, partial (PTT); plasma or whole blood",20639,0.177384,1.31
+2212333,Measurement||Pathology and Laboratory Procedures||Protein measurement||Ferritin,19872,0.170792,1.51
+2212615,Pathology and Laboratory Procedures||Measurement of substance||Uric acid measurement||Uric acid; blood,19554,0.168059,1.23
+2212597,Pathology and Laboratory Procedures||Protein measurement||Transferase||Transferase; aspartate amino (AST) (SGOT),19341,0.166228,1.26
+2212611,Pathology and Laboratory Procedures||Measurement of substance||Urea nitrogen||Urea nitrogen; quantitative,19114,0.164277,1.35
+2212605,"Measurement||Pathology and Laboratory Procedures||Protein measurement||Troponin, quantitative",19059,0.163805,1.4
+2212367,"Measurement||Pathology and Laboratory Procedures||Chemistry Procedures||Glucose, blood by glucose monitoring device(s) cleared by the FDA specifically for home use",18512,0.159103,1.42
+2212523,Pathology and Laboratory Procedures||Trace element measurement||Phosphorus measurement||Phosphorus inorganic (phosphate),17812,0.153087,1.46
+2213031,"Pathology and Laboratory Procedures||Procedure||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; microdilution or agar dilution (minimum inhibitory concentration [MIC] or breakpoint), each multi-antimicrobial, per plate",16848,0.144802,1.38
+2212998,"Pathology and Laboratory Procedures||Urinalysis||Urine culture||Culture, bacterial; with isolation and presumptive identification of each isolate, urine",16557,0.142301,1.27
+2212188,"Urine protein test||Urine albumin measurement||Microalbuminuria measurement||Albumin; urine (eg, microalbumin), quantitative",16381,0.140788,1.17
+2212470,Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Natriuretic peptide,15988,0.137411,1.19
+2212422,Measurement of substance||Trace element measurement||Iron measurement||Iron binding capacity,15749,0.135357,1.8
+2212428,"Pathology and Laboratory Procedures||Protein measurement||Lactate dehydrogenase (LD), (LDH)||Lactate dehydrogenase (LD), (LDH)",15613,0.134188,1.19
+2212589,Thyroid hormone measurement||Thyroid hormone tests||Thyroxine measurement||Thyroxine; total,15277,0.1313,1.17
+2617206,Preventive monitoring||Tumor marker monitoring||Prostate-specific antigen monitoring||Prostate cancer screening; prostate specific antigen test (psa),14909,0.128137,1.13
+2212990,"Pathology and Laboratory Procedures||Microbiology procedure||Serum bactericidal titer test||Culture, bacterial; aerobic isolate, additional methods required for definitive identification, each isolate",14326,0.123126,1.25
+2212531,"Pathology and Laboratory Procedures||Potassium measurement||Potassium measurement||Potassium; serum, plasma or whole blood",13871,0.119216,1.32
+2212736,"Pathology and Laboratory Procedures||Red blood cell test||Sedimentation rate, erythrocyte||Sedimentation rate, erythrocyte; non-automated",13765,0.118305,1.14
+2212337,Pathology and Laboratory Procedures||Vitamin measurement||Serum vitamin measurement||Folic acid; serum,13335,0.114609,1.2
+2212737,"Pathology and Laboratory Procedures||Red blood cell test||Sedimentation rate, erythrocyte||Sedimentation rate, erythrocyte; automated",13159,0.113096,1.14
+4034850,Procedure||Procedure by method||Laboratory procedure||Laboratory test,13138,0.112916,1.28
+2212292,"Protein measurement||Enzyme measurement||Creatine kinase isoenzymes measurement||Creatine kinase (CK), (CPK); MB fraction only",12681,0.108988,1.24
+2212451,"Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Lipoprotein, direct measurement; LDL cholesterol",12623,0.10849,1.12
+2212227,Pathology and Laboratory Procedures||Pyrrole measurement||Bilirubin measurement||Bilirubin; direct,12509,0.10751,1.14
+2212761,Pathology and Laboratory Procedures||Protein measurement||Globulin measurement||C-reactive protein,12460,0.107089,1.16
+2212507,Measurement of substance||Pathology and Laboratory Procedures||Tumor marker measurement||Parathormone (parathyroid hormone),12090,0.103909,1.85
+2212092,Evaluation procedure||Pathology and Laboratory Procedures||Organ or Disease Oriented Panels||Electrolyte panel This panel must include the following: Carbon dioxide (bicarbonate) (82374) Chloride (82435) Potassium (84132) Sodium (84295),11196,0.096225,1.13
+2212241,Pathology and Laboratory Procedures||Measurement||Measurement of substance||Calcium; total,10847,0.093226,1.51
+2212643,Procedure||Procedure by method||Red blood cell test||Blood count; hemoglobin (Hgb),10336,0.088834,1.17
+2212984,"Pathology and Laboratory Procedures||Microbiology procedure||Microbial culture||Culture, bacterial; any other source except urine, blood or stool, aerobic, with isolation and presumptive identification of isolates",10248,0.088078,1.13
+2212441,Laboratory test||Pathology and Laboratory Procedures||Microbial identification test||Lipase,9988,0.085843,1.15
+2212212,Measurement of substance||Protein measurement||Enzyme measurement||Amylase,9580,0.082336,1.12
+2212231,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Blood, occult, by peroxidase activity (eg, guaiac), qualitative; feces, consecutive collected specimens with single determination, for colorectal neoplasm screening (ie, patient was provided 3 cards or single triple card for consecutive collection)",8960,0.077008,1.08
+2212601,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Thyroid hormone (T3 or T4) uptake or thyroid hormone binding ratio (THBR),8556,0.073535,1.11
+2212096,"Laboratory procedure||Pathology and Laboratory Procedures||Organ or system related test||Renal function panel This panel must include the following: Albumin (82040) Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Phosphorus inorganic (phosphate) (84100) Potassium (84132) Sodium (",8400,0.072195,1.09
+2212186,"Protein measurement||Measurement of substance in specimen||Fluid sample albumin measurement||Albumin; serum, plasma or whole blood",8237,0.070794,1.14
+2212638,"Pathology and Laboratory Procedures||Laboratory test||Manual laboratory procedure||Blood count; blood smear, microscopic examination with manual differential WBC count",8056,0.069238,1.1
+2212642,Procedure by method||Hematology test||Red blood cell test||Blood count; hematocrit (Hct),7968,0.068482,1.11
+2212371,"Measurement of substance||Protein measurement||Enzyme measurement||Glutamyltransferase, gamma (GGT)",7515,0.064588,1.07
+2212517,"Pathology and Laboratory Procedures||Protein measurement||Phosphatase, alkaline||Phosphatase, alkaline",7408,0.063669,1.15
+2212360,"Pathology and Laboratory Procedures||Glucose measurement, body fluid||Glucose||Glucose; blood, reagent strip",7220,0.062053,1.12
+2212980,"Pathology and Laboratory Procedures||Source specific culture||Culture, bacterial||Culture, bacterial; blood, aerobic, with isolation and presumptive identification of isolates (includes anaerobic culture, if appropriate)",6977,0.059965,1.13
+2212571,"Pathology and Laboratory Procedures||Sodium measurement||Sodium measurement||Sodium; serum, plasma or whole blood",6973,0.05993,1.15
+2213300,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Immunohistochemistry or immunocytochemistry, per specimen; initial single antibody stain procedure",6777,0.058246,1.15
+2212112,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Therapeutic Drug Assays||Digoxin; total,6729,0.057833,1.07
+2212253,Measurement||Pathology and Laboratory Procedures||Tumor marker measurement||Carcinoembryonic antigen (CEA),6669,0.057317,1.08
+2212753,Protein measurement||Immunology Procedures||Procedure to identify antibody||Antinuclear antibodies (ANA),6574,0.056501,1.07
+2212602,Pathology and Laboratory Procedures||Hormone measurement||Triiodothyronine T3||Triiodothyronine T3; total (TT-3),6418,0.05516,1.07
+2212549,"Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Protein; electrophoretic fractionation and quantitation, serum",6287,0.054034,1.13
+2213216,"Laboratory procedure||Pathology and Laboratory Procedures||Cytopathology procedure or service||Cytopathology, selective cellular enhancement technique with interpretation (eg, liquid based slide preparation method), except cervical or vaginal",6066,0.052135,1.07
+2212544,"Pathology and Laboratory Procedures||Measurement of substance||Protein, total, except by refractometry||Protein, total, except by refractometry; serum, plasma or whole blood",6031,0.051834,1.15
+2212226,Pathology and Laboratory Procedures||Pyrrole measurement||Bilirubin measurement||Bilirubin; total,6003,0.051593,1.11
+2212762,Pathology and Laboratory Procedures||Protein measurement||Globulin measurement||C-reactive protein; high sensitivity (hsCRP),5900,0.050708,1.08
+2213287,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Special stain including interpretation and report; Group I for microorganisms (eg, acid fast, methenamine silver)",5892,0.050639,1.15
+2213039,"Pathology and Laboratory Procedures||Staining method||Smear, primary source with interpretation||Smear, primary source with interpretation; Gram or Giemsa stain for bacteria, fungi, or cell types",5585,0.048001,1.17
+2212654,"Pathology and Laboratory Procedures||Hematology test||Red blood cell test||Blood count; reticulocyte, automated",5496,0.047236,1.41
+2212267,"Measurement of substance||Total cholesterol measurement||Measurement of serum lipid level||Cholesterol, serum or whole blood, total",5379,0.04623,1.06
+2213288,"Procedure||Surgical Pathology Procedures||Special stain including interpretation and report||Special stain including interpretation and report; Group II, all other (eg, iron, trichrome), except stain for microorganisms, stains for enzyme constituents, or immunocytochemistry and immunohistochemistry",5352,0.045998,1.13
+2617239,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, with screening by automated system and manual rescreening under physician supervision",5233,0.044976,1.07
+2212344,"Pathology and Laboratory Procedures||Protein measurement||Immunoglobulin measurement||Gammaglobulin (immunoglobulin); IgA, IgD, IgG, IgM, each",5202,0.044709,1.09
+2212545,"Protein measurement||Urine protein test||Protein, total, except by refractometry||Protein, total, except by refractometry; urine",5127,0.044065,1.11
+2213087,"Microbiology Procedures||Viral antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; hepatitis B surface antigen",4881,0.04195,2.05
+2212585,Pathology and Laboratory Procedures||Steroid measurement||Testosterone measurement||Testosterone; total,4767,0.040971,1.08
+2212603,Pathology and Laboratory Procedures||Thyroid hormone measurement||Triiodothyronine measurement||Triiodothyronine T3; free,4676,0.040188,1.06
+2212468,Measurement||Pathology and Laboratory Procedures||Protein measurement||Myoglobin,4450,0.038246,1.07
+2212124,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Phenytoin||Phenytoin; total,4406,0.037868,1.05
+2212263,Pathology and Laboratory Procedures||Measurement of substance in specimen||Chloride measurement||Chloride; blood,4320,0.037129,1.14
+2212600,Measurement||Pathology and Laboratory Procedures||Lipids measurement||Triglycerides,4308,0.037026,1.09
+2212449,"Protein measurement||Lipoproteins measurement||Lipoprotein, direct measurement||Lipoprotein, direct measurement; high density cholesterol (HDL cholesterol)",4165,0.035797,1.24
+2212113,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Valproic acid (dipropylacetic acid)||Valproic acid (dipropylacetic acid); total,4007,0.034439,1.04
+2212824,Pathology and Laboratory Procedures||In-vitro immunologic test||Rheumatoid factor measurement||Rheumatoid factor; quantitative,3880,0.033347,1.07
+2212599,Measurement||Pathology and Laboratory Procedures||Protein measurement||Transferrin,3835,0.03296,1.35
+2212132,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Tacrolimus,3795,0.032617,1.07
+2617225,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, screening by cytotechnologist under physician supervision",3711,0.031895,1.05
+2212233,"Procedure by method||Procedure by intent||Screening procedure||Blood, occult, by peroxidase activity (eg, guaiac), qualitative, feces, 1-3 simultaneous determinations, performed for other than colorectal neoplasm screening",3455,0.029694,1.03
+2212250,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Carbon dioxide (bicarbonate),3422,0.029411,1.15
+2212406,Measurement of substance||Pathology and Laboratory Procedures||Plasma amino acid measurement||Homocysteine,3171,0.027254,1.07
+2212189,"Urine protein test||Urine albumin measurement||Microalbuminuria measurement||Albumin; urine (eg, microalbumin), semiquantitative (eg, reagent strip assay)",3157,0.027133,1.03
+2212785,"Pathology and Laboratory Procedures||Protein measurement||Tumor marker measurement||Immunoassay for tumor antigen, quantitative; CA 15-3 (27.29)",3125,0.026858,1.06
+2212800,Pathology and Laboratory Procedures||Immunology Procedures||Immunofixation electrophoresis||Immunofixation electrophoresis; serum,3034,0.026076,1.11
+2212533,Current Procedural Terminology Concept||Pathology and Laboratory Procedures||Chemistry Procedures||Prealbumin,3019,0.025947,1.04
+2212699,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Plasmin assay||Fibrin degradation products, D-dimer; quantitative",2985,0.025655,1.05
+2617406,"Screening for disorder||Screening for cancer||Screening for malignant neoplasm of large intestine||Colorectal cancer screening; fecal occult blood test, immunoassay, 1-3 simultaneous",2945,0.025311,1.02
+2212835,"Protein measurement||Serologic test||Syphilis test, non-treponemal antibody||Syphilis test, non-treponemal antibody; qualitative (eg, VDRL, RPR, ART)",2900,0.024924,1.03
+2213029,"Pathology and Laboratory Procedures||Microbiology procedure||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; disk method, per plate (12 or fewer agents)",2869,0.024658,1.07
+2212924,Measurement of microbial antibody||Qualitative or Semiquantitative Immunoassays||Hepatitis antibody test||Hepatitis C antibody,2829,0.024314,1.22
+2212887,Pathology and Laboratory Procedures||Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Hepatitis B surface antibody (HBsAb),2820,0.024237,1.41
+2213077,"Microbiology Procedures||Toxin assay||Toxin detection||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Clostridium difficile toxin",2772,0.023824,1.1
+2212954,Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Compatibility test each unit||Compatibility test each unit; immediate spin technique,2700,0.023205,1.08
+4098179,Procedure by method||Laboratory procedure||Laboratory test||Immunology laboratory test,2581,0.022183,1.18
+2213244,"Procedure||Laboratory procedure||Laboratory procedure categorized by method||Cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation; with screening by automated system and manual rescreening or review, under physician supervision",2550,0.021916,1.03
+4198132,Laboratory test||Hematology procedure||Hematology test||Hematology screening test,2498,0.021469,1.03
+4258831,Microscopic examination of specimen from female genital tract||Microscopic cytologic examination of specimen from female genital tract||Microscopic cytologic examination of smear of specimen from female genital tract prepared using Papanicolaou technique||Microscopic examination of vaginal Papanicolaou smear,2415,0.020756,1.04
+2213215,"Laboratory procedure||Pathology and Laboratory Procedures||Cytopathology procedure or service||Cytopathology, concentration technique, smears and interpretation (eg, Saccomanno technique)",2368,0.020352,1.03
+4237017,Procedure by method||Laboratory procedure||Laboratory test||Genetic test,2366,0.020335,1.03
+2212778,"Protein measurement||Pathology and Laboratory Procedures||Procedure to identify antibody||Extractable nuclear antigen, antibody to, any method (eg, nRNP, SS-A, SS-B, Sm, RNP, Sc170, J01), each antibody",2309,0.019845,1.14
+2212312,"Pathology and Laboratory Procedures||Vitamin measurement||Vitamin D measurement||Vitamin D; 1, 25 dihydroxy, includes fraction(s), if performed",2306,0.019819,1.02
+2212991,"Pathology and Laboratory Procedures||Microbiology Procedures||Culture, presumptive, pathogenic organisms, screening only||Culture, presumptive, pathogenic organisms, screening only",2262,0.019441,1.03
+2212870,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Serologic test||Antibody; Helicobacter pylori,2260,0.019424,1.02
+2212787,"Pathology and Laboratory Procedures||Measurement of substance||Tumor marker measurement||Immunoassay for tumor antigen, quantitative; CA 125",2163,0.01859,1.04
+2213187,"Procedure by method||Measurement of substance||Streptococcus pneumoniae antigen assay||Infectious agent antigen detection by immunoassay with direct optical observation; Streptococcus, group A",2114,0.018169,1.02
+2212981,"Pathology and Laboratory Procedures||Source specific culture||Stool culture||Culture, bacterial; stool, aerobic, with isolation and preliminary examination (eg, KIA, LIA), Salmonella and Shigella species",2060,0.017705,1.08
+2213242,"Procedure by method||Laboratory procedure||Laboratory test||Cytopathology, evaluation of fine needle aspirate; interpretation and report",2025,0.017404,1.08
+2212348,"Pathology and Laboratory Procedures||Measurement of substance in specimen||pH measurement||Gases, blood, any combination of pH, pCO2, pO2, CO2, HCO3 (including calculated O2 saturation)",2010,0.017275,1.03
+2212235,"Laboratory procedure||Pathology and Laboratory Procedures||Hematology procedure||Blood, occult, by fecal hemoglobin determination by immunoassay, qualitative, feces, 1-3 simultaneous determinations",1970,0.016931,1.02
+2212414,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen; qualitative or semiquantitative, multiple step method",1969,0.016923,1.1
+2213181,Procedure by method||Microbial culture||Viral culture||Infectious agent antigen detection by immunoassay with direct optical observation; Influenza,1965,0.016888,1.03
+2212543,Protein measurement||Tumor marker measurement||Prostate specific antigen measurement||Prostate specific antigen (PSA); free,1941,0.016682,1.05
+2212823,Pathology and Laboratory Procedures||In-vitro immunologic test||Rheumatoid factor measurement||Rheumatoid factor; qualitative,1934,0.016622,1.03
+2212242,Pathology and Laboratory Procedures||Fluid sample calcium level||Serum calcium measurement||Calcium; ionized,1878,0.016141,1.02
+2213221,"Procedure||Laboratory procedure||Preparation of smear||Cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation; manual screening under physician supervision",1869,0.016063,1.03
+2212171,Procedure||Urinalysis Procedures||Urine examination||Urinalysis; microscopic only,1656,0.014233,1.02
+2212659,"Procedure||Report procedure||Laboratory reporting||Blood smear, peripheral, interpretation by physician with written report",1636,0.014061,1.03
+2212988,"Pathology and Laboratory Procedures||Microbiology procedure||Microbial culture||Culture, bacterial; any source, except blood, anaerobic with isolation and presumptive identification of isolates",1629,0.014001,1.06
+2212201,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Aluminum,1624,0.013958,1.6
+2212287,"Measurement||Pathology and Laboratory Procedures||Spectrometry||Column chromatography, includes mass spectrometry, if performed (eg, HPLC, LC, LC/MS, LC/MS-MS, GC, GC/MS-MS, GC/MS, HPLC/MS), non-drug analyte(s) not elsewhere specified, qualitative or quantitative, each specimen",1623,0.013949,1.44
+2212136,Measurement of substance||Protein measurement||Therapeutic Drug Assays||Vancomycin,1622,0.01394,1.03
+2212769,"Serologic test||Measurement of substance||Complement component assay||Complement; antigen, each component",1597,0.013726,1.04
+2212471,"Procedure by method||Pathology and Laboratory Procedures||Measurement||Nephelometry, each analyte not elsewhere specified",1595,0.013708,1.08
+2212393,Regimes and therapies||Monitoring procedure||Protein measurement||Hemoglobin; glycosylated (A1C) by device cleared by FDA for home use,1593,0.013691,1.02
+4208622,Microscopic examination of specimen from female genital tract||Microscopic cytologic examination of specimen from female genital tract||Microscopic cytologic examination of smear of specimen from female genital tract prepared using Papanicolaou technique||Microscopic examination of cervical Papanicolaou smear,1574,0.013528,1.02
+2212584,Pathology and Laboratory Procedures||Measurement of substance||Testosterone||Testosterone; free,1548,0.013304,1.06
+2212446,"Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Lipoprotein, blood; quantitation of lipoprotein particle number(s) (eg, by nuclear magnetic resonance spectroscopy), includes lipoprotein particle subclass(es), when performed",1529,0.013141,1.02
+4258677,Laboratory test||Immunology laboratory test||Laboratory test related to immunohematology||Blood group typing,1511,0.012986,1.02
+2212776,Protein measurement||Immunology Procedures||Deoxyribonucleic acid (DNA) antibody||Deoxyribonucleic acid (DNA) antibody; native or double stranded,1500,0.012892,1.05
+2212830,"Skin test||Injection of skin||Type 4 hypersensitivity skin test||Skin test; tuberculosis, intradermal",1477,0.012694,1.01
+2212445,"Protein measurement||Measurement of substance||Protein measurement||Lipoprotein, blood; high resolution fractionation and quantitation of lipoproteins including lipoprotein subclasses when performed (eg, electrophoresis, ultracentrifugation)",1460,0.012548,1.18
+2212108,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Drug measurement||Carbamazepine; total,1446,0.012428,1.01
+2212284,Pathology and Laboratory Procedures||Steroid measurement||Cortisol||Cortisol; total,1423,0.01223,1.02
+2213248,"Pathology and Laboratory Procedures||Procedure to identify antibody||Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical component only||Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical component only; each additional marker (List separately in addition to code for first marker)",1408,0.012101,1.36
+2212982,"Pathology and Laboratory Procedures||Source specific culture||Stool culture||Culture, bacterial; stool, aerobic, additional pathogens, isolation and presumptive identification of isolates, each plate",1398,0.012015,1.24
+2212816,"Protein measurement||Pathology and Laboratory Procedures||Procedure to identify antibody||Microsomal antibodies (eg, thyroid or liver-kidney), each",1380,0.011861,1.04
+2212198,Tumor marker measurement||Chemistry Procedures||Alpha-fetoprotein blood test||Alpha-fetoprotein (AFP); serum,1364,0.011723,1.01
+2212845,Protein measurement||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Borrelia burgdorferi (Lyme disease),1356,0.011654,1.02
+2212209,Measurement||Pathology and Laboratory Procedures||Intermediary products of metabolism measurement||Ammonia,1353,0.011629,1.02
+2213012,"Pathology and Laboratory Procedures||Microbiology Procedures||Serum bactericidal titer test||Culture, typing; immunologic method, other than immunofluorescence (eg, agglutination grouping), per antiserum",1327,0.011405,1.03
+2212223,Measurement of substance||Protein measurement||Globulin measurement||Beta-2 microglobulin,1325,0.011388,1.01
+2212098,"Laboratory test||Pathology and Laboratory Procedures||Organ or Disease Oriented Panels||Acute hepatitis panel This panel must include the following: Hepatitis A antibody (HAAb), IgM antibody (86709) Hepatitis B core antibody (HBcAb), IgM antibody (86705) Hepatitis B surface antigen (HBsAg) (87340) Hepatitis C antibody (86803)",1320,0.011345,1.02
+2212089,"Evaluation procedure||Pathology and Laboratory Procedures||Physiologic measurement||Basic metabolic panel (Calcium, ionized) This panel must include the following: Calcium, ionized (82330) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Potassium (84132) Sodium (84295) Urea Nitrogen (BUN) (84520)",1318,0.011328,1.01
+2212218,"Measurement of substance||Protein measurement||Lipoproteins measurement||Apolipoprotein, each",1316,0.011311,1.07
+2212137,"Evaluation procedure||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Quantitation of therapeutic drug, not elsewhere specified",1313,0.011285,1.04
+2213115,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Chlamydia trachomatis, amplified probe technique",1307,0.011233,1.03
+2213044,"Pathology and Laboratory Procedures||Microbiology procedure||Smear, primary source with interpretation||Smear, primary source with interpretation; wet mount for infectious agents (eg, saline, India ink, KOH preps)",1306,0.011225,1.01
+2212656,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||White blood cell test||Blood count; leukocyte (WBC), automated",1294,0.011121,1.05
+2212121,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Lithium,1276,0.010967,1.01
+2212508,"Pathology and Laboratory Procedures||Measurement||pH measurement||pH; body fluid, not otherwise specified",1276,0.010967,1.3
+2213027,"Procedure||Pathology and Laboratory Procedures||Preparation of smear||Ova and parasites, direct smears, concentration and identification",1267,0.010889,1.17
+2212923,Procedure to identify antibody||Protein measurement||Thyroid hormone measurement||Thyroglobulin antibody,1235,0.010614,1.06
+2212173,"Measurement of substance||Tumor marker measurement||Urinalysis Procedures||Urine pregnancy test, by visual color comparison methods",1208,0.010382,1.02
+2212550,"Pathology and Laboratory Procedures||Protein measurement||Protein measurement||Protein; electrophoretic fractionation and quantitation, other fluids with concentration (eg, urine, CSF)",1195,0.010271,1.07
+2213142,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); HIV-1, quantification, includes reverse transcription when performed",1184,0.010176,1.06
+4192940,Procedure by method||Procedure||Procedure with a clinical finding focus||Phenylketonuria screening test,1182,0.010159,1.02
+4060266,Screening procedure||Screening at times of life||Antibody screen||Antenatal RhD antibody screening,1170,0.010056,1.01
+2212499,"Measurement||Pathology and Laboratory Procedures||Organic acid screen||Organic acid, single, quantitative",1166,0.010021,1.05
+2212296,Pathology and Laboratory Procedures||Measurement of renal function||Measurement of renal clearance||Creatinine; clearance,1153,0.00991,1.02
+4199173,Hematology procedure||Hematology test||Hematology screening test||Sickle cell disease screening test,1152,0.009901,1.01
+2212956,Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Major crossmatch||Compatibility test each unit; antiglobulin technique,1147,0.009858,1.03
+2212774,"Protein measurement||Pathology and Laboratory Procedures||Immunology Procedures||Cyclic citrullinated peptide (CCP), antibody",1144,0.009832,1.03
+2213247,"Pathology and Laboratory Procedures||Procedure to identify antibody||Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical component only||Flow cytometry, cell surface, cytoplasmic, or nuclear marker, technical component only; first marker",1132,0.009729,1.05
+2212884,"Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Antibody||Antibody; HIV-1 and HIV-2, single result",1127,0.009686,1.02
+2212885,Measurement of viral antibody||Qualitative or Semiquantitative Immunoassays||Hepatitis B virus measurement||Hepatitis B core antibody (HBcAb); total,1124,0.00966,1.06
+2212417,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen; quantitative, not otherwise specified",1124,0.00966,1.06
+2212657,"Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Platelet count||Blood count; platelet, automated",1122,0.009643,1.03
+2212418,Pathology and Laboratory Procedures||Protein measurement||Insulin measurement||Insulin; total,1117,0.0096,1.14
+2212780,"Protein measurement||Immunology Procedures||Procedure to identify antibody||Fluorescent noninfectious agent antibody; screen, each antibody",1115,0.009583,1.04
+2212653,"Pathology and Laboratory Procedures||Red blood cell test||Reticulocyte count||Blood count; reticulocyte, manual",1108,0.009523,1.01
+2212786,"Pathology and Laboratory Procedures||Measurement of substance||Tumor marker measurement||Immunoassay for tumor antigen, quantitative; CA 19-9",1082,0.009299,1.02
+2212754,Protein measurement||Protein measurement||Procedure to identify antibody||Antinuclear antibodies (ANA); titer,1032,0.00887,1.05
+2213162,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Neisseria gonorrhoeae, amplified probe technique",1031,0.008861,1.25
+2212376,Pathology and Laboratory Procedures||Hormone measurement||Luteinizing hormone/follicle stimulating hormone measurement||Gonadotropin; follicle stimulating hormone (FSH),1015,0.008724,1.03
+2213212,"Pathology and Laboratory Procedures||Preparation of smear||Cytopathology, fluids, washings or brushings, except cervical or vaginal||Cytopathology, fluids, washings or brushings, except cervical or vaginal; smears with interpretation",1009,0.008672,1.02
+2213000,"Pathology and Laboratory Procedures||Microbiology procedure||Microbiology procedure||Culture, fungi (mold or yeast) isolation, with presumptive identification of isolates; other source (except blood)",988,0.008491,1.03
+2212442,Measurement of substance||Protein measurement||Lipoproteins measurement||Lipoprotein (a),964,0.008285,1.18
+2212748,"Pathology and Laboratory Procedures||Immunology laboratory test||Solid phase sandwich immunometric noncompetitive immunoassay||Allergen specific IgE; quantitative or semiquantitative, crude allergen extract, each",963,0.008277,1.22
+2212813,"Phenotype determination||Measurement of substance||T cells||T cells; absolute CD4 and CD8 count, including ratio",962,0.008268,1.06
+2212427,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Lactate (lactic acid),951,0.008173,1.02
+2213241,"Pathology and Laboratory Procedures||Cytopathology Screening Procedures||Cytopathology, evaluation of fine needle aspirate||Cytopathology, evaluation of fine needle aspirate; immediate cytohistologic study to determine adequacy for diagnosis, first evaluation episode, each site",947,0.008139,1.03
+2212539,Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Prolactin,925,0.00795,1.03
+2212637,Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Complete blood count||Blood count; automated differential WBC count,917,0.007881,1.02
+2212349,"Pathology and Laboratory Procedures||Measurement of substance in specimen||pH measurement||Gases, blood, any combination of pH, pCO2, pO2, CO2, HCO3 (including calculated O2 saturation); with O2 saturation, by direct measurement, except pulse oximetry",910,0.007821,1.03
+2213040,"Staining method||Staining method||Smear, primary source with interpretation||Smear, primary source with interpretation; fluorescent and/or acid fast stain for bacteria, fungi, parasites, viruses or cell types",891,0.007658,1.1
+2212110,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Cyclosporine,890,0.007649,1.01
+2213328,"Pathology and Laboratory Procedures||Other Pathology and Laboratory Procedures||Hematology procedure||Cell count, miscellaneous body fluids (eg, cerebrospinal fluid, joint fluid), except blood; with differential count",889,0.007641,1.04
+2212979,"Current Procedural Terminology Concept||Pathology and Laboratory Procedures||Microbiology Procedures||Concentration (any type), for infectious agents",889,0.007641,1.03
+2213043,"Procedure||Microbiology procedure||Surgical pathology procedure||Smear, primary source with interpretation; complex special stain (eg, trichrome, iron hemotoxylin) for ova and parasites",885,0.007606,1.14
+2212801,"Pathology and Laboratory Procedures||Measurement of substance||Measurement of substance in specimen||Immunofixation electrophoresis; other fluids with concentration (eg, urine, CSF)",884,0.007598,1.04
+2212661,"Hematology procedure||Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Bone marrow, smear interpretation",868,0.00746,1.05
+2212655,"Red blood cell test||Reticulocyte count||Reticulocyte count, flow cytometry||Blood count; reticulocytes, automated, including 1 or more cellular parameters (eg, reticulocyte hemoglobin content [CHr], immature reticulocyte fraction [IRF], reticulocyte volume [MRV], RNA content), direct measurement",863,0.007417,1.09
+2212174,"Measurement||Specimen volume measurement||Urine sample volume measurement||Volume measurement for timed collection, each",860,0.007391,1.02
+2212632,"Pathology and Laboratory Procedures||Tumor marker measurement||Human chorionic gonadotropin measurement||Gonadotropin, chorionic (hCG); qualitative",858,0.007374,1.01
+2212375,Measurement||Pathology and Laboratory Procedures||Protein measurement||Glycated protein,856,0.007357,1.01
+2212443,Protein measurement||Protein measurement||Triacylglycerol lipase measurement||Lipoprotein-associated phospholipase A2 (Lp-PLA2),856,0.007357,1.1
+2314057,"Medicine Services and Procedures||Clinical immunological test||In vivo test of hypersensitivity||Percutaneous tests (scratch, puncture, prick) with allergenic extracts, immediate type reaction, including test interpretation and report, specify number of tests",853,0.007331,1.02
+2213312,"Procedure||Surgical Pathology Procedures||Morphometric analysis, in situ hybridization (quantitative or semi-quantitative), using computer-assisted technology, per specimen||Morphometric analysis, in situ hybridization (quantitative or semi-quantitative), using computer-assisted technology, per specimen; initial single probe stain procedure",831,0.007142,1.04
+2213006,"Microbiology procedure||Pathology and Laboratory Procedures||Organism specific culture||Culture, tubercle or other acid-fast bacilli (eg, TB, AFB, mycobacteria) any source, with isolation and presumptive identification of isolates",812,0.006979,1.09
+2212319,Measurement of substance in specimen||Pathology and Laboratory Procedures||Chemistry Procedures||Erythropoietin,812,0.006979,1.01
+2212345,Pathology and Laboratory Procedures||Protein measurement||Immunoglobulin measurement||Gammaglobulin (immunoglobulin); IgE,810,0.006962,1.02
+2212377,Pathology and Laboratory Procedures||Drug measurement||Hormone measurement||Gonadotropin; luteinizing hormone (LH),807,0.006936,1.08
+2213094,"Microbiology Procedures||Protein measurement||Viral antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Influenza, A or B, each",786,0.006755,1.01
+2213308,"Procedure||Surgical Pathology Procedures||Morphometric analysis, tumor immunohistochemistry (eg, Her-2/neu, estrogen receptor/progesterone receptor), quantitative or semiquantitative, per specimen, each single antibody stain procedure||Morphometric analysis, tumor immunohistochemistry (eg, Her-2/neu, estrogen receptor/progesterone receptor), quantitative or semiquantitative, per specimen, each single antibody stain procedure; manual",776,0.006669,1.06
+2212320,Measurement of substance||Steroid measurement||Estrogen measurement||Estradiol,760,0.006532,1.03
+2212123,Measurement of substance||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Phenobarbital,737,0.006334,1.01
+4047338,Laboratory procedure||Laboratory test||Microbiology procedure||Detection of parasite,718,0.006171,1.01
+2212381,Protein measurement||Measurement of substance||Measurement of substance in specimen||Haptoglobin; quantitative,714,0.006137,1.04
+2212576,"Measurement||Pathology and Laboratory Procedures||Spectrometry||Spectrophotometry, analyte not elsewhere specified",710,0.006102,1.34
+2617384,"Cell count||Blood cell count||Complete blood count||Complete cbc, automated (hgb, hct, rbc, wbc, without platelet count) and automated wbc differential count",696,0.005982,1.0
+2213220,"Pathology and Laboratory Procedures||Cytopathology Procedures||Cytopathology procedure or service||Cytopathology, cervical or vaginal (any reporting system), requiring interpretation by physician",692,0.005947,1.05
+2212416,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen; quantitative, by radioimmunoassay (eg, RIA)",689,0.005922,1.04
+2212726,"Laboratory test||Pathology and Laboratory Procedures||Platelet function test||Platelet, aggregation (in vitro), each agent",688,0.005913,1.03
+2212630,Measurement of substance||Protein measurement||Insulin measurement||C-peptide,688,0.005913,1.01
+2212613,"Urea measurement||Urea measurement||Urine urea measurement||Urea nitrogen, urine",679,0.005836,1.15
+2213251,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Flow cytometry, interpretation||Flow cytometry, interpretation; 16 or more markers",668,0.005741,1.18
+2212338,Pathology and Laboratory Procedures||Vitamin measurement||Folic acid measurement||Folic acid; RBC,631,0.005423,1.01
+2213130,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed",619,0.00532,1.01
+2212941,"Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Coombs test - anti-human globulin||Antihuman globulin test (Coombs test); indirect, qualitative, each reagent red cell",606,0.005208,1.01
+2212889,Pathology and Laboratory Procedures||Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Hepatitis A antibody (HAAb),597,0.005131,1.01
+2212764,"Protein measurement||Procedure to identify antibody||Immunology Procedures||Cardiolipin (phospholipid) antibody, each Ig class",596,0.005122,1.06
+2212572,Pathology and Laboratory Procedures||Sodium measurement||Urine drug measurement||Sodium; urine,596,0.005122,1.06
+2212280,"Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Collagen cross links, any method",587,0.005045,1.01
+2212698,"Plasmin assay||Hematology and Coagulation Procedures||Plasmin assay||Fibrin degradation products, D-dimer; qualitative or semiquantitative",586,0.005036,1.01
+2212957,Procedure||Transfusion Medicine Procedures||Laboratory reporting||Compatibility test each unit; electronic,583,0.005011,1.02
+2213329,"Measurement||Pathology and Laboratory Procedures||White blood cell test||Leukocyte assessment, fecal, qualitative or semiquantitative",579,0.004976,1.07
+2212999,"Pathology and Laboratory Procedures||Microbiology procedure||Microbiology procedure||Culture, fungi (mold or yeast) isolation, with presumptive identification of isolates; skin, hair, or nail",579,0.004976,1.01
+2212812,White blood cell test||Lymphocyte count||T lymphocyte count||T cells; total count,570,0.004899,1.02
+2212784,"Measurement||Pathology and Laboratory Procedures||Tumor marker measurement||Immunoassay for tumor antigen, qualitative or semiquantitative (eg, bladder tumor antigen)",566,0.004865,1.01
+2212244,"Pathology and Laboratory Procedures||Measurement of substance in specimen||Fluid sample calcium level||Calcium; urine quantitative, timed specimen",562,0.00483,1.06
+2212169,"Pathology and Laboratory Procedures||Urinalysis Procedures||Urinalysis||Urinalysis; qualitative or semiquantitative, except immunoassays",561,0.004822,1.19
+2212701,Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Fibrinogen; activity,559,0.004804,1.07
+2314061,"Medicine Services and Procedures||Procedure||Type 1 hypersensitivity skin test||Intracutaneous (intradermal) tests with allergenic extracts, immediate type reaction, including test interpretation and report, specify number of tests",555,0.00477,1.03
+2213256,"Procedure on body system||Procedure on organ||Tissue culture for neoplastic disorders||Tissue culture for neoplastic disorders; bone marrow, blood cells",553,0.004753,1.04
+2212781,"Protein measurement||Immunology Procedures||Procedure to identify antibody||Fluorescent noninfectious agent antibody; titer, each antibody",550,0.004727,1.1
+2212291,"Protein measurement||Enzyme measurement||Creatine kinase measurement||Creatine kinase (CK), (CPK); isoenzymes",533,0.004581,1.0
+2212692,Pathology and Laboratory Procedures||Hematology procedure||Laboratory test related to hemostasis||Coagulation time; activated,526,0.004521,1.01
+2213046,"Laboratory procedure categorized by method||Staining method||Staining method||Tissue examination by KOH slide of samples from skin, hair, or nails for fungi or ectoparasite ova or mites (eg, scabies)",524,0.004504,1.02
+2213330,"Procedure by method||Pathology and Laboratory Procedures||Other Pathology and Laboratory Procedures||Crystal identification by light microscopy with or without polarizing lens analysis, tissue or any body fluid (except urine)",516,0.004435,1.07
+2213313,"Procedure||Surgical Pathology Procedures||Morphometric analysis, in situ hybridization (quantitative or semi-quantitative), manual, per specimen||Morphometric analysis, in situ hybridization (quantitative or semi-quantitative), manual, per specimen; initial single probe stain procedure",514,0.004418,1.03
+2720510,"Removal||Sampling for smear||Sampling of female genital tract for smear||Screening papanicolaou smear, cervical or vaginal, up to three smears, by technician under physician supervision",512,0.0044,1.0
+2212133,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Theophylline,512,0.0044,1.01
+2212568,Measurement||Pathology and Laboratory Procedures||Protein measurement||Sex hormone binding globulin (SHBG),510,0.004383,1.02
+2212940,"Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Coombs test - anti-human globulin||Antihuman globulin test (Coombs test); direct, each antiserum",504,0.004332,1.01
+2213080,"Microbiology Procedures||Infectious Agent Antigen Detection||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; giardia",487,0.004186,1.1
+2212357,"Measurement of substance||Pathology and Laboratory Procedures||Measurement of substance in specimen||Glucose, body fluid, other than blood",479,0.004117,1.03
+2212588,Measurement of substance||Thyroid hormone measurement||Thyroid hormone tests||Thyroglobulin,478,0.004108,1.03
+2212305,Steroid measurement||Pathology and Laboratory Procedures||Dehydroepiandrosterone measurement||Dehydroepiandrosterone-sulfate (DHEA-S),476,0.004091,1.01
+2617226,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, requiring interpretation by physician",471,0.004048,1.05
+2213047,"Immunology laboratory test||Pathology and Laboratory Procedures||Tissue culture||Toxin or antitoxin assay, tissue culture (eg, Clostridium difficile toxin)",463,0.003979,1.01
+2212755,Pathology and Laboratory Procedures||Measurement of microbial antibody||Measurement of bacterial antibody||Antistreptolysin 0; titer,463,0.003979,1.03
+2212193,Protein measurement||Pathology and Laboratory Procedures||Fructose-bisphosphate aldolase measurement||Aldolase,462,0.003971,1.01
+2212362,"Procedure by method||Laboratory test||Pancreatic function test||Glucose; tolerance test (GTT), 3 specimens (includes glucose)",456,0.003919,1.0
+2213309,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Morphometric analysis, tumor immunohistochemistry (eg, Her-2/neu, estrogen receptor/progesterone receptor), quantitative or semiquantitative, per specimen, each single antibody stain procedure; using computer-assisted technology",444,0.003816,1.03
+2212750,Pathology and Laboratory Procedures||Procedure to identify antibody||Antibody identification||Antibody identification; leukocyte antibodies,435,0.003739,1.03
+2212361,Pathology and Laboratory Procedures||Chemistry Procedures||Glucose measurement||Glucose; post glucose dose (includes glucose),430,0.003696,1.01
+2212130,Measurement of substance||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Sirolimus,426,0.003661,1.03
+2212162,"Procedure by method||Consultation||Consultation for laboratory medicine||Clinical pathology consultation; limited, without review of patient's history and medical records",425,0.003653,1.02
+2212844,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Serologic test||Antibody; Borrelia burgdorferi (Lyme disease) confirmatory test (eg, Western Blot or immunoblot)",423,0.003636,1.01
+2213301,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Immunofluorescence, per specimen; initial single antibody stain procedure",423,0.003636,1.1
+2213176,"Molecular biology method||Molecular biology identification technique||Nucleic acid amplification||Infectious agent detection by nucleic acid (DNA or RNA), not otherwise specified; quantification, each organism",414,0.003558,1.04
+2212091,"Procedure by method||Pathology and Laboratory Procedures||Organ or Disease Oriented Panels||General health panel This panel must include the following: Comprehensive metabolic panel (80053) Blood count, complete (CBC), automated and automated differential WBC count (85025 or 85027 and 85004) OR Blood count, complete (CBC), automated (85027) and ",414,0.003558,1.01
+2212652,"Pathology and Laboratory Procedures||Hematology test||Red blood cell test||Blood count; red blood cell (RBC), automated",413,0.00355,1.04
+2213168,"Microbiology Procedures||Organism specific culture||Staphylococcus species culture||Infectious agent detection by nucleic acid (DNA or RNA); Staphylococcus aureus, methicillin resistant, amplified probe technique",413,0.00355,1.01
+2212639,"Pathology and Laboratory Procedures||Laboratory test||Hematology test||Blood count; blood smear, microscopic examination without manual differential WBC count",410,0.003524,1
+2212317,"Procedure by method||Pathology and Laboratory Procedures||Measurement||Electrophoretic technique, not elsewhere specified",405,0.003481,1.41
+2617385,"Cell count||Blood cell count||Complete blood count||Complete (cbc), automated (hgb, hct, rbc, wbc; without platelet count)",398,0.003421,1.01
+2213119,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); cytomegalovirus, quantification",387,0.003326,1.01
+2212388,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Hemoglobin fractionation and quantitation; chromatography (eg, A2, S, C, and/or F)",383,0.003292,1.01
+2212546,"Pathology and Laboratory Procedures||Measurement of substance||Protein, total, except by refractometry||Protein, total, except by refractometry; other source (eg, synovial fluid, cerebrospinal fluid)",379,0.003257,1.06
+2213175,"Microbiology Procedures||Infectious Agent Antigen Detection||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA), not otherwise specified; amplified probe technique, each organism",377,0.00324,1.22
+2213099,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]), qualitative or semiquantitative; multiple-step method, not otherwise specified, e",376,0.003232,1.02
+2212792,"Measurement of substance in specimen||Serologic test||Immunology Procedures||Immunoassay for infectious agent antibody, quantitative, not otherwise specified",370,0.00318,1.41
+2213098,"Microbiology Procedures||Protein measurement||Streptococcus pneumoniae antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Streptococcus, group A",367,0.003154,1.01
+2213097,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Shiga-like toxin",363,0.00312,1.1
+2720582,"NA||NA||NA||Wet mounts, including preparations of vaginal, cervical or skin specimens",361,0.003103,1.01
+4091110,Clinical immunological test||In vivo test of hypersensitivity||In vivo test of type 1 hypersensitivity||Type 1 hypersensitivity skin test,355,0.003051,1.01
+2212538,Measurement of substance||Pathology and Laboratory Procedures||Steroid measurement||Progesterone,350,0.003008,1.05
+2212629,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Zinc,349,0.003,1.03
+2212631,"Pathology and Laboratory Procedures||Measurement of substance||Tumor marker measurement||Gonadotropin, chorionic (hCG); quantitative",346,0.002974,1.01
+2212814,Pathology and Laboratory Procedures||Measurement of substance||T cells||T cells; absolute CD4 count,346,0.002974,1.02
+2213278,"Laboratory procedure||Procedure||Laboratory procedure||Cytogenetics and molecular cytogenetics, interpretation and report",346,0.002974,1.1
+2212586,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Thiamine (Vitamin B-1),345,0.002965,1.02
+2212251,Protein measurement||Chemistry Procedures||Carboxyhemoglobin measurement||Carboxyhemoglobin; quantitative,345,0.002965,1.01
+2213269,"Procedure by method||Laboratory procedure||Molecular cytogenetics||Molecular cytogenetics; DNA probe, each (eg, FISH)",337,0.002896,1.07
+2212989,"Pathology and Laboratory Procedures||Microbiology procedure||Serum bactericidal titer test||Culture, bacterial; anaerobic isolate, additional methods required for definitive identification, each isolate",329,0.002828,1.01
+2213079,"Microbiology Procedures||Protein measurement||Parasite antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; cryptosporidium",328,0.002819,1.06
+2212985,"Pathology and Laboratory Procedures||Microbiology procedure||Microbiology procedure||Culture, bacterial; quantitative, aerobic with isolation and presumptive identification of isolates, any source except urine, blood or stool",326,0.002802,1.01
+2212890,"Protein measurement||Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Hepatitis A antibody (HAAb), IgM antibody",322,0.002767,1.01
+2212556,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Pyridoxal phosphate (Vitamin B-6),307,0.002639,1.05
+2213188,Protein measurement||Measurement of substance in specimen||Serologic test||Infectious agent antigen detection by immunoassay with direct optical observation; not otherwise specified,305,0.002621,1.07
+2212194,Measurement of substance||Pathology and Laboratory Procedures||Steroid measurement||Aldosterone,305,0.002621,1.03
+2212501,Pathology and Laboratory Procedures||Osmolality measurement||Osmolality||Osmolality; blood,304,0.002613,1
+2212502,Procedure by method||Osmolality measurement||Osmolality||Osmolality; urine,302,0.002596,1.04
+2212821,"Pathology and Laboratory Procedures||Immunology laboratory test||Particle agglutination||Particle agglutination; screen, each antibody",301,0.002587,1.0
+2212217,Measurement of substance||Protein measurement||Enzyme measurement||Angiotensin I - converting enzyme (ACE),295,0.002535,1.0
+2212793,"Measurement of substance||Pathology and Laboratory Procedures||Immunology Procedures||Immunoassay for infectious agent antibody, qualitative or semiquantitative, single step method (eg, reagent strip)",292,0.00251,1
+2212383,"Pathology and Laboratory Procedures||Gastrointestinal investigation||Helicobacter pylori||Helicobacter pylori; breath test analysis for urease activity, non-radioactive isotope (eg, C-13)",292,0.00251,1.02
+2212791,"Measurement||Pathology and Laboratory Procedures||Tumor marker measurement||Immunoassay for tumor antigen, other antigen, quantitative (eg, CA 50, 72-4, 549), each",291,0.002501,1.01
+2212641,Pathology and Laboratory Procedures||Red blood cell test||Hematocrit determination||Blood count; spun microhematocrit,290,0.002492,1.0
+2212457,"Measurement||Pathology and Laboratory Procedures||Spectrometry||Mass spectrometry and tandem mass spectrometry (eg, MS, MS/MS, MALDI, MS-TOF, QTOF), non-drug analyte(s) not elsewhere specified, qualitative or quantitative, each specimen",286,0.002458,1.07
+2213266,"Procedure||Laboratory procedure||Chromosome analysis, cytogenetic procedure AND/OR molecular biology method||Chromosome analysis; analyze 20-25 cells",278,0.002389,1.05
+2212519,"Protein measurement||Enzyme measurement||Phosphatase, alkaline||Phosphatase, alkaline; isoenzymes",273,0.002346,1.01
+2212886,Protein measurement||Qualitative or Semiquantitative Immunoassays||Immunoglobulin M measurement||Hepatitis B core antibody (HBcAb); IgM antibody,273,0.002346,1.01
+2212532,Pathology and Laboratory Procedures||Potassium measurement||Urine drug measurement||Potassium; urine,271,0.002329,1.09
+2213327,"Pathology and Laboratory Procedures||Other Pathology and Laboratory Procedures||Cell count, miscellaneous body fluids (eg, cerebrospinal fluid, joint fluid), except blood||Cell count, miscellaneous body fluids (eg, cerebrospinal fluid, joint fluid), except blood",271,0.002329,1.04
+2212955,Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Major crossmatch||Compatibility test each unit; incubation technique,270,0.002321,1.0
+2212179,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Ketone body(s) (eg, acetone, acetoacetic acid, beta-hydroxybutyrate); qualitative",267,0.002295,1
+2212756,Pathology and Laboratory Procedures||In-vitro immunologic test||Antistreptolysin 0||Antistreptolysin 0; screen,266,0.002286,1.04
+2212196,Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Alpha-1-antitrypsin; total,266,0.002286,1
+2213108,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Candida species, direct probe technique",266,0.002286,1.04
+2212187,"Protein measurement||Urine protein test||Urine albumin measurement||Albumin; other source, quantitative, each specimen",263,0.00226,1
+2213235,"Laboratory procedure||Laboratory procedure categorized by method||Manual laboratory procedure||Cytopathology, slides, cervical or vaginal (the Bethesda System); manual screening under physician supervision",258,0.002217,1.0
+2213028,"Pathology and Laboratory Procedures||Procedure||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; agar dilution method, per agent (eg, antibiotic gradient strip)",256,0.0022,1.06
+2212184,Measurement of substance||Pathology and Laboratory Procedures||Tumor marker measurement||Adrenocorticotropic hormone (ACTH),254,0.002183,1.0
+2213002,"Pathology and Laboratory Procedures||Microbiology Procedures||Mycology culture||Culture, fungi, definitive identification, each organism; yeast",248,0.002131,1.02
+2212363,"Procedure by method||Laboratory test||Pancreatic function test||Glucose; tolerance test, each additional beyond 3 specimens (List separately in addition to code for primary procedure)",243,0.002088,1.09
+2212564,Measurement of substance||Protein measurement||Enzyme measurement||Renin,239,0.002054,1.01
+2212616,Pathology and Laboratory Procedures||Measurement||Uric acid||Uric acid; other source,236,0.002028,1.13
+2212264,"Pathology and Laboratory Procedures||Measurement of substance in specimen||Electrolytes measurement, urine||Chloride; urine",231,0.001985,1.07
+2212460,Procedure by method||Pathology and Laboratory Procedures||Measurement of substance in specimen||Metanephrines,230,0.001977,1.07
+2213122,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Gardnerella vaginalis, direct probe technique",228,0.00196,1.22
+2212283,Steroid measurement||Chemistry Procedures||Cortisol measurement||Cortisol; free,223,0.001917,1.17
+2212574,Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Somatomedin,220,0.001891,1.01
+2213173,"Procedure||Nucleic acid assay||Parasite nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); Trichomonas vaginalis, direct probe technique",219,0.001882,1.16
+2212541,Pathology and Laboratory Procedures||Protein measurement||Tumor marker measurement||Prostate specific antigen (PSA); complexed (direct measurement),217,0.001865,1
+2213274,"Procedure||Laboratory test||Chromosome analysis, cytogenetic procedure AND/OR molecular biology method||Chromosome analysis; additional karyotypes, each study",217,0.001865,1.11
+2212771,Serologic test||Serologic test||Complement functional assay||Complement; total hemolytic (CH50),215,0.001848,1.01
+2213030,"Pathology and Laboratory Procedures||Microbiology procedure||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; enzyme detection (eg, beta lactamase), per enzyme",213,0.001831,1.01
+2212865,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; Epstein-Barr (EB) virus, viral capsid (VCA)",212,0.001822,1.03
+2212610,"Measurement||Pathology and Laboratory Procedures||Protein measurement||Troponin, qualitative",212,0.001822,1
+2213085,"Microbiology procedure||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Helicobacter pylori, stool",210,0.001805,1.01
+2212788,Protein measurement||Procedure to identify antibody||Heterophile antibody measurement||Heterophile antibodies; screening,209,0.001796,1.0
+2212700,"Plasmin assay||Laboratory test related to hemostasis||Fibrin fragments assay||Fibrin degradation products, D-dimer; ultrasensitive (eg, for evaluation for venous thromboembolism), qualitative or semiquantitative",207,0.001779,1
+2212734,Pathology and Laboratory Procedures||Immunology laboratory test||Russell viper venom time (includes venom)||Russell viper venom time (includes venom); diluted,206,0.00177,1.07
+2212918,Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; varicella-zoster,203,0.001745,1.02
+2212852,Measurement of substance in specimen||Specific antibody measurement||Measurement of fungal antibody||Antibody; Coccidioides,201,0.001728,1.07
+2213311,"Procedure||Surgical Pathology Procedures||Surgical Pathology Procedures||In situ hybridization (eg, FISH), per specimen; initial single probe stain procedure",200,0.001719,1.01
+2212281,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Copper,200,0.001719,1.06
+2212205,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Amino acids; single, quantitative, each specimen",198,0.001702,1
+2212415,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen||Immunoassay for analyte other than infectious agent antibody or infectious agent antigen; qualitative or semiquantitative, single step method (eg, reagent strip)",196,0.001685,1.01
+2212855,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Serologic test||Antibody; cytomegalovirus (CMV),195,0.001676,1.01
+2212794,Pathology and Laboratory Procedures||Immunology Procedures||Immunoelectrophoresis||Immunoelectrophoresis; serum,194,0.001667,1.02
+2213273,"Procedure||Measurement||Molecular cytogenetics||Molecular cytogenetics; interphase in situ hybridization, analyze 100-300 cells",192,0.00165,1.11
+2212809,"White blood cell test||Pathology and Laboratory Procedures||Immunology Procedures||B cells, total count",192,0.00165,1.01
+2213049,"Pathology and Laboratory Procedures||Microbiology Procedures||Virus isolation||Virus isolation; tissue culture inoculation, observation, and presumptive identification by cytopathic effect",191,0.001642,1.01
+2212395,"Pathology and Laboratory Procedures||Protein measurement||Measurement of methemoglobin||Hemoglobin; methemoglobin, quantitative",190,0.001633,1.11
+2212258,Pathology and Laboratory Procedures||Measurement of substance||Catecholamines||Catecholamines; fractionated,186,0.001599,1.01
+2212260,Measurement of substance||Protein measurement||Enzyme measurement||Ceruloplasmin,186,0.001599,1.01
+2212808,"In-vitro immunologic test||Pathology and Laboratory Procedures||Lymphocyte blast cell transformation assay||Lymphocyte transformation, mitogen (phytomitogen) or antigen induced blastogenesis",185,0.00159,1.04
+2212450,"Pathology and Laboratory Procedures||Protein measurement||Lipoproteins measurement||Lipoprotein, direct measurement; VLDL cholesterol",185,0.00159,1
+2720583,NA||NA||NA||All potassium hydroxide (koh) preparations,184,0.001581,1.01
+2212247,"Pathology and Laboratory Procedures||Chemistry Procedures||Calculus analysis, quantitative||Calculus; infrared spectroscopy",184,0.001581,1.01
+2212125,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Phenytoin||Phenytoin; free,182,0.001564,1.01
+2213250,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Flow cytometry, interpretation||Flow cytometry, interpretation; 9 to 15 markers",182,0.001564,1.02
+2212504,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Oxalate,180,0.001547,1.18
+2212882,Measurement of microbial antibody||Qualitative or Semiquantitative Immunoassays||Human immunodeficiency virus test||Antibody; HIV-1,179,0.001538,1.01
+2212879,"Measurement of microbial antibody||Qualitative or Semiquantitative Immunoassays||Herpes simplex antibody level||Antibody; herpes simplex, type 1",175,0.001504,1.03
+2212581,"Pathology and Laboratory Procedures||Measurement of substance||Sugars (mono-, di-, and oligosaccharides)||Sugars (mono-, di-, and oligosaccharides); single quantitative, each specimen",171,0.00147,1.01
+2212261,In-vitro immunologic test||Pathology and Laboratory Procedures||Neutrophil function test||Chemiluminescent assay,170,0.001461,1
+2212763,"Protein measurement||Pathology and Laboratory Procedures||Procedure to identify antibody||Beta 2 Glycoprotein I antibody, each",169,0.001452,1.04
+2212636,Laboratory test||Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Bleeding time,168,0.001444,1
+2212624,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Vitamin A,165,0.001418,1.08
+2212811,"Hematology test||White blood cell test||Lymphocyte count||Natural killer (NK) cells, total count",160,0.001375,1.05
+2212435,Measurement||Pathology and Laboratory Procedures||Heavy metals measurement||Lead,159,0.001367,1.12
+2213264,"Procedure||Laboratory test||Chromosome analysis, cytogenetic procedure AND/OR molecular biology method||Chromosome analysis; count 15-20 cells, 2 karyotypes, with banding",159,0.001367,1.09
+2213127,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); hepatitis B virus, quantification",158,0.001358,1.03
+2212524,Procedure by method||Trace element measurement||Urine drug measurement||Phosphorus inorganic (phosphate); urine,156,0.001341,1.19
+2212900,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Serologic test||Antibody; mycoplasma,156,0.001341,1.01
+2212387,"Procedure||Procedure by method||Laboratory procedure categorized by method||Hemoglobin fractionation and quantitation; electrophoresis (eg, A2, S, C, and/or F)",155,0.001332,1
+2213232,"Laboratory procedure||Cytopathology Screening Procedures||Cytopathology, smears, any other source||Cytopathology, smears, any other source; screening and interpretation",154,0.001324,1.01
+2213177,"Protein measurement||Measurement of substance in specimen||Serologic test||Infectious agent detection by nucleic acid (DNA or RNA), multiple organisms; direct probe(s) technique",153,0.001315,1
+2212743,"Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Thromboplastin time, partial (PTT)||Thromboplastin time, partial (PTT); substitution, plasma fractions, each",153,0.001315,1.13
+2213089,"Microbiology Procedures||Viral antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; hepatitis Be antigen (HBeAg",149,0.001281,1.1
+2212994,"Pathology and Laboratory Procedures||Microbiology Procedures||Microbiology procedure||Culture, presumptive, pathogenic organisms, screening only; with colony estimation from density chart",149,0.001281,1.01
+2213249,"Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Flow cytometry, interpretation||Flow cytometry, interpretation; 2 to 8 markers",148,0.001272,1
+2212592,Measurement of substance||Thyroid hormone measurement||Thyroid hormone tests||Thyroxine binding globulin (TBG),147,0.001263,1
+2212116,Drug measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Gentamicin,147,0.001263,1.01
+2212880,"Measurement of viral antibody||Serologic test for herpes virus||Serologic test for herpes simplex||Antibody; herpes simplex, type 2",145,0.001246,1.08
+2212682,"Pathology and Laboratory Procedures||Hematology procedure||Laboratory test related to hemostasis||Clotting inhibitors or anticoagulants; antithrombin III, activity",145,0.001246,1.01
+2212928,Laboratory test||Tissue Typing Immunological Procedures||Serum screening for cytotoxic percent reactive antibody (PRA)||Serum screening for cytotoxic percent reactive antibody (PRA); standard method,144,0.001238,1.05
+2213180,Procedure by method||Measurement of substance||Infectious agent antigen detection by immunoassay with direct optical observation||Infectious agent antigen detection by immunoassay with direct optical observation; Clostridium difficile toxin A,143,0.001229,1.01
+2212547,"Measurement||Pathology and Laboratory Procedures||Protein measurement||Protein, total, by refractometry, any source",140,0.001203,1.01
+2212804,Measurement of substance||Protein measurement||Immunology Procedures||Intrinsic factor antibodies,140,0.001203,1
+2212687,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Protein S assay||Clotting inhibitors or anticoagulants; protein S, free",137,0.001177,1.15
+2212685,"Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Coagulation factor assay||Clotting inhibitors or anticoagulants; protein C, activity",137,0.001177,1.04
+2212625,"Measurement||Pathology and Laboratory Procedures||Drug measurement||Vitamin, not otherwise specified",136,0.001169,1.7
+2212278,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Citrate,134,0.001152,1.19
+2213233,"Laboratory procedure||Preparation of smear||Cytopathology, smears, any other source||Cytopathology, smears, any other source; preparation, screening and interpretation",134,0.001152,1.01
+2212219,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Arsenic,134,0.001152,1
+2212594,Measurement||Pathology and Laboratory Procedures||Protein measurement||Thyroid stimulating immune globulins (TSI),132,0.001134,1.01
+2212595,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Tocopherol alpha (Vitamin E),132,0.001134,1.04
+2212384,Procedure||Procedure by method||Procedure with a procedure focus||Helicobacter pylori; drug administration,131,0.001126,1.03
+2213109,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Candida species, amplified probe technique",131,0.001126,1.53
+2212246,"Pathology and Laboratory Procedures||Measurement of substance||Calculus analysis||Calculus; quantitative analysis, chemical",131,0.001126,1.01
+2314064,Skin test||Immunology laboratory test||Type 4 hypersensitivity skin test||Patch or application test(s) (specify number of tests),127,0.001092,1.01
+2212346,"Protein measurement||Immunoglobulin measurement||Immunoglobulin G measurement||Gammaglobulin (immunoglobulin); immunoglobulin subclasses (eg, IgG1, 2, 3, or 4), each",127,0.001092,1.02
+2212810,"Immunology laboratory test||White blood cell test||White blood cell count||Mononuclear cell antigen, quantitative (eg, flow cytometry), not otherwise specified, each antigen",126,0.001083,1.33
+2212409,"Pyrrole measurement||Pathology and Laboratory Procedures||Measurement of substance in specimen||Hydroxyindolacetic acid, 5-(HIAA)",123,0.001057,1
+2212930,"Immunology Procedures||Tissue Typing Immunological Procedures||HLA typing||HLA typing; A, B, or C (eg, A10, B7, B27), single antigen",123,0.001057,1.01
+2212350,"Measurement of substance||Pathology and Laboratory Procedures||Oxygen saturation measurement||Gases, blood, O2 saturation only, by direct measurement, except pulse oximetry",123,0.001057,1
+2212777,Pathology and Laboratory Procedures||Immunology Procedures||Measurement of deoxyribonucleoprotein antibody||Deoxyribonucleic acid (DNA) antibody; single stranded,120,0.001031,1
+2213191,Pathology and Laboratory Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus,119,0.001023,1
+2212304,Steroid measurement||Pathology and Laboratory Procedures||Serum 17-oxosteroid measurement||Dehydroepiandrosterone (DHEA),117,0.001006,1.04
+2212328,"Pathology and Laboratory Procedures||Measurement of substance in specimen||Measurement of substance||Fat or lipids, feces; qualitative",117,0.001006,1
+2617237,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, with manual screening and rescreening by cytotechnologist under physician supervision",117,0.001006,1.01
+2213051,"Pathology and Laboratory Procedures||Microbiology procedure||Virus isolation||Virus isolation; centrifuge enhanced (shell vial) technique, includes identification with immunofluorescence stain, each virus",117,0.001006,1.01
+2212298,"Measurement of substance||Protein measurement||Paraprotein measurement||Cryoglobulin, qualitative or semi-quantitative (eg, cryocrit)",117,0.001006,1
+2212563,Pathology and Laboratory Procedures||Procedure to identify antibody||Receptor assay||Receptor assay; non-endocrine (specify receptor),116,0.000997,1
+2212888,Pathology and Laboratory Procedures||Measurement of viral antibody||Qualitative or Semiquantitative Immunoassays||Hepatitis Be antibody (HBeAb),116,0.000997,1.16
+2212751,"Pathology and Laboratory Procedures||Procedure to identify antibody||Antibody identification, RBC||Antibody identification; platelet antibodies",116,0.000997,1.12
+2212651,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Blood count||Blood count; manual cell count (erythrocyte, leukocyte, or platelet) each",114,0.00098,1
+2212635,Procedure||Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Unlisted chemistry procedure,114,0.00098,1
+2212516,"Protein measurement||Measurement of substance||Tumor marker measurement||Phosphatase, acid; prostatic",113,0.000971,1
+2212180,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Ketone body(s) (eg, acetone, acetoacetic acid, beta-hydroxybutyrate); quantitative",110,0.000945,1
+2213341,Measurement||Preparation of smear||Smear for cell identification||Nasal smear for eosinophils,110,0.000945,1
+2213246,"Laboratory procedure||Pathology and Laboratory Procedures||Flow cytometry||Flow cytometry, cell cycle or DNA analysis",110,0.000945,1.01
+2212583,"Procedure by method||Pathology and Laboratory Procedures||Sulfate measurement||Sulfate, urine",109,0.000937,1.14
+2212744,Measurement of substance||Viscosity measurement||Hematology and Coagulation Procedures||Viscosity,107,0.00092,1
+2212285,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Creatine,107,0.00092,1
+2212866,Protein measurement||Serologic test||Rickettsial serologic study||Antibody; Ehrlichia,105,0.000902,1.03
+2212864,"Immunology laboratory test||Qualitative or Semiquantitative Immunoassays||Epstein-Barr virus serologic test||Antibody; Epstein-Barr (EB) virus, nuclear antigen (EBNA)",103,0.000885,1.08
+2212836,"Protein measurement||Serologic test||Syphilis test, non-treponemal antibody||Syphilis test, non-treponemal antibody; quantitative",103,0.000885,1
+2213303,"Procedure categorized by device involved||Pathology and Laboratory Procedures||Surgical Pathology Procedures||Electron microscopy, diagnostic",102,0.000877,1
+2212232,"Pathology and Laboratory Procedures||Measurement||Measurement of substance||Blood, occult, by peroxidase activity (eg, guaiac), qualitative; other sources",100,0.000859,1.01
+2213052,"Pathology and Laboratory Procedures||Protein measurement||Virus isolation||Virus isolation; including identification by non-immunologic method, other than by cytopathic effect (eg, virus specific enzymatic activity)",100,0.000859,1.03
+2213114,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Chlamydia trachomatis, direct probe technique",97,0.000834,1.07
+2213129,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed",97,0.000834,1
+2212322,Pathology and Laboratory Procedures||Measurement of substance||Steroid measurement||Estrogens; total,96,0.000825,1
+2213026,"Toxin assay||Toxin detection||Microbiology procedure||Homogenization, tissue, for culture",96,0.000825,1.01
+2212302,Measurement of substance||Pathology and Laboratory Procedures||Protein measurement||Cystatin C,96,0.000825,1
+2212355,Drug measurement||Pathology and Laboratory Procedures||Gastrointestinal hormone measurement||Gastrin,94,0.000808,1
+2212909,Laboratory test||Qualitative or Semiquantitative Immunoassays||Measurement of viral antibody||Antibody; rubella,93,0.000799,1.03
+2212207,"Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Amino acids, 2 to 5 amino acids, quantitative, each specimen",93,0.000799,1.17
+2212220,"Measurement of substance in specimen||Vitamin measurement||Serum vitamin measurement||Ascorbic acid (Vitamin C), blood",92,0.000791,1.04
+2212703,"Laboratory test||Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Fibrinolysins or coagulopathy screen, interpretation and report",91,0.000782,1.01
+2212459,"Measurement||Pathology and Laboratory Procedures||Heavy metals measurement||Mercury, quantitative",90,0.000774,1.27
+2213289,Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Special stain including interpretation and report; histochemical stain on frozen tissue block (List separately in addition to code for primary procedure),90,0.000774,1
+2212567,Pyrrole measurement||Pathology and Laboratory Procedures||Indolamine measurement||Serotonin,90,0.000774,1.03
+2213227,"Laboratory procedure||Laboratory procedure categorized by method||Manual laboratory procedure||Cytopathology, slides, cervical or vaginal; manual screening under physician supervision",89,0.000765,1
+2212863,"Immunology laboratory test||Qualitative or Semiquantitative Immunoassays||Measurement of viral antibody||Antibody; Epstein-Barr (EB) virus, early antigen (EA)",89,0.000765,1
+2212878,"Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of viral antibody||Antibody; herpes simplex, non-specific type test",89,0.000765,1
+2213213,"Pathology and Laboratory Procedures||Cytopathology Procedures||Cytopathology, fluids, washings or brushings, except cervical or vaginal||Cytopathology, fluids, washings or brushings, except cervical or vaginal; simple filter method with interpretation",89,0.000765,1
+2212163,"Procedure||Procedure by method||Consultation||Clinical pathology consultation; comprehensive, for a complex diagnostic problem, with review of patient's history and medical records",88,0.000756,1
+2213041,"Pathology and Laboratory Procedures||Microbiology procedure||Smear, primary source with interpretation||Smear, primary source with interpretation; special stain for inclusion bodies or parasites (eg, malaria, coccidia, microsporidia, trypanosomes, herpes viruses)",88,0.000756,1.01
+2212738,"Hematology procedure||Pathology and Laboratory Procedures||Hemoglobin variant test||Sickling of RBC, reduction",87,0.000748,1.02
+2212856,"Protein measurement||Serologic test||Immunoglobulin M measurement||Antibody; cytomegalovirus (CMV), IgM",86,0.000739,1.06
+2213062,Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; influenza B virus,86,0.000739,1
+2212621,"Procedure by method||Pathology and Laboratory Procedures||Vanillylmandelic acid measurement||Vanillylmandelic acid (VMA), urine",86,0.000739,1.13
+2213086,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Helicobacter pylori",86,0.000739,1
+2213003,"Pathology and Laboratory Procedures||Microbiology procedure||Microbial culture||Culture, fungi, definitive identification, each organism; mold",84,0.000722,1.01
+2212669,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Factor VIII: C assay||Clotting; factor VIII (AHG), 1-stage",84,0.000722,1
+2212730,Pathology and Laboratory Procedures||Immunology laboratory test||Phospholipid neutralization||Phospholipid neutralization; platelet,84,0.000722,1.01
+2213161,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Neisseria gonorrhoeae, direct probe technique",84,0.000722,1.12
+2212126,Measurement of substance||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Primidone,83,0.000713,1.01
+2212389,"Pathology and Laboratory Procedures||Red blood cell test||Measurement of total hemoglobin concentration||Hemoglobin; by copper sulfate method, non-automated",82,0.000705,1.1
+2212732,"Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Prothrombin time||Prothrombin time; substitution, plasma fractions, each",82,0.000705,1
+2212825,"Pathology and Laboratory Procedures||Measurement of substance||Tuberculosis test, cell mediated immunity antigen response measurement||Tuberculosis test, cell mediated immunity antigen response measurement; gamma interferon",82,0.000705,1
+2212942,"Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Coombs test - anti-human globulin||Antihuman globulin test (Coombs test); indirect, each antibody titer",81,0.000696,1
+2212770,"Serologic test||Immunology Procedures||Complement component assay||Complement; functional activity, each component",81,0.000696,1
+2213063,Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; influenza A virus,78,0.00067,1.04
+2212192,"Measurement of substance||Pathology and Laboratory Procedures||Measurement of substance in specimen||Alcohol (ethanol), breath",78,0.00067,1.03
+2212365,Protein measurement||Red blood cell enzyme test||Red blood cell enzyme activity measurement||Glucose-6-phosphate dehydrogenase (G6PD); quantitative,77,0.000662,1
+2213135,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); Herpes simplex virus, amplified probe technique",76,0.000653,1.05
+2212907,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Rickettsia,76,0.000653,1.07
+2212254,"Measurement||Pathology and Laboratory Procedures||Measurement of amino acid||Carnitine (total and free), quantitative, each specimen",75,0.000645,1.01
+2212378,"Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Growth hormone, human (HGH) (somatotropin)",73,0.000627,1
+2212640,"Pathology and Laboratory Procedures||Hematology test||White blood cell test||Blood count; manual differential WBC count, buffy coat",73,0.000627,1
+2212765,Protein measurement||Pathology and Laboratory Procedures||Immunology Procedures||Anti-phosphatidylserine (phospholipid) antibody,72,0.000619,1.03
+2212891,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of viral antibody||Antibody; influenza virus,72,0.000619,1.01
+2213190,"Pathology and Laboratory Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent genotype analysis by nucleic acid (DNA or RNA); HIV-1, reverse transcriptase and protease regions",72,0.000619,1
+40757049,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Treponema pallidum,72,0.000619,1
+2212899,Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; mumps,71,0.00061,1.01
+2212135,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Topiramate,71,0.00061,1
+2212303,"Measurement of substance||Pathology and Laboratory Procedures||Measurement of amino acid in urine||Cystine and homocystine, urine, qualitative",71,0.00061,1.03
+2212739,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Thrombin time||Thrombin time; plasma,71,0.00061,1
+2212987,"Pathology and Laboratory Procedures||Microbiology procedure||Microbiology procedure||Culture, bacterial; quantitative, anaerobic with isolation and presumptive identification of isolates, any source except urine, blood or stool",71,0.00061,1.01
+2617238,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation, with screening by automated system, under physician supervision",70,0.000602,1
+2212565,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Riboflavin (Vitamin B-2),70,0.000602,1.09
+2213272,"Procedure||Measurement||Molecular cytogenetics||Molecular cytogenetics; interphase in situ hybridization, analyze 25-99 cells",69,0.000593,1.03
+2213059,Microbiology procedure||Microbial culture||Parasite antigen assay||Infectious agent antigen detection by immunofluorescent technique; cryptosporidium,69,0.000593,1.03
+2212430,"Procedure by method||Protein measurement||Transferrin measurement||Lactoferrin, fecal; qualitative",68,0.000584,1
+2212798,"Pathology and Laboratory Procedures||Immunology laboratory test||Immunodiffusion, qualitative||Immunodiffusion; gel diffusion, qualitative (Ouchterlony), each antigen or antibody",67,0.000576,1
+2212795,"Pathology and Laboratory Procedures||Measurement of substance||Measurement of substance in specimen||Immunoelectrophoresis; other fluids (eg, urine, cerebrospinal fluid) with concentration",67,0.000576,1.03
+2212444,"Pathology and Laboratory Procedures||Lipoprotein fractions assay||Lipoprotein, blood||Lipoprotein, blood; electrophoretic separation and quantitation",66,0.000567,1
+2212240,Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Calcitonin,66,0.000567,1
+2212245,Pathology and Laboratory Procedures||Measurement of substance||Calculus analysis||Calculus; qualitative analysis,65,0.000559,1.02
+2212134,Drug measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Tobramycin,65,0.000559,1.08
+2212702,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Plasmin assay||Fibrinogen; antigen,64,0.00055,1.05
+2617241,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology smears, cervical or vaginal, performed by automated system with manual rescreening",64,0.00055,1.02
+2212914,Immunology Procedures||Specific antibody measurement||Measurement of parasite antibody||Antibody; Toxoplasma,63,0.000541,1.02
+2212324,Measurement of substance||Steroid measurement||Estrogen measurement||Estrone,63,0.000541,1.03
+2213317,"Procedure||Surgical Pathology Procedures||Surgical procedure||Microdissection (ie, sample preparation of microscopically identified target); manual",62,0.000533,1.15
+2212903,Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; parvovirus,62,0.000533,1.02
+2212839,Measurement of substance in specimen||Serologic test||Fungus serologic study||Antibody; Aspergillus,62,0.000533,1.03
+2212604,Pathology and Laboratory Procedures||Thyroid hormone measurement||Triiodothyronine measurement||Triiodothyronine T3; reverse,61,0.000524,1
+2213178,"Protein measurement||Measurement of substance in specimen||Serologic test||Infectious agent detection by nucleic acid (DNA or RNA), multiple organisms; amplified probe(s) technique",61,0.000524,1
+2212905,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Specific antibody measurement||Antibody; protozoa, not elsewhere specified",60,0.000516,1.03
+2213234,"Laboratory procedure||Preparation of smear||Staining method||Cytopathology, smears, any other source; extended study involving over 5 slides and/or multiple stains",60,0.000516,1
+2212503,Measurement||Pathology and Laboratory Procedures||Protein measurement||Osteocalcin (bone g1a protein),59,0.000507,1
+2212497,"Pathology and Laboratory Procedures||Measurement||Organic acids||Organic acids; total, quantitative, each specimen",59,0.000507,1
+2212868,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Specific antibody measurement||Antibody; fungus, not elsewhere specified",58,0.000498,1.09
+2212910,Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; rubeola,58,0.000498,1.05
+2212331,"Measurement of substance||Pathology and Laboratory Procedures||Fatty acid measurement||Fatty acids, nonesterified",58,0.000498,1.05
+2720511,"Removal||Sampling for smear||Sampling of female genital tract for smear||Screening papanicolaou smear, cervical or vaginal, up to three smears, requiring interpretation by physician",57,0.00049,1
+2212197,Pathology and Laboratory Procedures||Protein measurement||Alpha-1-antitrypsin measurement||Alpha-1-antitrypsin; phenotype,56,0.000481,1.02
+2213075,"Microbiology Procedures||Serologic test||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Aspergillus",56,0.000481,1
+40757083,"Microbiology Procedures||Microbiology procedure||Microbial identification test||Infectious agent detection by nucleic acid (DNA or RNA); Clostridium difficile, toxin gene(s), amplified probe technique",55,0.000473,1
+2212332,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Very long chain fatty acids,54,0.000464,1.07
+2213118,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); cytomegalovirus, amplified probe technique",54,0.000464,1
+2617470,"Procedure on heart||Electrocardiographic procedure||12 lead ECG||Electrocardiogram, routine ecg with 12 leads; performed as a screening for the initial preventive physical examination with interpretation and report",54,0.000464,1.09
+2314059,Procedure with a procedure focus||Monitoring of respiration||Respiratory gas monitoring||Nitric oxide expired gas determination,53,0.000456,1
+2212881,Protein measurement||Specific antibody measurement||Measurement of microbial antibody||Antibody; histoplasma,53,0.000456,1.13
+2212747,"Current Procedural Terminology Concept||Procedure to identify antibody||Immunology Procedures||Allergen specific IgG quantitative or semiquantitative, each allergen",52,0.000447,1
+2314067,Procedure on visual system||Procedure on eye region||Procedure on eye||Ophthalmic mucous membrane tests,52,0.000447,1
+2212347,"Evaluation procedure||Pathology and Laboratory Procedures||pH measurement||Gases, blood, pH only",51,0.000438,1
+2213123,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Gardnerella vaginalis, amplified probe technique",51,0.000438,1.12
+2212105,Drug measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Amikacin,51,0.000438,1.08
+2212805,Protein measurement||Procedure to identify antibody||Immunology Procedures||Islet cell antibody,50,0.00043,1.02
+2212614,"Measurement||Pathology and Laboratory Procedures||Measurement of renal clearance||Urea nitrogen, clearance",50,0.00043,1
+2212684,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Protein C, assay||Clotting inhibitors or anticoagulants; protein C, antigen",49,0.000421,1.1
+2212925,"Measurement of microbial antibody||Qualitative or Semiquantitative Immunoassays||Hepatitis antibody test||Hepatitis C antibody; confirmatory test (eg, immunoblot)",49,0.000421,1
+2212686,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Protein S assay||Clotting inhibitors or anticoagulants; protein S, total",48,0.000413,1
+2212688,Laboratory test||Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Activated Protein C (APC) resistance assay,48,0.000413,1
+2212323,Measurement of substance||Steroid measurement||Estrogen measurement||Estriol,48,0.000413,1.04
+2213056,Microbiology Procedures||Microbial antigen assay||Parasite antigen assay||Infectious agent antigen detection by immunofluorescent technique; giardia,48,0.000413,1
+2212466,"Laboratory test||Pathology and Laboratory Procedures||Synovial fluid analysis||Mucin, synovial fluid (Ropes test)",48,0.000413,1
+2212396,Pathology and Laboratory Procedures||Red blood cell test||Measurement of total hemoglobin concentration||Hemoglobin; plasma,48,0.000413,1
+2212929,Laboratory test||Tissue Typing Immunological Procedures||Serum screening for cytotoxic percent reactive antibody (PRA)||Serum screening for cytotoxic percent reactive antibody (PRA); quick method,47,0.000404,1
+2212372,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Glutathione,46,0.000395,1.15
+2212752,Protein measurement||Protein measurement||Measurement of platelet antibody||Antibody identification; platelet associated immunoglobulin assay,46,0.000395,1.04
+2213008,"Microbial culture||Pathology and Laboratory Procedures||Mycobacteria culture||Culture, mycobacterial, definitive identification, each isolate",45,0.000387,1.02
+2212255,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Carotene,44,0.000378,1.02
+4007819,Antibody measurement||Measurement of microbial antibody||Measurement of bacterial antibody||Measurement of Bacillus anthracis antibody,43,0.00037,1
+2213307,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Morphometric analysis||Morphometric analysis; tumor (eg, DNA ploidy)",43,0.00037,1.05
+2212921,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Measurement of microbial antibody||Antibody; virus, not elsewhere specified",43,0.00037,1.05
+2213167,"Protein measurement||Protein measurement||Serologic test||Infectious agent detection by nucleic acid (DNA or RNA); Staphylococcus aureus, amplified probe technique",42,0.000361,1.05
+2213013,"Procedure||Microbiology Procedures||Serum bactericidal titer test||Culture, typing; identification by nucleic acid (DNA or RNA) probe, direct probe technique, per culture or isolate, each organism probed",42,0.000361,1.05
+2212277,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Chromium,41,0.000352,1.17
+2212671,"Pathology and Laboratory Procedures||Intrinsic coagulation pathway factor measurement||Factor VIII R: WF assay||Clotting; factor VIII, VW factor, ristocetin cofactor",41,0.000352,1.02
+2212301,Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Cyanocobalamin (Vitamin B-12); unsaturated binding capacity,41,0.000352,1
+2213291,"Pathology and Laboratory Procedures||Surgical Pathology Procedures||Surgical pathology procedure||Special stain including interpretation and report; Group III, for enzyme constituents",39,0.000335,1
+2212943,"Pathology and Laboratory Procedures||Transfusion Medicine Procedures||Procedure with a procedure focus||Autologous blood or component, collection processing and storage; predeposited",39,0.000335,1
+2314069,"Immunology laboratory test||Measurement||Measurement of substance||Inhalation bronchial challenge testing (not including necessary pulmonary function tests); with histamine, methacholine, or similar compounds",39,0.000335,1.13
+2212797,Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Immunodiffusion||Immunodiffusion; not elsewhere specified,39,0.000335,1
+2212768,Protein measurement||Immunology Procedures||Cold agglutinin measurement||Cold agglutinin; titer,38,0.000327,1
+2212536,Measurement of substance||Pathology and Laboratory Procedures||Steroid measurement||Pregnenolone,37,0.000318,1
+2212237,Measurement||Pathology and Laboratory Procedures||Heavy metals measurement||Cadmium,37,0.000318,1.11
+2213032,"Pathology and Laboratory Procedures||Microbiology Procedures||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; microdilution or agar dilution, minimum lethal concentration (MLC), each plate (List separately in addition to code for primary procedure)",36,0.000309,1
+2212566,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Selenium,36,0.000309,1.11
+2213346,Current Procedural Terminology Concept||Procedure||Other Pathology and Laboratory Procedures||Unlisted miscellaneous pathology test,36,0.000309,1.33
+2212716,Laboratory test||Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Heparin assay,36,0.000309,1
+2314062,"Skin test||Procedure||Type 4 hypersensitivity skin test||Intracutaneous (intradermal) tests, sequential and incremental, with allergenic extracts for airborne allergens, immediate type reaction, including test interpretation and report, specify number of tests",35,0.000301,1
+2213189,Microbiology procedure||Pathology and Laboratory Procedures||Microbiology procedure||Infectious agent drug susceptibility phenotype prediction using regularly updated genotypic bioinformatics,35,0.000301,1
+2212876,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; HTLV or HIV antibody, confirmatory test (eg, Western Blot)",35,0.000301,1
+2212721,Measurement||White blood cell test||White blood cell enzyme activity measurement||Leukocyte alkaline phosphatase with count,35,0.000301,1
+2212514,"Pathology and Laboratory Procedures||Protein measurement||Phosphatase, acid||Phosphatase, acid; total",34,0.000292,1
+2213174,"Procedure||Laboratory procedure||Infectious agent detection by nucleic acid (DNA or RNA), not otherwise specified||Infectious agent detection by nucleic acid (DNA or RNA), not otherwise specified; direct probe technique, each organism",34,0.000292,1
+2213333,"Procedure by method||Pathology and Laboratory Procedures||Staining method||Fat stain, feces, urine, or respiratory secretions",34,0.000292,1
+2213222,"Procedure||Laboratory procedure||Preparation of smear||Cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation; with manual screening and rescreening under physician supervision",33,0.000284,1
+2212627,"Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Volatiles (eg, acetic anhydride, diethylether)",33,0.000284,1
+2617236,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology smears, cervical or vaginal, performed by automated system, with manual rescreening, requiring interpretation by physician",33,0.000284,1
+2212815,"Measurement||Pathology and Laboratory Procedures||Immunology Procedures||Stem cells (ie, CD34), total count",33,0.000284,1.06
+2212841,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Bartonella,33,0.000284,1.06
+2212840,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Measurement of microbial antibody||Antibody; bacterium, not elsewhere specified",33,0.000284,1.67
+2213243,"Procedure||Laboratory procedure||Laboratory procedure categorized by method||Cytopathology, cervical or vaginal (any reporting system), collected in preservative fluid, automated thin layer preparation; screening by automated system, under physician supervision",33,0.000284,1
+2213100,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]), qualitative or semiquantitative; single step method, not otherwise specified, eac",32,0.000275,1
+2212672,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation pathway factor measurement||Clotting; factor VIII, VW factor antigen",32,0.000275,1.16
+2212202,"Procedure on genitourinary system||Urogenital system investigation||Clinical genitourinary medicine test||Amines, vaginal fluid, qualitative",32,0.000275,1.06
+2212962,"Protein measurement||Transfusion Medicine Procedures||Hemolysins and agglutinins||Hemolysins and agglutinins; auto, screen, each",32,0.000275,1
+4189544,Laboratory procedure||Laboratory test||Microbiology procedure||Microbial culture,32,0.000275,1
+2212429,"Protein measurement||Enzyme measurement||Lactate dehydrogenase measurement||Lactate dehydrogenase (LD), (LDH); isoenzymes, separation and quantitation",32,0.000275,1
+2212915,"Specific antibody measurement||Qualitative or Semiquantitative Immunoassays||Measurement of Toxoplasma species antibody||Antibody; Toxoplasma, IgM",32,0.000275,1.06
+2212741,"Laboratory test related to hemostasis||Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Thromboplastin inhibition, tissue",31,0.000266,1
+2212577,Procedure by method||Pathology and Laboratory Procedures||Measurement||Specific gravity (except urine),31,0.000266,1
+2212214,Measurement of substance||Steroid measurement||Chemistry Procedures||Androstenedione,31,0.000266,1
+2212170,"Pathology and Laboratory Procedures||Urinalysis Procedures||Urinalysis||Urinalysis; bacteriuria screen, except by culture or dipstick",31,0.000266,1.03
+2212351,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Hemoglobin-oxygen affinity (pO2 for 50% hemoglobin saturation with oxygen),31,0.000266,1
+2212315,"Pathology and Laboratory Procedures||Laboratory test||Red blood cell enzyme test||Enzyme activity in blood cells, cultured cells, or tissue, not elsewhere specified; nonradioactive substrate, each specimen",31,0.000266,1
+2213169,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Streptococcus, group A, direct probe technique",31,0.000266,1
+2212683,"Pathology and Laboratory Procedures||Measurement of substance||Protein measurement||Clotting inhibitors or anticoagulants; antithrombin III, antigen assay",30,0.000258,1
+2212695,"Pathology and Laboratory Procedures||Plasmin assay||Fibrin-fibrinogen split products assay||Fibrin(ogen) degradation (split) products (FDP) (FSP); agglutination slide, semiquantitative",30,0.000258,1
+2212842,Measurement of substance in specimen||Specific antibody measurement||Measurement of fungal antibody||Antibody; Blastomyces,30,0.000258,1.07
+2212329,"Pathology and Laboratory Procedures||Measurement of substance||Measurement of substance in specimen||Fat or lipids, feces; quantitative",30,0.000258,1
+2213001,"Source specific culture||Mycology culture||Microbiology procedure||Culture, fungi (mold or yeast) isolation, with presumptive identification of isolates; blood",30,0.000258,1
+2213096,"Microbiology Procedures||Protein measurement||Viral antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; rotavirus",30,0.000258,1
+2212803,Current Procedural Terminology Concept||Procedure to identify antibody||Immunology Procedures||Insulin antibodies,29,0.000249,1
+2213083,"Microbiology Procedures||Protein measurement||Parasite antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Entamoeba histolytica dispa",29,0.000249,1
+2212208,"Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Amino acids, 6 or more amino acids, quantitative, each specimen",29,0.000249,1.07
+2212552,"Pathology and Laboratory Procedures||Measurement||Protein||Protein; Western Blot, with interpretation and report, blood or other body fluid, immunological probe for band identification, each",29,0.000249,1
+2213088,"Microbiology Procedures||Viral antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; hepatitis B surface antigen",29,0.000249,1
+2213050,"Pathology and Laboratory Procedures||Microbiology Procedures||Virus isolation||Virus isolation; tissue culture, additional studies or definitive identification (eg, hemabsorption, neutralization, immunofluorescence stain), each isolate",29,0.000249,1.03
+2212850,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Chlamydia,29,0.000249,1
+2212697,Pathology and Laboratory Procedures||Plasmin assay||Fibrin-fibrinogen split products assay||Fibrin(ogen) degradation (split) products (FDP) (FSP); quantitative,29,0.000249,1
+2213058,"Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; Cytomegalovirus, direct fluorescent antibody (DFA)",29,0.000249,1
+2213193,"Procedure||Nucleic acid assay||Viral nucleic acid assay||Infectious agent phenotype analysis by nucleic acid (DNA or RNA) with drug resistance tissue culture analysis, HIV 1; each additional drug tested (List separately in addition to code for primary procedure)",28,0.000241,1.75
+2212623,"Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Vasopressin (antidiuretic hormone, ADH)",28,0.000241,1
+2212573,Pathology and Laboratory Procedures||Measurement of substance||Sodium||Sodium; other source,28,0.000241,1
+2212799,Laboratory test||Pathology and Laboratory Procedures||In-vitro immunologic test||Immune complex assay,28,0.000241,1
+2213067,Microbiology Procedures||Measurement of substance||Microbial antigen assay||Infectious agent antigen detection by immunofluorescent technique; respiratory syncytial virus,27,0.000232,1.07
+2212849,Measurement of substance in specimen||Specific antibody measurement||Measurement of fungal antibody||Antibody; Candida,27,0.000232,1.15
+2212321,Pathology and Laboratory Procedures||Measurement of substance||Steroid measurement||Estrogens; fractionated,27,0.000232,1
+2212717,Laboratory test||Pathology and Laboratory Procedures||Laboratory test related to hemostasis||Heparin neutralization,27,0.000232,1.04
+2213231,"Pathology and Laboratory Procedures||Measurement of substance||Steroid measurement||Cytopathology, slides, cervical or vaginal, definitive hormonal evaluation (eg, maturation index, karyopyknotic index, estrogenic index) (List separately in addition to code[s] for other technical and interpretation services)",26,0.000223,1
+2212405,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Histamine,26,0.000223,1.04
+2213306,Pathology and Laboratory Procedures||Surgical Pathology Procedures||Morphometric analysis||Morphometric analysis; nerve,26,0.000223,1
+2212626,Measurement of substance||Pathology and Laboratory Procedures||Vitamin measurement||Vitamin K,26,0.000223,1
+2212843,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Bacterial serologic study||Antibody; Bordetella,26,0.000223,1.04
+2213263,"Surgical repair||Surgical repair procedure by device||Reparative closure using a device||Chromosome analysis; count 5 cells, 1 karyotype, with banding",26,0.000223,1
+2212851,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Measurement of Chlamydia antibody||Antibody; Chlamydia, IgM",25,0.000215,1
+2213066,"Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; Parainfluenza virus, each type",25,0.000215,1
+2213073,"Pathology and Laboratory Procedures||Serologic test||Surgical pathology procedure||Infectious agent antigen detection by immunofluorescent technique, polyvalent for multiple organisms, each polyvalent antiserum",25,0.000215,1
+2212410,"Measurement of substance||Pathology and Laboratory Procedures||Steroid measurement||Hydroxyprogesterone, 17-d",24,0.000206,1.04
+2212224,Pathology and Laboratory Procedures||Measurement of substance||Steroid measurement||Bile acids; total,24,0.000206,1.04
+2213017,"Pathology and Laboratory Procedures||Microbiology Procedures||Serum bactericidal titer test||Culture, typing; other methods",23,0.000198,1
+2212892,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Serologic test||Antibody; Legionella,23,0.000198,1.22
+2212874,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of viral antibody||Antibody; HTLV-I,22,0.000189,1
+2212225,Pathology and Laboratory Procedures||Measurement of substance||Steroid measurement||Bile acids; cholylglycine,22,0.000189,1
+2213009,"Pathology and Laboratory Procedures||Microbiology Procedures||Serum bactericidal titer test||Culture, typing; immunofluorescent method, each antiserum",22,0.000189,1
+2212495,Measurement of substance||Protein measurement||Enzyme measurement||Nucleotidase 5'-,22,0.000189,1
+2213106,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Borrelia burgdorferi, amplified probe technique",22,0.000189,1
+2213226,"Procedure||Laboratory procedure||Laboratory procedure categorized by method||Cytopathology smears, cervical or vaginal; screening by automated system with manual rescreening under physician supervision",22,0.000189,1
+2212518,"Protein measurement||Enzyme measurement||Phosphatase, alkaline||Phosphatase, alkaline; heat stable (total not included)",22,0.000189,1
+2212496,Measurement of substance||Protein measurement||Protein electrophoresis||Oligoclonal immune (oligoclonal bands),22,0.000189,1
+2212551,"Pathology and Laboratory Procedures||Measurement||Protein||Protein; Western Blot, with interpretation and report, blood or other body fluid",21,0.00018,1
+2213170,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Streptococcus, group A, amplified probe technique",21,0.00018,1.1
+2212469,Measurement of substance||Protein measurement||Enzyme measurement||Myeloperoxidase (MPO),21,0.00018,1
+2213072,"Microbiology Procedures||Measurement of substance||Microbial antigen assay||Infectious agent antigen detection by immunofluorescent technique; not otherwise specified, each organism",21,0.00018,1.1
+2213182,Microbiology Procedures||Measurement of substance||Infectious agent antigen detection by immunoassay with direct optical observation||Infectious agent antigen detection by immunoassay with direct optical observation; respiratory syncytial virus,21,0.00018,1
+2213276,"Procedure by method||Laboratory procedure||Measurement||Chromosome analysis; additional cells counted, each study",20,0.000172,1.05
+2212252,Protein measurement||Chemistry Procedures||Carboxyhemoglobin measurement||Carboxyhemoglobin; qualitative,19,0.000163,1
+2213065,Microbiology Procedures||Microbial antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunofluorescent technique; Legionella pneumophila,19,0.000163,1
+40756962,"In-vitro immunologic test||Pathology and Laboratory Procedures||Measurement of substance||Cellular function assay involving stimulation (eg, mitogen or antigen) and detection of biomarker (eg, ATP)",19,0.000163,1
+2212151,"Pathology and Laboratory Procedures||Laboratory test||Glucagon tolerance panel||Glucagon tolerance panel; for pheochromocytoma This panel must include the following: Catecholamines, fractionated (82384 x 2)",19,0.000163,1
+2212467,"Measurement of substance||Protein measurement||Measurement of protein in cerebrospinal fluid specimen||Myelin basic protein, cerebrospinal fluid",19,0.000163,1
+2212913,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Antibody||Antibody; tetanus,19,0.000163,1
+2213172,"Protein measurement||Serologic test||Procedure to identify antibody||Infectious agent detection by nucleic acid (DNA or RNA); Streptococcus, group B, amplified probe technique",19,0.000163,1
+2213004,"Microbiology procedure||Pathology and Laboratory Procedures||Organism specific culture||Culture, mycoplasma, any source",19,0.000163,1
+2213078,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Cryptococcus neoformans",19,0.000163,1
+2212248,Procedure||Procedure by intent||Diagnostic procedure||Calculus; X-ray diffraction,19,0.000163,1
+2212802,Measurement of substance||Pathology and Laboratory Procedures||Measurement of level of drug in blood||Inhibin A,19,0.000163,1.05
+2213091,"Microbiology procedure||Test for molds||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Histoplasma capsulatum",19,0.000163,1
+2212330,"Evaluation procedure||Pathology and Laboratory Procedures||Fecal analysis||Fat differential, feces, quantitative",19,0.000163,1.21
+2212528,"Pathology and Laboratory Procedures||Pyrrole measurement||Urine drug measurement||Porphyrins, urine; quantitation and fractionation",19,0.000163,1
+2212871,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; helminth, not elsewhere specified",19,0.000163,1
+2212172,Procedure categorized by device involved||Urine examination||Urinalysis||Urinalysis; 2 or 3 glass test,18,0.000155,1
+2212407,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Homovanillic acid (HVA),18,0.000155,1.11
+2212368,"Measurement of substance||Protein measurement||Enzyme measurement||Glucosidase, beta",18,0.000155,1
+2617240,"Anatomic pathology procedure||Cytopathology procedure or service||Cytopathology, screening of smear, routine, genital source, by cytotechnologist||Screening cytopathology smears, cervical or vaginal, performed by automated system under physician supervision",18,0.000155,1
+2212723,Protein measurement||Protein measurement||Urine protein test||Muramidase,18,0.000155,1
+2212622,Drug measurement||Pathology and Laboratory Procedures||Gastrointestinal hormone measurement||Vasoactive intestinal peptide (VIP),18,0.000155,1
+2212674,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation pathway factor measurement||Clotting; factor IX (PTC or Christmas),17,0.000146,1
+2212109,Pathology and Laboratory Procedures||Therapeutic Drug Assays||Drug measurement||Carbamazepine; free,17,0.000146,1
+2212749,"Procedure to identify antibody||Immunology Procedures||Allergen specific IgE antibody measurement||Allergen specific IgE; qualitative, multiallergen screen (eg, disk, sponge, card)",17,0.000146,1
+2212673,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation factor assay||Clotting; factor VIII, von Willebrand factor, multimetric analysis",17,0.000146,1.18
+2212920,Protein measurement||Qualitative or Semiquantitative Immunoassays||Specific antibody measurement||Antibody; West Nile virus,17,0.000146,1
+2213183,Protein measurement||Serologic test||Procedure to identify antibody||Infectious agent antigen detection by immunoassay with direct optical observation; Trichomonas vaginalis,16,0.000138,1.06
+2212200,Pathology and Laboratory Procedures||Immunoassay method||Radioimmunoassay||Alpha-fetoprotein (AFP); AFP-L3 fraction isoform and total AFP (including ratio),16,0.000138,1
+2212931,"Immunology Procedures||Tissue Typing Immunological Procedures||HLA typing||HLA typing; A, B, or C, multiple antigens",16,0.000138,1
+2212919,"Measurement of microbial antibody||Specific antibody measurement||West Nile virus antibody measurement||Antibody; West Nile virus, IgM",16,0.000138,1
+2213033,"Pathology and Laboratory Procedures||Microbiology Procedures||Susceptibility studies, antimicrobial agent||Susceptibility studies, antimicrobial agent; macrobroth dilution method, each agent",16,0.000138,1
+2212138,Pathology and Laboratory Procedures||Measurement of substance||Tumor marker measurement||ACTH stimulation panel; for adrenal insufficiency This panel must include the following: Cortisol (82533 x 2),16,0.000138,1
+2213021,Pathology and Laboratory Procedures||Microbiology procedure||Macroscopic examination||Macroscopic examination; arthropod,16,0.000138,1
+2314063,"Procedure on skin and/or subcutaneous tissue||Procedure on skin||Skin test||Intracutaneous (intradermal) tests with allergenic extracts, delayed type reaction, including reading, specify number of tests",16,0.000138,1
+2212772,"Measurement of substance in specimen||Serologic test||Immunology Procedures||Complement fixation tests, each antigen",16,0.000138,1
+2212314,"Measurement of substance||Protein measurement||Enzyme measurement||Elastase, pancreatic (EL-1), fecal, qualitative or semi-quantitative",15,0.000129,1
+2212767,Protein measurement||Immunology Procedures||Cold agglutinin measurement||Cold agglutinin; screen,15,0.000129,1
+2213005,"Microbiology procedure||Pathology and Laboratory Procedures||Organism specific culture||Culture, chlamydia, any source",15,0.000129,1
+2213053,Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; adenovirus,15,0.000129,1
+2212666,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation factor assay||Clotting; factor II, prothrombin, specific",15,0.000129,1
+2212120,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Lidocaine,14,0.00012,1
+2212402,"Laboratory procedure||Urinalysis||Hemosiderin measurement, urine||Hemosiderin, qualitative",14,0.00012,1
+2212720,"Staining method||Pathology and Laboratory Procedures||Prussian blue stain method||Iron stain, peripheral blood",14,0.00012,1
+2212366,Protein measurement||Enzyme measurement||Glucose-6-phosphate dehydrogenase measurement||Glucose-6-phosphate dehydrogenase (G6PD); screen,14,0.00012,1
+2213141,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); HIV-1, amplified probe technique, includes reverse transcription when performed",14,0.00012,1
+2212775,"Protein measurement||Pathology and Laboratory Procedures||Procedure to identify antibody||Deoxyribonuclease, antibody",13,0.000112,1
+2213258,"Surgical procedure||Surgical removal||Laboratory procedure||Cryopreservation, freezing and storage of cells, each cell line",13,0.000112,1.08
+2212676,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation pathway factor measurement||Clotting; factor XI (PTA),13,0.000112,1
+2213010,"Pathology and Laboratory Procedures||Microbiology Procedures||Serum bactericidal titer test||Culture, typing; gas liquid chromatography (GLC) or high pressure liquid chromatography (HPLC) method",13,0.000112,1
+2212667,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Extrinsic coagulation pathway factor measurement||Clotting; factor V (AcG or proaccelerin), labile factor",13,0.000112,1.08
+2212118,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Haloperidol,13,0.000112,1
+2213192,"Procedure||Nucleic acid assay||Viral nucleic acid assay||Infectious agent phenotype analysis by nucleic acid (DNA or RNA) with drug resistance tissue culture analysis, HIV 1; first through 10 drugs tested",12,0.000103,1
+2212689,Hematology procedure||Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Factor inhibitor test,12,0.000103,1
+2212926,"Procedure||Transplantation assay||Transplantation assay||Lymphocytotoxicity assay, visual crossmatch; with titration",12,0.000103,1
+2212386,"Pathology and Laboratory Procedures||Measurement of substance||Heavy metals measurement||Heavy metal (eg, arsenic, barium, beryllium, bismuth, antimony, mercury); quantitative, each, not elsewhere specified",12,0.000103,1
+2213340,"Procedure by method||Pathology and Laboratory Procedures||Other Pathology and Laboratory Procedures||Meat fibers, feces",12,0.000103,1
+2213195,Procedure by method||Pathology and Laboratory Procedures||Microbiology Procedures||Unlisted microbiology procedure,12,0.000103,1
+2212862,"Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; enterovirus (eg, coxsackie, echo, polio)",12,0.000103,1
+2212693,Pathology and Laboratory Procedures||Laboratory test||Heparin control test||Coagulation time; other methods,12,0.000103,1
+2212668,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Extrinsic coagulation pathway factor measurement||Clotting; factor VII (proconvertin, stable factor)",12,0.000103,1.08
+2212936,Pathology and Laboratory Procedures||Immunology Procedures||Tissue Typing Immunological Procedures||Unlisted immunology procedure,12,0.000103,1
+2212733,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Russell viper venom time (includes venom)||Russell viper venom time (includes venom); undiluted,12,0.000103,1
+40757108,Measurement||Pathology and Laboratory Procedures||Drug measurement||Procalcitonin (PCT),12,0.000103,1
+2213084,"Microbiology Procedures||Protein measurement||Parasite antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Entamoeba histolytica group",12,0.000103,1
+2212853,Immunology Procedures||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Coxiella burnetii (Q fever),11,9.5e-05,1.27
+2212963,Protein measurement||Transfusion Medicine Procedures||Laboratory procedure categorized by method||Hemolysins and agglutinins; incubated,11,9.5e-05,1
+2212612,"Pathology and Laboratory Procedures||Urea measurement||Urea nitrogen measurement||Urea nitrogen; semiquantitative (eg, reagent strip test)",11,9.5e-05,1
+2212529,"Procedure by method||Pyrrole measurement||Porphyrin measurement||Porphyrins, feces, quantitative",11,9.5e-05,1
+2213068,Microbiology Procedures||Microbial antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunofluorescent technique; Pneumocystis carinii,11,9.5e-05,1
+2212385,"Pathology and Laboratory Procedures||Measurement of substance||Heavy metals measurement||Heavy metal (eg, arsenic, barium, beryllium, bismuth, antimony, mercury); qualitative, any number of analytes",11,9.5e-05,1
+2212869,Protein measurement||Qualitative or Semiquantitative Immunoassays||Procedure to identify antibody||Antibody; Giardia lamblia,11,9.5e-05,1
+2212857,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Measurement of bacterial antibody||Antibody; Diphtheria,10,8.6e-05,1.1
+2212297,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Cryofibrinogen,10,8.6e-05,1
+2212708,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Plasmin assay||Fibrinolytic factors and inhibitors; plasminogen activator,10,8.6e-05,1
+2212455,Measurement of substance||Pathology and Laboratory Procedures||Trace element measurement||Manganese,10,8.6e-05,1.3
+2212829,Procedure on skin||Skin test||Skin test||Skin test; histoplasmosis,10,8.6e-05,1
+2212933,"Immunology Procedures||Tissue Typing Immunological Procedures||HLA typing||HLA typing; DR/DQ, multiple antigens",10,8.6e-05,1.2
+2212806,Laboratory test||Pathology and Laboratory Procedures||In-vitro immunologic test||Leukocyte histamine release test (LHR),10,8.6e-05,1
+2212394,"Pathology and Laboratory Procedures||Protein measurement||Measurement of methemoglobin||Hemoglobin; methemoglobin, qualitative",10,8.6e-05,1.1
+2212256,Pathology and Laboratory Procedures||Measurement of substance in specimen||Urine catecholamine measurement||Catecholamines; total urine,10,8.6e-05,1.4
+2212677,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Intrinsic coagulation pathway factor measurement||Clotting; factor XII (Hageman),10,8.6e-05,1
+2212557,Evaluation procedure||Pathology and Laboratory Procedures||Measurement of substance||Pyruvate,10,8.6e-05,1
+2213076,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; Chlamydia trachomatis",10,8.6e-05,1
+2212555,Drug measurement||Pathology and Laboratory Procedures||Gastrointestinal hormone measurement||Proinsulin,10,8.6e-05,1
+2212560,Procedure to identify antibody||Chemistry Procedures||Receptor assay||Receptor assay; estrogen,9,7.7e-05,1
+2212326,Measurement of substance||Pathology and Laboratory Procedures||Glycol measurement||Ethylene glycol,9,7.7e-05,1.11
+2213126,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); hepatitis B virus, amplified probe technique",9,7.7e-05,1
+2212419,Pathology and Laboratory Procedures||Protein measurement||Insulin measurement||Insulin; free,9,7.7e-05,1
+2212875,Measurement of substance in specimen||Serologic test||Viral serologic study||Antibody; HTLV-II,9,7.7e-05,1
+2212269,Protein measurement||Measurement of substance||Measurement of substance in specimen||Cholinesterase; RBC,9,7.7e-05,1
+2212663,Procedure||Pathology and Laboratory Procedures||Laboratory procedure categorized by method||Chromogenic substrate assay,9,7.7e-05,1
+2212822,"Pathology and Laboratory Procedures||Immunology laboratory test||Particle agglutination||Particle agglutination; titer, each antibody",9,7.7e-05,1
+2212608,"Protein measurement||Measurement of substance||Trypsin measurement||Trypsin; feces, quantitative, 24-hour collection",9,7.7e-05,1
+2213253,Pathology and Laboratory Procedures||In-vitro immunologic test||Tissue culture for non-neoplastic disorders||Tissue culture for non-neoplastic disorders; lymphocyte,9,7.7e-05,1
+2213022,Pathology and Laboratory Procedures||Parasitic identification method||Sample macroscopy||Macroscopic examination; parasite,9,7.7e-05,1.11
+2213071,Protein measurement||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; Varicella zoster virus,9,7.7e-05,1
+2212675,Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Extrinsic coagulation pathway factor measurement||Clotting; factor X (Stuart-Prower),9,7.7e-05,1
+2213074,"Microbiology Procedures||Viral antigen assay||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; adenovirus enteric types 40",9,7.7e-05,1.11
+2212265,Pathology and Laboratory Procedures||Measurement of substance||Measurement of substance in specimen||Chloride; other source,8,6.9e-05,1
+2212709,"Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Plasmin assay||Fibrinolytic factors and inhibitors; plasminogen, except antigenic assay",8,6.9e-05,1
+2212746,"Laboratory test||Pathology and Laboratory Procedures||Urinalysis||Agglutinins, febrile (eg, Brucella, Francisella, Murine typhus, Q fever, Rocky Mountain spotted fever, scrub typhus), each antigen",8,6.9e-05,1
+2213155,"Procedure||Nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA)||Infectious agent detection by nucleic acid (DNA or RNA); Mycobacteria avium-intracellulare, direct probe technique",8,6.9e-05,1.12
+2213061,Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; Herpes simplex virus type 1,8,6.9e-05,1
+2212837,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Bacterial serologic study||Antibody; actinomyces,8,6.9e-05,1
+2212380,"Laboratory test||Pathology and Laboratory Procedures||Microbial identification test||Helicobacter pylori, blood test analysis for urease activity, non-radioactive isotope (eg, C-13)",8,6.9e-05,1
+2212526,"Pathology and Laboratory Procedures||Pyrrole measurement||Urine drug measurement||Porphobilinogen, urine; quantitative",8,6.9e-05,1
+2212094,"Procedure by method||Pathology and Laboratory Procedures||Organ or Disease Oriented Panels||Obstetric panel This panel must include the following: Blood count, complete (CBC), automated and automated differential WBC count (85025 or 85027 and 85004) OR Blood count, complete (CBC), automated (85027) and appropriate manual differential WBC count (",8,6.9e-05,1
+2213153,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Mycobacteria tuberculosis, amplified probe technique",8,6.9e-05,1
+2213095,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative, multiple-step method; respiratory syncytial virus",8,6.9e-05,1
+2212425,"Pathology and Laboratory Procedures||Steroid measurement||Ketosteroids, 17- (17-KS)||Ketosteroids, 17- (17-KS); total",7,6e-05,1.14
+2213112,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Chlamydia pneumoniae, amplified probe technique",7,6e-05,1
+2212510,"Procedure by method||Pathology and Laboratory Procedures||Measurement of substance||Calprotectin, fecal",7,6e-05,1
+2212356,Drug measurement||Pathology and Laboratory Procedures||Gastrointestinal hormone measurement||Glucagon,7,6e-05,1
+2212658,Laboratory test||Pathology and Laboratory Procedures||Hematology and Coagulation Procedures||Reticulated platelet assay,7,6e-05,1
+2213101,"Microbiology Procedures||Protein measurement||Microbial antigen assay||Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], immunochemiluminometric assay [IMCA]), qualitative or semiquantitative; multiple step method, polyvalent for multiple or",7,6e-05,1
+2213194,"Measurement||Pathology and Laboratory Procedures||Protein measurement||Infectious agent enzymatic activity other than virus (eg, sialidase activity in vaginal fluid)",7,6e-05,1
+2212848,Measurement of substance||Qualitative or Semiquantitative Immunoassays||Bacterial serologic study||Antibody; Campylobacter,7,6e-05,1
+2212634,"Measurement of substance||Pathology and Laboratory Procedures||Hormone measurement||Ovulation tests, by visual color comparison methods for human luteinizing hormone",7,6e-05,1.14
+2213366,Procedure with a clinical finding focus||Reproductive Medicine Procedures||Semen analysis||Semen analysis; presence and/or motility of sperm including Huhner test (post coital),6,5.2e-05,1
+2213048,"Pathology and Laboratory Procedures||Microbiology Procedures||Virus isolation||Virus isolation; inoculation of embryonated eggs, or small animal, includes observation and dissection",6,5.2e-05,1
+40664440,"Immunology laboratory test||Immunoassay method||Enzyme immunoassay method||Infectious agent antibody detection by enzyme immunoassay (eia) technique, hiv-1 and/or hiv-2, screening",6,5.2e-05,1
+2617471,"Procedure on heart||Electrocardiographic procedure||12 lead ECG||Electrocardiogram, routine ecg with 12 leads; tracing only, without interpretation and report, performed as a screening for the initial preventive physical examination",6,5.2e-05,1
+2213136,"Microbiology Procedures||Nucleic acid assay||Viral nucleic acid assay||Infectious agent detection by nucleic acid (DNA or RNA); Herpes simplex virus, quantification",6,5.2e-05,1
+2617184,Laboratory test||Body fluid analysis||Semen analysis||Semen analysis; presence and/or motility of sperm excluding huhner,6,5.2e-05,1
+2213060,Microbiology Procedures||Microbial antigen assay||Viral antigen assay||Infectious agent antigen detection by immunofluorescent technique; Herpes simplex virus type 2,6,5.2e-05,1
+2213271,"Procedure||Laboratory procedure categorized by method||Molecular cytogenetics||Molecular cytogenetics; chromosomal in situ hybridization, analyze 10-30 cells (eg, for microdeletions)",6,5.2e-05,1
+2213369,"Pathology and Laboratory Procedures||Reproductive Medicine Procedures||Semen analysis||Semen analysis; sperm presence and motility of sperm, if performed",6,5.2e-05,1
+2212854,Immunology Procedures||Specific antibody measurement||Measurement of fungal antibody||Antibody; Cryptococcus,6,5.2e-05,1
+2212115,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Ethosuximide,6,5.2e-05,1
+2212553,"Pyrrole measurement||Porphyrin measurement||Protoporphyrin, RBC||Protoporphyrin, RBC; quantitative",6,5.2e-05,1
+2617472,"Procedure on heart||Electrocardiographic procedure||12 lead ECG||Electrocardiogram, routine ecg with 12 leads; interpretation and report only, performed as a screening for the initial preventive physical examination",6,5.2e-05,1.17
+2213179,"Procedure by method||Measurement of substance||Streptococcus pneumoniae antigen assay||Infectious agent antigen detection by immunoassay with direct optical observation; Streptococcus, group B",6,5.2e-05,1
+2213159,"Microbiology Procedures||Nucleic acid assay||Nucleic acid probe method||Infectious agent detection by nucleic acid (DNA or RNA); Mycoplasma pneumoniae, amplified probe technique",6,5.2e-05,1
+2212129,Measurement||Pathology and Laboratory Procedures||Therapeutic Drug Assays||Quinidine,6,5.2e-05,1

@@ -1,0 +1,116 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+435928,Abnormal weight loss,Observation,R634,Abnormal weight loss,9199
+437643,Abnormal gait,Observation,R268,Other and unspecified abnormalities of gait and mobility,7096
+441207,Adverse reaction to drug,Observation,T887,Unspecified adverse effect of drug or medicament,2873
+4096848,Ataxic gait,Observation,R260,Ataxic gait,2161
+704996,Patient meets COVID-19 laboratory diagnostic criteria,Observation,U071,Emergency use of U07.1,1696
+441413,Death of unknown cause,Observation,R99,Other ill-defined and unspecified causes of mortality,1538
+4173786,Antenatal care,Observation,O262,Pregnancy care of habitual aborter,1129
+439141,Abnormal weight gain,Observation,R635,Abnormal weight gain,742
+4279614,Asphyxiation,Observation,T71,Asphyxiation,655
+434750,Feeding difficulties and mismanagement,Observation,R633,Feeding difficulties and mismanagement,619
+433315,Feeding problems in newborn,Observation,P929,"Feeding problem of newborn, unspecified",487
+441488,Adverse reaction to substance,Observation,T788,"Other adverse effects, NEC",468
+4030353,Constitutional tall stature,Observation,E344,Constitutional tall stature,452
+4314871,"Place of occurrence of accident or poisoning, home",Observation,Y190,"Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent, home",226
+141693,Elevated blood-pressure reading without diagnosis of hypertension,Observation,R030,"Elevted blood-pressure reading, without diagnosis of hypertension",211
+443080,Sexual abuse,Observation,T742,Sexual abuse,206
+4248196,Spastic gait,Observation,R261,Paralytic gait,134
+438668,Accidents due to travel and motion,Observation,X519,"Travel and motion, unspecified place",131
+4022569,Eating / feeding / drinking finding,Observation,R638,Other symptoms and signs concerning food and fluid intake,125
+4079844,Fetal death,Observation,P95,Fetal death of unspecified cause,114
+43530893,Suspected fetal damage from viral disease in mother,Observation,O353,Maternal care for (suspected) damage to fetus from viral disease in mother,112
+444046,Cold exposure,Observation,X319,"Exposure to excessive natural cold, unspecified place",107
+45768509,"Place of occurrence of accident or poisoning, public place",Observation,X512,"Travel and motion, school, other institution and public administrative area",53
+4291007,Exposure to attack by mammal,Observation,W550,"Bitten or struck by other mammals, home",53
+432504,Accident caused by fire and flames,Observation,X099,"Exposure to unspecified smoke, fire and flames, unspecified place",53
+436583,Fall,Observation,W199,"Unspecified fall, unspecified place",47
+4155221,Exposure to poison of venomous animals and plants,Observation,X299,"Contact with unspecified venomous animals and plants, unspecified place",42
+4310930,"Place of occurrence of accident or poisoning, farm",Observation,Y187,"Poisoning by and exposure to pesticides, undetermined intent, farm",37
+4171358,Slow feeding in newborn,Observation,P922,Slow feeding of newborn,36
+42600276,Attacked by dog,Observation,W540,"Bitten or struck by dog, home",32
+4219484,Suicide attempt,Observation,X849,"Intentional self-harm by unspecified means, unspecified place",27
+4167568,Accidental exposure to potentially harmful entity,Observation,Y199,"Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent, unspecified place",26
+4314991,"Place of occurrence of accident or poisoning, industrial place and premises",Observation,X146,"Contact with hot air and gases, industrial and construction area",25
+4311077,"Place of occurrence of accident or poisoning, residential institution",Observation,Y111,"Poisoning by antiepileptic, sedative-hypnotic, antiparkinsonism and psychotropic drugs, NEC, undetermined intent on residential institution",24
+4318516,"Accident caused by immersion, suffocation, foreign body",Observation,W449,"Foreign body entering into or through eye or natural orifice, unspecified place",24
+441139,Instantaneous death,Observation,R960,Instantaneous death,21
+4302066,Physical abuse,Observation,T741,Physical abuse,21
+440279,Accident,Observation,X4788,"Accidental poisoning by other specified gases and vapours, other specified places",21
+4303528,Exposure to electric current,Observation,W878,"Exposure to unspecified electric current, other specified places",20
+4054573,Accident due to contact with hot or corrosive substance,Observation,X149,"Contact with hot air and gases, unspecified place",20
+4315085,"Place of occurrence of accident or poisoning, street and highway",Observation,Y194,"Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent, street and highway",19
+4148585,Mechanical asphyxia accident,Observation,W849,"Unspecified threats to breathing, unspecified place",17
+46273759,Fetal exposure to alcohol,Observation,O354,Maternal care for (suspected) damage to fetus from alcohol,16
+439448,Assault by drowning,Observation,X920,"Assault by drowning and submersion, home",16
+4098471,Imbalance of constituents of food intake,Observation,E631,Imbalance of constituents of food intake,13
+76819,Congenital unilateral subluxation of hip,Observation,Q653,"Congenital subluxation of hip, unilateral",13
+4248097,Immediately dangerous to life and health condition,Observation,U069,Emergency use of U06.9,13
+437165,Motor vehicle traffic accident,Observation,V499,Car occupant [any] injured in unspecified traffic accident,13
+437478,Bite of nonvenomous arthropod,Observation,W579,"Bitten or stung by nonvenomous insect and other nonvenomous arthropods, unspecified place",13
+441764,Inhalation or ingestion of foreign body with respiratory obstruction or suffocation,Observation,W808,"Inhalation and ingestion of other objects causing obstruction of respiratory tract, other specified places",13
+4166164,Sex hormones adverse reaction,Observation,Y425,Other estrogens and progestogens causing adverse effects in therapeutic use,11
+434554,"Hormone, synthetic hormone substitute or hormone antagonist adverse reaction",Observation,Y426,"Antigonadotrophins, antiestrogens, antiandrogens, NEC causing adverse effects in therapeutic use",11
+439630,Failure of sterile precautions during injection or vaccination,Observation,Y623,Failure of sterile precautions during injection or immunization,11
+4071863,Underfeeding in newborn,Observation,P923,Underfeeding of newborn,10
+438638,Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation,Observation,W799,"Inhalation and ingestion of food causing obstruction of respiratory tract, unspecified place",9
+439452,Assault by hanging and strangulation,Observation,X918,"Assault by hanging, strangulation and suffocation, other specified places",9
+43530888,Suspected fetal damage from radiation,Observation,O356,Maternal care for (suspected) damage to fetus by radiation,7
+436593,Accidental drowning and submersion,Observation,W749,"Unspecified drowning and submersion, unspecified place",7
+437738,Motor vehicle accident off public road,Observation,V793,Bus occupant [any] injured in unspecified nontraffic accident,6
+4175576,Motorcycle accident,Observation,V201,Passenger of motorcycle injured in collision with pedestrian or animal in nontraffic accident,6
+4146976,Crushed in between objects,Observation,W232,"Caught, crushed, jammed or pinched in or between objects, school, other institution and public administrative area",6
+4315095,"Place of occurrence of accident or poisoning, shop, commercial",Observation,X705,"Intentional self-harm by hanging, strangulation and suffocation, trade and service area",6
+4305999,Exposure to light,Observation,W899,"Exposure to man-made visible and ultraviolet light, unspecified place",6
+4172193,Adverse reaction to antiplatelet agent,Observation,Y444,Antithrombotic drugs [platelet-aggregation inhibitors] causing adverse effects in therapeutic use,6
+434257,Accident due to cold of man-made origin,Observation,W938,"Exposure to excessive cold of man-made origin, other specified places",5
+4093699,Sexual assault,Observation,Y059,"Sexual assault by bodily force, unspecified place",5
+443882,Unattended death,Observation,R98,Unattended death,4
+443423,Pedal cycle accident,Observation,V199,Pedal cyclist [any] injured in unspecified traffic accident,4
+433930,Motor vehicle on road in collision with another motor vehicle,Observation,V496,Unspecified car occupant injured in collision with other and unspecified motor vehicles in traffic accident,4
+4301487,Exposure to attack by other person,Observation,W509,"Hit, struck, twisted, bitten or scratched by another person, unspecified place",4
+4073205,Bite of reptile,Observation,W598,"Bitten or crushed by other reptiles, other specified places",4
+438631,Antithyroid drug adverse reaction,Observation,Y422,Antithyroid drugs causing adverse effects in therapeutic use,4
+37395455,Sudden infant death syndrome without mention of autopsy,Observation,R959,Sudden infant death syndrome without mention of autopsy,3
+37311060,Suspected COVID-19,Observation,U072,Emergency use of U07.2,3
+438301,Water transport accident,Observation,V935,"Accident on board watercraft without accident to watercraft, not causing drowning and submersion, canoe or kayak",3
+4222734,Fall in home,Observation,W190,"Unspecified fall, home",3
+432807,Accidents caused by cutting and piercing instruments or objects,Observation,W292,"Contact with other powered hand tools and household machinery, school, other institution and public administrative area",3
+435154,"Hanging, strangulation or suffocation of unknown intent",Observation,W769,"Other accidental hanging and strangulation, unspecified place",3
+438046,Medical accidents to patients during surgical and medical care,Observation,Y654,Failure to introduce or to remove other tube or instrument,3
+4152658,Foreign object left in body during injection or vaccination,Observation,Y613,Foreign object accidentally left in body during injection or immunization,3
+438872,Excessive eating - polyphagia,Observation,R632,Polyphagia,2
+4161447,Emotional abuse,Observation,T743,Psychological abuse,2
+442451,Motor vehicle on road in collision with pedestrian,Observation,V031,"Pedestrian injured in collision with car, pick-up truck or van in traffic accident",2
+4053423,Motor vehicle on road in collision with motor cycle,Observation,V234,"Motorcycle rider injured in collision with car, pick-up truck or van, driver injured in traffic accident",2
+437175,"Fall on same level from slipping, tripping or stumbling",Observation,W019,"Fall on same level from slipping, tripping and stumbling, unspecified place",2
+436882,Fall from bed,Observation,W068,"Fall involving bed, other specified places",2
+441201,Fall from building,Observation,W138,"Fall from, out of or through building or structure, other specified places",2
+4168815,"Contact with plant spines, thorns, or sharp leaves",Observation,W608,"Contact with plant thorns, and spines and sharp leaves, other specified places",2
+443532,Accident due to extremes of atmospheric pressure and to sudden changes in atmospheric pressure,Observation,W949,"Exposure to high and low air pressure and changes in air pressure, unspecified place",2
+440599,Assault by poisoning,Observation,X899,"Assault by other specified chemicals and noxious substances, unspecified place",2
+432800,Assault by cutting and stabbing instruments,Observation,X999,"Assault by sharp object, unspecified place",2
+4054796,Assault with body part,Observation,Y048,"Assault by bodily force, other specified places",2
+433392,Mismatched blood transfused,Observation,Y650,Mismatched blood used in transfusion,2
+4163244,Unilateral emphysema,Observation,J430,MacLeod's syndrome,1
+4251913,Very low level of personal hygiene,Observation,R460,Very low level of personal hygiene,1
+4162365,Failed intubation,Observation,T884,Failed or difficult intubation,1
+435713,Transport accident,Observation,V093,Pedestrian injured in unspecified traffic accident,1
+442666,"Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",Observation,V124,"Pedal cyclist injured in collision with two- or three-wheeled motor vehicle, driver injured in traffic accident",1
+4152175,Motor vehicle on road in collision with nonmotor vehicle,Observation,V264,"Motorcycle rider injured in collision with other nonmotor vehicle, driver injured in traffic accident",1
+436874,Accident caused by agricultural machine,Observation,V845,Driver of special agriculture vehicle injured in nontraffic accident,1
+4315372,Accident caused by glass edge,Observation,W250,"Contact with sharp glass, home",1
+436592,Accidental drowning or immersion in bathtub,Observation,W668,"Drowning and submersion following fall into bath-tub, other specified places",1
+4312846,"Place of occurrence of accident or poisoning, place for recreation and sport",Observation,W803,"Inhalation and ingestion of other objects causing obstruction of respiratory tract, sports and athletics area",1
+4075631,Location inside building,Observation,X006,"Exposure to uncontrolled fire in building or structure, industrial and construction area",1
+439987,"Accident caused by hot liquid and vapor, including steam",Observation,X130,"Contact with steam and hot vapours, home",1
+4053939,Burning due to contact with hot household appliances,Observation,X152,"Contact with hot household appliances, school, other institution and public administrative area",1
+4155225,"Assault by corrosive substance, except poisoning",Observation,X868,"Assault by corrosive substances, other specified places",1
+439237,Assault,Observation,Y090,"Assault by unspecified means, home",1
+439996,Anticoagulant adverse reaction,Observation,Y442,Anticoagulants causing adverse effects in therapeutic use,1
+437470,Benzodiazepine sedative adverse reaction,Observation,Y471,Benzodiazepines causing adverse effects in therapeutic use,1
+443347,General anesthetic drug adverse reaction,Observation,Y482,Other and unspecified general anesthetics causing adverse effects in therapeutic use,1
+443367,Antihypertensive adverse reaction,Observation,Y525,"Other antihypertensive drugs, NEC causing adverse effects in therapeutic use",1
+436005,Adverse reaction to typhoid and paratyphoid vaccines,Observation,Y581,Typhoid and paratyphoid vaccine causing adverse effects in therapeutic use,1
+443448,Adverse reaction to viral vaccine,Observation,Y590,Viral vaccines causing adverse effects in therapeutic use,1
+435137,"Foreign object left in body during aspiration of fluid or tissue, puncture and catheterization",Observation,Y616,"Foreign object accidentally left in body during aspiration, puncture and other catheterization",1

@@ -1,0 +1,367 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+706163,Measurement of Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in Specified specimen||Measurement of Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) using Nucleic acid amplification technique||Measurement of Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) using Nucleic acid amplification technique in Respiratory specimen||SARS-CoV-2 (COVID19) RNA [Presence] in Respiratory specimen by NAA with probe detection,8538,0.994062,2.63
+3022217,PT and aPTT panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||INR in Platelet poor plasma by Coagulation assay,5877,0.684247,6.31
+3034426,PT and aPTT panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||Prothrombin time (PT),5877,0.684247,6.31
+3033658,"Order set||Routine||Lupus anticoagulant aPTT, dRVVT and PT screening panel W Reflex||Prothrombin time (PT) actual/Normal",5877,0.684247,6.31
+3029305,Water and electrolyte analyses NEC||Urine electrolytes||pH|Urine/Urine sed||pH of Urine by Automated test strip,5674,0.660612,6.29
+3030260,Urine substance measurement||Urine dipstick test||Urine dipstick for glucose||Glucose [Presence] in Urine by Automated test strip,5674,0.660612,6.29
+3045424,Ophthalmology and Optometry||Urinalysis||Urinalysis||Erythrocytes [Presence] in Urine,5605,0.652579,6.28
+3037185,Urinalysis||Urine substance measurement||Urine protein test||Protein [Presence] in Urine,5605,0.652579,6.28
+3021601,Urine substance measurement||Urine dipstick test||Urine dipstick for nitrite||Nitrite [Presence] in Urine by Test strip,5409,0.629759,6.14
+3039919,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis dipstick panel - Urine by Automated test strip||Specific gravity of Urine by Automated test strip,5409,0.629759,6.14
+40765224,"Urobilinogen measurement||Urobilinogen measurement, urine||Urobilinogen|Urine/Urine sed||Urobilinogen [Presence] in Urine by Automated test strip",5399,0.628595,5.98
+3030477,Urine substance measurement||Urine dipstick test||Urine dipstick for bilirubin||Bilirubin.total [Presence] in Urine by Automated test strip,5399,0.628595,5.96
+40760844,Urinalysis||Small molecules||Urinalysis||Ketones [Presence] in Urine by Automated test strip,5399,0.628595,5.98
+3029925,NA||Laboratory||Urinalysis||Color of Urine by Auto,5375,0.6258,10.61
+3045414,Ophthalmology and Optometry||Urinalysis||Urinalysis||Leukocytes [Presence] in Urine,5333,0.62091,6.14
+3000348,Urine protein test||Urine dipstick for protein||Urine dipstick for leukocyte esterase||Leukocyte esterase [Presence] in Urine by Test strip,4775,0.555944,6.72
+3041096,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel - Urine Qualitative by Automated||Erythrocytes [Presence] in Urine by Automated,4758,0.553964,6.12
+3020891,"Vital signs, weight and height panel||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Wearable device external physiologic monitoring panel||Body temperature",4743,0.552218,13.79
+3044862,Ophthalmology and Optometry||Urinalysis||Urinalysis||Parasites [#/area] in Urine sediment by Microscopy low power field,4683,0.545232,6.13
+3043695,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/area] - Urine sediment by Automated count||Oval fat bodies (globules) [#/area] in Urine sediment by Automated count,4683,0.545232,6.13
+3026327,Laboratory||Urinalysis||Urinalysis||Cholesterol crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3025255,Ophthalmology and Optometry||Urinalysis||Urinalysis||Bacteria [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3029162,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/area] - Urine sediment by Automated count||Epithelial cells.squamous [#/area] in Urine sediment by Automated count,4683,0.545232,6.13
+3029707,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/volume] - Urine by Automated count||Crystals [#/volume] in Urine by Automated count,4683,0.545232,6.13
+3024093,Ophthalmology and Optometry||Urinalysis||Urinalysis||Fungi.yeastlike [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3033308,Laboratory||Urinalysis||Urinalysis||Hyaline casts [Presence] in Urine sediment by Light microscopy,4683,0.545232,12.26
+3022327,Urinalysis||Flowsheet - laboratory||Urinalysis||Calcium phosphate crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3033486,Laboratory||Urinalysis||Urinalysis||Oval fat bodies (globules) [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+36305963,Laboratory||Urinalysis||Urinalysis||Granular casts [#/area] in Urine sediment,4683,0.545232,6.13
+3002253,Ophthalmology and Optometry||Urinalysis||Urinalysis||Trichomonas vaginalis [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3022090,Laboratory||Urinalysis||Urinalysis||Fatty casts [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+36305654,Laboratory||Urinalysis||Urinalysis||Tyrosine crystals [#/area] in Urine sediment,4683,0.545232,6.13
+3003469,Laboratory||Urinalysis||Urinalysis||Bilirubin crystals [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3004372,Laboratory||Urinalysis||Urinalysis||Urate crystals amorphous [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3004852,Laboratory||Urinalysis||Urinalysis||Ammonium urate crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3005473,Laboratory||Urinalysis||Urinalysis||Phosphate crystals amorphous [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3006175,Laboratory||Urinalysis||Urinalysis||Mucus [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3006490,Urinalysis||Flowsheet - laboratory||Urinalysis||Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+36304849,Laboratory||Urinalysis||Urinalysis||RBC casts [#/area] in Urine sediment,4683,0.545232,6.13
+3035851,Ophthalmology and Optometry||Urinalysis||Urinalysis||Transitional cells [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+36304684,Laboratory||Urinalysis||WBC casts | Urine sediment | Urinalysis||WBC casts [#/area] in Urine sediment,4683,0.545232,6.13
+3019169,Laboratory||Urinalysis||Urinalysis||Leucine crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3036882,Laboratory||Urinalysis||Urinalysis||Urate crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+36304467,Laboratory||Urinalysis||Waxy casts|Urine/Urine sed||Waxy casts [#/area] in Urine sediment,4683,0.545232,6.13
+3038106,Laboratory||Urinalysis||Urinalysis||Epithelial casts [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+36303377,Laboratory||Urinalysis||Urinalysis||Mixed cellular casts [#/area] in Urine sediment,4683,0.545232,6.13
+3010189,Ophthalmology and Optometry||Urinalysis||Urinalysis||Epithelial cells [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3040317,Laboratory||Urinalysis||Urinalysis||Sodium urate crystals [Presence] in Urine sediment by Light microscopy,4683,0.545232,6.13
+3041097,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/area] - Urine sediment by Automated count||Spermatozoa [#/area] in Urine sediment by Automated count,4683,0.545232,6.13
+3041412,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/area] - Urine sediment by Automated count||Epithelial cells.non-squamous [#/area] in Urine sediment by Automated count,4683,0.545232,6.13
+3045874,Urinalysis panel | Urine | Urinalysis Panels||Urinalysis panel - Urine by Auto||Urinalysis microscopic panel [#/area] - Urine sediment by Automated count||Casts [#/area] in Urine sediment by Automated count,4683,0.545232,6.13
+3045646,Laboratory||Urinalysis||Urinalysis||Triple phosphate crystals [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3043263,Laboratory||Urinalysis||Urinalysis||Urate crystals [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3015023,Ophthalmology and Optometry||Urinalysis||Urinalysis||Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field,4683,0.545232,6.13
+3014789,Measurement of substance in specimen||Urine substance measurement||Measurement of hippuric acid in urine specimen||Hippurate [Mass/volume] in Urine,4683,0.545232,6.13
+3027018,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Wells pulmonary embolism risk calculator panel||Heart rate",4635,0.539644,8.96
+3024171,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Respiratory rate",4629,0.538945,8.99
+3025315,"Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Weight and Height tracking panel||Body weight",4623,0.538247,3.95
+3012888,"Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Diastolic blood pressure",4623,0.538247,3.92
+3036277,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Weight and Height tracking panel||Body height",4623,0.538247,3.88
+3004249,"Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Systolic blood pressure",4623,0.538247,3.92
+3021337,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Serum or Plasma,3649,0.424846,4.25
+3033745,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Blood,3640,0.423798,8.48
+3003310,Order set||Obstetrics order set||Rh | Blood | Blood bank||Rh [Type] in Blood,3013,0.350798,2.46
+3003694,Laboratory||Blood bank||Blood bank||ABO and Rh group [Type] in Blood,3013,0.350798,7.34
+3024277,Blood bank||Blood Group Systems||Reverse ABO group | Blood | Blood bank||Reverse ABO group [Type],3013,0.350798,2.46
+3005724,Order set||Blood group antigens panel | Red Blood Cells | Blood Bank Panels||Blood group antigens panel - Red Blood Cells||B Ag [Presence] on Red Blood Cells,2959,0.34451,2.43
+3016608,Blood bank||Blood Group Systems||Blood bank||B Ab [Presence] in Serum or Plasma,2959,0.34451,2.43
+3034776,Blood bank||Blood Group Systems||Blood bank||A Ag [Presence] on Red Blood Cells,2959,0.34451,2.43
+3013055,Blood bank||Blood Group Systems||Blood bank||A Ab [Presence] in Serum or Plasma,2959,0.34451,2.43
+3002173,Urinalysis||Mass-Molar conversion||IEEE 11073 Rosetta laboratory panel Blood||Hemoglobin [Mass/volume] in Arterial blood,2921,0.340086,6.27
+3017569,Order set||Respiratory measures and Ventilator management||Oxygen content | Blood arterial | Chemistry - non-challenge||Oxygen content in Arterial blood,2921,0.340086,6.27
+3016502,Order set||Specific hemodynamics||SaO2 | Blood arterial | Chemistry - non-challenge||Oxygen saturation in Arterial blood,2921,0.340086,6.27
+3019977,Urinalysis||PhenX domain - Respiratory||pH|LsCnc|Pt|ANYBldSerPl||pH of Arterial blood,2921,0.340086,6.27
+3027801,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Oxygen [Partial pressure] in Arterial blood,2921,0.340086,6.27
+3008152,Order set||Measurement of substance||IEEE 11073 Rosetta laboratory panel Blood||Bicarbonate [Moles/volume] in Arterial blood,2921,0.340086,6.27
+3027946,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Carbon dioxide [Partial pressure] in Arterial blood,2921,0.340086,6.27
+3003396,Order set||Measurement of level of substance in blood||Gas panel - Arterial blood||Base excess in Arterial blood by calculation,2921,0.340086,12.51
+3023230,Laboratory||IEEE 11073 Rosetta panel||IEEE 11073 Rosetta laboratory panel Blood||Hematocrit [Volume Fraction] of Arterial blood,2921,0.340086,6.27
+3037663,"Clinical||Respiratory measures and Ventilator management||Chemistry||Carbon dioxide, total [Moles/volume] in Arterial blood by calculation",2917,0.33962,6.25
+3014218,Measurement||Measurement of substance||Chemistry||Bicarbonate [Moles/volume] standard in Arterial blood,2917,0.33962,6.25
+3001079,Order set||Obstetrics order set||Obstetric 1996 panel - Serum and Blood||Blood group antibody screen [Presence] in Serum or Plasma,2700,0.314356,3.85
+3026361,Order set||Urinalysis||Short blood count panel - Blood||Erythrocytes [#/volume] in Blood,2662,0.309931,6.72
+3023314,Order set||PhenX Panel||PhenX - complete blood count protocol 220501||Hematocrit [Volume Fraction] of Blood by Automated count,2662,0.309931,6.72
+3010813,Order set||Urinalysis||Short blood count panel - Blood||Leukocytes [#/volume] in Blood,2662,0.309931,6.72
+3007461,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Platelets [#/volume] in Blood,2662,0.309931,6.72
+3035941,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCH [Entitic mass],2565,0.298638,6.7
+3003338,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCHC [Mass/volume],2565,0.298638,6.7
+3027484,Urinalysis||Hematology and Cell counts||Hemoglobin | Blood | Hematology and Cell counts||Hemoglobin [Mass/volume] in Blood by calculation,2565,0.298638,6.7
+3024731,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCV [Entitic volume],2565,0.298638,6.7
+3039312,Laboratory||Hematology and Cell counts||Plateletocrit | Blood | Hematology and Cell counts||Plateletocrit [Volume Fraction] in Blood,2564,0.298521,6.69
+3019897,Order set||Red cell indices||PhenX - complete blood count protocol 220501||Erythrocyte distribution width [Ratio] by Automated count,2564,0.298521,6.69
+3001123,Order set||Platelet indices||Platelet mean volume | Blood | Hematology and Cell counts||Platelet mean volume [Entitic volume] in Blood,2564,0.298521,6.69
+3001657,Ophthalmology and Optometry||Urinalysis||Leukocytes^^corrected for nucleated erythrocytes|NCnc|Pt|Bld||Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood,2564,0.298521,6.69
+3039417,Hematology and Cell counts||Platelet indices||Platelet distribution width | Blood | Hematology and Cell counts||Platelet distribution width [Ratio] in Blood,2548,0.296659,13.2
+4095045,"Metabolic, nutritional and blood gas investigations||Protein measurement||Oxygen saturation measurement||Capillary oxygen saturation measurement",2501,0.291186,110.53
+3000093,Laboratory||Hematology and Cell counts||Morphology | Blood | Hematology and Cell counts||Morphology [Interpretation] in Blood Narrative,1590,0.185121,3.52
+3038553,Vital Signs Panels||Weighing device panel | Patient | Panel.devices||Weight and Height tracking panel||Body mass index (BMI) [Ratio],1440,0.167656,9.86
+3026008,Urinalysis Panels||Urinalysis order set||Urinalysis dipstick W Reflex Culture panel - Urine||Bacteria identified in Urine by Culture,1346,0.156712,10.18
+4065263,Vascular tests NEC (incl blood pressure)||Taking patient vital signs||Blood pressure taking||Ambulatory blood pressure recording,1273,0.148213,75.81
+3021447,Order set||Respiratory measures and Ventilator management||IEEE 11073 Rosetta laboratory panel Blood||Carbon dioxide [Partial pressure] in Venous blood,1158,0.134824,6.72
+3024354,Order set||Respiratory measures and Ventilator management||Oxygen | Blood venous | Chemistry - non-challenge||Oxygen [Partial pressure] in Venous blood,1158,0.134824,6.72
+3012544,Urinalysis||Measurement||pH|LsCnc|Pt|ANYBldSerPl||pH of Venous blood,1158,0.134824,6.72
+3002032,Order set||Measurement of level of substance in blood||Gas panel - Venous blood||Base excess in Venous blood by calculation,1158,0.134824,13.45
+3024928,Order set||Specific hemodynamics||SaO2 | Blood venous | Specific hemodynamics||Oxygen saturation in Venous blood,1158,0.134824,6.72
+3011648,Clinical||Respiratory measures and Ventilator management||Oxygen content | Blood venous | Chemistry - non-challenge||Oxygen content in Venous blood,1158,0.134824,6.72
+3027273,Order set||Measurement of substance||Gas panel - Venous blood||Bicarbonate [Moles/volume] in Venous blood,1158,0.134824,6.72
+3004119,Urinalysis||Mass-Molar conversion||Hemoglobin|Pt|BldV||Hemoglobin [Mass/volume] in Venous blood,1157,0.134707,6.73
+3007628,Measurement||Measurement of substance||Chemistry||Bicarbonate [Moles/volume] standard in Venous blood,1157,0.134707,6.73
+3049133,"Clinical||Respiratory measures and Ventilator management||Chemistry||Carbon dioxide, total [Moles/volume] in Venous blood by calculation",1157,0.134707,6.73
+3034976,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Hematocrit [Volume Fraction] of Venous blood,1157,0.134707,6.73
+4090666,Respiration observable||Respiratory measure||Respiratory flow rate||Flow volume loop flow rate,1013,0.117942,2.96
+4097882,"Blood gases||Carbon dioxide content measurement||Carbon dioxide measurement, partial pressure||Measurement of partial pressure of carbon dioxide in blood",945,0.110024,7.72
+4310328,"Metabolic, nutritional and blood gas investigations||Protein measurement||Oxygen saturation measurement||Blood oxygen saturation",945,0.110024,7.72
+3010007,Order set||Susceptibility order sets||CiprofloxacinSusc|Isolate||Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),933,0.108627,7.58
+3037971,Order set||Susceptibility order sets||TigecyclineSusc|Isolate||Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),893,0.10397,7.4
+3003745,Order set||Urinalysis||Microscopic observation|Prid|Urine||Microscopic observation [Identifier] in Urine by Gram stain,890,0.103621,30.36
+3000850,Ophthalmology and Optometry||Urinalysis||Urinalysis||Epithelial cells [#/volume] in Urine,890,0.103621,3.37
+3013635,Order set||Susceptibility order sets||Trimethoprim+SulfamethoxazoleSusc|Isolate||Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),884,0.102922,7.28
+3035643,Order set||Susceptibility order sets||ImipenemSusc|Isolate||Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),840,0.0978,6.85
+3000769,Order set||Susceptibility order sets||GentamicinSusc|Isolate||Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),834,0.097101,7.18
+3016774,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),802,0.093375,4.96
+3022270,Order set||Susceptibility order sets||CefotaximeSusc|Isolate||Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),791,0.092095,6.11
+3037549,Order set||Susceptibility order sets||cefTAZidime | Isolate | Antibiotic susceptibilities||cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),742,0.08639,6.44
+3008912,Order set||Susceptibility order sets||CefepimeSusc|Isolate||Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),739,0.08604,6.36
+3007662,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),736,0.085691,6.31
+3010745,Order set||Susceptibility order sets||Piperacillin+TazobactamSusc|Isolate||Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),731,0.085109,6.37
+3002274,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),717,0.083479,6.18
+3023419,Order set||Respiratory microbiology||Microbiology CNAMTS panel - Sputum||Bacteria identified in Sputum by Culture,712,0.082897,11.9
+44816657,Ophthalmology and Optometry||Urinalysis||Yeast | XXX | Microbiology||Yeast [Presence] in Unspecified specimen by Gram stain,670,0.078007,4.8
+3002516,Order set||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Sputum by Gram stain,670,0.078007,47.97
+3005535,Order set||Susceptibility order sets||ceFAZolin | Isolate | Antibiotic susceptibilities||ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),619,0.072069,4.51
+3000520,Order set||Susceptibility order sets||cefOXitin | Isolate | Antibiotic susceptibilities||cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),618,0.071952,4.45
+3035814,Order set||Susceptibility order sets||ErtapenemSusc|Isolate||Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),610,0.071021,4.45
+4048586,Procedure by method||Laboratory procedure||Laboratory test||Fine needle aspirate with routine interpretation and report,587,0.068343,2.54
+3000127,Order set||Susceptibility order sets||TetracyclineSusc|Isolate||Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),560,0.0652,4.98
+3023414,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),554,0.064501,4.54
+4226401,Vascular tests NEC (incl blood pressure)||Taking patient vital signs||Blood pressure taking||Taking arterial blood pressure,521,0.060659,40.54
+3005241,Order set||Susceptibility order sets||LinezolidSusc|Isolate||Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),483,0.056235,5.12
+3016893,Order set||Susceptibility order sets||ErythromycinSusc|Isolate||Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),479,0.055769,5.24
+3022767,Order set||Susceptibility order sets||PenicillinSusc|Isolate||Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC),478,0.055653,5.24
+3018088,Order set||Susceptibility order sets||VancomycinSusc|Isolate||Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),477,0.055536,5.25
+3044936,Microbiology||Clostridium sp||Microbiology||Clostridioides difficile toxin A+B [Presence] in Stool by Immunoassay,467,0.054372,2.55
+3001355,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Fungus identified in Sputum by Culture,465,0.054139,10.32
+3011907,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),465,0.054139,6.71
+3022192,Survey terms not yet categorized||Urinalysis||Triglyceride|Pt|Ser/Plas||Triglyceride [Mass/volume] in Serum or Plasma,461,0.053673,1.91
+3000984,Measurement of substance||Urinalysis||Phospholipid|Pt|Ser/Plas||Phospholipid [Mass/volume] in Serum or Plasma,461,0.053673,1.91
+3027114,Survey terms not yet categorized||Urinalysis||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Cholesterol [Mass/volume] in Serum or Plasma,461,0.053673,1.91
+3028437,Order set||Urinalysis||Low density lipoprotein cholesterol measurement||Cholesterol in LDL [Mass/volume] in Serum or Plasma,461,0.053673,1.91
+3007070,Survey terms not yet categorized||Urinalysis||Lipoprotein metabolism panel - Serum or Plasma||Cholesterol in HDL [Mass/volume] in Serum or Plasma,461,0.053673,1.91
+3029103,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Nuclear Ab [Presence] in Serum by Immunofluorescence,443,0.051578,1.77
+3018954,Survey terms not yet categorized||Tumor markers||Pregnancy test||Choriogonadotropin (pregnancy test) [Presence] in Urine,441,0.051345,2.0
+3035551,Order set||Susceptibility order sets||levoFLOXacin | Isolate | Antibiotic susceptibilities||levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),436,0.050763,3.72
+3011588,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Sputum by Acid fast stain,426,0.049598,30.65
+3012607,Order set||Susceptibility order sets||TeicoplaninSusc|Isolate||Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),417,0.04855,5.69
+3037501,Order set||Susceptibility order sets||NitrofurantoinSusc|Isolate||Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),411,0.047852,5.68
+3050032,Blood Indices||Red cell indices||Hemoglobin distribution width | Blood | Hematology and Cell counts||Hemoglobin distribution width [Mass/volume] in Blood,351,0.040866,3.6
+3032077,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Neutrophil cytoplasmic Ab [Presence] in Serum by Immunofluorescence,338,0.039353,1.91
+3038328,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain,337,0.039236,2.72
+3025941,Order set||Microbiology order set||Microbiology CNAMTS panel - Stool||Bacteria identified in Stool by Culture,333,0.038771,6.17
+3001612,Order set||Susceptibility order sets||Ticarcillin+ClavulanateSusc|Isolate||Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),329,0.038305,7.03
+3007224,Order set||Susceptibility order sets||MeropenemSusc|Isolate||Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),326,0.037956,6.79
+3000963,Urinalysis||Survey terms not yet categorized||Short blood count panel - Blood||Hemoglobin [Mass/volume] in Blood,322,0.03749,2.19
+3021331,Order set||Susceptibility order sets||ClindamycinSusc|Isolate||Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),315,0.036675,5.19
+3033558,Order set||Susceptibility order sets||Quinupristin+DalfopristinSusc|Isolate||Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),295,0.034346,6.19
+4311562,Urodynamic studies||Physiologic measurement||Uroflowmetry||Complex uroflowmetry,291,0.033881,4.66
+4064734,Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Bronchial provocation test,288,0.033531,3.43
+4265529,Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Membrane diffusion capacity||Carbon monoxide diffusing capacity measurement,281,0.032716,3.1
+3015406,Order set||Susceptibility order sets||NorfloxacinSusc|Isolate||Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),256,0.029806,4.06
+40758310,Chemistry - non-challenge||Tumor markers||Human epididymis protein 4|SCnc|Pt|ANYBldSerPl||Human epididymis protein 4 [Moles/volume] in Serum or Plasma,242,0.028176,3.7
+42529199,Chemistry - non-challenge||Tumor markers||Chemistry||Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,242,0.028176,3.7
+3018677,PT and aPTT and Fibrinogen panel | Platelet poor plasma | Coagulation Panels||aPTT panel | Platelet poor plasma | Coagulation Panels||aPTT | Platelet poor plasma | Coagulation||aPTT in Platelet poor plasma by Coagulation assay,240,0.027943,6.3
+4169175,NA||Staging and scales||Assessment scales||Mini-mental state examination,229,0.026662,6.51
+3036339,Order set||Susceptibility order sets||rifAMPin | Isolate | Antibiotic susceptibilities||rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),225,0.026196,6.06
+3024850,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Urine||Microscopic observation [Identifier] in Urine by Acid fast stain,214,0.024916,7.76
+3023633,Order set||Susceptibility order sets||PiperacillinSusc|Isolate||Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),213,0.024799,8.8
+36305335,Order set||Mycobacterium tuberculosis stimulated gamma interferon panel | Blood | Microbiology Panels||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells [Units/volume] corrected for background in Blood,211,0.024566,1.82
+36304997,Order set||Mycobacterium tuberculosis stimulated gamma interferon panel | Blood | Microbiology Panels||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells [Units/volume] in Blood,211,0.024566,2.96
+42869527,Order set||Serology - non-micro||Mycobacterium tuberculosis stimulated gamma interferon panel - Blood||Mitogen stimulated gamma interferon [Units/volume] in Blood,211,0.024566,1.82
+42869528,Order set||Serology - non-micro||Mycobacterium tuberculosis stimulated gamma interferon | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,211,0.024566,1.82
+3015274,Order set||Susceptibility order sets||MinocyclineSusc|Isolate||Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),210,0.02445,8.9
+3011004,Urinalysis||Pyrrole measurement||Chemistry||Bilirubin.total [Mass/volume] in Peritoneal fluid,209,0.024333,5.19
+3037558,Order set||Susceptibility order sets||ColistinSusc|Isolate||Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),206,0.023984,10.87
+3011039,Order set||Susceptibility order sets||FusidateSusc|Isolate||Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),206,0.023984,6.4
+3014197,Order set||Susceptibility order sets||OxacillinSusc|Isolate||Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),205,0.023868,6.4
+3050896,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),201,0.023402,6.44
+3034592,Order set||Susceptibility order sets||TelithromycinSusc|Isolate||Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),201,0.023402,6.44
+3036405,Order set||Susceptibility order sets||MupirocinSusc|Isolate||Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),200,0.023286,6.46
+3027813,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Mycobacterium tuberculosis DNA|PrThr|Sys:ANYResp||Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,190,0.022121,1.97
+36304372,Order set||Susceptibility order sets||Mycobacterium tuberculosis complex rpoB gene rifAMPin resistance mutation | Isolate or Specimen | Antibiotic susceptibilities||Mycobacterium tuberculosis complex rpoB gene rifAMPin resistance mutation [Presence] by Molecular method,190,0.022121,1.97
+3014952,Molds and Other Microorganisms||Single allergens||Taenia solium larva IgG | Serum | Microbiology||Taenia solium larva IgG Ab [Presence] in Serum,180,0.020957,1.56
+3000835,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Peritoneal fluid by Culture,174,0.020258,2.95
+36304237,Order set||Respiratory microbiology||Mycoplasma pneumoniae DNA|PrThr|Sys:ANYResp||Mycoplasma pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,172,0.020026,2.15
+4095044,"Metabolic, nutritional and blood gas investigations||Protein measurement||Oxygen saturation measurement||Venous oxygen saturation measurement",170,0.019793,2.54
+3024194,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Pleural fluid by Culture,168,0.01956,2.95
+3026478,Microbiology and Antimicrobial susceptibility||Microbiology||Mycobacterium tuberculosis DNA|PrThr|Sys:ANYGU||Mycobacterium tuberculosis DNA [Presence] in Urine by NAA with probe detection,167,0.019443,1.44
+3015893,Microbiology and Antimicrobial susceptibility||Microbiology||Mycobacterium sp DNA | Urine | Microbiology||Mycobacterium sp DNA [Presence] in Urine by NAA with probe detection,167,0.019443,1.44
+4132411,Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Measurement of lung volume||Lung residual volume measurement,166,0.019327,3.22
+4133844,Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Functional residual capacity measurement,166,0.019327,3.22
+3005384,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Pleural fluid | Microbiology||Microscopic observation [Identifier] in Pleural fluid by Gram stain,164,0.019094,20.85
+3033336,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Peritoneal fluid | Microbiology||Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,160,0.018628,2.63
+3050627,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Urine||Microscopic observation [Identifier] in Urine by Rhodamine-auramine fluorochrome stain,154,0.01793,1.69
+36304601,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,151,0.017581,2.13
+36305676,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus HKU1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,151,0.017581,2.13
+36305217,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Pleural fluid by Culture,151,0.017581,7.73
+36304548,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,151,0.017581,2.13
+3033490,Order set||Susceptibility order sets||TobramycinSusc|Isolate||Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),150,0.017464,2.39
+3009944,Microbiology and Antimicrobial susceptibility||Microbiology||Mycobacterium tuberculosis DNA | Pleural fluid | Microbiology||Mycobacterium tuberculosis DNA [Presence] in Pleural fluid by NAA with probe detection,146,0.016998,1.92
+3001886,Order set||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,146,0.016998,19.25
+3016914,Order set||Microbiology order set||Microbiology CNAMTS panel - Cerebral spinal fluid||Bacteria identified in Cerebral spinal fluid by Culture,141,0.016416,2.66
+3050388,Order set||Mycobacterium tuberculosis stimulated gamma interferon panel | Blood | Microbiology Panels||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] in Blood,141,0.016416,1.72
+3002996,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Cerebral spinal fluid by Culture,139,0.016183,7.45
+3027346,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,137,0.015951,13.01
+3017028,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Mass/volume] (viral load) in Serum by Probe with signal amplification,137,0.015951,6.5
+3032567,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,137,0.015951,6.5
+36304464,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,135,0.015718,2.02
+3039413,Microbiology and Antimicrobial susceptibility||Flowsheet - laboratory||CefuroximeSusc|Isolate||Cefuroxime [Susceptibility] by Minimum inhibitory concentration (MIC),132,0.015368,2.29
+37020818,Microbiology and Antimicrobial susceptibility||Microbiology||Yersinia enterocolitica DNA | Stool | Microbiology||Yersinia enterocolitica DNA [Presence] in Stool by NAA with probe detection,127,0.014786,2.12
+42870368,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Campylobacter sp DNA.diarrheagenic [Presence] in Stool by NAA with probe detection,127,0.014786,2.17
+21493467,Order set||Microbiology order set||Salmonella enterica+bongori DNA | Stool | Microbiology||Salmonella enterica+bongori DNA [Presence] in Stool by NAA with non-probe detection,127,0.014786,2.17
+21493469,Order set||Reportable microbiology||Vibrio cholerae DNA | Stool | Microbiology||Vibrio cholerae DNA [Presence] in Stool by NAA with non-probe detection,127,0.014786,2.17
+21493560,Order set||Single allergens||Microbiology||Escherichia coli Stx1 and Stx2 toxin stx1+stx2 genes [Presence] in Stool by NAA with probe detection,127,0.014786,2.12
+21493566,Order set||Microbiology order set||Microbiology||Clostridioides difficile toxin A+B tcdA+tcdB genes [Presence] in Stool by NAA with probe detection,127,0.014786,2.17
+3021322,Urinalysis||Paraprotein measurement||Cryoglobulins||Cryoglobulin [Presence] in Serum,123,0.014321,1.39
+3021641,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid by India ink prep,122,0.014204,1.44
+3010475,Laboratory||Blood bank||Direct antiglobulin test.complement specific reagent | Red Blood Cells | Blood bank||Direct antiglobulin test.complement specific reagent [Presence] on Red Blood Cells,108,0.012574,1.8
+40483682,Steroid measurement||Measurement of substance in specimen||Measurement of level of substance in blood||Quantitative measurement of cortisol in baseline serum or plasma specimen after ACTH challenge,107,0.012458,4.89
+3019174,Order set||Lupus anticoagulant two screening tests W Reflex panel | Platelet poor plasma | Coagulation Panels||dRVVT | Platelet poor plasma | Coagulation||dRVVT (LA screen),106,0.012341,1.66
+3022426,Enzyme measurement||Pepsinogen measurement||Pepsinogen II | Serum or Plasma | Chemistry - non-challenge||Pepsinogen II [Mass/volume] in Serum or Plasma,103,0.011992,1.21
+3033888,Enzyme measurement||Pepsinogen measurement||Pepsinogen I | Serum or Plasma | Chemistry - non-challenge||Pepsinogen I [Mass/volume] in Serum or Plasma,103,0.011992,1.21
+3012625,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,103,0.011992,3.96
+21494434,NA||Molecular pathology||Lab terms not yet categorized||Karyotype in Bone marrow,102,0.011876,1.83
+3016485,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,95,0.011061,3.24
+3034442,Order set||Susceptibility order sets||cefTRIAXone | Isolate | Antibiotic susceptibilities||cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),94,0.010944,1.96
+3017797,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus surface Ab [Presence] in Serum,93,0.010828,1.37
+4052083,Procedure by method||Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary function diagnostic procedures||Measurement of respiratory function,88,0.010246,2.67
+3038636,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid by Rhodamine-auramine fluorochrome stain,84,0.00978,1.44
+3016258,Order set||Specific body circumference||Circumference at umbilicus | Abdomen mid | Specific body circumference||Waist Circumference at umbilicus by Tape measure,79,0.009198,2.27
+3009986,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Catheter tip by Culture,75,0.008732,4.21
+3051269,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain,75,0.008732,1.64
+1176187,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Bile fluid | Microbiology||Microscopic observation [Identifier] in Bile fluid by Gram stain,74,0.008616,38.65
+3036947,Order set||Susceptibility order sets||MoxifloxacinSusc|Isolate||Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),68,0.007917,1.88
+3041748,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Urine by Culture,66,0.007684,8.88
+4035726,Procedure||Laboratory test||Anatomic pathology procedure||Immunohistochemistry procedure,66,0.007684,2.92
+3015592,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Body fluid by Culture,63,0.007335,3.37
+3023876,Order set||Susceptibility order sets||ChloramphenicolSusc|Isolate||Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC),63,0.007335,1.89
+3046517,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Herpes simplex virus 1+2 Ab [Presence] in Cerebral spinal fluid,62,0.007219,1.55
+4197936,Respiration observable||Respiratory measure||Expired gas concentration||Expired carbon dioxide concentration,62,0.007219,9.98
+21493351,Order set||Reportable microbiology||Neisseria meningitidis DNA | Cerebral spinal fluid | Microbiology||Neisseria meningitidis DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection,60,0.006986,1.33
+21493350,Order set||Reportable microbiology||Microbiology||Listeria monocytogenes DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection,60,0.006986,1.33
+21493353,Order set||Microbiology order set||Streptococcus pneumoniae DNA | Cerebral spinal fluid | Microbiology||Streptococcus pneumoniae DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection,60,0.006986,1.33
+21493349,Order set||Reportable microbiology||Microbiology||Haemophilus influenzae DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection,60,0.006986,1.33
+21493352,Order set||Microbiology order set||Streptococcus agalactiae DNA | Cerebral spinal fluid | Microbiology||Streptococcus agalactiae DNA [Presence] in Cerebral spinal fluid by NAA with non-probe detection,60,0.006986,1.33
+3039448,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Bile fluid by Culture,59,0.006869,7.75
+3007654,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Wound | Microbiology||Microscopic observation [Identifier] in Wound by Gram stain,57,0.006636,3.86
+3038222,Urinalysis||Flowsheet - laboratory||Protein pattern|Imp|Pt|ANYBldSerPl||Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,53,0.006171,1.72
+3045461,Chemistry - non-challenge||Apolipoproteins||Chemistry||Apolipoprotein E phenotyping [Identifier] in Blood,52,0.006054,1.37
+3045115,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis B virus core IgG Ab [Presence] in Serum,52,0.006054,1.31
+3000236,Order set||Susceptibility order sets||NalidixateSusc|Isolate||Nalidixate [Susceptibility] by Minimum inhibitory concentration (MIC),51,0.005938,1.86
+3019029,Order set||Urinalysis||Microscopic observation | Pus | Microbiology||Microscopic observation [Identifier] in Pus by Gram stain,44,0.005123,20.0
+3000494,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Unspecified specimen by Culture,41,0.004774,3.59
+3000796,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Pleural fluid by Aerobe culture,39,0.004541,2.62
+36303793,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Pleural fluid by Anaerobe culture,39,0.004541,7.08
+3014352,"Microbiology and Antimicrobial susceptibility||Viruses, non-human pathogens||Rotavirus Ag | Stool | Microbiology||Rotavirus Ag [Presence] in Stool by Immunoassay",39,0.004541,2.64
+36305419,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Cerebral spinal fluid by Aerobe culture,35,0.004075,2.43
+36304961,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus OC43 RNA [Presence] in Lower respiratory specimen by NAA with probe detection,35,0.004075,1.37
+44816714,Toxin detection||Clostridium sp||Microbiology||Clostridioides difficile toxin B tcdB gene [Presence] in Stool by NAA with probe detection,34,0.003959,2.5
+36303545,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Cerebral spinal fluid by Anaerobe culture,33,0.003842,6.91
+46234833,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Abscess by Anaerobe+Aerobe culture,31,0.003609,2
+3034212,Urinalysis||Flowsheet - laboratory||Protein pattern|Imp|Urine||Protein Fractions [Interpretation] in Urine by Immunofixation,30,0.003493,1.53
+36303293,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Wound | Microbiology||Microscopic observation [Identifier] in Wound by Acid fast stain,29,0.003376,2.28
+3035133,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Wound by Culture,26,0.003027,2.19
+1175816,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Peritoneal fluid by Aerobe culture,26,0.003027,2.27
+3025085,Clinical terms not yet categorized||Timed specific body temperature||IEEE 11073 Rosetta temperature panel||Axillary temperature,25,0.002911,30.84
+36303760,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Pleural fluid | Microbiology||Microscopic observation [Presence] in Pleural fluid by Acid fast stain,21,0.002445,5.33
+3013650,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Neutrophils [#/volume] in Blood by Automated count,19,0.002212,2.84
+3027117,Plant||Other plants||Solidago virgaurea Ab.IgE.RAST class | Serum | Allergy||Goldenrod IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3013115,Order set||Urinalysis||Hematology (coagulation) differential count||Eosinophils [#/volume] in Blood,19,0.002212,1.42
+3013043,Plant||Grasses||Response to antigens||Timothy IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3035768,Order set||Urinalysis||Promonocytes/100 leukocytes | Blood | Hematology and Cell counts||Promonocytes/100 leukocytes in Blood,19,0.002212,1.42
+3020318,Order set||Urinalysis||Prolymphocytes/100 leukocytes | Blood | Hematology and Cell counts||Prolymphocytes/100 leukocytes in Blood,19,0.002212,1.42
+3046806,Plant||Grasses||Response to antigens||Japanese hop IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3011177,Plant||Grasses||Response to antigens||Bermuda grass IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3010702,Animal||Insects and venoms||Response to antigens||American house dust mite IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3020515,Plant||Trees and nuts||Response to antigens||Wattle IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3010224,Order set||Urinalysis||Large unstained cells/100 leukocytes | Blood | Hematology and Cell counts||Large unstained cells/100 leukocytes in Blood,19,0.002212,1.42
+3010101,Plant||Other plants||Response to antigens||Cocksfoot IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3010020,Plant||Other plants||Response to antigens||Ox-eye daisy IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3037235,Molds and Other Microorganisms||Single allergens||Response to antigens||Penicillium notatum IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3018645,Molds and Other Microorganisms||Single allergens||Response to antigens||Cladosporium herbarum IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3017732,Order set||Urinalysis||Neutrophils|NCnc|Pt|Bld||Neutrophils [#/volume] in Blood,19,0.002212,1.42
+3017504,Plant||Trees and nuts||Response to antigens||Pine IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3038066,Plant||Trees and nuts||Response to antigens||American Sycamore IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3017181,Order set||Urinalysis||Short blood count panel - Blood||Myelocytes/100 leukocytes in Blood,19,0.002212,1.42
+3016980,Laboratory||Allergy||Response to antigens||House dust IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3018718,Order set||Hematology and Cell counts||Plasma cells/100 leukocytes | Blood | Hematology and Cell counts||Plasma cells/100 leukocytes in Blood,19,0.002212,1.42
+3016835,Plant||Other plants||Response to antigens||Common Pigweed IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3036857,Plant||Trees and nuts||Response to antigens||White Ash IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3019069,Order set||Urinalysis||Short blood count panel - Blood||Monocytes/100 leukocytes in Blood,19,0.002212,1.42
+3019198,Order set||Urinalysis||T-cell subsets CD4 and CD8 panel - Blood||Lymphocytes [#/volume] in Blood,19,0.002212,1.42
+3015942,NA||Laboratory||Response to antigens||Alternaria alternata IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3015704,Plant||Other plants||Response to antigens||Mugwort IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3019440,Plant||Trees and nuts||Response to antigens||Hazelnut Pollen IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3042857,Miscellaneous Hematology||WBC function||Mean peroxidase activity index | Blood | Hematology and Cell counts||Mean peroxidase activity index [Presence] in Blood,19,0.002212,1.42
+3020184,Plant||Other plants||Taraxacum vulgare Ab.IgE.RAST class | Serum | Allergy||Dandelion IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3002030,Order set||Urinalysis||Short blood count panel - Blood||Lymphocytes/100 leukocytes in Blood,19,0.002212,1.42
+3001604,Order set||Urinalysis||Monocytes|NCnc|Pt|Bld||Monocytes [#/volume] in Blood,19,0.002212,1.42
+40758562,Ophthalmology and Optometry||Urinalysis||Immature cells/100 leukocytes | Blood | Hematology and Cell counts||Immature cells/100 leukocytes in Blood,19,0.002212,1.42
+3001539,Animal||Mammals||Response to antigens||Cat dander IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+40761125,Plant||Trees and nuts||Response to antigens||Cottonwood IgG Ab RAST class [Presence] in Serum or Plasma,19,0.002212,1.21
+3001081,Allergy||Plant||Response to antigens||Peach IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+40771528,Ophthalmology and Optometry||Urinalysis||Mononuclear cells.atypical/100 leukocytes | Blood | Hematology and Cell counts||Mononuclear cells atypical/100 leukocytes in Blood by Manual count,19,0.002212,1.42
+3000740,Plant||Grasses||Response to antigens||Common Reed IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3000131,Animal||Mammals||Response to antigens||Dog dander IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3033515,Plant||Other plants||Salsola kali Ab.IgE.RAST class | Serum | Allergy||Saltwort IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3022096,Order set||Urinalysis||Short blood count panel - Blood||Basophils/100 leukocytes in Blood,19,0.002212,1.42
+3022379,Plant||Trees and nuts||Response to antigens||Silver Birch IgG Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3033335,Allergy||Animal||Response to antigens||Egg white IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+42529219,Urinalysis||Specific antigens||Immunoglobulin E measurement||IgE [Units/volume] in Serum or Plasma by Immunoassay,19,0.002212,1.21
+3023646,Animal||Shrimp||Response to antigens||Shrimp IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+42869452,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Immature granulocytes/100 leukocytes in Blood by Automated count,19,0.002212,1.42
+3031368,Ophthalmology and Optometry||Urinalysis||Lymphocytes.variant/100 leukocytes | Blood | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Blood by Automated count,19,0.002212,1.42
+3023830,Allergy||Animal||Response to antigens||Crab IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3023993,Order set||Urinalysis||Large unstained cells|NCnc|Pt|Bld||Large unstained cells [#/volume] in Blood,19,0.002212,1.42
+3025005,Plant||Trees and nuts||Salix caprea Ab.IgE.RAST class | Serum | Allergy||Willow IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3025159,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Blasts/100 leukocytes in Blood,19,0.002212,1.42
+3018199,Order set||Urinalysis||Neutrophils.band form|NCnc|Pt|Bld||Band form neutrophils [#/volume] in Blood,19,0.002212,1.42
+3020695,Plant||Grasses||Response to antigens||Perennial rye grass IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3009745,Plant||Other plants||Response to antigens||Common Ragweed IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3020825,Animal||Insects and venoms||Response to antigens||European house dust mite IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3009537,Molds and Other Microorganisms||Single allergens||Response to antigens||Aspergillus fumigatus IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3007980,Plant||Other plants||Response to antigens||Soybean IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3034708,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,19,0.002212,1.42
+3007490,Plant||Trees and nuts||Response to antigens||White Oak IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3006594,Animal||Insects and venoms||Response to antigens||Cockroach IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3006504,Order set||Urinalysis||Short blood count panel - Blood||Eosinophils/100 leukocytes in Blood,19,0.002212,1.42
+3006315,Order set||Urinalysis||Hematology (coagulation) differential count||Basophils [#/volume] in Blood,19,0.002212,1.42
+3004809,Order set||Urinalysis||Short blood count panel - Blood||Band form neutrophils/100 leukocytes in Blood,19,0.002212,1.42
+3002237,Plant||Trees and nuts||Response to antigens||Japanese Cedar IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3021354,Plant||Grasses||Response to antigens||Sweet Vernal grass IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3021440,Order set||Urinalysis||Short blood count panel - Blood||Promyelocytes/100 leukocytes in Blood,19,0.002212,1.42
+3002179,Order set||Urinalysis||Short blood count panel - Blood||Metamyelocytes/100 leukocytes in Blood,19,0.002212,1.42
+3021644,Allergy||Animal||Scomber scombrus Ab.IgE.RAST class | Serum | Allergy||Mackerel IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+3002058,Mammals||Milk and constituents||Response to antigens||Cow milk IgE Ab RAST class [Presence] in Serum,19,0.002212,1.21
+4308939,Procedure on skin||Skin test||Test of cell-mediated immunity||Delayed hypersensitivity skin test for tuberculin PPD,18,0.002096,4.33
+3043409,Order set||Measurement of substance||Potassium|SCnc|Pt|ANYBldSerPl||Potassium [Moles/volume] in Arterial blood,16,0.001863,5.88
+3043706,Order set||Measurement of substance||Sodium|SCnc|Pt|ANYBldSerPl||Sodium [Moles/volume] in Arterial blood,16,0.001863,5.88
+4012477,"Procedure by method||Metabolic, nutritional and blood gas investigations||Pancreatic function test||Glucose tolerance test",15,0.001746,4.07
+3037167,Order set||Urinalysis||Microscopic observation | XXX | Microbiology||Microscopic observation [Identifier] in Unspecified specimen by Gram stain,15,0.001746,20.67
+3016288,Order set||Susceptibility order sets||CephalothinSusc|Isolate||Cephalothin [Susceptibility] by Minimum inhibitory concentration (MIC),15,0.001746,2.4
+40480257,Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Measurement of substance||Measurement of expired nitric oxide,12,0.001397,2.17
+4242723,Procedure on soft tissue||Procedure on skin and/or subcutaneous tissue||Type 1 hypersensitivity skin test||Prick test,12,0.001397,1.33
+3016526,Order set||Susceptibility order sets||cefoTEtan | Isolate | Antibiotic susceptibilities||cefoTEtan [Susceptibility] by Minimum inhibitory concentration (MIC),11,0.001281,3.09
+3002619,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Unspecified specimen by Culture,10,0.001164,2.3
+3017429,Order set||Susceptibility order sets||OfloxacinSusc|Isolate||Ofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),9,0.001048,2.67
+3022284,Order set||Susceptibility order sets||Gentamicin.high potencySusc|Isolate||Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),9,0.001048,2.44
+3013644,Order set||Susceptibility order sets||Streptomycin.high potencySusc|Isolate||Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),9,0.001048,2.44
+3037142,Order set||Thyroid newborn screening panel | DBS | Chemistry Panels||Thyrotropin | DBS | Chemistry - non-challenge||Thyrotropin [Units/volume] in DBS,8,0.000931,1.38
+3050955,Order set||Sugars/Sugar metabolism||Galactose|Pt|Bld.dot|180.156 g/mole||Galactose [Mass/volume] in DBS,8,0.000931,1.38
+3027744,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | XXX | Microbiology||Microscopic observation [Identifier] in Unspecified specimen by Acid fast stain,8,0.000931,19.38
+3048386,Steroid measurement||Progestational Hormones-||Congenital adrenal hyperplasia newborn screening panel||17-Hydroxyprogesterone [Mass/volume] in DBS,8,0.000931,1.38
+4197858,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Growth hormone stimulation test,7,0.000815,2
+4264765,Procedure by site||Vascular tests NEC (incl blood pressure)||Taking patient vital signs||Blood pressure taking,7,0.000815,3.29
+36305689,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Fungus identified in Peritoneal dialysis fluid by Culture,6,0.000699,3.33
+3013867,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Bacteria identified in Unspecified specimen by Aerobe culture,6,0.000699,1.67
+4049641,Procedure on organ||Upper gastrointestinal procedure||Procedure on esophagus||Esophageal manometry,6,0.000699,3.83

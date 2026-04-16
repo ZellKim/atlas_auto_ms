@@ -1,0 +1,919 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+437663,NA||NA||Body temperature conditions||Body temperature conditions||Fever,727,0.08464,2.7
+320128,Vascular disorders||Vascular hypertensive disorders||Vascular hypertensive disorders NEC||Vascular hypertensive disorders NEC||Essential hypertension,675,0.07859,4.56
+4043371,NA||NA||NA||NA||Inflammatory disorder of digestive tract,486,0.05658,3.0
+37311061,Infections and infestations||Viral infectious disorders||Viral infections NEC||Viral infections NEC||Disease caused by 2019-nCoV,362,0.04215,5.38
+35610239,NA||NA||NA||NA||Malignant neoplasm of bronchus or lung,356,0.04145,49.3
+4144111,Gastrointestinal disorders||Gastrointestinal motility and defaecation conditions||Gastrointestinal atonic and hypomotility disorders NEC||Gastrointestinal atonic and hypomotility disorders NEC||Gastroesophageal reflux disease without esophagitis,340,0.03959,6.66
+255848,"Respiratory, thoracic and mediastinal disorders||Lower respiratory tract disorders (excl obstruction and infection)||Parenchymal lung disorders NEC||Parenchymal lung disorders NEC||Pneumonia",331,0.03854,6.47
+4008576,Metabolism and nutrition disorders||Glucose metabolism disorders (incl diabetes mellitus)||Diabetes mellitus (incl subtypes)||Diabetes mellitus (incl subtypes)||Diabetes mellitus without complication,311,0.03621,7.93
+4193704,Metabolism and nutrition disorders||Glucose metabolism disorders (incl diabetes mellitus)||Diabetes mellitus (incl subtypes)||Diabetes mellitus (incl subtypes)||Type 2 diabetes mellitus without complication,311,0.03621,3.33
+440029,Infections and infestations||Ancillary infectious topics||Infectious transmissions||Infectious transmissions||Viral disease,309,0.03598,2.04
+196044,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant NEC||Gastrointestinal neoplasms malignant NEC||Primary malignant neoplasm of stomach",307,0.03574,31.15
+433316,NA||NA||Decreased and nonspecific blood pressure disorders and shock||Decreased and nonspecific blood pressure disorders and shock||Dizziness and giddiness,284,0.03307,3.63
+4162253,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Primary malignant neoplasm of breast,278,0.03237,80.74
+192568,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Metastases||Metastases to unknown and unspecified sites||Metastases to unknown and unspecified sites||Secondary malignant neoplasm of intra-abdominal lymph nodes",273,0.03178,2.56
+312437,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Dyspnea,271,0.03155,3.46
+443454,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Cerebral infarction",263,0.03062,9.81
+77670,NA||NA||Respiratory tract signs and symptoms||Respiratory tract signs and symptoms||Chest pain,252,0.02934,2.5
+4128083,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Gastrointestinal and abdominal pains (excl oral and throat)||Gastrointestinal and abdominal pains (excl oral and throat)||Nonspecific abdominal pain,242,0.02818,2.73
+260427,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Viral upper respiratory tract infections||Viral upper respiratory tract infections||Common cold",237,0.02759,2.86
+378253,NA||NA||Headaches||Headaches||Headache,232,0.02701,3.91
+197032,"Reproductive system and breast disorders||Prostatic disorders (excl infections and inflammations)||Prostatic signs, symptoms and disorders NEC||Prostatic signs, symptoms and disorders NEC||Hyperplasia of prostate",228,0.02655,10.5
+257011,NA||NA||Respiratory tract infections||Respiratory tract infections||Acute upper respiratory infection,226,0.02631,3.41
+254761,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Cough,226,0.02631,4.71
+432867,NA||NA||Lipid metabolism disorders||Lipid metabolism disorders||Hyperlipidemia,224,0.02608,6.22
+437677,"Investigations||Investigations, imaging and histopathology procedures NEC||Imaging procedures NEC||Imaging procedures NEC||Abnormal findings on diagnostic imaging of lung",211,0.02457,15.53
+44806773,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Metastases||Metastases to specified sites||Metastases to specified sites||Secondary malignant neoplasm of liver and intrahepatic bile duct",210,0.02445,5.56
+74582,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Primary malignant neoplasm of rectum,208,0.02422,69.65
+4123026,NA||NA||NA||NA||Tumor of advanced extent,207,0.0241,33.93
+133424,NA||NA||Endocrine neoplasms malignant and unspecified||Endocrine neoplasms malignant and unspecified||Primary malignant neoplasm of thyroid gland,191,0.02224,16.23
+442793,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Complication due to diabetes mellitus",187,0.02177,13.8
+760895,Reproductive system and breast disorders||Breast disorders||Breast disorders NEC||Breast disorders NEC||Lump in left breast,175,0.02037,47.99
+4014295,NA||NA||NA||NA||Single live birth,170,0.01979,1.34
+4174763,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Gastric neoplasms malignant||Gastric neoplasms malignant||Early gastric cancer",166,0.01933,13.93
+201340,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Gastritis,165,0.01921,5.62
+194406,Renal and urinary disorders||Urethral disorders (excl calculi)||Urethral disorders NEC||Urethral disorders NEC||Urinary tract obstruction,163,0.01898,8.63
+257007,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Allergic rhinitis,162,0.01886,5.48
+196925,NA||NA||Metastases||Metastases||Secondary malignant neoplasm of retroperitoneum and peritoneum,161,0.01874,6.91
+4102631,Renal and urinary disorders||Nephropathies||Nephritis NEC||Nephritis NEC||Acute tubulointerstitial nephritis,158,0.0184,6.44
+78097,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms malignant site unspecified NEC||Neoplasms malignant site unspecified NEC||Secondary malignant neoplasm of bone",157,0.01828,6.78
+261236,"NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Primary malignant neoplasm of upper lobe, bronchus or lung",151,0.01758,6.37
+4157454,"NA||NA||NA||NA||Primary malignant neoplasm of lower lobe, bronchus or lung",144,0.01677,7.74
+132797,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Sepsis,137,0.01595,3.86
+4142875,NA||NA||NA||NA||Solitary nodule of lung,137,0.01595,6.52
+320342,NA||NA||Metastases||Metastases||Secondary malignant neoplasm of lymph nodes of multiple sites,136,0.01583,4.15
+42537748,NA||NA||NA||NA||Acquired absence of organ,134,0.0156,2.09
+765053,Reproductive system and breast disorders||Breast disorders||Breast disorders NEC||Breast disorders NEC||Lump in right breast,133,0.01548,58.7
+81902,Reproductive system and breast disorders||Reproductive tract disorders NEC||Reproductive tract disorders NEC (excl neoplasms)||Reproductive tract disorders NEC (excl neoplasms)||Urinary tract infectious disease,133,0.01548,3.6
+439926,NA||NA||Mood disorders and disturbances NEC||Mood disorders and disturbances NEC||Malaise and fatigue,131,0.01525,2.25
+4241033,NA||NA||Gastrointestinal signs and symptoms||Gastrointestinal signs and symptoms||Acute abdomen,130,0.01514,3.14
+436635,NA||NA||NA||NA||Primary malignant neoplasm of sigmoid colon,125,0.01455,43.94
+200962,NA||NA||Prostatic disorders (excl infections and inflammations)||Prostatic disorders (excl infections and inflammations)||Primary malignant neoplasm of prostate,123,0.01432,32.37
+434547,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Complication of surgical procedure",123,0.01432,1.78
+197236,"NA||NA||Uterine, pelvic and broad ligament disorders||Uterine, pelvic and broad ligament disorders||Uterine leiomyoma",122,0.0142,5.89
+438089,NA||NA||NA||NA||Primary malignant neoplasm of pyloric antrum,121,0.01409,4.14
+318096,NA||NA||Metastases||Metastases||Secondary malignant neoplasm of lymph node,121,0.01409,6.02
+77234,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign NEC||Gastrointestinal neoplasms benign NEC||Benign neoplasm of colon",119,0.01385,4.97
+439751,"Respiratory, thoracic and mediastinal disorders||Respiratory tract neoplasms||Respiratory tract neoplasms NEC||Respiratory tract neoplasms NEC||Secondary malignant neoplasm of intrathoracic lymph nodes",119,0.01385,4.5
+193422,NA||NA||NA||NA||Primary malignant neoplasm of body of stomach,117,0.01362,3.26
+438878,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Liver function tests abnormal,114,0.01327,3.07
+40484028,NA||NA||Dental and gingival conditions||Dental and gingival conditions||Dental caries extending into dentin,111,0.01292,12.93
+254061,NA||NA||Pleural disorders||Pleural disorders||Pleural effusion,106,0.01234,8.94
+197320,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal failure and impairment||Renal failure and impairment||Acute renal failure syndrome,106,0.01234,4.07
+444094,"NA||NA||Pregnancy, labour, delivery and postpartum conditions||Pregnancy, labour, delivery and postpartum conditions||Finding related to pregnancy",106,0.01234,5.13
+4103703,NA||NA||NA||NA||Melena,103,0.01199,3.22
+440689,NA||NA||White blood cell disorders||White blood cell disorders||Agranulocytosis,102,0.01188,3.19
+381591,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Non-site specific necrosis and vascular insufficiency NEC||Non-site specific necrosis and vascular insufficiency NEC||Cerebrovascular disease",102,0.01188,8.35
+257012,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Chronic sinusitis",101,0.01176,5.42
+762907,"Pregnancy, puerperium and perinatal conditions||Pregnancy, labour, delivery and postpartum conditions||Normal pregnancy, labour and delivery||Normal pregnancy, labour and delivery||Gestation period greater than or equal to 37 weeks",100,0.01164,1.56
+4169954,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Genitourinary tract hemorrhage,100,0.01164,4.85
+4289526,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Dyspeptic signs and symptoms||Dyspeptic signs and symptoms||Nonulcer dyspepsia,100,0.01164,4.94
+439777,Blood and lymphatic system disorders||Red blood cell disorders||Red blood cell abnormal findings NEC||Red blood cell abnormal findings NEC||Anemia,99,0.01153,6.31
+377091,Nervous system disorders||Seizures (incl subtypes)||Seizures and seizure disorders NEC||Seizures and seizure disorders NEC||Seizure,98,0.01141,7.43
+436230,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Blood chemistry abnormal,97,0.01129,7.36
+4068155,Cardiac disorders||Cardiac arrhythmias||Supraventricular arrhythmias||Supraventricular arrhythmias||Atrial arrhythmia,97,0.01129,4.78
+381270,Nervous system disorders||Movement disorders (incl parkinsonism)||Parkinson's disease and parkinsonism||Parkinson's disease and parkinsonism||Parkinson's disease,97,0.01129,33.18
+199075,NA||NA||Bladder and bladder neck disorders (excl calculi)||Bladder and bladder neck disorders (excl calculi)||Neurogenic bladder,96,0.01118,8.33
+4302537,NA||NA||Gastrointestinal conditions NEC||Gastrointestinal conditions NEC||Digestive system finding,95,0.01106,2.52
+4181162,"Pregnancy, puerperium and perinatal conditions||Neonatal and perinatal conditions||Gestational age and weight conditions||Gestational age and weight conditions||Gestation greater than 20 weeks",94,0.01094,6.6
+4218813,"Pregnancy, puerperium and perinatal conditions||Neonatal and perinatal conditions||Gestational age and weight conditions||Gestational age and weight conditions||Third trimester pregnancy",94,0.01094,3.14
+4140090,Nervous system disorders||Movement disorders (incl parkinsonism)||Dyskinesias and movement disorders NEC||Dyskinesias and movement disorders NEC||Parkinsonism,93,0.01083,9.08
+440432,Gastrointestinal disorders||Dental and gingival conditions||Dental disorders NEC||Dental disorders NEC||Accretion on teeth,93,0.01083,14.87
+192667,Infections and infestations||Ancillary infectious topics||Inflammatory disorders following infection||Inflammatory disorders following infection||Atrophic gastritis,92,0.01071,2.28
+134898,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Non-toxic uninodular goiter,90,0.01048,3.7
+440383,Psychiatric disorders||Mood disorders and disturbances NEC||Mood disorders NEC||Mood disorders NEC||Depressive disorder,88,0.01025,8.89
+438699,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Primary malignant neoplasm of rectosigmoid junction,86,0.01001,54.9
+377910,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Nasal disorders NEC||Nasal disorders NEC||Deviated nasal septum",86,0.01001,6.22
+314487,NA||NA||Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary investigations (excl blood gases)||Pulmonary function studies abnormal,86,0.01001,6.55
+4001171,NA||NA||NA||NA||Liver cell carcinoma,86,0.01001,26.99
+439674,NA||NA||Viral infectious disorders||Viral infectious disorders||Chronic viral hepatitis B without delta-agent,86,0.01001,13.26
+77074,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue pain and discomfort||Musculoskeletal and connective tissue pain and discomfort||Joint pain,86,0.01001,8.47
+254591,NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Secondary malignant neoplasm of lung,86,0.01001,7.79
+4187850,NA||NA||NA||NA||Primary malignant neoplasm of breast upper outer quadrant,85,0.0099,5.52
+4092513,"NA||NA||NA||NA||Malignant neoplasm, overlapping lesion of breast",85,0.0099,4.98
+75860,Gastrointestinal disorders||Gastrointestinal motility and defaecation conditions||Gastrointestinal dyskinetic disorders||Gastrointestinal dyskinetic disorders||Constipation,85,0.0099,4.04
+194133,NA||NA||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue disorders NEC||Low back pain,85,0.0099,14.26
+321318,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Angina pectoris",84,0.00978,3.94
+4025327,NA||NA||NA||NA||Chronic periodontitis complex,83,0.00966,10.65
+316139,NA||NA||Heart failures||Heart failures||Heart failure,83,0.00966,6.14
+199866,Gastrointestinal disorders||Gastrointestinal inflammatory conditions||Gastritis (excl infective)||Gastritis (excl infective)||Acute gastritis,83,0.00966,4.41
+4246451,Nervous system disorders||Nervous system neoplasms malignant and unspecified NEC||Central nervous system neoplasms malignant NEC||Central nervous system neoplasms malignant NEC||Secondary malignant neoplasm of brain,83,0.00966,12.55
+434298,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Metastases||Metastases to specified sites||Metastases to specified sites||Secondary malignant neoplasm of lymph nodes of upper limb",83,0.00966,3.52
+201070,NA||NA||Gallbladder disorders||Gallbladder disorders||Cholelithiasis AND cholecystitis without obstruction,81,0.00943,2.77
+4187218,NA||NA||Lower respiratory tract disorders (excl obstruction and infection)||Lower respiratory tract disorders (excl obstruction and infection)||Pneumonitis due to inhaled substance,81,0.00943,4.23
+72266,NA||NA||Pleural disorders||Pleural disorders||Secondary malignant neoplasm of pleura,80,0.00931,7.47
+196360,Renal and urinary disorders||Genitourinary tract disorders NEC||Genital and urinary tract disorders NEC||Genital and urinary tract disorders NEC||Primary malignant neoplasm of bladder,79,0.0092,48.67
+46273463,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Viral upper respiratory tract infections||Viral upper respiratory tract infections||Upper respiratory tract infection due to Influenza",79,0.0092,2.29
+443611,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal failure and impairment||Renal failure and impairment||Chronic kidney disease stage 5,78,0.00908,292.53
+440417,NA||NA||Embolism and thrombosis||Embolism and thrombosis||Pulmonary embolism,78,0.00908,9.68
+4247719,NA||NA||NA||NA||Primary malignant neoplasm of ascending colon,76,0.00885,28.26
+255573,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Chronic obstructive lung disease",75,0.00873,20.84
+4182210,Psychiatric disorders||Psychiatric disorders NEC||Mental disorders due to a general medical condition NEC||Mental disorders due to a general medical condition NEC||Dementia,74,0.00862,7.76
+196061,NA||NA||Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign||Benign neoplasm of stomach,73,0.0085,7.49
+4066112,NA||NA||NA||NA||Delivery by emergency cesarean section,73,0.0085,1.59
+4061457,NA||NA||NA||NA||Delivery by elective cesarean section,72,0.00838,1.24
+45766714,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Inflammatory dermatosis,71,0.00827,4.89
+4250734,NA||NA||Body temperature conditions||Body temperature conditions||Febrile neutropenia,71,0.00827,3.42
+436677,Psychiatric disorders||Psychiatric disorders NEC||Mental disorders NEC||Mental disorders NEC||Adjustment disorder,70,0.00815,5.06
+381035,Nervous system disorders||Encephalopathies||Encephalopathies NEC||Encephalopathies NEC||Vertigo of central origin,69,0.00803,6.94
+433811,NA||NA||Renal disorders (excl nephropathies)||Renal disorders (excl nephropathies)||Hydronephrosis,68,0.00792,7.66
+75004,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Frank hematuria,67,0.0078,5.91
+4055507,NA||NA||NA||NA||Chronic periodontitis simplex,67,0.0078,6.51
+4001664,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Hepatobiliary neoplasms malignant and unspecified||Bile duct neoplasms malignant||Bile duct neoplasms malignant||Intrahepatic bile duct carcinoma",67,0.0078,52.94
+36712703,"Pregnancy, puerperium and perinatal conditions||Maternal complications of labour and delivery||Labour onset and length abnormalities||Labour onset and length abnormalities||Preterm labor without delivery",67,0.0078,2.84
+4307820,"NA||NA||Pregnancy, labour, delivery and postpartum conditions||Pregnancy, labour, delivery and postpartum conditions||Unplanned pregnancy",66,0.00768,3.73
+200765,Hepatobiliary disorders||Gallbladder disorders||Cholecystitis and cholelithiasis||Cholecystitis and cholelithiasis||Chronic cholecystitis,66,0.00768,1.52
+30437,Gastrointestinal disorders||Gastrointestinal motility and defaecation conditions||Gastrointestinal atonic and hypomotility disorders NEC||Gastrointestinal atonic and hypomotility disorders NEC||Gastro-esophageal reflux disease with esophagitis,65,0.00757,5.18
+81250,NA||NA||Breast disorders||Breast disorders||Carcinoma in situ of breast,65,0.00757,17.08
+443597,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal failure and impairment||Renal failure and impairment||Chronic kidney disease stage 3,64,0.00745,5.31
+432795,NA||NA||Injuries NEC||Injuries NEC||Traumatic AND/OR non-traumatic injury,64,0.00745,5.55
+197500,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Colorectal neoplasms malignant||Colorectal neoplasms malignant||Primary malignant neoplasm of colon",64,0.00745,24.2
+4201745,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Disorder of digestive system,64,0.00745,2.2
+317009,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Asthma",64,0.00745,10.41
+442019,NA||NA||Procedural related injuries and complications NEC||Procedural related injuries and complications NEC||Complication of procedure,64,0.00745,2.47
+4174262,Nervous system disorders||Peripheral neuropathies||Peripheral neuropathies NEC||Peripheral neuropathies NEC||Polyneuropathy,62,0.00722,14.34
+46271022,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal failure and impairment||Renal failure and impairment||Chronic kidney disease,62,0.00722,118.32
+46272242,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Gastrointestinal stenosis and obstruction NEC||Gastrointestinal stenosis and obstruction NEC||Intestinal obstruction co-occurrent and due to decreased peristalsis,62,0.00722,3.92
+764225,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms malignant site unspecified NEC||Neoplasms malignant site unspecified NEC||Recurrent malignant neoplastic disease",62,0.00722,2.1
+4310999,"Nervous system disorders||Seizures (incl subtypes)||Seizures and seizure disorders NEC||Seizures and seizure disorders NEC||Epilepsy, not refractory",61,0.0071,18.3
+200051,NA||NA||Ovarian and fallopian tube disorders||Ovarian and fallopian tube disorders||Primary malignant neoplasm of ovary,61,0.0071,90.43
+440649,NA||NA||NA||NA||Primary malignant neoplasm of head of pancreas,60,0.00699,42
+200959,NA||NA||Metastases||Metastases||Secondary malignant neoplasm of intrapelvic lymph nodes,60,0.00699,3.77
+25297,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Pharyngeal disorders (excl infections and neoplasms)||Pharyngeal disorders (excl infections and neoplasms)||Acute pharyngitis",59,0.00687,2.24
+4094343,NA||NA||NA||NA||Dislocations/sprains/strains,59,0.00687,12.66
+4003404,Infections and infestations||Mycobacterial infectious disorders||Tuberculous infections||Tuberculous infections||Inactive tuberculosis,59,0.00687,4.97
+80767,NA||NA||Breast disorders||Breast disorders||Breast lump,58,0.00675,7.5
+260139,NA||NA||Respiratory tract infections||Respiratory tract infections||Acute bronchitis,57,0.00664,4.89
+381316,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Cerebrovascular accident,57,0.00664,3
+136580,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Skin injuries and mechanical dermatoses||Skin injuries and mechanical dermatoses||Dehiscence of surgical wound,57,0.00664,2.07
+440448,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Appendicitis,56,0.00652,3.04
+195856,Hepatobiliary disorders||Bile duct disorders||Structural and other bile duct disorders||Structural and other bile duct disorders||Cholangitis,56,0.00652,7.29
+139900,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Urticaria,56,0.00652,2.09
+201916,Renal and urinary disorders||Urolithiases||Urinary tract lithiasis (excl renal)||Urinary tract lithiasis (excl renal)||Ureteric stone,55,0.0064,6.49
+438542,"Pregnancy, puerperium and perinatal conditions||Neonatal and perinatal conditions||Gestational age and weight conditions||Gestational age and weight conditions||Gestation less than 24 weeks",55,0.0064,15.69
+432851,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms malignant site unspecified NEC||Neoplasms malignant site unspecified NEC||Secondary malignant neoplastic disease",54,0.00629,3.78
+197381,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Gastrointestinal and abdominal pains (excl oral and throat)||Gastrointestinal and abdominal pains (excl oral and throat)||Epigastric pain,54,0.00629,3.89
+199764,NA||NA||Ovarian and fallopian tube disorders||Ovarian and fallopian tube disorders||Benign neoplasm of ovary,54,0.00629,9.04
+440329,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Herpes zoster without complication,54,0.00629,4.81
+196359,NA||NA||NA||NA||Primary malignant neoplasm of uterine cervix,53,0.00617,114.32
+26638,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Primary malignant neoplasm of esophagus,52,0.00605,47.33
+40486896,NA||NA||Hepatobiliary neoplasms malignant and unspecified||Hepatobiliary neoplasms malignant and unspecified||Primary malignant neoplasm of extrahepatic bile duct,52,0.00605,25.17
+137977,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Jaundice,52,0.00605,5.08
+199754,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant NEC||Gastrointestinal neoplasms malignant NEC||Primary malignant neoplasm of pancreas",52,0.00605,30.81
+193518,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Gastrointestinal stenosis and obstruction NEC||Gastrointestinal stenosis and obstruction NEC||Intestinal obstruction,51,0.00594,4.63
+81878,NA||NA||Neurological disorders NEC||Neurological disorders NEC||Benign paroxysmal positional vertigo,51,0.00594,2.71
+4153380,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Disorder of carotid artery,51,0.00594,6.51
+315078,"NA||NA||Cardiac disorders, signs and symptoms NEC||Cardiac disorders, signs and symptoms NEC||Palpitations",51,0.00594,3.67
+74104,NA||NA||NA||NA||Fetal condition affecting obstetrical care of mother,50,0.00582,2.16
+261687,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Hemoptysis,50,0.00582,5.18
+44784550,NA||NA||NA||NA||Preterm spontaneous labor with preterm delivery,50,0.00582,1.76
+4135932,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine disorders NEC||Uterine disorders NEC||Uterine scar from previous surgery affecting pregnancy",50,0.00582,1.68
+36713419,NA||NA||NA||NA||Renal cell carcinoma of kidney except renal pelvis,49,0.0057,36.43
+4148121,NA||NA||NA||NA||Tonsil and/or adenoid hypertrophy,49,0.0057,4.47
+4053584,NA||NA||NA||NA||Superficial injury,49,0.0057,3.73
+194990,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatic and hepatobiliary disorders NEC||Hepatic and hepatobiliary disorders NEC||Inflammatory disease of liver,48,0.00559,3.94
+4285898,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms benign||Lower gastrointestinal neoplasms benign||Lower gastrointestinal neoplasms benign||Polyp of colon",48,0.00559,3.29
+192855,Renal and urinary disorders||Bladder and bladder neck disorders (excl calculi)||Bladder neoplasms||Bladder neoplasms||Cancer in situ of urinary bladder,48,0.00559,9.6
+200461,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine disorders NEC||Uterine disorders NEC||Endometriosis of uterus",48,0.00559,4.75
+374034,NA||NA||Vision disorders||Vision disorders||Visual disturbance,48,0.00559,2.23
+256449,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchial conditions NEC||Bronchial conditions NEC||Bronchiectasis",48,0.00559,23.81
+374923,Cranial nerve disorders (excl neoplasms)||Facial cranial nerve disorders||Facial paralysis||Facial paralysis||Bell's palsy,48,0.00559,3.44
+73553,Musculoskeletal and connective tissue disorders||Joint disorders||Osteoarthropathies||Osteoarthropathies||Arthropathy,48,0.00559,6.27
+4064161,Vascular disorders||Vascular hypertensive disorders||Portal hypertensions||Portal hypertensions||Cirrhosis of liver,48,0.00559,6.31
+4248429,Gastrointestinal disorders||Gastrointestinal ulceration and perforation||Gastric ulcers and perforation||Gastric ulcers and perforation||Gastric ulcer without hemorrhage AND without perforation,47,0.00547,8.81
+4137220,Renal and urinary disorders||Nephropathies||Glomerulonephritis and nephrotic syndrome||Glomerulonephritis and nephrotic syndrome||Diabetic glomerulonephritis,47,0.00547,6.62
+4206148,NA||NA||Decreased and nonspecific blood pressure disorders and shock||Decreased and nonspecific blood pressure disorders and shock||Syncope and collapse,46,0.00536,2.28
+200528,NA||NA||Hepatic and hepatobiliary disorders||Hepatic and hepatobiliary disorders||Ascites,45,0.00524,8.58
+443612,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal failure and impairment||Renal failure and impairment||Chronic kidney disease stage 4,45,0.00524,44.82
+199074,Gastrointestinal disorders||Exocrine pancreas conditions||Acute and chronic pancreatitis||Acute and chronic pancreatitis||Acute pancreatitis,44,0.00512,8.91
+198809,Hepatobiliary disorders||Gallbladder disorders||Cholecystitis and cholelithiasis||Cholecystitis and cholelithiasis||Acute cholecystitis,44,0.00512,3.48
+140673,NA||NA||Metabolism disorders NEC||Metabolism disorders NEC||Hypothyroidism,43,0.00501,4.47
+27674,NA||NA||Gastrointestinal signs and symptoms||Gastrointestinal signs and symptoms||Nausea and vomiting,43,0.00501,2.12
+378419,NA||NA||NA||NA||Alzheimer's disease,43,0.00501,14.16
+199881,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube disorders NEC||Ovarian and fallopian tube disorders NEC||Endometriosis of ovary,43,0.00501,8.33
+197988,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Gastrointestinal and abdominal pains (excl oral and throat)||Gastrointestinal and abdominal pains (excl oral and throat)||Generalized abdominal pain,43,0.00501,2.14
+314658,NA||NA||Myocardial disorders||Myocardial disorders||Cardiomegaly,43,0.00501,4.09
+45769906,NA||NA||NA||NA||End stage renal disease on dialysis due to type 2 diabetes mellitus,42,0.00489,53.4
+314381,NA||NA||Ancillary infectious topics||Ancillary infectious topics||Acute febrile mucocutaneous lymph node syndrome,42,0.00489,4.64
+137820,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Postoperative hypothyroidism,42,0.00489,8.5
+4289933,NA||NA||Vascular hypertensive disorders||Vascular hypertensive disorders||Malignant hypertension,41,0.00477,1.39
+4130027,NA||NA||NA||NA||Subclinical iodine deficiency hypothyroidism,41,0.00477,4.37
+200779,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine disorders NEC||Uterine disorders NEC||Polyp of corpus uteri",41,0.00477,7.22
+435613,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Cellulitis,40,0.00466,3.65
+4009585,NA||NA||Urinary tract signs and symptoms||Urinary tract signs and symptoms||Abnormal urine,40,0.00466,5.58
+436659,NA||NA||Iron and trace metal metabolism disorders||Iron and trace metal metabolism disorders||Iron deficiency anemia,40,0.00466,5.03
+4101918,Skin and subcutaneous tissue disorders||Skin and subcutaneous tissue disorders NEC||Skin and subcutaneous tissue ulcerations||Skin and subcutaneous tissue ulcerations||Noninflammatory disorder of the female genital organs,40,0.00466,1.32
+201891,NA||NA||Gastrointestinal conditions NEC||Gastrointestinal conditions NEC||Disorder of stomach,39,0.00454,1.72
+319034,NA||NA||Vascular hypertensive disorders||Vascular hypertensive disorders||Hypertensive heart disease without congestive heart failure,39,0.00454,12.59
+197610,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube disorders NEC||Ovarian and fallopian tube disorders NEC||Cyst of ovary,39,0.00454,2.46
+374022,Nervous system disorders||Neurological disorders NEC||Nervous system disorders NEC||Nervous system disorders NEC||Hemiplegia,39,0.00454,2.85
+4193588,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchospasm and obstruction||Bronchospasm and obstruction||Moderate chronic obstructive pulmonary disease",39,0.00454,12
+4024707,NA||NA||NA||NA||Perception AND/OR perception disturbance,39,0.00454,3.56
+4303233,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms benign||Neoplasms benign site unspecified NEC||Neoplasms benign site unspecified NEC||Gastric polyp",39,0.00454,4.87
+373503,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Transient cerebral ischemia",39,0.00454,6.85
+4119786,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Interstitial lung disease",38,0.00442,18.89
+196152,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Peritonitis,38,0.00442,5.34
+36712821,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Postprocedural infection",38,0.00442,2.55
+4201717,NA||NA||NA||NA||Ileostomy present,38,0.00442,3.26
+4251304,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Intervertebral disc disorders NEC||Intervertebral disc disorders NEC||Intervertebral disc prolapse,38,0.00442,20.47
+374009,Psychiatric disorders||Psychiatric disorders NEC||Mental disorders NEC||Mental disorders NEC||Organic mental disorder,37,0.00431,4.05
+192367,Reproductive system and breast disorders||Cervix disorders (excl infections and inflammations)||Cervix disorders NEC||Cervix disorders NEC||Dysplasia of cervix,37,0.00431,6.22
+432545,Infections and infestations||Viral infectious disorders||Viral infections NEC||Viral infections NEC||Bacterial infectious disease,37,0.00431,2.76
+432586,NA||NA||Psychiatric disorders NEC||Psychiatric disorders NEC||Mental disorder,37,0.00431,4.27
+438028,"Injury, poisoning and procedural complications||Exposures, chemical injuries and poisoning||Poisoning and toxicity||Poisoning and toxicity||Poisoning by drug AND/OR medicinal substance",36,0.00419,2.5
+4038838,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Lymphomas NEC||Lymphomas unspecified NEC||Lymphomas unspecified NEC||Non-Hodgkin's lymphoma",36,0.00419,28.17
+44784217,"Cardiac disorders||Cardiac disorders, signs and symptoms NEC||Cardiac disorders NEC||Cardiac disorders NEC||Cardiac arrhythmia",36,0.00419,2.89
+374366,NA||NA||Cranial nerve disorders (excl neoplasms)||Cranial nerve disorders (excl neoplasms)||Sensorineural hearing loss,36,0.00419,2.47
+43530727,Vascular disorders||Vascular haemorrhagic disorders||Nervous system haemorrhagic disorders||Nervous system haemorrhagic disorders||Spontaneous cerebral hemorrhage,35,0.00407,19.17
+194081,Renal and urinary disorders||Bladder and bladder neck disorders (excl calculi)||Bladder infections and inflammations||Bladder infections and inflammations||Acute cystitis,35,0.00407,3.77
+201337,NA||NA||Bladder and bladder neck disorders (excl calculi)||Bladder and bladder neck disorders (excl calculi)||Disorder of bladder,35,0.00407,17.03
+321042,NA||NA||Cardiac arrhythmias||Cardiac arrhythmias||Cardiac arrest,35,0.00407,2.06
+36714388,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Viral upper respiratory tract infections||Viral upper respiratory tract infections||Influenza caused by seasonal influenza virus",35,0.00407,2.06
+40481315,"Pregnancy, puerperium and perinatal conditions||Neonatal and perinatal conditions||Gestational age and weight conditions||Gestational age and weight conditions||Gestational age unknown",35,0.00407,3.03
+434293,NA||NA||NA||NA||Primary malignant neoplasm of body of pancreas,35,0.00407,44.34
+31317,NA||NA||Gastrointestinal signs and symptoms||Gastrointestinal signs and symptoms||Dysphagia,34,0.00396,8.71
+378427,NA||NA||NA||NA||Tear film insufficiency,34,0.00396,2.71
+256646,"NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Primary malignant neoplasm of middle lobe, bronchus or lung",34,0.00396,20.21
+376382,Nervous system disorders||Headaches||Headaches NEC||Headaches NEC||Tension-type headache,34,0.00396,1.56
+436740,Reproductive system and breast disorders||Cervix disorders (excl infections and inflammations)||Cervix disorders NEC||Cervix disorders NEC||Cervical incompetence,34,0.00396,4.94
+377575,Surgical and medical procedures||Therapeutic procedures and supportive care NEC||Therapeutic procedures NEC||Therapeutic procedures NEC||Tinnitus,34,0.00396,2.94
+4174977,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Retinopathy due to diabetes mellitus,33,0.00384,8.3
+194995,Renal and urinary disorders||Urethral disorders (excl calculi)||Urethral disorders NEC||Urethral disorders NEC||Disorder of ureter,33,0.00384,22.21
+374914,NA||NA||Mood disorders and disturbances NEC||Mood disorders and disturbances NEC||Tetraplegia,33,0.00384,2.85
+193144,NA||NA||Metastases||Metastases||Secondary malignant neoplasm of adrenal gland,33,0.00384,5.42
+442752,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue pain and discomfort||Musculoskeletal and connective tissue pain and discomfort||Muscle pain,33,0.00384,1.97
+194611,NA||NA||Cervix disorders (excl infections and inflammations)||Cervix disorders (excl infections and inflammations)||Carcinoma in situ of uterine cervix,33,0.00384,12.42
+319049,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Acute respiratory failure,33,0.00384,4.67
+439743,NA||NA||NA||NA||Late effects of respiratory tuberculosis,33,0.00384,7.7
+46270513,"Respiratory, thoracic and mediastinal disorders||Respiratory tract neoplasms||Lower respiratory tract neoplasms||Lower respiratory tract neoplasms||Secondary malignant neoplasm of right lung",33,0.00384,4.91
+440320,NA||NA||NA||NA||Infection due to Escherichia coli,32,0.00373,1.69
+4154290,Cardiac disorders||Cardiac arrhythmias||Supraventricular arrhythmias||Supraventricular arrhythmias||Paroxysmal atrial fibrillation,32,0.00373,10.72
+432838,NA||NA||NA||NA||Primary malignant neoplasm of cardia of stomach,32,0.00373,32.84
+4024717,Psychiatric disorders||Cognitive and attention disorders and disturbances||Specific cognitive ability disturbances||Specific cognitive ability disturbances||Dyslexia AND/OR speech dysfunction,32,0.00373,2.41
+201618,NA||NA||Gastrointestinal conditions NEC||Gastrointestinal conditions NEC||Disorder of intestine,32,0.00373,3.56
+4270024,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Coronary necrosis and vascular insufficiency||Coronary necrosis and vascular insufficiency||Acute non-ST segment elevation myocardial infarction",32,0.00373,6.72
+444367,NA||NA||Gallbladder disorders||Gallbladder disorders||Cholelithiasis without obstruction,31,0.00361,2.52
+257094,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Congenital anomaly of lung",31,0.00361,9.55
+201901,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Abscess of liver,31,0.00361,6.61
+4247238,NA||NA||NA||NA||Primary malignant neoplasm of endometrium,31,0.00361,83.74
+444122,Hepatobiliary disorders||Bile duct disorders||Obstructive bile duct disorders (excl neoplasms)||Obstructive bile duct disorders (excl neoplasms)||Calculus of bile duct with obstruction,31,0.00361,7.03
+4024659,NA||NA||Maternal complications of pregnancy||Maternal complications of pregnancy||Gestational diabetes mellitus,31,0.00361,4.84
+192273,NA||NA||Endocrine neoplasms benign||Endocrine neoplasms benign||Benign neoplasm of adrenal gland,31,0.00361,4.77
+4096682,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Bleeding from nose,31,0.00361,2.81
+200054,NA||NA||Ureteric disorders||Ureteric disorders||Primary malignant neoplasm of ureter,31,0.00361,54.94
+376112,Nervous system disorders||Peripheral neuropathies||Peripheral neuropathies NEC||Peripheral neuropathies NEC||Polyneuropathy due to diabetes mellitus,31,0.00361,12.23
+4059290,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatic and hepatobiliary disorders NEC||Hepatic and hepatobiliary disorders NEC||Steatosis of liver,31,0.00361,3.19
+23220,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Pharyngeal disorders (excl infections and neoplasms)||Pharyngeal disorders (excl infections and neoplasms)||Chronic tonsillitis",31,0.00361,3.48
+441408,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Vomiting,30,0.00349,2.63
+442077,Psychiatric disorders||Psychiatric disorders NEC||Mental disorders NEC||Mental disorders NEC||Anxiety disorder,30,0.00349,3.17
+31967,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Nausea,30,0.00349,2.63
+260125,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchial conditions NEC||Bronchial conditions NEC||Acute bronchiolitis",30,0.00349,5.5
+4205240,NA||NA||NA||NA||Spontaneous vertex delivery,30,0.00349,1.4
+24660,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Pharyngeal disorders (excl infections and neoplasms)||Pharyngeal disorders (excl infections and neoplasms)||Acute tonsillitis",30,0.00349,3.5
+24609,Endocrine disorders||Endocrine and glandular disorders NEC||Endocrine disorders NEC||Endocrine disorders NEC||Hypoglycemia,30,0.00349,3.1
+439708,Psychiatric disorders||Sleep disorders and disturbances||Sleep disorders NEC||Sleep disorders NEC||Disorders of initiating and maintaining sleep,30,0.00349,5.9
+80502,Musculoskeletal and connective tissue disorders||Bone disorders (excl congenital and fractures)||Bone disorders NEC||Bone disorders NEC||Osteoporosis,30,0.00349,6.4
+4138403,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Polyp of nasal sinus,30,0.00349,3.77
+432843,NA||NA||NA||NA||Primary malignant neoplasm of tail of pancreas,30,0.00349,35.3
+196165,NA||NA||NA||NA||Cervical intraepithelial neoplasia grade 2,30,0.00349,4.6
+435515,"NA||NA||Water, electrolyte and mineral investigations||Water, electrolyte and mineral investigations||Hypo-osmolality and or hyponatremia",30,0.00349,2.97
+77079,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Spinal stenosis,30,0.00349,8.27
+196463,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatocellular damage and hepatitis NEC||Hepatocellular damage and hepatitis NEC||Alcoholic cirrhosis,30,0.00349,5.47
+318736,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Migraine,30,0.00349,5.1
+442588,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Obstructive sleep apnea syndrome,30,0.00349,6.23
+37208043,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube cysts and neoplasms||Ovarian and fallopian tube cysts and neoplasms||Benign neoplasm of left ovary,29,0.00338,5.28
+192353,Hepatobiliary disorders||Bile duct disorders||Structural and other bile duct disorders||Structural and other bile duct disorders||Disorder of gallbladder,29,0.00338,3.9
+4195847,Infections and infestations||Infections - pathogen unspecified||Abdominal and gastrointestinal infections||Abdominal and gastrointestinal infections||Acute peritonitis,29,0.00338,3.21
+141253,Endocrine disorders||Endocrine and glandular disorders NEC||Endocrine disorders NEC||Endocrine disorders NEC||Disorder of thyroid gland,29,0.00338,14.93
+4078925,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Pulmonary edema",28,0.00326,3.14
+197917,NA||NA||Bile duct disorders||Bile duct disorders||Disorder of biliary tract,28,0.00326,1.93
+253796,NA||NA||Pleural disorders||Pleural disorders||Pneumothorax,28,0.00326,6.14
+4112026,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Sequelae of cerebral infarction",28,0.00326,1.79
+436664,Metabolism and nutrition disorders||Vitamin related disorders||Fat soluble vitamin deficiencies and disorders||Fat soluble vitamin deficiencies and disorders||Vitamin A deficiency with ocular manifestation,28,0.00326,4.29
+4353709,NA||NA||NA||NA||Intracerebral vascular finding,28,0.00326,3.79
+135333,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Peripheral vasoconstriction, necrosis and vascular insufficiency||Peripheral vasoconstriction, necrosis and vascular insufficiency||Pressure ulcer",28,0.00326,5.14
+4332246,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Non-site specific necrosis and vascular insufficiency NEC||Non-site specific necrosis and vascular insufficiency NEC||Aneurysm",28,0.00326,3.79
+444078,Reproductive system and breast disorders||Female reproductive tract infections and inflammations||Uterine infections and inflammations (excl cervix)||Uterine infections and inflammations (excl cervix)||Inflammation of cervix,28,0.00326,4.29
+24134,NA||NA||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue disorders NEC||Neck pain,28,0.00326,8.57
+134736,NA||NA||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue disorders NEC||Backache,28,0.00326,4.79
+133834,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermatitis and eczema||Dermatitis and eczema||Atopic dermatitis,28,0.00326,6.57
+4225273,Gastrointestinal disorders||Gastrointestinal inflammatory conditions||Gastritis (excl infective)||Gastritis (excl infective)||Chronic gastritis,28,0.00326,1.29
+372903,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Retinal edema,28,0.00326,3.29
+192854,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine neoplasms||Uterine neoplasms||Intramural leiomyoma of uterus",27,0.00314,4.07
+4032878,NA||NA||NA||NA||Hair follicle disorder,27,0.00314,3.33
+4247962,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms malignant site unspecified NEC||Neoplasms malignant site unspecified NEC||Secondary malignant neoplasm of gastrointestinal tract",27,0.00314,12.63
+433736,NA||NA||Appetite and general nutritional disorders||Appetite and general nutritional disorders||Obesity,27,0.00314,5.89
+137989,NA||NA||Cardiac and vascular investigations (excl enzyme tests)||Cardiac and vascular investigations (excl enzyme tests)||Abnormal results of cardiovascular function studies,27,0.00314,2.48
+4195231,NA||NA||NA||NA||Acute gastric ulcer without hemorrhage AND without perforation,27,0.00314,12.19
+200348,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Metastases||Metastases to specified sites||Metastases to specified sites||Secondary malignant neoplasm of large intestine",26,0.00303,5.08
+373995,NA||NA||Deliria (incl confusion)||Deliria (incl confusion)||Delirium,26,0.00303,2.73
+432257,NA||NA||NA||NA||Primary malignant neoplasm of transverse colon,26,0.00303,24.08
+261774,"NA||NA||Respiratory tract infections||Respiratory tract infections||Respiratory tuberculosis, not confirmed bacteriologically or histologically",26,0.00303,11.77
+443732,NA||NA||NA||NA||Disorder due to type 2 diabetes mellitus,26,0.00303,5.54
+78472,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Microscopic hematuria,26,0.00303,5.58
+439658,"Pregnancy, puerperium and perinatal conditions||Pregnancy, labour, delivery and postpartum conditions||Normal pregnancy, labour and delivery||Normal pregnancy, labour and delivery||Disorder of pregnancy",25,0.00291,4.84
+40492458,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms unspecified malignancy and site unspecified NEC||Neoplasms unspecified malignancy and site unspecified NEC||Neoplasm of uncertain behavior of digestive organ",25,0.00291,11.08
+197806,NA||NA||Hepatobiliary neoplasms malignant and unspecified||Hepatobiliary neoplasms malignant and unspecified||Primary malignant neoplasm of gallbladder,25,0.00291,49.52
+4266367,NA||NA||Respiratory tract infections||Respiratory tract infections||Influenza,25,0.00291,1.84
+4158563,NA||NA||NA||NA||Primary malignant neoplasm of breast upper inner quadrant,25,0.00291,5.36
+4175002,Infections and infestations||Infections - pathogen unspecified||Dental and oral soft tissue infections||Dental and oral soft tissue infections||Chronic pericoronitis,25,0.00291,17.44
+37208040,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube cysts and neoplasms||Ovarian and fallopian tube cysts and neoplasms||Benign neoplasm of right ovary,25,0.00291,5
+77030,NA||NA||Breast disorders||Breast disorders||Disorder of breast,24,0.00279,8.21
+442105,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms benign||Neoplasms benign site unspecified NEC||Neoplasms benign site unspecified NEC||Benign neoplasm of soft tissue",24,0.00279,7.12
+4165998,"Blood and lymphatic system disorders||Spleen, lymphatic and reticuloendothelial system disorders||Lymphatic system disorders NEC||Lymphatic system disorders NEC||Generalized enlarged lymph nodes",24,0.00279,13.67
+42539582,Reproductive system and breast disorders||Reproductive tract disorders NEC||Reproductive tract disorders NEC (excl neoplasms)||Reproductive tract disorders NEC (excl neoplasms)||Acquired absence of genital organ,24,0.00279,3.96
+4340948,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatic fibrosis and cirrhosis||Hepatic fibrosis and cirrhosis||Hepatic fibrosis with hepatic sclerosis,24,0.00279,6.42
+4043738,Nervous system disorders||Encephalopathies||Encephalopathies NEC||Encephalopathies NEC||Hydrocephalus,24,0.00279,11.88
+261325,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchospasm and obstruction||Bronchospasm and obstruction||Pulmonary emphysema",24,0.00279,7.67
+4214376,"NA||NA||Metabolic, nutritional and blood gas investigations||Metabolic, nutritional and blood gas investigations||Hyperglycemia",24,0.00279,4.58
+46271811,NA||NA||NA||NA||Child-Pugh score class A,24,0.00279,8.21
+72693,"Pregnancy, puerperium and perinatal conditions||Foetal complications||Foetal complications NEC||Foetal complications NEC||Poor fetal growth affecting management",24,0.00279,4.54
+4201387,NA||NA||NA||NA||Tracheostomy present,24,0.00279,5.92
+40405599,Musculoskeletal and connective tissue disorders||Muscle disorders||Myopathies||Myopathies||Fibromyalgia,23,0.00268,12.87
+4306292,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Gastrointestinal and abdominal pains (excl oral and throat)||Gastrointestinal and abdominal pains (excl oral and throat)||Upper abdominal pain,23,0.00268,6.57
+37109302,NA||NA||NA||NA||Primary malignant neoplasm of left kidney,23,0.00268,57.39
+22340,NA||NA||Venous varices||Venous varices||Esophageal varices without bleeding,23,0.00268,7.83
+201066,NA||NA||Bile duct disorders||Bile duct disorders||Obstruction of bile duct,23,0.00268,7.3
+141095,"Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Rashes, eruptions and exanthems NEC||Rashes, eruptions and exanthems NEC||Acne",23,0.00268,4.74
+4196712,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchospasm and obstruction||Bronchospasm and obstruction||Mild chronic obstructive pulmonary disease",23,0.00268,14.61
+257907,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Disorder of lung,23,0.00268,5.22
+434610,NA||NA||Electrolyte and fluid balance conditions||Electrolyte and fluid balance conditions||Hyperkalemia,23,0.00268,296.96
+46273652,"Respiratory, thoracic and mediastinal disorders||Respiratory tract neoplasms||Lower respiratory tract neoplasms||Lower respiratory tract neoplasms||Secondary malignant neoplasm of left lung",23,0.00268,3.52
+195587,NA||NA||Gallbladder disorders||Gallbladder disorders||Cholelithiasis AND cholecystitis with obstruction,23,0.00268,6.04
+254669,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Disorder of vocal cord",23,0.00268,6.61
+201824,NA||NA||Bladder and bladder neck disorders (excl calculi)||Bladder and bladder neck disorders (excl calculi)||Benign neoplasm of bladder,23,0.00268,6.17
+319835,Cardiac disorders||Heart failures||Heart failures NEC||Heart failures NEC||Congestive heart failure,23,0.00268,8.74
+4208215,"Pregnancy, puerperium and perinatal conditions||Maternal complications of labour and delivery||Labour onset and length abnormalities||Labour onset and length abnormalities||Preterm premature rupture of membranes",22,0.00256,1.73
+4096315,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Intervertebral disc disorders NEC||Intervertebral disc disorders NEC||Injury of cervical spine,22,0.00256,14.59
+4001336,NA||NA||NA||NA||Concussion injury of brain,22,0.00256,1.59
+44808122,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Lymphomas non-Hodgkin's B-cell||Diffuse large B-cell lymphomas||Diffuse large B-cell lymphomas||Diffuse large B-cell lymphoma",22,0.00256,21.95
+432870,Blood and lymphatic system disorders||Platelet disorders||Platelet disorders NEC||Platelet disorders NEC||Thrombocytopenic disorder,22,0.00256,5.59
+37109303,NA||NA||NA||NA||Primary malignant neoplasm of right kidney,22,0.00256,15.86
+4014781,NA||NA||NA||NA||Closed traumatic subdural hemorrhage,22,0.00256,5.73
+4154783,NA||NA||NA||NA||Finding of general physiological development,22,0.00256,16.64
+194984,NA||NA||Hepatic and hepatobiliary disorders||Hepatic and hepatobiliary disorders||Disease of liver,22,0.00256,9.45
+4310400,Infections and infestations||Infections - pathogen unspecified||Abdominal and gastrointestinal infections||Abdominal and gastrointestinal infections||Acute appendicitis,22,0.00256,2.23
+4332304,Nervous system disorders||Seizures (incl subtypes)||Seizures and seizure disorders NEC||Seizures and seizure disorders NEC||Status epilepticus,22,0.00256,11.55
+4209746,Gastrointestinal disorders||Gastrointestinal ulceration and perforation||Duodenal ulcers and perforation||Duodenal ulcers and perforation||Duodenal ulcer without hemorrhage AND without perforation,22,0.00256,11.27
+37017452,General disorders and administration site conditions||Therapeutic and nontherapeutic effects (excl toxicity)||Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Drug resistance to antibacterial agent,22,0.00256,2.09
+135618,"Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Rashes, eruptions and exanthems NEC||Rashes, eruptions and exanthems NEC||Pruritic rash",22,0.00256,3.14
+441225,NA||NA||Hepatobiliary neoplasms malignant and unspecified||Hepatobiliary neoplasms malignant and unspecified||Primary malignant neoplasm of ampulla of Vater,22,0.00256,22.05
+372328,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Otitis media,21,0.00244,3.86
+196236,Vascular disorders||Decreased and nonspecific blood pressure disorders and shock||Circulatory collapse and shock||Circulatory collapse and shock||Septic shock,21,0.00244,2.19
+197033,NA||NA||NA||NA||Endometriosis of pelvic peritoneum,21,0.00244,1.24
+30133,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Upper respiratory tract infections NEC||Upper respiratory tract infections NEC||Acute laryngitis",21,0.00244,2.19
+439147,NA||NA||Dementia and amnestic conditions||Dementia and amnestic conditions||Amnesia,21,0.00244,6.24
+79864,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Hematuria syndrome,21,0.00244,3.14
+4188545,NA||NA||NA||NA||Primary malignant neoplasm of breast lower outer quadrant,21,0.00244,6.48
+372887,Nervous system disorders||Neurological disorders NEC||Nervous system disorders NEC||Nervous system disorders NEC||Disorder of brain,21,0.00244,5.57
+375290,NA||NA||NA||NA||Chronic tubotympanic suppurative otitis media,21,0.00244,8.19
+441800,NA||NA||NA||NA||Primary malignant neoplasm of descending colon,21,0.00244,27.95
+380055,Nervous system disorders||Nervous system neoplasms malignant and unspecified NEC||Central nervous system neoplasms malignant NEC||Central nervous system neoplasms malignant NEC||Primary malignant neoplasm of brain,21,0.00244,38.33
+193530,NA||NA||NA||NA||Follicular cyst of ovary,21,0.00244,4.62
+195588,Renal and urinary disorders||Bladder and bladder neck disorders (excl calculi)||Bladder disorders NEC||Bladder disorders NEC||Cystitis,21,0.00244,4.24
+36715792,Reproductive system and breast disorders||Breast disorders||Breast disorders NEC||Breast disorders NEC||Acquired absence of breast,21,0.00244,2.38
+201620,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal disorders NEC||Renal disorders NEC||Kidney stone,20,0.00233,6.95
+760119,NA||NA||NA||NA||Otitis media of bilateral ears,20,0.00233,10.1
+436074,Psychiatric disorders||Anxiety disorders and symptoms||Panic attacks and disorders||Panic attacks and disorders||Panic disorder,20,0.00233,9.85
+137053,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Seborrheic dermatitis,20,0.00233,4.2
+312327,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Acute myocardial infarction",20,0.00233,6.45
+77310,NA||NA||NA||NA||Deep vein phlebitis and thrombophlebitis of the leg,20,0.00233,14.1
+80165,"Pregnancy, puerperium and perinatal conditions||Foetal complications||Foetal complications NEC||Foetal complications NEC||Fetal disproportion",20,0.00233,2.4
+197803,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Overlapping malignant neoplasm of stomach,20,0.00233,4.7
+444459,Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign NEC||Large intestine benign neoplasm||Large intestine benign neoplasm||Benign neoplasm of sigmoid colon,20,0.00233,1.25
+444413,Seizures (incl subtypes)||Seizures and seizure disorders NEC||Seizure||Seizure||Febrile convulsion,20,0.00233,3.2
+444429,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Herpes simplex,20,0.00233,5.6
+133141,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Tinea pedis,20,0.00233,7.5
+72986,NA||NA||NA||NA||Disorder of lower leg,20,0.00233,12.15
+441919,"Pregnancy, puerperium and perinatal conditions||Pregnancy, labour, delivery and postpartum conditions||Multiple pregnancies||Multiple pregnancies||Twin pregnancy",20,0.00233,12.25
+443782,NA||NA||Movement disorders (incl parkinsonism)||Movement disorders (incl parkinsonism)||Tremor,20,0.00233,3.65
+4247079,NA||NA||Vascular disorders NEC||Vascular disorders NEC||Hemangioma of liver,19,0.00221,2.21
+4031019,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermatitis and eczema||Dermatitis and eczema||Allergic contact dermatitis,19,0.00221,2.32
+257315,NA||NA||Respiratory tract infections||Respiratory tract infections||Bacterial pneumonia,19,0.00221,15.58
+4297400,NA||NA||NA||NA||Mild cognitive disorder,19,0.00221,6.74
+435796,NA||NA||Electrolyte and fluid balance conditions||Electrolyte and fluid balance conditions||Dehydration,19,0.00221,3.95
+437590,Gastrointestinal disorders||Dental and gingival conditions||Dental pulp disorders||Dental pulp disorders||Necrosis of the pulp,19,0.00221,13.95
+759930,NA||NA||NA||NA||Intraductal carcinoma in situ of left breast,19,0.00221,9
+4168700,"Blood and lymphatic system disorders||Spleen, lymphatic and reticuloendothelial system disorders||Lymphatic system disorders NEC||Lymphatic system disorders NEC||Localized enlarged lymph nodes",19,0.00221,10.95
+4296554,NA||NA||NA||NA||Chronic persistent type B viral hepatitis,19,0.00221,1.47
+4235863,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Spinal cord injury,19,0.00221,28.16
+436445,"Injury, poisoning and procedural complications||Injuries NEC||Site specific injuries NEC||Site specific injuries NEC||Abrasion of tooth",19,0.00221,8.84
+40481857,"Respiratory, thoracic and mediastinal disorders||Pleural disorders||Pleural conditions NEC||Pleural conditions NEC||Fibrosis of pleura",19,0.00221,23.05
+437312,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Bleeding,19,0.00221,1.63
+4231580,Vascular disorders||Vascular haemorrhagic disorders||Gastrointestinal haemorrhages||Gastrointestinal haemorrhages||Acute gastric ulcer with hemorrhage,19,0.00221,10.37
+376647,NA||NA||NA||NA||Primary malignant neoplasm of soft tissues,19,0.00221,39.11
+439393,Vascular disorders||Vascular hypertensive disorders||Vascular hypertensive disorders NEC||Vascular hypertensive disorders NEC||Pre-eclampsia,19,0.00221,4
+195306,Gastrointestinal disorders||Gastrointestinal inflammatory conditions||Gastrointestinal inflammatory disorders NEC||Gastrointestinal inflammatory disorders NEC||Gastroduodenitis,19,0.00221,13.21
+257004,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchospasm and obstruction||Bronchospasm and obstruction||Acute exacerbation of chronic obstructive airways disease",19,0.00221,17.74
+259848,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Chronic rhinitis",19,0.00221,2.53
+4201388,NA||NA||NA||NA||Gastrostomy present,19,0.00221,4.42
+260336,"Respiratory, thoracic and mediastinal disorders||Respiratory tract neoplasms||Upper respiratory tract neoplasms||Upper respiratory tract neoplasms||Primary malignant neoplasm of glottis",19,0.00221,60.21
+439928,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Gangrenous disorder",18,0.0021,4.61
+193688,NA||NA||NA||NA||Clostridioides difficile infection,18,0.0021,3.61
+44784251,NA||NA||NA||NA||Acute appendicitis with localized peritonitis,18,0.0021,3.17
+197318,Hepatobiliary disorders||Gallbladder disorders||Gallbladder disorders NEC||Gallbladder disorders NEC||Cholesterolosis of gallbladder,18,0.0021,1.22
+763015,NA||NA||NA||NA||Cerebral infarction due to middle cerebral artery occlusion,18,0.0021,1.44
+4275423,Cardiac disorders||Cardiac arrhythmias||Supraventricular arrhythmias||Supraventricular arrhythmias||Supraventricular tachycardia,18,0.0021,8.89
+433596,NA||NA||Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary investigations (excl blood gases)||Abnormal sputum,18,0.0021,3.06
+4201390,NA||NA||NA||NA||Colostomy present,18,0.0021,4
+140214,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Eruption,18,0.0021,2.44
+4071164,NA||NA||Neurological disorders NEC||Neurological disorders NEC||Postherpetic neuralgia,18,0.0021,5.56
+4267558,NA||NA||Sexual function and fertility disorders||Sexual function and fertility disorders||Precocious puberty,18,0.0021,13.44
+75576,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Irritable bowel syndrome,18,0.0021,3.17
+137829,Blood and lymphatic system disorders||Haematological disorders NEC||Haematological disorders||Haematological disorders||Aplastic anemia,18,0.0021,5.78
+46269831,Hepatobiliary disorders||Bile duct disorders||Bile duct infections and inflammations||Bile duct infections and inflammations||Cholangitis due to bile duct calculus with obstruction,18,0.0021,3.67
+198091,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Primary malignant neoplasm of retroperitoneum,18,0.0021,48.61
+36716270,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal disorders NEC||Renal disorders NEC||Cyst of kidney,18,0.0021,4.5
+4268895,NA||NA||NA||NA||Female pelvic peritoneal adhesions,17,0.00198,1.41
+432837,NA||NA||NA||NA||Primary malignant neoplasm of cecum,17,0.00198,19.94
+40483613,NA||NA||NA||NA||Inflammatory disease of female genital structure,17,0.00198,1.65
+4084229,NA||NA||Purine and pyrimidine metabolism disorders||Purine and pyrimidine metabolism disorders||Primary gout,17,0.00198,12.82
+31602,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Disorder of the larynx",17,0.00198,3.06
+200775,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine disorders NEC||Uterine disorders NEC||Endometrial hyperplasia",17,0.00198,3.71
+4248801,NA||NA||NA||NA||Disease due to Gram-positive coccus,17,0.00198,1.47
+316437,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Cerebrovascular and spinal necrosis and vascular insufficiency||Cerebrovascular and spinal necrosis and vascular insufficiency||Cerebral atherosclerosis",17,0.00198,9.18
+36712845,Renal and urinary disorders||Urinary tract signs and symptoms||Urinary abnormalities||Urinary abnormalities||Isolated proteinuria,17,0.00198,3.29
+201900,NA||NA||Neuromuscular disorders||Neuromuscular disorders||Neurogenic bowel,17,0.00198,1.59
+374055,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Non-site specific necrosis and vascular insufficiency NEC||Non-site specific necrosis and vascular insufficiency NEC||Basilar artery syndrome",17,0.00198,2.65
+46269816,Hepatic and hepatobiliary disorders||Hepatobiliary signs and symptoms||Ascites||Ascites||Ascites due to alcoholic cirrhosis,17,0.00198,5.41
+197331,Reproductive system and breast disorders||Reproductive tract disorders NEC||Reproductive tract disorders NEC (excl neoplasms)||Reproductive tract disorders NEC (excl neoplasms)||Disorder of urinary tract,17,0.00198,2.65
+194702,NA||NA||Maternal complications of labour and delivery||Maternal complications of labour and delivery||Premature rupture of membranes,17,0.00198,3
+4089462,NA||NA||NA||NA||Ventricular premature complex,17,0.00198,4.24
+433701,Infections and infestations||Viral infectious disorders||Viral infections NEC||Viral infections NEC||Mycosis,17,0.00198,5.06
+193242,"Gastrointestinal disorders||Gastrointestinal ulceration and perforation||Gastrointestinal ulcers and perforation, site unspecified||Gastrointestinal ulcers and perforation, site unspecified||Perforation of intestine",17,0.00198,1.94
+76482,"Pregnancy, puerperium and perinatal conditions||Abortions and stillbirth||Abortions spontaneous||Abortions spontaneous||Missed miscarriage",17,0.00198,2.94
+192671,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Gastrointestinal hemorrhage,17,0.00198,5.65
+138387,NA||NA||Psychiatric disorders NEC||Psychiatric disorders NEC||Thyrotoxicosis,17,0.00198,4.06
+4245975,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatic and hepatobiliary disorders NEC||Hepatic and hepatobiliary disorders NEC||Hepatic failure,17,0.00198,5.59
+438979,NA||NA||NA||NA||Primary malignant neoplasm of hepatic flexure of colon,16,0.00186,22.31
+4101747,Nervous system disorders||Seizures (incl subtypes)||Partial simple seizures NEC||Partial simple seizures NEC||Localization-related(focal)(partial)idiopathic epilepsy and epileptic syndromes with seizures of localized onset,16,0.00186,16.5
+437805,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Oesophageal neoplasms malignant||Oesophageal neoplasms malignant||Primary malignant neoplasm of middle third of esophagus",16,0.00186,2.88
+443257,General disorders and administration site conditions||General system disorders NEC||General signs and symptoms NEC||General signs and symptoms NEC||Swelling / lump finding,16,0.00186,6.81
+134668,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Upper respiratory tract infections NEC||Upper respiratory tract infections NEC||Chronic maxillary sinusitis",16,0.00186,3.31
+255454,"NA||NA||Respiratory tract infections||Respiratory tract infections||Tuberculosis of lung, confirmed by sputum microscopy with or without culture",16,0.00186,12.31
+42535426,NA||NA||NA||NA||Acute nontraumatic subdural hemorrhage,16,0.00186,2.81
+4220313,"Psychiatric disorders||Dementia and amnestic conditions||Dementia NEC||Dementia NEC||Primary degenerative dementia of the Alzheimer type, senile onset",16,0.00186,18.62
+4226121,Vascular disorders||Vascular disorders NEC||Ocular vascular disorders NEC||Ocular vascular disorders NEC||Retinopathy due to type 2 diabetes mellitus,16,0.00186,2.56
+4241648,NA||NA||NA||NA||Benign neoplasm of extrahepatic bile ducts,16,0.00186,7.25
+261880,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Atelectasis",16,0.00186,5.44
+36712695,NA||NA||NA||NA||Suspected fetal abnormality affecting management of mother,16,0.00186,5.62
+314666,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Coronary necrosis and vascular insufficiency||Coronary necrosis and vascular insufficiency||Old myocardial infarction",16,0.00186,7.69
+196751,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Placenta previa with hemorrhage,16,0.00186,6.25
+435839,NA||NA||Lymphatic vessel disorders||Lymphatic vessel disorders||Lymphedema,16,0.00186,46.5
+26727,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Hematemesis,16,0.00186,4.38
+4289681,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube cysts and neoplasms||Ovarian and fallopian tube cysts and neoplasms||Primary malignant neoplasm of left ovary,16,0.00186,34.56
+376707,Infections - pathogen unspecified||Eye and eyelid infections||Conjunctivitis||Conjunctivitis||Acute conjunctivitis,16,0.00186,2.56
+4108814,Cardiac disorders||Pericardial disorders||Pericardial disorders NEC||Pericardial disorders NEC||Pericardial effusion - noninflammatory,16,0.00186,3.31
+4055341,Hepatobiliary disorders||Bile duct disorders||Obstructive bile duct disorders (excl neoplasms)||Obstructive bile duct disorders (excl neoplasms)||Calculus of bile duct with cholangitis,16,0.00186,2.69
+36715479,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal obstructive disorders||Renal obstructive disorders||Hydronephrosis due to ureteral obstruction,16,0.00186,5.5
+432899,NA||NA||Increased intracranial pressure and hydrocephalus||Increased intracranial pressure and hydrocephalus||Normal pressure hydrocephalus,16,0.00186,11.5
+433527,"NA||NA||Uterine, pelvic and broad ligament disorders||Uterine, pelvic and broad ligament disorders||Endometriosis",16,0.00186,4.56
+435783,Psychiatric disorders||Schizophrenia and other psychotic disorders||Psychotic disorder NEC||Psychotic disorder NEC||Schizophrenia,16,0.00186,7.25
+4081648,Female reproductive tract infections and inflammations||Vaginal and vulval infections and inflammations||Vulvovaginal inflammation||Vulvovaginal inflammation||Acute vaginitis,16,0.00186,3.81
+195480,NA||NA||Genitourinary tract disorders NEC||Genitourinary tract disorders NEC||Primary malignant neoplasm of renal pelvis,15,0.00175,19.73
+440631,NA||NA||NA||NA||Mycobacteriosis,15,0.00175,25.67
+4166125,"General disorders and administration site conditions||General system disorders NEC||General signs and symptoms NEC||General signs and symptoms NEC||Localized swelling, mass and lump, neck",15,0.00175,4.53
+4164922,NA||NA||Bone and joint injuries||Bone and joint injuries||Rotator cuff syndrome,15,0.00175,6.47
+141249,NA||NA||Endocrine neoplasms benign||Endocrine neoplasms benign||Benign neoplasm of thyroid gland,15,0.00175,5.13
+434894,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Acute posthemorrhagic anemia,15,0.00175,7.8
+433595,NA||NA||Electrolyte and fluid balance conditions||Electrolyte and fluid balance conditions||Edema,15,0.00175,2.8
+79833,NA||NA||Neurological disorders NEC||Neurological disorders NEC||Ménière's disease,15,0.00175,3.87
+37119299,NA||NA||NA||NA||Diverticulitis of large intestine without complication,15,0.00175,3.73
+381585,Ear and labyrinth disorders||Middle ear disorders (excl congenital)||Middle ear disorders NEC||Middle ear disorders NEC||Cholesteatoma of middle ear,15,0.00175,8.33
+4141360,Cardiac disorders||Cardiac arrhythmias||Supraventricular arrhythmias||Supraventricular arrhythmias||Chronic atrial fibrillation,15,0.00175,6.6
+321319,NA||NA||Myocardial disorders||Myocardial disorders||Cardiomyopathy,15,0.00175,5
+4188155,NA||NA||NA||NA||Hernia of anterior abdominal wall,15,0.00175,2.27
+4239883,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Benign neoplasm of female breast,15,0.00175,3.93
+436339,NA||NA||Bacterial infectious disorders||Bacterial infectious disorders||Bacterial infection due to Klebsiella pneumoniae,15,0.00175,1.6
+4091513,NA||NA||NA||NA||Passing flatus,15,0.00175,2.8
+4170137,Infections and infestations||Infections - pathogen unspecified||Ear infections||Ear infections||Non-suppurative otitis media,15,0.00175,3.93
+4243161,"Injury, poisoning and procedural complications||Injuries NEC||Site specific injuries NEC||Site specific injuries NEC||Open wound of head",15,0.00175,2.33
+316814,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Hyperventilation,15,0.00175,1.53
+4014296,NA||NA||NA||NA||Twins - both live born,15,0.00175,1.07
+4243445,NA||NA||Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign||Benign neoplasm of pancreas,15,0.00175,6.53
+4234112,NA||NA||NA||NA||Brain injury without open intracranial wound,15,0.00175,2.07
+4070976,Complications associated with device||Complications associated with device NEC||Complication associated with device||Complication associated with device||Mechanical complication of dialysis catheter,15,0.00175,4.4
+42537730,Surgical and medical procedures||Vascular therapeutic procedures||Arterial therapeutic procedures (excl aortic)||Arterial therapeutic procedures (excl aortic)||Coronary artery graft present,14,0.00163,1.71
+4197819,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Fibrosis of lung",14,0.00163,17.36
+4198855,Skin and subcutaneous tissue disorders||Angioedema and urticaria||Urticarias||Urticarias||Chronic urticaria,14,0.00163,9.64
+4209097,"Respiratory, thoracic and mediastinal disorders||Bronchial disorders (excl neoplasms)||Bronchospasm and obstruction||Bronchospasm and obstruction||Severe chronic obstructive pulmonary disease",14,0.00163,25.64
+442013,NA||NA||NA||NA||Burn,14,0.00163,2.14
+4085340,"Injury, poisoning and procedural complications||Injuries NEC||Non-site specific injuries NEC||Non-site specific injuries NEC||Radiation injury",14,0.00163,10.86
+436665,Psychiatric disorders||Mood disorders and disturbances NEC||Mood disorders NEC||Mood disorders NEC||Bipolar disorder,14,0.00163,25.93
+44790744,NA||NA||NA||NA||Place of occurrence of injury: home environment,14,0.00163,1.29
+4062791,"NA||NA||NA||NA||Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",14,0.00163,1.57
+74698,"Pregnancy, puerperium and perinatal conditions||Foetal complications||Foetal position and presentation abnormalities||Foetal position and presentation abnormalities||Breech presentation",14,0.00163,1.64
+4163710,Cardiac disorders||Myocardial disorders||Cardiomyopathies||Cardiomyopathies||Dilated cardiomyopathy,14,0.00163,13.36
+373182,Nervous system disorders||Neuromuscular disorders||Motor neurone diseases||Motor neurone diseases||Amyotrophic lateral sclerosis,14,0.00163,87.29
+195906,NA||NA||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Disorder of lumbar spine,14,0.00163,7.5
+434111,"Pregnancy, puerperium and perinatal conditions||Placental, amniotic and cavity disorders (excl haemorrhages)||Amniotic fluid and cavity disorders of pregnancy NEC||Amniotic fluid and cavity disorders of pregnancy NEC||Oligohydramnios",14,0.00163,2.93
+4311117,NA||NA||NA||NA||Radiation-induced disorder,14,0.00163,3.71
+4024716,"NA||NA||Cognitive and attention disorders and disturbances||Cognitive and attention disorders and disturbances||Aphasia, agnosia, dyslexia AND/OR apraxia",14,0.00163,1.79
+4216397,Nervous system disorders||Peripheral neuropathies||Peripheral neuropathies NEC||Peripheral neuropathies NEC||Nerve root disorder,14,0.00163,6.93
+198964,NA||NA||Viral infectious disorders||Viral infectious disorders||Chronic hepatitis C,14,0.00163,8.71
+257008,Infections and infestations||Infections - pathogen unspecified||Infections NEC||Infections NEC||Parapharyngeal abscess,14,0.00163,2.79
+77630,NA||NA||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue disorders NEC||Disorder of shoulder,14,0.00163,7.21
+4037874,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal obstructive disorders||Renal obstructive disorders||Congenital hydronephrosis,14,0.00163,3.71
+137548,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Cervical radiculopathy,13,0.00151,40.08
+4233816,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Polyp of vocal cord,13,0.00151,4.08
+435875,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Complication of pregnancy, childbirth and/or the puerperium",13,0.00151,1.46
+81893,NA||NA||Immune disorders NEC||Immune disorders NEC||Ulcerative colitis,13,0.00151,41.69
+380111,Immune system disorders||Allergic conditions||Atopic disorders||Atopic disorders||Acute atopic conjunctivitis,13,0.00151,2.46
+195596,Gastrointestinal disorders||Exocrine pancreas conditions||Acute and chronic pancreatitis||Acute and chronic pancreatitis||Chronic pancreatitis,13,0.00151,8.62
+378425,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Blepharitis,13,0.00151,3.69
+134305,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Leukaemias||Leukaemias lymphocytic NEC||Leukaemias lymphocytic NEC||Acute lymphoid leukemia",13,0.00151,108.92
+77644,NA||NA||NA||NA||Adhesive capsulitis of shoulder,13,0.00151,25.54
+30753,Gastrointestinal disorders||Gastrointestinal conditions NEC||Oesophageal disorders NEC||Oesophageal disorders NEC||Esophagitis,13,0.00151,12.62
+197672,NA||NA||Urinary tract signs and symptoms||Urinary tract signs and symptoms||Urinary incontinence,13,0.00151,1.54
+196726,NA||NA||Gallbladder disorders||Gallbladder disorders||Gallbladder calculus with acute cholecystitis and no obstruction,13,0.00151,2.85
+4230641,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Upper respiratory tract infections NEC||Upper respiratory tract infections NEC||Chronic pansinusitis",13,0.00151,4.54
+4024561,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue pain and discomfort||Musculoskeletal and connective tissue pain and discomfort||Pain in lower limb,13,0.00151,2.46
+37116361,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Accidental wound during procedure",13,0.00151,1.15
+4327337,NA||NA||NA||NA||Severe major depression without psychotic features,13,0.00151,3.46
+4110961,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Generalized ischemic myocardial dysfunction",13,0.00151,13.54
+4280498,Reproductive system and breast disorders||Cervix disorders (excl infections and inflammations)||Cervix disorders NEC||Cervix disorders NEC||Polyp of cervix,13,0.00151,3.15
+4063919,"General disorders and administration site conditions||General system disorders NEC||General signs and symptoms NEC||General signs and symptoms NEC||Acute lymphadenitis of face, head and neck",13,0.00151,4.38
+4228802,NA||NA||NA||NA||Mild recurrent major depression,13,0.00151,4.69
+435752,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Small intestinal neoplasms malignant||Small intestinal neoplasms malignant||Primary malignant neoplasm of duodenum",13,0.00151,15.92
+4289392,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube cysts and neoplasms||Ovarian and fallopian tube cysts and neoplasms||Primary malignant neoplasm of right ovary,13,0.00151,25
+4062557,NA||NA||Maternal complications of labour and delivery||Maternal complications of labour and delivery||False labor,13,0.00151,5.08
+4134603,NA||NA||NA||NA||Vascular disorder of intestine,13,0.00151,3
+196758,"Pregnancy, puerperium and perinatal conditions||Maternal complications of labour and delivery||Maternal complications of labour NEC||Maternal complications of labour NEC||Tumor of body of uterus affecting pregnancy",13,0.00151,1.54
+434169,"Investigations||Investigations, imaging and histopathology procedures NEC||Imaging procedures NEC||Imaging procedures NEC||Abnormal findings on diagnostic imaging of breast",13,0.00151,3
+4152376,"Injury, poisoning and procedural complications||Exposures, chemical injuries and poisoning||Poisoning and toxicity||Poisoning and toxicity||Intentional self poisoning",13,0.00151,1.31
+193871,NA||NA||Urinary tract signs and symptoms||Urinary tract signs and symptoms||Genuine stress incontinence,13,0.00151,2.46
+29735,Fungal infectious disorders||Candida infections||Candida infection||Candida infection||Candidiasis of mouth,13,0.00151,3.23
+197925,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Hemorrhage of rectum and anus,13,0.00151,2.77
+4059297,NA||NA||NA||NA||Toxic liver disease with acute hepatitis,13,0.00151,3.15
+434281,Infections and infestations||Fungal infectious disorders||Aspergillus infections||Aspergillus infections||Aspergillosis,13,0.00151,2.85
+440751,NA||NA||Respiratory tract infections||Respiratory tract infections||Peritonsillar abscess,12,0.0014,4.33
+4063163,"NA||NA||NA||NA||Multiple delivery, all by cesarean section",12,0.0014,1.25
+4061050,NA||NA||NA||NA||Subacute and chronic vaginitis,12,0.0014,10.25
+136788,NA||NA||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders||Spinal stenosis of lumbar region,12,0.0014,5.67
+435524,NA||NA||Sleep disorders and disturbances||Sleep disorders and disturbances||Sleep disorder,12,0.0014,3.42
+4118910,Vascular disorders||Vascular hypertensive disorders||Vascular hypertensive disorders NEC||Vascular hypertensive disorders NEC||Maternal hypertension,12,0.0014,4.17
+192676,NA||NA||NA||NA||Cervical intraepithelial neoplasia grade 1,12,0.0014,7.67
+432791,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Angioedema,12,0.0014,3.08
+4147498,"Nervous system disorders||Central nervous system infections and inflammations||Encephalitis NEC||Encephalitis NEC||Encephalitis, myelitis and encephalomyelitis",12,0.0014,7.92
+4148906,Vascular disorders||Vascular haemorrhagic disorders||Nervous system haemorrhagic disorders||Nervous system haemorrhagic disorders||Spontaneous subarachnoid hemorrhage,12,0.0014,3.5
+136497,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Scar conditions and fibrosis of skin,12,0.0014,4.58
+201529,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignancy unspecified NEC||Gastrointestinal neoplasms malignancy unspecified NEC||Neoplasm of uncertain behavior of stomach",12,0.0014,8.33
+79873,NA||NA||Urolithiases||Urolithiases||Urolith,12,0.0014,2.83
+138994,Haematopoietic neoplasms (excl leukaemias and lymphomas)||Myeloproliferative disorders (excl leukaemias)||Myeloproliferative neoplasm||Myeloproliferative neoplasm||Myelodysplastic syndrome,12,0.0014,17.83
+138717,NA||NA||NA||NA||Toxic diffuse goiter,12,0.0014,21.25
+201621,NA||NA||Bladder and bladder neck disorders (excl calculi)||Bladder and bladder neck disorders (excl calculi)||Chronic cystitis,12,0.0014,5.92
+440129,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Hypertrophy of nasal turbinates,12,0.0014,5.08
+440142,NA||NA||Thoracic disorders (excl lung and pleura)||Thoracic disorders (excl lung and pleura)||Disorder of mediastinum,12,0.0014,3.17
+314059,Cardiac disorders||Cardiac arrhythmias||Cardiac conduction disorders||Cardiac conduction disorders||Right bundle branch block,12,0.0014,2.67
+4170770,NA||NA||NA||NA||Epidermoid cyst,12,0.0014,5.58
+42872381,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Numbness and tingling sensation of skin,12,0.0014,2.58
+4283352,Vascular disorders||Vascular hypertensive disorders||Pregnancy associated hypertension||Pregnancy associated hypertension||Pre-eclampsia added to pre-existing hypertension,12,0.0014,4.67
+37108714,NA||NA||NA||NA||Seropositive rheumatoid arthritis of multiple joints,12,0.0014,12.33
+440674,NA||NA||Purine and pyrimidine metabolism disorders||Purine and pyrimidine metabolism disorders||Gout,12,0.0014,3.08
+4216644,NA||NA||Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign||Rectal polyp,12,0.0014,2
+4079750,Musculoskeletal and connective tissue disorders||Joint disorders||Osteoarthropathies||Osteoarthropathies||Osteoarthritis of knee,12,0.0014,5.33
+79061,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Slow transit constipation,12,0.0014,11.58
+196151,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Functional disorder of intestine,12,0.0014,3
+46271812,NA||NA||NA||NA||Child-Pugh score class B,12,0.0014,6.58
+74635,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Lumbosacral radiculopathy,12,0.0014,13.25
+37110393,Ear and labyrinth disorders||Hearing disorders||Hearing losses||Hearing losses||Sudden idiopathic hearing loss,12,0.0014,6.08
+197237,NA||NA||Prostatic disorders (excl infections and inflammations)||Prostatic disorders (excl infections and inflammations)||Benign neoplasm of prostate,12,0.0014,16.92
+441191,"Injury, poisoning and procedural complications||Injuries NEC||Non-site specific injuries NEC||Non-site specific injuries NEC||Poisoning due to arthropod venom",12,0.0014,1.67
+4195567,"Injury, poisoning and procedural complications||Injuries by physical agents||Radiation injuries||Radiation injuries||Irradiated enamel",12,0.0014,10.92
+4034633,NA||NA||NA||NA||Singers' nodes,12,0.0014,3.92
+4069652,Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal stenosis||Spinal stenosis||Stenosis of spinal canal due to intervertebral disc,12,0.0014,11.58
+4211974,Infections and infestations||Viral infectious disorders||Viral infections NEC||Viral infections NEC||Acute viral hepatitis,12,0.0014,4
+433516,Gastrointestinal disorders||Gastrointestinal inflammatory conditions||Gastrointestinal inflammatory disorders NEC||Gastrointestinal inflammatory disorders NEC||Duodenitis,12,0.0014,1.25
+433524,NA||NA||Gastrointestinal conditions NEC||Gastrointestinal conditions NEC||Disorder of appendix,12,0.0014,2.92
+194696,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine disorders NEC||Uterine disorders NEC||Dysmenorrhea",12,0.0014,2.83
+373474,NA||NA||Neurological disorders of the eye||Neurological disorders of the eye||Diplopia,11,0.00128,4.27
+4134454,Vascular disorders||Vascular disorders NEC||Non-site specific vascular disorders NEC||Non-site specific vascular disorders NEC||Vascular headache,11,0.00128,3.36
+315286,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Chronic ischemic heart disease",11,0.00128,2.36
+28457,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Pharyngeal disorders (excl infections and neoplasms)||Pharyngeal disorders (excl infections and neoplasms)||Hypertrophy of tonsils",11,0.00128,2
+435082,Musculoskeletal and connective tissue disorders||Fractures||Skull and face fractures||Skull and face fractures||Closed fracture of nasal bones,11,0.00128,8.55
+444070,Investigations||Cardiac and vascular investigations (excl enzyme tests)||Heart rate and pulse investigations||Heart rate and pulse investigations||Tachycardia,11,0.00128,3.55
+141323,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Upper respiratory tract infections NEC||Upper respiratory tract infections NEC||Acute maxillary sinusitis",11,0.00128,4.64
+380397,Infections - pathogen unspecified||Eye and eyelid infections||Conjunctivitis||Conjunctivitis||Keratoconjunctivitis,11,0.00128,3
+132553,Infections and infestations||Viral infectious disorders||Enteroviral infections NEC||Enteroviral infections NEC||Herpangina,11,0.00128,1.36
+138455,General disorders and administration site conditions||General system disorders NEC||Mucosal findings abnormal||Mucosal findings abnormal||Stomatitis,11,0.00128,3.27
+192606,NA||NA||Movement disorders (incl parkinsonism)||Movement disorders (incl parkinsonism)||Paraplegia,11,0.00128,2.45
+193520,Renal and urinary disorders||Urolithiases||Urinary tract lithiasis (excl renal)||Urinary tract lithiasis (excl renal)||Urinary bladder stone,11,0.00128,16.73
+197684,NA||NA||Urinary tract signs and symptoms||Urinary tract signs and symptoms||Dysuria,11,0.00128,2.36
+201352,Hepatobiliary disorders||Gallbladder disorders||Cholecystitis and cholelithiasis||Cholecystitis and cholelithiasis||Gallbladder calculus with acute cholecystitis and obstruction,11,0.00128,4.73
+253954,"Respiratory, thoracic and mediastinal disorders||Lower respiratory tract disorders (excl obstruction and infection)||Lower respiratory tract inflammatory and immunologic conditions||Lower respiratory tract inflammatory and immunologic conditions||Pulmonary tuberculosis",11,0.00128,8.91
+37208024,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Benign neoplasm of left breast,11,0.00128,1.45
+373425,NA||NA||Neurological disorders NEC||Neurological disorders NEC||Secondary malignant neoplasm of nervous system,11,0.00128,5.18
+379019,NA||NA||Infections - pathogen unspecified||Infections - pathogen unspecified||Conjunctivitis,11,0.00128,3.82
+381551,NA||NA||Peripheral neuropathies||Peripheral neuropathies||Polyneuropathy due to drug,11,0.00128,7
+4057826,Gastrointestinal disorders||Gastrointestinal motility and defaecation conditions||Gastrointestinal spastic and hypermotility disorders||Gastrointestinal spastic and hypermotility disorders||Irritable bowel syndrome with diarrhea,11,0.00128,1.82
+4096616,NA||NA||NA||NA||Diffuse brain injury,11,0.00128,2.09
+4133224,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Lower respiratory tract infections NEC||Lower respiratory tract infections NEC||Lobar pneumonia",11,0.00128,6.36
+4170145,NA||NA||NA||NA||Absence of lung,11,0.00128,1.64
+4271013,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms benign||Neoplasms benign site unspecified NEC||Neoplasms benign site unspecified NEC||Melanocytic nevus",11,0.00128,2.91
+4317816,NA||NA||NA||NA||Neoplasm of uncertain behavior of small intestine,11,0.00128,13.91
+435517,NA||NA||Acid-base disorders||Acid-base disorders||Acidosis,11,0.00128,1.73
+435835,NA||NA||Lymphatic vessel disorders||Lymphatic vessel disorders||Non-infectious disorder of lymphatics,11,0.00128,5.45
+436336,NA||NA||Central nervous system infections and inflammations||Central nervous system infections and inflammations||Herpes zoster with nervous system complication,11,0.00128,7.27
+440076,NA||NA||Physical examination and organ system status topics||Physical examination and organ system status topics||Short stature disorder,11,0.00128,5.45
+440457,NA||NA||Abortions and stillbirth||Abortions and stillbirth||Threatened miscarriage,11,0.00128,3.91
+441202,NA||NA||Decreased and nonspecific blood pressure disorders and shock||Decreased and nonspecific blood pressure disorders and shock||Anaphylaxis,11,0.00128,1.91
+444457,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Colorectal and anal neoplasms malignancy unspecified||Colorectal and anal neoplasms malignancy unspecified||Benign neoplasm of rectum",11,0.00128,2.64
+759931,NA||NA||NA||NA||Intraductal carcinoma in situ of right breast,11,0.00128,15.73
+80141,NA||NA||NA||NA||Functional diarrhea,11,0.00128,11.09
+80497,NA||NA||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Disorder of cervical spine,11,0.00128,14.82
+4281109,NA||NA||Autoimmune disorders||Autoimmune disorders||Autoimmune thyroiditis,10,0.00116,11.3
+4264144,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue pain and discomfort||Musculoskeletal and connective tissue pain and discomfort||Sacral back pain,10,0.00116,43.6
+40481327,NA||NA||Dental and gingival conditions||Dental and gingival conditions||Acquired absence of all teeth,10,0.00116,21.1
+193322,Gastrointestinal disorders||Gastrointestinal signs and symptoms||Gastrointestinal and abdominal pains (excl oral and throat)||Gastrointestinal and abdominal pains (excl oral and throat)||Right lower quadrant pain,10,0.00116,1.5
+4134595,Reproductive system and breast disorders||Reproductive tract disorders NEC||Reproductive tract disorders NEC (excl neoplasms)||Reproductive tract disorders NEC (excl neoplasms)||Chronic disease of genitourinary system,10,0.00116,1.3
+134438,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Contact dermatitis,10,0.00116,3
+141232,Skin and subcutaneous tissue disorders||Skin neoplasms malignant and unspecified||Skin neoplasms malignant and unspecified (excl melanoma)||Skin neoplasms malignant and unspecified (excl melanoma)||Malignant melanoma of skin,10,0.00116,51.7
+75909,Musculoskeletal and connective tissue disorders||Joint disorders||Osteoarthropathies||Osteoarthropathies||Disorder of bone,10,0.00116,4.7
+442111,Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign NEC||Large intestine benign neoplasm||Large intestine benign neoplasm||Benign neoplasm of ascending colon,10,0.00116,1.5
+437611,NA||NA||Maternal complications of pregnancy||Maternal complications of pregnancy||Ectopic pregnancy,10,0.00116,5.5
+314971,NA||NA||Respiratory disorders NEC||Respiratory disorders NEC||Chronic respiratory failure,10,0.00116,7.1
+28779,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Bleeding esophageal varices,10,0.00116,2.2
+260315,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Bacterial lower respiratory tract infections||Bacterial lower respiratory tract infections||Tuberculosis of lung with cavitation",10,0.00116,11.9
+198985,Renal and urinary disorders||Genitourinary tract disorders NEC||Genital and urinary tract disorders NEC||Genital and urinary tract disorders NEC||Primary malignant neoplasm of kidney,10,0.00116,11.6
+45772085,Infections and infestations||Infections - pathogen unspecified||Abdominal and gastrointestinal infections||Abdominal and gastrointestinal infections||Anal abscess,10,0.00116,6
+4134121,Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Radiculopathy||Radiculopathy||Lumbar radiculopathy,10,0.00116,20.2
+45770893,NA||NA||NA||NA||Preterm premature rupture of membranes with onset of labor within 24 hours of rupture,10,0.00116,1.1
+261514,"Respiratory, thoracic and mediastinal disorders||Respiratory tract neoplasms||Upper respiratory tract neoplasms||Upper respiratory tract neoplasms||Primary malignant neoplasm of supraglottis",10,0.00116,56.9
+76685,NA||NA||Muscle disorders||Muscle disorders||Myasthenia gravis,10,0.00116,89.1
+37110284,"Pregnancy, puerperium and perinatal conditions||Maternal complications of labour and delivery||Labour onset and length abnormalities||Labour onset and length abnormalities||Preterm delivery following Cesarean section",10,0.00116,6.7
+257628,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Systemic lupus erythematosus,10,0.00116,9.2
+193138,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Oesophageal neoplasms malignant||Oesophageal neoplasms malignant||Primary malignant neoplasm of lower third of esophagus",10,0.00116,8.2
+4129394,NA||NA||Fractures||Fractures||Fracture of lumbar spine,10,0.00116,4
+4187851,NA||NA||NA||NA||Primary malignant neoplasm of breast lower inner quadrant,10,0.00116,39.9
+42536652,NA||NA||NA||NA||Diverticulitis of intestine,10,0.00116,2.7
+193277,NA||NA||NA||NA||Deliveries by cesarean,10,0.00116,2.1
+4091163,"NA||NA||NA||NA||Respiratory tuberculosis, bacteriologically and histologically confirmed",10,0.00116,16.5
+255841,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Chronic bronchitis",10,0.00116,10.2
+80816,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)||Intervertebral disc disorders NEC||Intervertebral disc disorders NEC||Degeneration of intervertebral disc,10,0.00116,6.2
+4137430,Immune system disorders||Autoimmune disorders||Blood autoimmune disorders||Blood autoimmune disorders||Idiopathic thrombocytopenic purpura,10,0.00116,36.1
+4168222,"NA||NA||NA||NA||Intra-abdominal and pelvic swelling, mass and lump",10,0.00116,6
+4064036,"Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Rashes, eruptions and exanthems NEC||Rashes, eruptions and exanthems NEC||Generalized skin eruption caused by drug and medicament",10,0.00116,1.8
+319041,Vascular disorders||Decreased and nonspecific blood pressure disorders and shock||Vascular hypotensive disorders||Vascular hypotensive disorders||Orthostatic hypotension,10,0.00116,2.3
+139902,Skin and subcutaneous tissue disorders||Angioedema and urticaria||Urticarias||Urticarias||Allergic urticaria,10,0.00116,2.2
+140648,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Onychomycosis due to dermatophyte,10,0.00116,2.3
+40483292,NA||NA||NA||NA||Displacement of cervical intervertebral disc,10,0.00116,4.1
+4329041,NA||NA||General system disorders NEC||General system disorders NEC||Pain,10,0.00116,3.4
+4111721,NA||NA||NA||NA||Sequelae of intracerebral hemorrhage,10,0.00116,11.6
+4008261,Infections and infestations||Bacterial infectious disorders||Pseudomonal infections||Pseudomonal infections||Infection due to Pseudomonas aeruginosa,10,0.00116,2.1
+37110283,"Pregnancy, puerperium and perinatal conditions||Maternal complications of labour and delivery||Labour onset and length abnormalities||Labour onset and length abnormalities||Preterm delivery following induction of labor",10,0.00116,6.7
+195769,"Reproductive system and breast disorders||Uterine, pelvic and broad ligament disorders||Uterine neoplasms||Uterine neoplasms||Submucous leiomyoma of uterus",10,0.00116,11.9
+195562,NA||NA||Venous varices||Venous varices||Hemorrhoids,10,0.00116,1.6
+137275,NA||NA||Muscle disorders||Muscle disorders||Disorder of muscle,10,0.00116,3
+377845,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Cerebrovascular and spinal necrosis and vascular insufficiency||Cerebrovascular and spinal necrosis and vascular insufficiency||Anoxic encephalopathy",10,0.00116,15.4
+432260,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Oesophageal neoplasms malignant||Oesophageal neoplasms malignant||Primary malignant neoplasm of upper third of esophagus",10,0.00116,5.3
+260434,"Respiratory, thoracic and mediastinal disorders||Lower respiratory tract disorders (excl obstruction and infection)||Lower respiratory tract radiation disorders||Lower respiratory tract radiation disorders||Acute radiation pneumonitis",10,0.00116,12.4
+260123,NA||NA||Respiratory tract infections||Respiratory tract infections||Acute sinusitis,10,0.00116,3.8
+140641,NA||NA||Cutaneous neoplasms benign||Cutaneous neoplasms benign||Verruca vulgaris,10,0.00116,17.4
+378420,NA||NA||Peripheral neuropathies||Peripheral neuropathies||Paraneoplastic neuropathy,10,0.00116,2.1
+256722,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Lower respiratory tract infections NEC||Lower respiratory tract infections NEC||Bronchopneumonia",9,0.00105,7.44
+136779,NA||NA||NA||NA||Disorder of forearm,9,0.00105,10.11
+201606,NA||NA||Immune disorders NEC||Immune disorders NEC||Crohn's disease,9,0.00105,40.11
+197603,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Gastrointestinal stenosis and obstruction NEC||Gastrointestinal stenosis and obstruction NEC||Intestinal volvulus,9,0.00105,8.11
+442141,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms malignant and unspecified||Colorectal and anal neoplasms malignancy unspecified||Colorectal and anal neoplasms malignancy unspecified||Neoplasm of uncertain behavior of rectum",9,0.00105,4.11
+4051004,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Skin injuries and mechanical dermatoses||Skin injuries and mechanical dermatoses||Open wound of scalp,9,0.00105,1.22
+138708,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Lymphomas NEC||Lymphomas unspecified NEC||Lymphomas unspecified NEC||Acute leukemia",9,0.00105,47.67
+4032727,Infections and infestations||Infections - pathogen unspecified||Dental and oral soft tissue infections||Dental and oral soft tissue infections||Irreversible pulpitis,9,0.00105,19.33
+23653,Gastrointestinal disorders||Gastrointestinal conditions NEC||Oesophageal disorders NEC||Oesophageal disorders NEC||Foreign body in esophagus,9,0.00105,2.44
+374905,Psychiatric disorders||Sleep disorders and disturbances||Sleep disorders NEC||Sleep disorders NEC||Non-organic sleep disorder,9,0.00105,11.22
+135526,Nervous system disorders||Neurological disorders NEC||Nervous system disorders NEC||Nervous system disorders NEC||Spinal cord disease,9,0.00105,12.22
+436093,NA||NA||Embolism and thrombosis||Embolism and thrombosis||Disseminated intravascular coagulation,9,0.00105,1.78
+4162450,NA||NA||NA||NA||Congenital vesicoureterorenal reflux,9,0.00105,8.44
+435784,Psychiatric disorders||Anxiety disorders and symptoms||Anxiety disorders NEC||Anxiety disorders NEC||Somatoform disorder,9,0.00105,6.22
+4057513,NA||NA||NA||NA||Chronic superficial gastritis,9,0.00105,1.11
+318222,"Blood and lymphatic system disorders||Spleen, lymphatic and reticuloendothelial system disorders||Lymphatic system disorders NEC||Lymphatic system disorders NEC||Acute lymphadenitis",9,0.00105,2.33
+438815,"NA||NA||Placental, amniotic and cavity disorders (excl haemorrhages)||Placental, amniotic and cavity disorders (excl haemorrhages)||Disorder of amniotic cavity AND/OR membrane",9,0.00105,1.56
+137682,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Skin sensation disturbance,9,0.00105,1.56
+4162976,Vascular disorders||Decreased and nonspecific blood pressure disorders and shock||Circulatory collapse and shock||Circulatory collapse and shock||Vasovagal syncope,9,0.00105,1.44
+4146776,NA||NA||NA||NA||Helicobacter pylori gastrointestinal tract infection,9,0.00105,6.78
+376337,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Disorder of nervous system,9,0.00105,3.67
+4216188,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermatitis and eczema||Dermatitis and eczema||Nummular eczema,9,0.00105,3.44
+317002,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Non-site specific necrosis and vascular insufficiency NEC||Non-site specific necrosis and vascular insufficiency NEC||Low blood pressure",9,0.00105,2.11
+37208028,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Benign neoplasm of right breast,9,0.00105,2.44
+4102985,Psychiatric disorders||Sleep disorders and disturbances||Sleep disorders NEC||Sleep disorders NEC||Nonorganic insomnia,9,0.00105,7.89
+372604,NA||NA||Movement disorders (incl parkinsonism)||Movement disorders (incl parkinsonism)||Movement disorder,9,0.00105,11.78
+315296,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Preinfarction syndrome",9,0.00105,1.67
+443731,Metabolism and nutrition disorders||Glucose metabolism disorders (incl diabetes mellitus)||Diabetes mellitus (incl subtypes)||Diabetes mellitus (incl subtypes)||Renal disorder due to type 2 diabetes mellitus,9,0.00105,1.67
+442106,NA||NA||NA||NA||Idiopathic disease,9,0.00105,3.56
+201240,NA||NA||Reproductive tract disorders NEC||Reproductive tract disorders NEC||Secondary malignant neoplasm of female genital organ,9,0.00105,6.22
+37017432,NA||NA||NA||NA||Polyneuropathy due to type 2 diabetes mellitus,9,0.00105,3.78
+442177,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Metastases||Metastases to unknown and unspecified sites||Metastases to unknown and unspecified sites||Secondary malignant neoplasm of male genital organ",9,0.00105,6.22
+4053828,"Injury, poisoning and procedural complications||Injuries NEC||Chest and respiratory tract injuries NEC||Chest and respiratory tract injuries NEC||Fracture of thoracic spine",9,0.00105,2.56
+4003171,Nervous system disorders||Nervous system neoplasms malignant and unspecified NEC||Nervous system neoplasms unspecified malignancy NEC||Nervous system neoplasms unspecified malignancy NEC||Benign neoplasm of meninges,9,0.00105,7
+72434,Reproductive system and breast disorders||Penile and scrotal disorders (excl infections and inflammations)||Scrotal disorders NEC||Scrotal disorders NEC||Congenital hydrocele,9,0.00105,5.67
+4168701,"General disorders and administration site conditions||General system disorders NEC||General signs and symptoms NEC||General signs and symptoms NEC||Localized swelling, mass and lump, upper limb",9,0.00105,5
+141370,NA||NA||Epidermal and dermal conditions||Epidermal and dermal conditions||Toxic erythema,9,0.00105,2.78
+43531003,Nervous system disorders||Movement disorders (incl parkinsonism)||Dyskinesias and movement disorders NEC||Dyskinesias and movement disorders NEC||Essential tremor,9,0.00105,7.78
+443962,Cardiac disorders||Cardiac valve disorders||Mitral valvular disorders||Mitral valvular disorders||Mitral valve regurgitation,9,0.00105,5.44
+437992,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Renal function tests abnormal,9,0.00105,1.56
+380733,NA||NA||Aural disorders NEC||Aural disorders NEC||Otalgia,9,0.00105,1.33
+440072,NA||NA||Immunodeficiency syndromes||Immunodeficiency syndromes||Hypogammaglobulinemia,9,0.00105,7.11
+139750,NA||NA||NA||NA||Primary malignant neoplasm of skin,9,0.00105,42.44
+77162,NA||NA||NA||NA||Injury of ankle,9,0.00105,2.44
+375519,Psychiatric disorders||Schizophrenia and other psychotic disorders||Psychotic disorder NEC||Psychotic disorder NEC||Alcohol withdrawal syndrome,8,0.00093,6
+374631,Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Radiculopathy||Radiculopathy||Motor neuron disease,8,0.00093,13.38
+201612,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatocellular damage and hepatitis NEC||Hepatocellular damage and hepatitis NEC||Alcoholic liver damage,8,0.00093,2.88
+372324,Ear and labyrinth disorders||Middle ear disorders (excl congenital)||Middle ear disorders NEC||Middle ear disorders NEC||Eustachian tube disorder,8,0.00093,5.5
+440431,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Lower respiratory tract infections NEC||Lower respiratory tract infections NEC||Mycoplasma pneumonia",8,0.00093,4.12
+4124693,NA||NA||Cardiac and vascular disorders congenital||Cardiac and vascular disorders congenital||Hypertrophic cardiomyopathy,8,0.00093,7.38
+36684819,NA||NA||NA||NA||Primary malignant neoplasm of central portion of female left breast,8,0.00093,5.62
+320741,Vascular disorders||Embolism and thrombosis||Non-site specific embolism and thrombosis||Non-site specific embolism and thrombosis||Thrombophlebitis,8,0.00093,2.5
+444444,Gastrointestinal neoplasms benign||Gastrointestinal neoplasms benign NEC||Large intestine benign neoplasm||Large intestine benign neoplasm||Benign neoplasm of transverse colon,8,0.00093,1.12
+192836,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Primary malignant neoplasm of small intestine,8,0.00093,21.25
+444187,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Skin injuries and mechanical dermatoses||Skin injuries and mechanical dermatoses||Open wound,8,0.00093,1.38
+433143,NA||NA||NA||NA||Primary malignant neoplasm of appendix,8,0.00093,36.75
+4333680,Somatic symptom and related disorders||Somatic symptom disorders||Somatic symptom disorder||Somatic symptom disorder||Somatoform autonomic dysfunction,8,0.00093,3.25
+443600,Skin and subcutaneous tissue disorders||Skin and subcutaneous tissue disorders NEC||Skin and subcutaneous tissue ulcerations||Skin and subcutaneous tissue ulcerations||Localized infection of skin AND/OR subcutaneous tissue,8,0.00093,4.12
+443727,Metabolism and nutrition disorders||Acid-base disorders||Metabolic acidoses (excl diabetic acidoses)||Metabolic acidoses (excl diabetic acidoses)||Diabetic ketoacidosis,8,0.00093,4
+4229897,NA||NA||Sleep disorders and disturbances||Sleep disorders and disturbances||Stupor,8,0.00093,1.12
+4095312,NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Malignant tumor of nasopharynx,8,0.00093,20.75
+4094409,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms malignant and unspecified||Neoplasms malignant site unspecified NEC||Neoplasms malignant site unspecified NEC||Malignant neoplasms of independent (primary) multiple sites",8,0.00093,3.12
+4284982,Hepatobiliary disorders||Bile duct disorders||Obstructive bile duct disorders (excl neoplasms)||Obstructive bile duct disorders (excl neoplasms)||Calculus of bile duct without obstruction,8,0.00093,2.75
+4092879,NA||NA||NA||NA||Absent kidney,8,0.00093,1.38
+4242814,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Gastrointestinal neoplasms benign||Lip and oral cavity neoplasms benign||Lip and oral cavity neoplasms benign||Benign neoplasm of parotid gland",8,0.00093,4
+4344158,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Connective tissue disorders||Connective tissue disorders||Systemic lupus erythematosus with organ/system involvement,8,0.00093,7.88
+4344500,Musculoskeletal and connective tissue disorders||Musculoskeletal and connective tissue disorders NEC||Musculoskeletal and connective tissue conditions NEC||Musculoskeletal and connective tissue conditions NEC||Impingement syndrome of shoulder region,8,0.00093,15.25
+193165,Endocrine disorders||Endocrine and glandular disorders NEC||Endocrine disorders NEC||Endocrine disorders NEC||Disorder of adrenal gland,8,0.00093,23.88
+4242816,NA||NA||Endocrine neoplasms benign||Endocrine neoplasms benign||Benign neoplasm of pituitary gland,8,0.00093,6.12
+4056481,NA||NA||NA||NA||Isolated proteinuria with specified morphological lesion,8,0.00093,9.88
+435959,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Subarachnoid hemorrhage following injury without open intracranial wound,8,0.00093,7.25
+4154632,"NA||NA||NA||NA||Benign neoplasm of nose, middle ear and accessory sinuses",8,0.00093,2.5
+76191,NA||NA||NA||NA||Disorder of upper arm,8,0.00093,3.12
+4038835,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Lymphomas NEC||Lymphomas unspecified NEC||Lymphomas unspecified NEC||Hodgkin's disease",8,0.00093,53.38
+78804,Reproductive system and breast disorders||Breast disorders||Breast disorders NEC||Breast disorders NEC||Fibrocystic disease of breast,8,0.00093,15
+78474,Reproductive system and breast disorders||Breast disorders||Breast disorders NEC||Breast disorders NEC||Hypertrophy of breast,8,0.00093,5.25
+437233,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Plasma cell neoplasms||Plasma cell myelomas||Plasma cell myelomas||Multiple myeloma",8,0.00093,22.25
+4008556,Gastrointestinal disorders||Exocrine pancreas conditions||Pancreatic disorders NEC||Pancreatic disorders NEC||Pseudocyst of pancreas,8,0.00093,8.12
+195581,"NA||NA||Uterine, pelvic and broad ligament disorders||Uterine, pelvic and broad ligament disorders||Peritoneal adhesion",8,0.00093,1.25
+381581,Skin and subcutaneous tissue disorders||Skin appendage conditions||Sebaceous gland disorders||Sebaceous gland disorders||Chalazion,8,0.00093,3
+4254542,NA||NA||Hypothalamus and pituitary gland disorders||Hypothalamus and pituitary gland disorders||Hypopituitarism,8,0.00093,5.38
+437833,NA||NA||Electrolyte and fluid balance conditions||Electrolyte and fluid balance conditions||Hypokalemia,8,0.00093,1.88
+380094,NA||NA||Peripheral neuropathies||Peripheral neuropathies||Carpal tunnel syndrome,8,0.00093,7
+379832,NA||NA||Cranial nerve disorders (excl neoplasms)||Cranial nerve disorders (excl neoplasms)||Mixed conductive AND sensorineural hearing loss,8,0.00093,3.88
+4324261,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Pulmonary necrosis",8,0.00093,3.38
+4141481,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Enteroviral vesicular stomatitis with exanthem,8,0.00093,1.5
+375827,Infections and infestations||Infections - pathogen unspecified||Ear infections||Ear infections||Acute non-suppurative otitis media - serous,8,0.00093,1.62
+375545,"Eye disorders||Ocular structural change, deposit and degeneration NEC||Structural change, deposit and degeneration of eye NEC||Structural change, deposit and degeneration of eye NEC||Cataract",8,0.00093,1
+433125,NA||NA||Bacterial infectious disorders||Bacterial infectious disorders||Infection due to Staphylococcus aureus,8,0.00093,10.88
+4047747,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Cerebrovascular and spinal necrosis and vascular insufficiency||Cerebrovascular and spinal necrosis and vascular insufficiency||Subcortical vascular dementia",8,0.00093,17
+140821,NA||NA||Muscle disorders||Muscle disorders||Spasm,8,0.00093,5
+199067,NA||NA||Female reproductive tract infections and inflammations||Female reproductive tract infections and inflammations||Female pelvic inflammatory disease,8,0.00093,2.5
+4027729,NA||NA||Vascular haemorrhagic disorders||Vascular haemorrhagic disorders||Acute duodenal ulcer with hemorrhage,8,0.00093,3.75
+4313723,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Polyp of larynx",8,0.00093,10.12
+28179,NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Polyp of vocal cord or larynx,8,0.00093,5
+443327,Reproductive system and breast disorders||Reproductive tract disorders NEC||Reproductive tract infections and inflammations NEC||Reproductive tract infections and inflammations NEC||Rectal abscess,8,0.00093,3.25
+37208047,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Primary malignant neoplasm of left male breast,8,0.00093,5.62
+4340367,"Injury, poisoning and procedural complications||Procedural related injuries and complications NEC||Non-site specific procedural complications||Non-site specific procedural complications||Postoperative intestinal obstruction",8,0.00093,1.38
+192450,Renal and urinary disorders||Bladder and bladder neck disorders (excl calculi)||Bladder disorders NEC||Bladder disorders NEC||Retention of urine,7,0.00081,2.14
+443580,NA||NA||Heart failures||Heart failures||Systolic heart failure,7,0.00081,12.71
+443605,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Vascular dementia",7,0.00081,3.57
+37208048,Reproductive system and breast disorders||Breast disorders||Benign and malignant breast neoplasms||Benign and malignant breast neoplasms||Primary malignant neoplasm of right male breast,7,0.00081,47.57
+4138962,NA||NA||NA||NA||Acute duodenal ulcer without hemorrhage AND without perforation,7,0.00081,4.71
+4305500,NA||NA||Upper respiratory tract disorders (excl infections)||Upper respiratory tract disorders (excl infections)||Vasomotor rhinitis,7,0.00081,3.43
+192357,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Gastrointestinal stenosis and obstruction NEC||Gastrointestinal stenosis and obstruction NEC||Paralytic ileus,7,0.00081,2.86
+4093347,NA||NA||NA||NA||Stool finding,7,0.00081,2.43
+437655,NA||NA||Congenital reproductive tract and breast disorders||Congenital reproductive tract and breast disorders||Undescended testicle,7,0.00081,3.57
+4160328,NA||NA||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue infections and infestations||Tinea cruris,7,0.00081,1.71
+37110263,Reproductive system and breast disorders||Cervix disorders (excl infections and inflammations)||Cervix disorders NEC||Cervix disorders NEC||Acquired abnormality of cervix uteri,7,0.00081,1.29
+42539502,NA||NA||NA||NA||Transplanted kidney present,7,0.00081,71
+439846,Cardiac disorders||Heart failures||Heart failures NEC||Heart failures NEC||Left heart failure,7,0.00081,2
+4195694,"Respiratory, thoracic and mediastinal disorders||Lower respiratory tract disorders (excl obstruction and infection)||Parenchymal lung disorders NEC||Parenchymal lung disorders NEC||Acute respiratory distress syndrome",7,0.00081,5.71
+4282316,Psychiatric disorders||Depressed mood disorders and disturbances||Depressive disorders||Depressive disorders||Recurrent major depression,7,0.00081,8
+4289309,NA||NA||Cardiac and vascular disorders congenital||Cardiac and vascular disorders congenital||Atrial septal defect,7,0.00081,5.86
+4155910,"NA||NA||Electrolyte and fluid balance conditions||Electrolyte and fluid balance conditions||Edema, generalized",7,0.00081,1.86
+4320332,NA||NA||NA||NA||Hydrocele of tunica vaginalis,7,0.00081,6.29
+4137770,NA||NA||NA||NA||Invasive pulmonary aspergillosis,7,0.00081,8.14
+4121123,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Haematopoietic neoplasms (excl leukaemias and lymphomas)||Haematologic neoplasms NEC||Haematologic neoplasms NEC||Hemophagocytic lymphohistiocytosis",7,0.00081,24.14
+4100662,Skin and subcutaneous tissue disorders||Skin and subcutaneous tissue infections and infestations||Skin and subcutaneous tissue bacterial infections||Skin and subcutaneous tissue bacterial infections||Cellulitis of finger,7,0.00081,2
+434008,Immune system disorders||Immune disorders NEC||Immune and associated conditions NEC||Immune and associated conditions NEC||White blood cell disorder,7,0.00081,10.43
+4340383,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatocellular damage and hepatitis NEC||Hepatocellular damage and hepatitis NEC||Alcoholic hepatitis,7,0.00081,2
+4340394,Hepatobiliary disorders||Hepatic and hepatobiliary disorders||Hepatic fibrosis and cirrhosis||Hepatic fibrosis and cirrhosis||Hepatic sclerosis,7,0.00081,8.29
+4077577,NA||NA||NA||NA||Moderate recurrent major depression,7,0.00081,10.43
+4067766,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Skeletal neoplasms malignant and unspecified||Bone neoplasms unspecified malignancy||Bone neoplasms unspecified malignancy||Fracture of bone in neoplastic disease",7,0.00081,2.57
+4344258,"Injury, poisoning and procedural complications||Bone and joint injuries||Bone and joint injuries NEC||Bone and joint injuries NEC||Bursitis of shoulder",7,0.00081,14.29
+4066819,NA||NA||NA||NA||Localized skin eruption caused by drug and medicament,7,0.00081,2
+435220,NA||NA||NA||NA||Severe recurrent major depression without psychotic features,7,0.00081,13.57
+435243,Psychiatric disorders||Psychiatric disorders NEC||Substance related and addictive disorders||Substance related and addictive disorders||Alcohol dependence,7,0.00081,7.14
+40483317,Nervous system disorders||Seizures (incl subtypes)||Seizures and seizure disorders NEC||Seizures and seizure disorders NEC||Refractory epilepsy,7,0.00081,35.14
+435785,Nervous system disorders||Neurological disorders NEC||Nervous system disorders NEC||Nervous system disorders NEC||Meningitis,7,0.00081,3.14
+133228,Infections and infestations||Bacterial infectious disorders||Bacterial infections NEC||Bacterial infections NEC||Dental caries,7,0.00081,3.57
+40482662,NA||NA||Joint disorders||Joint disorders||Disorder of joint of ankle and/or foot,7,0.00081,1.86
+4044082,Nervous system disorders||Seizures (incl subtypes)||Partial simple seizures NEC||Partial simple seizures NEC||Localization-related symptomatic epilepsy,7,0.00081,8.71
+4033319,NA||NA||NA||NA||Lipoma of skin and subcutaneous tissue of trunk,7,0.00081,1.86
+436936,Nervous system disorders||Nervous system neoplasms benign||Nervous system neoplasms benign NEC||Nervous system neoplasms benign NEC||Benign neoplasm of cranial nerve,7,0.00081,9.14
+437082,NA||NA||Joint disorders||Joint disorders||Ankylosing spondylitis,7,0.00081,55.14
+437827,NA||NA||Lipid metabolism disorders||Lipid metabolism disorders||Pure hypercholesterolemia,7,0.00081,6.14
+437828,"NA||NA||Bone, calcium, magnesium and phosphorus metabolism disorders||Bone, calcium, magnesium and phosphorus metabolism disorders||Disorder of calcium metabolism",7,0.00081,3.14
+438368,NA||NA||Thoracic disorders (excl lung and pleura)||Thoracic disorders (excl lung and pleura)||Primary malignant neoplasm of thymus,7,0.00081,55.14
+377560,"Eye disorders||Ocular infections, irritations and inflammations||Lid, lash and lacrimal infections, irritations and inflammations||Lid, lash and lacrimal infections, irritations and inflammations||Internal hordeolum",7,0.00081,1.71
+439082,NA||NA||Menopause related conditions||Menopause related conditions||Menopausal syndrome,7,0.00081,5.43
+439620,"Injury, poisoning and procedural complications||Injuries NEC||Non-site specific injuries NEC||Non-site specific injuries NEC||Late effect of accidental injury",7,0.00081,2
+134870,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Scaly conditions||Scaly conditions||Pityriasis versicolor,7,0.00081,5.43
+440216,"NA||NA||Metabolic, nutritional and blood gas investigations||Metabolic, nutritional and blood gas investigations||Abnormal glucose tolerance test",7,0.00081,3.43
+440276,"NA||NA||Complications associated with device||Complications associated with device||Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",7,0.00081,44.14
+37118025,Musculoskeletal and connective tissue disorders||Muscle disorders||Myopathies||Myopathies||Myofascial pain syndrome,7,0.00081,15.14
+36684823,Renal and urinary disorders||Renal disorders (excl nephropathies)||Renal neoplasms||Renal neoplasms||Benign neoplasm of left kidney,7,0.00081,8.71
+36684821,NA||NA||NA||NA||Primary malignant neoplasm of central portion of female right breast,7,0.00081,47.57
+80809,Musculoskeletal and connective tissue disorders||Joint disorders||Arthropathies NEC||Arthropathies NEC||Rheumatoid arthritis,7,0.00081,5.29
+441258,Blood and lymphatic system disorders||Anaemias nonhaemolytic and marrow depression||Anaemias NEC||Anaemias NEC||Anemia in neoplastic disease,7,0.00081,1.57
+441829,"NA||NA||Water, electrolyte and mineral investigations||Water, electrolyte and mineral investigations||Hyperosmolality and or hypernatremia",7,0.00081,1.29
+442069,NA||NA||Obstetric and gynaecological therapeutic procedures||Obstetric and gynaecological therapeutic procedures||Vacuum extractor delivery - delivered,7,0.00081,1.14
+316822,Investigations||Cardiac and vascular investigations (excl enzyme tests)||Cardiac auscultatory investigations||Cardiac auscultatory investigations||Heart murmur,7,0.00081,2
+443412,Immune system disorders||Autoimmune disorders||Endocrine autoimmune disorders||Endocrine autoimmune disorders||Type 1 diabetes mellitus without complication,7,0.00081,5
+261326,NA||NA||Respiratory tract infections||Respiratory tract infections||Viral pneumonia,7,0.00081,1.43
+443929,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Postpartum hemorrhage,7,0.00081,1.86
+444074,NA||NA||NA||NA||Victim of vehicular AND/OR traffic accident,7,0.00081,1.43
+260134,NA||NA||Respiratory tract infections||Respiratory tract infections||Croup,7,0.00081,3.14
+200452,NA||NA||Skin and subcutaneous tissue disorders NEC||Skin and subcutaneous tissue disorders NEC||Disorder of female genital organs,7,0.00081,1.86
+197605,NA||NA||Reproductive tract disorders NEC||Reproductive tract disorders NEC||Inflammatory disorder of male genital organ,7,0.00081,6.57
+197593,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Impaction of intestine,7,0.00081,2.71
+194420,NA||NA||NA||NA||Endometriosis of fallopian tube,7,0.00081,1.43
+194280,NA||NA||Helminthic disorders||Helminthic disorders||Clonorchiasis,7,0.00081,5.43
+193402,Infections and infestations||Infections - pathogen unspecified||Abdominal and gastrointestinal infections||Abdominal and gastrointestinal infections||Bacterial enteritis,7,0.00081,4.14
+192255,NA||NA||NA||NA||Primary malignant neoplasm of pylorus,7,0.00081,2.71
+78508,NA||NA||Joint disorders||Joint disorders||Arthralgia of the ankle and/or foot,7,0.00081,1.71
+4240538,Infections and infestations||Infections - pathogen unspecified||Dental and oral soft tissue infections||Dental and oral soft tissue infections||Acute pericoronitis,7,0.00081,5.71
+4264073,NA||NA||Injuries NEC||Injuries NEC||Fracture of tooth,7,0.00081,4.14
+4228361,Skin and subcutaneous tissue disorders||Epidermal and dermal conditions||Dermal and epidermal conditions NEC||Dermal and epidermal conditions NEC||Asteatosis cutis,6,0.0007,2.33
+200970,NA||NA||Prostatic disorders (excl infections and inflammations)||Prostatic disorders (excl infections and inflammations)||Carcinoma in situ of prostate,6,0.0007,41.17
+4193868,"NA||NA||NA||NA||Sedative, hypnotic AND/OR anxiolytic-related disorder",6,0.0007,3.17
+200447,NA||NA||Procedural related injuries and complications NEC||Procedural related injuries and complications NEC||Gastrointestinal complication,6,0.0007,1.33
+199752,NA||NA||Ovarian and fallopian tube disorders||Ovarian and fallopian tube disorders||Secondary malignant neoplasm of ovary,6,0.0007,2.17
+438905,Nervous system disorders||Peripheral neuropathies||Peripheral neuropathies NEC||Peripheral neuropathies NEC||Late effect of spinal cord injury,6,0.0007,16.33
+438491,NA||NA||Maternal complications of labour and delivery||Maternal complications of labour and delivery||Failed medical induction of labor,6,0.0007,1
+438350,NA||NA||NA||NA||Pneumocystosis,6,0.0007,10.33
+198192,NA||NA||Renal disorders (excl nephropathies)||Renal disorders (excl nephropathies)||Renal and perinephric abscess,6,0.0007,3.17
+197938,"NA||NA||Uterine, pelvic and broad ligament disorders||Uterine, pelvic and broad ligament disorders||Uterine inertia",6,0.0007,2.83
+4179873,NA||NA||NA||NA||Degenerative disorder,6,0.0007,5
+42537682,"Musculoskeletal and connective tissue disorders||Tendon, ligament and cartilage disorders||Tendon disorders||Tendon disorders||Enthesopathy of upper limb",6,0.0007,18
+196895,NA||NA||NA||NA||Viral gastroenteritis due to Norwalk-like agent,6,0.0007,1.67
+4000609,Gastrointestinal disorders||Gastrointestinal conditions NEC||Gastrointestinal disorders NEC||Gastrointestinal disorders NEC||Disorder of upper gastrointestinal tract,6,0.0007,2.17
+195867,NA||NA||Vulvovaginal disorders (excl infections and inflammations)||Vulvovaginal disorders (excl infections and inflammations)||Noninflammatory disorder of the vagina,6,0.0007,3.83
+437409,"Injury, poisoning and procedural complications||Injuries NEC||Site specific injuries NEC||Site specific injuries NEC||Intracranial injury",6,0.0007,5.67
+74728,Musculoskeletal and connective tissue disorders||Synovial and bursal disorders||Synovial disorders||Synovial disorders||Synovitis and tenosynovitis,6,0.0007,5
+75210,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Carcinoma in situ of rectum,6,0.0007,2.33
+75344,"Musculoskeletal and connective tissue disorders||Tendon, ligament and cartilage disorders||Cartilage disorders||Cartilage disorders||Intervertebral disc disorder",6,0.0007,3.33
+75512,NA||NA||Gastrointestinal neoplasms malignant and unspecified||Gastrointestinal neoplasms malignant and unspecified||Carcinoma in situ of colon,6,0.0007,6.5
+4240033,NA||NA||NA||NA||Impacted teeth with abnormal position,6,0.0007,7.5
+4238808,"Respiratory, thoracic and mediastinal disorders||Respiratory tract infections||Respiratory tract infections NEC||Respiratory tract infections NEC||Empyema of pleura",6,0.0007,7.33
+437247,Blood and lymphatic system disorders||Anaemias nonhaemolytic and marrow depression||Anaemias NEC||Anaemias NEC||Anemia of chronic disease,6,0.0007,2
+4025198,Vascular disorders||Vascular haemorrhagic disorders||Haemorrhages NEC||Haemorrhages NEC||Hemorrhagic complication of pregnancy,6,0.0007,1
+4189343,"NA||NA||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Aortic valve stenosis",6,0.0007,9.33
+760555,NA||NA||NA||NA||Bilateral age-related cataract,6,0.0007,2
+4041682,Nervous system disorders||Neurological disorders NEC||Coordination and balance disturbances||Coordination and balance disturbances||Late onset cerebellar ataxia,6,0.0007,71
+136354,NA||NA||Skin and subcutaneous tissue disorders NEC||Skin and subcutaneous tissue disorders NEC||Secondary malignant neoplasm of skin,6,0.0007,4.67
+40484908,NA||NA||NA||NA||Imaging of brain abnormal,6,0.0007,1.67
+4067313,NA||NA||NA||NA||Cervical disc disorder with radiculopathy,6,0.0007,34
+4098851,NA||NA||NA||NA||Habitual friction injury of tooth,6,0.0007,37
+192956,Hepatobiliary disorders||Gallbladder disorders||Gallbladder disorders NEC||Gallbladder disorders NEC||Cholecystitis,6,0.0007,1.17
+4335747,Ear and labyrinth disorders||Aural disorders NEC||Ear disorders NEC||Ear disorders NEC||Disorder of inner ear,6,0.0007,2.33
+4110362,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Pharyngeal disorders (excl infections and neoplasms)||Pharyngeal disorders (excl infections and neoplasms)||Recurrent acute tonsillitis",6,0.0007,2.67
+4148260,Urolithiases||Urinary tract lithiasis (excl renal)||Ureterolithiasis||Ureterolithiasis||Calculus of kidney and ureter,6,0.0007,1.5
+4281027,Reproductive system and breast disorders||Ovarian and fallopian tube disorders||Ovarian and fallopian tube cysts and neoplasms||Ovarian and fallopian tube cysts and neoplasms||Secondary malignant neoplasm of left ovary,6,0.0007,2.67
+141825,Metabolism and nutrition disorders||Metabolism disorders NEC||Metabolic disorders NEC||Metabolic disorders NEC||Simple goiter,6,0.0007,6
+81636,NA||NA||Neonatal and perinatal conditions||Neonatal and perinatal conditions||Excessive fetal growth affecting management of mother,6,0.0007,2.17
+4313365,Nervous system disorders||Nervous system neoplasms malignant and unspecified NEC||Nervous system neoplasms unspecified malignancy NEC||Nervous system neoplasms unspecified malignancy NEC||Neoplasm of uncertain behavior of brain,6,0.0007,3.17
+4152169,NA||NA||NA||NA||Failure of genital response,6,0.0007,5.33
+4260546,General disorders and administration site conditions||General system disorders NEC||Mucosal findings abnormal||Mucosal findings abnormal||Ulcerative stomatitis,6,0.0007,10.0
+4153359,Musculoskeletal and connective tissue disorders||Joint disorders||Spondyloarthropathies||Spondyloarthropathies||Arthritis of spine,6,0.0007,10.33
+4160055,NA||NA||NA||NA||Clonic hemifacial spasm,6,0.0007,11.17
+260730,"Injury, poisoning and procedural complications||Injuries NEC||Ear injuries NEC||Ear injuries NEC||Chronic atticoantral suppurative otitis media",6,0.0007,8
+261599,"Respiratory, thoracic and mediastinal disorders||Upper respiratory tract disorders (excl infections)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Laryngeal and adjacent sites disorders NEC (excl infections and neoplasms)||Vocal cord paralysis",6,0.0007,4.17
+43021258,NA||NA||NA||NA||Infection associated with implant,6,0.0007,1.83
+443247,NA||NA||NA||NA||Labor and delivery complicated by fetal heart rate anomaly,6,0.0007,1.5
+4291028,Gastrointestinal disorders||Gastrointestinal ulceration and perforation||Peptic ulcers and perforation||Peptic ulcers and perforation||Peptic ulcer without hemorrhage AND without perforation,6,0.0007,6.67
+4174044,Vascular disorders||Vascular haemorrhagic disorders||Gastrointestinal haemorrhages||Gastrointestinal haemorrhages||Chronic peptic ulcer with hemorrhage,6,0.0007,1.67
+258866,"Respiratory, thoracic and mediastinal disorders||Respiratory disorders NEC||Respiratory tract disorders NEC||Respiratory tract disorders NEC||Respiratory distress syndrome in the newborn",6,0.0007,77.67
+441848,NA||NA||Cranial nerve disorders (excl neoplasms)||Cranial nerve disorders (excl neoplasms)||Cranial nerve disorder,6,0.0007,2
+319826,Vascular disorders||Vascular hypertensive disorders||Vascular hypertensive disorders NEC||Vascular hypertensive disorders NEC||Secondary hypertension,6,0.0007,3.67
+81247,NA||NA||Genitourinary tract disorders NEC||Genitourinary tract disorders NEC||Carcinoma in situ of urinary system,6,0.0007,1.5
+440032,Infections and infestations||Viral infectious disorders||Herpes viral infections||Herpes viral infections||Cytomegalovirus infection,6,0.0007,3
+373204,NA||NA||Vitamin related disorders||Vitamin related disorders||Conjunctival xerosis,6,0.0007,4
+373852,NA||NA||Neurological disorders NEC||Neurological disorders NEC||Neuralgia,6,0.0007,4.83
+762976,"NA||NA||NA||NA||Idiopathic generalized epilepsy, non-refractory",6,0.0007,24.67
+434085,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Duodenal and small intestinal stenosis and obstruction||Duodenal and small intestinal stenosis and obstruction||Obstruction of duodenum,6,0.0007,5.5
+4291025,Musculoskeletal and connective tissue disorders||Joint disorders||Arthropathies NEC||Arthropathies NEC||Arthritis,6,0.0007,1.83
+23731,NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Benign neoplasm of larynx,6,0.0007,2.5
+43530714,Nervous system disorders||Neurological disorders NEC||Sensory abnormalities NEC||Sensory abnormalities NEC||Sensory disorder of smell and/or taste,6,0.0007,2.67
+261495,NA||NA||Pleural disorders||Pleural disorders||Tuberculosis of pleura,6,0.0007,8.5
+201894,"Vascular disorders||Arteriosclerosis, stenosis, vascular insufficiency and necrosis||Gastrointestinal necrosis and vascular insufficiency||Gastrointestinal necrosis and vascular insufficiency||Acute vascular insufficiency of intestine",6,0.0007,3.17
+4224926,Gastrointestinal disorders||Gastrointestinal stenosis and obstruction||Gastrointestinal stenosis and obstruction NEC||Gastrointestinal stenosis and obstruction NEC||Obstruction of esophagus,6,0.0007,10.5
+437784,Infections and infestations||Viral infectious disorders||Herpes viral infections||Herpes viral infections||Infectious mononucleosis,6,0.0007,5
+437798,NA||NA||NA||NA||Primary malignant neoplasm of splenic flexure of colon,6,0.0007,10.33
+31509,NA||NA||Respiratory tract neoplasms||Respiratory tract neoplasms||Primary malignant neoplasm of tonsil,6,0.0007,59.33
+198103,NA||NA||Ureteric disorders||Ureteric disorders||Benign neoplasm of ureter,6,0.0007,3.33
+31610,NA||NA||Gastrointestinal conditions NEC||Gastrointestinal conditions NEC||Disorder of esophagus,6,0.0007,6
+197607,Reproductive system and breast disorders||Menstrual cycle and uterine bleeding disorders||Menstruation with increased bleeding||Menstruation with increased bleeding||Excessive and frequent menstruation,6,0.0007,14.5
+4193062,NA||NA||NA||NA||Early stage of pregnancy,6,0.0007,1
+4168681,Psychiatric disorders||Mood disorders and disturbances NEC||Mood disorders NEC||Mood disorders NEC||Irritability and anger,6,0.0007,1.83
+444095,Renal and urinary disorders||Ureteric disorders||Ureteric disorders NEC||Ureteric disorders NEC||Injury of ureter without open wound into abdominal cavity,6,0.0007,22.67
+4112852,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)||Miscellaneous and site unspecified neoplasms benign||Neoplasms benign site unspecified NEC||Neoplasms benign site unspecified NEC||Benign lipomatous tumor",6,0.0007,2.17
+72418,NA||NA||Thoracic disorders (excl lung and pleura)||Thoracic disorders (excl lung and pleura)||Scoliosis deformity of spine,6,0.0007,5.5
+380038,NA||NA||Viral infectious disorders||Viral infectious disorders||Viral conjunctivitis,6,0.0007,4.5
+140708,Nervous system disorders||Spinal cord and nerve root disorders||Spinal cord and nerve root disorders NEC||Spinal cord and nerve root disorders NEC||Myelopathy due to another disorder,6,0.0007,17
+4028373,General disorders and administration site conditions||General system disorders NEC||Hernias NEC||Hernias NEC||Hernia of abdominal wall,6,0.0007,1.33

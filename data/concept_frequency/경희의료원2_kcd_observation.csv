@@ -1,0 +1,48 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+439141,Abnormal weight gain,Observation,R635,Abnormal weight gain,2121
+435928,Abnormal weight loss,Observation,R634,Abnormal weight loss,379
+437643,Abnormal gait,Observation,R268,Gait disturbance,300
+141693,Elevated blood-pressure reading without diagnosis of hypertension,Observation,R030,Abnormal high BP without diagnosis,195
+441207,Adverse reaction to drug,Observation,T887,Drug hypersensitivity,97
+4100028,Tetracycline adverse reaction,Observation,K0083,Colour changes during tooth formation due to tetracyclines,90
+441413,Death of unknown cause,Observation,R99,Death,51
+704996,Patient meets COVID-19 laboratory diagnostic criteria,Observation,U071,"Coronavirus disease 2019[COVID-19], virus identified",45
+4022569,Eating / feeding / drinking finding,Observation,R638,Other symptoms and signs concerning food and fluid intake,38
+4030353,Constitutional tall stature,Observation,E344,Constitutional tall stature,28
+4096848,Ataxic gait,Observation,R260,Limping gait,20
+4279614,Asphyxiation,Observation,T71,Hanging,18
+37311060,Suspected COVID-19,Observation,U072,"Coronavirus disease 2019[COVID-19], virus not identified",16
+438872,Excessive eating - polyphagia,Observation,R632,Excessive eating,15
+4314871,"Place of occurrence of accident or poisoning, home",Observation,X800,"Intentional self-harm by jumping from a high place, home",15
+437738,Motor vehicle accident off public road,Observation,V493,"Car accident, nontraffic NOS",10
+4055548,Assault involving moving vehicles,Observation,Y023,"Assault by pushing or placing victim before moving object, sports and athletics area",9
+4312846,"Place of occurrence of accident or poisoning, place for recreation and sport",Observation,Y023,"Assault by pushing or placing victim before moving object, sports and athletics area",9
+437175,"Fall on same level from slipping, tripping or stumbling",Observation,W019,"Fall on same level from slipping, tripping and stumbling, unspecified place",7
+4219484,Suicide attempt,Observation,X800,"Intentional self-harm by jumping from a high place, home",6
+4248196,Spastic gait,Observation,R261,Spastic gait,5
+435713,Transport accident,Observation,V093,Pedestrian injured in unspecified traffic accident,5
+438046,Medical accidents to patients during surgical and medical care,Observation,Y600,"Unintentional cut, puncture, perforation or hemorrhage during surgical operation",5
+433315,Feeding problems in newborn,Observation,P929,"Feeding problem of newborn, unspecified",4
+4291007,Exposure to attack by mammal,Observation,W550,"Bitten by other mammals, home",4
+4163244,Unilateral emphysema,Observation,J430,Unilateral emphysema,3
+434750,Feeding difficulties and mismanagement,Observation,R633,Feeding error,3
+433930,Motor vehicle on road in collision with another motor vehicle,Observation,V496,Car collision(traffic) NOS,2
+42600276,Attacked by dog,Observation,W540,"Bitten by dog, home",2
+4311077,"Place of occurrence of accident or poisoning, residential institution",Observation,X231,"Contact with hornets, wasps and bees, residential institution",2
+441764,Inhalation or ingestion of foreign body with respiratory obstruction or suffocation,Observation,W809,"Inhalation and ingestion of other objects causing obstruction of respiratory tract, unspecified place",2
+4167568,Accidental exposure to potentially harmful entity,Observation,Y199,"Poisoning by and exposure to other and unspecified chemicals and noxious substances, undetermined intent, unspecified place",2
+44784549,Death from sequela of indirect maternal cause,Observation,O971,Death from sequelae of indirect obstetric cause,1
+4071863,Underfeeding in newborn,Observation,P923,Underfeeding of newborn,1
+443080,Sexual abuse,Observation,T742,Sexual abuse,1
+442666,"Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",Observation,V129,"Pedal cyclist injured in collision with two- or three-wheeled motor vehicle, unspecified pedal cyclist injured in traffic accident",1
+443423,Pedal cycle accident,Observation,V193,Pedal cyclist [any] injured unspecified nontraffic accident,1
+4053428,Accident while boarding or alighting from motor vehicle on road,Observation,V223,Person injured in collision with two- or three-wheeled motor vehicle while boarding or alighting on motorcycle,1
+4310930,"Place of occurrence of accident or poisoning, farm",Observation,W457,"Foreign body or object embedded in skin, farm",1
+4315085,"Place of occurrence of accident or poisoning, street and highway",Observation,X144,"Inhalation of hot air and gases, street and highway",1
+4054573,Accident due to contact with hot or corrosive substance,Observation,X144,"Inhalation of hot air and gases, street and highway",1
+4155221,Exposure to poison of venomous animals and plants,Observation,X231,"Contact with hornets, wasps and bees, residential institution",1
+4156363,Event,Observation,X5999,"Accident NOS, unspecified place",1
+433939,Abuse,Observation,Y0728,"Sexual abuse by acquaintance or friend, other specified places",1
+3661813,Adverse reaction to hormone,Observation,Y428,Other and unspecified hormones and their synthetic substitutes causing adverse effects in therapeutic use,1
+433094,Failure in dosage,Observation,Y636,"Nonadministration of necessary drug, medicament or biological substance",1
+4162376,Medication error,Observation,Y636,"Nonadministration of necessary drug, medicament or biological substance",1

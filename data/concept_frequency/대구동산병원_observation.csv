@@ -1,0 +1,98 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,168456,0.304696,6.19
+4222303,Lifestyle issues||Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker,160473,0.290257,1.87
+4022664,Clinical history and observation findings||Health-related behavior finding||Finding relating to alcohol drinking behavior||Non - drinker,146385,0.264775,1.84
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,93673,0.169432,1.87
+4214956,NA||Situation with explicit context||Finding with explicit context||History of clinical finding in subject,80858,0.146252,3.58
+4074035,Clinical history and observation findings||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,57925,0.104772,1.48
+40766945,Survey terms not yet categorized||Survey terms not yet categorized||Smoking-related terms||Current smoker,33310,0.06025,1.6
+4310250,Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker||Ex-smoker,16276,0.029439,1.56
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,11426,0.020667,1.73
+37311060,Disease suspected||Suspected infectious disease||Suspected coronavirus infection||Suspected disease caused by 2019-nCoV,9703,0.01755,1.64
+704996,Investigation abnormal||General symptom||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,8292,0.014998,1.58
+4220362,Health-related behavior finding||Finding relating to alcohol drinking behavior||Non - drinker||Ex-drinker,8122,0.014691,1.43
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,7118,0.012875,1.56
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,3558,0.006436,1.84
+4014023,Surgical and medical procedures||Therapeutic procedures and supportive care NEC||Therapeutic procedures NEC||Palliative care,3162,0.005719,1.95
+37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,2567,0.004643,2.1
+441207,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic effects (excl toxicity)||Therapeutic and nontherapeutic responses||Adverse reaction to drug,1638,0.002963,4.9
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,1423,0.002574,2.96
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,1416,0.002561,2.27
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,1097,0.001984,3.04
+437643,Nervous system disorders||Neurological disorders NEC||Neurological signs and symptoms NEC||Abnormal gait,1042,0.001885,7.05
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,920,0.001664,3.6
+43531719,Musculoskeletal finding||Joint finding||Knee joint finding||Artificial knee joint present,892,0.001613,2.59
+4096848,Neurological disorders NEC||Neurological signs and symptoms NEC||Gait disturbance||Ataxic gait,880,0.001592,3.42
+441413,NA||Event||Death||Death of unknown cause,783,0.001416,1.02
+45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",672,0.001215,1.14
+45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",658,0.00119,1.49
+4265443,Clinical history and observation findings||Equipment finding||Device status||Device in situ,583,0.001055,9.69
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,502,0.000908,1.29
+37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,360,0.000651,1.25
+4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,338,0.000611,1.5
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,328,0.000593,2.14
+4279614,NA||Event||Immediately dangerous to life and health condition||Asphyxiation,285,0.000515,1.33
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,245,0.000443,2.28
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,241,0.000436,1.25
+45763889,Prevention status||Immunization status||Requires vaccination||Requires rubella vaccination,238,0.00043,1.03
+45766277,Equipment finding||Device status||Device in situ||Cardiac implant in situ,230,0.000416,17.8
+4047564,Reproductive care||Obstetric therapeutic procedures||Prenatal care||Routine antenatal care,225,0.000407,3.28
+36713465,History of clinical finding in subject||Birth history||Liveborn born in hospital||Singleton liveborn born in hospital,223,0.000403,1.62
+4019967,Renal and urinary tract therapeutic procedures||Renal therapeutic procedures||Dialysis finding||Dependence on renal dialysis,208,0.000376,6.09
+4291007,Exposure to potentially harmful entity||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,135,0.000244,1.87
+4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",126,0.000228,1.57
+35622275,Musculoskeletal finding||Prosthesis in situ||Postprocedural finding of lower limb||Hip joint prosthesis present,117,0.000212,4.38
+4021166,NA||Procedure||Regimes and therapies||Care regime,116,0.00021,3.32
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,110,0.000199,4.79
+4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,92,0.000166,1
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,84,0.000152,2.62
+4301680,Care regime||Care of body sites||Renal care||Dialysis care,74,0.000134,2.54
+37312599,Prevention status||Immunization status||Requires vaccination||Requires vaccination against typhoid-paratyphoid,72,0.00013,1
+45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,65,0.000118,2.46
+42600276,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal||Attacked by dog,64,0.000116,1.8
+4334494,Family history of disorder||Family history of neoplasm||Family history of cancer||Family history of malignant neoplasm of digestive organ,63,0.000114,3.16
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,62,0.000112,5.56
+4061424,Obstetric therapeutic procedures||Prenatal care||A/N care categorized by gravida number||Antenatal care: primigravida,61,0.00011,2.59
+4145111,Procedure on head||Procedure on mouth||Physical examination procedures and organ system status||Dental consultation and report,59,0.000107,1.51
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,58,0.000105,5.95
+4054573,Event||Accidental event||Accident||Accident due to contact with hot or corrosive substance,48,8.7e-05,1.06
+4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,46,8.3e-05,1.09
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,43,7.8e-05,2.51
+4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,43,7.8e-05,4.88
+4014829,Procedure by method||Procedure by method||Procedure by method||Consultation,42,7.6e-05,1.36
+4105261,NA||Situation with explicit context||Family history with explicit context||Family social history,37,6.7e-05,8.27
+4154624,Ill-defined disorder||Problem||Social and personal history finding||Problem situation relating to social and personal history,37,6.7e-05,7.95
+4203722,NA||NA||Procedure||Patient encounter procedure,35,6.3e-05,1.2
+4022569,Investigations NEC||Investigation abnormal||Clinical history and observation findings||Eating / feeding / drinking finding,35,6.3e-05,2.74
+37312602,Prevention status||Immunization status||Requires vaccination||Requires vaccination against pertussis,33,6e-05,1.06
+2106094,"NA||NA||NA||CBFB or MYH11, genes associated with inv 16 (acute myelogenous leukemia) CBF beta (leukemia) (Deprecated)",33,6e-05,1.21
+36713461,Prenatal care||A/N care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,31,5.6e-05,4.81
+42537735,Finding of mouth region||Oral cavity finding||Prosthesis in situ||Dental prosthetic device in situ,24,4.3e-05,1.75
+4240903,Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance||Allergy to penicillin,23,4.2e-05,6
+4179963,Family history of disorder||Family history of neoplasm||Family history of neoplasm of breast||Family history of breast cancer,23,4.2e-05,4.09
+37312608,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria,22,4e-05,1
+432504,Event||Accidental event||Accident||Accident caused by fire and flames,20,3.6e-05,1.85
+4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,19,3.4e-05,1.53
+37312604,Prevention status||Immunization status||Requires vaccination||Requires vaccination against measles,19,3.4e-05,1.11
+4248196,Neurological signs and symptoms NEC||Movement disorders (incl parkinsonism)||Paralysis and paresis (excl cranial nerve)||Spastic gait,16,2.9e-05,11.81
+40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,16,2.9e-05,3.62
+40479426,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to sexually transmissible disorder,16,2.9e-05,1.81
+43020416,Social and personal history finding||Problem situation relating to social and personal history||Family problems||Problem with aged spouse or partner,15,2.7e-05,5.07
+4173786,Surgical and medical procedures||Reproductive care||Obstetric therapeutic procedures||Antenatal care,14,2.5e-05,4.71
+4196193,Function||Nervous system function||Cerebral function||Drowsiness,14,2.5e-05,3.5
+440279,NA||Event||Accidental event||Accident,12,2.2e-05,1.42
+4314991,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, industrial place and premises",11,2e-05,1.36
+441488,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Adverse reaction||Adverse reaction to substance,11,2e-05,5.82
+433315,General signs and symptoms NEC||Ill-defined disorder||Selective eating disorder||Feeding problems in newborn,11,2e-05,1.09
+4219484,Psychiatric disorders||Suicidal and self-injurious behaviours NEC||Suicidal and self-injurious behaviour||Suicide attempt,10,1.8e-05,1.2
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,9,1.6e-05,2
+438046,NA||Event||Accidental event||Medical accidents to patients during surgical and medical care,9,1.6e-05,3
+443345,Therapeutic and nontherapeutic effects (excl toxicity)||Therapeutic and nontherapeutic responses||Adverse reaction to drug||Antineoplastic adverse reaction,9,1.6e-05,1.11
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,8,1.4e-05,1.62
+4310930,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, farm",8,1.4e-05,1.62
+4315085,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, street and highway",7,1.3e-05,1
+4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,7,1.3e-05,1.14
+4311077,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, residential institution",6,1.1e-05,1
+40479792,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to viral hepatitis,6,1.1e-05,1
+36713466,Finding with explicit context||History of clinical finding in subject||Birth history||Singleton liveborn born outside hospital,6,1.1e-05,1.17
+443080,Social circumstances||Legal issues||Criminal activity||Sexual abuse,6,1.1e-05,3.33

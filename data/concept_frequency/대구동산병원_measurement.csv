@@ -1,0 +1,943 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4146380,Measurement of substance||Protein measurement||Liver function analyses||Alanine aminotransferase measurement,320398,0.579522,4.65
+4263457,Measurement of substance||Protein measurement||Liver function analyses||Aspartate aminotransferase measurement,320396,0.579518,4.65
+4324383,Investigations||Renal and urinary tract investigations and urinalyses||Renal function analyses||Creatinine measurement,318659,0.576377,5.09
+3000963,Urinalysis||Survey terms not yet categorized||Short blood count panel - Blood||Hemoglobin [Mass/volume] in Blood,310047,0.5608,3.89
+4018317,"Measurement of substance||Carbohydrate measurement||Glucose measurement||Glucose measurement, quantitative",307684,0.556525,3.78
+3006923,Order set||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,302600,0.54733,3.37
+3013721,Protein measurement||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,302596,0.547322,3.37
+3016723,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Creatinine [Mass/volume] in Serum or Plasma,300603,0.543718,3.58
+4074649,Measurement||Measurement of substance||Urea measurement||Urea nitrogen measurement,287939,0.520812,4.88
+46236952,"Chemistry and Chemistry - challenge||Chemistry - non-challenge||Predicted Glomerular filtration rate | Serum, Plasma or Blood | Chemistry - non-challenge||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",279041,0.504717,3.35
+3009542,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Hematocrit [Volume Fraction] of Blood,277031,0.501082,3.94
+3037110,Urinalysis||Sugars/Sugar metabolism||HEDIS 2019-2020 Value Set - Glucose Tests||Fasting glucose [Mass/volume] in Serum or Plasma,276034,0.499278,2.6
+3010813,Order set||Urinalysis||Short blood count panel - Blood||Leukocytes [#/volume] in Blood,271227,0.490584,3.97
+3024731,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCV [Entitic volume],271225,0.49058,3.97
+3026361,Order set||Urinalysis||Short blood count panel - Blood||Erythrocytes [#/volume] in Blood,271225,0.49058,7.94
+3035941,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCH [Entitic mass],271225,0.49058,3.97
+3003338,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCHC [Mass/volume],271225,0.49058,3.97
+3001123,Order set||Platelet indices||Platelet mean volume | Blood | Hematology and Cell counts||Platelet mean volume [Entitic volume] in Blood,271213,0.490558,3.97
+3007461,Serology Panels||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Platelets [#/volume] in Blood,271213,0.490558,7.95
+3039312,Laboratory||Hematology and Cell counts||Plateletcrit | Blood | Hematology and Cell counts||Plateletcrit [Volume Fraction] in Blood,271122,0.490394,3.97
+3049178,Laboratory||Hematology and Cell counts||Platelets.large/Platelets | Blood | Hematology and Cell counts||Platelets Large/Platelets in Blood by Automated count,271122,0.490394,3.97
+3039417,Hematology and Cell counts||Platelet indices||Platelet distribution width | Blood | Hematology and Cell counts||Platelet distribution width [Ratio] in Blood,271048,0.49026,3.97
+3002385,Order set||Red cell indices||Hematology (coagulation) differential count||Erythrocyte distribution width [Ratio],271000,0.490173,3.97
+3013682,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Urea nitrogen [Mass/volume] in Serum or Plasma,267207,0.483312,3.56
+4097664,Measurement||Measurement of substance||Protein measurement||Albumin measurement,263754,0.477067,4.03
+4119650,Measurement||Protein and chemistry analyses NEC||Protein measurement||Total protein measurement,257509,0.465771,3.61
+3018718,Order set||Hematology and Cell counts||Plasma cells/100 leukocytes | Blood | Hematology and Cell counts||Plasma cells/100 leukocytes in Blood,255559,0.462244,3.6
+3013498,Order set||Urinalysis||Lymphocytes.variant/100 leukocytes | Blood | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Blood,255559,0.462244,10.08
+3034708,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,255559,0.462244,3.6
+3022096,Order set||Urinalysis||Short blood count panel - Blood||Basophils/100 leukocytes in Blood,255559,0.462244,3.6
+3017181,Order set||Urinalysis||Short blood count panel - Blood||Myelocytes/100 leukocytes in Blood,255559,0.462244,3.6
+3025159,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Blasts/100 leukocytes in Blood,255559,0.462244,3.6
+3021440,Order set||Urinalysis||Short blood count panel - Blood||Promyelocytes/100 leukocytes in Blood,255559,0.462244,3.6
+3017354,Order set||Urinalysis||Neutrophils.segmented/100 leukocytes | Blood | Hematology and Cell counts||Segmented neutrophils/100 leukocytes in Blood,255559,0.462244,3.6
+3017732,Order set||Urinalysis||Neutrophils|NCnc|Pt|Bld||Neutrophils [#/volume] in Blood,255559,0.462244,3.6
+40758562,Ophthalmology and Optometry||Urinalysis||Immature cells/100 leukocytes | Blood | Hematology and Cell counts||Immature cells/100 leukocytes in Blood,255559,0.462244,3.6
+3019069,Order set||Urinalysis||Short blood count panel - Blood||Monocytes/100 leukocytes in Blood,255559,0.462244,3.6
+3006504,Order set||Urinalysis||Short blood count panel - Blood||Eosinophils/100 leukocytes in Blood,255559,0.462244,3.6
+3004809,Order set||Urinalysis||Short blood count panel - Blood||Band form neutrophils/100 leukocytes in Blood,255559,0.462244,3.6
+3002179,Order set||Urinalysis||Short blood count panel - Blood||Metamyelocytes/100 leukocytes in Blood,255559,0.462244,3.6
+3002030,Order set||Urinalysis||Short blood count panel - Blood||Lymphocytes/100 leukocytes in Blood,255559,0.462244,3.6
+40760845,Urine substance measurement||Urine protein test||Urine dipstick for protein||Protein [Presence] in Urine by Automated test strip,255000,0.461233,2.13
+4230543,"Measurement of substance||Pyrrole measurement||Bilirubin measurement||Bilirubin, total measurement",248967,0.450321,4.0
+3005456,Order set||Sodium and Potassium panel | Blood | Chemistry Panels||Sodium and Potassium panel [Moles/volume] - Blood||Potassium [Moles/volume] in Blood,246245,0.445397,3.87
+3000285,Order set||Sodium and Potassium panel | Blood | Chemistry Panels||Sodium|SCnc|Pt|ANYBldSerPl||Sodium [Moles/volume] in Blood,246242,0.445392,3.87
+3027018,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Wells pulmonary embolism risk calculator panel||Heart rate",245591,0.444214,38.89
+3024561,Urinalysis||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Albumin [Mass/volume] in Serum or Plasma,243734,0.440855,6.12
+3020509,Urinalysis||Protein electrophoresis panel | Serum or Plasma | Chemistry Panels||Protein electrophoresis panel - Serum or Plasma||Albumin/Globulin [Mass Ratio] in Serum or Plasma,243653,0.440709,3.06
+3018572,Order set||Measurement of substance||Electrolytes panel - Blood||Chloride [Moles/volume] in Blood,243367,0.440192,3.78
+3004249,"Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Systolic blood pressure",240769,0.435493,42.92
+3012888,"Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Diastolic blood pressure",240718,0.4354,42.89
+4230636,Measurement of substance||Protein measurement||Enzyme measurement||Alkaline phosphatase measurement,238268,0.430969,3.69
+3020630,Urinalysis||Protein fractions 3 panel | Serum or Plasma | Chemistry Panels||Protein|Pt|Ser/Plas||Protein [Mass/volume] in Serum or Plasma,237172,0.428986,2.67
+4208414,Protein and chemistry analyses NEC||Protein measurement||Protein analyses NEC||C-reactive protein measurement,234120,0.423466,4.11
+3024128,Urinalysis||Pyrrole measurement||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Bilirubin.total [Mass/volume] in Serum or Plasma,229487,0.415086,2.88
+3020460,Urinalysis||Rheumatoid arthritis disease activity panel | Serum or Plasma | Chemistry Panels||Rheumatoid arthritis disease activity panel - Serum or Plasma by VectraDA||C reactive protein [Mass/volume] in Serum or Plasma,219402,0.396845,3.2
+3035995,Protein measurement||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,218828,0.395807,2.66
+3011397,Urine protein test||Urine dipstick for protein||Urine dipstick for hemoglobin||Hemoglobin [Presence] in Urine by Test strip,218494,0.395202,1.95
+3030260,Urine substance measurement||Urine dipstick test||Urine dipstick for glucose||Glucose [Presence] in Urine by Automated test strip,216733,0.392017,1.95
+3018834,Urine substance measurement||Urine dipstick test||Urine dipstick for bilirubin||Bilirubin.total [Presence] in Urine by Test strip,216732,0.392015,1.95
+3029925,NA||Laboratory||Urinalysis||Color of Urine by Auto,216732,0.392015,1.95
+3037426,"Urobilinogen measurement||Urobilinogen measurement, urine||Urobilinogen|PrThr|Urine||Urobilinogen [Presence] in Urine by Test strip",216732,0.392015,1.95
+3022621,Water and electrolyte analyses NEC||Urine electrolytes||pH|Urine/Urine sed||pH of Urine by Test strip,216732,0.392015,1.95
+3035350,Urinalysis order set||Urinalysis order set||Urinalysis macro (dipstick) panel - Urine||Ketones [Presence] in Urine by Test strip,216732,0.392015,1.95
+3035355,Order set||Specimen information||Turbidity | Urine | Specimen information||Turbidity [Presence] of Urine Qualitative,216732,0.392015,1.95
+4008265,Measurement of substance||Lipids measurement||Cholesterol measurement||Total cholesterol measurement,215560,0.389896,2.86
+3000330,Urinalysis order set||Urinalysis order set||Urinalysis macro (dipstick) panel - Urine||Specific gravity of Urine by Test strip,211063,0.381762,1.95
+3000348,Urine protein test||Urine dipstick for protein||Urine dipstick for leukocyte esterase||Leukocyte esterase [Presence] in Urine by Test strip,211046,0.381731,1.94
+3021601,Urine substance measurement||Urine dipstick test||Urine dipstick for nitrite||Nitrite [Presence] in Urine by Test strip,211046,0.381731,1.94
+3015183,Laboratory||Red blood cell test||Hematology (coagulation) differential count||Erythrocyte sedimentation rate,206117,0.372815,2.43
+3020891,"Vital signs, weight and height panel||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Wearable device external physiologic monitoring panel||Body temperature",201321,0.364141,40.57
+3006906,Survey set||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Calcium [Mass/volume] in Serum or Plasma,200316,0.362323,5.33
+3031008,Order set||Phosphate measurement||Chemistry||Calcium-phosphorus product [(Mass/volume)*2] in Serum or Plasma,200226,0.36216,2.66
+4245261,Laboratory test related to hemostasis||Haematology investigations (incl blood groups)||Extrinsic coagulation pathway factor assay||Prothrombin time,199909,0.361587,3.15
+40764999,"Order set||Creatinine renal clearance adjusted for body surface area panel | Urine and Serum or Plasma | Chemistry Panels||Predicted Glomerular filtration rate | Serum, Plasma or Blood | Chemistry - non-challenge||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",197543,0.357307,3.16
+3035583,Ophthalmology and Optometry||Urinalysis||Urinalysis||Leukocytes [#/area] in Urine sediment by Microscopy high power field,196718,0.355815,1.88
+3010189,Ophthalmology and Optometry||Urinalysis||Urinalysis||Epithelial cells [#/area] in Urine sediment by Microscopy high power field,196718,0.355815,1.88
+3035124,Ophthalmology and Optometry||Urinalysis||Urinalysis||Erythrocytes [#/area] in Urine sediment by Microscopy high power field,196718,0.355815,1.88
+3004562,Order set||Urinalysis||Urinalysis||Bacteria [Presence] in Urine sediment by Light microscopy,196718,0.355815,1.88
+4175016,"Laboratory test related to hemostasis||Haematology investigations (incl blood groups)||Intrinsic coagulation pathway screening||Partial thromboplastin time, activated",195448,0.353518,2.84
+3011904,Survey set||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Phosphate [Mass/volume] in Serum or Plasma,193223,0.349493,2.61
+3027114,Survey terms not yet categorized||Urinalysis||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Cholesterol [Mass/volume] in Serum or Plasma,191259,0.345941,1.86
+3022250,Protein measurement||Lactate dehydrogenase panel | Serum or Plasma | Chemistry Panels||Lactate dehydrogenase | Serum or Plasma | Chemistry - non-challenge||Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,189374,0.342531,2.26
+3007220,Protein measurement||Enzyme measurement||Creatine kinase | Serum or Plasma | Chemistry - non-challenge||Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,187707,0.339516,2.16
+3034426,PT and aPTT panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||Prothrombin time (PT),184179,0.333135,5.41
+3022217,PT and aPTT panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||INR in Platelet poor plasma by Coagulation assay,184179,0.333135,2.7
+3033658,"Order set||Routine||Lupus anticoagulant aPTT, dRVVT and PT screening panel W Reflex||Prothrombin time (PT) actual/Normal",184179,0.333135,2.7
+3018677,PT and aPTT and Fibrinogen panel | Platelet poor plasma | Coagulation Panels||aPTT panel | Platelet poor plasma | Coagulation Panels||aPTT | Platelet poor plasma | Coagulation||aPTT in Platelet poor plasma by Coagulation assay,181250,0.327837,2.54
+4289475,Measurement of substance||Protein measurement||Liver function analyses||Gamma glutamyl transferase measurement,179331,0.324366,3.21
+3016771,Protein measurement||Single allergens||Chemistry||Amylase [Enzymatic activity/volume] in Serum or Plasma,168820,0.305354,2.17
+3026910,Reportable microbiology||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,168497,0.30477,2.5
+4168615,Microbial antigen assay||Viral antigen assay||Virus identification and serology||Hepatitis B surface antigen measurement,165864,0.300008,1.59
+4032789,Measurement||Measurement of substance||Lipids measurement||Triglycerides measurement,164872,0.298213,2.97
+4278658,Measurement of viral antibody||Hepatitis panel measurement||Hepatitis B virus measurement||Hepatitis B surface antibody measurement,164623,0.297763,1.59
+4101713,Protein measurement||Lipoproteins measurement||High density lipoprotein measurement||High density lipoprotein cholesterol measurement,154339,0.279162,2.84
+3019284,Viral antigen assay||Virus identification and serology||Vaccination panel [ESRD]||Hepatitis B virus surface Ag [Presence] in Serum,148664,0.268897,4.41
+3017797,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus surface Ab [Presence] in Serum,146868,0.265648,2.94
+3023421,Survey set||Survey terms not yet categorized||Vaccination panel [ESRD]||Hepatitis B virus surface Ab [Units/volume] in Serum,146868,0.265648,1.47
+3022192,Survey terms not yet categorized||Urinalysis||Triglyceride|Pt|Ser/Plas||Triglyceride [Mass/volume] in Serum or Plasma,142680,0.258073,1.82
+3001420,"Measurement||Mineral, bone, joint, connective tissue||Magnesium|Pt|Ser/Plas|24.305 g/mole||Magnesium [Mass/volume] in Serum or Plasma",141346,0.255661,2.59
+3024171,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Respiratory rate",137233,0.248221,60.41
+40480067,Measurement||Measurement of substance||Red blood cell test||Measurement of total hemoglobin concentration,134160,0.242663,3.43
+4313992,Investigation||Measurement||Measurement of substance||Uric acid measurement,134022,0.242413,3.49
+3007070,Survey terms not yet categorized||Urinalysis||Lipoprotein metabolism panel - Serum or Plasma||Cholesterol in HDL [Mass/volume] in Serum or Plasma,133731,0.241887,1.81
+4273104,Measurement of microbial antibody||Measurement of viral antibody||Hepatitis antibody test||Hepatitis C antibody measurement,130014,0.235164,1.58
+3031759,Order set||Urinalysis||Lymphoblasts/100 leukocytes | Blood | Hematology and Cell counts||Lymphoblasts/100 leukocytes in Blood,125546,0.227082,2.91
+3037556,Measurement of substance in specimen||Uric acid measurement||Urate|Pt|Ser/Plas|168.112 g/mole||Urate [Mass/volume] in Serum or Plasma,117404,0.212355,2.16
+4151358,Procedure by method||Investigation||Red blood cell test||Hematocrit determination,115430,0.208785,3.6
+3017143,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis C virus Ab [Presence] in Serum,114326,0.206788,4.41
+4298431,Measurement||Haematology investigations (incl blood groups)||White blood cell analyses||White blood cell count,112683,0.203816,3.67
+4030871,Measurement||Haematology investigations (incl blood groups)||Red blood cell analyses||Red blood cell count,112660,0.203775,3.65
+4267147,Measurement||Hematology procedure||Platelet analyses||Platelet count,112653,0.203762,3.66
+4135963,"Metabolic, nutritional and blood gas investigations||Measurement of substance||Blood gases||Carbon dioxide content measurement",112424,0.203348,3.81
+3026355,Microbiology and Antimicrobial susceptibility||Microbiology||Reagin Ab | Serum | Microbiology||Reagin Ab [Units/volume] in Serum by RPR,110653,0.200144,1.34
+3009201,Order set||Serology order set||Thyrotropin|ACnc|Pt|ANYBldSerPl||Thyrotropin [Units/volume] in Serum or Plasma,106046,0.191811,1.57
+4097430,Investigation||Measurement||Measurement of substance||Sodium measurement,104252,0.188566,3.3
+4245152,Investigation||Measurement||Measurement of substance||Potassium measurement,104251,0.188565,3.28
+3014094,"Order set||Respiratory measures and Ventilator management||Gas panel - Blood||Carbon dioxide, total [Moles/volume] in Blood",103185,0.186637,3.22
+42529233,Laboratory||Thyroid Hormones-||Thyroxine.free|Pt|Ser/Plas|IA||Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,102600,0.185578,1.56
+4013251,Investigations||White blood cell analyses||White blood cell count||Differential white blood cell count procedure,102332,0.185094,3.42
+40760007,Order set||Microbiology order set||Microbiology||HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,101786,0.184106,4.1
+4188066,Investigation||Measurement||Measurement of substance||Chloride measurement,101312,0.183249,3.2
+4012479,Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Low density lipoprotein cholesterol measurement,99239,0.179499,2.5
+3028437,Order set||Urinalysis||Low density lipoprotein cholesterol measurement||Cholesterol in LDL [Mass/volume] in Serum or Plasma,92523,0.167352,1.57
+3003694,Laboratory||Blood bank||Blood bank||ABO and Rh group [Type] in Blood,92395,0.16712,1.48
+46272018,Virus identification and serology||Virus identification and serology||Human immunodeficiency virus antibody test||HIV-1/HIV-2 antigen/antibody combination immunoassay,92072,0.166536,1.49
+4016246,"Investigation||Red blood cell test||Erythrocyte sedimentation rate measurement||Erythrocyte sedimentation rate, automated",87701,0.15863,2.35
+4223193,Laboratory test related to immunohematology||Blood grouping||Group and save||Blood group typing Rho(D),81581,0.14756,1.69
+4189544,Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||Microbial culture,81341,0.147126,6.54
+4184637,Measurement||Measurement of substance||Protein measurement||Hemoglobin A1c measurement,80845,0.146229,3.35
+4216722,Investigation||Measurement||Measurement of substance||Calcium measurement,80690,0.145949,2.48
+4029710,Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||Identification procedure for living organism,79366,0.143554,5.24
+42529253,Laboratory||Thyroid hormone measurement||Triiodothyronine|Pt|Ser/Plas|IA|650.977 g/mole||Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,78488,0.141966,1.5
+4309023,Investigation||Measurement||Measurement of substance||Phosphorus measurement,77334,0.139878,2.38
+4216632,"Investigation||Measurement||Measurement of substance||Bilirubin, direct measurement",76070,0.137592,2.18
+4238568,Immunology laboratory test||Laboratory test related to immunohematology||Blood grouping||ABO typing,73331,0.132638,1.71
+4017058,Skeletal and cardiac muscle analyses||Myocardial necrosis marker||Creatine kinase isoenzymes measurement||Creatine kinase MB measurement,72301,0.130775,1.84
+3027597,Urinalysis||Pyrrole measurement||Hepatic function 2000 panel - Serum or Plasma||Bilirubin.direct [Mass/volume] in Serum or Plasma,71884,0.130021,1.97
+4190299,Microbiology and serology tests NEC||Microbiology test||Organism inhibition test||Broth microdilution susceptibility test,71371,0.129093,4.82
+4012918,Measurement of substance||Protein measurement||Enzyme measurement||Lactate dehydrogenase measurement,71168,0.128726,2.12
+706163,Respiratory pathogens DNA and RNA panel | Respiratory specimen | Microbiology Panels||Viral nucleic acid assay||SARSCoV2 molecular detection||SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection,70316,0.127185,1.34
+3004410,Survey terms not yet categorized||Survey terms not yet categorized||Laboratory - end stage renal disease form 2728||Hemoglobin A1c/Hemoglobin.total in Blood,69598,0.125886,3.31
+3004905,Protein measurement||Gases and acid/Base||Triacylglycerol lipase | Serum or Plasma | Chemistry - non-challenge||Lipase [Enzymatic activity/volume] in Serum or Plasma,69567,0.12583,2.28
+3005131,Urinalysis||Sugars/Sugar metabolism||Estimated average glucose|Pt|Bld|Estimated from glycated hemoglobin||Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,68105,0.123185,1.63
+40762352,Hematology and Cell counts||Hemoglobin normal variant||Hemoglobin A1c/Hemoglobin.total | Blood | Hematology and Cell counts||Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,68105,0.123185,1.63
+4265595,Measurement of substance||Protein measurement||Enzyme measurement||Creatine kinase measurement,67792,0.122619,2.05
+4095045,"Metabolic, nutritional and blood gas investigations||Protein measurement||Oxygen saturation measurement||Capillary oxygen saturation measurement",67185,0.121521,8.04
+36306105,Order set||Troponin I.cardiac panel | Serum or Plasma | Chemistry Panels||Troponin I.cardiac | Serum or Plasma | Chemistry - non-challenge||Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,65500,0.118474,1.56
+42529209,Myocardial necrosis marker||Flowsheet - laboratory||Creatine kinase.MB|MCnc|Pt|ANYBldSerPl||Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,65409,0.118309,1.63
+3001079,Order set||Obstetrics order set||Obstetric 1996 panel - Serum and Blood||Blood group antibody screen [Presence] in Serum or Plasma,65310,0.11813,1.56
+4098214,Procedure||Laboratory test||Histologic test||Histopathology test,61973,0.112094,1.75
+4090666,Respiration observable||Respiratory measure||Respiratory flow rate||Flow volume loop flow rate,59871,0.108292,1.76
+4276028,Measurement of substance||Protein measurement||Enzyme measurement||Amylase measurement,58901,0.106538,1.87
+4009848,"Investigations||In-vitro immunologic test||Rheumatoid factor measurement||Rheumatoid factor, quantitative",56661,0.102486,1.65
+3021614,Order set||Serology order set||Serology (antibodies and most antigens except blood bank and infectious agents)||Rheumatoid factor [Units/volume] in Serum or Plasma,54479,0.098539,1.59
+4149519,Measurement||Measurement of substance||Carbohydrate measurement||Glucose measurement,54269,0.098159,13.49
+4015482,"Haematology investigations (incl blood groups)||Fibrin fragments assay||Fibrin D dimer||D-dimer assay, quantitative",53374,0.096541,2.26
+4243005,Investigation||Measurement||Measurement of substance||Magnesium measurement,53206,0.096237,2.29
+4164784,Measurement of substance||Tumour marker test||Tumor antigen measurement||Cancer antigen 19-9 measurement,51223,0.09265,2.27
+4244721,Measurement||Measurement of substance||Tumour marker test||Carcinoembryonic antigen measurement,47817,0.086489,2.2
+4103678,"Protein measurement||Treponema test||Syphilis test||Syphilis test, quantitative",47380,0.085699,1.24
+40761554,Order set||Laboratory||Lab terms not yet categorized||Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,47283,0.085523,1.83
+42529201,Tumour marker test||Tumor markers||Chemistry||Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,44873,0.081164,1.7
+42529190,Protein and chemistry analyses NEC||Tumour marker test||Chemistry||Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,44257,0.08005,1.84
+3002400,Order set||Mass-Molar conversion||Iron|Pt|Ser/Plas|55.845 g/mole||Iron [Mass/volume] in Serum or Plasma,43982,0.079553,1.76
+42529202,Pathology||Tumour marker test||Chemistry||Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,43704,0.07905,1.72
+3000185,Survey set||Survey terms not yet categorized||Iron and Iron binding capacity panel - Serum or Plasma||Iron saturation [Mass Fraction] in Serum or Plasma,43053,0.077872,1.75
+3005168,Order set||Mass-Molar conversion||Iron binding capacity.unsaturated|Pt|Ser/Plas||Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,43053,0.077872,3.49
+3021044,Order set||Mass-Molar conversion||Iron binding capacity|Pt|Ser/Plas||Iron binding capacity [Mass/volume] in Serum or Plasma,43053,0.077872,1.75
+3029187,Order set||Public health record order set||Natriuretic peptide.B prohormone N-Terminal|Pt|Ser/Plas||Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,42665,0.077171,1.44
+3034962,Urinalysis||Sugars/Sugar metabolism||Glucose|Pt|BldC|Glucometer|180.156 g/mole||Glucose [Mass/volume] in Capillary blood by Glucometer,42040,0.07604,44.1
+43054904,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Epithelial cells [Presence] in Unspecified specimen by Gram stain,41621,0.075282,1.87
+43054906,Order set||Urinalysis||Microbiology CNAMTS panel - Urethra||Leukocytes [Presence] in Unspecified specimen by Gram stain,41354,0.074799,1.85
+3016502,Order set||Specific hemodynamics||SaO2 | Blood arterial | Chemistry - non-challenge||Oxygen saturation in Arterial blood,41015,0.074186,5.26
+3009609,"Order set||Respiratory measures and Ventilator management||Gas panel - Arterial blood||Carbon dioxide, total [Moles/volume] in Arterial blood",41013,0.074183,5.25
+3008152,Order set||Measurement of substance||IEEE 11073 Rosetta laboratory panel Blood||Bicarbonate [Moles/volume] in Arterial blood,41013,0.074183,5.25
+3027946,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Carbon dioxide [Partial pressure] in Arterial blood,41013,0.074183,5.25
+3019977,Urinalysis||PhenX domain - Respiratory||pH|LsCnc|Pt|ANYBldSerPl||pH of Arterial blood,41013,0.074183,5.25
+3027801,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Oxygen [Partial pressure] in Arterial blood,41013,0.074183,5.25
+3003396,Order set||Measurement of level of substance in blood||Gas panel - Arterial blood||Base excess in Arterial blood by calculation,41013,0.074183,5.25
+4246879,Measurement||Measurement of substance||Hormone measurement||Thyroid stimulating hormone measurement,40564,0.07337,1.57
+3049536,"Vitamin D measurement||Vitamin D, 25-hydroxy measurement||Measurement of 25-hydroxyergocalciferol||25-hydroxyvitamin D2 [Mass/volume] in Serum or Plasma",37505,0.067837,1.68
+4039357,Antigen assay||Microbial antigen assay||Viral antigen assay||Influenza A and B virus antigen assay,36919,0.066777,1.38
+3052648,Coagulation||Routine||Fibrin D-dimer FEU | Platelet poor plasma | Coagulation||Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma by Immunoassay,36577,0.066159,1.93
+3003745,Order set||Urinalysis||Microscopic observation|Prid|Urine||Microscopic observation [Identifier] in Urine by Gram stain,36567,0.066141,16.49
+3045856,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Influenza virus B Ag [Presence] in Nose,36076,0.065253,1.27
+3043891,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Influenza virus A Ag [Presence] in Nose,36076,0.065253,1.27
+4081838,"Investigations||Metabolic, nutritional and blood gas investigations||Measurement of substance||Blood gas analysis",34019,0.061532,6.08
+4013104,Investigations||Microbiology and serology investigations||Virus identification and serology||Human immunodeficiency virus antibody test,32960,0.059617,1.21
+4103860,Procedure by method||Investigation||Measurement||Osmolality measurement,31067,0.056193,3.35
+3007268,Urinalysis||Small molecules||Ketones|SCnc|Pt|ANYBldSerPl||Ketones [Moles/volume] in Serum or Plasma by Test strip,30610,0.055366,1.35
+4097313,"Investigation||Measurement||Measurement of substance||Ketone bodies measurement, quantitative",29832,0.053959,1.46
+3004501,Urinalysis||Sugars/Sugar metabolism||Renal function 2000 panel - Serum or Plasma||Glucose [Mass/volume] in Serum or Plasma,29581,0.053505,2.44
+42529229,Protein measurement||Tumour marker test||Prostatic specific antigen||Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,27989,0.050625,1.72
+3008295,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Osmolality of Serum or Plasma,27831,0.05034,2.58
+4064734,Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Bronchial provocation test,26385,0.047724,1.59
+3018954,Survey terms not yet categorized||Tumor markers||Pregnancy test||Choriogonadotropin (pregnancy test) [Presence] in Urine,26172,0.047339,1.3
+3035456,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis A virus Ab [Presence] in Serum by Immunoassay,25915,0.046874,2.83
+3010007,Order set||Susceptibility order sets||CiprofloxacinSusc|Isolate||Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),25777,0.046624,2.64
+4213582,Investigation||Measurement||Measurement of substance||Lactic acid measurement,25729,0.046537,1.73
+3020138,Chemistry - non-challenge||Sugars/Sugar metabolism||Lactate|Pt|Ser/Plas||Lactate [Mass/volume] in Serum or Plasma,24846,0.04494,1.58
+3013635,Order set||Susceptibility order sets||Trimethoprim+SulfamethoxazoleSusc|Isolate||Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),24754,0.044774,2.41
+3015242,Measurement of substance||Protein measurement||Ferritin|MCnc|Pt|ANYBldSerPl||Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,24496,0.044307,1.72
+3000769,Order set||Susceptibility order sets||GentamicinSusc|Isolate||Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),24127,0.04364,2.4
+4248033,Protein measurement||Gastrointestinal investigations||Triacylglycerol lipase measurement||Lipase measurement,23227,0.042012,2.18
+3016774,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),23208,0.041978,2.23
+4094598,Measurement of substance||Hormone measurement||Thyroid hormone measurement||Triiodothyronine measurement,22732,0.041117,1.63
+3000520,Order set||Susceptibility order sets||cefOXitin | Isolate | Antibiotic susceptibilities||cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),22492,0.040683,2.08
+3035643,Order set||Susceptibility order sets||ImipenemSusc|Isolate||Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),22283,0.040305,2.36
+3037971,Order set||Susceptibility order sets||TigecyclineSusc|Isolate||Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),22150,0.040064,2.3
+4065263,Vascular tests NEC (incl blood pressure)||Taking patient vital signs||Blood pressure taking||Ambulatory blood pressure recording,21680,0.039214,7.8
+3017250,"Renal and urinary tract investigations and urinalyses||Vanillylmandelate, Homovanillate and Creatinine panel | Urine | Chemistry Panels||Vanillylmandelate, Homovanillate and Creatinine panel - 24 hour Urine||Creatinine [Mass/volume] in Urine",20807,0.037635,1.35
+3008912,Order set||Susceptibility order sets||CefepimeSusc|Isolate||Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),20384,0.03687,2.23
+3022270,Order set||Susceptibility order sets||CefotaximeSusc|Isolate||Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),20234,0.036598,2.13
+4007805,Measurement of substance||Skeletal and cardiac muscle analyses||Troponin measurement||Troponin I measurement,20054,0.036273,1.4
+4245982,Measurement||Measurement of substance||Liver function analyses||Ammonia measurement,19982,0.036143,1.87
+3037549,Order set||Susceptibility order sets||cefTAZidime | Isolate | Antibiotic susceptibilities||cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),19756,0.035734,2.24
+3002274,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),19601,0.035453,2.23
+3007662,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),19275,0.034864,2.14
+3030942,Measurement of substance||Mass-Molar conversion||Chemistry||Ammonia [Mass/volume] in Blood,19243,0.034806,1.65
+3010745,Order set||Susceptibility order sets||Piperacillin+TazobactamSusc|Isolate||Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),19210,0.034746,2.14
+3000593,Laboratory||Vitamin B complex||Cobalamins|Pt|Ser/Plas||Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,18638,0.033712,1.23
+44788645,Protein measurement||Immunoglobulins||Immunoglobulin E measurement||Total immunoglobulin E level,18618,0.033675,1.21
+4190509,Laboratory test||Immunology laboratory test||In-vitro immunologic test||ASO test,18545,0.033543,2.01
+4197913,Measurement of substance||Tumour marker test||Tumor antigen measurement||CA 125 measurement,18452,0.033375,1.73
+3036987,Measurement of substance||Vitamin measurement||Folic acid measurement||Folate [Mass/volume] in Serum or Plasma,18189,0.032899,1.22
+3021236,Order set||Microbiology order set||Streptolysin O Ab | Serum or Plasma | Microbiology||Streptolysin O Ab [Units/volume] in Serum or Plasma,17850,0.032286,1.1
+42529199,Chemistry - non-challenge||Tumor markers||Chemistry||Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,17537,0.03172,1.61
+43054997,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Influenza virus A and B Ag [Identifier] in Nose by Rapid immunoassay,16721,0.030244,1.15
+3008893,Order set||Testosterone.free+weakly bound and total panel | Serum or Plasma | Chemistry Panels||Testosterone|Pt|Ser/Plas|288.431 g/mole||Testosterone [Mass/volume] in Serum or Plasma,16605,0.030034,1.87
+42529219,Urinalysis||Specific antigens||Immunoglobulin E measurement||IgE [Units/volume] in Serum or Plasma by Immunoassay,16445,0.029745,1.14
+4038996,Microbiology test||Microbial identification test||Bacteria identification test||Acid fast bacteria identification,16312,0.029504,7.12
+3035551,Order set||Susceptibility order sets||levoFLOXacin | Isolate | Antibiotic susceptibilities||levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),15956,0.028861,2.43
+3016724,Order set||Small molecules||Homocysteine|Pt|Ser/Plas||Homocysteine [Moles/volume] in Serum or Plasma,15909,0.028776,1.52
+3002971,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Nuclear Ab [Titer] in Serum by Immunofluorescence,15625,0.028262,1.11
+3023414,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),15549,0.028124,1.88
+3029103,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Nuclear Ab [Presence] in Serum by Immunofluorescence,15251,0.027585,1.05
+3005807,Order set||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel | Blood | Coagulation Panels||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel - Blood||Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,14994,0.02712,1.19
+3005535,Order set||Susceptibility order sets||ceFAZolin | Isolate | Antibiotic susceptibilities||ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),14469,0.026171,1.8
+3000127,Order set||Susceptibility order sets||TetracyclineSusc|Isolate||Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),14091,0.025487,2.11
+3017766,Order set||Mass-Molar conversion||Hematology (coagulation) differential count||Complement C4 [Mass/volume] in Serum or Plasma,13919,0.025176,1.17
+3000620,Order set||Hematology and Cell counts||Hematology (coagulation) differential count||Complement C3 [Mass/volume] in Serum or Plasma,13882,0.025109,1.17
+4197249,Measurement||Protein and chemistry analyses NEC||Tumour marker test||Alpha-1-Fetoprotein measurement,13593,0.024586,1.7
+4311562,Urodynamic studies||Physiologic measurement||Uroflowmetry||Complex uroflowmetry,13326,0.024103,3.04
+4040056,Investigation||Measurement||Measurement of substance||Cytokeratin 19 fragment measurement,13231,0.023932,1.46
+3000659,Urinalysis||Specific antigens||Cytokeratin 19 | Serum or Plasma | Chemistry - non-challenge||Cytokeratin 19 [Mass/volume] in Serum or Plasma,13199,0.023874,1.44
+4094436,Measurement||Measurement of substance||Protein measurement||Fibrinogen measurement,13193,0.023863,1.55
+3018088,Order set||Susceptibility order sets||VancomycinSusc|Isolate||Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),12889,0.023313,2.1
+3005241,Order set||Susceptibility order sets||LinezolidSusc|Isolate||Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),12835,0.023215,2.1
+3016893,Order set||Susceptibility order sets||ErythromycinSusc|Isolate||Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),12740,0.023044,2.1
+3016244,Order set||Serology - non-micro||Insulin.free and Insulin.total panel [Units/volume] - Serum or Plasma||Insulin [Units/volume] in Serum or Plasma,12309,0.022264,1.25
+3035814,Order set||Susceptibility order sets||ErtapenemSusc|Isolate||Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),12288,0.022226,1.86
+3007224,Order set||Susceptibility order sets||MeropenemSusc|Isolate||Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),11944,0.021604,2.19
+4178785,Measurement||Measurement of substance||Heavy metals measurement||Iron measurement,11582,0.020949,1.58
+3033558,Order set||Susceptibility order sets||Quinupristin+DalfopristinSusc|Isolate||Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),11418,0.020652,2.13
+4020542,"Urine protein test||Urine albumin measurement||Microalbuminuria measurement||Microalbumin measurement, urine, quantitative",11372,0.020569,2.81
+3026008,Urinalysis Panels||Urinalysis order set||Urinalysis dipstick W Reflex Culture panel - Urine||Bacteria identified in Urine by Culture,11308,0.020453,1.54
+3011907,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),11213,0.020282,2.06
+4198713,Platelet analyses||Platelet function test||Platelet aggregation test||Platelet aggregation with epinephrine test,11158,0.020182,1.25
+3023633,Order set||Susceptibility order sets||PiperacillinSusc|Isolate||Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),11138,0.020146,2.18
+3012607,Order set||Susceptibility order sets||TeicoplaninSusc|Isolate||Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),11001,0.019898,2.1
+4169175,NA||Staging and scales||Assessment scales||Mini-mental state examination,10950,0.019806,1.83
+3021331,Order set||Susceptibility order sets||ClindamycinSusc|Isolate||Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),10944,0.019795,1.87
+4170855,Measurement||Measurement of substance||Tumour marker test||Adrenocorticotropic hormone measurement,10858,0.019639,1.96
+4219996,Laboratory test||Immunology laboratory test||Laboratory test related to immunohematology||Major crossmatch,10799,0.019533,5.57
+3010084,Order set||Sugars/Sugar metabolism||Chemistry||C peptide [Mass/volume] in Serum or Plasma,10760,0.019462,1.26
+4218675,"Water, electrolyte and mineral investigations||Mineral and electrolyte analyses||Total iron binding capacity measurement||Unsaturated iron binding capacity measurement",10721,0.019392,1.54
+44791466,Measurement||Measurement of substance||Hormone measurement||Procalcitonin measurement,10543,0.01907,1.71
+4176561,Measurement||Measurement of substance||Protein measurement||Ferritin measurement,10405,0.01882,1.81
+3005179,Microbiology and Antimicrobial susceptibility||Antibiotic susceptibilities||Beta lactamase.extended spectrum | Isolate | Antibiotic susceptibilities||Beta lactamase.extended spectrum [Susceptibility],10352,0.018724,1.79
+3037121,Urinalysis||Protein fractions panel|-|Urine||Urinalysis||Protein [Mass/volume] in Urine,10278,0.01859,2.42
+3036339,Order set||Susceptibility order sets||rifAMPin | Isolate | Antibiotic susceptibilities||rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),9918,0.017939,2.0
+4226401,Vascular tests NEC (incl blood pressure)||Taking patient vital signs||Blood pressure taking||Taking arterial blood pressure,9766,0.017664,5.91
+4014036,"Haematology investigations (incl blood groups)||Plasmin assay||Fibrin-fibrinogen split products assay||Fibrin-fibrinogen split products assay, quantitative",9364,0.016937,4.03
+4255168,Protein measurement||Autoimmunity analyses||Autoantibody test||Anti-cyclic citrullinated peptide antibody level,9357,0.016925,1.12
+4018320,Measurement of substance||Protein measurement||Glycated protein measurement||Glycated albumin measurement,9270,0.016767,2.88
+3001612,Order set||Susceptibility order sets||Ticarcillin+ClavulanateSusc|Isolate||Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),9252,0.016735,2.07
+3033490,Order set||Susceptibility order sets||TobramycinSusc|Isolate||Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),9221,0.016679,2.12
+4216098,White blood cell analyses||White blood cell count||White blood cell analyses||Eosinophil count,9089,0.01644,1.34
+3018760,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Blood smear finding [Identifier] in Blood by Light microscopy,9077,0.016418,1.29
+3001582,Urinalysis||Protein and creatinine panel | Urine | Chemistry Panels||Protein/Creatinine|MRto|Urine||Protein/Creatinine [Mass Ratio] in Urine,9034,0.01634,1.28
+3007124,Order set||Urinalysis||Reticulocytes/100 erythrocytes | Blood | Hematology and Cell counts||Reticulocytes/100 erythrocytes in Blood by Automated count,8863,0.016031,1.51
+3013115,Order set||Urinalysis||Hematology (coagulation) differential count||Eosinophils [#/volume] in Blood,8752,0.01583,1.18
+3034717,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Cyclic citrullinated peptide Ab [Units/volume] in Serum by Immunoassay,8731,0.015792,1.06
+3003181,"Water, electrolyte and mineral investigations||Urine electrolytes||Urine sodium||Sodium [Moles/volume] in Urine",8686,0.015711,1.58
+3026782,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Osmolality of Urine,8582,0.015523,1.71
+4060873,Measurement||Measurement of substance||Hormone measurement||Insulin measurement,8502,0.015378,2.21
+40759152,Order set||Susceptibility order sets||DoripenemSusc|Isolate||Doripenem [Susceptibility] by Minimum inhibitory concentration (MIC),8472,0.015324,1.93
+3016407,Order set||Routine||PT and aPTT and Fibrinogen panel - Platelet poor plasma by Coagulation assay||Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,8456,0.015295,1.55
+3039413,Microbiology and Antimicrobial susceptibility||Flowsheet - laboratory||CefuroximeSusc|Isolate||Cefuroxime [Susceptibility] by Minimum inhibitory concentration (MIC),8417,0.015224,1.77
+3042443,Urinalysis||Sugars/Sugar metabolism||Glucose^pre XXX challenge|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --pre XXX challenge,8297,0.015007,2.39
+4010412,Measurement||Measurement of substance||Hormone measurement||Prolactin measurement,8268,0.014955,2.29
+4272032,Measurement of substance||Protein measurement||Tumour marker test||Prostate specific antigen measurement,8223,0.014873,1.61
+3009682,Steroid measurement||Transcortin and Cortisol.free panel | Serum or Plasma | Chemistry Panels||Transcortin and Cortisol.free panel - Serum or Plasma||Cortisol [Mass/volume] in Serum or Plasma,8210,0.01485,1.63
+4287388,Measurement||Measurement of substance||Hormone measurement||Luteinizing hormone measurement,8088,0.014629,1.85
+4229110,Measurement of substance||Hormone measurement||Insulin measurement||Insulin C-peptide measurement,8019,0.014504,2.4
+42529215,Pathology||Specific antigens||Follitropin|ACnc|Pt|ANYBldSerPl||Follitropin [Units/volume] in Serum or Plasma by Immunoassay,7948,0.014376,1.89
+4032173,"Measurement||Metabolic, nutritional and blood gas investigations||Vitamin measurement||Vitamin B12 measurement",7937,0.014356,1.34
+3035637,Tumour marker test||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma,7909,0.014305,1.63
+40762365,Order set||Respiratory measures and Ventilator management||Oxygen content | Blood arterial | Chemistry - non-challenge||Oxygen content in Arterial blood by calculation,7870,0.014235,2.06
+3014197,Order set||Susceptibility order sets||OxacillinSusc|Isolate||Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),7824,0.014152,1.75
+4017648,Measurement||Measurement of substance||Vitamin measurement||Folic acid measurement,7776,0.014065,1.26
+4047226,"Protein measurement||Virus identification and serology||Immunoglobulin G measurement||Hepatitis A virus antibody, IgG type",7738,0.013996,1.08
+3011039,Order set||Susceptibility order sets||FusidateSusc|Isolate||Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),7717,0.013958,1.75
+3000845,Urinalysis||Sugars/Sugar metabolism||Glucose^2H post XXX challenge|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,7584,0.013718,2.31
+3000401,Coagulation||Routine||Fibrin+Fibrinogen fragments | Platelet poor plasma | Coagulation||Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,7539,0.013636,3.46
+3036405,Order set||Susceptibility order sets||MupirocinSusc|Isolate||Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),7465,0.013502,1.72
+42529213,Steroid measurement||Reproductive hormone analyses||Oestradiol||Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,7440,0.013457,2.04
+4020710,"Metabolic, nutritional and blood gas investigations||Vitamin measurement||Vitamin D measurement||Vitamin D3 measurement",7438,0.013454,1.79
+3002516,Order set||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Sputum by Gram stain,7266,0.013142,18.81
+44817130,Measurement of substance||Serology - non-micro||Procalcitonin|MCnc|Pt|ANYBldSerPl||Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,7189,0.013003,1.37
+3004722,Measurement of substance||Pituitary Hormones-||Prolactin|MCnc|Pt|ANYBldSerPl||Prolactin [Mass/volume] in Serum or Plasma,7174,0.012976,1.74
+4308739,"Measurement||Metabolic, nutritional and blood gas investigations||Vitamin measurement||Vitamin D measurement",7110,0.01286,1.51
+4065904,Protein measurement||Thyroid hormone measurement||Thyroglobulin measurement||Thyroglobulin antibody measurement,7004,0.012669,2.81
+3005785,Myocardial necrosis marker||Flowsheet - laboratory||Creatine kinase.MB|MCnc|Pt|ANYBldSerPl||Creatine kinase.MB [Mass/volume] in Serum or Plasma,6996,0.012654,1.61
+3007022,Order set||Susceptibility order sets||Penicillin GSusc|Isolate||Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC),6861,0.01241,1.95
+42529220,Chemistry - non-challenge||Pituitary Hormones-||Lutropin|ACnc|Pt|ANYBldSerPl||Lutropin [Units/volume] in Serum or Plasma by Immunoassay,6793,0.012287,2.0
+3010521,Microbiology and Antimicrobial susceptibility||Microbiology||Mycoplasma pneumoniae IgM | Serum | Microbiology||Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,6725,0.012164,1.2
+3038315,Ophthalmology and Optometry||Urinalysis||Urinalysis||Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,6691,0.012102,1.12
+44786640,Order set||Susceptibility order sets||Respiratory pathogens DNA and RNA panel - Lower respiratory specimen by NAA with non-probe detection||Carbapenem resistance blaNDM gene [Presence] by Molecular method,6689,0.012099,1.23
+36203347,Order set||Susceptibility order sets||Gram negative bacterial resistance panel by Molecular genetics method||Carbapenem resistance blaOXA-48 gene [Presence] by Molecular method,6689,0.012099,1.23
+36203345,Order set||Susceptibility order sets||Respiratory pathogens DNA and RNA panel - Lower respiratory specimen by NAA with non-probe detection||Carbapenem resistance blaVIM gene [Presence] by Molecular method,6689,0.012099,1.23
+3033281,Order set||Susceptibility order sets||Respiratory pathogens DNA and RNA panel - Lower respiratory specimen by NAA with non-probe detection||Carbapenem resistance blaKPC gene [Presence] by Molecular method,6689,0.012099,1.23
+36203342,Order set||Susceptibility order sets||Respiratory pathogens DNA and RNA panel - Lower respiratory specimen by NAA with non-probe detection||Carbapenem resistance blaIMP gene [Presence] by Molecular method,6689,0.012099,1.23
+3021337,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Serum or Plasma,6564,0.011873,1.43
+40325320,Complement assay||Complement functional assay||Complement hemolytic assay||Hemolytic complement CH50 level,6521,0.011795,1.22
+3021347,"Chemistry - non-challenge||Mineral, bone, joint, connective tissue||Chemistry||Calcium.ionized [Moles/volume] in Serum or Plasma",6443,0.011654,2.8
+3028461,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Complement total hemolytic CH50 [Units/volume] in Serum or Plasma,6290,0.011377,1.14
+3025232,Urinalysis||Sugars/Sugar metabolism||Glucose^1H post XXX challenge|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,6262,0.011326,2.46
+3022767,Order set||Susceptibility order sets||PenicillinSusc|Isolate||Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC),6130,0.011088,2.12
+44804891,Investigation||Measurement||Measurement of substance||Ketone measurement,6013,0.010876,1.42
+3037501,Order set||Susceptibility order sets||NitrofurantoinSusc|Isolate||Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),5959,0.010778,1.97
+3013273,Hormone measurement||Somatomedin measurement||Somatomedin-C measurement||Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,5911,0.010692,1.95
+37020057,Order set||Respiratory microbiology||Microbiology||Human metapneumovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,5839,0.010561,1.1
+36203322,Reportable microbiology||Respiratory microbiology||Microbiology||Influenza virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,5839,0.010561,1.1
+37020093,Order set||Respiratory microbiology||Microbiology||Adenovirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,5839,0.010561,1.1
+36203321,Reportable microbiology||Respiratory microbiology||Microbiology||Influenza virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,5839,0.010561,1.1
+4307029,"Measurement||Metabolic, nutritional and blood gas investigations||Metabolism tests NEC||Brain natriuretic peptide measurement",5697,0.010304,1.28
+757677,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||SARSCoV2 molecular detection||SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection,5678,0.01027,1.06
+723475,Virus serology test||SARSCoV2 antibody detection||SARSCoV2 antibody detection||SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum or Plasma by Immunoassay,5678,0.01027,1.06
+723474,Virus serology test||SARSCoV2 antibody detection||SARSCoV2 antibody detection||SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay,5678,0.01027,1.06
+3037061,Order set||Susceptibility order sets||DaptomycinSusc|Isolate||DAPTOmycin [Susceptibility] by Minimum inhibitory concentration (MIC),5672,0.010259,2.07
+3034826,Protein measurement||Sugars/Sugar metabolism||Glycated albumin measurement||Albumin.glycated/Albumin.total in Serum or Plasma,5637,0.010196,1.14
+3014072,Protein measurement||Sugars/Sugar metabolism||Glycated albumin measurement||Albumin.glycated [Mass/volume] in Serum or Plasma,5637,0.010196,2.27
+44789161,Measurement||Measurement of substance||Protein measurement||Cystatin C measurement,5610,0.010147,2.47
+4035726,Procedure||Laboratory test||Anatomic pathology procedure||Immunohistochemistry procedure,5605,0.010138,3.49
+3029058,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Nuclear matrix protein 22 [Presence] in Urine,5599,0.010127,1.42
+3000034,Urine protein test||Urine albumin measurement||Microalbumin|MCnc|Urine||Microalbumin [Mass/volume] in Urine,5584,0.0101,1.13
+3000067,Order set||Serology - non-micro||Parathyrin.intact|Pt|Ser/Plas||Parathyrin.intact [Mass/volume] in Serum or Plasma,5554,0.010046,2.96
+3026024,Order set||Susceptibility order sets||FosfomycinSusc|Isolate||Fosfomycin [Susceptibility] by Minimum inhibitory concentration (MIC),5472,0.009898,1.74
+4017770,Measurement||Measurement of substance||Measurement of amino acid||Homocysteine measurement,5356,0.009688,1.21
+4169477,NA||Staging and scales||Assessment scales||Spielberger state-trait anxiety inventory,5265,0.009523,1.19
+3023368,Survey set||Survey terms not yet categorized||Microbiology||Bacteria identified in Blood by Culture,5147,0.00931,3.99
+3036947,Order set||Susceptibility order sets||MoxifloxacinSusc|Isolate||Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),5108,0.009239,1.67
+4056542,Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||CLO test for helicobacter pylori,5044,0.009123,1.17
+4265529,Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Membrane diffusion capacity||Carbon monoxide diffusing capacity measurement,5038,0.009113,1.32
+40759598,Serology - non-micro||Tissue specific||Thyroperoxidase Ab|ACnc|Pt|ANYBldSerPl||Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,4896,0.008856,1.05
+37020881,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Parainfluenza virus 1 RNA|PrThr|Sys:ANYResp||Parainfluenza virus 1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+37021346,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Parainfluenza virus 2 RNA|PrThr|Sys:ANYResp||Parainfluenza virus 2 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+37019976,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Parainfluenza virus 3 RNA|PrThr|Sys:ANYResp||Parainfluenza virus 3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+36304464,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+36304548,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+36304601,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,4888,0.008841,1.09
+3046425,Microbiology and Antimicrobial susceptibility||Serology - non-micro||Mycobacterium tuberculosis tuberculin stimulated gamma interferon | Blood | Microbiology||Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood,4887,0.008839,1.07
+42869531,Order set||Serology - non-micro||Mycobacterium tuberculosis stimulated gamma interferon panel - Blood||Gamma interferon background [Units/volume] in Blood by Immunoassay,4885,0.008836,1.06
+42869529,Order set||Serology - non-micro||Mycobacterium tuberculosis stimulated gamma interferon panel - Blood||Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood,4885,0.008836,1.06
+40766800,Order set||Mycobacterium tuberculosis stimulated gamma interferon panel | Blood | Microbiology Panels||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] corrected for background in Blood,4885,0.008836,1.06
+4018606,Protein measurement||Procedure to identify antibody||Thyroid analyses||Anti-thyroid antibody measurement,4763,0.008615,1.27
+36305335,Order set||Mycobacterium tuberculosis stimulated gamma interferon panel | Blood | Microbiology Panels||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells | Blood | Microbiology||Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells [Units/volume] corrected for background in Blood,4575,0.008275,1.06
+3028652,Measurement||Specimen information||Viscosity | Blood | Specimen information||Viscosity of Blood,4511,0.008159,3.28
+40763949,Microbiology and Antimicrobial susceptibility||Flowsheet - laboratory||Clindamycin.inducedSusc|Isolate||Clindamycin.induced [Susceptibility],4471,0.008087,1.66
+40480257,Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Measurement of substance||Measurement of expired nitric oxide,4436,0.008024,1.16
+3005719,Urinalysis||Specific antigens||Multiple sclerosis panel - Serum and CSF||IgG [Mass/volume] in Serum or Plasma,4400,0.007959,1.08
+4314176,Procedure by site||Procedure||Taking patient vital signs||Taking orthostatic vital signs,4391,0.007942,1.06
+3022284,Order set||Susceptibility order sets||Gentamicin.high potencySusc|Isolate||Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),4381,0.007924,2.15
+3013644,Order set||Susceptibility order sets||Streptomycin.high potencySusc|Isolate||Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),4368,0.007901,2.15
+3018793,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Azithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),4235,0.00766,1.75
+3015884,Hormone measurement||Mass-Molar conversion||Dehydroepiandrosterone sulfate|Pt|Ser/Plas||Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,4233,0.007656,2.08
+4135587,Serology test||Immunology and allergy investigations||Immune response protein analyses NEC||C4 complement assay,4219,0.007631,1.31
+4195474,Serology test||Immunology and allergy investigations||Immune response protein analyses NEC||C>3< complement assay,4219,0.007631,1.31
+3015274,Order set||Susceptibility order sets||MinocyclineSusc|Isolate||Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),4192,0.007582,1.87
+3020316,Order set||Reportable microbiology||Microbiology||Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,4183,0.007566,2.15
+3013327,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis A virus IgM Ab [Presence] in Serum,4180,0.007561,1.08
+3020426,Microbiology and Antimicrobial susceptibility||Microbiology||Respiratory syncytial virus Ag | XXX | Microbiology||Respiratory syncytial virus Ag [Presence] in Unspecified specimen by Immunoassay,4175,0.007552,1.15
+4219426,Protein and chemistry analyses NEC||Protein measurement||Thyroid hormone measurement||Thyroglobulin measurement,4146,0.007499,3.88
+3004789,"Water, electrolyte and mineral investigations||Protein measurement||Transferrin|Pt|Ser/Plas||Transferrin [Mass/volume] in Serum or Plasma",4118,0.007448,1.36
+3034592,Order set||Susceptibility order sets||TelithromycinSusc|Isolate||Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),4025,0.00728,1.68
+3050896,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),4023,0.007277,1.68
+40759656,Serology - non-micro||Tissue specific||Thyroglobulin Ab|ACnc|Pt|ANYBldSerPl||Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,4022,0.007275,1.11
+3046279,Measurement of substance||Serology - non-micro||Procalcitonin|MCnc|Pt|ANYBldSerPl||Procalcitonin [Mass/volume] in Serum or Plasma,3964,0.00717,1.56
+4020107,Measurement||Measurement of substance||Steroid measurement||Testosterone measurement,3882,0.007022,1.22
+3007164,Urinalysis||Specific antigens||Immunoglobulin panel [Mass/volume] - Serum||IgA [Mass/volume] in Serum or Plasma,3853,0.006969,1.07
+2213329,"Microbiology and serology investigations||Pathology and Laboratory Procedures||White blood cell analyses||Leukocyte assessment, fecal, qualitative or semiquantitative",3849,0.006962,1.49
+36203323,Reportable microbiology||Respiratory microbiology||Respiratory syncytial virus RNA|PrThr|Sys:ANYResp||Respiratory syncytial virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3731,0.006748,1.04
+3023419,Order set||Respiratory microbiology||Microbiology CNAMTS panel - Sputum||Bacteria identified in Sputum by Culture,3728,0.006743,1.98
+3041449,Laboratory||Serology - non-micro||Collagen crosslinked C-telopeptide|Pt|Ser/Plas||Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,3693,0.00668,1.17
+4209123,Microbial antigen assay||Viral antigen assay||Measurement of Hepatitis B antigen||Hepatitis B e antigen test,3668,0.006635,1.81
+3019711,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Mycobacterium sp DNA|PrThr|Sys:ANYResp||Mycobacterium sp DNA [Presence] in Sputum by NAA with probe detection,3652,0.006606,1.08
+3028026,Urinalysis||Specific antigens||Immunoglobulin panel [Mass/volume] - Serum||IgM [Mass/volume] in Serum or Plasma,3589,0.006492,1.06
+3045115,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus core IgG Ab [Presence] in Serum,3588,0.00649,3.07
+3019174,Order set||Lupus anticoagulant two screening tests W Reflex panel | Platelet poor plasma | Coagulation Panels||dRVVT | Platelet poor plasma | Coagulation||dRVVT (LA screen),3571,0.006459,1.05
+3027370,Measurement of substance||Protein measurement||Insulin-like growth factor binding protein 3|Pt|Ser/Plas||Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,3564,0.006446,1.83
+3024928,Order set||Specific hemodynamics||SaO2 | Blood venous | Specific hemodynamics||Oxygen saturation in Venous blood,3554,0.006428,1.12
+3012544,Urinalysis||Measurement||pH|LsCnc|Pt|ANYBldSerPl||pH of Venous blood,3554,0.006428,1.12
+3024354,Order set||Respiratory measures and Ventilator management||Oxygen | Blood venous | Chemistry - non-challenge||Oxygen [Partial pressure] in Venous blood,3554,0.006428,1.12
+3010140,"Order set||Respiratory measures and Ventilator management||Gas panel - Venous blood||Carbon dioxide, total [Moles/volume] in Venous blood",3554,0.006428,1.12
+3021447,Order set||Respiratory measures and Ventilator management||IEEE 11073 Rosetta laboratory panel Blood||Carbon dioxide [Partial pressure] in Venous blood,3554,0.006428,1.12
+3027273,Order set||Measurement of substance||Gas panel - Venous blood||Bicarbonate [Moles/volume] in Venous blood,3554,0.006428,1.12
+3002032,Order set||Measurement of level of substance in blood||Gas panel - Venous blood||Base excess in Venous blood by calculation,3554,0.006428,1.12
+3035132,Urinalysis||Small molecules||Ketones|PrThr|Pt|ANYBldSerPl||Ketones [Presence] in Serum or Plasma,3526,0.006378,1.17
+3037558,Order set||Susceptibility order sets||ColistinSusc|Isolate||Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),3458,0.006255,2.27
+3023876,Order set||Susceptibility order sets||ChloramphenicolSusc|Isolate||Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC),3456,0.006251,1.46
+4149280,Measurement of substance||Hormone measurement||Luteinizing hormone/follicle stimulating hormone measurement||Follicle stimulating hormone measurement,3429,0.006202,3.02
+3021737,Urinalysis||Sugars/Sugar metabolism||Glucose^2H post meal|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,3387,0.006126,1.06
+3019209,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,3384,0.006121,1.08
+3028718,Steroid measurement||Progestational Hormones-||Chemistry||17-Hydroxyprogesterone [Mass/volume] in Serum or Plasma,3330,0.006023,1.04
+4292703,Measurement of substance||Steroid measurement||Reproductive hormone analyses||Estradiol measurement,3250,0.005878,2.06
+46236341,Microbiology and Antimicrobial susceptibility||Microbiology||Streptococcus pneumoniae Ag|PrThr|Urine||Streptococcus pneumoniae Ag [Presence] in Urine by Rapid immunoassay,3212,0.00581,1.11
+4015457,Protein measurement||Immunology and allergy investigations||Procedure to identify antibody||Antibody to mitochondria measurement,3196,0.005781,1.12
+37019747,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Rhinovirus RNA|PrThr|Sys:ANYResp||Rhinovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3181,0.005754,1.13
+4191727,Measurement||Measurement of substance||Tumour marker test||Squamous cell carcinoma antigen level,3149,0.005696,1.52
+3014639,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Mycobacterium sp DNA|PrThr|Sys:ANYResp||Mycobacterium sp DNA [Presence] in Bronchial specimen by NAA with probe detection,3135,0.00567,1.08
+4151409,Measurement of substance in specimen||Protein measurement||Bacterial serologic study||Treponema pallidum hemaglutination test,3134,0.005669,1.08
+3016038,Order set||Measurement of substance||Potassium|SCnc|Urine||Potassium [Moles/volume] in Urine,3108,0.005622,1.75
+4014887,Measurement of substance||Protein measurement||White blood cell enzyme activity measurement||Adenosine deaminase measurement,3106,0.005618,1.58
+4147378,Measurement||Measurement of substance||Hormone measurement||Calcitonin measurement,3084,0.005578,1.16
+4265057,Measurement of substance||Steroid measurement||17-hydroxycorticosteroid measurement||Cortisol measurement,3077,0.005566,1.94
+3005411,Chemistry - non-challenge||Tumor markers||Squamous cell carcinoma Ag|Pt|Ser/Plas||Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,3065,0.005544,1.25
+3036535,Serology - non-micro||Tissue specific||Thyroglobulin|Pt|Ser/Plas||Thyroglobulin [Mass/volume] in Serum or Plasma,3049,0.005515,1.21
+3011588,Order set||Urinalysis||Serial sputum smears for diagnosing pulmonary tuberculosis panel - by Acid fast stain||Microscopic observation [Identifier] in Sputum by Acid fast stain,3047,0.005511,1.94
+4133684,Laboratory procedure||Laboratory test||Genotype determination||Apolipoprotein E genotype determination,3014,0.005452,1.11
+4098726,Protein measurement||Thyroid analyses||Intrinsic factor antibody measurement||Microsomal thyroid antibody measurement,2928,0.005296,1.29
+3027974,Viral antigen assay||Reportable microbiology||Microbiology||Hepatitis B virus e Ag [Presence] in Serum,2926,0.005292,3.35
+40760528,Serology - non-micro||Tissue specific||Thyrotropin receptor Ab|ACnc|Pt|ANYBldSerPl||Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,2874,0.005198,1.09
+3038705,Molds and Other Microorganisms||Single allergens||Toxocara canis IgG | Serum | Microbiology||Toxocara canis IgG Ab [Presence] in Serum by Immunoassay,2870,0.005191,1.04
+4193755,Measurement of microbial antibody||Measurement of viral antibody||Hepatitis antibody test||Hepatitis Be antibody measurement,2844,0.005144,1.97
+40760490,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --baseline,2824,0.005108,1.05
+40759603,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --baseline,2823,0.005106,1.05
+3030366,Urinalysis||Protein measurement||Cystatin C | Serum or Plasma | Chemistry - non-challenge||Cystatin C [Mass/volume] in Serum or Plasma,2789,0.005045,1.14
+3012220,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Varicella zoster virus IgM | Serum | Microbiology||Varicella zoster virus IgM Ab [Presence] in Serum by Immunoassay,2754,0.004981,1.02
+37019602,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Bordetella parapertussis DNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37019683,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Rhinovirus+Enterovirus RNA|PrThr|Sys:ANYResp||Rhinovirus+Enterovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37019690,Order set||Respiratory microbiology||Mycoplasma pneumoniae DNA|PrThr|Sys:ANYResp||Mycoplasma pneumoniae DNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+36305676,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Human coronavirus HKU1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37021392,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Influenza virus A H3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37019984,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Parainfluenza virus 4 RNA|PrThr|Sys:ANYResp||Parainfluenza virus 4 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37020197,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Influenza virus A H1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+4197936,Respiration observable||Respiratory measure||Expired gas concentration||Expired carbon dioxide concentration,2701,0.004885,1.14
+37020392,Order set||Respiratory microbiology||Microbiology||Chlamydophila pneumoniae DNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+37020862,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Microbiology||Bordetella pertussis DNA [Presence] in Upper respiratory specimen by NAA with probe detection,2701,0.004885,1.03
+40758594,Reportable microbiology||Respiratory pathogens RNA 8 panel | XXX | Microbiology Panels||Respiratory pathogens RNA 8 panel - Unspecified specimen by NAA with probe detection||Influenza virus A H1 2009 pandemic RNA [Presence] in Unspecified specimen by NAA with probe detection,2701,0.004885,1.03
+3007766,Coagulation||Antiphospholipid syndrome||Coagulation study||Cardiolipin IgG Ab [Presence] in Serum by Immunoassay,2624,0.004746,1.04
+4013180,Measurement of substance||Tumour marker test||Tumor antigen measurement||Cancer antigen 15-3 measurement,2611,0.004723,4.35
+3028772,Musculoskeletal and soft tissue investigations (excl enzyme tests)||Protein measurement||Osteocalcin|Pt|Ser/Plas||Osteocalcin [Mass/volume] in Serum or Plasma,2485,0.004495,1.2
+40761566,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||DNA double strand IgG Ab [Presence] in Serum by Immunoassay,2473,0.004473,1.14
+4339109,Protein measurement||Autoimmunity analyses||Autoantibody test||Antibody to double stranded DNA measurement,2468,0.004464,1.52
+4242723,Procedure on soft tissue||Procedure on skin and/or subcutaneous tissue||Type 1 hypersensitivity skin test||Prick test,2420,0.004377,1.03
+3036429,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Epithelial cells/100 cells in Body fluid,2414,0.004366,1.44
+4097906,Laboratory test||Investigations NEC||Hematology test||White blood cell test,2412,0.004363,1.59
+3028061,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Treponema pallidum Ab | Serum | Microbiology||Treponema pallidum Ab [Presence] in Serum by Hemagglutination,2326,0.004207,1.05
+4338222,"Protein measurement||Virus identification and serology||Immunoglobulin M measurement||Hepatitis A virus antibody, IgM type",2325,0.004205,1.11
+4274014,Platelet analyses||Platelet function test||Platelet aggregation test||Platelet aggregation with drug test,2316,0.004189,2.17
+3015406,Order set||Susceptibility order sets||NorfloxacinSusc|Isolate||Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),2311,0.00418,1.99
+3009678,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Varicella zoster virus IgG | Serum | Microbiology||Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay,2306,0.004171,1.01
+42359922,NA||NA||NA||Swallowing Difficulty Evaluation[Using X-ray],2295,0.004151,2.06
+3013945,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus e Ab [Presence] in Serum,2272,0.004109,3.4
+37019752,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Respiratory syncytial virus B RNA|PrThr|Sys:ANYResp||Respiratory syncytial virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2228,0.00403,1.13
+36305655,Order set||Respiratory microbiology||Microbiology||Human bocavirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,2228,0.00403,1.13
+37019510,Microbiology and Antimicrobial susceptibility||Respiratory microbiology||Respiratory syncytial virus A RNA|PrThr|Sys:ANYResp||Respiratory syncytial virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,2228,0.00403,1.13
+3020035,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,2209,0.003996,1.05
+4304972,Toxin detection||Enterotoxin measurement||Clostridium difficile toxin B assay||Clostridium difficile toxin A AND B assay,2196,0.003972,1.64
+44812155,Microbial antigen assay||Bacterial antigen assay||Clostridium difficile antigen assay||Clostridium difficile glutamate dehydrogenase immunoassay,2196,0.003972,1.64
+3012064,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,2126,0.003845,1.03
+3019633,Procedure to identify antibody||Serology - non-micro||Sjogrens syndrome-A extractable nuclear Ab|PrThr|Pt|ANYBldSerPl||Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum by Immunoassay,2126,0.003845,1.06
+3017925,Urinalysis||Protein measurement||Transthyretin measurement||Prealbumin [Mass/volume] in Serum or Plasma by Immunoassay,2120,0.003835,1.7
+4048586,Procedure by method||Laboratory procedure||Laboratory test||Fine needle aspirate with routine interpretation and report,2083,0.003768,1.3
+3005307,Serology Panels||Serology order set||Sjogrens syndrome-B extractable nuclear Ab|PrThr|Pt|ANYBldSerPl||Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum by Immunoassay,2081,0.003764,1.06
+3036780,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||American house dust mite IgE Ab [Units/volume] in Serum",2078,0.003759,1.08
+4133843,Procedure by method||Laboratory procedure||Laboratory test||Body fluid analysis,2069,0.003742,2.07
+3002035,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Myeloperoxidase Ab [Presence] in Serum by Immunoassay,2069,0.003742,1.04
+3000764,Order set||Urine substance measurement||Drug levels & Toxicology||Benzodiazepines [Presence] in Urine,2055,0.003717,1.09
+3002020,Toxicology laboratory analyses||Urine substance measurement||Urine barbiturate measurement||Barbiturates [Presence] in Urine,2055,0.003717,1.09
+3028064,Drug toxicology||Flowsheet - laboratory||Tetrahydrocannabinol|PrThr|Pt|ANYUrine||Tetrahydrocannabinol [Presence] in Urine,2055,0.003717,1.09
+3014814,Measurement of substance in specimen||Urine substance measurement||Urine methamphetamine measurement||Methamphetamine [Presence] in Urine,2055,0.003717,1.09
+3027944,Drug toxicology||Flowsheet - laboratory||Drug levels & Toxicology||Amphetamines [Presence] in Urine,2055,0.003717,1.09
+3017013,Measurement of substance in specimen||Urine substance measurement||Tricyclic antidepressants|PrThr|Pt|ANYUrine||Tricyclic antidepressants [Presence] in Urine,2055,0.003717,1.09
+3036180,Urine substance measurement||Urine opiate measurement||Methadone|PrThr|Pt|ANYUrine||Methadone [Presence] in Urine,2055,0.003717,1.09
+3016879,Measurement of substance in specimen||Urine substance measurement||Drug levels & Toxicology||Cocaine [Presence] in Urine,2055,0.003717,1.09
+3027008,Measurement of substance in specimen||Urine substance measurement||Urine opiate measurement||Opiates [Presence] in Urine,2055,0.003717,1.09
+1175677,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Catheter tip | Microbiology||Microscopic observation [Identifier] in Catheter tip by Gram stain,2027,0.003666,11.91
+40766042,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Proteinase 3 Ab [Presence] in Serum by Immunoassay,2007,0.00363,1.02
+4238668,"Measurement||Measurement of substance||Drug of abuse screen||Drug of abuse, qualitative screen",1996,0.00361,1.16
+4098179,Procedure by method||Laboratory procedure||Laboratory test||Immunology laboratory test,1995,0.003608,4.72
+3038136,Survey terms not yet categorized||Tumor markers||Pregnancy lab tests - FPAR 2.0 set||Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,1947,0.003522,1.24
+3034485,Urinalysis||Healthcare Effectiveness Data and Information Set order set||HEDIS 2020 Value Set - Urine Protein Tests||Albumin/Creatinine [Mass Ratio] in Urine,1940,0.003509,1.08
+3009088,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Herpes simplex virus 1 IgG Ab [Presence] in Serum,1922,0.003476,1.02
+37019579,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Human papilloma virus DNA [Presence] in Genital specimen by NAA with probe detection,1908,0.003451,1.81
+46236101,Order set||Microbiology order set||Microbiology||Human papilloma virus 18 DNA [Presence] in Cervix by NAA with probe detection,1908,0.003451,1.81
+46236100,Order set||Microbiology order set||Microbiology||Human papilloma virus 16 DNA [Presence] in Cervix by NAA with probe detection,1908,0.003451,1.81
+3025119,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --baseline,1905,0.003446,1.12
+4197861,Hormone measurement||Somatomedin measurement||Somatomedin-C measurement||Serum insulin-like growth factor 1 measurement,1898,0.003433,1.68
+3024825,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1895,0.003428,1.12
+3024957,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1892,0.003422,1.12
+3006661,"Water, electrolyte and mineral investigations||Urine electrolytes||Urine calcium||Calcium [Mass/volume] in Urine",1884,0.003408,1.15
+3010487,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Treponema pallidum Ab | Serum | Microbiology||Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination,1874,0.00339,1.04
+3004198,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --baseline,1859,0.003362,1.12
+3007733,Order set||Measurement of substance||Electrolytes 3 panel - Urine||Chloride [Moles/volume] in Urine,1846,0.003339,1.97
+44804355,Investigation||Measurement||Measurement of substance||CTx (carboxy-terminal telopeptide) level,1843,0.003334,1.81
+3016485,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,1802,0.003259,2.06
+3005277,Serology - non-micro||Tissue specific||Serology (antibodies and most antigens except blood bank and infectious agents)||Mitochondria Ab [Presence] in Serum by Immunofluorescence,1800,0.003256,1.03
+4020552,Measurement||Musculoskeletal and soft tissue investigations (excl enzyme tests)||Protein measurement||Osteocalcin measurement,1782,0.003223,1.82
+3021466,Order set||Wet mount panel | Vaginal | Microbiology Panels||Wet mount panel - Vaginal fluid||Microscopic observation [Identifier] in Vaginal fluid by Wet preparation,1779,0.003218,1.15
+3023351,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||European house dust mite IgE Ab [Units/volume] in Serum",1758,0.00318,1.09
+3034494,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1753,0.003171,1.12
+3002780,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1751,0.003167,1.12
+3013967,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1750,0.003165,1.12
+3017512,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1750,0.003165,1.12
+3041710,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1747,0.00316,1.12
+40759615,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1746,0.003158,1.12
+42529200,Tumour marker test||Tumor markers||Chemistry||Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,1725,0.00312,1.43
+3010989,Measurement of substance||Serology - non-micro||Chemistry||Calcitonin [Mass/volume] in Serum or Plasma,1703,0.00308,1.02
+3049398,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Myeloperoxidase Ab [Units/volume] in Serum by Immunoassay,1695,0.003066,1.03
+3006441,Coagulation||Antiphospholipid syndrome||Coagulation study||Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,1675,0.00303,1.04
+4020112,Measurement||Measurement of substance||Protein measurement||Thyroid stimulating immunoglobulins measurement,1646,0.002977,2.56
+3046654,Laboratory||HLA antigens||HLA-B51 | Blood or Tissue | HLA antigens||HLA-B51 [Presence],1635,0.002957,1.01
+3034442,Order set||Susceptibility order sets||cefTRIAXone | Isolate | Antibiotic susceptibilities||cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),1623,0.002936,1.34
+4046641,Antibody measurement||Measurement of microbial antibody||Measurement of bacterial antibody||Treponema pallidum reagin antibody level,1606,0.002905,1.17
+3051669,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Proteinase 3 Ab [Units/volume] in Serum by Immunoassay,1586,0.002869,1.03
+3025346,Order set||Urinalysis||Microscopic observation|Prid|Sys:ANYResp||Microscopic observation [Identifier] in Bronchial specimen by Gram stain,1572,0.002843,9.41
+4263791,Measurement||Measurement of substance||Protein measurement||Antithrombin III assay,1568,0.002836,1.43
+44789220,Measurement||Measurement of substance||Calcium measurement||Ionised calcium measurement,1556,0.002814,2.83
+4327663,Microbiology and serology investigations||Laboratory test||Immunology laboratory test||Clostridium difficile toxin assay,1535,0.002776,1.3
+36770544,NA||NA||NA||Metastasis to the Liver,1513,0.002737,10.84
+3023428,Serology Panels||Serology order set||Smith extractable nuclear Ab|PrThr|Pt|ANYBldSerPl||Smith extractable nuclear Ab [Presence] in Serum,1513,0.002737,1.06
+3035880,Urinalysis||Measurement||pH|LsCnc|Pt|Plr fld||pH of Pleural fluid,1504,0.00272,1.29
+3023199,Order set||Urinalysis||Leukocytes|NCnc|Pt|Plr fld||Leukocytes [#/volume] in Pleural fluid,1504,0.00272,1.29
+3028308,Order set||Urinalysis||Hematology (coagulation) differential count||Erythrocytes [#/volume] in Pleural fluid,1504,0.00272,1.29
+3004448,Urinalysis||Measurement||Specific gravity | Pleural fluid | Chemistry - non-challenge||Specific gravity of Pleural fluid by Refractometry,1504,0.00272,1.29
+3000809,Ophthalmology and Optometry||Specimen information||Specimen characteristics||Color of Pleural fluid,1504,0.00272,1.29
+3046289,Order set||Urinalysis||Lymphocytes.variant/100 leukocytes | Pleural fluid | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3005532,Order set||Urinalysis||Lymphocytes/100 leukocytes | Pleural fluid | Hematology and Cell counts||Lymphocytes/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3039528,Ophthalmology and Optometry||Urinalysis||Macrophages/100 leukocytes | Pleural fluid | Hematology and Cell counts||Macrophages/100 leukocytes in Pleural fluid by Manual count,1503,0.002719,1.29
+3000919,Order set||Urinalysis||Neutrophils/100 leukocytes | Pleural fluid | Hematology and Cell counts||Neutrophils/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3001893,Order set||Urinalysis||Hematology (coagulation) differential count||Eosinophils/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3043387,Order set||Urinalysis||Monocytes/100 leukocytes | Pleural fluid | Hematology and Cell counts||Monocytes/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3030571,Order set||Urinalysis||Hematology (coagulation) differential count||Basophils/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3028029,Order set||Hematology and Cell counts||Mesothelial cells/100 leukocytes | Pleural fluid | Hematology and Cell counts||Mesothelial cells/100 leukocytes in Pleural fluid,1503,0.002719,1.29
+3019942,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Ribonucleoprotein extractable nuclear Ab [Presence] in Serum by Immunoassay,1497,0.002708,1.06
+40763082,Protein measurement||Enzyme measurement||Lactate dehydrogenase | Pleural fluid | Chemistry - non-challenge||Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,1485,0.002686,1.27
+3003434,Urinalysis||Protein measurement||Protein | Pleural fluid | Chemistry - non-challenge||Protein [Mass/volume] in Pleural fluid,1485,0.002686,1.27
+4296540,"Measurement of substance||Tumour marker test||Human chorionic gonadotropin measurement||Chorionic gonadotropin, beta-subunit measurement",1479,0.002675,1.53
+3014133,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||Dog dander IgE Ab [Units/volume] in Serum",1477,0.002672,1.08
+3036428,Protein measurement||White blood cell enzyme activity measurement||Chemistry||Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid,1474,0.002666,1.25
+4181918,"Protein measurement||Immunoglobulins||Immunoglobulin G measurement||Hepatitis B core antibody measurement, IgG type",1473,0.002664,1.05
+43531299,Urinalysis NEC||Urine examination||Microscopic urinalysis||Microscopic examination of bacterial smear of urine specimen,1461,0.002643,1.19
+3033240,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Units/volume] (viral load) in Unspecified specimen by NAA with probe detection,1457,0.002635,1.19
+4235029,"Measurement||Water, electrolyte and mineral investigations||Protein measurement||Transferrin measurement",1448,0.002619,2.06
+4188290,Measurement||Measurement of substance||Protein measurement||Insulin-like growth factor binding protein 3 level,1442,0.002608,1.77
+3036779,Laboratory||HLA antigens||HLA-B27 | Blood or Tissue | HLA antigens||HLA-B27 [Presence] by NAA with probe detection,1440,0.002605,1.01
+3001145,Microbiology and Antimicrobial susceptibility||Microbiology||Microbiology||Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,1417,0.002563,1.04
+44806070,Immunology and allergy investigations||Autoimmunity analyses||Cardiolipin antibody||Cardiolipin IgG antibody measurement,1413,0.002556,1.09
+4163378,Measurement of substance||Protein measurement||Immunoglobulins||Immunoglobulin G measurement,1413,0.002556,1.15
+4065545,Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||Examination of feces,1412,0.002554,1.15
+3045041,Order set||Microbiology order set||Microbiology||Herpes simplex virus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay,1400,0.002532,1.03
+40762243,Organism specific culture||Microbiology||Vancomycin resistant enterococcus | Anal | Microbiology||Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,1397,0.002527,4.09
+3011544,Urinalysis||Pleural fluid protein content measurement||Measurement of albumin in pleural fluid specimen||Albumin [Mass/volume] in Pleural fluid,1394,0.002521,1.24
+3017509,Measurement||Measurement of substance||Phencyclidine|PrThr|Pt|ANYUrine||Phencyclidine [Presence] in Urine,1386,0.002507,1.08
+3001526,Measurement of substance in specimen||Urine substance measurement||Drug levels & Toxicology||Acetaminophen [Presence] in Urine,1386,0.002507,1.08
+4018041,Protein measurement||Procedure to identify antibody||Immunoglobulin E measurement||Allergen specific IgE antibody measurement,1385,0.002505,4.9
+3003994,"Red blood cell analyses||Glucose-6-phosphate dehydrogenase measurement||Glucose-6-phosphate dehydrogenase measurement, quantitative||Glucose-6-Phosphate dehydrogenase [Enzymatic activity/mass] in Red Blood Cells",1378,0.002492,1.02
+4159541,NA||Staging and scales||Assessment scales||Autobiographical memory interview,1376,0.002489,1.13
+4045314,Antigen assay||Microbial antigen assay||Bacterial antigen assay||Streptococcus pneumoniae antigen assay,1373,0.002483,1.1
+4040636,Platelet analyses||Platelet function test||Platelet aggregation test||Platelet aggregation with ADP test,1371,0.00248,1.08
+3038077,Order set||Specimen information||Specimen characteristics||Color of Cerebral spinal fluid,1351,0.002444,1.61
+3050142,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Erythrocytes.fresh/100 erythrocytes in Cerebral spinal fluid by Manual count,1351,0.002444,1.61
+3027475,Order set||Urinalysis||Microbiology CNAMTS panel - Cerebral spinal fluid||Erythrocytes [#/volume] in Cerebral spinal fluid,1351,0.002444,1.61
+3020183,Urinalysis||Measurement||Specific gravity | Cerebral spinal fluid | Chemistry - non-challenge||Specific gravity of Cerebral spinal fluid by Refractometry,1351,0.002444,1.61
+3017758,Urinalysis||Measurement||pH | Cerebral spinal fluid | Chemistry - non-challenge||pH of Cerebral spinal fluid,1351,0.002444,1.61
+3016543,Order set||Urinalysis||Microbiology CNAMTS panel - Cerebral spinal fluid||Leukocytes [#/volume] in Cerebral spinal fluid,1351,0.002444,1.61
+2212506,Pathology and Laboratory Procedures||Measurement||Oncoprotein||Oncoprotein; des-gamma-carboxy-prothrombin (DCP),1338,0.00242,3.22
+3029581,Laboratory||Blood bank||Direct antiglobulin test.XXX reagent | Red Blood Cells | Blood bank||Direct antiglobulin test.unspecified reagent [Presence] on Red Blood Cells,1336,0.002416,1.1
+3020829,Order set||Urinalysis||Hematology (coagulation) differential count||Basophils/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3008266,Order set||Urinalysis||Lymphocytes.variant/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3011271,Order set||Hematology and Cell counts||Mesothelial cells/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Mesothelial cells/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3018562,Order set||Urinalysis||Neutrophils/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Neutrophils/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3020951,Order set||Urinalysis||Microbiology CNAMTS panel - Cerebral spinal fluid||Lymphocytes/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3022640,Order set||Urinalysis||Hematology (coagulation) differential count||Eosinophils/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3028502,Order set||Urinalysis||Macrophages/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Macrophages/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3037577,Order set||Urinalysis||Monocytes/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Monocytes/100 leukocytes in Cerebral spinal fluid,1332,0.002409,1.6
+3028880,Order set||Hematology and Cell counts||Hematology (coagulation) differential count||Blasts/100 leukocytes in Pleural fluid,1330,0.002406,1.29
+3042923,Laboratory||Hematology and Cell counts||Malignant cells/100 cells | Pleural fluid | Hematology and Cell counts||Malignant cells/100 cells in Pleural fluid,1330,0.002406,1.29
+3025428,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid,1322,0.002391,1.6
+3023430,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||Cat dander IgE Ab [Units/volume] in Serum",1319,0.002386,1.08
+3005322,Urinalysis||Specific antigens||Immunoglobulin E measurement||IgE [Units/volume] in Serum or Plasma,1314,0.002377,1.04
+3003403,Urinalysis||Sugars/Sugar metabolism||Quantitative measurement of glucose in pleural fluid specimen||Glucose [Mass/volume] in Pleural fluid,1309,0.002368,1.22
+3019473,Urinalysis||Protein measurement||Protein | Cerebral spinal fluid | Chemistry - non-challenge||Protein [Mass/volume] in Cerebral spinal fluid,1309,0.002368,1.55
+3006028,Order set||Toxins and poisons||Smoking biochemical markers||Cotinine [Mass/volume] in Serum or Plasma,1307,0.002364,2.78
+4197917,Protein measurement||Autoimmunity analyses||Autoantibody test||Quantitative anti-DNA antibody measurement,1275,0.002306,1.48
+3007654,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Wound | Microbiology||Microscopic observation [Identifier] in Wound by Gram stain,1242,0.002246,19.5
+4216461,Steroid measurement||Hormone measurement||Dehydroepiandrosterone measurement||Dehydroepiandrosterone sulfate level,1222,0.00221,1.51
+4155657,NA||Staging and scales||Assessment scales||Brief psychiatric rating scale - 1962,1205,0.00218,1.09
+4253329,Antigen assay||Microbial antigen assay||Parasite antigen assay||Malaria antigen test,1191,0.002154,1.23
+4135810,Measurement of substance||Protein measurement||Immunoglobulins||Immunoglobulin A measurement,1190,0.002152,1.13
+4197711,Protein measurement||Autoimmunity analyses||Autoantibody test||GBM antibody measurement,1153,0.002085,1.08
+4018318,Procedure by method||Protein measurement||Red blood cell analyses||Glucose-6-phosphate dehydrogenase measurement,1153,0.002085,1.03
+44813405,Measurement of substance||Protein measurement||Albumin measurement||Prealbumin measurement,1141,0.002064,1.84
+4098031,Immunology laboratory test||In-vitro immunologic test||Cell function assay||Natural killer cell function test,1118,0.002022,1.14
+3025698,Order set||Hematology and Cell counts||Hematology (coagulation) differential count||Blasts/100 leukocytes in Cerebral spinal fluid,1106,0.002,1.6
+3043381,Laboratory||Hematology and Cell counts||Malignant cells/100 cells | Cerebral spinal fluid | Hematology and Cell counts||Malignant cells/100 cells in Cerebral spinal fluid,1106,0.002,1.6
+4164130,Measurement of substance||Protein measurement||Immunoglobulins||Immunoglobulin M measurement,1105,0.001999,1.12
+3045707,Microbiology and Antimicrobial susceptibility||Urinalysis||Microscopic observation | Blood | Microbiology||Microscopic observation [Identifier] in Blood by Malaria smear,1062,0.001921,1.41
+4013623,Laboratory test||Investigations NEC||Laboratory test related to hemostasis||Thromboplastin generation test,1052,0.001903,5.27
+3005715,Protein measurement||Mass-Molar conversion||Vancomycin|Pt|Ser/Plas||Vancomycin [Mass/volume] in Serum or Plasma,1052,0.001903,5.13
+3026397,Order set||Urinalysis||Monocytes+Macrophages/100 leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Monocytes+Macrophages/100 leukocytes in Cerebral spinal fluid,1045,0.00189,1.57
+40763309,Microbiology and Antimicrobial susceptibility||Microbiology||Parainfluenza virus 1+2+3 RNA | XXX | Microbiology||Parainfluenza virus 1+2+3 RNA [Presence] in Unspecified specimen by NAA with probe detection,1034,0.00187,1.06
+40484574,Procedure by method||Measurement of substance||Protein measurement||Quantitative measurement of calprotectin in stool specimen,1001,0.001811,1.96
+4268574,Protein measurement||Paraprotein measurement||Cryoglobulins||Cryoglobulin screening test,982,0.001776,1.07
+3022548,Urinalysis||Sugars/Sugar metabolism||Protein and Glucose panel [Mass/volume] - Cerebral spinal fluid||Glucose [Mass/volume] in Cerebral spinal fluid,965,0.001745,1.61
+4095691,"Laboratory test related to hemostasis||Coagulation factor assay||Protein C, assay||Protein C, functional assay",963,0.001742,1.13
+4070937,Investigations||Laboratory test related to hemostasis||Coagulation factor assay||Protein S assay,952,0.001722,2.24
+3006122,Order set||Susceptibility order sets||MeropenemSusc|Isolate||Meropenem [Susceptibility] by Disk diffusion (KB),937,0.001695,1.28
+40483682,Steroid measurement||Measurement of substance in specimen||Measurement of level of substance in blood||Quantitative measurement of cortisol in baseline serum or plasma specimen after ACTH challenge,914,0.001653,1.26
+40483235,Measurement||Measurement of substance||Tumour marker test||Measurement of cancer antigen 72-4,886,0.001603,1.49
+4213892,Measurement||Measurement of substance||Hormone measurement||Growth hormone measurement,875,0.001583,3.75
+4247906,Microbiology and serology tests NEC||Microbiology test||Microbial identification test||Clostridium difficile assay,866,0.001566,1.3
+36769301,NA||NA||NA||Metastasis to the Bone,861,0.001557,9.79
+4015325,"Microbiology and serology tests NEC||Microbiology test||Antimicrobial susceptibility test||Antibiotic sensitivity, tubercle bacillus",826,0.001494,1.26
+3009613,Order set||Urinalysis||Hematology (coagulation) differential count||Erythrocytes [#/volume] in Peritoneal fluid,821,0.001485,1.96
+3021660,Ophthalmology and Optometry||Specimen information||Specimen characteristics||Color of Peritoneal fluid,821,0.001485,1.96
+3005543,Urinalysis||Measurement||Specific gravity | Peritoneal fluid | Chemistry - non-challenge||Specific gravity of Peritoneal fluid by Refractometry,821,0.001485,1.96
+3023487,Order set||Urinalysis||Leukocytes|NCnc|Pt|Periton fld||Leukocytes [#/volume] in Peritoneal fluid,821,0.001485,1.96
+3023037,Urinalysis||Measurement||pH|LsCnc|Pt|Periton fld||pH of Peritoneal fluid,821,0.001485,1.96
+3019298,Order set||Urinalysis||Hematology (coagulation) differential count||Eosinophils/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3032363,Order set||Urinalysis||Hematology (coagulation) differential count||Basophils/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3033483,Order set||Urinalysis||Monocytes/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Monocytes/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3024271,Order set||Hematology and Cell counts||Mesothelial cells/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Mesothelial cells/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3043989,Order set||Urinalysis||Lymphocytes.variant/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3004437,Order set||Urinalysis||Lymphocytes/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Lymphocytes/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+3041635,Ophthalmology and Optometry||Urinalysis||Macrophages/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Macrophages/100 leukocytes in Peritoneal fluid by Manual count,817,0.001478,1.96
+3004995,Order set||Urinalysis||Neutrophils/100 leukocytes | Peritoneal fluid | Hematology and Cell counts||Neutrophils/100 leukocytes in Peritoneal fluid,817,0.001478,1.96
+4168929,"Investigations||Laboratory test related to hemostasis||Coagulation factor assay||Protein C, assay",816,0.001476,1.13
+4013262,Protein measurement||Antibody measurement||Procedure to identify antibody||Widal test,795,0.001438,1.2
+36675049,Procedure on organ||Procedure on soft tissue||Periodontic procedure||Measurement of periodontal pocket depth,788,0.001425,1.94
+43527945,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||EGFR (epidermal growth factor receptor) (eg, non-small cell lung cancer) gene analysis, common variants (eg, exon 19 LREA deletion, L858R, T790M, G719A, G719S, L861Q)",748,0.001353,1.67
+3001886,Order set||Urinalysis||Microscopic observation | Cerebral spinal fluid | Microbiology||Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,747,0.001351,12.31
+36303261,Ophthalmology and Optometry||Urinalysis||Leukocytes | Cerebral spinal fluid | Hematology and Cell counts||Leukocytes [Presence] in Cerebral spinal fluid by Gram stain,747,0.001351,1.76
+4143902,Measurement||Measurement of substance||Protein measurement||Myoglobin measurement,746,0.001349,1.37
+44789255,Protein measurement||Hormone measurement||Renin measurement||Renin activity measurement,745,0.001348,1.35
+44806071,Immunology and allergy investigations||Autoimmunity analyses||Cardiolipin antibody||Cardiolipin IgM antibody measurement,745,0.001348,1.07
+4007807,Measurement of substance||Protein measurement||Immunology analyses NEC||Tryptase measurement,728,0.001317,1.25
+4282927,"Procedure by method||Microbiology test||Microbial ova-parasite examination||Microbial ova-parasite examination, fecal",725,0.001311,1.21
+3005233,Order set||Susceptibility order sets||CefotaximeSusc|Isolate||Cefotaxime [Susceptibility] by Disk diffusion (KB),700,0.001266,1.19
+4107569,Regimes and therapies||Procedure with a procedure focus||Medication monitoring||Therapeutic drug monitoring assay,676,0.001223,3.74
+44804356,Measurement||Measurement of substance||Hormone measurement||Anti-Mullerian hormone measurement,648,0.001172,1.12
+4337961,Measurement of substance||Protein measurement||Protein analyses NEC||Ceruloplasmin measurement,627,0.001134,1.08
+3012222,Order set||Susceptibility order sets||Trimethoprim+SulfamethoxazoleSusc|Isolate||Trimethoprim+Sulfamethoxazole [Susceptibility] by Disk diffusion (KB),613,0.001109,1.15
+3033236,Myocardial necrosis marker||Flowsheet - laboratory||Creatine kinase.MB|MCnc|Pt|ANYBldSerPl||Creatine kinase.MB [Mass/volume] in Blood,612,0.001107,1.04
+3033745,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Blood,612,0.001107,1.04
+45770207,Laboratory test||Genetic test||Molecular genetic test||Kirsten rat sarcoma viral oncogene homolog targeted genetic test,587,0.001062,1.05
+4179789,Protein measurement||Procedure to identify antibody||Autoimmunity analyses||Smooth muscle antibody measurement,562,0.001017,1.12
+725095,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||TPMT (thiopurine S-methyltransferase) (eg, drug metabolism), gene analysis, common variants (eg, *2, *3)",548,0.000991,1.15
+42358228,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level B),541,0.000979,1.24
+3000197,Microbiology and Antimicrobial susceptibility||Antibiotic susceptibilities||Beta lactamase.usual | Isolate | Antibiotic susceptibilities||Beta lactamase.usual [Susceptibility],513,0.000928,1.11
+4042762,Investigation||Measurement||Measurement of renal clearance||Measurement of renal clearance of creatinine,513,0.000928,2.37
+3020153,Order set||Susceptibility order sets||CiprofloxacinSusc|Isolate||Ciprofloxacin [Susceptibility] by Disk diffusion (KB),505,0.000913,1.16
+3017595,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||Ampicillin [Susceptibility] by Disk diffusion (KB),491,0.000888,1.12
+46284252,Protein measurement||Autoimmunity analyses||Autoantibody test||Serum phospholipase-A2 receptor antibody measurement,489,0.000884,1.15
+3002850,Order set||Susceptibility order sets||TetracyclineSusc|Isolate||Tetracycline [Susceptibility] by Disk diffusion (KB),486,0.000879,1.15
+4146218,Antibody measurement||Procedure to identify antibody||Antibody to tissue specific antigen measurement||Antibody to cell surface receptor measurement,486,0.000879,2.22
+3004417,Order set||Susceptibility order sets||ClarithromycinSusc|Isolate||Clarithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),482,0.000872,1.32
+3036102,Order set||Susceptibility order sets||PristinamycinSusc|Isolate||Pristinamycin [Susceptibility] by Minimum inhibitory concentration (MIC),481,0.00087,1.32
+4056787,Measurement of substance||Toxicology and therapeutic drug monitoring||Toxicology laboratory analyses||Carboxyhemoglobin measurement,478,0.000865,1.36
+3037262,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||Amoxicillin+Clavulanate [Susceptibility] by Disk diffusion (KB),468,0.000846,1.11
+4308939,Procedure on skin||Skin test||Test of cell-mediated immunity||Delayed hypersensitivity skin test for tuberculin PPD,467,0.000845,1.25
+3008308,Order set||Susceptibility order sets||ErythromycinSusc|Isolate||Erythromycin [Susceptibility] by Disk diffusion (KB),465,0.000841,1.23
+3008504,Order set||Susceptibility order sets||VancomycinSusc|Isolate||Vancomycin [Susceptibility] by Disk diffusion (KB),463,0.000837,1.25
+4229096,Microbiology and serology investigations||Protein measurement||Treponema test||Serologic test for syphilis,456,0.000825,1.08
+4232313,"Microbial identification test||Microbial identification kit method||Microbial identification kit conventional method||Microbial identification kit, rapid strep method",454,0.000821,1.19
+4216716,Measurement of substance||Steroid measurement||17-hydroxycorticosteroid measurement||17 Hydroxyprogesterone measurement,453,0.000819,1.07
+4248132,Measurement of substance||Hormone measurement||Thyroid hormone measurement||Thyroxine measurement,442,0.000799,1.11
+4007663,Measurement of substance||Protein measurement||Lipoproteins measurement||Lipoprotein (a) measurement,439,0.000794,1.1
+42627943,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||NRAS (neuroblastoma RAS viral [v-ras] oncogene homolog) (eg, colorectal carcinoma), gene analysis, variants in exon 2 (eg, codons 12 and 13) and exon 3 (eg, codon 61)",431,0.00078,1.05
+36769180,NA||NA||NA||Metastasis,429,0.000776,12.45
+4310476,Protein measurement||Autoimmunity analyses||Autoantibody test||Glutamic acid decarboxylase antibody level,424,0.000767,1.08
+42742338,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Microsatellite instability analysis (eg, hereditary non-polyposis colorectal cancer, Lynch syndrome) of markers for mismatch repair deficiency (eg, BAT25, BAT26), includes comparison of neoplastic and normal tissue, if performed",424,0.000767,1.08
+42529230,Laboratory||Thyroid hormone measurement||Thyroxine|Pt|Ser/Plas|IA|776.874 g/mole||Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,423,0.000765,1.04
+4216186,Protein and chemistry analyses NEC||Protein measurement||Protein analyses NEC||Beta-2-microglobulin measurement,422,0.000763,1.45
+40481003,Measurement||Measurement of substance||Protein measurement||Measurement of haptoglobin,412,0.000745,1.27
+3005158,Order set||Susceptibility order sets||ClindamycinSusc|Isolate||Clindamycin [Susceptibility] by Disk diffusion (KB),412,0.000745,1.22
+4308581,Measurement||Measurement of substance||Steroid measurement||Aldosterone measurement,403,0.000729,1.47
+40756890,Investigation||Pathology and Laboratory Procedures||Measurement of substance||Human epididymis protein 4 (HE4),367,0.000664,1.17
+4044814,Protein measurement||Autoimmunity analyses||Procedure to identify antibody||Measurement of acetylcholine receptor antibody,364,0.000658,1.3
+4046263,Measurement||Measurement of substance||Protein measurement||Enzyme measurement,362,0.000655,3.2
+3019800,Troponin measurement||Troponin T measurement||Troponin T.cardiac|MCnc|Pt|ANYBldSerPl||Troponin T.cardiac [Mass/volume] in Serum or Plasma,361,0.000653,1.11
+4091300,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Dexamethasone suppression test,355,0.000642,1.23
+42266183,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_PCR-Hybridization[ROS1 Gene],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",338,0.000611,1.18
+4135562,Protein measurement||Immunoglobulins||Immunoglobulin M measurement||Anti B2 glycoprotein 1 IgM antibody measurement,330,0.000597,1.08
+4133753,Protein measurement||Immunoglobulins||Immunoglobulin G measurement||Anti B2 glycoprotein 1 IgG antibody measurement,328,0.000593,1.09
+4234899,"Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||Antibiotic sensitivity, disk method",327,0.000591,1.62
+3037153,Order set||Susceptibility order sets||rifAMPin | Isolate | Antibiotic susceptibilities||rifAMPin [Susceptibility] by Disk diffusion (KB),326,0.00059,1.13
+3021541,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Amphotericin B [Susceptibility] by Minimum inhibitory concentration (MIC),318,0.000575,1.99
+4208363,Staging and scales||Assessment scales||Rey figure test||Rey complex figure test,316,0.000572,1.08
+3012451,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||5-Fluorocytosine [Susceptibility] by Minimum inhibitory concentration (MIC),310,0.000561,2.01
+4045506,Protein measurement||Autoimmunity analyses||Procedure to identify antibody||Measurement of liver and kidney microsomal antibody,299,0.000541,1.03
+4300166,"Investigations||Metabolic, nutritional and blood gas investigations||Measurement of substance||Fructosamine measurement",294,0.000532,1.5
+4196685,"Protein measurement||Immunoglobulins||Immunoglobulin M measurement||Hepatitis B core antibody measurement, IgM type",289,0.000523,1.05
+44790868,Measurement of substance||Hormone measurement||Inhibin measurement||Inhibin A measurement,288,0.000521,1.3
+4208541,Laboratory test related to hemostasis||Haematology investigations (incl blood groups)||Fibrinogen screening||Thrombin time,287,0.000519,1.09
+3012295,Order set||Susceptibility order sets||FluconazoleSusc|Isolate||Fluconazole [Susceptibility] by Minimum inhibitory concentration (MIC),287,0.000519,1.94
+3012133,Protein measurement||Single allergens||Chemistry||Amylase [Enzymatic activity/volume] in Body fluid,287,0.000519,4.92
+3009314,Order set||Susceptibility order sets||CefepimeSusc|Isolate||Cefepime [Susceptibility] by Disk diffusion (KB),279,0.000505,1.3
+4016523,"Blood grouping||Blood group typing, RH phenotyping||D blood group typing||Weak D blood group typing",258,0.000467,1.1
+4017617,Protein measurement||Lipoproteins measurement||Lipoprotein and lipid tests NEC||Apolipoproteins B measurement,250,0.000452,1.08
+4133773,Measurement||Measurement of substance||Protein measurement||Serum C1 esterase inhibitor antigen level,250,0.000452,1.24
+4232703,Measurement||Measurement of substance||Protein measurement||Measurement of pregnancy associated plasma protein A concentration,247,0.000447,1.13
+3036155,Order set||Susceptibility order sets||VoriconazoleSusc|Isolate||Voriconazole [Susceptibility] by Minimum inhibitory concentration (MIC),246,0.000445,1.93
+44791431,Investigation||Measurement||Measurement of substance||Human epidermal growth factor receptor-2 measurement,243,0.00044,1.16
+3000941,Order set||Susceptibility order sets||LinezolidSusc|Isolate||Linezolid [Susceptibility] by Disk diffusion (KB),241,0.000436,1.28
+4018470,Microbiology and serology investigations||Protein measurement||Serology test||Measurement of Helicobacter pylori antibody,241,0.000436,1.13
+40757307,Order set||Susceptibility order sets||CaspofunginSusc|Isolate||Caspofungin [Susceptibility] by Minimum inhibitory concentration (MIC),240,0.000434,1.93
+3038339,Order set||Susceptibility order sets||MicafunginSusc|Isolate||Micafungin [Susceptibility] by Minimum inhibitory concentration (MIC),238,0.00043,1.93
+4315019,"Laboratory test related to hemostasis||Coagulation factor assay||Protein S assay||Protein S, functional assay",237,0.000429,1.05
+42742564,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||BRAF (B-Raf proto-oncogene, serine/threonine kinase) (eg, colon cancer, melanoma), gene analysis, V600 variant(s)",228,0.000412,1.17
+4017355,"Investigations||Thyroid hormone measurement||Triiodothyronine measurement||Triiodothyronine, free measurement",220,0.000398,1.04
+3015862,Order set||Susceptibility order sets||levoFLOXacin | Isolate | Antibiotic susceptibilities||levoFLOXacin [Susceptibility] by Disk diffusion (KB),213,0.000385,1.24
+3018910,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Chemistry||Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,213,0.000385,1.03
+4055657,Measurement||Measurement of substance||Protein measurement||Serum/plasma protein test,212,0.000383,1.08
+4234494,Measurement of substance||Protein measurement||Tissue enzyme analyses NEC||Angiotensin converting enzyme measurement,209,0.000378,1.22
+4014902,Protein measurement||Lipoproteins measurement||Apolipoprotein measurement||Apolipoproteins A measurement,208,0.000376,1.09
+4017631,"Steroid measurement||17-hydroxycorticosteroid measurement||Cortisol measurement||Cortisol, free measurement",206,0.000373,1.12
+44789299,Measurement of substance||Tumour marker test||Parathyroid hormone measurement||Parathyroid hormone related peptide measurement,203,0.000367,1.07
+4092969,Laboratory test||Immunology laboratory test||Immunology analyses NEC||In vivo test of hypersensitivity,203,0.000367,1.76
+4043761,Laboratory test||Investigations NEC||Hematology test||Bone marrow examination,201,0.000364,4.23
+4268036,Measurement||Measurement of substance||Hormone measurement||Antidiuretic hormone measurement,192,0.000347,1.39
+42361147,NA||NA||NA||Cytopathology Examination- External slide reading (Liquid-Based Cytopathologic Examination)- Aspiration Cytopathology,189,0.000342,1.13
+4135655,"Red blood cell test||Reticulocyte count||Reticulocyte count, flow cytometry||Immature reticulocyte fraction",187,0.000338,1.05
+3024716,Order set||Susceptibility order sets||ChloramphenicolSusc|Isolate||Chloramphenicol [Susceptibility] by Disk diffusion (KB),186,0.000336,1.12
+4147892,Measurement of substance||Steroid measurement||Reproductive hormone analyses||Estriol measurement,184,0.000333,1.04
+42742560,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||BCR/ABL1 (t(9;22)) (eg, chronic myelogenous leukemia) translocation analysis; major breakpoint, qualitative or quantitative",184,0.000333,1.31
+4157251,NA||Staging and scales||Assessment scales||Child depression scale,182,0.000329,1.12
+4147623,Protein measurement||Measurement of substance||Tumour marker test||Neuron-specific enolase measurement,180,0.000326,1.62
+3013861,Order set||Mass-Molar conversion||Lipoprotein metabolism panel - Serum or Plasma||Lipoprotein a [Mass/volume] in Serum or Plasma,179,0.000324,1.03
+42742303,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||F5 (coagulation factor V) (eg, hereditary hypercoagulability) gene analysis, Leiden variant",179,0.000324,1.15
+4236592,Investigation abnormal||Evaluation finding||Virus present||Human Bocavirus present,178,0.000322,1.66
+4154344,Enzyme measurement||Alkaline phosphatase measurement||Alkaline phosphatase isoenzymes measurement||Alkaline phosphatase - bone isoenzyme measurement,172,0.000311,1.15
+42266252,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[ALK Gene],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",171,0.000309,1.04
+42742322,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||JAK2 (Janus kinase 2) (eg, myeloproliferative disorder) gene analysis, p.Val617Phe (V617F) variant",171,0.000309,1.65
+4150856,NA||Staging and scales||Assessment scales||Category test,169,0.000306,1.49
+4012477,"Procedure by method||Metabolic, nutritional and blood gas investigations||Pancreatic function test||Glucose tolerance test",167,0.000302,1.09
+927109,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||BRCA1 (BRCA1, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis||BRCA1 (BRCA1, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis; full sequence analysis",167,0.000302,1.11
+42742290,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||BRCA2 (BRCA2, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis; full sequence analysis",167,0.000302,1.11
+3038086,Order set||Susceptibility order sets||cefTAZidime | Isolate | Antibiotic susceptibilities||cefTAZidime [Susceptibility] by Disk diffusion (KB),164,0.000297,1.25
+42742316,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IGH@ (Immunoglobulin heavy chain locus) (eg, leukemia and lymphoma, B-cell), variable region somatic mutation analysis",162,0.000293,1.14
+4032801,Microbiology and serology investigations||Microbiology and serology tests NEC||Microbiology test||Antimicrobial susceptibility test,158,0.000286,1.27
+4196218,Measurement||Measurement of substance||Skeletal and cardiac muscle analyses||Aldolase measurement,155,0.00028,1.55
+4218642,Skin test||Immunology laboratory test||Type 4 hypersensitivity skin test||Patch test,153,0.000277,1.01
+42742561,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||BCR/ABL1 (t(9;22)) (eg, chronic myelogenous leukemia) translocation analysis; minor breakpoint, qualitative or quantitative",151,0.000273,1.17
+3003105,Order set||Susceptibility order sets||GentamicinSusc|Isolate||Gentamicin [Susceptibility] by Disk diffusion (KB),150,0.000271,1.31
+927143,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||NUDT15 (nudix hydrolase 15) (eg, drug metabolism) gene analysis, common variant(s) (eg, *2, *3, *4, *5, *6)",150,0.000271,1.28
+4290342,Antibody measurement||Procedure to identify antibody||Antibody to tissue specific antigen measurement||Insulin antibody measurement,148,0.000268,1.07
+4196848,Protein measurement||Autoimmunity analyses||Autoantibody test||Hu antibody measurement,144,0.00026,1.39
+42873103,NA||Staging and scales||Assessment scales||Panic disorder severity scale,144,0.00026,1.06
+4060130,"Immunoglobulins||Immunoglobulin G measurement||Immunoglobulin G subclass measurement||Immunoglobulin G subclass, G4 measurement",142,0.000257,1.18
+42340210,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 1q21 ],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",137,0.000248,1.13
+40485072,Laboratory test||Genetic test||Molecular genetic test||Detection of BCR-ABL translocation,135,0.000244,3.22
+3006884,Order set||Susceptibility order sets||PenicillinSusc|Isolate||Penicillin [Susceptibility] by Disk diffusion (KB),129,0.000233,1.17
+3019681,Order set||Susceptibility order sets||MinocyclineSusc|Isolate||Minocycline [Susceptibility] by Disk diffusion (KB),128,0.000232,1.36
+4161982,Cardiovascular observable||Cardiovascular measure||Cardiac measure||Fractional flow reserve,126,0.000228,1.07
+4068735,"Measurement of substance||Steroid measurement||Testosterone measurement||Testosterone measurement, unbound",125,0.000226,1.26
+42742317,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IGK@ (Immunoglobulin kappa light chain locus) (eg, leukemia and lymphoma, B-cell), gene rearrangement analysis, evaluation to detect abnormal clonal population(s)",119,0.000215,1.1
+42361374,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level C- Number of Paraffin Blocks ≤9),119,0.000215,1.28
+4197858,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Growth hormone stimulation test,117,0.000212,4.3
+4015178,Measurement of substance||Red blood cell test||Measurement of total hemoglobin concentration||Measurement of total hemoglobin concentration in plasma specimen,112,0.000203,1.4
+42628604,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||CALR (calreticulin) (eg, myeloproliferative disorders), gene analysis, common variants in exon 9",110,0.000199,1.08
+44786753,Measurement of substance in specimen||Tacrolimus measurement||Tacrolimus|Pt|Bld|IA||Tacrolimus [Mass/volume] in Blood by Immunoassay,109,0.000197,20.74
+45770189,Laboratory test||Genetic test||Molecular genetic test||Myeloproliferative disorder comprehensive genetic test,105,0.00019,1.09
+4196111,Laboratory procedure||Laboratory test||Chromosome analyses||Karyotype determination,104,0.000188,1
+42340071,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 20q ],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",98,0.000177,1.11
+4093320,Measurement of substance||Protein measurement||Hormone measurement||Alpha-subunit of pituitary glycoprotein hormone measurement,98,0.000177,1.53
+42339491,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 7q],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",97,0.000175,1.11
+42340056,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 5q ],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",97,0.000175,1.11
+3014791,Order set||Mass-Molar conversion||Lipoprotein metabolism panel - Serum or Plasma||Apolipoprotein B [Mass/volume] in Serum or Plasma,97,0.000175,1.01
+42339900,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Centromere 8],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",97,0.000175,1.11
+4072152,Measurement of substance||Lipids measurement||Lipoprotein and lipid tests NEC||Free fatty acids measurement,95,0.000172,1.32
+42742343,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||PML/RARalpha, (t(15;17)), (promyelocytic leukemia/retinoic acid receptor alpha) (eg, promyelocytic leukemia) translocation analysis||PML/RARalpha, (t(15;17)), (promyelocytic leukemia/retinoic acid receptor alpha) (eg, promyelocytic leukemia) translocation analysis; common breakpoints (eg, intron 3 and intron 6), qualitative or quantitative",92,0.000166,2.43
+3003793,Order set||Susceptibility order sets||ImipenemSusc|Isolate||Imipenem [Susceptibility] by Disk diffusion (KB),92,0.000166,1.32
+3001950,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||Amikacin [Susceptibility] by Disk diffusion (KB),91,0.000165,1.41
+3005486,Order set||Susceptibility order sets||ItraconazoleSusc|Isolate||Itraconazole [Susceptibility] by Minimum inhibitory concentration (MIC),89,0.000161,2.07
+4293725,White blood cell analyses||White blood cell count||Lymphocyte count||Lymphocyte subsets,86,0.000156,1.66
+3022094,Order set||Susceptibility order sets||TobramycinSusc|Isolate||Tobramycin [Susceptibility] by Disk diffusion (KB),79,0.000143,1.33
+4018340,Measurement||Measurement of substance||Steroid measurement||17-Ketosteroids measurement,79,0.000143,1.11
+44789067,Autoantibody test||Measurement of ganglioside antibody||Anti-ganglioside M1 measurement||Anti-ganglioside M1 immunoglobulin G measurement,78,0.000141,1.55
+4277286,"Renal and urinary tract investigations and urinalyses||Urinalysis NEC||Urine analysis||Hemosiderin measurement, urine",78,0.000141,1.05
+3008364,Reportable microbiology||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Apolipoprotein A-I [Mass/volume] in Serum or Plasma,77,0.000139,1.01
+3006488,Order set||Susceptibility order sets||MiconazoleSusc|Isolate||Miconazole [Susceptibility] by Minimum inhibitory concentration (MIC),77,0.000139,2.12
+36770040,NA||NA||NA||Metastasis to the Gastrointestinal Tract,77,0.000139,8.26
+4018461,Measurement of substance||Immunologic identification of antigen or antibody||Microbial antigen assay||Microbial antigen assay by latex agglutination method,77,0.000139,1.26
+4262074,Investigation abnormal||Evaluation finding||Virus present||Human parainfluenza virus present,76,0.000137,1.67
+2212261,In-vitro immunologic test||White blood cell analyses||Neutrophil function test||Chemiluminescent assay,74,0.000134,1.07
+3015341,Order set||Susceptibility order sets||KetoconazoleSusc|Isolate||Ketoconazole [Susceptibility] by Minimum inhibitory concentration (MIC),73,0.000132,2.15
+4268445,Measurement of viral antibody||Hepatitis antibody test||Hepatitis E antibody measurement||Hepatitis E IgM level,71,0.000128,1.04
+3034918,Order set||Susceptibility order sets||ErtapenemSusc|Isolate||Ertapenem [Susceptibility] by Disk diffusion (KB),70,0.000127,1.34
+4263754,Measurement||Measurement of substance||Steroid measurement||Progesterone measurement,69,0.000125,1.23
+42628605,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||KIT (v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog) (eg, gastrointestinal stromal tumor [GIST], acute myeloid leukemia, melanoma), gene analysis, targeted sequence analysis (eg, exons 8, 11, 13, 17, 18)",69,0.000125,1.13
+4034850,Procedure||Procedure by method||Laboratory procedure||Laboratory test,68,0.000123,1.57
+4165141,NA||Staging and scales||Assessment scales||Positive and negative syndrome scale,67,0.000121,1.63
+4297178,"Measurement||Metabolic, nutritional and blood gas investigations||Vitamin measurement||Vitamin A measurement",66,0.000119,1.27
+42364373,NA||NA||NA||Cytopathology Examination- External slide reading (General Cytopathologic Examination)- Aspiration Cytopathology,65,0.000118,1.15
+3006507,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||Aztreonam [Susceptibility] by Disk diffusion (KB),64,0.000116,1.31
+4185265,Measurement of substance in specimen||Measurement of substance||Hormone measurement||Erythropoietin measurement,64,0.000116,1.12
+4206625,Laboratory test||Investigations NEC||Laboratory test related to hemostasis||Thromboelastography,64,0.000116,2.77
+42742297,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||CYP2C19 (cytochrome P450, family 2, subfamily C, polypeptide 19) (eg, drug metabolism), gene analysis, common variants (eg, *2, *3, *4, *8, *17)",64,0.000116,1.02
+4095044,"Metabolic, nutritional and blood gas investigations||Protein measurement||Oxygen saturation measurement||Venous oxygen saturation measurement",62,0.000112,1.16
+3016242,Order set||Susceptibility order sets||Piperacillin+TazobactamSusc|Isolate||Piperacillin+Tazobactam [Susceptibility] by Disk diffusion (KB),61,0.00011,1.34
+3048529,Troponin measurement||Troponin T measurement||Troponin T.cardiac|MCnc|Pt|ANYBldSerPl||Troponin T.cardiac [Mass/volume] in Blood,60,0.000109,1.02
+42339413,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_Nested PCR[RUNX1-RUNX1T1 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",58,0.000105,1.14
+42339768,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_Nested PCR[TCF3-PBX1 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",58,0.000105,1.16
+4043072,Protein measurement||Enzyme measurement||Pancreatic enzymes||Serum amylase (pancreatic) measurement,57,0.000103,1.07
+42339844,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[TP53 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",56,0.000101,1.11
+4252203,Measurement||Measurement of substance||Protein measurement||von Willebrand factor antigen level,56,0.000101,1.12
+4017197,Investigation||Measurement||Measurement of substance||Iodine measurement,54,9.8e-05,1.04
+4035322,Coagulation factor assay||Intrinsic coagulation pathway factor measurement||Factor VIII R: WF assay||Factor VIII R: R Co assay,52,9.4e-05,1.1
+42742307,"Pathology and Laboratory Procedures||Tier 1 Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||FLT3 (fms-related tyrosine kinase 3) (eg, acute myeloid leukemia), gene analysis; internal tandem duplication (ITD) variants (ie, exons 14, 15)",52,9.4e-05,1.15
+46257563,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||FLT3 (fms-related tyrosine kinase 3) (eg, acute myeloid leukemia), gene analysis||FLT3 (fms-related tyrosine kinase 3) (eg, acute myeloid leukemia), gene analysis; tyrosine kinase domain (TKD) variants (eg, D835, I836)",52,9.4e-05,1.13
+42339925,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_Nested PCR[ETV6-RUNX1 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",48,8.7e-05,1.17
+35225543,NA||NA||NA||Metastasis to the Large Intestine,47,8.5e-05,6.62
+3036704,Order set||Susceptibility order sets||Quinupristin+DalfopristinSusc|Isolate||Quinupristin+Dalfopristin [Susceptibility] by Disk diffusion (KB),45,8.1e-05,1.4
+44789066,Autoantibody test||Measurement of ganglioside antibody||Anti-ganglioside M1 measurement||Anti-ganglioside M1 immunoglobulin M measurement,45,8.1e-05,1.13
+3007552,Order set||Susceptibility order sets||Cefotaxime | Isolate.meningitis | Antibiotic susceptibilities||Cefotaxime [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),44,8e-05,1.23
+3008974,Order set||Susceptibility order sets||cefTRIAXone | Isolate.meningitis | Antibiotic susceptibilities||cefTRIAXone [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),44,8e-05,1.23
+42339475,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[IGH-CCND1 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",44,8e-05,1.09
+3021988,Order set||Susceptibility order sets||PiperacillinSusc|Isolate||Piperacillin [Susceptibility] by Disk diffusion (KB),44,8e-05,1.25
+4187459,Immunology laboratory test||In-vitro immunologic test||Rheumatoid factor measurement||Rheumatoid factor IgG level,43,7.8e-05,1.28
+4185915,Immunology laboratory test||In-vitro immunologic test||Rheumatoid factor measurement||IgA rheumatoid factor level,43,7.8e-05,1.28
+4040371,Autoimmunity analyses||Autoantibody test||Measurement of ganglioside antibody||Measurement of ganglioside GD1b antibody,43,7.8e-05,1.12
+4082602,Measurement||Measurement of substance||Reproductive hormone analyses||Sex hormone binding globulin measurement,43,7.8e-05,1.16
+42339851,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 13q],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",42,7.6e-05,1.1
+42339515,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[IGH-FGFR3 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",42,7.6e-05,1.1
+42339701,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[IGH-MAF Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",42,7.6e-05,1.1
+3022338,Laboratory||Mass-Molar conversion||Retinol|Pt|Ser/Plas|286.459 g/mole||Retinol [Mass/volume] in Serum or Plasma,40,7.2e-05,1.05
+4286509,Measurement of substance||Protein measurement||Immunoglobulins||Immunoglobulin D measurement,40,7.2e-05,1
+4080589,Protein measurement||Procedure to identify antibody||Heterophile antibody measurement||Heterophile antibody screen,39,7.1e-05,1.03
+4098194,In-vitro immunologic test||Transplantation assay||Histocompatibility crossmatch||Interleukin-2 secretion induction test,38,6.9e-05,1.34
+4148286,Protein measurement||Procedure to identify antibody||Autoantibody test||Antibody to gastric parietal cell measurement,38,6.9e-05,1.05
+42339831,"NA||NA||NA||Genetic Tests for Germline Variants_Sequencing[RNF213 Gene, p.R4810K],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",38,6.9e-05,1.26
+4017774,Measurement||Measurement of substance||Steroid measurement||17-hydroxycorticosteroid measurement,36,6.5e-05,1.28
+3026377,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||5-Fluorocytosine [Susceptibility] by Disk diffusion (KB),35,6.3e-05,1.97
+3024567,Order set||Susceptibility order sets||FluconazoleSusc|Isolate||Fluconazole [Susceptibility] by Disk diffusion (KB),35,6.3e-05,1.97
+3012420,Order set||Susceptibility order sets||Bacterial susceptibility panel by Disk diffusion (KB)||Amphotericin B [Susceptibility] by Disk diffusion (KB),35,6.3e-05,1.97
+40757310,Order set||Susceptibility order sets||ItraconazoleSusc|Isolate||Itraconazole [Susceptibility] by Disk diffusion (KB),34,6.1e-05,2
+4251636,Measurement of substance||Protein measurement||Autoimmunity analyses||Intrinsic factor antibody measurement,33,6e-05,1.09
+4092809,Measurement of substance||Laboratory test||Laboratory test of hypothalamic and pituitary hormones||Combined pituitary function test,33,6e-05,1.12
+3001467,Order set||Chemistry order set||Chemistry||Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma,32,5.8e-05,1
+3033548,Order set||Susceptibility order sets||ColistinSusc|Isolate||Colistin [Susceptibility] by Disk diffusion (KB),32,5.8e-05,1.09
+35956096,"NA||NA||NA||F2 (coagulation factor II, thrombin) Variant",32,5.8e-05,1.09
+3008626,Order set||Susceptibility order sets||KetoconazoleSusc|Isolate||Ketoconazole [Susceptibility] by Disk diffusion (KB),32,5.8e-05,2.06
+4196106,Respiratory and pulmonary investigations (excl blood gases)||Respiratory and pulmonary function diagnostic procedures||Pulmonary function test||Determination of resistance to airflow,32,5.8e-05,1.09
+40757311,Order set||Susceptibility order sets||MiconazoleSusc|Isolate||Miconazole [Susceptibility] by Disk diffusion (KB),31,5.6e-05,2.1
+40485025,Paraprotein measurement||Serum paraprotein measurement||Serum cryoglobulin level||Quantitative measurement of cryoglobulin in serum specimen,31,5.6e-05,1.23
+4100657,"Measurement||Metabolic, nutritional and blood gas investigations||Vitamin measurement||Ascorbic acid measurement",31,5.6e-05,1.03
+4090967,Laboratory test||Dynamic endocrine function test||Dexamethasone suppression test||Low dose dexamethasone suppression test,31,5.6e-05,1.13
+4019983,Measurement||Measurement of substance||Pyrrole measurement||Porphobilinogen measurement,30,5.4e-05,2.67
+42742302,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||F2 (prothrombin, coagulation factor II) (eg, hereditary hypercoagulability) gene analysis, 20210G>A variant",29,5.2e-05,1.14
+35950202,NA||NA||NA||ATXN1 (ataxin 1) Variant,29,5.2e-05,1.97
+42340159,"NA||NA||NA||Genetic Tests for Germline Variants_PCR-Extended_PCR-Fragment Analysis _PCR-PAGE[ATXN8 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",27,4.9e-05,1.11
+35951777,NA||NA||NA||ATXN3 (ataxin 3) Variant,27,4.9e-05,1.11
+3003906,Order set||Susceptibility order sets||OxacillinSusc|Isolate||Oxacillin [Susceptibility] by Disk diffusion (KB),27,4.9e-05,1.15
+35946461,NA||NA||NA||ATXN2 (ataxin 2) Variant,26,4.7e-05,1.12
+35955666,NA||NA||NA||ATXN7 (ataxin 7) Variant,26,4.7e-05,1.12
+35961946,NA||NA||NA||CACNA1A (calcium voltage-gated channel subunit alpha1 A) Variant,25,4.5e-05,1.12
+42339659,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[MLL Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",24,4.3e-05,1.25
+927140,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||FXN (frataxin) (eg, Friedreich ataxia) gene analysis||FXN (frataxin) (eg, Friedreich ataxia) gene analysis; full gene sequence",24,4.3e-05,1.12
+927136,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||HTT (huntingtin) (eg, Huntington disease) gene analysis||HTT (huntingtin) (eg, Huntington disease) gene analysis; evaluation to detect abnormal (eg, expanded) alleles",24,4.3e-05,1.04
+4017061,Measurement of substance||Steroid measurement||Hormone measurement||Dehydroepiandrosterone measurement,23,4.2e-05,1.13
+725078,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IDH1 (isocitrate dehydrogenase 1 [NADP+], soluble) (eg, glioma), common variants (eg, R132H, R132C)",23,4.2e-05,1.22
+42363524,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks ≤9),23,4.2e-05,1.17
+4331302,Measurement of substance||Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement,22,4e-05,1.05
+42347517,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_PCR-Hybridization[CBFB-MYH11 Fusion Gene],Clinical Pathologist etc. reading",21,3.8e-05,1
+4231897,Investigation||Measurement||Measurement of substance||Vanillylmandelic acid measurement,20,3.6e-05,1
+4091570,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Aldosterone suppression test,20,3.6e-05,2.2
+40481415,Measurement||Measurement of substance||Protein measurement||Measurement of Bence Jones protein,19,3.4e-05,1.11
+42339916,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[RUNX1-RUNX1T1 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",19,3.4e-05,1.26
+42266503,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 1p],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",19,3.4e-05,1.21
+4145847,Measurement||Measurement of substance||Protein measurement||Amyloid A level,19,3.4e-05,1.11
+42340061,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[CBFB-MYH11 Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",18,3.3e-05,1.22
+35225775,NA||NA||NA||Metastasis to the Nervous System,18,3.3e-05,2.33
+4269563,"Protein measurement||Measurement of substance||Measurement of substance in specimen||Acetylcholinesterase measurement, amniotic fluid",17,3.1e-05,1.06
+4336961,Measurement of substance||Hormone measurement||Gastrointestinal hormone measurement||Gastrin measurement,16,2.9e-05,1.38
+3023307,Order set||Susceptibility order sets||Penicillin GSusc|Isolate||Penicillin G [Susceptibility] by Disk diffusion (KB),16,2.9e-05,1
+42266356,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[MYC Gene],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",16,2.9e-05,1.19
+40757318,Order set||Susceptibility order sets||PosaconazoleSusc|Isolate||Posaconazole [Susceptibility] by Minimum inhibitory concentration (MIC),16,2.9e-05,1.81
+4219630,Procedure by method||Investigation||Measurement||Measurement of interstitial fluid pressure,16,2.9e-05,1.12
+40758472,Order set||Susceptibility order sets||Bacterial susceptibility panel by Minimum inhibitory concentration (MIC)||Anidulafungin [Susceptibility] by Minimum inhibitory concentration (MIC),16,2.9e-05,1.81
+4321858,Procedure on organ||pH measurement||pH reflux test||Esophagus acid reflux test with intraluminal pH electrode,16,2.9e-05,1
+42358237,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks ≥16),15,2.7e-05,1.07
+42340178,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[FIP1L1-PDGFRA Fusion Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",15,2.7e-05,1.2
+4295162,Measurement of viral antibody||Hepatitis antibody test||Hepatitis E antibody measurement||Hepatitis E IgG level,15,2.7e-05,1
+4018333,Measurement of substance||Pyrrole measurement||Measurement of pesticide||5-Hydroxyindoleacetic acid measurement,15,2.7e-05,1.2
+4004235,"Water, electrolyte and mineral investigations||Protein measurement||Transferrin measurement||Carbohydrate deficient transferrin measurement",15,2.7e-05,1.07
+725079,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IDH2 (isocitrate dehydrogenase 2 [NADP+], mitochondrial) (eg, glioma), common variants (eg, R140W, R172M)",15,2.7e-05,1.33
+4008117,Investigation||Measurement||Measurement of substance||Collagen crosslinked N-telopeptide measurement,14,2.5e-05,1.14
+4036525,Protein measurement||Antibody measurement||Procedure to identify antibody||Measurement of myelin associated glycoprotein antibody,13,2.4e-05,1
+42364605,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks =10~15),13,2.4e-05,1.23
+42266490,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 19q],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",13,2.4e-05,1.23
+3006631,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis A virus IgG Ab [Presence] in Serum,13,2.4e-05,1
+44806455,Protein measurement||Antibody measurement||Procedure to identify antibody||Anti heparin/PF4 antibody screening test,12,2.2e-05,1.42
+927132,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||DMPK (DM1 protein kinase) (eg, myotonic dystrophy type 1) gene analysis||DMPK (DM1 protein kinase) (eg, myotonic dystrophy type 1) gene analysis; evaluation to detect abnormal (expanded) alleles",12,2.2e-05,1
+42742353,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||TRG@ (T cell antigen receptor, gamma) (eg, leukemia and lymphoma), gene rearrangement analysis, evaluation to detect abnormal clonal population(s)",11,2e-05,1
+42339036,"NA||NA||NA||Genetic Tests for Germline Variants_Sequencing[NOTCH3 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",11,2e-05,1
+42361370,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level A),11,2e-05,1.36
+3010031,Order set||Susceptibility order sets||TeicoplaninSusc|Isolate||Teicoplanin [Susceptibility] by Disk diffusion (KB),11,2e-05,1.09
+4179778,Measurement of substance||Protein measurement||Enzyme measurement||Butyrylcholinesterase measurement,11,2e-05,4.55
+4220804,Investigation||Measurement||Measurement of substance||Citrate measurement,11,2e-05,1.09
+42339939,"NA||NA||NA||Genetic Tests for Germline Variants_Sequencing[PARK2 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",10,1.8e-05,1
+4098192,In-vitro immunologic test||Transplantation assay||Histocompatibility crossmatch||B-cell cross-match,10,1.8e-05,1
+42340148,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[FGFR1 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",10,1.8e-05,1.2
+4324147,Measurement||Protein and chemistry analyses NEC||Protein measurement||Alpha-1-antitrypsin measurement,10,1.8e-05,1.2
+4245738,Measurement of substance||Protein measurement||Enzyme measurement||Acid phosphatase measurement,9,1.6e-05,1
+4332015,In-vitro immunologic test||Cell function assay||Cytokine assay||IL-6 assay,9,1.6e-05,1.44
+4219104,Laboratory test||Hematology procedure||Laboratory test related to hemostasis||Bleeding time,9,1.6e-05,1.11
+43527953,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||PMP22 (peripheral myelin protein 22) (eg, Charcot-Marie-Tooth, hereditary neuropathy with liability to pressure palsies) gene analysis||PMP22 (peripheral myelin protein 22) (eg, Charcot-Marie-Tooth, hereditary neuropathy with liability to pressure palsies) gene analysis; full sequence analysis",9,1.6e-05,1.11
+4006180,Protein measurement||Glycoproteins measurement||Chromogranin level||Chromogranin A measurement,8,1.4e-05,1.12
+44806567,Measurement of substance||Protein measurement||Enzyme measurement||ADAMTS-13 protease activity measurement,8,1.4e-05,1
+4039195,Protein measurement||Antibody measurement||Procedure to identify antibody||Measurement of myelin basic protein antibody,8,1.4e-05,1.12
+42628506,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||PDGFRA (platelet-derived growth factor receptor, alpha polypeptide) (eg, gastrointestinal stromal tumor [GIST]), gene analysis, targeted sequence analysis (eg, exons 12, 18)",8,1.4e-05,1
+4092958,Investigation||Measurement||Measurement of renal function||Water deprivation test,8,1.4e-05,1
+40219476,NA||NA||NA||Social avoidance and distress scale,8,1.4e-05,1.12
+4353510,Measurement||Protein and chemistry analyses NEC||Protein measurement||Globulin measurement,7,1.3e-05,2.43
+42266240,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[IGH-BCL2 Gene],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",7,1.3e-05,1.29
+42339174,"NA||NA||NA||Genetic Tests for Germline Variants_Sequencing[MT-TL1 Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",7,1.3e-05,1
+42339602,"NA||NA||NA||Genetic Tests for Somatic Variants_Others_FISH, SISH[Chromosome 19q],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",7,1.3e-05,1
+4225604,In-vitro immunologic test||Cell function assay||Cytokine assay||Tumor necrosis factor assay,7,1.3e-05,3
+4087260,Respiratory measure||Respiratory flow rate||Peak flow rate||Peak expiratory flow rate,7,1.3e-05,1.43
+42742305,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||FMR1 (fragile X mental retardation 1) (eg, fragile X mental retardation) gene analysis; evaluation to detect abnormal (eg, expanded) alleles",7,1.3e-05,1.29
+4013117,Haematology investigations (incl blood groups)||Plasmin assay||Plasminogen activator inhibitor assay||Plasminogen activator inhibitor type 1 assay,6,1.1e-05,1.67
+42627902,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||CEBPA (CCAAT/enhancer binding protein [C/EBP], alpha) (eg, acute myeloid leukemia), gene analysis, full gene sequence",6,1.1e-05,1.17
+44816597,Microbiology and Antimicrobial susceptibility||Flowsheet - laboratory||CefuroximeSusc|Isolate||Cefuroxime [Susceptibility] by Disk diffusion (KB),6,1.1e-05,1.67
+43527949,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||PTEN (phosphatase and tensin homolog) (eg, Cowden syndrome, PTEN hamartoma tumor syndrome) gene analysis||PTEN (phosphatase and tensin homolog) (eg, Cowden syndrome, PTEN hamartoma tumor syndrome) gene analysis; full sequence analysis",6,1.1e-05,1
+4017228,Measurement of substance||Hormone measurement||Gastrointestinal hormone measurement||Proinsulin measurement,6,1.1e-05,1.67
+4304824,Antigen assay||Microbial antigen assay||Bacterial antigen assay||Helicobacter pylori antigen assay,6,1.1e-05,1.17
+42339783,"NA||NA||NA||Genetic Tests for Germline Variants_Sequencing[ATP7B Gene],Diagnostic and laboratory test qualitative addition(2%), Clinical Pathologist etc. reading",6,1.1e-05,1
+4238994,Laboratory test related to hemostasis||Haematology investigations (incl blood groups)||Plasmin assay||Plasminogen assay,6,1.1e-05,1.17

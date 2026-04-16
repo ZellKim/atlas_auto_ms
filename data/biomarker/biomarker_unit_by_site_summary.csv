@@ -1,0 +1,269 @@
+biomarker,concept_id,site,primary_unit,record_count
+WBC_alt,3000905,CHNUH,No matching concept,3229070
+Hgb,3000963,AUMC,gram per deciliter,11170419
+Hgb,3000963,CHNUH,No matching concept,3316449
+Hgb,3000963,GNUCH,gram per deciliter,1260367
+Hgb,3000963,HUMC,gram per deciliter,2484091
+Hgb,3000963,ISH,gram per deciliter,1455097
+Hgb,3000963,JCMJ,gram per deciliter,691866
+Hgb,3000963,KDH,gram per deciliter,3478454
+Hgb,3000963,KHNMC,No matching concept,2982432
+Hgb,3000963,KWMC,gram per deciliter,2351000
+Mono#,3001604,HUMC,No matching concept,1989699
+Mono#,3001604,KDH,thousand per microliter,3091444
+Mono#,3001604,SCHCA,No matching concept,4085042
+Mono#,3001604,SCHGM,No matching concept,1163885
+Mono#,3001604,SCHSU,No matching concept,3306781
+Lympho%,3002030,AUMC,percent,16812986
+Lympho%,3002030,DCMC,No matching concept,2394511
+Lympho%,3002030,GNUCH,percent,1040877
+Lympho%,3002030,HUMC,percent,2367485
+Lympho%,3002030,ISH,percent,1119400
+Lympho%,3002030,JCMJ,percent,503235
+Lympho%,3002030,KDH,percent,3224034
+Lympho%,3002030,KHNMC,No matching concept,2720471
+Lympho%,3002030,KWMC,percent,2033347
+Lympho%,3002030,SCHCA,No matching concept,4085029
+Lympho%,3002030,SCHGM,No matching concept,1185670
+Lympho%,3002030,SCHSU,No matching concept,3333608
+HbA1c,3004410,AUMC,No matching concept,1334949
+HbA1c,3004410,CHNUH,No matching concept,376781
+HbA1c,3004410,DCMC,No matching concept,282656
+HbA1c,3004410,GNUCH,percent,256241
+HbA1c,3004410,HUMC,percent,488964
+HbA1c,3004410,ISH,percent,156785
+HbA1c,3004410,JCMJ,percent,119477
+HbA1c,3004410,KDH,percent,589522
+HbA1c,3004410,KHNMC,No matching concept,451342
+HbA1c,3004410,KWMC,percent,466357
+HbA1c,3004410,SCHCA,percent,765981
+HbA1c,3004410,SCHGM,percent,354042
+HbA1c,3004410,SCHSU,No matching concept,635014
+Glucose,3004501,DCMC,milligram per deciliter,389197
+Glucose,3004501,HUMC,milligram per deciliter,501417
+Glucose,3004501,ISH,No matching concept,88222
+Glucose,3004501,JCMJ,milligram per deciliter,385888
+Glucose,3004501,KDH,milligram per deciliter,2859696
+Glucose,3004501,KHNMC,milligram per deciliter,811936
+Glucose,3004501,KWMC,milligram per deciliter,2059000
+Glucose,3004501,SCHSU,milligram per deciliter,196944
+Eosino%,3006504,AUMC,percent,16276706
+Eosino%,3006504,DCMC,No matching concept,2394479
+Eosino%,3006504,GNUCH,percent,1040877
+Eosino%,3006504,HUMC,percent,2367485
+Eosino%,3006504,ISH,percent,1119400
+Eosino%,3006504,JCMJ,percent,503235
+Eosino%,3006504,KDH,percent,3224028
+Eosino%,3006504,KHNMC,No matching concept,2719736
+Eosino%,3006504,KWMC,percent,1930828
+Eosino%,3006504,SCHCA,No matching concept,4083928
+Eosino%,3006504,SCHGM,No matching concept,1185649
+Eosino%,3006504,SCHSU,No matching concept,3333564
+ALT,3006923,AUMC,unit per liter,10045021
+ALT,3006923,CHNUH,No matching concept,2974921
+ALT,3006923,DCMC,unit per liter,339610
+ALT,3006923,GNUCH,unit per liter,1093268
+ALT,3006923,HUMC,international unit per liter,2333890
+ALT,3006923,ISH,No matching concept,1234578
+ALT,3006923,JCMJ,international unit per liter,649036
+ALT,3006923,KDH,international unit per liter,3106419
+ALT,3006923,KHNMC,No matching concept,2388725
+ALT,3006923,KWMC,unit per liter,2112072
+ALT,3006923,SCHCA,No matching concept,3484695
+ALT,3006923,SCHGM,No matching concept,1823406
+ALT,3006923,SCHSU,No matching concept,2778867
+HDL,3007070,AUMC,milligram per deciliter,3308206
+HDL,3007070,CHNUH,No matching concept,539588
+HDL,3007070,DCMC,milligram per deciliter,409030
+HDL,3007070,GNUCH,milligram per deciliter,274707
+HDL,3007070,HUMC,milligram per deciliter,640552
+HDL,3007070,ISH,No matching concept,294484
+HDL,3007070,JCMJ,milligram per deciliter,226845
+HDL,3007070,KDH,milligram per deciliter,942234
+HDL,3007070,KHNMC,milligram per deciliter,360357
+HDL,3007070,KWMC,milligram per deciliter,583484
+HDL,3007070,SCHCA,milligram per deciliter,794948
+HDL,3007070,SCHGM,milligram per deciliter,738807
+HDL,3007070,SCHSU,No matching concept,1037442
+WBC,3010813,AUMC,No matching concept,9582770
+WBC,3010813,DCMC,No matching concept,895285
+WBC,3010813,GNUCH,thousand per microliter,952932
+WBC,3010813,HUMC,No matching concept,1994744
+WBC,3010813,ISH,No matching concept,1304672
+WBC,3010813,JCMJ,thousand per microliter,543726
+WBC,3010813,KDH,thousand per microliter,1958615
+WBC,3010813,KHNMC,No matching concept,3063915
+WBC,3010813,KWMC,thousand per microliter,2166724
+WBC,3010813,SCHCA,No matching concept,4339260
+WBC,3010813,SCHGM,No matching concept,1298105
+WBC,3010813,SCHSU,No matching concept,3402866
+ESR,3015183,AUMC,millimeter per hour,2321268
+ESR,3015183,CHNUH,No matching concept,370989
+ESR,3015183,DCMC,No matching concept,856696
+ESR,3015183,GNUCH,millimeter per hour,334228
+ESR,3015183,HUMC,millimeter per hour,1260945
+ESR,3015183,ISH,No matching concept,587749
+ESR,3015183,JCMJ,millimeter per hour,178032
+ESR,3015183,KDH,millimeter per hour,778209
+ESR,3015183,KHNMC,millimeter per hour,888075
+ESR,3015183,KWMC,millimeter per hour,478761
+ESR,3015183,SCHCA,millimeter per hour,1328604
+ESR,3015183,SCHGM,millimeter per hour,485483
+ESR,3015183,SCHSU,No matching concept,1179521
+SegNeutro%,3017354,AUMC,percent,1196472
+SegNeutro%,3017354,DCMC,No matching concept,2394519
+SegNeutro%,3017354,GNUCH,percent,1040878
+SegNeutro%,3017354,ISH,percent,1119400
+SegNeutro%,3017354,JCMJ,percent,503235
+SegNeutro%,3017354,KHNMC,No matching concept,2721420
+SegNeutro%,3017354,KWMC,percent,22
+Neutro#,3017732,AUMC,No matching concept,5532157
+Neutro#,3017732,DCMC,No matching concept,1716193
+Neutro#,3017732,GNUCH,thousand per microliter,879539
+Neutro#,3017732,HUMC,No matching concept,1989834
+Neutro#,3017732,ISH,per microliter,1119400
+Neutro#,3017732,KDH,thousand per microliter,3127518
+Neutro#,3017732,KHNMC,No matching concept,2081424
+Neutro#,3017732,KWMC,thousand per microliter,1314330
+Neutro#,3017732,SCHCA,No matching concept,4085042
+Neutro#,3017732,SCHGM,No matching concept,1163883
+Neutro#,3017732,SCHSU,No matching concept,3307491
+Neutro%,3018010,AUMC,percent,15713586
+Neutro%,3018010,DCMC,percent,962977
+Neutro%,3018010,HUMC,percent,2367485
+Neutro%,3018010,KDH,percent,3224028
+Neutro%,3018010,KWMC,percent,2033300
+Neutro%,3018010,SCHCA,No matching concept,4085045
+Neutro%,3018010,SCHGM,No matching concept,1185670
+Neutro%,3018010,SCHSU,No matching concept,3332848
+Mono%,3019069,AUMC,percent,16793388
+Mono%,3019069,DCMC,No matching concept,2394491
+Mono%,3019069,GNUCH,percent,1041856
+Mono%,3019069,HUMC,percent,2367485
+Mono%,3019069,ISH,percent,1119400
+Mono%,3019069,JCMJ,percent,503235
+Mono%,3019069,KDH,percent,3224033
+Mono%,3019069,KHNMC,No matching concept,2720150
+Mono%,3019069,KWMC,percent,1930828
+Mono%,3019069,SCHCA,No matching concept,4084927
+Mono%,3019069,SCHGM,No matching concept,1116257
+Mono%,3019069,SCHSU,No matching concept,3333607
+CRP,3020460,AUMC,milligram per deciliter,2958620
+CRP,3020460,CHNUH,No matching concept,1289379
+CRP,3020460,DCMC,milligram per liter,1310140
+CRP,3020460,GNUCH,milligram per liter,741578
+CRP,3020460,HUMC,milligram per liter,1374227
+CRP,3020460,ISH,No matching concept,854809
+CRP,3020460,JCMJ,milligram per deciliter,387752
+CRP,3020460,KDH,milligram per liter,1596889
+CRP,3020460,KHNMC,milligram per deciliter,1487161
+CRP,3020460,KWMC,milligram per deciliter,1164162
+CRP,3020460,SCHCA,milligram per liter,1591608
+CRP,3020460,SCHSU,milligram per deciliter,773813
+RF,3021614,AUMC,unit per milliliter,837016
+RF,3021614,DCMC,international unit per milliliter,193534
+RF,3021614,GNUCH,international unit per milliliter,30798
+RF,3021614,HUMC,international unit per milliliter,108035
+RF,3021614,ISH,international unit per milliliter,110558
+RF,3021614,JCMJ,international unit per milliliter,38818
+RF,3021614,KDH,international unit per milliliter,13470
+RF,3021614,KHNMC,No matching concept,170929
+RF,3021614,KWMC,international unit per milliliter,18574
+RF,3021614,SCHCA,international unit per milliliter,262996
+RF,3021614,SCHGM,international unit per milliliter,79691
+RF,3021614,SCHSU,international unit per milliliter,207961
+Baso%,3022096,AUMC,percent,15927672
+Baso%,3022096,DCMC,No matching concept,2394465
+Baso%,3022096,GNUCH,percent,1040877
+Baso%,3022096,HUMC,percent,2367485
+Baso%,3022096,ISH,percent,1119400
+Baso%,3022096,JCMJ,percent,503227
+Baso%,3022096,KDH,percent,3224027
+Baso%,3022096,KHNMC,No matching concept,2721288
+Baso%,3022096,KWMC,percent,1930827
+Baso%,3022096,SCHCA,No matching concept,4082875
+Baso%,3022096,SCHGM,No matching concept,1116218
+Baso%,3022096,SCHSU,No matching concept,3333413
+TG,3022192,AUMC,milligram per deciliter,3341586
+TG,3022192,CHNUH,No matching concept,1100292
+TG,3022192,DCMC,milligram per deciliter,381758
+TG,3022192,GNUCH,milligram per deciliter,280476
+TG,3022192,HUMC,milligram per deciliter,1720816
+TG,3022192,ISH,No matching concept,314582
+TG,3022192,JCMJ,milligram per deciliter,256905
+TG,3022192,KDH,milligram per deciliter,995254
+TG,3022192,KHNMC,milligram per deciliter,387650
+TG,3022192,KWMC,milligram per deciliter,594589
+TG,3022192,SCHCA,No matching concept,2101356
+TG,3022192,SCHGM,milligram per deciliter,740760
+TG,3022192,SCHSU,No matching concept,1037442
+Alb,3024561,AUMC,gram per deciliter,7972855
+Alb,3024561,CHNUH,No matching concept,3177558
+Alb,3024561,DCMC,gram per deciliter,381451
+Alb,3024561,GNUCH,gram per deciliter,1059773
+Alb,3024561,HUMC,gram per deciliter,2208368
+Alb,3024561,ISH,gram per deciliter,1830067
+Alb,3024561,JCMJ,gram per deciliter,445149
+Alb,3024561,KDH,gram per deciliter,2763251
+Alb,3024561,KHNMC,No matching concept,1655982
+Alb,3024561,KWMC,gram per deciliter,1794304
+Alb,3024561,SCHCA,No matching concept,3484855
+Alb,3024561,SCHGM,No matching concept,699481
+Alb,3024561,SCHSU,No matching concept,3038872
+GGT,3026910,AUMC,unit per liter,2981431
+GGT,3026910,CHNUH,No matching concept,727990
+GGT,3026910,DCMC,unit per liter,504716
+GGT,3026910,GNUCH,unit per liter,619726
+GGT,3026910,HUMC,international unit per liter,1908585
+GGT,3026910,ISH,No matching concept,516766
+GGT,3026910,JCMJ,international unit per liter,299105
+GGT,3026910,KDH,international unit per liter,1605280
+GGT,3026910,KHNMC,No matching concept,1396132
+GGT,3026910,KWMC,unit per liter,590620
+GGT,3026910,SCHCA,international unit per liter,1158780
+GGT,3026910,SCHGM,No matching concept,1380421
+GGT,3026910,SCHSU,No matching concept,1475587
+Hgb_alt,3027484,CHNUH,No matching concept,215155
+Hgb_alt,3027484,DCMC,No matching concept,896259
+Hgb_alt,3027484,SCHCA,No matching concept,4317919
+Hgb_alt,3027484,SCHGM,gram per deciliter,1549568
+Hgb_alt,3027484,SCHSU,No matching concept,3529701
+ALP,3035995,AUMC,unit per liter,7468784
+ALP,3035995,CHNUH,No matching concept,2965081
+ALP,3035995,DCMC,unit per liter,356543
+ALP,3035995,GNUCH,unit per liter,1003426
+ALP,3035995,HUMC,international unit per liter,2066636
+ALP,3035995,ISH,No matching concept,706394
+ALP,3035995,JCMJ,international unit per liter,383625
+ALP,3035995,KDH,international unit per liter,2652976
+ALP,3035995,KHNMC,No matching concept,1916779
+ALP,3035995,KWMC,unit per liter,1771128
+ALP,3035995,SCHCA,No matching concept,3484693
+ALP,3035995,SCHGM,No matching concept,808133
+ALP,3035995,SCHSU,No matching concept,1983512
+FastGluc,3037110,AUMC,milligram per deciliter,9137097
+FastGluc,3037110,CHNUH,No matching concept,3752
+FastGluc,3037110,DCMC,No matching concept,53626
+FastGluc,3037110,GNUCH,milligram per deciliter,29459
+FastGluc,3037110,HUMC,milligram per deciliter,1767660
+FastGluc,3037110,ISH,No matching concept,852806
+FastGluc,3037110,JCMJ,milligram per deciliter,181835
+FastGluc,3037110,KDH,milligram per deciliter,655555
+FastGluc,3037110,KHNMC,No matching concept,32412
+FastGluc,3037110,KWMC,milligram per deciliter,26379
+FastGluc,3037110,SCHCA,milligram per deciliter,15521
+FastGluc,3037110,SCHGM,milligram per deciliter,114104
+FastGluc,3037110,SCHSU,No matching concept,2778454
+UA,3037556,AUMC,milligram per deciliter,7179333
+UA,3037556,CHNUH,No matching concept,1453159
+UA,3037556,DCMC,milligram per deciliter,179940
+UA,3037556,GNUCH,milligram per deciliter,868446
+UA,3037556,HUMC,milligram per deciliter,1961132
+UA,3037556,ISH,No matching concept,309771
+UA,3037556,JCMJ,milligram per deciliter,357430
+UA,3037556,KDH,milligram per deciliter,2664536
+UA,3037556,KHNMC,No matching concept,1670498
+UA,3037556,KWMC,milligram per deciliter,1647254
+UA,3037556,SCHCA,No matching concept,1789509
+UA,3037556,SCHGM,No matching concept,582903
+UA,3037556,SCHSU,No matching concept,1533326

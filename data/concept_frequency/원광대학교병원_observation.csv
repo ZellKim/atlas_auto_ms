@@ -1,0 +1,38 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,6063,0.705903,5.26
+40481925,Situation with explicit context||Finding with explicit context||Clinical finding absent||No history of clinical finding in subject,1204,0.140179,8.86
+4166732,Situation with explicit context||Procedure with explicit context||Procedure not done||No history of procedure,1010,0.117592,4.06
+4214956,NA||Situation with explicit context||Finding with explicit context||History of clinical finding in subject,589,0.068576,4.56
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,472,0.054954,7.84
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,387,0.045058,4.27
+704996,Investigation abnormal||General symptom||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,360,0.041914,5.41
+4059352,Past history of procedure||History of drug therapy||H/O: high risk medication||H/O: chemotherapy,158,0.018396,1.59
+37311060,Disease suspected||Suspected infectious disease||Suspected coronavirus infection||Suspected disease caused by 2019-nCoV,144,0.016766,3.49
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,102,0.011876,10.27
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,100,0.011643,4.12
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,96,0.011177,1.83
+4060084,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||H/O: radiation exposure,92,0.010711,1.67
+4215685,NA||Situation with explicit context||Procedure with explicit context||Past history of procedure,69,0.008034,3.58
+4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,69,0.008034,1.67
+441207,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic effects (excl toxicity)||Therapeutic and nontherapeutic responses||Adverse reaction to drug,67,0.007801,2.48
+4061424,Obstetric therapeutic procedures||Prenatal care||A/N care categorized by gravida number||Antenatal care: primigravida,59,0.006869,15
+45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",59,0.006869,3.31
+4047564,Reproductive care||Obstetric therapeutic procedures||Prenatal care||Routine antenatal care,54,0.006287,9.76
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,27,0.003144,1.56
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,25,0.002911,2.04
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,22,0.002561,2.45
+443345,Therapeutic and nontherapeutic effects (excl toxicity)||Therapeutic and nontherapeutic responses||Adverse reaction to drug||Antineoplastic adverse reaction,22,0.002561,1.45
+4324190,H/O: Disorder||H/O: neoplasm||H/O: malignant neoplasm||History of malignant neoplasm of breast,21,0.002445,3.1
+438046,NA||Event||Accidental event||Medical accidents to patients during surgical and medical care,20,0.002329,1.5
+4144289,History of clinical finding in subject||H/O: Disorder||H/O: neoplasm||H/O: malignant neoplasm,19,0.002212,5.74
+437643,Nervous system disorders||Neurological disorders NEC||Neurological signs and symptoms NEC||Abnormal gait,18,0.002096,4.67
+4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",17,0.001979,1.24
+437175,"Fall||Accidental fall||Fall on same level||Fall on same level from slipping, tripping or stumbling",16,0.001863,1.25
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,13,0.001514,2.92
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,11,0.001281,6.55
+36713461,Prenatal care||A/N care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,8,0.000931,5.25
+4216132,History of clinical finding in subject||H/O: neoplasm||H/O: urinary disease||History of malignant neoplasm of urinary system,8,0.000931,1.88
+45768509,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public place",7,0.000815,1.29
+433930,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with another motor vehicle,7,0.000815,1.57
+4078300,Finding with explicit context||History of clinical finding in subject||H/O: Disorder||H/O: neoplasm,7,0.000815,2.29
+4336011,Possible clinical finding||Suspected clinical finding||Disease suspected||Glaucoma suspect,6,0.000699,4.5

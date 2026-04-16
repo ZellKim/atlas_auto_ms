@@ -1,0 +1,19 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+36769180,Metastasis,Measurement,C799,Sarcomatosis(secondary) NOS,25038
+35225775,Metastasis to nervous system,Measurement,C794,"Orbital metastatic tumor, unspecified",8674
+36770544,Metastasis to liver,Measurement,C787,"Cholangiocarcinoma, meta",8040
+36770283,Metastasis to lung,Measurement,C780,"Lung metastasis, left",6304
+4098179,Immunology laboratory test,Measurement,R769,Abnormal immunological finding in serum. unspecified,5093
+704985,Metastasis to abdomen,Measurement,C786,Metastatic cancer of omentum,4157
+36770040,Metastasis to gastrointestinal tract,Measurement,C788,metastatic tumor of the spleen,2935
+35225580,Metastasis to urinary system,Measurement,C791,Secondary malignant neoplasm of other and unspecified urinary organs,1547
+35225543,Metastasis to large intestine,Measurement,C785,Secondary malignant neoplasm of large intestine and rectum,954
+35225556,Metastasis to breast,Measurement,C7980,Metastatic cancer to thyroid,342
+4046263,Enzyme measurement,Measurement,R749,Abnormal level of unspecified serum enzyme,252
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Elevated Alpha-fetoprotein,94
+35226280,Metastasis to respiratory tract,Measurement,C783,Secondary malignant neoplasm of other and unspecified respiratory organ,68
+4097664,Albumin measurement,Measurement,R770,Abnormality of albumin,19
+4246053,Blood test,Measurement,R789,"Finding of unspecified substances, not normally found in blood",8
+4098353,Red blood cell test,Measurement,R71,Abnormality of red blood cells,5
+4095027,Antibody titer measurement,Measurement,R760,Raised antibody titre,4
+4055657,Serum/plasma protein test,Measurement,R779,Abnormality of plasma protein. unspecified,4

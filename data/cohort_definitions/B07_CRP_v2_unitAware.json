@@ -1,0 +1,245 @@
+{
+  "cdmVersionRange": ">=5.0.0",
+  "ConceptSets": [
+    {
+      "id": 0,
+      "name": "CRP",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_ID": 3020460,
+              "CONCEPT_NAME": "C reactive protein [Mass/volume] in Serum or Plasma",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "DOMAIN_ID": "Measurement",
+              "VOCABULARY_ID": "LOINC",
+              "CONCEPT_CLASS_ID": "Lab Test"
+            },
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "Measurement": {
+          "CodesetId": 0,
+          "ValueAsNumber": {
+            "Value": 0.8,
+            "Op": "gt"
+          },
+          "Unit": [
+            {
+              "CONCEPT_ID": 8840,
+              "CONCEPT_NAME": "milligram per deciliter"
+            }
+          ]
+        }
+      },
+      {
+        "Measurement": {
+          "CodesetId": 0,
+          "ValueAsNumber": {
+            "Value": 8,
+            "Op": "gt"
+          },
+          "Unit": [
+            {
+              "CONCEPT_ID": 8751,
+              "CONCEPT_NAME": "milligram per liter"
+            }
+          ]
+        }
+      },
+      {
+        "Measurement": {
+          "CodesetId": 0,
+          "ValueAsNumber": {
+            "Value": 0.8,
+            "Op": "gt"
+          }
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 0,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "First"
+    }
+  },
+  "QualifiedLimit": {
+    "Type": "First"
+  },
+  "ExpressionLimit": {
+    "Type": "First"
+  },
+  "InclusionRules": [
+    {
+      "name": "Prior normal (365d)",
+      "expression": {
+        "Type": "ALL",
+        "CriteriaList": [
+          {
+            "Criteria": {
+              "Measurement": {
+                "CodesetId": 0,
+                "ValueAsNumber": {
+                  "Value": 0.8,
+                  "Op": "lte"
+                },
+                "Unit": [
+                  {
+                    "CONCEPT_ID": 8840,
+                    "CONCEPT_NAME": "milligram per deciliter"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          },
+          {
+            "Criteria": {
+              "Measurement": {
+                "CodesetId": 0,
+                "ValueAsNumber": {
+                  "Value": 8,
+                  "Op": "lte"
+                },
+                "Unit": [
+                  {
+                    "CONCEPT_ID": 8751,
+                    "CONCEPT_NAME": "milligram per liter"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          }
+        ],
+        "DemographicCriteriaList": [],
+        "Groups": []
+      }
+    },
+    {
+      "name": "No prior abnormal",
+      "expression": {
+        "Type": "ALL",
+        "CriteriaList": [
+          {
+            "Criteria": {
+              "Measurement": {
+                "CodesetId": 0,
+                "ValueAsNumber": {
+                  "Value": 0.8,
+                  "Op": "gt"
+                },
+                "Unit": [
+                  {
+                    "CONCEPT_ID": 8840,
+                    "CONCEPT_NAME": "milligram per deciliter"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 0,
+              "Count": 0
+            }
+          },
+          {
+            "Criteria": {
+              "Measurement": {
+                "CodesetId": 0,
+                "ValueAsNumber": {
+                  "Value": 8,
+                  "Op": "gt"
+                },
+                "Unit": [
+                  {
+                    "CONCEPT_ID": 8751,
+                    "CONCEPT_NAME": "milligram per liter"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 0,
+              "Count": 0
+            }
+          }
+        ],
+        "DemographicCriteriaList": [],
+        "Groups": []
+      }
+    }
+  ],
+  "EndStrategy": {
+    "DateOffset": {
+      "DateField": "StartDate",
+      "Offset": 1
+    }
+  },
+  "CensoringCriteria": [],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {}
+}

@@ -1,0 +1,4 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+4075168,Assisted breech delivery,Procedure,O831,둔부태위분만 NOS,15
+4073422,Spontaneous breech delivery,Procedure,O801,자연둔부태위분만,6
+4213387,Breech extraction,Procedure,O830,둔부태위만출,6

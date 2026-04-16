@@ -1,0 +1,75 @@
+category,method,endpoint,description,used_in_project
+cohort,GET,/cohortdefinition,코호트 목록,Y
+cohort,GET,/cohortdefinition/{id},코호트 상세,Y
+cohort,POST,/cohortdefinition,코호트 생성,Y
+cohort,PUT,/cohortdefinition/{id},코호트 수정,N
+cohort,DELETE,/cohortdefinition/{id},코호트 삭제,N
+cohort,GET,/cohortdefinition/{id}/copy,코호트 복사,N
+cohort,GET,/cohortdefinition/{id}/exists,이름 중복 확인,N
+cohort,POST,/cohortdefinition/{id}/generate/{sourceKey},코호트 Generate,Y
+cohort,GET,/cohortdefinition/{id}/info,Generate 상태/결과,Y
+cohort,GET,/cohortdefinition/{id}/report/{sourceKey},코호트 리포트 (N수),Y
+cohort,POST,/cohortdefinition/sql,SQL 생성,N
+cohort,GET,/cohortdefinition/{id}/export/conceptset,Concept set export,N
+estimation,GET,/estimation/,estimation 목록,Y
+estimation,GET,/estimation/{id},estimation 상세 (spec 포함),Y
+estimation,POST,/estimation/,estimation 생성,N(500에러)
+estimation,PUT,/estimation/{id},estimation 수정,Y
+estimation,DELETE,/estimation/{id},estimation 삭제,N
+estimation,GET,/estimation/{id}/copy,estimation 복사,Y
+estimation,GET,/estimation/{id}/export,export (zip용 JSON),Y
+estimation,POST,/estimation/import,estimation import,N
+estimation,GET,/estimation/{id}/download,R 패키지 zip 다운로드,N
+estimation,GET,/estimation/{id}/generation,실행 상태,N
+estimation,POST,/estimation/{id}/generation/{sourceKey},소스별 실행,N
+characterization,GET,/cohort-characterization?size=200,characterization 목록,Y
+characterization,GET,/cohort-characterization/{id},characterization 상세,Y
+characterization,POST,/cohort-characterization,characterization 생성 (FA 비어있을 수 있음),Y
+characterization,PUT,/cohort-characterization/{id},characterization 수정,N
+characterization,DELETE,/cohort-characterization/{id},characterization 삭제,N
+characterization,GET,/cohort-characterization/{id}/export,export (FA 포함),Y
+characterization,POST,/cohort-characterization/import,import (FA 정상 등록 - 권장),Y
+characterization,POST,/cohort-characterization/{id}/generation/{sourceKey},실행,Y
+characterization,GET,/cohort-characterization/{id}/generation,실행 상태,Y
+characterization,GET,/cohort-characterization/generation/{genId}/result?size=500,결과 조회,Y
+characterization,GET,/cohort-characterization/generation/{genId}/result/count,결과 건수,N
+characterization,DELETE,/cohort-characterization/{id}/generation/{sourceKey},실행 삭제,N
+characterization,DELETE,/cohort-characterization/generation/{genId},generation 삭제,N
+feature_analysis,GET,/feature-analysis?size=200&type=PRESET,PRESET FA 목록,Y
+feature_analysis,GET,/feature-analysis/{id},FA 상세,N
+feature_analysis,POST,/feature-analysis/,FA 생성,N
+feature_analysis,PUT,/feature-analysis/{id},FA 수정 (2단계 PUT),Y
+feature_analysis,DELETE,/feature-analysis/{id},FA 삭제,N
+feature_analysis,GET,/feature-analysis/{id}/copy,FA 복사,Y
+feature_analysis,GET,/feature-analysis/domains,도메인 목록,N
+feature_analysis,GET,/feature-analysis/aggregates,집계 방식 목록,N
+vocabulary,GET,/vocabulary/concept/{id},concept 상세,Y
+vocabulary,GET,/vocabulary/search/{query},concept 검색,N
+vocabulary,GET,/vocabulary/concept/{id}/related,관련 concept (ancestor/descendant),Y
+vocabulary,GET,/vocabulary/concept/{id}/descendants,하위 concept,N
+vocabulary,GET,/vocabulary/domains,도메인 목록,N
+vocabulary,GET,/vocabulary/vocabularies,용어 목록,N
+vocabulary,POST,/vocabulary/{sourceKey}/resolveConceptSetExpression,concept set 해석,N
+vocabulary,POST,/vocabulary/included-concepts/count,포함 concept 수,N
+achilles,GET,/cdmresults/{sourceKey}/{domain},concept frequency,Y
+achilles,GET,/cdmresults/{sourceKey}/{domain}/{conceptId},concept drilldown (unit 포함),Y
+achilles,GET,/cdmresults/{sourceKey}/dashboard,CDM 대시보드,N
+achilles,GET,/cdmresults/{sourceKey}/person,인구통계,N
+achilles,GET,/cdmresults/{sourceKey}/datadensity,데이터 밀도,N
+achilles,GET,/cdmresults/{sourceKey}/observationPeriod,관찰 기간,N
+source,GET,/source/sources,CDM source 목록,Y
+source,GET,/source/{key},source 상세,N
+source,GET,/source/connection/{key},연결 확인,N
+source,GET,/info,ATLAS 버전,Y
+portal,POST,/api/v1/auth/login,로그인,Y
+portal,GET,/api/v1/dashboard/organizations,기관 목록,Y
+portal,POST,/api/v1/projects/{pid}/analysis,analysis 생성,Y
+portal,GET,/api/v1/projects/{pid}/analysis,analysis 목록 (복수 projects),Y
+portal,GET,/api/v1/projects/{pid}/analysis/{aid}/atlas,ATLAS 기관 목록,Y
+portal,GET,/api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId},해당 ATLAS estimation 목록,Y
+portal,POST,/api/v1/projects/{pid}/analysis/{aid}/atlas/{atlasId},estimation import,Y
+portal,POST,/api/v1/project/{pid}/analysis/{aid}/execution,실행 트리거 (단수 project),Y
+portal,GET,/api/v1/project/{pid}/analysis/{aid}/execution,실행 상태 조회,Y
+portal,DELETE,/api/v1/project/{pid}/analysis/{aid}/execution,실행 취소,Y
+portal,GET,.../execution/{eid}/files,결과 파일 목록,Y
+portal,GET,.../execution/{eid}/files/{fid}/download,result.zip 다운로드,Y

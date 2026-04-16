@@ -1,0 +1,194 @@
+[
+  {
+    "group_id": 4,
+    "site_id": 201,
+    "hospital_code": "KDH",
+    "cdm_name": "KDH_5.3.1_05",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 8
+  },
+  {
+    "group_id": 10,
+    "site_id": 213,
+    "hospital_code": "KWMC",
+    "cdm_name": "KWMC_5.3.1_05",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 8
+  },
+  {
+    "group_id": 88,
+    "site_id": 198,
+    "hospital_code": "GNUH",
+    "cdm_name": "GNUH_5.3.1_03",
+    "source_key": "cdmpv53w_240229",
+    "n_sources": 7
+  },
+  {
+    "group_id": 11,
+    "site_id": 202,
+    "hospital_code": "KHMC",
+    "cdm_name": "KHMC_5.3.1_04",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 5
+  },
+  {
+    "group_id": 81,
+    "site_id": 222,
+    "hospital_code": "ISH",
+    "cdm_name": "ISH_5.3.1_02",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 6
+  },
+  {
+    "group_id": 16,
+    "site_id": 196,
+    "hospital_code": "DCMC",
+    "cdm_name": "DCMC_5.3.1_04",
+    "source_key": "cdmpv53w_240229",
+    "n_sources": 7
+  },
+  {
+    "group_id": 103,
+    "site_id": 235,
+    "hospital_code": "DONGSAN",
+    "cdm_name": "DONGSAN_5.3.0_02",
+    "source_key": "cdmpv53w_240229",
+    "n_sources": 7
+  },
+  {
+    "group_id": 117,
+    "site_id": 256,
+    "hospital_code": "HUMC",
+    "cdm_name": "HUMC_DONGTAN_5.3.1_04",
+    "source_key": "cdmpv53_251128",
+    "n_sources": 4
+  },
+  {
+    "group_id": 67,
+    "site_id": 204,
+    "hospital_code": "MJH",
+    "cdm_name": "MJH_5.3.1_06",
+    "source_key": "cdmpv53_251128",
+    "n_sources": 6
+  },
+  {
+    "group_id": 3,
+    "site_id": 190,
+    "hospital_code": "PNUH",
+    "cdm_name": "PNUH_5.3.0_04",
+    "source_key": "cdmpv53_251128",
+    "n_sources": 5
+  },
+  {
+    "group_id": 30,
+    "site_id": 208,
+    "hospital_code": "SCHGM",
+    "cdm_name": "SCHGM_5.3.3_03",
+    "source_key": "cdmpv533",
+    "n_sources": 3
+  },
+  {
+    "group_id": 29,
+    "site_id": 206,
+    "hospital_code": "SCHBC",
+    "cdm_name": "SCHBC_5.3.1_03",
+    "source_key": "cdmpv533",
+    "n_sources": 3
+  },
+  {
+    "group_id": 27,
+    "site_id": 209,
+    "hospital_code": "SCHSU",
+    "cdm_name": "SCHSU_5.3.3_03",
+    "source_key": "cdmpv533",
+    "n_sources": 3
+  },
+  {
+    "group_id": 28,
+    "site_id": 207,
+    "hospital_code": "SCHCA",
+    "cdm_name": "SCHCA_5.3.3_03",
+    "source_key": "cdmpv533",
+    "n_sources": 3
+  },
+  {
+    "group_id": 9,
+    "site_id": 191,
+    "hospital_code": "AUMC",
+    "cdm_name": "AUMC_5.3.1_weekly",
+    "source_key": "cdmpv53w",
+    "n_sources": 4
+  },
+  {
+    "group_id": 99,
+    "site_id": 243,
+    "hospital_code": "UUH",
+    "cdm_name": "UUH_5.3.0_01",
+    "source_key": "cdm_sample",
+    "n_sources": 4
+  },
+  {
+    "group_id": 13,
+    "site_id": 188,
+    "hospital_code": "WKUH",
+    "cdm_name": "WKUH_5.3.1_05",
+    "source_key": "cdmpv53w_240229",
+    "n_sources": 5
+  },
+  {
+    "group_id": 91,
+    "site_id": 225,
+    "hospital_code": "KCCH",
+    "cdm_name": "KCCH_5.3.1_02",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 6
+  },
+  {
+    "group_id": 5,
+    "site_id": 197,
+    "hospital_code": "EUMC",
+    "cdm_name": "EUMC_5.3.1_weekly",
+    "source_key": "cdmpv53w",
+    "n_sources": 4
+  },
+  {
+    "group_id": 95,
+    "site_id": 227,
+    "hospital_code": "CHNUH",
+    "cdm_name": "CHNUH_5.3.1_monthly",
+    "source_key": "cdmpv53m",
+    "n_sources": 2
+  },
+  {
+    "group_id": 7,
+    "site_id": 203,
+    "hospital_code": "KHNMC",
+    "cdm_name": "KHNMC_5.3.0_05",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 6
+  },
+  {
+    "group_id": 86,
+    "site_id": 224,
+    "hospital_code": "GNUCH",
+    "cdm_name": "GNUCH_5.3.1_02",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 7
+  },
+  {
+    "group_id": 69,
+    "site_id": 226,
+    "hospital_code": "DKUH",
+    "cdm_name": "DKUH_5.3.1_02",
+    "source_key": "cdmpv535_211123",
+    "n_sources": 3
+  },
+  {
+    "group_id": 18,
+    "site_id": 202,
+    "hospital_code": "CHAMC",
+    "cdm_name": "CHAMC_5.3.1_03",
+    "source_key": "cdmpv53m_240229",
+    "n_sources": 7
+  }
+]

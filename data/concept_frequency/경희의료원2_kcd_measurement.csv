@@ -1,0 +1,15 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+36769301,Metastasis to bone,Measurement,C7950,Rib metastasis,547
+36770544,Metastasis to liver,Measurement,C787,Secondary malignant neoplasm of liver and intrahepatic bile duct,285
+36769180,Metastasis,Measurement,C799,Metastatic cancer,96
+704985,Metastasis to abdomen,Measurement,C786,Secondary malignant neoplasm of peritoneum,87
+36770040,Metastasis to gastrointestinal tract,Measurement,C788,Metastatic gastric cancer,77
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Abnormality of alphafetoprotein,68
+4046263,Enzyme measurement,Measurement,R749,Abnormal level of unspecified serum enzyme,67
+4236592,Human Bocavirus present,Measurement,J2180,Acute bronchiolitis due to human bocavirus,30
+35226152,Metastasis to genital organs,Measurement,C7981,Metastatic cancer of prostate,16
+4098179,Immunology laboratory test,Measurement,R769,"Abnormal immunological finding in serum, unspecified",7
+35225775,Metastasis to nervous system,Measurement,C794,Spinal cord metastasis,6
+35226074,Metastasis to bone marrow,Measurement,C7951,Secondary malignant neoplasm of  bone marrow,6
+35225543,Metastasis to large intestine,Measurement,C785,Secondary malignant neoplasm of rectum,1
+4098353,Red blood cell test,Measurement,R71,Abnormality of red blood cells,1

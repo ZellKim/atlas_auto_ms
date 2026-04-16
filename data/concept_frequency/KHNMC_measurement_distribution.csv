@@ -1,0 +1,21 @@
+concept_id,biomarker,unit,min,p10,q1,median,q3,p90,max
+3017732,Neutrophils,No matching concept,0,2108,3017,4476,7107,10971,196666647
+3013115,Eosinophils,No matching concept,0,40.0,90.0,180.0,342,610.0,24050.0
+3002385,Monocytes,No matching concept,0,12.2,12.8,13.6,14.7,16.7,52.2
+3020460,CRP,No matching concept,0,0.05,0.07,0.2,1.42,5.99,56.83
+3020460,CRP,milligram per deciliter,0,0.04,0.1,0.5,3.1,9.2,142
+3004501,Glucose,No matching concept,1,86,93,103,123,161,2307
+3004501,Glucose,milligram per deciliter,1,85,93,104,127,172,2299
+3004410,HbA1c,No matching concept,0,5.1,5.3,5.7,6.3,7.4,49.2
+3028437,LDL,No matching concept,2,54,70.0,93,121,148,479
+3028437,LDL,milligram per deciliter,-145,69,89,112,137,161,820.0
+3022192,Triglyceride,No matching concept,4,51,70.0,101,149,219,4414
+3022192,Triglyceride,milligram per deciliter,1,52,71,104,156,231,9000.0
+3007070,HDL,No matching concept,6,37,44,54,66,78,140.0
+3007070,HDL,milligram per deciliter,2,38,44,53,63,73,180.0
+3000285,Uric_acid,No matching concept,2,130.0,134,138,141,143,47587
+3000285,Uric_acid,milliequivalent per liter,119,130.0,134,137,140.0,144,162
+3006923,ALT,No matching concept,-17,9,12,18,30.0,57,10000.0
+3035995,ALP,No matching concept,1,56,72,110.0,219,410.0,19000.0
+3000963,Hemoglobin,No matching concept,0,8.6,10.1,12.1,13.7,15,25.1
+3000963,Hemoglobin,gram per deciliter,0.1,12.2,13,13.8,14.8,15.6,19.4

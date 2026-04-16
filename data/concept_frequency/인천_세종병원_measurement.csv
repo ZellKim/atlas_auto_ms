@@ -1,0 +1,463 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+3000963,Urinalysis||Survey terms not yet categorized||Short blood count panel - Blood||Hemoglobin [Mass/volume] in Blood,690065,0.637887,6.69
+3016723,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Creatinine [Mass/volume] in Serum or Plasma,687283,0.635315,6.53
+3013721,Protein measurement||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,686943,0.635001,6.3
+3006923,Order set||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,681475,0.629947,6.2
+44816672,"Urinalysis||Sugars/Sugar metabolism||Glucose|Pt|Ser/Plas/Bld|180.156 g/mole||Glucose [Mass/volume] in Serum, Plasma or Blood",681084,0.629585,6.61
+3000905,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Leukocytes [#/volume] in Blood by Automated count,675433,0.624361,6.66
+3024929,Order set||Platelets panel | Blood | Hematology and Cell Count Panels||Platelets|NCnc|Pt|Bld||Platelets [#/volume] in Blood by Automated count,675306,0.624244,6.65
+46236952,"Order set||Chemistry order set||Predicted Glomerular filtration rate | Serum, Plasma or Blood | Chemistry - non-challenge||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",668756,0.618189,6.54
+3020416,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Erythrocytes [#/volume] in Blood by Automated count,666266,0.615888,6.72
+3023314,Order set||PhenX Panel||PhenX - complete blood count protocol 220501||Hematocrit [Volume Fraction] of Blood by Automated count,665971,0.615615,6.72
+3023599,Order set||Red cell indices||PhenX - complete blood count protocol 220501||MCV [Entitic volume] by Automated count,664181,0.61396,6.72
+3012030,Order set||Red cell indices||PhenX - complete blood count protocol 220501||MCH [Entitic mass] by Automated count,664179,0.613958,6.72
+3009744,Order set||Red cell indices||PhenX - complete blood count protocol 220501||MCHC [Mass/volume] by Automated count,664179,0.613958,6.72
+3043111,Order set||Platelets panel | Blood | Hematology and Cell Count Panels||Platelets panel - Blood by Automated count||Platelet mean volume [Entitic volume] in Blood by Automated count,663988,0.613782,6.69
+3020630,Urinalysis||Protein fractions 3 panel | Serum or Plasma | Chemistry Panels||Protein|Pt|Ser/Plas||Protein [Mass/volume] in Serum or Plasma,662725,0.612614,6.78
+3024561,Urinalysis||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Albumin [Mass/volume] in Serum or Plasma,662567,0.612468,6.7
+3035995,Protein measurement||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,661754,0.611717,6.31
+3028615,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Eosinophils [#/volume] in Blood by Automated count,661140,0.611149,6.52
+3013682,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Urea nitrogen [Mass/volume] in Serum or Plasma,661138,0.611147,6.6
+3033575,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Monocytes [#/volume] in Blood by Automated count,660477,0.610536,6.51
+3015586,Order set||Urinalysis||Segmented neutrophils | Blood | Hematology and Cell counts||Segmented neutrophils [#/volume] in Blood,660477,0.610536,6.51
+3004327,Order set||Urinalysis||T-cell helper (CD4) subset panel - Blood||Lymphocytes [#/volume] in Blood by Automated count,660477,0.610536,6.51
+3011948,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Monocytes/100 leukocytes in Blood by Automated count,660477,0.610536,6.51
+3012608,Ophthalmology and Optometry||Urinalysis||Neutrophils.segmented/100 leukocytes | Blood | Hematology and Cell counts||Segmented neutrophils/100 leukocytes in Blood by Automated count,660477,0.610536,6.51
+3037511,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Lymphocytes/100 leukocytes in Blood by Automated count,660476,0.610535,6.51
+3013429,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Basophils [#/volume] in Blood by Automated count,660467,0.610527,6.51
+3010457,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Eosinophils/100 leukocytes in Blood by Automated count,660463,0.610523,6.51
+3013869,Order set||Urinalysis||PhenX - complete blood count protocol 220501||Basophils/100 leukocytes in Blood by Automated count,660445,0.610507,6.51
+3019550,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Sodium [Moles/volume] in Serum or Plasma,659846,0.609953,6.91
+3023103,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Potassium [Moles/volume] in Serum or Plasma,659798,0.609909,6.94
+3014576,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Chloride [Moles/volume] in Serum or Plasma,659583,0.60971,6.9
+3011904,Survey set||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Phosphate [Mass/volume] in Serum or Plasma,659398,0.609539,6.58
+3030597,"Measurement||Mineral, bone, joint, connective tissue||Chemistry||Calcium [Mass/volume] corrected for total protein in Serum or Plasma",658014,0.60826,6.59
+3024128,Urinalysis||Survey terms not yet categorized||Sequential Organ Failure Assessment SOFA||Bilirubin.total [Mass/volume] in Serum or Plasma,654672,0.60517,6.26
+3027114,Survey terms not yet categorized||Urinalysis||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Cholesterol [Mass/volume] in Serum or Plasma,645176,0.596392,4.98
+3007238,Ophthalmology and Optometry||Urinalysis||Nucleated erythrocytes | Blood | Hematology and Cell counts||Nucleated erythrocytes [#/volume] in Blood by Automated count,523727,0.484126,5.27
+40761514,Ophthalmology and Optometry||Urinalysis||Hematology (coagulation) differential count||Nucleated erythrocytes/100 leukocytes [Ratio] in Blood by Automated count,523576,0.483987,5.27
+40764999,"Order set||Healthcare Effectiveness Data and Information Set order set||Predicted Glomerular filtration rate | Serum, Plasma or Blood | Chemistry - non-challenge||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",502021,0.464062,6.47
+3034426,Survey instruments||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||Prothrombin time (PT),462473,0.427504,3.26
+3022217,Survey instruments||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||INR in Platelet poor plasma by Coagulation assay,462469,0.4275,3.26
+3033658,"Order set||Routine||Lupus anticoagulant aPTT, dRVVT and PT screening panel W Reflex||Prothrombin time (PT) actual/Normal",462462,0.427494,3.26
+3013466,Order set||Routine||aPTT | Blood | Coagulation||aPTT in Blood by Coagulation assay,457671,0.423065,2.73
+3037556,Measurement of substance in specimen||Uric acid measurement||Urate|Pt|Ser/Plas|168.112 g/mole||Urate [Mass/volume] in Serum or Plasma,407615,0.376794,5.01
+3022192,Survey terms not yet categorized||Urinalysis||Triglyceride|Pt|Ser/Plas||Triglyceride [Mass/volume] in Serum or Plasma,386722,0.357481,3.95
+3020460,Urinalysis||Rheumatoid arthritis disease activity panel | Serum or Plasma | Chemistry Panels||Rheumatoid arthritis disease activity panel - Serum or Plasma by VectraDA||C reactive protein [Mass/volume] in Serum or Plasma,383201,0.354226,4.61
+3026910,Reportable microbiology||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,307120,0.283898,3.29
+3007220,Protein measurement||Enzyme measurement||Creatine kinase | Serum or Plasma | Chemistry - non-challenge||Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,298973,0.276367,2.4
+3005225,Protein measurement||Lactate dehydrogenase panel | Serum or Plasma | Chemistry Panels||Lactate dehydrogenase | Serum or Plasma | Chemistry - non-challenge||Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction,281624,0.26033,3.53
+3009609,"Order set||Respiratory measures and Ventilator management||Gas panel - Arterial blood||Carbon dioxide, total [Moles/volume] in Arterial blood",254293,0.235065,6.06
+3007070,Survey terms not yet categorized||Urinalysis||Lipoprotein metabolism panel - Serum or Plasma||Cholesterol in HDL [Mass/volume] in Serum or Plasma,252874,0.233753,3.2
+3019977,Urinalysis||PhenX domain - Respiratory||pH|LsCnc|Pt|ANYBldSerPl||pH of Arterial blood,252459,0.23337,5.98
+3027946,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Carbon dioxide [Partial pressure] in Arterial blood,252429,0.233342,5.98
+3027801,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Oxygen [Partial pressure] in Arterial blood,252341,0.233261,6.01
+3003396,Order set||Measurement of level of substance in blood||Gas panel - Arterial blood||Base excess in Arterial blood by calculation,252040,0.232982,5.98
+3008152,Order set||Measurement of substance||IEEE 11073 Rosetta laboratory panel Blood||Bicarbonate [Moles/volume] in Arterial blood,250391,0.231458,5.98
+3016502,Order set||Specific hemodynamics||SaO2 | Blood arterial | Chemistry - non-challenge||Oxygen saturation in Arterial blood,250217,0.231297,5.96
+3043409,Order set||Measurement of substance||Potassium|SCnc|Pt|ANYBldSerPl||Potassium [Moles/volume] in Arterial blood,232042,0.214497,4.3
+3043706,Order set||Measurement of substance||Sodium|SCnc|Pt|ANYBldSerPl||Sodium [Moles/volume] in Arterial blood,231784,0.214258,4.29
+3044331,"Clinical terms not yet categorized||Mineral, bone, joint, connective tissue||IEEE 11073 Rosetta laboratory panel Blood||Calcium.ionized [Moles/volume] in Arterial blood",231765,0.214241,4.27
+3016417,Order set||Single allergens||Chemistry||Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma,229623,0.212261,2.13
+3005785,Enzyme measurement||Flowsheet - laboratory||Creatine kinase.MB|MCnc|Pt|ANYBldSerPl||Creatine kinase.MB [Mass/volume] in Serum or Plasma,219776,0.203158,2.2
+3028437,Order set||Urinalysis||Low density lipoprotein cholesterol measurement||Cholesterol in LDL [Mass/volume] in Serum or Plasma,218551,0.202026,3.15
+3008598,Order set||Thyroxine and Thyroxine.free panel | Serum or Plasma | Chemistry Panels||Thyroxine.free|Pt|Ser/Plas||Thyroxine (T4) free [Mass/volume] in Serum or Plasma,211537,0.195542,2.4
+3021337,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Serum or Plasma,210491,0.194575,2.1
+3004410,Survey terms not yet categorized||Survey terms not yet categorized||Laboratory - end stage renal disease form 2728||Hemoglobin A1c/Hemoglobin.total in Blood,205687,0.190134,2.9
+3015183,Laboratory||Red blood cell test||Hematology (coagulation) differential count||Erythrocyte sedimentation rate,204386,0.188932,2.56
+3004905,Protein measurement||Gases and acid/Base||Triacylglycerol lipase | Serum or Plasma | Chemistry - non-challenge||Lipase [Enzymatic activity/volume] in Serum or Plasma,191049,0.176603,2.14
+3023399,Measurement of substance||Serology - non-micro||Thyrotropin|ACnc|Pt|ANYBldSerPl||Thyrotropin [Units/volume] in Blood,183971,0.17006,2.35
+3014111,Order set||Sugars/Sugar metabolism||Organic acids panel - Serum or Plasma||Lactate [Moles/volume] in Serum or Plasma,174899,0.161674,2.57
+40762365,Order set||Respiratory measures and Ventilator management||Oxygen content | Blood arterial | Chemistry - non-challenge||Oxygen content in Arterial blood by calculation,168010,0.155306,6.99
+3018405,Order set||Sugars/Sugar metabolism||Lactate|SCnc|Pt|ANYBldSerPl||Lactate [Moles/volume] in Arterial blood,166567,0.153972,4.5
+3031266,Urinalysis||Sugars/Sugar metabolism||Glucose|Pt|BldA|180.156 g/mole||Glucose [Mass/volume] in Arterial blood,161854,0.149616,4.95
+3027484,Urinalysis||Hematology and Cell counts||Hemoglobin | Blood | Hematology and Cell counts||Hemoglobin [Mass/volume] in Blood by calculation,152165,0.140659,3.15
+42529253,Laboratory||Thyroid hormone measurement||Triiodothyronine|Pt|Ser/Plas|IA|650.977 g/mole||Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,147503,0.13635,2.54
+3023230,Laboratory||IEEE 11073 Rosetta panel||IEEE 11073 Rosetta laboratory panel Blood||Hematocrit [Volume Fraction] of Arterial blood,139225,0.128698,3.66
+42529224,Chemistry and Chemistry - challenge||Mass-Molar conversion||Natriuretic peptide.B prohormone N-Terminal|Pt|Ser/Plas|IA||Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma by Immunoassay,129097,0.119336,1.77
+3008295,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Osmolality of Serum or Plasma,126586,0.117014,3.91
+3011958,Measurement of substance||Mass-Molar conversion||Chemistry||Ammonia [Moles/volume] in Plasma,111849,0.103392,2.3
+3048530,Order set||Short Fibrin D-dimer FEU and DDU panel | Platelet poor plasma | Coagulation Panels||Short Fibrin D-dimer FEU and DDU panel - Platelet poor plasma||Fibrin D-dimer DDU [Mass/volume] in Platelet poor plasma,99267,0.091761,1.56
+3021347,"Chemistry - non-challenge||Mineral, bone, joint, connective tissue||Chemistry||Calcium.ionized [Moles/volume] in Serum or Plasma",92445,0.085455,2.67
+3001420,"Order set||Mineral, bone, joint, connective tissue||Magnesium|Pt|Ser/Plas|24.305 g/mole||Magnesium [Mass/volume] in Serum or Plasma",89222,0.082476,2.75
+3031248,Order set||Measurement of substance||Gas and Carbon monoxide and Electrolytes panel - Arterial blood||Chloride [Moles/volume] in Arterial blood,86372,0.079841,3.6
+3003785,Pathology||Tumor markers||Chemistry||Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,73882,0.068296,2.45
+3009306,Order set||Tumor markers||Second trimester triple maternal screen panel - Serum or Plasma||Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,65148,0.060222,3.15
+3009201,Order set||Serology order set||Thyrotropin|ACnc|Pt|ANYBldSerPl||Thyrotropin [Units/volume] in Serum or Plasma,63390,0.058597,1.64
+3013603,Protein measurement||Tumor markers||Prostate specific antigen measurement||Prostate specific Ag [Mass/volume] in Serum or Plasma,63036,0.05827,2.48
+3001122,Survey set||Survey terms not yet categorized||Iron panel - Serum or Plasma||Ferritin [Mass/volume] in Serum or Plasma,60329,0.055767,2.21
+3015632,"Renal function 2000 panel | Serum or Plasma | Chemistry Panels||Respiratory measures and Ventilator management||Electrolytes 1998 panel - Serum or Plasma||Carbon dioxide, total [Moles/volume] in Serum or Plasma",59645,0.055135,7.03
+3002400,Order set||Mass-Molar conversion||Iron|Pt|Ser/Plas|55.845 g/mole||Iron [Mass/volume] in Serum or Plasma,59202,0.054726,2.05
+3027597,Urinalysis||Pyrrole measurement||Hepatic function 2000 panel - Serum or Plasma||Bilirubin.direct [Mass/volume] in Serum or Plasma,58285,0.053878,2.14
+42529201,Tumor marker measurement||Tumor markers||Chemistry||Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,57900,0.053522,1.84
+44817130,Measurement of substance||Serology - non-micro||Procalcitonin|MCnc|Pt|ANYBldSerPl||Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,57668,0.053308,2.37
+3021044,Order set||Mass-Molar conversion||Iron binding capacity|Pt|Ser/Plas||Iron binding capacity [Mass/volume] in Serum or Plasma,55677,0.051467,2.07
+3005168,Order set||Mass-Molar conversion||Iron binding capacity.unsaturated|Pt|Ser/Plas||Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,54147,0.050053,2.07
+3010156,Urinalysis||Mass-Molar conversion||Chemistry||C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,50912,0.047062,1.49
+3007124,Order set||Urinalysis||Reticulocytes/100 erythrocytes | Blood | Hematology and Cell counts||Reticulocytes/100 erythrocytes in Blood by Automated count,48948,0.045247,7.29
+40763528,Ophthalmology and Optometry||Urinalysis||Reticulocytes|NCnc|Pt|Bld||Reticulocytes [#/volume] in Blood by Automated count,48947,0.045246,7.29
+3016244,Order set||Serology - non-micro||Insulin.free and Insulin.total panel [Units/volume] - Serum or Plasma||Insulin [Units/volume] in Serum or Plasma,48372,0.044714,1.67
+3016724,Order set||Small molecules||Homocysteine|Pt|Ser/Plas||Homocysteine [Moles/volume] in Serum or Plasma,45940,0.042466,1.37
+3000185,Survey set||Survey terms not yet categorized||Iron and Iron binding capacity panel - Serum or Plasma||Iron saturation [Mass Fraction] in Serum or Plasma,45152,0.041738,2.14
+3007760,Measurement||Measurement of substance||Creatinine|MCnc|Pt|ANYBldSerPl||Creatinine [Mass/volume] in Arterial blood,44133,0.040796,1.15
+3005719,Urinalysis||Specific antigens||Multiple sclerosis panel - Serum and CSF||IgG [Mass/volume] in Serum or Plasma,38755,0.035825,1.96
+3026617,Measurement of substance||Urea measurement||Urea nitrogen|MCnc|Pt|ANYBldSerPl||Urea nitrogen [Mass/volume] in Arterial blood,38715,0.035788,1.22
+3028026,Urinalysis||Specific antigens||Immunoglobulin panel [Mass/volume] - Serum||IgM [Mass/volume] in Serum or Plasma,36449,0.033693,1.83
+3020149,Order set||Mass-Molar conversion||Chemistry||25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,36285,0.033541,1.88
+3000620,Order set||Hematology and Cell counts||Hematology (coagulation) differential count||Complement C3 [Mass/volume] in Serum or Plasma,34070,0.031494,1.94
+3017766,Order set||Mass-Molar conversion||Hematology (coagulation) differential count||Complement C4 [Mass/volume] in Serum or Plasma,33704,0.031156,1.92
+3030366,Urinalysis||Measurement of level of substance in blood||Cystatin C | Serum or Plasma | Chemistry - non-challenge||Cystatin C [Mass/volume] in Serum or Plasma,33481,0.030949,3.92
+3007164,Urinalysis||Specific antigens||Immunoglobulin panel [Mass/volume] - Serum||IgA [Mass/volume] in Serum or Plasma,33108,0.030605,1.91
+3027391,Order set||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel | Blood | Coagulation Panels||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel - Blood||Platelet function (closure time) collagen+ADP induced [Time] in Blood,31791,0.029387,1.13
+3028288,Survey terms not yet categorized||Urinalysis||Low density lipoprotein cholesterol measurement||Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation,30992,0.028649,2.51
+43055222,Coagulation||Order set||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel | Blood | Coagulation Panels||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel - Blood,30493,0.028187,1.13
+36660257,"Chemistry and Chemistry - challenge||Flowsheet - laboratory||Predicted Glomerular filtration rate | Serum, Plasma or Blood | Chemistry - non-challenge||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine and Cystatin C-based formula (CKD-EPI)",29577,0.027341,4.07
+3037551,Chemistry - non-challenge||Tumor markers||Chemistry||Cancer Ag 125 [Units/volume] in Serum or Plasma,29170,0.026964,1.95
+42529202,Pathology||Tumor markers||Chemistry||Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,28227,0.026093,1.89
+40759656,Serology - non-micro||Tissue specific||Thyroglobulin Ab|ACnc|Pt|ANYBldSerPl||Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,28130,0.026003,3.53
+3036987,Order set||Vitamin measurement||Folic acid measurement||Folate [Mass/volume] in Serum or Plasma,27031,0.024987,1.14
+3035839,Order set||Urinalysis||Neutrophils.band form/100 leukocytes | Blood | Hematology and Cell counts||Band form neutrophils/100 leukocytes in Blood by Automated count,24845,0.022966,3.47
+3000067,Order set||Serology - non-micro||Parathyrin.intact|Pt|Ser/Plas||Parathyrin.intact [Mass/volume] in Serum or Plasma,24839,0.022961,2.84
+3001465,Order set||Urinalysis||Neutrophils.band form|NCnc|Pt|Bld||Band form neutrophils [#/volume] in Blood by Automated count,24712,0.022843,3.45
+3015352,Serology - non-micro||Tissue specific||Thyroperoxidase Ab|ACnc|Pt|ANYBldSerPl||Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),24362,0.02252,1.37
+3014791,Order set||Mass-Molar conversion||Lipoprotein metabolism panel - Serum or Plasma||Apolipoprotein B [Mass/volume] in Serum or Plasma,22809,0.021084,1.2
+3018876,Lipoproteins measurement||Apolipoproteins||Chemistry||Apolipoprotein A [Mass/volume] in Serum or Plasma,22384,0.020691,1.2
+3022914,Tumor marker measurement||Tumor markers||Chemistry||Cancer Ag 19-9 [Units/volume] in Serum or Plasma,21735,0.020092,1.6
+3026355,Microbiology and Antimicrobial susceptibility||Microbiology||Reagin Ab | Serum or Plasma | Microbiology||Reagin Ab [Units/volume] in Serum or Plasma by RPR,19503,0.018028,1.04
+3037334,Laboratory||Drug doses||Vitamin D+Metabolites | Serum or Plasma | Chemistry - non-challenge||Vitamin D+Metabolites [Mass/volume] in Serum or Plasma,19243,0.017788,1.48
+3023091,Order set||Rheumatoid arthritis disease activity panel | Serum or Plasma | Chemistry Panels||Rheumatoid arthritis disease activity panel - Serum or Plasma by VectraDA||Interleukin 6 [Mass/volume] in Serum or Plasma,19162,0.017713,1.54
+3009682,Steroid measurement||Transcortin and Cortisol.free panel | Serum or Plasma | Chemistry Panels||Transcortin and Cortisol.free panel - Serum or Plasma||Cortisol [Mass/volume] in Serum or Plasma,19098,0.017654,3.55
+3017181,Order set||Urinalysis||Short blood count panel - Blood||Myelocytes/100 leukocytes in Blood,18754,0.017336,3.63
+3033745,Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|MCnc|Pt|ANYBldSerPl||Troponin I.cardiac [Mass/volume] in Blood,18383,0.016993,1.12
+3010340,Laboratory||Thyroid hormone measurement||Triiodothyronine|Pt|Ser/Plas|650.977 g/mole||Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,18156,0.016783,1.54
+3015233,Order set||Urinalysis||Manual Differential panel - Blood||Abnormal lymphocytes/100 leukocytes in Blood,17698,0.01636,2.73
+3016451,Laboratory||Thyroid hormone measurement||Thyroxine|MCnc|Pt|ANYBldSerPl||Thyroxine (T4) [Mass/volume] in Blood,17473,0.016152,1.29
+3011152,Laboratory||Vitamin B complex||Cobalamins|MCnc|Pt|ANYBldSerPl||Cobalamin (Vitamin B12) [Mass/volume] in Blood,17431,0.016113,1.08
+44817128,Urinalysis||Measurement of level of substance in blood||Chemistry||Albumin.ischemia modified [Units/volume] in Serum,17275,0.015969,1.68
+42529189,Order set||Tumor markers||Liver cancer antibodies and AFP panel - Serum or Plasma by Immunoassay||Alpha-1-Fetoprotein [Units/volume] in Serum or Plasma by Immunoassay,17161,0.015863,1.41
+3010084,Order set||Sugars/Sugar metabolism||Chemistry||C peptide [Mass/volume] in Serum or Plasma,16945,0.015664,1.92
+3013861,Order set||Mass-Molar conversion||Lipoprotein metabolism panel - Serum or Plasma||Lipoprotein a [Mass/volume] in Serum or Plasma,16839,0.015566,1.15
+3000401,Order set||Routine||Intravascular coagulation and fibrinolysis panel||Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,15504,0.014332,2.44
+3009214,Order set||Pituitary Hormones-||Lutropin|ACnc|Pt|ANYBldSerPl||Lutropin [Units/volume] in Serum or Plasma,15171,0.014024,1.95
+3035637,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma,14942,0.013812,1.61
+40760528,Serology - non-micro||Tissue specific||Thyrotropin receptor Ab|ACnc|Pt|ANYBldSerPl||Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,14691,0.01358,3.74
+3036535,Serology - non-micro||Tissue specific||Thyroglobulin|Pt|Ser/Plas||Thyroglobulin [Mass/volume] in Serum or Plasma,14471,0.013377,5.45
+42529228,Measurement of substance||Pituitary Hormones-||Prolactin|ACnc|Pt|ANYBldSerPl||Prolactin [Units/volume] in Serum or Plasma by Immunoassay,14099,0.013033,1.52
+42529215,Pathology||Specific antigens||Follitropin|ACnc|Pt|ANYBldSerPl||Follitropin [Units/volume] in Serum or Plasma by Immunoassay,13478,0.012459,1.53
+3000593,Order set||Vitamin B complex||Cobalamins|Pt|Ser/Plas||Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,13228,0.012228,1.18
+3006588,Tumor marker measurement||Tumor markers||Chemistry||Cancer Ag 15-3 [Units/volume] in Serum or Plasma,13116,0.012124,3.84
+3021236,Order set||Microbiology order set||Streptolysin O Ab | Serum or Plasma | Microbiology||Streptolysin O Ab [Units/volume] in Serum or Plasma,11966,0.011061,1.06
+3024354,Order set||Respiratory measures and Ventilator management||Oxygen | Blood venous | Chemistry - non-challenge||Oxygen [Partial pressure] in Venous blood,11869,0.010972,1.98
+3012544,Urinalysis||Measurement||pH|LsCnc|Pt|ANYBldSerPl||pH of Venous blood,11869,0.010972,1.98
+3021447,Order set||Respiratory measures and Ventilator management||IEEE 11073 Rosetta laboratory panel Blood||Carbon dioxide [Partial pressure] in Venous blood,11867,0.01097,1.98
+3002032,Order set||Measurement of level of substance in blood||Gas panel - Venous blood||Base excess in Venous blood by calculation,11865,0.010968,1.98
+3027273,Order set||Measurement of substance||Gas panel - Venous blood||Bicarbonate [Moles/volume] in Venous blood,11865,0.010968,1.98
+3024928,Order set||Specific hemodynamics||SaO2 | Blood venous | Specific hemodynamics||Oxygen saturation in Venous blood,11860,0.010963,1.97
+3010140,"Order set||Respiratory measures and Ventilator management||Gas panel - Venous blood||Carbon dioxide, total [Moles/volume] in Venous blood",11846,0.01095,1.95
+3002179,Order set||Urinalysis||Short blood count panel - Blood||Metamyelocytes/100 leukocytes in Blood,11842,0.010947,3.39
+40763791,Clinical||Respiratory measures and Ventilator management||Oxygen content | Blood venous | Chemistry - non-challenge||Oxygen content in Venous blood by calculation,11821,0.010927,1.97
+42529562,Order set||Tumor markers||Prostate specific Ag.free|MCnc|Pt|ANYBldSerPl||Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay,11755,0.010866,1.52
+3005322,Urinalysis||Specific antigens||Immunoglobulin E measurement||IgE [Units/volume] in Serum or Plasma,11490,0.010621,1.11
+3025285,Steroid measurement||Mass-Molar conversion||Estrogen fraction panel - Serum or Plasma||Estradiol (E2) [Mass/volume] in Serum or Plasma,11446,0.010581,1.46
+3023323,Pathology||Specific antigens||Follitropin|ACnc|Pt|ANYBldSerPl||Follitropin [Units/volume] in Serum or Plasma,11350,0.010492,1.9
+42529219,Urinalysis||Specific antigens||Immunoglobulin E measurement||IgE [Units/volume] in Serum or Plasma by Immunoassay,11182,0.010336,1.09
+44786760,NA||Laboratory||Serology (antibodies and most antigens except blood bank and infectious agents)||Neutrophil gelatinase-associated lipocalin [Mass/volume] in Serum or Plasma by Rapid immunoassay,11074,0.010237,1.16
+3000659,Urinalysis||Specific antigens||Cytokeratin 19 | Serum or Plasma | Chemistry - non-challenge||Cytokeratin 19 [Mass/volume] in Serum or Plasma,10452,0.009662,1.49
+3007922,Hormone measurement||Somatomedin measurement||Somatomedin-C measurement||Insulin-like growth factor-I [Mass/volume] in Blood,10343,0.009561,2.13
+3022756,Urinalysis||Mass-Molar conversion||Chemistry||Ceruloplasmin [Mass/volume] in Serum or Plasma,9144,0.008453,1.04
+3008893,Order set||Testosterone.free+weakly bound and total panel | Serum or Plasma | Chemistry Panels||Testosterone|Pt|Ser/Plas|288.431 g/mole||Testosterone [Mass/volume] in Serum or Plasma,9107,0.008418,1.49
+3016407,Order set||Routine||PT and aPTT and Fibrinogen panel - Platelet poor plasma by Coagulation assay||Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,8765,0.008102,2.02
+42529213,Steroid measurement||Mass-Molar conversion||Estradiol|Pt|Ser/Plas|IA|272.388 g/mole||Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,8703,0.008045,1.65
+3041449,Laboratory||Serology - non-micro||Collagen crosslinked C-telopeptide|Pt|Ser/Plas||Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,8699,0.008041,1.89
+3013915,Measurement of substance||Steroid measurement||Chemistry||Aldosterone [Mass/volume] in Blood,8563,0.007916,1.89
+3000515,Laboratory||Coagulation||Coagulation study||Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,8391,0.007757,1.58
+3014007,Order set||Respiratory measures and Ventilator management||Oxyhemoglobin/Hemoglobin.total|MFr|Pt|ANYBldSerPl||Fractional oxyhemoglobin in Arterial blood,8216,0.007595,11.76
+3007808,Order set||Renin measurement||Renin | Plasma | Chemistry - non-challenge||Renin [Enzymatic activity/volume] in Plasma,7974,0.007371,1.43
+3024172,Urinalysis||Hormone measurement||Erythropoietin | Serum or Plasma | Chemistry - non-challenge||Erythropoietin (EPO) [Units/volume] in Serum or Plasma,7897,0.0073,1.14
+1002070,NA||Laboratory||Lab terms not yet categorized||Acarboxyprothrombin [Units/volume] in Serum or Plasma,7275,0.006725,4.11
+42529195,Urinalysis||Globulin measurement||Chemistry||Beta-2-Microglobulin [Mass/volume] in Serum or Plasma by Immunoassay,7272,0.006722,4.31
+3010487,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Treponema pallidum Ab | Serum | Microbiology||Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination,6467,0.005978,1.04
+3026300,Urinalysis||Sugars/Sugar metabolism||HEDIS MY 2020 Value Set - Glucose Tests||Glucose [Mass/volume] in Serum or Plasma --2 hours post dose glucose,6196,0.005728,3.19
+3038136,Survey terms not yet categorized||Tumor markers||Pregnancy lab tests - FPAR 2.0 set||Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,6084,0.005624,1.56
+3027126,Order set||Measurement of heavy metal in blood specimen||Heavy metals panel - Serum or Plasma||Copper [Mass/volume] in Serum or Plasma,6079,0.005619,1.05
+3028110,Order set||Steroid measurement||Chemistry||Bile acid [Moles/volume] in Serum or Plasma,5989,0.005536,3.51
+3044974,Urinalysis||Protein measurement||Transthyretin measurement||Prealbumin [Mass/volume] in Serum or Plasma by Nephelometry,5957,0.005507,1.43
+36660739,"NA||Laboratory||Lab terms not yet categorized||Soluble CD14 subtype [Mass/volume] in Serum, Plasma or Blood by Immunoassay",5763,0.005327,1.61
+3019897,Order set||Red cell indices||PhenX - complete blood count protocol 220501||Erythrocyte distribution width [Ratio] by Automated count,5628,0.005202,3.92
+46235690,Order set||Lupus anticoagulant three screening tests W Reflex panel | Platelet poor plasma | Coagulation Panels||Lupus anticoagulant three screening tests W Reflex | Platelet poor plasma | Coagulation||Lupus anticoagulant three screening tests W Reflex [interpretation],5418,0.005008,1.11
+3043105,Laboratory||Pathology||Pathology||HER2 [Mass/volume] in Serum,5364,0.004958,1.02
+3011961,Measurement of substance||Protein measurement||Ferritin|MCnc|Pt|ANYBldSerPl||Ferritin [Mass/volume] in Blood,5183,0.004791,1.93
+3010989,Measurement of substance||Serology - non-micro||Chemistry||Calcitonin [Mass/volume] in Serum or Plasma,5173,0.004782,1.09
+3015569,Laboratory||Urinalysis||Phospholipid IgG | Serum | Coagulation||Phospholipid IgG Ab [Units/volume] in Serum by Immunoassay,5130,0.004742,1.04
+3023632,Laboratory||Urinalysis||Phospholipid IgM | Serum | Coagulation||Phospholipid IgM Ab [Units/volume] in Serum by Immunoassay,5104,0.004718,1.03
+21494815,Cell markers||Clusters of differentiation||Cells.CD4/100 lymphocytes | XXX | Cell markers||CD4 cells/100 lymphocytes in Specimen,4635,0.004285,3.33
+3022533,Order set||T-cell subsets CD4 and CD8 panel | Blood | Cellmarker Panels||T-cell subsets CD4 and CD8 panel - Blood||CD3 cells/100 cells in Blood,4630,0.00428,3.33
+40757349,Order set||T-cell subsets CD4 and CD8 panel | Blood | Cellmarker Panels||T-cell subsets CD4 and CD8 panel - Blood||CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Blood,4629,0.004279,3.33
+3048603,Coagulation||Platelet Function||Platelet aggregation ADP induced | Platelet rich plasma | Coagulation||Platelet aggregation ADP induced [Units/volume] in Platelet rich plasma,4624,0.004274,2.02
+3015884,Hormone measurement||Mass-Molar conversion||Dehydroepiandrosterone sulfate|Pt|Ser/Plas||Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,4536,0.004193,1.13
+3053209,Urinalysis||Specific antigens||Monoclonal gammopathy panel - Serum or Plasma||Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum,4100,0.00379,4.96
+3037110,Urinalysis||Sugars/Sugar metabolism||HEDIS MY 2020 Value Set - Glucose Tests||Fasting glucose [Mass/volume] in Serum or Plasma,4083,0.003774,1.67
+3047169,Urinalysis||Specific antigens||Monoclonal gammopathy panel - Serum or Plasma||Lambda light chains.free [Mass/volume] in Serum or Plasma,4081,0.003772,4.96
+3034860,Urinalysis||Specific antigens||Monoclonal gammopathy panel - Serum or Plasma||Kappa light chains.free [Mass/volume] in Serum,4080,0.003771,4.96
+3049126,Urinalysis||Specific antigens||Rheumatoid arthritis disease activity panel - Serum or Plasma by VectraDA||Amyloid A [Mass/volume] in Serum or Plasma,4064,0.003757,1.99
+3020287,Laboratory||Coagulation||Protein C actual/Normal | Platelet poor plasma | Coagulation||Protein C actual/normal in Platelet poor plasma by Coagulation assay,4054,0.003747,1.07
+3036669,Laboratory||Coagulation||Protein S actual/Normal | Platelet poor plasma | Coagulation||Protein S actual/normal in Platelet poor plasma by Coagulation assay,4023,0.003719,1.08
+3029483,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||DNA double strand Ab [Units/volume] in Serum by Immunoassay,3851,0.00356,1.78
+3025434,Steroid measurement||Chemistry - routine challenge||Cortisol | Serum or Plasma | Chemistry - challenge||Cortisol [Mass/volume] in Serum or Plasma --pre dose insulin IV,3813,0.003525,1.4
+3009342,Steroid measurement||Mass-Molar conversion||Cortisol^30M post 1 ug/kg CRH IV|Pt|Ser/Plas||Cortisol [Mass/volume] in Serum or Plasma --30 minutes post 1 ug/kg CRH IV,3810,0.003522,1.4
+3005062,Steroid measurement||Mass-Molar conversion||Cortisol^1H post 1 ug/kg CRH IV|Pt|Ser/Plas||Cortisol [Mass/volume] in Serum or Plasma --1 hour post 1 ug/kg CRH IV,3788,0.003502,1.41
+3028461,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Complement total hemolytic CH50 [Units/volume] in Serum or Plasma,3539,0.003271,1.64
+3027370,Measurement of substance||Protein measurement||Insulin-like growth factor binding protein 3|Pt|Ser/Plas||Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,3520,0.003254,1.87
+3005715,Protein measurement||Mass-Molar conversion||Vancomycin|Pt|Ser/Plas||Vancomycin [Mass/volume] in Serum or Plasma,3378,0.003123,4.01
+3026179,Measurement of substance||Mass-Molar conversion||Normetanephrine|Pt|Ser/Plas|183.207 g/mole||Normetanephrine [Moles/volume] in Serum or Plasma,3234,0.002989,1.38
+3034780,Protein measurement||Flowsheet - laboratory||Chemistry||Angiotensin converting enzyme [Enzymatic activity/volume] in Serum or Plasma,3219,0.002976,1.08
+3022493,Urinalysis||Mass-Molar conversion||Hemoglobin.free|Pt|Plas||Free Hemoglobin [Mass/volume] in Plasma,3206,0.002964,1.3
+3009340,Chemistry and Chemistry - challenge||Mass-Molar conversion||Metanephrine|Pt|Ser/Plas|197.234 g/mole||Metanephrine [Moles/volume] in Serum or Plasma,3203,0.002961,1.37
+3016201,Order set||Valproate.free and Valproate panel | Serum or Plasma | Drug and Toxicology Panels||Valproate|Pt|Ser/Plas||Valproate [Mass/volume] in Serum or Plasma,3111,0.002876,2.95
+3005411,Chemistry - non-challenge||Tumor markers||Squamous cell carcinoma Ag|Pt|Ser/Plas||Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,3097,0.002863,3.01
+3010300,Urinalysis||Sugars/Sugar metabolism||HEDIS MY 2020 Value Set - Glucose Tests||Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,3081,0.002848,4.16
+36660550,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus surface Ag [Interpretation] in Serum or Plasma,3047,0.002817,1.01
+3024980,Urinalysis||Specific antigens||IgG subclass panel [Mass/volume] - Serum||IgG subclass 4 [Mass/volume] in Serum,3037,0.002807,1.32
+42529221,Hormone measurement||Mass-Molar conversion||Serum anti-Mullerian hormone measurement||Mullerian inhibiting substance [Mass/volume] in Serum or Plasma by Immunoassay,3020,0.002792,1.13
+3017394,Order set||Zinc measurement||Zinc|Pt|Ser/Plas|65.38 g/mole||Zinc [Mass/volume] in Serum or Plasma,2909,0.002689,1.34
+3002937,Measurement of substance||Routine||Fibrinogen | Platelet poor plasma | Coagulation||Fibrinogen [Presence] in Platelet poor plasma,2904,0.002684,1.13
+3012336,Reportable microbiology||Protein measurement||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Haptoglobin [Mass/volume] in Serum or Plasma,2857,0.002641,1.24
+3005460,Order set||Natural killer cell panel | Blood | Cellmarker Panels||Natural killer cell panel - Blood by Flow cytometry (FC)||CD56 cells/100 cells in Blood,2836,0.002622,1.72
+3016228,Order set||Lymphocyte subset and B-cell phenotyping panel | Blood | Cellmarker Panels||Lymphocyte subset and B-cell phenotyping panel - Blood||CD19 cells/100 cells in Blood,2835,0.002621,1.72
+3028718,Steroid measurement||Progestational Hormones-||Chemistry||17-Hydroxyprogesterone [Mass/volume] in Serum or Plasma,2831,0.002617,1.52
+3002736,Order set||Platelet indices||Platelet distribution width | Blood | Hematology and Cell counts||Platelet distribution width [Entitic volume] in Blood by Automated count,2718,0.002512,1.56
+3037201,Order set||Protein S Ag and protein S Ag.free panel | Platelet poor plasma | Coagulation Panels||Protein S Ag and protein S Ag.free panel - Platelet poor plasma by Immunoassay||Protein S Ag actual/normal in Platelet poor plasma by Immunoassay,2717,0.002512,1.07
+3052023,Order set||Reportable microbiology||Microbiology||Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay,2715,0.00251,1.02
+3002022,Laboratory||Coagulation||Protein C Ag actual/Normal | Platelet poor plasma | Coagulation||Protein C Ag actual/normal in Platelet poor plasma by Immunoassay,2713,0.002508,1.06
+3050108,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --pre dose glucose,2616,0.002418,1.91
+40758310,Chemistry - non-challenge||Tumor markers||Human epididymis protein 4|SCnc|Pt|ANYBldSerPl||Human epididymis protein 4 [Moles/volume] in Serum or Plasma,2565,0.002371,2.34
+3010866,Pesticide and Insecticide panel | Urine and Serum or Plasma | Drug and Toxicology Panels||Pesticide and Insecticide panel | Serum or Plasma | Drug and Toxicology Panels||Pesticide and Insecticide panel [Mass/volume] - Serum or Plasma||Cholinesterase [Enzymatic activity/volume] in Serum or Plasma,2547,0.002354,1.25
+40761622,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --pre dose glucose,2546,0.002353,1.83
+3028772,Measurement of substance||Protein measurement||Osteocalcin|Pt|Ser/Plas||Osteocalcin [Mass/volume] in Serum or Plasma,2497,0.002308,1.38
+3023709,Order set||Somatotropin post glucose stimulation panel | Serum or Plasma | Challenge Bank Panels||Somatotropin|Pt|Ser/Plas||Somatotropin [Mass/volume] in Serum or Plasma,2487,0.002299,2.77
+3016049,Order set||Testosterone free and total panel | Serum or Plasma | Chemistry Panels||Testosterone.free|Pt|Ser/Plas||Testosterone Free [Mass/volume] in Serum or Plasma,2428,0.002244,1.16
+3005013,Order set||Tumor markers||Prostate specific Ag.free|Pt|Ser/Plas||Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,2234,0.002065,1.17
+40761610,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --30 minutes post dose glucose,1917,0.001772,1.71
+36660470,Molecular pathology||Mutations||Molecular pathology||GBA gene full mutation analysis in Blood or Tissue by Sequencing,1887,0.001744,1.01
+3021719,Chemistry - non-challenge||Inborn errors metabolism lysosomal||Chemistry||Acid sphingomyelinase [Enzymatic activity/volume] in Blood,1887,0.001744,1.01
+40758948,Order set||Pompe disease newborn screening panel | DBS | Chemistry Panels||Pompe disease newborn screening panel||Acid alpha glucosidase [Enzymatic activity/volume] in DBS,1887,0.001744,1.01
+40765058,Order set||Triacylglycerol lipase measurement||Krabbe disease newborn screening panel||Galactosylceramidase [Enzymatic activity/volume] in DBS,1886,0.001743,1.01
+40759030,Protein measurement||Mucopolysaccharidosis type I newborn screening panel | DBS | Chemistry Panels||alpha-L-iduronidase measurement||Alpha-L-iduronidase [Enzymatic activity/volume] in DBS,1886,0.001743,1.01
+46235733,Molecular pathology||Mutations||Gene mutation||GLA gene full mutation analysis in Blood or Tissue by Sequencing,1885,0.001742,1.01
+3052011,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --30 minutes post dose glucose,1827,0.001689,1.75
+40758562,Ophthalmology and Optometry||Urinalysis||Immature cells/100 leukocytes | Blood | Hematology and Cell counts||Immature cells/100 leukocytes in Blood,1671,0.001545,10.81
+3006653,Measurement of substance||Vitamin measurement||Thiamine|SCnc|Pt|ANYBldSerPl||Thiamine [Moles/volume] in Blood,1609,0.001487,1.06
+3019208,Laboratory||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Myelin associated glycoprotein Ab [Presence] in Serum by Immunoassay,1540,0.001424,1.03
+40762888,Urinalysis||Pyrrole measurement||Chemistry||Bilirubin.total [Mass/volume] in Arterial blood,1479,0.001367,3.05
+3049164,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --2 hours post dose glucose,1473,0.001362,2.54
+3018595,Urinalysis||Second trimester quad maternal screen panel | Serum or Plasma | Chemistry Panels||Second trimester quad maternal screen panel - Serum or Plasma||Inhibin A [Mass/volume] in Serum or Plasma,1463,0.001352,1.14
+3005791,Allergy||Miscellaneous allergens||Response to antigens||Eosinophil cationic protein (ECP) [Mass/volume] in Serum,1419,0.001312,1.11
+3025994,Steroid measurement||Mass-Molar conversion||Estrogen fraction panel - Serum or Plasma||Estriol (E3) [Mass/volume] in Serum or Plasma,1412,0.001305,1.1
+4197249,Measurement||Measurement of substance||Tumor marker measurement||Alpha-1-Fetoprotein measurement,1409,0.001302,1.1
+40760485,Measurement of substance||Tumor marker measurement||Neuron-specific enolase measurement||Enolase.neuron specific [Mass/volume] in Serum or Plasma by Immunoassay,1389,0.001284,1.79
+3028653,Order set||Gases and acid/Base||Gas and Carbon monoxide panel - Arterial blood||Carboxyhemoglobin/Hemoglobin.total in Arterial blood,1291,0.001193,1.41
+3006239,Urinalysis||Hematology and Cell counts||Hemoglobin | Blood arterial | Hematology and Cell counts||Hemoglobin [Mass/volume] in Arterial blood by Oximetry,1291,0.001193,1.41
+3006217,Protein measurement||Measurement of methemoglobin||Methemoglobin/Hemoglobin.total|MFr|Pt|ANYBldSerPl||Methemoglobin/Hemoglobin.total in Arterial blood,1290,0.001192,1.41
+3028247,Urinalysis||Sugars/Sugar metabolism||Glucose^30M post dose glucose|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --30 minutes post dose glucose,1267,0.001171,4.96
+40761786,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --2 hours post dose glucose,1248,0.001154,2.63
+3024957,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1244,0.00115,2.11
+40762039,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --pre XXX challenge,1244,0.00115,2.11
+3024825,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1244,0.00115,2.11
+3034494,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1242,0.001148,2.11
+3017512,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1242,0.001148,2.11
+40762040,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --pre XXX challenge,1242,0.001148,2.11
+3002780,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1236,0.001143,2.12
+3013967,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1235,0.001142,2.12
+3041710,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1231,0.001138,2.12
+40759615,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1231,0.001138,2.12
+42529564,Measurement of substance||Steroid measurement||Testosterone|Pt|Ser/Plas|IA|288.431 g/mole||Testosterone [Mass/volume] in Serum or Plasma by Immunoassay,1205,0.001114,1.21
+3009041,Coagulation||Antiphospholipid syndrome||Coagulation study||Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay,1191,0.001101,1.05
+3006615,Order set||Mass-Molar conversion||Chemistry||Calciferol (Vit D2) [Mass/volume] in Serum or Plasma,1179,0.00109,1.13
+3021440,Order set||Urinalysis||Short blood count panel - Blood||Promyelocytes/100 leukocytes in Blood,1167,0.001079,3.53
+3015813,Coagulation||Antiphospholipid syndrome||Coagulation study||Cardiolipin IgM Ab [Units/volume] in Serum by Immunoassay,1166,0.001078,1.03
+46235789,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Indocyanine green | Plasma | Chemistry - challenge||Indocyanine green [Mass/volume] in Plasma --15 minutes post dose indocyanine green,1113,0.001029,1.12
+3048220,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Fractional excretion of sodium | Urine and Serum or Plasma | Chemistry - non-challenge||Fractional excretion of sodium [Ratio] in Urine and Serum or Plasma,1113,0.001029,2.35
+3033705,"Chemistry - non-challenge||Mineral, bone, joint, connective tissue||Chemistry||Calcium.ionized [Moles/volume] in Venous blood",1034,0.000956,2.2
+3041473,Measurement||Measurement of substance||Sodium|SCnc|Pt|ANYBldSerPl||Sodium [Moles/volume] in Venous blood,1030,0.000952,2.18
+3008037,Chemistry - non-challenge||Sugars/Sugar metabolism||Lactate|SCnc|Pt|ANYBldSerPl||Lactate [Moles/volume] in Venous blood,1030,0.000952,2.18
+3041354,Measurement||Measurement of substance||Potassium|SCnc|Pt|ANYBldSerPl||Potassium [Moles/volume] in Venous blood,1030,0.000952,2.19
+3033408,Urinalysis||Sugars/Sugar metabolism||Glucose|Pt|BldV|180.156 g/mole||Glucose [Mass/volume] in Venous blood,1030,0.000952,2.19
+1176000,Order set||PNH GPI-Linked WBC and RBC Ag Panel | Blood | Cellmarker Panels||PNH GPI-Linked WBC and RBC Ag Panel - Blood||CD24-FLAER- cells/100 CD15 cells in Blood,999,0.000923,1.76
+3042846,Order set||Paroxysmal nocturnal panel | Blood | Cellmarker Panels||Paroxysmal nocturnal panel - Blood||Erythrocytes.CD59 deficient/100 erythrocytes in Blood,999,0.000923,5.29
+44786753,Measurement of substance in specimen||Tacrolimus measurement||Tacrolimus|Pt|Bld|IA||Tacrolimus [Mass/volume] in Blood by Immunoassay,997,0.000922,34.53
+3004428,Urinalysis||Sugars/Sugar metabolism||HEDIS MY 2020 Value Set - Glucose Tests||Glucose [Mass/volume] in Serum or Plasma --2.5 hours post dose glucose,987,0.000912,4.35
+3018910,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Chemistry||Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,982,0.000908,1.24
+3020540,Measurement of substance||Serology - non-micro||Somatotropin^1H post XXX challenge|MCnc|Pt|ANYBldSerPl||Somatotropin [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,972,0.000899,3.71
+3022700,Measurement of substance||Serology - non-micro||Somatotropin^30M post XXX challenge|Pt|Ser/Plas||Somatotropin [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,944,0.000873,3.7
+3009185,Measurement of substance||Serology - non-micro||Somatotropin^1.5H post XXX challenge|MCnc|Pt|ANYBldSerPl||Somatotropin [Mass/volume] in Serum or Plasma --1.5 hours post XXX challenge,921,0.000851,3.88
+3036292,Measurement of substance||Serology - non-micro||Somatotropin | Serum or Plasma | Chemistry - challenge||Somatotropin [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,915,0.000846,3.91
+3034976,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Hematocrit [Volume Fraction] of Venous blood,903,0.000835,2.05
+3037533,Order set||von Willebrand panel | Platelet poor plasma | Coagulation Panels||von Willebrand panel - Platelet poor plasma||von Willebrand factor (vWf) ristocetin cofactor actual/normal in Platelet poor plasma by Platelet aggregation,893,0.000825,1.86
+3052649,Protein measurement||White blood cell enzyme activity measurement||Chemistry||Adenosine deaminase [Enzymatic activity/volume] in Serum or Plasma,881,0.000814,1.1
+40762041,Measurement of substance||Serology - non-micro||Somatotropin^pre XXX challenge|Pt|Ser/Plas||Somatotropin [Mass/volume] in Serum or Plasma --pre XXX challenge,861,0.000796,3.86
+42528825,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Glutamate decarboxylase Ab | Serum or Plasma | Chemistry - non-challenge||Glutamate decarboxylase Ab [Presence] in Serum or Plasma by Immunofluorescence,836,0.000773,1.07
+3036567,Chemistry - non-challenge||Thyroid Hormones-||Thyroid stimulating immunoglobulins actual/Normal | Serum | Chemistry - non-challenge||Thyroid stimulating immunoglobulins actual/normal in Serum,827,0.000764,1.47
+3017177,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Insulin Ab [Units/volume] in Serum by Radioimmunoassay (RIA),801,0.00074,1.13
+3021584,Urinalysis||Protein measurement||Pregnancy associated plasma protein A | Serum or Plasma | Chemistry - non-challenge||Pregnancy associated plasma protein A [Units/volume] in Serum or Plasma,793,0.000733,1.08
+3005895,Measurement of substance||Protein measurement||Myoglobin|Pt|Ser/Plas||Myoglobin [Mass/volume] in Serum or Plasma,750,0.000693,1.26
+3021737,Urinalysis||Sugars/Sugar metabolism||Glucose^2H post meal|Pt|Ser/Plas||Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,730,0.000675,1.11
+3024303,Measurement of substance||Pituitary Hormones-||Vasopressin | Serum or Plasma | Chemistry - non-challenge||Vasopressin [Mass/volume] in Serum or Plasma,727,0.000672,1.13
+3025159,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Blasts/100 leukocytes in Blood,699,0.000646,11.82
+3036035,Order set||von Willebrand panel | Platelet poor plasma | Coagulation Panels||von Willebrand panel - Platelet poor plasma||von Willebrand factor (vWf) Ag actual/normal in Platelet poor plasma by Immunoassay,699,0.000646,1.83
+3026136,Coagulation||Clotting factors||Coagulation study||Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation.2 stage,670,0.000619,1.1
+42529226,Measurement of substance||Steroid measurement||Progesterone|Pt|Ser/Plas|IA|314.469 g/mole||Progesterone [Mass/volume] in Serum or Plasma by Immunoassay,646,0.000597,1.38
+3011960,Measurement of substance||Mass-Molar conversion||Natriuretic peptide.B|Pt|Ser/Plas||Natriuretic peptide B [Mass/volume] in Serum or Plasma,642,0.000593,1.01
+3022616,Order set||Public health record order set||Seizure disorder tracking panel||Phenytoin [Mass/volume] in Serum or Plasma,618,0.000571,2.75
+3024865,Order set||Mass-Molar conversion||Retinol and Alpha tocopherol panel - Serum or Plasma||Alpha tocopherol [Mass/volume] in Serum or Plasma,567,0.000524,1.06
+3004248,Urinalysis||Protein measurement||Sex hormone binding globulin|Pt|Ser/Plas||Sex hormone binding globulin [Moles/volume] in Serum or Plasma,561,0.000519,1.16
+40771478,Serology - non-micro||Tissue specific||Serology (antibodies and most antigens except blood bank and infectious agents)||Acetylcholine receptor Ab [Moles/volume] in Serum by Immunoassay,555,0.000513,1.27
+3023306,Urinalysis||Sugars/Sugar metabolism||HEDIS MY 2020 Value Set - Glucose Tests||Glucose [Mass/volume] in Serum or Plasma --1.5 hours post dose glucose,538,0.000497,7.29
+3028639,Order set||carBAMazepine free and total panel | Serum or Plasma | Drug and Toxicology Panels||carBAMazepine | Serum or Plasma | Drug toxicology||carBAMazepine [Mass/volume] in Serum or Plasma,530,0.00049,2.33
+3024666,Psychiatric drugs||Measurement of substance||Lithium|SCnc|Pt|ANYBldSerPl||Lithium [Moles/volume] in Serum or Plasma,508,0.00047,3.34
+3027646,Order set||Steroid measurement||Estrogen|Pt|Ser/Plas||Estrogen [Mass/volume] in Serum or Plasma,507,0.000469,1.05
+3045331,Molds and Other Microorganisms||Single allergens||Microbiology||Galactomannan Ag [Units/volume] in Serum or Plasma by Immunoassay,505,0.000467,5.85
+3036766,Order set||Mass-Molar conversion||Lead|Pt|RBC|207.2 g/mole||Lead [Mass/volume] in Red Blood Cells,478,0.000442,1.01
+3019420,Protein measurement||Miscellaneous allergens||Tryptase|Pt|Ser/Plas|725.8 g/mole||Tryptase [Mass/volume] in Serum or Plasma,475,0.000439,1.04
+3010375,Measurement of substance in specimen||Measurement of level of substance in blood||cycloSPORINE | Blood | Drug toxicology||cycloSPORINE [Mass/volume] in Blood,468,0.000433,15.85
+3003245,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Complement C1 esterase inhibitor [Mass/volume] in Serum or Plasma,398,0.000368,1.04
+3027135,Urinalysis||Specific antigens||IgG subclass panel [Mass/volume] - Serum||IgG subclass 1 [Mass/volume] in Serum,355,0.000328,1.12
+3024139,Urinalysis||Specific antigens||IgG subclass panel [Mass/volume] - Serum||IgG subclass 3 [Mass/volume] in Serum,353,0.000326,1.1
+3028192,Urinalysis||Specific antigens||IgG subclass panel [Mass/volume] - Serum||IgG subclass 2 [Mass/volume] in Serum,352,0.000325,1.1
+3005757,Order set||Lab terms not yet categorized||Extrinsic coagulation factor activity 4 panel - Platelet poor plasma||Coagulation factor V activity actual/normal in Platelet poor plasma by Coagulation assay,351,0.000324,1.05
+3016447,Measurement||Sugars/Sugar metabolism||Pyruvate|Pt|Bld|87.054 g/mole||Pyruvate [Mass/volume] in Blood,332,0.000307,1.24
+3011335,Measurement of substance in specimen||Measurement of level of substance in blood||Drug levels & Toxicology||Digoxin [Mass/volume] in Serum or Plasma,323,0.000299,1.85
+3019230,Order set||Respiratory measures and Ventilator management||Oxyhemoglobin/Hemoglobin.total|MFr|Pt|ANYBldSerPl||Fractional oxyhemoglobin in Venous blood,322,0.000298,2.69
+3025411,Order set||Public health record order set||Seizure disorder tracking panel||PHENobarbital [Mass/volume] in Serum or Plasma,304,0.000281,3.68
+3009927,Hormone measurement||Mass-Molar conversion||Gastrin|Pt|Ser/Plas||Gastrin [Mass/volume] in Serum or Plasma,298,0.000275,1.42
+40764997,Vitamin measurement||Vitamin B6 measurement||Pyridoxal phosphate|SCnc|Pt|ANYBldSerPl||Pyridoxal phosphate [Moles/volume] in Serum or Plasma,288,0.000266,1.05
+3006109,Order set||Lab terms not yet categorized||Intrinsic coagulation factor activity 4 panel - Platelet poor plasma by Coagulation assay||Coagulation factor IX activity actual/normal in Platelet poor plasma by Coagulation assay,259,0.000239,1.12
+3016135,Urinalysis||Specific antigens||Immunoglobulin D measurement||IgD [Mass/volume] in Serum,249,0.00023,1.58
+3017115,Measurement||Oncology drugs||Methotrexate|Pt|Ser/Plas||Methotrexate [Moles/volume] in Serum or Plasma,246,0.000227,13.73
+3051708,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --1 hour post dose glucose,243,0.000225,1.07
+3019975,Measurement of level of substance in blood||Mercury measurement||Mercury|Pt|RBC|200.59 g/mole||Mercury [Mass/volume] in Red Blood Cells,236,0.000218,1.0
+36031644,Urinalysis||Flowsheet - laboratory||S100 calcium binding protein B|MCnc|Pt|ANYBldSerPl||S100 calcium binding protein B [Mass/volume] in Serum by Immunoassay,226,0.000209,3.1
+3028415,Measurement of substance in specimen||Neurological drugs||carBAMazepine | Serum or Plasma | Drug toxicology||carBAMazepine [Presence] in Serum or Plasma,223,0.000206,1.35
+4196800,Measurement||White blood cell test||White blood cell enzyme activity measurement||Leukocyte alkaline phosphatase score,207,0.000191,1.02
+3017044,Serology - non-micro||Tissue specific||Thyrotropin receptor Ab|ACnc|Pt|ANYBldSerPl||Thyrotropin receptor Ab [Units/volume] in Serum,205,0.000189,1.23
+40762889,Urinalysis||Pyrrole measurement||Chemistry||Bilirubin.total [Mass/volume] in Venous blood,204,0.000189,1.19
+3051322,Steroid measurement||Mass-Molar conversion||Cortisol^1.5H post 1 ug/kg CRH IV|Pt|Ser/Plas||Cortisol [Mass/volume] in Serum or Plasma --1.5 hours post 1 ug/kg CRH IV,193,0.000178,5.83
+3050699,Steroid measurement||Mass-Molar conversion||Cortisol^2H post 1 ug/kg CRH IV|Pt|Ser/Plas||Cortisol [Mass/volume] in Serum or Plasma --2 hours post 1 ug/kg CRH IV,191,0.000177,5.88
+3047181,Chemistry - non-challenge||Sugars/Sugar metabolism||Lactate|SCnc|Pt|ANYBldSerPl||Lactate [Moles/volume] in Blood,183,0.000169,1.14
+3026785,Coagulation||Clotting factors||Coagulation study||Coagulation factor VII activity actual/normal [Molar ratio] in Platelet poor plasma by Coagulation assay,180,0.000166,1.07
+3005758,Measurement of substance||Serology - non-micro||Thyrotropin | Serum or Plasma | Chemistry - challenge||Thyrotropin [Units/volume] in Serum or Plasma --1 hour post dose TRH IV,180,0.000166,6.23
+3006939,Measurement of substance||Serology - non-micro||Thyrotropin | Serum or Plasma | Chemistry - challenge||Thyrotropin [Units/volume] in Serum or Plasma --30 minutes post dose TRH IV,180,0.000166,6.23
+3018930,Measurement of substance||Serology - non-micro||Thyrotropin^pre dose TRH IV|ACnc|Pt|ANYBldSerPl||Thyrotropin [Units/volume] in Serum or Plasma --pre dose TRH IV,180,0.000166,6.23
+3026285,Urinalysis||Protein measurement||Chemistry||Alpha 1 antitrypsin [Mass/volume] in Serum or Plasma,177,0.000164,1.03
+3026925,Laboratory||Thyroid Hormones-||Triiodothyronine.free|Pt|Ser/Plas||Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma,177,0.000164,1.88
+3002625,Chemistry - non-challenge||Mass-Molar conversion||Chemistry||Androstanolone [Mass/volume] in Serum or Plasma,173,0.00016,1.06
+3044609,Serology - non-micro||Neuron restricted||Serology (antibodies and most antigens except blood bank and infectious agents)||Paraneoplastic Ab [Presence] in Serum by Immunoblot,173,0.00016,1.05
+3022811,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --pre dose TRH IV,173,0.00016,6.91
+3001850,Order set||Menorrhagia coagulation panel | Platelet poor plasma | Coagulation Panels||Menorrhagia coagulation panel - Platelet poor plasma||Coagulation factor XI activity actual/normal in Platelet poor plasma by Coagulation assay,172,0.000159,1.03
+3021920,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --30 minutes post dose TRH IV,172,0.000159,6.95
+3052664,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --2 hours post dose TRH IV,170,0.000157,7.02
+3010565,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --1 hour post dose TRH IV,170,0.000157,7.02
+3048813,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --1.5 hours post dose TRH IV,170,0.000157,7.02
+3052952,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --1.5 hours post dose glucose,164,0.000152,1.01
+40761603,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --1 hour post dose glucose,164,0.000152,1.07
+3032872,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma --30 minutes post XXX challenge,156,0.000144,1.06
+40761729,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma --pre XXX challenge,155,0.000143,1.06
+3028836,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma --1.5 hours post XXX challenge,154,0.000142,1.06
+3014952,Molds and Other Microorganisms||Single allergens||Taenia solium larva IgG | Serum | Microbiology||Taenia solium larva IgG Ab [Presence] in Serum,153,0.000141,1.04
+40759627,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma --2 hours post XXX challenge,152,0.000141,1.07
+3028817,Tumor marker measurement||Pituitary Hormones-||Plasma ACTH level||Corticotropin [Mass/volume] in Plasma --1 hour post XXX challenge,152,0.000141,1.06
+3011817,Measurement of substance||Mass-Molar conversion||Manganese|Pt|RBC||Manganese [Mass/volume] in Red Blood Cells,149,0.000138,1.2
+44816754,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgG.kappa [Mass/volume] in Serum or Plasma,142,0.000131,4.78
+44816755,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgG.lambda [Mass/volume] in Serum or Plasma,140,0.000129,4.64
+3020233,Protein measurement||Flowsheet - laboratory||Chemistry||Acid phosphatase [Enzymatic activity/volume] in Serum or Plasma,138,0.000128,1.45
+44816760,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgG.kappa/IgG.lambda [Mass Ratio] in Serum or Plasma,136,0.000126,4.64
+3002617,Measurement of substance in specimen||Measurement of level of substance in blood||Drug levels & Toxicology||Acetaminophen [Mass/volume] in Serum or Plasma,135,0.000125,1.51
+3015076,Plant||Other plants||Soybean (Glycine max) IgE | Serum | Allergy||Soybean IgE Ab [Units/volume] in Serum,127,0.000117,1.05
+3006631,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis A virus IgG Ab [Presence] in Serum,120,0.000111,1.02
+3022417,Order set||Plasma catecholamine measurement||Plasma norepinephrine measurement||Norepinephrine [Mass/volume] in Plasma,119,0.00011,1.77
+40761594,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --1.5 hours post dose glucose,105,9.7e-05,1.01
+3013327,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis A virus IgM Ab [Presence] in Serum,102,9.4e-05,1.06
+3036900,Animal||Insects and venoms||Response to antigens||European house dust mite IgG4 Ab [Units/volume] in Serum,96,8.9e-05,1.79
+3014146,Animal||Insects and venoms||Response to antigens||American house dust mite IgG4 Ab [Units/volume] in Serum,94,8.7e-05,1.81
+44816757,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgA.lambda [Mass/volume] in Serum or Plasma,91,8.4e-05,2.96
+40759374,Allergy||Animal||Response to antigens||Egg white IgG4 Ab [Mass/volume] in Serum,90,8.3e-05,1.37
+3027476,Urinalysis||Vitamin measurement||Chemistry||Ascorbate [Mass/volume] in Serum or Plasma,87,8e-05,1.01
+44816756,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgA.kappa [Mass/volume] in Serum or Plasma,86,7.9e-05,3.03
+44816761,Urinalysis||Immunoglobulin light chains and heavy chains panel | Serum or Plasma | Chemistry Panels||Immunoglobulin light chains and heavy chains panel - Serum or Plasma||IgA.kappa/IgA.lambda [Mass Ratio] in Serum or Plasma,85,7.9e-05,2.99
+3022338,Order set||Vitamin measurement||Vitamin A measurement||Retinol [Mass/volume] in Serum or Plasma,85,7.9e-05,1.16
+3050218,Antibiotic susceptibilities||Antifungals||Voriconazole | Serum or Plasma | Drug toxicology||Voriconazole [Mass/volume] in Serum or Plasma,80,7.4e-05,4.9
+3009471,Laboratory||Urinalysis||Fatty acids.nonesterified|SCnc|Pt|ANYBldSerPl||Fatty acids.nonesterified [Moles/volume] in Serum or Plasma,74,6.8e-05,1.07
+3002140,Laboratory||Hematology and Cell counts||Hematology (coagulation) differential count||Complement C1q [Mass/volume] in Serum or Plasma,72,6.7e-05,1.01
+3018738,Order set||Hemoglobin panel | Blood | Hematology and Cell Count Panels||Hemoglobin electrophoresis panel in Blood||Hemoglobin F/Hemoglobin.total in Blood,69,6.4e-05,1.23
+3030703,Drug toxicology||Immunosuppressives||Everolimus | Blood | Drug toxicology||Everolimus [Mass/volume] in Blood,65,6e-05,19.77
+3004737,Order set||Platelet aggregation panel | Platelet rich plasma | Coagulation Panels||Platelet aggregation panel - Platelet rich plasma||Platelet aggregation collagen induced in Platelet rich plasma,63,5.8e-05,1.05
+3005807,Order set||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel | Blood | Coagulation Panels||Platelet function.collagen + Adenosine diphosphate induced and EPINEPHrine induced panel - Blood||Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,63,5.8e-05,1.02
+3036152,Microbiology and Antimicrobial susceptibility||Mass-Molar conversion||Drug levels & Toxicology||Amikacin [Mass/volume] in Serum or Plasma,63,5.8e-05,2.65
+3024972,Order set||Platelet aggregation panel | Platelet rich plasma | Coagulation Panels||Platelet aggregation ristocetin induced | Platelet rich plasma | Coagulation||Platelet aggregation ristocetin induced in Platelet rich plasma,62,5.7e-05,1.05
+3027974,Viral antigen assay||Reportable microbiology||Microbiology||Hepatitis B virus e Ag [Presence] in Serum,62,5.7e-05,1
+3013945,Reportable microbiology||Reportable microbiology||Microbiology||Hepatitis B virus e Ab [Presence] in Serum,61,5.6e-05,1.02
+3008625,Order set||Plasma catecholamine measurement||Plasma epinephrine measurement||EPINEPHrine [Mass/volume] in Plasma,58,5.4e-05,1.57
+3023436,Order set||Pancreatic||Glucagon|Pt|Ser/Plas||Glucagon [Mass/volume] in Serum or Plasma,57,5.3e-05,1.19
+4218575,Procedure by method||Laboratory procedure categorized by method||Measurement||Electrophoresis measurement,56,5.2e-05,1
+3003994,"Order set||Glucose-6-phosphate dehydrogenase measurement||Glucose-6-phosphate dehydrogenase measurement, quantitative||Glucose-6-Phosphate dehydrogenase [Enzymatic activity/mass] in Red Blood Cells",54,5e-05,1.02
+3004409,Order set||Lab terms not yet categorized||Extrinsic coagulation factor activity 4 panel - Platelet poor plasma||Coagulation factor X activity actual/normal in Platelet poor plasma by Coagulation assay,49,4.5e-05,1.08
+3012841,Measurement of substance||Serology - non-micro||Somatotropin^2.5H post XXX challenge|Pt|Ser/Plas||Somatotropin [Mass/volume] in Serum or Plasma --2.5 hours post XXX challenge,47,4.3e-05,1.28
+3033893,Allergy||Plant||Response to antigens||Apple IgE Ab [Units/volume] in Serum,47,4.3e-05,1.04
+3018731,Pathology||Tumor markers||Measurement of cancer antigen 72-4||Cancer Ag 72-4 [Units/volume] in Serum or Plasma,46,4.3e-05,1.07
+3030073,Protein measurement||Gastrointestinal function||Trypsin | Serum or Plasma | Chemistry - non-challenge||Trypsin [Mass/volume] in Serum or Plasma,45,4.2e-05,1.89
+3021374,Measurement of substance in specimen||Measurement of sirolimus||Sirolimus | Blood | Drug toxicology||Sirolimus [Mass/volume] in Blood,44,4.1e-05,13.45
+3023864,Plant||Grasses||Response to antigens||Buckwheat IgE Ab [Units/volume] in Serum,43,4e-05,1.05
+3042272,Coagulation||Clotting factors||von Willebrand factor cleaving protease actual/normal | Platelet poor plasma | Coagulation||von Willebrand factor (vWf) cleaving protease actual/normal in Platelet poor plasma by Chromogenic method,42,3.9e-05,1.9
+3005353,Order set||Lab terms not yet categorized||Prothrombin.activity actual/Normal | Platelet poor plasma | Coagulation||Prothrombin activity actual/normal in Platelet poor plasma by Coagulation assay,42,3.9e-05,1.07
+3006566,Order set||Thyroxine binding globulin panel | Serum or Plasma | Chemistry Panels||Thyroxine.thyroxine binding globulin bound | Serum or Plasma | Chemistry - non-challenge||Thyroxine.thyroxine binding globulin bound [Mass/volume] in Serum or Plasma,41,3.8e-05,1.63
+3013364,Protein measurement||Gastrointestinal function||Pepsinogen|MCnc|Pt|ANYBldSerPl||Pepsinogen [Mass/volume] in Serum or Plasma,39,3.6e-05,1
+3034174,Measurement||Measurement of substance||Homovanillic acid measurement||Homovanillate [Mass/volume] in Serum,37,3.4e-05,1
+3031236,Molds and Other Microorganisms||Mixes||Response to antigens||Mold Allergen Mix 1 (Alternaria alternata+Aspergillus fumigatus+Cladosporium herbarum+Penicillium notatum) IgE Ab [Units/volume] in Serum by Multidisk,36,3.3e-05,1
+3021226,Order set||Shrimp||Shrimp (Pandalus borealis) IgE | Serum | Allergy||Shrimp IgE Ab [Units/volume] in Serum,36,3.3e-05,1.08
+42528782,Plant||Mixes||Response to antigens||Grass Allergen Mix 7 (Bermuda grass+Meadow fescue+Rye grass+Timothy grass+Cultivated rye) IgE Ab [Units/volume] in Serum by Multidisk,35,3.2e-05,1
+3019994,Order set||Food allergen panel | Serum | Allergy Panels||Response to antigens||Crab IgE Ab [Units/volume] in Serum,35,3.2e-05,1.09
+40759621,Measurement of substance||Serology - non-micro||Somatotropin | Serum or Plasma | Chemistry - challenge||Somatotropin [Mass/volume] in Serum or Plasma --3 hours post XXX challenge,32,3e-05,1.12
+3023006,Animal||Mammals||Response to antigens||Beef IgE Ab [Units/volume] in Serum,32,3e-05,1.06
+3030198,Measurement of substance||Serology - non-micro||Thyrotropin | Serum or Plasma | Chemistry - challenge||Thyrotropin [Units/volume] in Serum or Plasma --5th specimen,31,2.9e-05,5.29
+3002278,Steroid measurement||Mass-Molar conversion||Chemistry||Androstenedione [Mass/volume] in Serum or Plasma,30,2.8e-05,1.57
+4156644,Measurement of substance in specimen||Vitamin measurement||Serum vitamin measurement||Serum riboflavine measurement,30,2.8e-05,1.03
+4098031,Immunology laboratory test||In-vitro immunologic test||Cell function assay||Natural killer cell function test,29,2.7e-05,1
+40759328,Mammals||Milk and constituents||Response to antigens||Casein IgG4 Ab [Mass/volume] in Serum,29,2.7e-05,1.48
+3002348,Order set||Intrinsic coagulation factor activity 4 panel | Platelet poor plasma | Coagulation Panels||Intrinsic coagulation factor activity 4 panel - Platelet poor plasma by Coagulation assay||Coagulation factor XII activity actual/normal in Platelet poor plasma by Coagulation assay,28,2.6e-05,1.04
+3028667,Measurement of level of substance in blood||Measurement of heavy metal in blood specimen||Drug levels & Toxicology||Cadmium [Mass/volume] in Red Blood Cells,27,2.5e-05,1
+3022563,Measurement of substance in specimen||Small molecules||Serotonin|Pt|Bld|176.219 g/mole||Serotonin [Mass/volume] in Blood,23,2.1e-05,1.09
+3036489,Order set||Routine||Thrombin time | Platelet poor plasma | Coagulation||Thrombin time,23,2.1e-05,1.48
+3016072,Measurement of substance in specimen||Theophylline measurement||Theophylline|Pt|Ser/Plas||Theophylline [Mass/volume] in Serum or Plasma,22,2e-05,2.05
+3035624,Plant||Trees and nuts||Response to antigens||Silver Birch IgG4 Ab [Units/volume] in Serum,22,2e-05,2
+4261802,"Protein measurement||Measurement of substance||Measurement of substance in specimen||Acetylcholinesterase, red blood cell measurement",22,2e-05,5.5
+3014133,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||Dog dander IgE Ab [Units/volume] in Serum",20,1.8e-05,1
+3005333,Animal||Mammals||Response to antigens||Pork IgE Ab [Units/volume] in Serum,19,1.8e-05,1.11
+40766283,Viral antigen assay||Reportable microbiology||Microbiology||Hepatitis B virus surface Ag [Units/volume] in Serum or Plasma by Immunoassay,18,1.7e-05,1.33
+40759331,Animal||Mammals||Response to antigens||Cat dander IgG4 Ab [Mass/volume] in Serum,17,1.6e-05,1.76
+3025942,Measurement of substance||Mass-Molar conversion||Nickel|Pt|Urine||Nickel [Mass/volume] in Urine,16,1.5e-05,1
+40759369,Animal||Mammals||Response to antigens||Dog dander IgG4 Ab [Mass/volume] in Serum,16,1.5e-05,1.81
+40759446,Plant||Other plants||Response to antigens||Mugwort IgG4 Ab [Mass/volume] in Serum,15,1.4e-05,2
+3051669,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Proteinase 3 Ab [Units/volume] in Serum by Immunoassay,15,1.4e-05,1.67
+40759547,Plant||Trees and nuts||White Oak (Quercus alba) IgG4 | Serum | Allergy||White Oak IgG4 Ab [Mass/volume] in Serum,15,1.4e-05,1.87
+3036349,Chemistry - non-challenge||Tumor markers||Prostate specific Ag.free|Pt|Ser/Plas||Prostate Specific Ag Free [Moles/volume] in Serum or Plasma,13,1.2e-05,1.23
+3020080,Laboratory||Serology - non-micro||Proinsulin|Pt|Ser/Plas||Proinsulin [Moles/volume] in Serum or Plasma,13,1.2e-05,1.15
+3020180,Measurement of substance in specimen||Measurement of level of substance in blood||Drug levels & Toxicology||Aluminum [Mass/volume] in Serum or Plasma,12,1.1e-05,1
+3049398,Procedure to identify antibody||Serology - non-micro||Serology (antibodies and most antigens except blood bank and infectious agents)||Myeloperoxidase Ab [Units/volume] in Serum by Immunoassay,12,1.1e-05,1.08
+3003145,Molds and Other Microorganisms||Single allergens||Response to antigens||Aspergillus sp IgE Ab [Units/volume] in Serum,12,1.1e-05,1.08
+40766172,Chemistry - non-challenge||Tumor markers||Tissue polypeptide Ag | Serum or Plasma | Chemistry - non-challenge||Tissue polypeptide Ag [Units/volume] in Serum or Plasma,11,1e-05,1
+3005199,Plant||Trees and nuts||Silver Birch (Betula verrucosa) recombinant (rBet v) 1 IgE | Serum | Allergy||Silver Birch recombinant (rBet v) 1 IgE Ab [Units/volume] in Serum,10,9e-06,2.2
+3001915,"Order set||Respiratory allergen panel, US - Subtropical Florida | Serum | Allergy Panels||Response to antigens||Cockroach IgE Ab [Units/volume] in Serum",10,9e-06,1
+3052708,Urinalysis||Transferrin measurement||Transferrin.carbohydrate deficient/Transferrin.total | Serum or Plasma | Chemistry - non-challenge||Transferrin.carbohydrate deficient/Transferrin.total in Serum or Plasma,9,8e-06,1
+3023430,"Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Respiratory allergen panel, US - West south central states - Serum||Response to antigens||Cat dander IgE Ab [Units/volume] in Serum",9,8e-06,1
+4042917,Protein measurement||Enzyme measurement||Creatine kinase measurement||Creatine kinase isoenzymes measurement,9,8e-06,1
+3048817,Measurement of substance||Pituitary Hormones-||Prolactin | Serum or Plasma | Chemistry - challenge||Prolactin [Mass/volume] in Serum or Plasma --2.5 hours post dose TRH IV,8,7e-06,1
+3026470,Measurement of level of substance in blood||Measurement of heavy metal in blood specimen||Measurement of cobalt in blood specimen||Cobalt [Mass/volume] in Blood,8,7e-06,1
+3002529,Order set||Obstetrics order set||Obstetric 1996 panel - Serum and Blood||ABO group [Type] in Blood,8,7e-06,1.12
+3003260,Order set||Protein measurement||Chemistry||Angiotensin II [Mass/volume] in Plasma,7,6e-06,1
+40759616,Chemistry - non-challenge||Pituitary Hormones-||Lutropin | Serum or Plasma | Chemistry - challenge||Lutropin [Units/volume] in Serum or Plasma --3 hours post XXX challenge,7,6e-06,1
+40759713,Pathology||Specific antigens||Follitropin | Serum or Plasma | Chemistry - challenge||Follitropin [Units/volume] in Serum or Plasma --3 hours post XXX challenge,7,6e-06,1
+3006062,Molds and Other Microorganisms||Single allergens||Response to antigens||Alternaria sp IgE Ab [Units/volume] in Serum,7,6e-06,1
+3037149,Measurement of substance||Protein measurement||Chemistry||Angiotensin I [Mass/volume] in Plasma,7,6e-06,1
+3007719,Steroid measurement||Mass-Molar conversion||Chemistry||11-Deoxycortisol [Mass/volume] in Serum or Plasma,6,6e-06,1.17
+3021097,Microbiology and Antimicrobial susceptibility||Reportable microbiology||Microbiology||Corynebacterium diphtheriae Ab [Units/volume] in Serum by Immunoassay,6,6e-06,1
+3001247,"Plant||Respiratory allergen panel, US - West south central states | Serum | Allergy Panels||Response to antigens||Common Ragweed IgE Ab [Units/volume] in Serum",6,6e-06,1
+4228212,Protein measurement||Enzyme measurement||Lactate dehydrogenase measurement||Lactate dehydrogenase isoenzymes measurement,6,6e-06,1

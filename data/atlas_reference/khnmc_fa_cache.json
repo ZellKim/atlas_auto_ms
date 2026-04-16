@@ -1,0 +1,307 @@
+{
+  "cohorts": {
+    "1072": {
+      "id": 1072,
+      "name": "E01_Appendectomy_ms",
+      "createdDate": 1771830362583,
+      "modifiedDate": 1772600369355,
+      "hasWriteAccess": false,
+      "tags": [],
+      "expression": "{\"cdmVersionRange\":\">=5.0.0\",\"PrimaryCriteria\":{\"CriteriaList\":[{\"ProcedureOccurrence\":{\"CodesetId\":0,\"ProcedureTypeExclude\":false}}],\"ObservationWindow\":{\"PriorDays\":365,\"PostDays\":0},\"PrimaryCriteriaLimit\":{\"Type\":\"First\"}},\"ConceptSets\":[{\"id\":0,\"name\":\"Appendectomy_ms\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4198190,\"CONCEPT_NAME\":\"Appendectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"80146002\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}},{\"id\":1,\"name\":\"\\n\\nNeoplasm of appendix\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4129881,\"CONCEPT_NAME\":\"Neoplasm of appendix\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"126846004\",\"DOMAIN_ID\":\"Condition\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Disorder\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}},{\"id\":2,\"name\":\"Major Abdominal Surgery\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4021529,\"CONCEPT_NAME\":\"Abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116141005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4015701,\"CONCEPT_NAME\":\"Cesarean section\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"11466000\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4079713,\"CONCEPT_NAME\":\"Excision of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"23968004\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4306298,\"CONCEPT_NAME\":\"Oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"83152002\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4181781,\"CONCEPT_NAME\":\"Partial resection of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"43075005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021363,\"CONCEPT_NAME\":\"Salpingo-oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116028008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021531,\"CONCEPT_NAME\":\"Total abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116143008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4115223,\"CONCEPT_NAME\":\"Total salpingectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"300897007\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}}],\"QualifiedLimit\":{\"Type\":\"First\"},\"ExpressionLimit\":{\"Type\":\"First\"},\"InclusionRules\":[{\"name\":\"age>=18\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[],\"DemographicCriteriaList\":[{\"Age\":{\"Value\":18,\"Op\":\"gte\"}}],\"Groups\":[]}},{\"name\":\"\\tNeoplasm of appendix\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[{\"Criteria\":{\"ConditionOccurrence\":{\"CodesetId\":1,\"ConditionTypeExclude\":false}},\"StartWindow\":{\"Start\":{\"Days\":0,\"Coeff\":-1},\"End\":{\"Days\":0,\"Coeff\":1},\"UseIndexEnd\":false,\"UseEventEnd\":false},\"RestrictVisit\":true,\"IgnoreObservationPeriod\":false,\"Occurrence\":{\"Type\":0,\"Count\":0,\"IsDistinct\":false}}],\"DemographicCriteriaList\":[],\"Groups\":[]}},{\"name\":\"Major Abdominal Surgery\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[{\"Criteria\":{\"ProcedureOccurrence\":{\"CodesetId\":2,\"ProcedureTypeExclude\":false}},\"StartWindow\":{\"Start\":{\"Days\":0,\"Coeff\":-1},\"End\":{\"Days\":0,\"Coeff\":1},\"UseIndexEnd\":false,\"UseEventEnd\":false},\"RestrictVisit\":true,\"IgnoreObservationPeriod\":false,\"Occurrence\":{\"Type\":0,\"Count\":0,\"IsDistinct\":false}}],\"DemographicCriteriaList\":[],\"Groups\":[]}}],\"CensoringCriteria\":[],\"CollapseSettings\":{\"CollapseType\":\"ERA\",\"EraPad\":0},\"CensorWindow\":{}}",
+      "expressionType": "SIMPLE_EXPRESSION"
+    },
+    "1074": {
+      "id": 1074,
+      "name": "E02_Cholecystectomy_ms",
+      "createdDate": 1771831907426,
+      "modifiedDate": 1772600382792,
+      "hasWriteAccess": false,
+      "tags": [],
+      "expression": "{\"cdmVersionRange\":\">=5.0.0\",\"PrimaryCriteria\":{\"CriteriaList\":[{\"ProcedureOccurrence\":{\"CodesetId\":3,\"ProcedureTypeExclude\":false}}],\"ObservationWindow\":{\"PriorDays\":365,\"PostDays\":0},\"PrimaryCriteriaLimit\":{\"Type\":\"First\"}},\"ConceptSets\":[{\"id\":2,\"name\":\"Major Abdominal Surgery\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4021529,\"CONCEPT_NAME\":\"Abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116141005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4015701,\"CONCEPT_NAME\":\"Cesarean section\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"11466000\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4079713,\"CONCEPT_NAME\":\"Excision of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"23968004\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4306298,\"CONCEPT_NAME\":\"Oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"83152002\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4181781,\"CONCEPT_NAME\":\"Partial resection of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"43075005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021363,\"CONCEPT_NAME\":\"Salpingo-oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116028008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021531,\"CONCEPT_NAME\":\"Total abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116143008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4115223,\"CONCEPT_NAME\":\"Total salpingectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"300897007\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}},{\"id\":3,\"name\":\"\\n\\nCholecystectomy\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4242997,\"CONCEPT_NAME\":\"Cholecystectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"38102005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}},{\"id\":4,\"name\":\"\\n\\nNeoplasm of gallbladder\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4130520,\"CONCEPT_NAME\":\"Neoplasm of gallbladder\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"126854002\",\"DOMAIN_ID\":\"Condition\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Disorder\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}}],\"QualifiedLimit\":{\"Type\":\"First\"},\"ExpressionLimit\":{\"Type\":\"First\"},\"InclusionRules\":[{\"name\":\"age>=18\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[],\"DemographicCriteriaList\":[{\"Age\":{\"Value\":18,\"Op\":\"gte\"}}],\"Groups\":[]}},{\"name\":\"Neoplasm of gallbladder\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[{\"Criteria\":{\"ConditionOccurrence\":{\"CodesetId\":4,\"ConditionTypeExclude\":false}},\"StartWindow\":{\"Start\":{\"Days\":0,\"Coeff\":-1},\"End\":{\"Days\":0,\"Coeff\":1},\"UseIndexEnd\":false,\"UseEventEnd\":false},\"RestrictVisit\":true,\"IgnoreObservationPeriod\":false,\"Occurrence\":{\"Type\":0,\"Count\":0,\"IsDistinct\":false}}],\"DemographicCriteriaList\":[],\"Groups\":[]}},{\"name\":\"Major Abdominal Surgery\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[{\"Criteria\":{\"ProcedureOccurrence\":{\"CodesetId\":2,\"ProcedureTypeExclude\":false}},\"StartWindow\":{\"Start\":{\"Days\":0,\"Coeff\":-1},\"End\":{\"Days\":0,\"Coeff\":1},\"UseIndexEnd\":false,\"UseEventEnd\":false},\"RestrictVisit\":true,\"IgnoreObservationPeriod\":false,\"Occurrence\":{\"Type\":0,\"Count\":0,\"IsDistinct\":false}}],\"DemographicCriteriaList\":[],\"Groups\":[]}}],\"CensoringCriteria\":[],\"CollapseSettings\":{\"CollapseType\":\"ERA\",\"EraPad\":0},\"CensorWindow\":{}}",
+      "expressionType": "SIMPLE_EXPRESSION"
+    },
+    "1121": {
+      "id": 1121,
+      "name": "E03_hernia_repair_ms",
+      "createdDate": 1772600321154,
+      "modifiedDate": 1772600354043,
+      "hasWriteAccess": false,
+      "tags": [],
+      "expression": "{\"cdmVersionRange\":\">=5.0.0\",\"PrimaryCriteria\":{\"CriteriaList\":[{\"ProcedureOccurrence\":{\"CodesetId\":5,\"ProcedureTypeExclude\":false}}],\"ObservationWindow\":{\"PriorDays\":365,\"PostDays\":0},\"PrimaryCriteriaLimit\":{\"Type\":\"First\"}},\"ConceptSets\":[{\"id\":2,\"name\":\"Major Abdominal Surgery\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4021529,\"CONCEPT_NAME\":\"Abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116141005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4015701,\"CONCEPT_NAME\":\"Cesarean section\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"11466000\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4079713,\"CONCEPT_NAME\":\"Excision of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"23968004\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4306298,\"CONCEPT_NAME\":\"Oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"83152002\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4181781,\"CONCEPT_NAME\":\"Partial resection of colon\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"43075005\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021363,\"CONCEPT_NAME\":\"Salpingo-oophorectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116028008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4021531,\"CONCEPT_NAME\":\"Total abdominal hysterectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"116143008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4115223,\"CONCEPT_NAME\":\"Total salpingectomy\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"300897007\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false}]}},{\"id\":5,\"name\":\"Hernia repair\",\"expression\":{\"items\":[{\"concept\":{\"CONCEPT_ID\":4196678,\"CONCEPT_NAME\":\"Hernia repair\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"50465008\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":false,\"includeDescendants\":true,\"includeMapped\":false},{\"concept\":{\"CONCEPT_ID\":4244809,\"CONCEPT_NAME\":\"Repair of esophageal hiatus hernia\",\"STANDARD_CONCEPT\":\"S\",\"STANDARD_CONCEPT_CAPTION\":\"Standard\",\"INVALID_REASON\":\"V\",\"INVALID_REASON_CAPTION\":\"Valid\",\"CONCEPT_CODE\":\"235337007\",\"DOMAIN_ID\":\"Procedure\",\"VOCABULARY_ID\":\"SNOMED\",\"CONCEPT_CLASS_ID\":\"Procedure\"},\"isExcluded\":true,\"includeDescendants\":true,\"includeMapped\":false}]}}],\"QualifiedLimit\":{\"Type\":\"First\"},\"ExpressionLimit\":{\"Type\":\"First\"},\"InclusionRules\":[{\"name\":\"age>=18\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[],\"DemographicCriteriaList\":[{\"Age\":{\"Value\":18,\"Op\":\"gte\"}}],\"Groups\":[]}},{\"name\":\"Major Abdominal Surgery\",\"expression\":{\"Type\":\"ALL\",\"CriteriaList\":[{\"Criteria\":{\"ProcedureOccurrence\":{\"CodesetId\":2,\"ProcedureTypeExclude\":false}},\"StartWindow\":{\"Start\":{\"Days\":0,\"Coeff\":-1},\"End\":{\"Days\":0,\"Coeff\":1},\"UseIndexEnd\":false,\"UseEventEnd\":false},\"RestrictVisit\":true,\"IgnoreObservationPeriod\":false,\"Occurrence\":{\"Type\":0,\"Count\":0,\"IsDistinct\":false}}],\"DemographicCriteriaList\":[],\"Groups\":[]}}],\"CensoringCriteria\":[],\"CollapseSettings\":{\"CollapseType\":\"ERA\",\"EraPad\":0},\"CensorWindow\":{}}",
+      "expressionType": "SIMPLE_EXPRESSION"
+    }
+  },
+  "fas": {
+    "372": {
+      "id": 372,
+      "type": "CRITERIA_SET",
+      "name": "post_any_measurement_365",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [
+        {
+          "criteriaType": "WindowedCriteria",
+          "id": 206,
+          "name": "any_measurement_365",
+          "aggregate": {
+            "default": false,
+            "additionalColumns": [
+              "VALUE_AS_NUMBER"
+            ],
+            "id": 7,
+            "name": "Value as number",
+            "domain": "MEASUREMENT",
+            "function": null,
+            "expression": "value_as_number",
+            "joinTable": null,
+            "joinType": null,
+            "joinCondition": null,
+            "isDefault": false,
+            "missingMeansZero": false
+          },
+          "expression": {
+            "Criteria": {
+              "Measurement": {
+                "CorrelatedCriteria": null,
+                "CodesetId": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "MeasurementType": null,
+                "MeasurementTypeExclude": false,
+                "Operator": null,
+                "ValueAsNumber": null,
+                "ValueAsConcept": null,
+                "Unit": null,
+                "RangeLow": null,
+                "RangeHigh": null,
+                "RangeLowRatio": null,
+                "RangeHighRatio": null,
+                "Abnormal": null,
+                "MeasurementSourceConcept": null,
+                "Age": null,
+                "Gender": null,
+                "ProviderSpecialty": null,
+                "VisitType": null
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 365,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false,
+              "UseEventEnd": false
+            },
+            "EndWindow": null,
+            "RestrictVisit": false,
+            "IgnoreObservationPeriod": true
+          }
+        }
+      ],
+      "createdDate": 1776143665174,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": []
+    },
+    "373": {
+      "id": 373,
+      "type": "CRITERIA_SET",
+      "name": "[BIO] WBC_Pre_365d",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [],
+      "createdDate": 1776144574414,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": [
+        {
+          "id": 0,
+          "name": "WBC",
+          "expression": {
+            "items": [
+              {
+                "concept": {
+                  "CONCEPT_ID": 3000905,
+                  "CONCEPT_NAME": "Leukocytes [#/volume] in Blood",
+                  "STANDARD_CONCEPT": "S",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "INVALID_REASON": "V",
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_CODE": null,
+                  "DOMAIN_ID": "Measurement",
+                  "VOCABULARY_ID": "LOINC",
+                  "CONCEPT_CLASS_ID": "Lab Test"
+                },
+                "isExcluded": false,
+                "includeDescendants": true,
+                "includeMapped": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "374": {
+      "id": 374,
+      "type": "CRITERIA_SET",
+      "name": "[BIO] WBC_Post_1_30d",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [],
+      "createdDate": 1776144574537,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": [
+        {
+          "id": 0,
+          "name": "WBC",
+          "expression": {
+            "items": [
+              {
+                "concept": {
+                  "CONCEPT_ID": 3000905,
+                  "CONCEPT_NAME": "Leukocytes [#/volume] in Blood",
+                  "STANDARD_CONCEPT": "S",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "INVALID_REASON": "V",
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_CODE": null,
+                  "DOMAIN_ID": "Measurement",
+                  "VOCABULARY_ID": "LOINC",
+                  "CONCEPT_CLASS_ID": "Lab Test"
+                },
+                "isExcluded": false,
+                "includeDescendants": true,
+                "includeMapped": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "375": {
+      "id": 375,
+      "type": "CRITERIA_SET",
+      "name": "[BIO] WBC_Post_31_90d",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [],
+      "createdDate": 1776144574650,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": [
+        {
+          "id": 0,
+          "name": "WBC",
+          "expression": {
+            "items": [
+              {
+                "concept": {
+                  "CONCEPT_ID": 3000905,
+                  "CONCEPT_NAME": "Leukocytes [#/volume] in Blood",
+                  "STANDARD_CONCEPT": "S",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "INVALID_REASON": "V",
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_CODE": null,
+                  "DOMAIN_ID": "Measurement",
+                  "VOCABULARY_ID": "LOINC",
+                  "CONCEPT_CLASS_ID": "Lab Test"
+                },
+                "isExcluded": false,
+                "includeDescendants": true,
+                "includeMapped": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "376": {
+      "id": 376,
+      "type": "CRITERIA_SET",
+      "name": "[BIO] WBC_Post_91_365d",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [],
+      "createdDate": 1776144574764,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": [
+        {
+          "id": 0,
+          "name": "WBC",
+          "expression": {
+            "items": [
+              {
+                "concept": {
+                  "CONCEPT_ID": 3000905,
+                  "CONCEPT_NAME": "Leukocytes [#/volume] in Blood",
+                  "STANDARD_CONCEPT": "S",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "INVALID_REASON": "V",
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_CODE": null,
+                  "DOMAIN_ID": "Measurement",
+                  "VOCABULARY_ID": "LOINC",
+                  "CONCEPT_CLASS_ID": "Lab Test"
+                },
+                "isExcluded": false,
+                "includeDescendants": true,
+                "includeMapped": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "377": {
+      "id": 377,
+      "type": "CRITERIA_SET",
+      "name": "[BIO] WBC_Post_1y_3y",
+      "domain": "MEASUREMENT",
+      "statType": "DISTRIBUTION",
+      "descr": "",
+      "design": [],
+      "createdDate": 1776144574881,
+      "hasWriteAccess": false,
+      "description": "",
+      "conceptSets": [
+        {
+          "id": 0,
+          "name": "WBC",
+          "expression": {
+            "items": [
+              {
+                "concept": {
+                  "CONCEPT_ID": 3000905,
+                  "CONCEPT_NAME": "Leukocytes [#/volume] in Blood",
+                  "STANDARD_CONCEPT": "S",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "INVALID_REASON": "V",
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_CODE": null,
+                  "DOMAIN_ID": "Measurement",
+                  "VOCABULARY_ID": "LOINC",
+                  "CONCEPT_CLASS_ID": "Lab Test"
+                },
+                "isExcluded": false,
+                "includeDescendants": true,
+                "includeMapped": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

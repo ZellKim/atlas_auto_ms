@@ -1,0 +1,337 @@
+site,concept_id,unit_concept_id,unit_name,count
+AUMC,3010813,0,No matching concept,9582770
+AUMC,3017354,8554,percent,1196472
+AUMC,3018010,8554,percent,15713586
+AUMC,3017732,0,No matching concept,5532157
+AUMC,3002030,8554,percent,16812986
+AUMC,3006504,8554,percent,16276706
+AUMC,3019069,8554,percent,16793388
+AUMC,3022096,8554,percent,15927672
+AUMC,3020460,8840,milligram per deciliter,2958620
+AUMC,3015183,8752,millimeter per hour,2321268
+AUMC,3037110,8840,milligram per deciliter,9137097
+AUMC,3004410,0,No matching concept,1334949
+AUMC,3022192,8840,milligram per deciliter,3341586
+AUMC,3007070,8840,milligram per deciliter,3308206
+AUMC,3006923,8645,unit per liter,10045021
+AUMC,3000963,8713,gram per deciliter,11170419
+AUMC,3037556,8840,milligram per deciliter,7179333
+AUMC,3024561,8713,gram per deciliter,7972855
+AUMC,3021614,8763,unit per milliliter,837016
+AUMC,3026910,8645,unit per liter,2981431
+AUMC,3035995,8645,unit per liter,7468784
+AUMC,3035995,8923,international unit per liter,27
+CHNUH,3000905,0,No matching concept,3229070
+CHNUH,3020460,0,No matching concept,1289379
+CHNUH,3015183,0,No matching concept,370989
+CHNUH,3037110,0,No matching concept,3752
+CHNUH,3004410,0,No matching concept,376781
+CHNUH,3022192,0,No matching concept,1100292
+CHNUH,3007070,0,No matching concept,539588
+CHNUH,3006923,0,No matching concept,2974921
+CHNUH,3000963,0,No matching concept,3316449
+CHNUH,3027484,0,No matching concept,215155
+CHNUH,3037556,0,No matching concept,1453159
+CHNUH,3024561,0,No matching concept,3177558
+CHNUH,3026910,0,No matching concept,727990
+CHNUH,3035995,0,No matching concept,2965081
+DCMC,3010813,0,No matching concept,895285
+DCMC,3017354,0,No matching concept,2394519
+DCMC,3018010,8554,percent,962977
+DCMC,3017732,0,No matching concept,1716193
+DCMC,3002030,0,No matching concept,2394511
+DCMC,3002030,8554,percent,806176
+DCMC,3006504,0,No matching concept,2394479
+DCMC,3006504,8554,percent,806176
+DCMC,3019069,0,No matching concept,2394491
+DCMC,3019069,8554,percent,806174
+DCMC,3022096,0,No matching concept,2394465
+DCMC,3022096,8554,percent,806177
+DCMC,3020460,8751,milligram per liter,1310140
+DCMC,3015183,0,No matching concept,856696
+DCMC,3004501,8840,milligram per deciliter,389197
+DCMC,3037110,0,No matching concept,53626
+DCMC,3004410,0,No matching concept,282656
+DCMC,3004410,8554,percent,50612
+DCMC,3022192,8840,milligram per deciliter,381758
+DCMC,3007070,8840,milligram per deciliter,409030
+DCMC,3006923,8645,unit per liter,339610
+DCMC,3027484,0,No matching concept,896259
+DCMC,3037556,8840,milligram per deciliter,179940
+DCMC,3024561,8713,gram per deciliter,381451
+DCMC,3021614,8985,international unit per milliliter,193534
+DCMC,3026910,8645,unit per liter,504716
+DCMC,3035995,8645,unit per liter,356543
+GNUCH,3010813,8848,thousand per microliter,952932
+GNUCH,3010813,8961,thousand per cubic millimeter,170468
+GNUCH,3017354,0,No matching concept,980
+GNUCH,3017354,8554,percent,1040878
+GNUCH,3017732,0,No matching concept,980
+GNUCH,3017732,8848,thousand per microliter,879539
+GNUCH,3017732,8961,thousand per cubic millimeter,161338
+GNUCH,3002030,0,No matching concept,980
+GNUCH,3002030,8554,percent,1040877
+GNUCH,3006504,0,No matching concept,980
+GNUCH,3006504,8554,percent,1040877
+GNUCH,3019069,8554,percent,1041856
+GNUCH,3022096,0,No matching concept,980
+GNUCH,3022096,8554,percent,1040877
+GNUCH,3020460,8751,milligram per liter,741578
+GNUCH,3015183,8752,millimeter per hour,334228
+GNUCH,3037110,8840,milligram per deciliter,29459
+GNUCH,3004410,8554,percent,256241
+GNUCH,3022192,8840,milligram per deciliter,280476
+GNUCH,3007070,8840,milligram per deciliter,274707
+GNUCH,3006923,8645,unit per liter,1093268
+GNUCH,3000963,0,No matching concept,6855
+GNUCH,3000963,8713,gram per deciliter,1260367
+GNUCH,3037556,8840,milligram per deciliter,868446
+GNUCH,3024561,8713,gram per deciliter,1059773
+GNUCH,3021614,8985,international unit per milliliter,30798
+GNUCH,3026910,8645,unit per liter,619726
+GNUCH,3035995,8645,unit per liter,1003426
+HUMC,3010813,8848,thousand per microliter,377654
+HUMC,3010813,0,No matching concept,1994744
+HUMC,3018010,8554,percent,2367485
+HUMC,3017732,8848,thousand per microliter,377177
+HUMC,3017732,0,No matching concept,1989834
+HUMC,3002030,8554,percent,2367485
+HUMC,3006504,8554,percent,2367485
+HUMC,3019069,8554,percent,2367485
+HUMC,3001604,8848,thousand per microliter,377125
+HUMC,3001604,0,No matching concept,1989699
+HUMC,3022096,8554,percent,2367485
+HUMC,3020460,8751,milligram per liter,1374227
+HUMC,3015183,8752,millimeter per hour,1260945
+HUMC,3004501,8840,milligram per deciliter,501417
+HUMC,3004501,0,No matching concept,15844
+HUMC,3037110,8840,milligram per deciliter,1767660
+HUMC,3004410,8554,percent,488964
+HUMC,3022192,8840,milligram per deciliter,1720816
+HUMC,3007070,8840,milligram per deciliter,640552
+HUMC,3006923,8923,international unit per liter,2333890
+HUMC,3000963,8713,gram per deciliter,2484091
+HUMC,3037556,8840,milligram per deciliter,1961132
+HUMC,3024561,8713,gram per deciliter,2208368
+HUMC,3024561,8840,milligram per deciliter,276
+HUMC,3021614,8985,international unit per milliliter,108035
+HUMC,3026910,8923,international unit per liter,1908585
+HUMC,3035995,8923,international unit per liter,2066636
+ISH,3010813,0,No matching concept,1304672
+ISH,3017354,8554,percent,1119400
+ISH,3017732,8647,per microliter,1119400
+ISH,3002030,8554,percent,1119400
+ISH,3006504,8554,percent,1119400
+ISH,3019069,8554,percent,1119400
+ISH,3022096,8554,percent,1119400
+ISH,3020460,0,No matching concept,854809
+ISH,3015183,0,No matching concept,587749
+ISH,3004501,0,No matching concept,88222
+ISH,3037110,0,No matching concept,852806
+ISH,3004410,0,No matching concept,148028
+ISH,3004410,8554,percent,156785
+ISH,3022192,0,No matching concept,314582
+ISH,3007070,0,No matching concept,294484
+ISH,3006923,0,No matching concept,1234578
+ISH,3000963,8713,gram per deciliter,1455097
+ISH,3037556,0,No matching concept,309771
+ISH,3024561,0,No matching concept,444
+ISH,3024561,8713,gram per deciliter,1830067
+ISH,3021614,8985,international unit per milliliter,110558
+ISH,3026910,0,No matching concept,516766
+ISH,3035995,0,No matching concept,706394
+JCMJ,3010813,8848,thousand per microliter,543726
+JCMJ,3017354,8554,percent,503235
+JCMJ,3002030,8554,percent,503235
+JCMJ,3006504,8554,percent,503235
+JCMJ,3019069,8554,percent,503235
+JCMJ,3022096,8554,percent,503227
+JCMJ,3020460,8840,milligram per deciliter,387752
+JCMJ,3015183,8752,millimeter per hour,178032
+JCMJ,3004501,8840,milligram per deciliter,385888
+JCMJ,3037110,8840,milligram per deciliter,181835
+JCMJ,3037110,0,No matching concept,14
+JCMJ,3004410,8554,percent,119477
+JCMJ,3022192,8840,milligram per deciliter,256905
+JCMJ,3007070,8840,milligram per deciliter,226845
+JCMJ,3006923,8923,international unit per liter,649036
+JCMJ,3000963,8713,gram per deciliter,691866
+JCMJ,3037556,8840,milligram per deciliter,357430
+JCMJ,3024561,8713,gram per deciliter,445149
+JCMJ,3021614,8985,international unit per milliliter,38818
+JCMJ,3026910,8923,international unit per liter,299105
+JCMJ,3035995,8923,international unit per liter,383625
+KDH,3010813,0,No matching concept,1388373
+KDH,3010813,8848,thousand per microliter,1958615
+KDH,3018010,0,No matching concept,8018
+KDH,3018010,8554,percent,3224028
+KDH,3017732,8848,thousand per microliter,3127518
+KDH,3002030,8554,percent,3224034
+KDH,3006504,8554,percent,3224028
+KDH,3019069,8554,percent,3224033
+KDH,3001604,8848,thousand per microliter,3091444
+KDH,3022096,8554,percent,3224027
+KDH,3020460,8751,milligram per liter,1596889
+KDH,3015183,8752,millimeter per hour,778209
+KDH,3004501,0,No matching concept,3063
+KDH,3004501,8840,milligram per deciliter,2859696
+KDH,3037110,8840,milligram per deciliter,655555
+KDH,3004410,8554,percent,589522
+KDH,3022192,8840,milligram per deciliter,995254
+KDH,3007070,8840,milligram per deciliter,942234
+KDH,3006923,8923,international unit per liter,3106419
+KDH,3000963,8713,gram per deciliter,3478454
+KDH,3037556,8840,milligram per deciliter,2664536
+KDH,3024561,8713,gram per deciliter,2763251
+KDH,3024561,8840,milligram per deciliter,176
+KDH,3021614,8985,international unit per milliliter,13470
+KDH,3026910,8923,international unit per liter,1605280
+KDH,3035995,8923,international unit per liter,2652976
+KHNMC,3010813,0,No matching concept,3063915
+KHNMC,3017354,0,No matching concept,2721420
+KHNMC,3017732,0,No matching concept,2081424
+KHNMC,3002030,0,No matching concept,2720471
+KHNMC,3006504,0,No matching concept,2719736
+KHNMC,3019069,0,No matching concept,2720150
+KHNMC,3022096,0,No matching concept,2721288
+KHNMC,3020460,0,No matching concept,135374
+KHNMC,3020460,8840,milligram per deciliter,1487161
+KHNMC,3015183,0,No matching concept,326562
+KHNMC,3015183,8752,millimeter per hour,888075
+KHNMC,3004501,0,No matching concept,569402
+KHNMC,3004501,8840,milligram per deciliter,811936
+KHNMC,3037110,0,No matching concept,32412
+KHNMC,3037110,8840,milligram per deciliter,11258
+KHNMC,3004410,0,No matching concept,451342
+KHNMC,3022192,0,No matching concept,149680
+KHNMC,3022192,8840,milligram per deciliter,387650
+KHNMC,3007070,0,No matching concept,148667
+KHNMC,3007070,8840,milligram per deciliter,360357
+KHNMC,3006923,0,No matching concept,2388725
+KHNMC,3000963,0,No matching concept,2982432
+KHNMC,3000963,8713,gram per deciliter,17737
+KHNMC,3037556,0,No matching concept,1670498
+KHNMC,3037556,8840,milligram per deciliter,132826
+KHNMC,3024561,0,No matching concept,1655982
+KHNMC,3024561,8713,gram per deciliter,415812
+KHNMC,3021614,0,No matching concept,170929
+KHNMC,3026910,0,No matching concept,1396132
+KHNMC,3026910,8645,unit per liter,1038
+KHNMC,3035995,0,No matching concept,1916779
+KWMC,3010813,8848,thousand per microliter,2166724
+KWMC,3017354,8554,percent,22
+KWMC,3018010,8554,percent,2033300
+KWMC,3017732,8848,thousand per microliter,1314330
+KWMC,3002030,8554,percent,2033347
+KWMC,3006504,8554,percent,1930828
+KWMC,3019069,8554,percent,1930828
+KWMC,3022096,8554,percent,1930827
+KWMC,3020460,8840,milligram per deciliter,1164162
+KWMC,3015183,0,No matching concept,29
+KWMC,3015183,8752,millimeter per hour,478761
+KWMC,3004501,8840,milligram per deciliter,2059000
+KWMC,3037110,8840,milligram per deciliter,26379
+KWMC,3004410,8554,percent,466357
+KWMC,3022192,8840,milligram per deciliter,594589
+KWMC,3007070,8840,milligram per deciliter,583484
+KWMC,3006923,8645,unit per liter,2112072
+KWMC,3000963,8713,gram per deciliter,2351000
+KWMC,3037556,8840,milligram per deciliter,1647254
+KWMC,3024561,8713,gram per deciliter,1794304
+KWMC,3021614,0,No matching concept,3402
+KWMC,3021614,8985,international unit per milliliter,18574
+KWMC,3026910,8645,unit per liter,590620
+KWMC,3035995,8645,unit per liter,1771128
+SCHCA,3010813,0,No matching concept,4339260
+SCHCA,3018010,0,No matching concept,4085045
+SCHCA,3017732,0,No matching concept,4085042
+SCHCA,3002030,0,No matching concept,4085029
+SCHCA,3006504,0,No matching concept,4083928
+SCHCA,3019069,0,No matching concept,4084927
+SCHCA,3001604,0,No matching concept,4085042
+SCHCA,3022096,0,No matching concept,4082875
+SCHCA,3020460,8751,milligram per liter,1591608
+SCHCA,3015183,8752,millimeter per hour,1328604
+SCHCA,3037110,8840,milligram per deciliter,15521
+SCHCA,3004410,0,No matching concept,66475
+SCHCA,3004410,8554,percent,765981
+SCHCA,3022192,0,No matching concept,2101356
+SCHCA,3022192,8840,milligram per deciliter,612582
+SCHCA,3007070,0,No matching concept,518169
+SCHCA,3007070,8840,milligram per deciliter,794948
+SCHCA,3006923,0,No matching concept,3484695
+SCHCA,3006923,8923,international unit per liter,829099
+SCHCA,3027484,0,No matching concept,4317919
+SCHCA,3027484,8713,gram per deciliter,802162
+SCHCA,3037556,0,No matching concept,1789509
+SCHCA,3037556,8840,milligram per deciliter,452300
+SCHCA,3024561,0,No matching concept,3484855
+SCHCA,3024561,8713,gram per deciliter,313431
+SCHCA,3021614,8985,international unit per milliliter,262996
+SCHCA,3026910,0,No matching concept,825836
+SCHCA,3026910,8923,international unit per liter,1158780
+SCHCA,3035995,0,No matching concept,3484693
+SCHCA,3035995,8923,international unit per liter,311829
+SCHGM,3010813,0,No matching concept,1298105
+SCHGM,3018010,0,No matching concept,1185670
+SCHGM,3017732,0,No matching concept,1163883
+SCHGM,3002030,0,No matching concept,1185670
+SCHGM,3006504,0,No matching concept,1185649
+SCHGM,3019069,0,No matching concept,1116257
+SCHGM,3019069,8554,percent,69412
+SCHGM,3001604,0,No matching concept,1163885
+SCHGM,3022096,0,No matching concept,1116218
+SCHGM,3022096,8554,percent,69413
+SCHGM,3015183,8752,millimeter per hour,485483
+SCHGM,3037110,8840,milligram per deciliter,114104
+SCHGM,3004410,8554,percent,354042
+SCHGM,3022192,0,No matching concept,204409
+SCHGM,3022192,8840,milligram per deciliter,740760
+SCHGM,3007070,0,No matching concept,152155
+SCHGM,3007070,8840,milligram per deciliter,738807
+SCHGM,3006923,0,No matching concept,1823406
+SCHGM,3027484,0,No matching concept,1118558
+SCHGM,3027484,8713,gram per deciliter,1549568
+SCHGM,3037556,0,No matching concept,582903
+SCHGM,3037556,8840,milligram per deciliter,139610
+SCHGM,3024561,0,No matching concept,699481
+SCHGM,3024561,8713,gram per deciliter,187292
+SCHGM,3021614,8985,international unit per milliliter,79691
+SCHGM,3026910,0,No matching concept,1380421
+SCHGM,3035995,0,No matching concept,808133
+SCHSU,3010813,0,No matching concept,3402866
+SCHSU,3018010,0,No matching concept,3332848
+SCHSU,3017732,0,No matching concept,3307491
+SCHSU,3002030,0,No matching concept,3333608
+SCHSU,3006504,0,No matching concept,3333564
+SCHSU,3019069,0,No matching concept,3333607
+SCHSU,3001604,0,No matching concept,3306781
+SCHSU,3022096,0,No matching concept,3333413
+SCHSU,3020460,0,No matching concept,539268
+SCHSU,3020460,8840,milligram per deciliter,773813
+SCHSU,3015183,0,No matching concept,1179521
+SCHSU,3004501,0,No matching concept,10400
+SCHSU,3004501,8840,milligram per deciliter,196944
+SCHSU,3037110,0,No matching concept,2778454
+SCHSU,3037110,8840,milligram per deciliter,486294
+SCHSU,3004410,0,No matching concept,635014
+SCHSU,3022192,0,No matching concept,1037442
+SCHSU,3022192,8840,milligram per deciliter,415168
+SCHSU,3007070,0,No matching concept,1037442
+SCHSU,3007070,8840,milligram per deciliter,395408
+SCHSU,3006923,0,No matching concept,2778867
+SCHSU,3006923,8645,unit per liter,463456
+SCHSU,3006923,8923,international unit per liter,235158
+SCHSU,3027484,0,No matching concept,3529701
+SCHSU,3027484,8713,gram per deciliter,178628
+SCHSU,3037556,0,No matching concept,1533326
+SCHSU,3037556,8840,milligram per deciliter,434238
+SCHSU,3024561,0,No matching concept,3038872
+SCHSU,3024561,8713,gram per deciliter,36349
+SCHSU,3021614,8985,international unit per milliliter,207961
+SCHSU,3026910,0,No matching concept,1475587
+SCHSU,3026910,8645,unit per liter,534459
+SCHSU,3026910,8923,international unit per liter,197272
+SCHSU,3035995,0,No matching concept,1983512
+SCHSU,3035995,8645,unit per liter,1947981
+SCHSU,3035995,8923,international unit per liter,26105

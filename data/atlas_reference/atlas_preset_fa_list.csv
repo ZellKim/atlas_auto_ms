@@ -1,0 +1,106 @@
+id,name,description,domain,statType
+1,Measurement Range Group Short Term,"Covariates indicating whether measurements are below, within, or above normal range in the short term window.",MEASUREMENT,PREVALENCE
+2,Condition Group Era Start Long Term,One covariate per condition era rolled up to groups in the condition_era table starting in the long term window.,CONDITION,PREVALENCE
+3,Drug Group Era Start Medium Term,One covariate per drug rolled up to ATC groups in the drug_era table starting in the medium term window.,DRUG,PREVALENCE
+4,Condition Era Short Term,One covariate per condition in the condition_era table overlapping with any part of the short term window.,CONDITION,PREVALENCE
+5,Drug Group Era Long Term,One covariate per drug rolled up to ATC groups in the drug_era table overlapping with any part of the long term window.,DRUG,PREVALENCE
+6,Condition Group Era Overlapping,One covariate per condition era rolled up to groups in the condition_era table overlapping with the end of the risk window.,CONDITION,PREVALENCE
+7,Drug Group Era Short Term,One covariate per drug rolled up to ATC groups in the drug_era table overlapping with any part of the short term window.,DRUG,PREVALENCE
+8,Drug Group Era Medium Term,One covariate per drug rolled up to ATC groups in the drug_era table overlapping with any part of the medium term window.,DRUG,PREVALENCE
+9,Condition Era Start Long Term,One covariate per condition in the condition_era table starting in the long term window.,CONDITION,PREVALENCE
+10,Condition Era Any Time Prior,One covariate per condition in the condition_era table overlapping with any time prior to index.,CONDITION,PREVALENCE
+11,Condition Group Era Start Medium Term,One covariate per condition era rolled up to groups in the condition_era table starting in the medium term window.,CONDITION,PREVALENCE
+12,Drug Exposure Long Term,One covariate per drug in the drug_exposure table starting in the long term window.,DRUG,PREVALENCE
+13,Measurement Range Group Long Term,"Covariates indicating whether measurements are below, within, or above normal range in the long term window.",MEASUREMENT,PREVALENCE
+14,Measurement Range Group Medium Term,"Covariates indicating whether measurements are below, within, or above normal range in the medium term window.",MEASUREMENT,PREVALENCE
+15,Drug Group Era Any Time Prior,One covariate per drug rolled up to ATC groups in the drug_era table overlapping with any time prior to index.,DRUG,PREVALENCE
+16,Condition Era Medium Term,One covariate per condition in the condition_era table overlapping with any part of the medium term window.,CONDITION,PREVALENCE
+17,Condition Era Overlapping,One covariate per condition in the condition_era table overlapping with the end of the risk window.,CONDITION,PREVALENCE
+18,Condition Era Start Short Term,One covariate per condition in the condition_era table starting in the short term window.,CONDITION,PREVALENCE
+19,Drug Group Era Start Short Term,One covariate per drug rolled up to ATC groups in the drug_era table starting in the short term window.,DRUG,PREVALENCE
+20,Condition Group Era Short Term,One covariate per condition era rolled up to groups in the condition_era table overlapping with any part of the short term window.,CONDITION,PREVALENCE
+21,Condition Era Start Medium Term,One covariate per condition in the condition_era table starting in the medium term window.,CONDITION,PREVALENCE
+22,Procedure Occurrence Medium Term,One covariate per procedure in the procedure_occurrence table in the medium term window.,PROCEDURE,PREVALENCE
+23,Condition Era Long Term,One covariate per condition in the condition_era table overlapping with any part of the long term window.,CONDITION,PREVALENCE
+24,Drug Group Era Start Long Term,One covariate per drug rolled up to ATC groups in the drug_era table starting in the long term window.,DRUG,PREVALENCE
+25,Drug Group Era Overlapping,One covariate per drug rolled up to ATC groups in the drug_era table overlapping with the end of the risk window.,DRUG,PREVALENCE
+26,Measurement Range Group Any Time Prior,"Covariates indicating whether measurements are below, within, or above normal range any time prior to index.",MEASUREMENT,PREVALENCE
+27,Condition Group Era Any Time Prior,One covariate per condition era rolled up to groups in the condition_era table overlapping with any time prior to index.,CONDITION,PREVALENCE
+28,Drug Exposure Any Time Prior,One covariate per drug in the drug_exposure table starting any time prior to index.,DRUG,PREVALENCE
+29,Condition Group Era Start Short Term,One covariate per condition era rolled up to groups in the condition_era table starting in the short term window.,CONDITION,PREVALENCE
+30,Condition Group Era Long Term,One covariate per condition era rolled up to groups in the condition_era table overlapping with any part of the long term window.,CONDITION,PREVALENCE
+31,Drug Exposure Short Term,One covariate per drug in the drug_exposure table starting in the short term window.,DRUG,PREVALENCE
+32,Condition Group Era Medium Term,One covariate per condition era rolled up to groups in the condition_era table overlapping with any part of the medium term window.,CONDITION,PREVALENCE
+33,Drug Exposure Medium Term,One covariate per drug in the drug_exposure table starting in the medium term window.,DRUG,PREVALENCE
+34,Observation Short Term,One covariate per observation in the observation table in the short term window.,OBSERVATION,PREVALENCE
+35,Drug Era Start Long Term,One covariate per drug in the drug_era table starting in the long term window.,DRUG,PREVALENCE
+36,Dcsi,The Diabetes Comorbidity Severity Index (DCSI) using all conditions prior to the window end.,INDEX,DISTRIBUTION
+37,Drug Era Start Short Term,One covariate per drug in the drug_era table starting in the short term window.,DRUG,PREVALENCE
+38,Distinct Ingredient Count Medium Term,The number of distinct ingredients observed in the medium term window.,DRUG,DISTRIBUTION
+39,Measurement Any Time Prior,One covariate per measurement in the measurement table any time prior to index.,MEASUREMENT,PREVALENCE
+40,Measurement Medium Term,One covariate per measurement in the measurement table in the medium term window.,MEASUREMENT,PREVALENCE
+41,Distinct Condition Count Long Term,The number of distinct condition concepts observed in the long term window.,CONDITION,DISTRIBUTION
+42,Measurement Value Long Term,One covariate containing the value per measurement-unit combination in the long term window.,MEASUREMENT,DISTRIBUTION
+43,Drug Era Short Term,One covariate per drug in the drug_era table overlapping with any part of the short window.,DRUG,PREVALENCE
+44,Drug Era Overlapping,One covariate per drug in the drug_era table overlapping with the end of the risk window.,DRUG,PREVALENCE
+45,Observation Any Time Prior,One covariate per observation in the observation table any time prior to index.,OBSERVATION,PREVALENCE
+46,Distinct Ingredient Count Long Term,The number of distinct ingredients observed in the long term window.,DRUG,DISTRIBUTION
+47,Distinct Procedure Count Short Term,The number of distinct procedures observed in the short term window.,PROCEDURE,DISTRIBUTION
+48,Distinct Condition Count Short Term,The number of distinct condition concepts observed in the short term window.,CONDITION,DISTRIBUTION
+49,Charlson Index,The Charlson comorbidity index (Romano adaptation) using all conditions prior to the window end.,INDEX,DISTRIBUTION
+50,Measurement Short Term,One covariate per measurement in the measurement table in the short term window.,MEASUREMENT,PREVALENCE
+51,Distinct Procedure Count Medium Term,The number of distinct procedures observed in the medium term window.,PROCEDURE,DISTRIBUTION
+52,Device Exposure Any Time Prior,One covariate per device in the device exposure table starting any time prior to index.,DEVICE,PREVALENCE
+53,Observation Long Term,One covariate per observation in the observation table in the long term window.,OBSERVATION,PREVALENCE
+54,Distinct Condition Count Medium Term,The number of distinct condition concepts observed in the medium term window.,CONDITION,DISTRIBUTION
+55,Procedure Occurrence Short Term,One covariate per procedure in the procedure_occurrence table in the short term window.,PROCEDURE,PREVALENCE
+56,Observation Medium Term,One covariate per observation in the observation table in the medium term window.,OBSERVATION,PREVALENCE
+57,Device Exposure Long Term,One covariate per device in the device exposure table starting in the long term window.,DEVICE,PREVALENCE
+58,Measurement Value Short Term,One covariate containing the value per measurement-unit combination in the short term window.,MEASUREMENT,DISTRIBUTION
+59,Device Exposure Medium Term,One covariate per device in the device exposure table starting in the medium term window.,DEVICE,PREVALENCE
+60,Measurement Long Term,One covariate per measurement in the measurement table in the long term window.,MEASUREMENT,PREVALENCE
+61,Measurement Value Medium Term,One covariate containing the value per measurement-unit combination in the medium term window.,MEASUREMENT,DISTRIBUTION
+62,Drug Era Start Medium Term,One covariate per drug in the drug_era table starting in the medium term window.,DRUG,PREVALENCE
+63,Measurement Value Any Time Prior,One covariate containing the value per measurement-unit combination any time prior to index.,MEASUREMENT,DISTRIBUTION
+64,Distinct Ingredient Count Short Term,The number of distinct ingredients observed in the short term window.,DRUG,DISTRIBUTION
+65,Device Exposure Short Term,One covariate per device in the device exposure table starting in the short term window.,DEVICE,PREVALENCE
+66,Distinct Procedure Count Long Term,The number of distinct procedures observed in the long term window.,PROCEDURE,DISTRIBUTION
+67,Condition Occurrence Long Term,One covariate per condition in the condition_occurrence table starting in the long term window.,CONDITION,PREVALENCE
+68,Demographics Index Month,Month of the index date.,DEMOGRAPHICS,PREVALENCE
+69,Condition Occurrence Any Time Prior,One covariate per condition in the condition_occurrence table starting any time prior to index.,CONDITION,PREVALENCE
+70,Demographics Ethnicity,Ethnicity of the subject.,DEMOGRAPHICS,PREVALENCE
+71,Demographics Age Group,Age of the subject on the index date (in 5 year age groups),DEMOGRAPHICS,PREVALENCE
+72,Demographics Race,Race of the subject.,DEMOGRAPHICS,PREVALENCE
+73,Demographics Prior Observation Time,Number of continuous days of observation time preceding the index date.,DEMOGRAPHICS,DISTRIBUTION
+74,Demographics Gender,Gender of the subject.,DEMOGRAPHICS,PREVALENCE
+75,Demographics Index Year Month,Both calendar year and month of the index date in a single variable.,DEMOGRAPHICS,PREVALENCE
+76,Condition Occurrence Medium Term,One covariate per condition in the condition_occurrence table starting in the medium term window.,CONDITION,PREVALENCE
+77,Demographics Age,Age of the subject on the index date (in years).,DEMOGRAPHICS,DISTRIBUTION
+78,Chads 2,The CHADS2 score using all conditions prior to the window end.,INDEX,DISTRIBUTION
+79,Demographics Time In Cohort,Number of days of observation time during cohort period.,DEMOGRAPHICS,DISTRIBUTION
+80,Demographics Index Year,Year of the index date.,DEMOGRAPHICS,PREVALENCE
+81,Demographics Post Observation Time,Number of continuous days of observation time following the index date.,DEMOGRAPHICS,DISTRIBUTION
+82,Chads 2 Vasc,The CHADS2VASc score using all conditions prior to the window end.,INDEX,DISTRIBUTION
+83,Condition Occurrence Primary Inpatient Long Term,"One covariate per condition observed as a primary diagnosis in an inpatient setting in the condition_occurrence table starting in the long term window.",CONDITION,PREVALENCE
+84,Procedure Occurrence Long Term,One covariate per procedure in the procedure_occurrence table in the long term window.,PROCEDURE,PREVALENCE
+85,Condition Occurrence Primary Inpatient Any Time Prior,"One covariate per condition observed as a primary diagnosis in an inpatient setting in the condition_occurrence table starting any time prior to index.",CONDITION,PREVALENCE
+86,Drug Era Long Term,One covariate per drug in the drug_era table overlapping with any part of the long term window.,DRUG,PREVALENCE
+87,Procedure Occurrence Any Time Prior,One covariate per procedure in the procedure_occurrence table any time prior to index.,PROCEDURE,PREVALENCE
+88,Drug Era Medium Term,One covariate per drug in the drug_era table overlapping with any part of the medium term window.,DRUG,PREVALENCE
+89,Drug Era Any Time Prior,One covariate per drug in the drug_era table overlapping with any time prior to index.,DRUG,PREVALENCE
+90,Condition Occurrence Short Term,One covariate per condition in the condition_occurrence table starting in the short term window.,CONDITION,PREVALENCE
+91,Distinct Measurement Count Short Term,The number of distinct measurements observed in the short term window.,MEASUREMENT,DISTRIBUTION
+92,Visit Concept Count Short Term,"The number of visits observed in the short term window, stratified by visit concept ID.",VISIT,DISTRIBUTION
+93,Distinct Observation Count Medium Term,The number of distinct observations observed in the medium term window.,OBSERVATION,DISTRIBUTION
+94,Distinct Observation Count Long Term,The number of distinct observations observed in the long term window.,OBSERVATION,DISTRIBUTION
+95,Distinct Measurement Count Long Term,The number of distinct measurements observed in the long term window.,MEASUREMENT,DISTRIBUTION
+96,Distinct Measurement Count Medium Term,The number of distinct measurements observed in the medium term window.,MEASUREMENT,DISTRIBUTION
+97,Distinct Observation Count Short Term,The number of distinct observations observed in the short term window.,OBSERVATION,DISTRIBUTION
+98,Visit Concept Count Long Term,"The number of visits observed in the long term window, stratified by visit concept ID.",VISIT,DISTRIBUTION
+99,Visit Concept Count Medium Term,"The number of visits observed in the medium term window, stratified by visit concept ID.",VISIT,DISTRIBUTION
+100,Visit Count Medium Term,The number of visits observed in the medium term window.,VISIT,DISTRIBUTION
+101,Visit Count Short Term,The number of visits observed in the short term window.,VISIT,DISTRIBUTION
+102,Occurrence Primary Inpatient Short Term,"One covariate per condition observed as a primary diagnosis in an inpatient setting in the condition_occurrence table starting in the short term window.",CONDITION,PREVALENCE
+103,Visit Count Long Term,The number of visits observed in the long term window.,VISIT,DISTRIBUTION
+104,Occurrence Primary Inpatient Medium Term,"One covariate per condition observed as a primary diagnosis in an inpatient setting in the condition_occurrence table starting in the medium term window.",CONDITION,PREVALENCE
+105,Hospital Frailty Risk Score,The Hospital Frailty Risk Score score using all conditions prior to the window end.,INDEX,DISTRIBUTION

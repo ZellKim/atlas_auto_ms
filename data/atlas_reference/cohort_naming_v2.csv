@@ -1,0 +1,38 @@
+type,number,cohort_id,name,concept_ids,cutoff,modified,note
+exposure,E01,1072,Appendectomy,4198190,,no,
+exposure,E02,1074,Cholecystectomy,4242997,,no,
+exposure,E03,1121,Hernia_repair,4196678,,no,
+exposure,E04,1076,General_Population,,,no,supplementary
+clinical,O01,1077,Ulcerative_colitis,81893,,no,
+clinical,O02,1078,Crohns_disease,201606,,no,
+clinical,O03,1079,Asthma,317009,,no,
+clinical,O04,1080,Atopic_dermatitis,133834,,no,
+clinical,O05,1090,Rheumatoid_arthritis,80809,,no,
+clinical,O06,1271,Acute_MI,312327,,yes_v2,입원조건 제거
+clinical,O07,1270,T2DM,201826+3004501+3037110+3004410,,yes_v2,fasting glucose OR 추가
+clinical,O08,1092,CDI,193688,,no,
+clinical,O09,1093,Parkinsons_disease,381270,,no,
+clinical,O10,1097,Colorectal_cancer,197500+74582,,no,
+clinical,O11,1094,Biliary_calculus,4145627,,no,
+biomarker,B01,1262,WBC,3000905+3010813,>11,yes_v2,multi-concept OR
+biomarker,B02,1263,Neutrophils,3017354+3018010+3017732,>70%/>7.7#,yes_v2,multi-concept OR
+biomarker,B03,1100,Lymphocytes,3002030,<20%,no,
+biomarker,B04,1101,Eosinophils,3006504,>7%,no,
+biomarker,B05,1266,Monocytes,3019069+3001604,>12%/>0.8#,yes_v2,multi-concept OR
+biomarker,B06,1103,Basophils,3022096,>1%,no,
+biomarker,B07,1104,CRP,3020460,>0.8 mg/dL,no,
+biomarker,B08,1105,ESR,3015183,>20 mm/hr,no,
+biomarker,B09,1245,RF,3021614,>13 IU/mL,no,cutoff 확인됨 (>13 not >20)
+biomarker,B10,1107,ANA,3029103,Positive (ValueAsConcept),no,
+biomarker,B11,1265,GlucoseDM,3004501+3037110,>=126 mg/dL,yes_v2,multi-concept OR
+biomarker,B12,1267,GlucosePreDM,3004501+3037110,bt100 (100-125),yes_v2,multi-concept OR
+biomarker,B13,1110,HbA1c,3004410,>=6.5%,no,
+biomarker,B14,1111,LDL,3028437,>=160 mg/dL,no,
+biomarker,B15,1112,Triglyceride,3022192,>=200 mg/dL,no,cutoff 확인됨 (>=200 not >150)
+biomarker,B16,1113,HDL,3007070,<40 mg/dL,no,
+biomarker,B18,1115,UricAcid,3037556,>7 mg/dL,no,
+biomarker,B19,1116,ALT,3006923,>40 U/L,no,
+biomarker,B20,1117,GGT,3026910,>50 U/L,no,
+biomarker,B21,1118,ALP,3035995,>120 U/L,no,
+biomarker,B22,1119,Albumin,3024561,<3.5 g/dL,no,
+biomarker,B23,1268,Hemoglobin,3000963+3027484,<12 g/dL,yes_v2,multi-concept OR

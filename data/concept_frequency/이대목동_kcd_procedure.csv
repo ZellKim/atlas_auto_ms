@@ -1,0 +1,6 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+4115153,Medical termination of pregnancy,Procedure,O04,Medical abortion,29
+4128030,Delivery procedure,Procedure,O832,Other manipulation-assisted delivery,15
+4213387,Breech extraction,Procedure,O830,Breech extraction ,11
+4075168,Assisted breech delivery,Procedure,O831,Breech delivery NOS,9
+4073422,Spontaneous breech delivery,Procedure,O801,Spontaneous breech delivery,5

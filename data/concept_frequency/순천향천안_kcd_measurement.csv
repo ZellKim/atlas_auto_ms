@@ -1,0 +1,32 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+35225637,Metastasis to liver and intrahepatic bile duct,Measurement,C787,Metastasis to hepatoma,72165
+36769301,Metastasis to bone,Measurement,C7950,Metastasis to skull,71367
+35226285,Metastasis to retroperitoneum and peritoneum,Measurement,C786,Metastasis to retroperitoneum,35172
+36768862,Metastasis to brain,Measurement,C7930,Metastatic malignancy of brain,25704
+35226258,Metastasis to pleura,Measurement,C782,MPE(Malignant pleural effusion),23748
+35225568,Metastasis to adrenal gland,Measurement,C797,Metastasis to adrenal gland,7902
+35226073,Metastasis to bone and bone marrow,Measurement,C795,Secondary malignant neoplasm of bone and marrow,5504
+35226230,Metastasis to ovary,Measurement,C7969,"Metastasis to ovary, unspecified side",2810
+35225557,Metastasis to large intestine and rectum,Measurement,C785,Mets. to large intestine,2610
+35225542,Metastasis to mediastinum,Measurement,C781,"Mediastinal malignancy, metastatic",2237
+35225673,Metastasis to skin,Measurement,C792,Metastasis to abdominal wall,1756
+35226074,Metastasis to bone marrow,Measurement,C7951,Metastatic malignancy of BM(Bone marrow),1614
+35225719,Metastasis to small intestine,Measurement,C784,Metastasis to small intestine,1429
+4236592,Human Bocavirus present,Measurement,J2180,Acute bronchiolitis due to human bocavirus,970
+4095027,Antibody titer measurement,Measurement,R760,Raised antibody titre,919
+4046263,Enzyme measurement,Measurement,R749,Abnormal serum enzyme levels,846
+35226080,Metastasis to brain and cerebral meninges,Measurement,C793,Secondary malignant neoplasm-brain & cerebral meninges,511
+35225608,Metastasis to kidney and renal pelvis,Measurement,C7909,"Metastasis to kidney, unspecified side",340
+4098179,Immunology laboratory test,Measurement,R769,Abnormal immunological finding in serum,277
+35226290,Metastasis to right kidney and renal pelvis,Measurement,C7900,"Metastasis to kidney, right",235
+35225628,Metastasis to left kidney and renal pelvis,Measurement,C7901,"Metastasis to kidney, left",155
+4262074,Human parainfluenza virus present,Measurement,J2181,Acute bronchiolitis due to parainfluenza virus,153
+35226099,Metastasis to cerebral meninges,Measurement,C7931,Metastasis to cerebral meninges,133
+4045159,Hormone measurement,Measurement,R947,Abnormal results of other endocrine function studies,66
+4246053,Blood test,Measurement,R788,Finding of abnormal level of lithium in blood,59
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Abnormality of alphafetoprotein,39
+4098353,Red blood cell test,Measurement,R71,Poikilocytosis,2
+4097664,Albumin measurement,Measurement,R770,Abnormality of albumin,2
+4041715,Blood ethanol measurement,Measurement,Y905,Evidence of alcohol involvement determined by blood alcohol level of 100-119mg/100ml,2
+4353510,Globulin measurement,Measurement,R771,Hyperglobulinemia,1
+4055657,Serum/plasma protein test,Measurement,R779,"Abnormality of plasma protein, unspecified",1

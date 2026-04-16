@@ -1,0 +1,724 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4305317,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 133883001: Computer assisted image analysis,6881,0.801141,70.42
+4163872,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 399208008: Plain chest X-ray,6717,0.782047,49.09
+4181778,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 43060002: Intravenous injection,6259,0.728723,43.71
+4145308,Procedure on cardiovascular system||Cardiovascular investigation||Electrocardiographic procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 268400002: 12 lead ECG,5417,0.63069,14.68
+4295073,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385868005: Emergency treatment management,5354,0.623355,6.42
+37016867,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 713012003: Assessment using Emergency Severity Index,5218,0.607521,6.23
+2006974,"NA||NA||NA||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 89: Interview, evaluation, consultation, and examination",3885,0.452323,16.32
+2213560,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 90889: Preparation of report of patient's psychiatric status, history, treatment, or progress (other than for legal or consultative purposes) for other individuals, agencies, or insurance carriers",3882,0.451973,9.89
+4080499,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 182531007: Dressing of wound,3425,0.398766,54.29
+40217696,NA||NA||NA||Healthcare Common Procedure Coding System (CMS) D0501: Histopathologic examinations,2879,0.335196,5.34
+4264477,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60654006: Diagnostic radiography of abdomen,2867,0.333799,16.18
+36685860,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 1103571000000102: Management of infusion pump,2719,0.316568,24.62
+4139745,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 32962002: CT of abdomen with contrast,2570,0.29922,8.51
+36713200,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 395081000119108: CT of chest without contrast,2421,0.281872,8.82
+4296529,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 386513007: Anesthesia management,2322,0.270346,2.94
+4076762,Procedure on genitourinary system||Procedure on urinary system||Introduction to urinary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 225088003: Insertion of indwelling urethral catheter,2221,0.258587,6.67
+4037760,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 117614009: Laboratory procedure, review by pathologist",2218,0.258237,4.6
+4145786,Procedure on respiratory system||Respiratory tract procedure||Procedure on lower respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 266802007: Endotracheal anesthesia,2105,0.245081,2.93
+42537054,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 736169004: Post anesthesia care management,1990,0.231692,2.62
+4179713,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 363687006: Endoscopic procedure,1954,0.2275,13.23
+4335825,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 433236007: Transthoracic echocardiography,1581,0.184073,4.35
+4239130,Procedure on respiratory system||Respiratory therapy||Oxygen therapy||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 57485005: Oxygen therapy,1501,0.174758,62.29
+4124141,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 287611006: Continuous suction drainage,1487,0.173128,28.25
+4187078,Procedure on cardiovascular system||Cardiovascular investigation||Electrocardiographic procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 46825001: Electrocardiographic monitoring,1436,0.167191,77.31
+4260263,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 440408002: Diffusion weighted magnetic resonance imaging,1278,0.148795,3.34
+4294382,Examination of body system||Gastrointestinal tract endoscopy||Endoscopy of stomach||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 76009000: Esophagogastroduodenoscopy,1267,0.147514,6.79
+4181511,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 363688001: Administration of antineoplastic agent,1190,0.138549,65.59
+4265034,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 61919008: Giving patient an enema,1186,0.138084,5.48
+4189517,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 61593002: Ultrasonic guidance procedure,1098,0.127838,4.09
+4261999,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410172000: Nutrition care management,1081,0.125859,5.27
+4313713,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 8638007: Cytopathology procedure, preparation of smear, nongenital source",1080,0.125742,5.01
+4244986,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 396205005: CT of brain without contrast,1051,0.122366,4.24
+4056945,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 182813001: Emergency treatment,1036,0.120619,5.57
+46272711,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 711125001: Evaluation of satisfaction with healthcare,1036,0.120619,16.72
+4086425,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241716000: Patient controlled analgesia,1023,0.119106,8.49
+4327032,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 75385009: CT of thorax with contrast,939,0.109326,6.81
+4037672,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 16310003: Ultrasonography,936,0.108977,4.3
+44806352,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 801351000000105: Continuous intravenous infusion of therapeutic substance,906,0.105484,122.44
+4036803,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 162673000: General examination of patient,882,0.102689,10.19
+46272567,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 710953007: Management of administration of blood product,875,0.101874,126.01
+4061009,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169070004: CT of abdomen,853,0.099313,4.51
+2213280,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 88300: Level I - Surgical pathology, gross examination only",773,0.089999,4.87
+4301464,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385787006: Chemotherapy care education,773,0.089999,3.92
+4075951,Procedure on genitourinary system||Procedure on urinary system||Introduction to urinary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 225103006: Intermittent urethral catheterization,733,0.085342,4.67
+4249893,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 73761001: Colonoscopy,709,0.082547,6.56
+4323715,Procedure on hematopoietic system||Transfusion of red blood cells||Transfusion of packed red blood cells||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 71493000: Transfusion of packed red blood cells,639,0.074397,21.74
+4087571,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24456005: Injection of soft tissue,634,0.073815,88.37
+4040580,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 228720004: Making of shielding block for radiotherapy,608,0.070788,5.1
+4079574,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24689001: CT guidance for treatment planning, teletherapy",596,0.069391,5.05
+2211851,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 77334: Treatment devices, design and construction; complex (irregular blocks, special shields, compensators, wedges, molds or casts)",594,0.069158,4.68
+4132406,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 127790008: Staining method,580,0.067528,3.32
+4036697,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 117259009: Microscopy,558,0.064967,3.75
+2007914,"Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 96.07: Insertion of other (naso-)gastric tube",541,0.062988,30.78
+4335583,Procedure on respiratory system||Respiratory tract procedure||Intubation of respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232677006: Tracheal intubation using rigid bronchoscope,533,0.062056,2.32
+4086417,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241695009: Maintenance of general anesthesia,528,0.061474,4.01
+4273629,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 367336001: Chemotherapy,493,0.057399,7.37
+4206920,Procedure on respiratory system||Inhaled drug administration||Nebulizer therapy||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 56251003: Nebulizer therapy,486,0.056584,67.64
+4332191,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 228084000: Whole body bone imaging,484,0.056351,5.07
+37109313,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 396101000119105: CT of abdomen without contrast,477,0.055536,5.88
+4324693,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 71651007: Mammography,474,0.055187,5.79
+4182861,Procedure on cardiovascular system||Cardiovascular investigation||Cardiovascular measurement||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 54654001: Measurement of central venous pressure,468,0.054488,24.08
+4081128,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 183651009: Chemotherapy follow-up,465,0.054139,6.17
+4153192,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 370850003: Evaluation of arterial blood gas studies,464,0.054023,16.27
+4103523,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 28760000: Laryngoscopy,456,0.053091,10.81
+37111256,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 725928006: PET CT FDG (fluorodeoxyglucose) imaging of base of brain to mid-thigh,453,0.052742,5.41
+4307682,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 82941002: Nasopharyngoscopy,434,0.05053,4.62
+4303684,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 418398002: US scan of upper abdomen,432,0.050297,3.94
+4218403,"Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 82066000: Bone density study, dual photon absorptiometry",422,0.049133,3.35
+44806598,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 802061000000101: Specimen collection by resection,418,0.048667,3.92
+4064522,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 171397002: Medical examination for suspected condition,415,0.048318,1.85
+42537377,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 736741000: Intraoperative ultrasonography,397,0.046222,3.08
+4083108,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241453007: US scan of neck,395,0.045989,2.8
+4058335,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169069000: CT of chest,393,0.045756,3.68
+4137859,Procedure on hematopoietic system||Transfusion of red blood cells||Transfusion of leucoreduced red blood cells||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 425513008: Transfusion of leucoreduced red blood cells,370,0.043078,50.38
+763059,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 435591000124104: Nutrition supplement therapy,370,0.043078,11.94
+4303669,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 418296000: US scan of female genital tract,368,0.042846,2.38
+4152021,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 268445003: Ultrasound scan - obstetric,358,0.041681,14.15
+4088889,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 18512000: Individual psychotherapy,356,0.041448,15.47
+4210011,Procedure on visual system||Ophthalmic examination and evaluation||Ocular slit lamp examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 55468007: Ocular slit lamp examination,356,0.041448,7.08
+36684409,Breast procedure||Ultrasonography of breast||Ultrasonography of breast and axilla||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 11841000087101: Ultrasonography of breast and axilla,353,0.041099,5.88
+44802448,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 514661000000103: Prompting to change position,342,0.039818,193.33
+4225119,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Neurological examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 84728005: Neurological examination,339,0.039469,2.55
+40480519,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 441799006: Intensity modulated radiation therapy,338,0.039353,81.2
+4082989,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241663008: Magnetic resonance imaging (MRI) of vessels,332,0.038654,2.22
+4099373,Procedure on visual system||Ophthalmological and optical investigations||Ophthalmological test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252832004: Intraocular pressure test,320,0.037257,5.53
+4257954,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410168004: Radiation therapy care education,320,0.037257,2.45
+42872565,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 450556004: Endoscopic ultrasonography,311,0.036209,2.97
+4262021,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410250007: Perineal care management,310,0.036093,74.93
+762950,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 434131000124108: Three dimensional conformal radiotherapy,310,0.036093,44.14
+44806445,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 792081000000105: Cytopathology test,308,0.03586,3.67
+4263508,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 36228007: Ophthalmic examination and evaluation,302,0.035161,4.28
+4198775,Ultrasound studies of systems||US scan of thyroid||Ultrasonography of thyroid and parathyroid||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 433175006: Ultrasonography of thyroid and parathyroid,300,0.034928,3
+4055811,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 167217005: Urine examination,298,0.034696,7.37
+4277454,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 6480006: Urinary bladder residual urine study,297,0.034579,4.67
+4234541,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90226004: Cytopathology procedure, preparation of smear, genital source",286,0.033298,9.77
+4337118,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 8796000: Cytopathology procedure requiring centrifugation, nongenital source",279,0.032483,5.49
+4302745,Procedure on genitourinary system||Procedure on urinary system||Procedure on bladder||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 78533007: Irrigation of urinary bladder,273,0.031785,23.11
+4251589,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410089006: Physical rehabilitation therapy management,271,0.031552,57.57
+2108227,"Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Current Procedural Terminology version 4 (AMA) 36582: Replacement, complete, of a tunneled centrally inserted central venous access device, with subcutaneous port, through same venous access",268,0.031203,2.79
+4166211,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 47621004: Diagnostic radiologic examination with fluoroscopy,267,0.031086,5.22
+4305581,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 3895009: Application of dressing,266,0.03097,245.06
+4099521,Procedure on nervous system||Procedure on peripheral nervous system||Peripheral neurophysiological procedures||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252745008: Sensory nerve conduction study,264,0.030737,9.2
+4102082,Procedure on nervous system||Procedure on peripheral nervous system||Peripheral neurophysiological procedures||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252743001: Motor nerve conduction studies,264,0.030737,17.25
+4266866,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 62845000: Superficial fine needle aspiration biopsy,263,0.030621,2.23
+4309380,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 84492002: Radiography of nasal sinuses,260,0.030271,3.67
+4135471,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 31911002: Radiography of kidney-ureter-bladder,254,0.029573,5.28
+4140473,Procedure on cardiovascular system||Cardiovascular investigation||Electrocardiographic procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 427047002: Holter extended electrocardiographic recording,254,0.029573,2.18
+4171863,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 48635004: Fine needle biopsy,254,0.029573,2.82
+4195288,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 44491008: Fluoroscopy,252,0.02934,4.42
+4300866,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 77658008: Ultrasonography of urinary system,246,0.028641,2.5
+4181917,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Electroencephalogram||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 54550000: Electroencephalogram,243,0.028292,3.27
+4145244,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 307770005: Diagnostic bronchoscopy,241,0.028059,9.17
+4091134,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252577008: Pure tone audiometry,238,0.02771,5.1
+4332593,Procedure on nervous system||Procedure on central nervous system||Intrathecal injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231249005: Spinal anesthesia,238,0.02771,4.82
+4061010,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169074008: Computerized diagnostic radiology,235,0.027361,5.89
+4087381,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24420007: Sigmoidoscopy,227,0.026429,4.1
+4236024,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90805008: Diagnostic radiography of lumbar spine,226,0.026313,4.6
+4091138,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252592009: Speech audiometry,223,0.025963,4.33
+4244747,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60374009: Morphometric analysis,216,0.025148,2.29
+4194195,"Procedure on nervous system||Procedure on central nervous system||Injection of spinal epidural space||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 67716003: Epidural injection of anesthetic substance, therapeutic, caudal, continuous",213,0.024799,12.12
+2212964,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 86945: Irradiation of blood product, each unit",207,0.024101,48.43
+4060609,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169167001: Radioisotope scan of lymphatic system,206,0.023984,1.61
+4080549,Procedure on nervous system||Procedure on central nervous system||Procedure on spinal cord||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 277762005: Lumbar puncture,202,0.023518,4.27
+4125906,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 288086009: Suture open wound,201,0.023402,3.88
+4044942,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 228716003: Making of compensator for radiotherapy,200,0.023286,4.26
+40481912,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 443497002: Excision of sentinel lymph node,200,0.023286,1.64
+4304092,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 419394006: CT of abdomen and pelvis,200,0.023286,3.29
+4085429,Examination of body system||Examination of urinary system||Urinary endoscopy||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24139008: Cystoscopy,197,0.022936,4.79
+4099540,Procedure on visual system||Procedure on eye region||Diagnostic procedure on eye region||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252828005: Keratometry,195,0.022703,5.2
+4214675,Procedure on cardiovascular system||Procedure on blood vessel||Diagnostic procedure on blood vessel||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 394719009: Carotid artery doppler assessment,192,0.022354,2.65
+2789361,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||ICD-10 Procedure Coding System (CMS) B030ZZZ: Magnetic Resonance Imaging (MRI) of Brain,191,0.022238,3.2
+4034161,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 237380007: Pre-biopsy localization of breast lesion,191,0.022238,2.44
+4035234,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 117078000: Transfusion of platelet concentrate,191,0.022238,281.09
+2000841,"NA||NA||NA||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 17.44: Endoscopic robotic assisted procedure",189,0.022005,1.85
+4196152,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 431326009: CT of neck with contrast,188,0.021888,2.35
+4148273,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 266694003: Heat therapy,187,0.021772,130.48
+46274106,Procedure on cardiovascular system||Procedure on blood vessel||Diagnostic procedure on blood vessel||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 709979004: Doppler ultrasonography of artery,181,0.021073,2.73
+4237233,"Procedure on ear and related structures||Procedure on ear||Pure tone audiometry, extended, impedance testing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 91573000: Tympanometry testing",180,0.020957,2.37
+4098792,Procedure on nervous system||Procedure on peripheral nervous system||Peripheral neurophysiological procedures||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252774004: H-reflex studies,179,0.020841,6.27
+4087882,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243736006: Provision of image intensifier,178,0.020724,8.34
+4055248,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243063003: Postoperative procedure education,176,0.020491,1.93
+46271823,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 710078009: Management of stoma care,176,0.020491,8.09
+43020942,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 472824009: Fetal echocardiography screening,172,0.020026,12.83
+2789359,"Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||ICD-10 Procedure Coding System (CMS) B030Y0Z: Magnetic Resonance Imaging (MRI) of Brain using Other Contrast, Unenhanced and Enhanced",168,0.01956,3.1
+4145254,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 307808008: Neuropsychological testing,168,0.01956,10.27
+4059953,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169430000: Electrotherapy,166,0.019327,127.85
+4082553,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 183131009: Prescription of spectacles,165,0.019211,5.1
+4098814,Procedure on visual system||Ophthalmic examination and evaluation||Visual testing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252886007: Refraction assessment,165,0.019211,5.1
+4230167,Procedure on respiratory system||Respiratory therapy||Assisted breathing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 40617009: Artificial respiration,164,0.019094,263.04
+4058185,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169048002: Cineradiography - gastrointestinal tract,163,0.018978,12.53
+4233227,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 89846007: Orthopantogram,163,0.018978,5.55
+4140920,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 425851003: Fiberoptic endoscopic submucosal resection of lesion of colon,162,0.018861,2.07
+4022171,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116861002: Transfusion of fresh frozen plasma,161,0.018745,80.16
+4230677,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 350681005: Manual muscle-testing with total evaluation of body,161,0.018745,7.2
+44513978,NA||NA||NA||OPCS Classification of Interventions and Procedures version 4 (NHS) T45.3: Image controlled percutaneous drainage of abdominal abscess NEC,161,0.018745,4.21
+4330519,Procedure on cardiovascular system||Procedure on blood vessel||Diagnostic procedure on blood vessel||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 431648005: Transcranial doppler ultrasonography,159,0.018512,2.75
+2110316,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Current Procedural Terminology version 4 (AMA) 59514: Cesarean delivery only,155,0.018046,1.79
+36684954,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 459451000124105: Assessment using dementia severity rating scale,154,0.01793,11.62
+4060499,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169068008: CT of neck,154,0.01793,3.95
+4179815,Procedure on nervous system||Neurological investigation||Neuroelectrophysiology test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 42803009: Electromyography,148,0.017231,8.78
+2213295,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 88329: Pathology consultation during surgery,147,0.017115,2.88
+4029715,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 108290001: Radiation oncology AND/OR radiotherapy,145,0.016882,2.51
+2792805,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||ICD-10 Procedure Coding System (CMS) BV49ZZZ: Ultrasonography of Prostate and Seminal Vesicles,139,0.016183,2.17
+4145739,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 34227000: Computerized axial tomography of brain,139,0.016183,4.77
+4024639,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116810007: Transfusion of plateletpheresis product,137,0.015951,78.23
+2109368,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Current Procedural Terminology version 4 (AMA) 47600: Cholecystectomy,136,0.015834,1.98
+4204138,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 433695001: Warming subject using infusion of warm intravenous fluid,136,0.015834,2.87
+4310408,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 85217002: Distal subtotal gastrectomy,136,0.015834,2
+36713201,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 395561000119108: Computed tomography of soft tissues of neck without contrast,135,0.015718,9.15
+4254766,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410006001: Digital examination of rectum,135,0.015718,2.35
+37399728,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 718372000: Assessment using CDR,134,0.015601,4.63
+4246330,Ophthalmologic and otologic diagnosis and treatment||Objective functional tests of eye||Electronystagmogram||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 59851008: Electronystagmogram,134,0.015601,3.01
+37016875,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 713021002: Plain radiography of pelvis,133,0.015485,5.57
+4112475,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 285580006: Taking swab for specific organism,132,0.015368,3.21
+4231419,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 89305009: Abdominal paracentesis,132,0.015368,10.77
+2002828,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 46.39: Other enterostomy",130,0.015136,3.04
+4275911,Breast procedure||Operation on breast||Excision of breast tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 64368001: Partial mastectomy,130,0.015136,1.78
+46273905,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 710846002: Assessment of depressed mood,130,0.015136,4.77
+42709988,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 449860009: Insertion of nontunneled central venous catheter,129,0.015019,19.59
+2314104,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Electroencephalogram||Current Procedural Terminology version 4 (AMA) 95819: Electroencephalogram (EEG); including recording awake and asleep,128,0.014903,3.58
+4176880,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 49345004: Radiography of hand,128,0.014903,8.4
+4294917,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385711002: Enema administration management,127,0.014786,13.4
+4281665,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 66769009: Radiography of cervical spine,126,0.01467,3.6
+4198451,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 315028004: Contrast radiography via drain,125,0.014553,5.08
+4290232,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 69212005: Range of motion testing,125,0.014553,7.06
+4346193,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241047004: Dental X-ray periapical,125,0.014553,11.27
+4039895,Procedure on cardiovascular system||Cardiovascular investigation||Cardiovascular measurement||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 117610000: Measurement of cardiac output,124,0.014437,2.73
+4252403,Procedure on nervous system||Neurological investigation||Vestibular function test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 73933001: Optokinetic nystagmus test,124,0.014437,3.05
+4306207,Breast procedure||Biopsy of breast||Non-surgical breast biopsy||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 387736007: Fine needle aspiration of breast,124,0.014437,2.92
+4047288,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 229914003: Nasogastric feeding,123,0.014321,306.61
+4013354,Procedure on respiratory system||Respiratory tract procedure||Intubation of respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 112798008: Insertion of endotracheal tube,120,0.013971,9.17
+4240305,Procedure on respiratory system||Procedure on pleura||Thoracentesis||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 91602002: Thoracentesis,120,0.013971,7.89
+4303967,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 419306001: Fluoroscopic fistulography,119,0.013855,6.51
+4122777,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234246002: Selective neck dissection of cervical lymph nodes,118,0.013739,1.47
+2792517,"Breast procedure||MRI of breast||MRI of breast with contrast||ICD-10 Procedure Coding System (CMS) BH32Y0Z: Magnetic Resonance Imaging (MRI) of Bilateral Breasts using Other Contrast, Unenhanced and Enhanced",117,0.013622,3.74
+4254897,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410157004: Occupational therapy management,117,0.013622,160.04
+4126495,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 304492001: Activities of daily living assessment,116,0.013506,8.51
+4108618,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 284376006: Examination of finger,114,0.013273,8.48
+44788939,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 196691000000109: Language assessment,114,0.013273,3.37
+45766877,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 704133008: Vaginal care management,114,0.013273,3.56
+4213040,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 392010000: Optical coherence tomography,112,0.01304,4.14
+4059073,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 168854009: Cystography,111,0.012924,2.58
+4171710,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 42075002: Diagnostic radiography of skull,111,0.012924,2.41
+2791494,"NA||NA||NA||ICD-10 Procedure Coding System (CMS) BR3CY0Z: Magnetic Resonance Imaging (MRI) of Pelvis using Other Contrast, Unenhanced and Enhanced",110,0.012807,3.67
+36713181,CT of systems||CT of paranasal sinuses||CT of paranasal sinus without contrast||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 383471000119101: CT of paranasal sinus without contrast,110,0.012807,2.04
+40480524,Procedure on digestive system||Procedure on digestive organ||Procedure on liver||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 441802002: Imaging of liver,110,0.012807,3.85
+4082696,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241570001: CT of lower limb,110,0.012807,10.72
+4252419,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 74016001: Radiologic examination of knee,108,0.012574,3.6
+2211321,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 70360: Radiologic examination; neck, soft tissue",106,0.012341,1.45
+4257836,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410092005: Ostomy care management,106,0.012341,2.25
+2110284,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 59025: Fetal non-stress test,105,0.012225,4.35
+2787927,"Procedure on digestive system||Digestive system contrast procedure||Liver and/or pancreas and/or biliary tract contrast procedure||ICD-10 Procedure Coding System (CMS) BF35Y0Z: Magnetic Resonance Imaging (MRI) of Liver using Other Contrast, Unenhanced and Enhanced",105,0.012225,2.64
+40482732,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 442309004: Insertion of tunneled venous catheter,105,0.012225,3.17
+4106220,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 29592009: Radiography of shoulder,104,0.012109,3.24
+4140745,Procedure on cardiovascular system||Cardiovascular investigation||Cardiovascular measurement||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 427259007: Measurement of cardiovascular autonomic nervous system,104,0.012109,2.09
+4071011,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 173333008: Scaling of tooth,103,0.011992,6.67
+4076854,Procedure on nervous system||Procedure on central nervous system||Progressive central nervous system disease rehabilitation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 18007005: Progressive central nervous system disease rehabilitation,103,0.011992,189.68
+4155151,Procedure on respiratory system||Respiratory therapy||Oxygen therapy||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 371907003: Oxygen administration by nasal cannula,103,0.011992,290.05
+35609892,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 1087351000000102: Assessment using GDS,102,0.011876,7.57
+4189586,Procedure on genitourinary system||Urogenital system investigation||Gynecologic examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 392003006: Colposcopy,101,0.011759,3.38
+2721415,"NA||NA||NA||Healthcare Common Procedure Coding System (CMS) S8950: Complex lymphedema therapy, each 15 minutes",99,0.011526,16.74
+2749934,"NA||NA||NA||ICD-10 Procedure Coding System (CMS) 0F9: Hepatobiliary System and Pancreas, Drainage",99,0.011526,5.78
+2792816,NA||NA||NA||ICD-10 Procedure Coding System (CMS) BW0MZZZ: Plain Radiography of Infant Whole Body,98,0.01141,3.61
+4151121,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 314592008: Low anterior resection of rectum,98,0.01141,1.74
+4209298,"Lymphatic, spleen and bone marrow procedures||Procedure on bone marrow||Bone marrow sampling||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 56241004: Bone marrow biopsy, needle or trocar",98,0.01141,3.28
+44790514,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236071000000107: Neuropsychology test of memory,98,0.01141,8.81
+4262010,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410213006: Tracheostomy care management,96,0.011177,441.2
+4304943,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 386718000: Endoscopic retrograde cholangiopancreatography,96,0.011177,3.65
+37109569,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 723289007: Training in extending range of activity of daily living,95,0.011061,108.6
+4332856,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231319006: Local anesthetic dental infiltration,95,0.011061,6.94
+762795,Procedure on nervous system||Neurostimulation/modulation||Electrical nerve stimulation procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 432061000124105: Percutaneous electrical nerve stimulation,94,0.010944,70.61
+4305077,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 386792000: Transurethral resection of bladder neoplasm,93,0.010828,2.88
+2109041,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 44140: Colectomy, partial; with anastomosis",91,0.010595,2.19
+4082839,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241645008: MRI of spine,91,0.010595,2.77
+4233305,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 439939004: Endoscopic ultrasonography of bronchus,91,0.010595,4.75
+36713048,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 16335031000119103: High resolution computed tomography of chest without contrast,89,0.010362,2.62
+4345928,Procedure on digestive system||Digestive system contrast procedure||Gastrointestinal tract contrast procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241157000: Upper gastrointestinal tract series,89,0.010362,6.81
+4097597,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 25022002: Closure of enteroenteric fistula,88,0.010246,3.12
+4017330,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 173984004: Attention to ileostomy,86,0.010013,2.73
+4118897,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 288185006: Inhalation general anesthesia,86,0.010013,2.06
+4282906,Procedure on nervous system||Neurological investigation||Vestibular function test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 66608006: Caloric vestibular test,86,0.010013,3.14
+4076661,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 225061008: Pre-employment screening,84,0.00978,1.95
+4021179,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 225398001: Neurological assessment,83,0.009664,5.04
+4092279,Procedure on genitourinary system||Urogenital system investigation||Examination of urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 281011001: Examination of urinary system,81,0.009431,3.3
+4120120,Procedure on cardiovascular system||Procedure on blood vessel||Vascular surgery procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 302497006: Hemodialysis,81,0.009431,1602.35
+4208393,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 55162003: Tooth extraction,80,0.009314,3.75
+40492803,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 447433001: Endoscopic sphenoidectomy with turbinectomy,79,0.009198,1.58
+4086260,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241577003: CT of spine,79,0.009198,14.06
+4332587,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231230006: Local anesthetic inferior alveolar nerve block,79,0.009198,3.87
+4082846,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241664002: MRI of cerebral vessels,76,0.008849,2.24
+4296597,Procedure on cardiovascular system||Cardiovascular investigation||Cardiac function testing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 76746007: Cardiovascular stress testing,76,0.008849,1.74
+4160711,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 431410007: Nephrostomy using fluoroscopic guidance,75,0.008732,5.8
+4166855,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 4558008: Anterior resection of rectum,74,0.008616,2.47
+2000269,"Endocrine system and/or breast operations||Operation on endocrine system||Thyroid gland and/or parathyroid gland operations||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 06.2: Unilateral thyroid lobectomy",73,0.008499,1.21
+4181438,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 52221007: Radiography of foot,73,0.008499,4.74
+42537845,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 737492002: Outpatient care management,73,0.008499,2.75
+2791488,"NA||NA||NA||ICD-10 Procedure Coding System (CMS) BR37Y0Z: Magnetic Resonance Imaging (MRI) of Thoracic Spine using Other Contrast, Unenhanced and Enhanced",72,0.008383,3.67
+4013636,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 113091000: Magnetic resonance imaging,72,0.008383,3.07
+44789813,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 223811000000102: Percutaneous transhepatic biliary drainage single,72,0.008383,5.64
+40480560,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 443215008: Single photon emission computed tomography with computed tomography cardiac stress ventriculography,71,0.008266,2.34
+40481420,CT of systems||CT of cardiovascular system||Single photon emission computed tomography with computed tomography ventriculography at cardiac rest||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 443368004: Single photon emission computed tomography with computed tomography ventriculography at cardiac rest,71,0.008266,2.34
+4140316,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 426889002: Fiberoptic endoscopic submucosal resection of lesion of upper gastrointestinal tract,71,0.008266,2.14
+4040383,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 118629009: Functional training,70,0.00815,208.37
+4231736,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 359615001: Partial lobectomy of lung,70,0.00815,2.2
+2212946,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 86901: Blood typing, serologic; Rh (D)",69,0.008034,19.06
+4106711,Procedure on endocrine system||Non-surgical endocrine biopsy||Fine needle biopsy of thyroid||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 29872008: Fine needle biopsy of thyroid,69,0.008034,2.81
+4194672,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 79206001: Specialized medical examination,69,0.008034,2.75
+4210275,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 311569007: Dysphagia therapy regime,69,0.008034,66.88
+2108909,Procedure on endocrine system||Procedure on pancreas||Removal of calculus from pancreatic duct||Current Procedural Terminology version 4 (AMA) 43264: Endoscopic retrograde cholangiopancreatography (ERCP); with removal of calculi/debris from biliary/pancreatic duct(s),68,0.007917,2.01
+4074665,Procedure on respiratory system||Respiratory therapy||Assisted breathing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243147009: Controlled ventilation,68,0.007917,78.31
+2103014,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 20985: Computer-assisted surgical navigational procedure for musculoskeletal procedures, image-less (List separately in addition to code for primary procedure)",67,0.007801,2.21
+2793369,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||ICD-10 Procedure Coding System (CMS) C030KZZ: Positron Emission Tomographic (PET) Imaging of Brain using Fluorine 18 (F-18),67,0.007801,2.78
+4127103,Endocrine system and/or breast operations||Operation on endocrine system||Operation on ovary||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236911001: Excision of tubo-ovarian mass,66,0.007684,1.53
+40488298,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 446522006: Ultrasonography in first trimester,65,0.007568,6.6
+4097527,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 2690005: MRI of pelvis,65,0.007568,3.15
+4098779,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Electroencephalogram||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252735006: Ambulatory EEG,64,0.007451,9.91
+4231845,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 9002005: Manual testing of muscle function,63,0.007335,5
+4181781,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 43075005: Partial resection of colon,62,0.007219,3.31
+44517118,NA||NA||NA||OPCS Classification of Interventions and Procedures version 4 (NHS) Y82.2: Injection of local anaesthetic NEC,62,0.007219,1.45
+2110373,"Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Current Procedural Terminology version 4 (AMA) 60254: Thyroidectomy, total or subtotal for malignancy; with radical neck dissection",61,0.007102,1.66
+4196932,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 79613005: Insertion of tube into rectum,61,0.007102,8.92
+2211347,"Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Current Procedural Terminology version 4 (AMA) 70546: Magnetic resonance angiography, head; without contrast material(s), followed by contrast material(s) and further sequences",59,0.006869,4.02
+4306780,Procedure on genitourinary system||Urogenital system investigation||Gynecologic examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 83607001: Gynecologic examination,59,0.006869,4.32
+2789554,"Procedure on nervous system||Nervous system contrast procedure||MRI of spinal cord with contrast||ICD-10 Procedure Coding System (CMS) B03BY0Z: Magnetic Resonance Imaging (MRI) of Spinal Cord using Other Contrast, Unenhanced and Enhanced",58,0.006753,3.38
+4021434,Procedure on genitourinary system||Removal of device from genitourinary system||Removal of urinary system device||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 176074005: Cystoscopic removal of ureteric stent,58,0.006753,2.95
+4131021,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 26452005: Total gastrectomy,58,0.006753,2.17
+4346618,Procedure on endocrine system||Evaluation of endocrine system||Radioisotope study of endocrine system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241393006: Radionuclide adrenal cortex study,58,0.006753,1.4
+4070719,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 173422009: Tonsillectomy,56,0.00652,1.11
+4141448,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 33195004: Teleradiotherapy procedure,56,0.00652,86.41
+4062346,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 171000001: Social counseling,55,0.006404,2.62
+4195310,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 44575007: Minnesota multiphasic personality inventory,54,0.006287,11.04
+4217207,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 72657008: Intelligence test,54,0.006287,2.56
+4326757,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 74914000: Gait training procedure,54,0.006287,105.2
+4337520,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 87423009: Surgical procedure for isolation of tooth with rubber dam,54,0.006287,12.15
+4101113,Procedure on musculoskeletal system||Musculoskeletal system injection||Intra-articular injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 27813003: Intra-articular injection,53,0.006171,4.32
+4197294,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 313006001: Ultrasonic doppler for fetal heart sounds,53,0.006171,2.23
+4264518,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 44977009: Cytopathology procedure, cell block preparation",53,0.006171,3.58
+2007632,"NA||NA||NA||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 93.57: Application of other wound dressing",52,0.006054,642.27
+4012466,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 113024001: Assessment and interpretation of higher cerebral function, cognitive testing",52,0.006054,4.56
+4057891,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 168669007: Plain X-ray of patella,52,0.006054,1.98
+4215155,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 81154005: Bathing patient in sitz bath,52,0.006054,4.06
+4245032,Procedure on nervous system||Neurological investigation||Vestibular function test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 59415007: Positional nystagmus test,52,0.006054,2.4
+4024289,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 19490002: Radiography of ankle,51,0.005938,7.22
+4112701,Procedure on genitourinary system||Urogenital system investigation||Gynecologic examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 18114009: Prenatal examination and care of mother,51,0.005938,1.92
+4180728,Procedure on nervous system||Neurological investigation||Vestibular function test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 42987007: Vestibular function test,51,0.005938,2.04
+2110154,"Procedure on genitourinary system||Dilation of genitourinary system||Cone biopsy of cervix with dilation, curettage and with repair||Current Procedural Terminology version 4 (AMA) 57520: Conization of cervix, with or without fulguration, with or without dilation and curettage, with or without repair; cold knife or laser",50,0.005821,1.48
+4142645,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 33367005: Coronary angiography,50,0.005821,3.6
+4174882,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 424308004: Speech and language therapy education, guidance, and counseling",50,0.005821,20.54
+44804811,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 782151000000104: Biomechanical assessment,50,0.005821,3.9
+2109800,"Examination of body system||Examination of urinary system||Urinary endoscopy||Current Procedural Terminology version 4 (AMA) 52332: Cystourethroscopy, with insertion of indwelling ureteral stent (eg, Gibbons or double-J type)",49,0.005705,10.24
+40489350,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 446765009: Assessment using Beck depression inventory,49,0.005705,13.65
+4253523,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 74770008: Exploratory laparotomy,48,0.005589,3.65
+4233386,Procedure on musculoskeletal system||Musculoskeletal system paracentesis||Arthrocentesis||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90131007: Arthrocentesis,47,0.005472,6.51
+2106257,"Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Current Procedural Terminology version 4 (AMA) 30520: Septoplasty or submucous resection, with or without cartilage scoring, contouring or replacement with graft",46,0.005356,1.48
+4010253,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 112790001: Nasal sinus endoscopy,46,0.005356,2.22
+4164894,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 45554006: Radiography of thoracic spine,46,0.005356,4.83
+4174208,"Lymphatic, spleen and bone marrow procedures||Procedure on bone marrow||Bone marrow aspiration procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 49401003: Bone marrow aspiration procedure",46,0.005356,3.96
+2110314,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 59430: Postpartum care only (separate procedure),45,0.005239,1.8
+40481977,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 445020001: Change of drainage collection device,45,0.005239,12.91
+4066543,Breast procedure||Operation on breast||Excision of breast tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 172043006: Simple mastectomy,45,0.005239,1.76
+4075297,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 178284008: Block dissection of mediastinal lymph nodes,45,0.005239,2.04
+4254477,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 409063005: Counseling,45,0.005239,2.82
+4330377,CT of systems||CT of paranasal sinuses||CT of paranasal sinuses with contrast||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 431492000: CT of paranasal sinuses with contrast,45,0.005239,2.29
+4337604,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232633004: Single wedge excision of lung,45,0.005239,1.58
+45765517,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 702474001: Cognitive rehabilitation therapy,45,0.005239,63.73
+36713274,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 527231000119104: CT of temporal bone without contrast,44,0.005123,2.05
+4078199,Procedure on nervous system||Procedure on central nervous system||Injection of spinal epidural space||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 18946005: Epidural anesthesia,44,0.005123,3.18
+4249428,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 406904004: Nitrazine yellow stain method,44,0.005123,1.98
+4311458,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 424475001: Radiographic imaging of lower leg,44,0.005123,2.39
+4088246,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Electroencephalogram||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 18648009: Sleep electroencephalogram,43,0.005006,1.95
+4141649,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 266699008: Functional electrical skeletal muscle stimulation procedures,43,0.005006,99.02
+4311671,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 85548006: Episiotomy,43,0.005006,1.84
+4312604,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 85921004: Puncture procedure,43,0.005006,1.42
+2313714,"Procedure on nervous system||Neurological investigation||Vestibular function test||Current Procedural Terminology version 4 (AMA) 92541: Spontaneous nystagmus test, including gaze and fixation nystagmus, with recording",42,0.00489,2.33
+4197926,Procedure on genitourinary system||Procedure on female genital system||Biopsy of female genital system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 51675008: Punch biopsy of cervix,42,0.00489,2.74
+46270731,Procedure on nervous system||Neurostimulation procedure||Evoked potential study||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 708691004: Somatosensory evoked potential study,42,0.00489,2.67
+4003875,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 119954001: Adenoid excision,41,0.004774,1.17
+4038188,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 229033006: Radioisotope scan of total body,41,0.004774,3
+4059831,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169349000: Internal radiotherapy - unsealed source,41,0.004774,1.83
+4082345,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241093001: Thoracolumbar spine X-ray,41,0.004774,2.88
+4232396,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 439742002: Respiratory isolation,41,0.004774,3168.27
+4257833,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 410077009: Patient transfer management,41,0.004774,4.12
+4273755,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 367408005: Incision of chest wall,41,0.004774,9.95
+4311933,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Procedure on skin||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 85875009: Debridement of wound of skin,41,0.004774,5.32
+4177789,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 49626003: Diagnostic radiography of scapula,40,0.004657,6.03
+4196341,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 79760008: Radiography of spine,40,0.004657,2.75
+4301459,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385765002: Hospice care management,40,0.004657,9.12
+2109603,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Current Procedural Terminology version 4 (AMA) 50398: Change of nephrostomy or pyelostomy tube,39,0.004541,13.03
+2314138,"Procedure on nervous system||Neurological investigation||Neuroelectrophysiology test||Current Procedural Terminology version 4 (AMA) 95923: Testing of autonomic nervous system function; sudomotor, including 1 or more of the following: quantitative sudomotor axon reflex test (QSART), silastic sweat imprint, thermoregulatory sweat test, and changes in sympathetic skin potential",39,0.004541,2.18
+4093110,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252618004: Auditory brainstem response threshold test,39,0.004541,1.64
+4110978,Procedure on nervous system||Procedure on central nervous system||Injection of spinal epidural space||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 180885006: Local anesthetic lumbar epidural block,39,0.004541,3.62
+2002747,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 45.62: Other partial resection of small intestine",38,0.004424,2.37
+2106562,"Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Current Procedural Terminology version 4 (AMA) 31600: Tracheostomy, planned (separate procedure)",38,0.004424,27.42
+2109141,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 44950: Appendectomy,38,0.004424,2.61
+2791476,"NA||NA||NA||ICD-10 Procedure Coding System (CMS) BR30Y0Z: Magnetic Resonance Imaging (MRI) of Cervical Spine using Other Contrast, Unenhanced and Enhanced",37,0.004308,2.24
+36717564,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 722492002: Postoperative procedure,37,0.004308,5.86
+4069340,Procedure on digestive system||Digestive system contrast procedure||Liver and/or pancreas and/or biliary tract contrast procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174682006: T tube cholangiogram,37,0.004308,7.51
+4103380,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 28939002: Endoscopic polypectomy of large intestine,37,0.004308,2.16
+4185434,Procedure on digestive system||Removal of device from digestive system||Removal of dental implant||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 44095009: Removal of dental implant,37,0.004308,4.76
+4256910,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 408740001: Radiography of hip,37,0.004308,5.59
+4260952,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 45097009: Orbicularis oculi reflex test,37,0.004308,1.78
+4272012,Procedure on cardiovascular system||Procedure on blood vessel||Vascular cannula insertion||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 63421002: Insertion of cannula for hemodialysis,37,0.004308,3.73
+4328798,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 430509005: Examination of fluid specimen,37,0.004308,4.68
+2108162,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 36513: Therapeutic apheresis; for platelets,36,0.004191,28.78
+2792587,"Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||ICD-10 Procedure Coding System (CMS) BV33Y0Z: Magnetic Resonance Imaging (MRI) of Prostate using Other Contrast, Unenhanced and Enhanced",36,0.004191,2.44
+40492724,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 445802006: Assessment using psychotic symptom rating scale,36,0.004191,4.36
+4067461,Procedure on digestive system||Procedure on digestive organ||Procedure on liver||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174430004: Resection of segment of liver,36,0.004191,2.22
+4198105,Procedure on nervous system||Procedure on peripheral nervous system||Peripheral neurophysiological procedures||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 51110005: Nerve conduction study,36,0.004191,1.81
+42872678,Procedure on genitourinary system||Procedure on female genital system||Operation on female genital organs||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 450669005: Excision of adnexa of uterus,36,0.004191,1.69
+4306147,Procedure on cardiovascular system||Procedure on blood vessel||Diagnostic procedure on blood vessel||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 8306009: Diagnostic Doppler ultrasonography,36,0.004191,2.31
+4021989,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 115959002: Stereotactic radiosurgery,35,0.004075,9.94
+4103016,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 2535006: Pulpectomy,35,0.004075,4.34
+4125950,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234707000: Root canal preparation,35,0.004075,12.57
+4154551,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 370885003: Activities of daily living management,35,0.004075,3.14
+4208099,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 55670007: Endodontic procedure,35,0.004075,12.29
+4210480,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 56333001: Nerve block,35,0.004075,14.57
+4346833,Procedure on digestive system||Digestive system contrast procedure||Gastrointestinal tract contrast procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241165002: Single contrast barium enema,35,0.004075,5.14
+2102679,"Breast procedure||Operation on breast||Operation on nipple||Current Procedural Terminology version 4 (AMA) 19120: Excision of cyst, fibroadenoma, or other benign or malignant tumor, aberrant breast tissue, duct lesion, nipple or areolar lesion (except 19300), open, male or female, 1 or more lesions",34,0.003959,1.88
+4020330,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116242006: Pylorus-sparing pancreaticoduodenectomy,34,0.003959,2.38
+4082840,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241646009: MRI of cervical spine,34,0.003959,3.15
+4098784,Procedure on nervous system||Procedure on peripheral nervous system||Peripheral neurophysiological procedures||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252748005: Repetitive nerve stimulation,34,0.003959,29.82
+4122977,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Operation on skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 304039000: Skin flap operation,34,0.003959,3
+4123252,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234700003: Cavity preparation of tooth - pulpal access,34,0.003959,5.82
+4150970,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 31208007: Medical induction of labor,34,0.003959,1.68
+4191700,Procedure on musculoskeletal system||Musculoskeletal system injection||Injection of trigger points||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 39074004: Injection of trigger points,34,0.003959,3.21
+4243062,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60027007: Radiography of wrist,34,0.003959,5.65
+4278515,Procedure on genitourinary system||Procedure on male genital system||Procedure on male genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 65575008: Biopsy of prostate,34,0.003959,2.62
+4336678,Procedure on visual system||Ophthalmic examination and evaluation||Visual testing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 86944008: Visual field study,34,0.003959,1.85
+44809577,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 846521000000106: Compression therapy,34,0.003959,43.91
+4028982,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 13678003: Transanal enema,33,0.003842,32.18
+4085290,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241076001: Tibia and/or fibula X-ray,33,0.003842,2.73
+4147588,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Operation on skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 35646002: Excision of lesion of skin,33,0.003842,2.42
+37395758,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 715313002: Fluoroscopy guided insertion of colonic stent,32,0.003726,5.06
+40484194,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 445536008: Assessment using assessment scale,32,0.003726,37.34
+4048727,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 15886004: Screening for cancer,32,0.003726,3.38
+4052532,Procedure on genitourinary system||Urogenital system investigation||Gynecologic examination||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 233545006: Hysteroscopy,32,0.003726,3.44
+4062771,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 171399004: Examination for suspected neoplasm,32,0.003726,3.38
+4217197,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 72596008: Biofeedback, pulse wave velocity",32,0.003726,1.62
+44806818,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 822911000000108: Endoscopic submucosal dissection of gastric lesion,32,0.003726,1.06
+2108900,"Examination of body system||Gastrointestinal tract endoscopy||Endoscopy of stomach||Current Procedural Terminology version 4 (AMA) 43255: Esophagogastroduodenoscopy, flexible, transoral; with control of bleeding, any method",31,0.003609,2.71
+4013570,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 103739003: History and physical examination, occupation",31,0.003609,2.65
+4081556,Breast procedure||Mammography||Mammogram magnification||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241058008: Mammogram magnification,31,0.003609,2.81
+4081560,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241075002: Plain X-ray of femur,31,0.003609,2.71
+4091146,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252626007: Distortion product oto-acoustic emission measurement,31,0.003609,3.13
+4124051,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234708005: Irrigation of root canal,31,0.003609,8.84
+4298569,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 76913009: Radiography of elbow,31,0.003609,2
+4049266,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 12341000: Isotope study for glomerular filtration rate,30,0.003493,2.1
+4122234,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 235159007: Percutaneous endoscopic gastrostomy,30,0.003493,8.57
+4122350,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234712004: Root canal obturation,30,0.003493,4.37
+4202579,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 433141005: MRI of lumbar and sacral spine,30,0.003493,5.67
+4277906,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 65795004: Nasal endoscopy with maxillary antrostomy,30,0.003493,1.1
+2109729,"Procedure on genitourinary system||Genitourinary instillation||Instillation of bladder||Current Procedural Terminology version 4 (AMA) 51700: Bladder irrigation, simple, lavage and/or instillation",29,0.003376,7.66
+4028920,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 108313002: Family psychotherapy procedure,29,0.003376,2.69
+4069129,Procedure on digestive system||Procedure on digestive organ||Procedure on liver||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174431000: Wedge resection of liver,29,0.003376,2.07
+4176729,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 4914002: Treatment planning for teletherapy,29,0.003376,3.21
+4245993,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60611001: Vineland social maturity test,29,0.003376,2.38
+4258374,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 408960001: Reproductive care management,29,0.003376,3.28
+4299733,Procedure on genitourinary system||Procedure on female genital system||Biopsy of female genital system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 386802000: Endometrial biopsy,29,0.003376,1.59
+4047347,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 122467006: Fitting procedure,28,0.00326,2.11
+40483384,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 445415008: Assessment using social phobia inventory,28,0.00326,1.5
+4071322,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 21970003: Radiography of ribs,28,0.00326,9.25
+4100330,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Introduction of substance into skin or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 27581000: Intralesional injection of skin,28,0.00326,5.07
+4189015,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Polysomnography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60554003: Polysomnography,28,0.00326,4.11
+4239654,Procedure on nervous system||Neurological investigation||Vestibular function test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 58953000: Nystagmus test,28,0.00326,1.61
+4332586,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231225007: Local anesthetic posterior superior alveolar nerve block,28,0.00326,3.5
+4082528,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241477001: Ultrasonography of intestine,27,0.003144,2.3
+4133500,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 278872003: Intravenous regional analgesia,27,0.003144,1.78
+4170609,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 274025005: Colonic polypectomy,27,0.003144,7.74
+4181584,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 54164009: Rectosigmoidectomy,27,0.003144,5.15
+4213436,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 392446004: Attention to device, anastomosis AND/OR stoma",27,0.003144,2.81
+44816404,"Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Current Procedural Terminology version 4 (AMA) 37244: Vascular embolization or occlusion, inclusive of all radiological supervision and interpretation, intraprocedural roadmapping, and imaging guidance necessary to complete the intervention; for arterial or venous hemorrhage or lymphatic extravasation",27,0.003144,4.15
+45763689,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 700152009: Human papilloma virus screening,27,0.003144,2.22
+45773577,Endocrine system and/or breast operations||Operation on endocrine system||Operation on ovary||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 918511000000102: Radical hysterectomy with bilateral salpingo-oophorectomy,27,0.003144,2.59
+36713060,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 16548951000119100: Single photon emission computed tomography of brain,26,0.003027,4
+4022014,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116033007: Radical nephrectomy,26,0.003027,2.19
+4057680,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 19697009: Debridement and suture,26,0.003027,3.04
+42872582,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 450573002: Restoration of part of tooth using filling,26,0.003027,3.73
+43528024,"Procedure on nervous system||Neurological investigation||Neuroelectrophysiology test||Current Procedural Terminology version 4 (AMA) 95940: Continuous intraoperative neurophysiology monitoring in the operating room, one on one monitoring requiring personal attendance, each 15 minutes (List separately in addition to code for primary procedure)",26,0.003027,5.85
+2795448,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||ICD-10 Procedure Coding System (CMS) F13ZLZZ: Auditory Evoked Potentials Assessment,25,0.002911,1.56
+4124057,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234733008: Polish or finish of tooth restoration,25,0.002911,4.92
+4130185,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236888001: Laparoscopic total hysterectomy,25,0.002911,1.44
+4231563,Procedure on nervous system||Sensory testing||Sensory and motor testing||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 89521000: Sensory and motor testing,25,0.002911,2.88
+4301352,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 387714009: Operation on lung,25,0.002911,2.04
+4343010,Procedure on genitourinary system||Procedure on urinary system||Procedure on ureter||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236185001: Ureteroscopic insertion of ureteric stent,25,0.002911,3.72
+37396191,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 715911009: Assessment using Bayley Scales of Infant Development,24,0.002794,3.79
+40487390,Examination of body system||Gastrointestinal tract endoscopy||Endoscopy of upper gastrointestinal tract and insertion of esophageal stent||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 446332003: Endoscopy of upper gastrointestinal tract and insertion of esophageal stent,24,0.002794,11.62
+4051329,Procedure on cardiovascular system||Procedure on blood vessel||Vascular surgery procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 233580005: Continuous venovenous hemodialysis,24,0.002794,368.21
+4067486,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 172916003: Functional endoscopic sinus surgery - therapeutic endoscopy of nose and sinus,24,0.002794,1.12
+4130310,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236946009: Macdonald's cervical cerclage,24,0.002794,1.12
+4176570,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 48939008: Destruction of retroperitoneal tumor,24,0.002794,1.83
+4222733,Endocrine system and/or breast operations||Operation on endocrine system||Operation on pancreas||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 401004: Distal subtotal pancreatectomy,24,0.002794,1.5
+2110231,"Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Current Procedural Terminology version 4 (AMA) 58572: Laparoscopy, surgical, with total hysterectomy, for uterus greater than 250 g",23,0.002678,1.39
+4042005,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 229912004: Enteral feeding,23,0.002678,184.26
+4098810,Procedure on visual system||Procedure on eye region||Prism cover test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252869001: Prism cover test,23,0.002678,2.91
+4174519,Procedure on musculoskeletal system||Operation on musculoskeletal system||Operation on bone||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 50445001: Mastoidectomy,23,0.002678,1.26
+4265725,Procedure on ear and related structures||Procedure on ear||Operation on the ear||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 397891006: Reconstruction of ossicular chain,23,0.002678,1.35
+4283892,Procedure on mediastinum||Procedure on heart||Procedure on coronary arteries||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 36969009: Placement of stent in coronary artery,23,0.002678,4.65
+37396466,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 716285009: Assessment using Denver Development Screening Test,22,0.002561,4.77
+4021531,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116143008: Total abdominal hysterectomy,22,0.002561,3.09
+4083772,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24737001: Echography of scrotum and contents,22,0.002561,1.41
+4172203,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 274974008: Endoscopic endometrial polypectomy,22,0.002561,10.68
+4232935,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 89887008: Incomplete sentence test,22,0.002561,20.68
+4242272,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 58452000: Physiotherapy training,22,0.002561,27.05
+4245362,Procedure on ear and related structures||Procedure on ear||Operation on the ear||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 396490007: Myringoplasty,22,0.002561,1.27
+4288538,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 396207002: Computerized axial tomography of brain with radiopaque contrast,22,0.002561,3.91
+4312613,Procedure on digestive system||Procedure on digestive organ||Procedure on liver||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 85946004: Lobectomy of liver,22,0.002561,4.05
+46272472,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 710841007: Assessment of anxiety,22,0.002561,20.68
+2102734,"Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Current Procedural Terminology version 4 (AMA) 19305: Mastectomy, radical, including pectoral muscles, axillary lymph nodes",21,0.002445,1.76
+4022807,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 175907006: Nephroureterectomy,21,0.002445,1.9
+40487833,Breast procedure||Operation on breast||Excision of breast tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 446420001: Total mastectomy and axillary clearance,21,0.002445,1.57
+4060394,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 168970005: Superior vena cavogram,21,0.002445,2.14
+4065450,Breast procedure||Operation on breast||Grafting of breast||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 172057008: Reconstruction of breast using myocutaneous flap of latissimus dorsi muscle,21,0.002445,1.67
+4171571,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 42238002: Proctoscopy,21,0.002445,4.95
+4321986,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 70871006: Incisional biopsy,21,0.002445,4.38
+4043019,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 118678004: Procedure on nervous system,20,0.002329,1.55
+4067681,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174525001: Percutaneous cholecystostomy,20,0.002329,1.9
+4184736,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 54810009: Voiding urethrocystography,20,0.002329,1.75
+4346740,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241405008: Radionuclide three-phase bone study,20,0.002329,1.8
+4346838,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241219006: Internal carotid arteriogram,20,0.002329,1.5
+2109143,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 44960: Appendectomy; for ruptured appendix with abscess or generalized peritonitis,19,0.002212,2.42
+4071646,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 173830003: Irrigation of stomach,19,0.002212,1.16
+4082339,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 277554000: Insertion of glass-ionomer restoration into tooth,19,0.002212,5.05
+4102081,Procedure on nervous system||Anatomic and physiologic measurements and manual examinations -- nervous system and sense organs||Electroencephalogram||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252738008: Video EEG,19,0.002212,3.79
+4238681,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 58530006: Bathing patient in bed,19,0.002212,5.68
+4250635,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 73512001: Electron microscopic study,19,0.002212,1.95
+4348301,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243192002: Drug desensitization therapy,19,0.002212,8.37
+44816450,"Procedure on respiratory system||Respiratory therapy||Oscillating positive expiratory pressure (flutter) physiotherapy||Current Procedural Terminology version 4 (AMA) 94669: Mechanical chest wall oscillation to facilitate lung function, per session",19,0.002212,27.89
+37399499,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 716129008: Assessment using Preschool Behavior Checklist,18,0.002096,1.89
+4012925,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 112788002: Operation on accessory sinus,18,0.002096,2.22
+40492795,Ultrasound studies of systems||Ultrasound procedure on cardiovascular system||US angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 445867003: Ultrasonography of arteriovenous fistula,18,0.002096,2
+4063911,Procedure on visual system||Procedure on eye region||Procedure on eye||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 20067007: Ocular fundus photography,18,0.002096,2
+4121940,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234699004: Root planing of tooth,18,0.002096,10.67
+4145687,Procedure on digestive system||Procedure on digestive organ||Procedure on liver||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 426830009: Percutaneous radiofrequency ablation of lesion of liver,18,0.002096,2.11
+4237338,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 408814002: Ultrasound scan for fetal anomaly,18,0.002096,2.67
+4246069,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60660006: Caldwell-Luc operation with removal of membrane lining,18,0.002096,1.61
+4273223,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 64461008: Seizure precautions,18,0.002096,1.61
+4287923,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 397905008: Patient controlled epidural analgesia,18,0.002096,2.28
+4326029,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Biopsy of skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 430107001: Fine needle aspiration biopsy of skin,18,0.002096,3.33
+2110179,"Endocrine system and/or breast operations||Operation on endocrine system||Operation on ovary||Current Procedural Terminology version 4 (AMA) 58210: Radical abdominal hysterectomy, with bilateral total pelvic lymphadenectomy and para-aortic lymph node sampling (biopsy), with or without removal of tube(s), with or without removal of ovary(s)",17,0.001979,2.29
+2314175,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 95992: Canalith repositioning procedure(s) (eg, Epley maneuver, Semont maneuver), per day",17,0.001979,2.47
+2793090,"NA||NA||NA||ICD-10 Procedure Coding System (CMS) BW30Y0Z: Magnetic Resonance Imaging (MRI) of Abdomen using Other Contrast, Unenhanced and Enhanced",17,0.001979,3.59
+35609767,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 1085671000000109: Autism spectrum disorder diagnostic assessment,17,0.001979,2
+4062637,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 171126009: Tuberculosis screening,17,0.001979,2.35
+4170912,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 42003005: Arteriography of superior mesenteric artery,17,0.001979,6.24
+4180248,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 52052004: Rehabilitation therapy,17,0.001979,2
+43021737,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 473381003: Transthoracic echocardiography for congenital heart disease,17,0.001979,3.76
+2008358,"Procedure on mediastinum||Procedure on heart||Procedure for arrhythmia||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 99.62: Other electric countershock of heart",16,0.001863,3.88
+2108474,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Current Procedural Terminology version 4 (AMA) 38562: Limited lymphadenectomy for staging (separate procedure); pelvic and para-aortic,16,0.001863,2.94
+2108907,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 43262: Endoscopic retrograde cholangiopancreatography (ERCP); with sphincterotomy/papillotomy,16,0.001863,5.19
+2109639,"Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Current Procedural Terminology version 4 (AMA) 50605: Ureterotomy for insertion of indwelling stent, all types",16,0.001863,3.12
+4047491,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 1225002: Radiography of humerus,16,0.001863,2.06
+4101103,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 27827008: Therapeutic paraffin bath,16,0.001863,28.75
+4103072,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 28812006: Hemodialysis education,16,0.001863,2.75
+4113928,Procedure on digestive system||Digestive system contrast procedure||Gastrointestinal tract contrast procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 285754008: Contrast radiography of esophagus,16,0.001863,5.5
+4229247,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 406867009: Immunofluorescent stain method,16,0.001863,13.94
+4234536,Procedure on genitourinary system||Procedure on male genital system||Procedure on male genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90199006: Transurethral prostatectomy,16,0.001863,1.56
+42872568,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 450559006: Laparoscopic myomectomy,16,0.001863,1
+4295954,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385738009: Dying/death measures management,16,0.001863,3.62
+43021519,Endocrine system and/or breast operations||Operation on endocrine system||Operation on ovary||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 473239006: Bilateral oophorectomy for malignant neoplasm of ovary,16,0.001863,1.38
+4345948,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241217008: Cerebral four vessel angiogram,16,0.001863,1.38
+44788943,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 196731000000103: Speech assessment,16,0.001863,1
+2108993,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 43820: Gastrojejunostomy; without vagotomy,15,0.001746,2.07
+2109120,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 44615: Intestinal stricturoplasty (enterotomy and enterorrhaphy) with or without dilation, for intestinal obstruction",15,0.001746,3.07
+4018300,"Lymphatic, spleen and bone marrow procedures||Procedure on spleen||Operation on spleen||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174776001: Total splenectomy",15,0.001746,1.8
+4021169,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 225372007: Total parenteral nutrition,15,0.001746,72.33
+4022946,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 175971006: Antegrade pyelogram,15,0.001746,3.07
+4082988,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241647000: MRI of thoracic spine,15,0.001746,1.4
+4107670,Procedure on ear and related structures||Procedure on ear||Operation on the ear||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 284532000: Myringotomy and insertion of tympanic ventilation tube,15,0.001746,1.47
+4120795,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234673006: Surgical removal of impacted tooth,15,0.001746,2.6
+4165117,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 41214003: Excision of bile duct tumor with repair,15,0.001746,4.47
+4220704,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 82468009: Subgingival curettage,15,0.001746,6.07
+4234723,Procedure on musculoskeletal system||Procedure on tendon sheath||Injection of tendon sheath||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90203006: Injection of tendon sheath,15,0.001746,2.4
+43531306,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 609017008: Microscopic examination of specimen from bone marrow,15,0.001746,4.4
+2108225,"Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Current Procedural Terminology version 4 (AMA) 36580: Replacement, complete, of a non-tunneled centrally inserted central venous catheter, without subcutaneous port or pump, through same venous access",14,0.00163,7.86
+2211470,"Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Current Procedural Terminology version 4 (AMA) 73223: Magnetic resonance (eg, proton) imaging, any joint of upper extremity; without contrast material(s), followed by contrast material(s) and further sequences",14,0.00163,3.71
+4032240,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract rehabilitation procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 108228000: Respiratory tract rehabilitation procedure,14,0.00163,85.36
+4048639,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232518002: Sleep nasendoscopy,14,0.00163,1.57
+4073624,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243072006: Cancer education,14,0.00163,1.43
+4085401,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Biopsy of skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 282014007: Incision biopsy of skin,14,0.00163,2.21
+4146045,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 34536000: Amniocentesis,14,0.00163,1.21
+4186758,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 46480003: Celiac angiography,14,0.00163,5.29
+4195819,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 312731002: Subclavian venography,14,0.00163,7.86
+4201352,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 432675001: Positron emission tomography fluorodeoxyglucose imaging of whole body,14,0.00163,3.14
+4205771,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 438527007: Ultrasonography of soft tissue,14,0.00163,2.29
+4237845,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 91186003: Radiography for bone length studies,14,0.00163,2.86
+4238911,"Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 91438000: Amalgam restoration, one surface, primary",14,0.00163,3.43
+4271435,Procedure on nervous system||Neurostimulation procedure||Evoked potential study||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 63107007: Visual evoked potential study,14,0.00163,2.07
+4347774,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241195005: Epidurogram,14,0.00163,2.93
+44513189,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Operation on skin and/or subcutaneous tissue||OPCS Classification of Interventions and Procedures version 4 (NHS) S41.8: Other specified suture of skin of head or neck,14,0.00163,2.43
+4020329,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116241004: Pancreaticoduodenectomy,13,0.001514,2.31
+4034524,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 11377005: Direct laryngoscopy with excision of tumor,13,0.001514,24.15
+4091871,Procedure on nervous system||Procedure on olfactory system||Olfaction test||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252559003: Olfaction test,13,0.001514,1.46
+4222885,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 40174006: Isolation technique,13,0.001514,48.54
+4253530,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 74809003: Radiography of forearm,13,0.001514,3.54
+4267724,Procedure on ear and related structures||Procedure on ear||Operation on the ear||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 62894000: Electrocochleography,13,0.001514,12.62
+4306793,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 83658004: Nasoenteric tube maintenance,13,0.001514,9.31
+4337586,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232561004: Excision of mucosal lesion of vocal cord,13,0.001514,1.54
+44790528,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 237721000000108: Neuropsychology test of executive function,13,0.001514,9.23
+44806769,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 813611000000102: Rigid ureteroscopy,13,0.001514,2.46
+2007488,"NA||NA||NA||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 92.29: Other radiotherapeutic procedure",12,0.001397,11.08
+2109816,"Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Current Procedural Terminology version 4 (AMA) 52352: Cystourethroscopy, with ureteroscopy and/or pyeloscopy; with removal or manipulation of calculus (ureteral catheterization is included)",12,0.001397,2.08
+2110326,"Procedure on genitourinary system||Procedure on female genital system||Operation on female genital organs||Current Procedural Terminology version 4 (AMA) 59820: Treatment of missed abortion, completed surgically; first trimester",12,0.001397,1
+2110444,"Procedure on musculoskeletal system||Operation on musculoskeletal system||Operation on bone||Current Procedural Terminology version 4 (AMA) 61510: Craniectomy, trephination, bone flap craniotomy; for excision of brain tumor, supratentorial, except meningioma",12,0.001397,6.25
+2211500,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 73720: Magnetic resonance (eg, proton) imaging, lower extremity other than joint; without contrast material(s), followed by contrast material(s) and further sequences",12,0.001397,2.08
+2314143,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 95929: Central motor evoked potential study (transcranial motor stimulation); lower limbs,12,0.001397,2.67
+2790987,NA||NA||NA||ICD-10 Procedure Coding System (CMS) BR0FZZZ: Plain Radiography of Sacrum and Coccyx,12,0.001397,4.33
+4001359,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 119880004: Esophagus reconstruction,12,0.001397,4.25
+4019824,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 105376000: Transesophageal echocardiography,12,0.001397,1.75
+4041263,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 118677009: Procedure on urinary system,12,0.001397,3.17
+4061132,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169237004: US brain scan,12,0.001397,2.17
+40756782,"Procedure on nervous system||Operation on nervous system||Operation on brain||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 02.21: Insertion or replacement of external ventricular drain [EVD]",12,0.001397,2.83
+4092980,Procedure on respiratory system||Respiratory tract procedure||Respiratory tract evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252572002: Laryngeal stroboscopy,12,0.001397,1
+4118954,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 22791004: X-ray of lumbosacral spine,12,0.001397,2
+4167978,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 48219004: Excision of lesion of soft tissue,12,0.001397,3.17
+4174035,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 49209004: Subtotal gastrectomy,12,0.001397,1.25
+4287375,Procedure on nervous system||Operation on nervous system||Operation on brain||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 69483009: Shunt of cerebral ventricle to extracranial site,12,0.001397,2.25
+4302897,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 78706005: Radical lymph node dissection of neck region,12,0.001397,4.17
+4337034,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232632009: Wedge excision of lung,12,0.001397,1.08
+44513882,NA||NA||NA||OPCS Classification of Interventions and Procedures version 4 (NHS) T25.8: Other specified primary repair of incisional hernia,12,0.001397,1.33
+2000307,"Endocrine system and/or breast operations||Operation on endocrine system||Operation on adrenal gland||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 07.22: Unilateral adrenalectomy",11,0.001281,1.27
+2108852,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 43101: Excision of lesion, esophagus, with primary repair; thoracic or abdominal approach",11,0.001281,4.45
+2111197,Procedure on ear and related structures||Procedure on ear||Procedure on external ear||Current Procedural Terminology version 4 (AMA) 69200: Removal foreign body from external auditory canal; without general anesthesia,11,0.001281,3.91
+2314142,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 95928: Central motor evoked potential study (transcranial motor stimulation); upper limbs,11,0.001281,2.82
+4022024,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 175463001: Vertebral arteriogram,11,0.001281,1
+4044905,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 129250002: Percutaneous urinary vesicostomy,11,0.001281,3.45
+40492905,Procedure on cardiovascular system||Cardiovascular investigation||Imaging of heart||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 447525000: Radionuclide electrocardiography gated myocardial perfusion rest study using technetium (99m-Tc) tetrofosmin,11,0.001281,3.18
+4091124,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252557001: Acoustic rhinometry,11,0.001281,2
+4096783,Procedure on genitourinary system||Procedure on male genital system||Procedure on male genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 26294005: Radical prostatectomy,11,0.001281,1.27
+4127886,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236886002: Hysterectomy,11,0.001281,11.55
+4139758,Procedure on genitourinary system||Procedure on male genital system||Procedure on male genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 33030009: Seminal vesiculectomy,11,0.001281,1.27
+4142969,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 265059000: Open myomectomy,11,0.001281,2.36
+4149930,Procedure on mediastinum||Other operations on heart and pericardium||Pericardiocentesis||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 309849004: Pericardiocentesis,11,0.001281,6.27
+4194409,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 395118002: Metabolic screening test,11,0.001281,1.36
+4211672,"Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 57084002: Amalgam restoration, two surfaces, primary",11,0.001281,4.09
+4294170,Procedure on endocrine system||Evaluation of endocrine system||Radioisotope study of endocrine system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385443001: Radionuclide thyroid imaging,11,0.001281,1
+4298492,Breast procedure||Operation on breast||Excision of breast tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 384723003: Radical mastectomy,11,0.001281,2.64
+4337972,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 87411003: Diagnostic radiography of nasal bones,11,0.001281,6.45
+44784306,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 698409004: Colonoscopic control of bleeding,11,0.001281,2.18
+46271678,Procedure on cardiovascular system||Procedure on blood vessel||Vascular surgery procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 709863004: Angioplasty of abdominal vascular structure,11,0.001281,2.27
+2102753,"Breast procedure||Insertion of prosthesis for breast||Immediate insertion of breast prosthesis||Current Procedural Terminology version 4 (AMA) 19340: Immediate insertion of breast prosthesis following mastopexy, mastectomy or in reconstruction",10,0.001164,1.2
+4040556,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 118818008: Procedure on tooth,10,0.001164,4.3
+4073199,Endocrine system and/or breast operations||Operation on endocrine system||Thyroid gland and/or parathyroid gland operations||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 24443003: Total thyroidectomy,10,0.001164,1.3
+4086254,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241563001: CT of upper limb,10,0.001164,3.1
+4091733,Procedure on ear and related structures||Audiologic AND/OR audiometric test including vestibular function||Audiological evaluation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252603000: Tinnitus assessment,10,0.001164,1.7
+4119921,Procedure on genitourinary system||Procedure on urinary system||Procedure on bladder||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 287712009: Transurethral bladder calculus procedure,10,0.001164,1.9
+4143660,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Operation on skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 265681006: Suture of skin of head or neck,10,0.001164,2.2
+4154633,Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Operation on skin and/or subcutaneous tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 271487006: Incision of skin lesion,10,0.001164,2.3
+4240701,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 5789003: Lysis of adhesions of intestines,10,0.001164,1.7
+4273866,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 64063003: Radical cystectomy,10,0.001164,2.7
+43527998,"Lung and/or mediastinum operations||Operation on mediastinum||Operation on heart||Current Procedural Terminology version 4 (AMA) 92928: Percutaneous transcatheter placement of intracoronary stent(s), with coronary angioplasty when performed; single major coronary artery or branch",10,0.001164,2.8
+44791150,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 226641000000105: Expectoration of induced sputum from respiratory tract,10,0.001164,3.7
+2108892,"Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Current Procedural Terminology version 4 (AMA) 43244: Esophagogastroduodenoscopy, flexible, transoral; with band ligation of esophageal/gastric varices",9,0.001048,2.44
+2110308,NA||NA||NA||Current Procedural Terminology version 4 (AMA) 59409: Vaginal delivery only (with or without episiotomy and/or forceps),9,0.001048,1.89
+2111234,"Procedure on ear and related structures||Procedure on ear||Operation on the ear||Current Procedural Terminology version 4 (AMA) 69631: Tympanoplasty without mastoidectomy (including canalplasty, atticotomy and/or middle ear surgery), initial or revision; without ossicular chain reconstruction",9,0.001048,1.11
+2313795,Procedure on cardiovascular system||Removal of thrombus||Thrombectomy of artery||Current Procedural Terminology version 4 (AMA) 92973: Percutaneous transluminal coronary thrombectomy mechanical (List separately in addition to code for primary procedure),9,0.001048,5.11
+4014411,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 113133001: Hydrotherapy with whirlpool bath,9,0.001048,26.78
+4021431,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 176058000: Ureteroscopic laser fragmentation of ureteric calculus,9,0.001048,2.44
+4021544,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 116175006: Proximal subtotal gastrectomy,9,0.001048,2.78
+4120957,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 234245003: Extended radical neck dissection of cervical lymph nodes,9,0.001048,1.33
+4167556,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 418050001: Radionuclide salivary gland imaging procedure,9,0.001048,3.44
+4171196,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 49266009: Hydrocelectomy,9,0.001048,2.44
+4243010,Procedure on visual system||Procedure on eye region||Diagnostic procedure on eye region||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 38178005: Diagnostic procedure on lacrimal system,9,0.001048,1.67
+4244216,Procedure on ear and related structures||Procedure on ear||Operation on the ear||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 38018001: Fenestration of tympanic membrane,9,0.001048,5.11
+4246081,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60723004: Dilation of ureterovesical orifice,9,0.001048,1.89
+4266058,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 6238009: Diagnostic radiography of sacroiliac joints,9,0.001048,4.44
+4333844,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231134008: Local anesthetic musculocutaneous nerve block,9,0.001048,12.11
+4347785,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241239005: Hepatic arteriogram,9,0.001048,3.89
+2102720,"Breast procedure||Operation on breast||Excision of breast tissue||Current Procedural Terminology version 4 (AMA) 19301: Mastectomy, partial (eg, lumpectomy, tylectomy, quadrantectomy, segmentectomy)",8,0.000931,2.5
+2211503,"Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Current Procedural Terminology version 4 (AMA) 73723: Magnetic resonance (eg, proton) imaging, any joint of lower extremity; without contrast material(s), followed by contrast material(s) and further sequences",8,0.000931,2
+2314116,Procedure on musculoskeletal system||Procedure on skeletal muscular system||Procedure on skeletal muscle||Current Procedural Terminology version 4 (AMA) 95857: Cholinesterase inhibitor challenge test for myasthenia gravis,8,0.000931,1.75
+36713177,Procedure on visual system||Procedure on eye region||Procedure on orbit proper||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 383381000119106: CT of orbit without contrast,8,0.000931,3.12
+36713707,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 718647008: Assessment using figure drawing test,8,0.000931,7.5
+4012004,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 11347004: Modified radical neck dissection,8,0.000931,2
+4022910,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 11626008: Miles operation, complete proctectomy",8,0.000931,1.38
+4030240,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 13749006: Bathing patient in tub,8,0.000931,3.75
+4032129,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 238327005: Chest wall procedure,8,0.000931,4
+4032408,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 10849003: Removal of foreign body,8,0.000931,4
+4048622,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 232470004: Reconstruction of nose,8,0.000931,1.38
+40489881,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 446885004: Capsule endoscopy of small intestine,8,0.000931,4.12
+4064239,Breast procedure||Operation on breast||Breast repair||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 172061002: Reconstruction of breast with expander or prosthesis,8,0.000931,1.12
+4085444,Ultrasound studies of systems||Ultrasound procedure on cardiovascular system||US angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241466007: Intravascular US scan,8,0.000931,3.25
+4094380,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 26119007: Extraction of deciduous tooth,8,0.000931,2
+4142240,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 265370000: Fiberoptic endoscopic dilation of upper gastrointestinal tract,8,0.000931,13.5
+4150601,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 278846007: Dietetic procedures,8,0.000931,17.12
+4183687,"NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 55804002: History and physical examination, administrative",8,0.000931,2.38
+4188069,"Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 46546003: Functional endoscopic sinus surgery, limited",8,0.000931,1.5
+4216815,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 81396001: Thematic apperception test,8,0.000931,4
+4226692,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 405250000: Retrograde pyelogram,8,0.000931,1.38
+4231441,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 89411006: Excision of deep cervical lymph nodes,8,0.000931,1.75
+4234850,Procedure on digestive system||Procedure on digestive organ||Periodontic procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 90327005: Periodontic adjunctive service,8,0.000931,6.88
+4238715,Procedure on genitourinary system||Procedure on female genital system||Removal of device from female genital tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 68254000: Removal of intrauterine device,8,0.000931,1.75
+4240016,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 9217002: Surgical fracture of nasal turbinates,8,0.000931,1.12
+4295050,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 385791001: Injection administration management,8,0.000931,1.38
+44788940,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 196701000000109: Language comprehension assessment,8,0.000931,3.5
+44795917,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 299371000000105: Checking for drug allergy,8,0.000931,1
+44806819,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 822921000000102: Endoscopic submucosal dissection of lower gastrointestinal lesion,8,0.000931,1.38
+46271923,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 710197007: Ultrasonography of appendix,8,0.000931,1
+2001007,"Procedure on respiratory system||Respiratory tract procedure||Airway procedure||International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS) 21.03: Control of epistaxis by cauterization (and packing)",7,0.000815,2.14
+2108767,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 42410: Excision of parotid tumor or parotid gland; lateral lobe, without nerve dissection",7,0.000815,1
+2788807,NA||NA||NA||ICD-10 Procedure Coding System (CMS) 8E0KX1Z: Therapeutic Massage,7,0.000815,4.71
+4023268,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 176024008: Ureterocystostomy,7,0.000815,2.86
+4028789,Breast procedure||Operation on breast||Excision of breast tissue||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 237372000: Excisional biopsy of breast,7,0.000815,3.57
+40490927,Procedure on nervous system||Procedure on central nervous system||Excision of neoplasm of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 447107001: Craniotomy and excision of neoplasm of brain,7,0.000815,2.14
+4051160,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 233422002: Thrombectomy of intracranial vein,7,0.000815,1.43
+4052413,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on vein||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 233527006: Central venous cannula insertion,7,0.000815,1.86
+4061660,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 169443000: Preventive procedure,7,0.000815,2.71
+4081205,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 277027009: Percutaneous removal of gallbladder stone,7,0.000815,1.43
+4083391,Procedure on musculoskeletal system||Procedure on skeletal system||Procedure on cartilage||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 239542002: Excision of lumbar intervertebral disc,7,0.000815,1.86
+4093167,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 186648008: Repair of intestine,7,0.000815,2.71
+4096461,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 26390003: Total colectomy,7,0.000815,1.43
+4099391,Procedure on genitourinary system||Urogenital system investigation||Urological investigation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252895004: Urodynamic studies,7,0.000815,2.29
+4143508,Procedure on genitourinary system||Procedure on urinary system||Procedure on ureter||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 265561004: Ureteroscopic removal of ureteric calculus,7,0.000815,5
+4147961,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 268547008: Screening for malignant neoplasm of breast,7,0.000815,2
+4207050,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 56306000: Cosmetic surgery,7,0.000815,6.14
+4231544,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 40538005: Thermography,7,0.000815,1
+4251314,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 73632009: Laparoscopy,7,0.000815,3.57
+4263233,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 36059000: Electrocautery of cervix,7,0.000815,2.43
+4301351,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 387713003: Surgical procedure,7,0.000815,2.71
+4304536,Procedure on genitourinary system||Procedure on urinary system||Operation on urinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 81516001: Partial nephrectomy,7,0.000815,1
+4314436,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 87150006: Enterostomy,7,0.000815,1
+4329654,Fluoroscopy of systems||Musculoskeletal fluoroscopy||Fluoroscopy guided repair of bone||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 431911003: Vertebroplasty using fluoroscopic guidance,7,0.000815,3.43
+4331230,Breast procedure||Ultrasonography of breast||US scan and biopsy of breast||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 432157003: Vacuum assisted biopsy of breast using ultrasound guidance,7,0.000815,8.43
+4332322,Procedure on nervous system||Procedure on nerve||Nerve operation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231036008: Destruction of spinal nerve root,7,0.000815,30.43
+4332712,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231044008: Local anesthetic block on spinal nerve ganglion,7,0.000815,1.86
+4337760,Procedure on nervous system||Procedure on nerve||Nerve injection||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 231264005: Sympathetic nerve block,7,0.000815,5
+4342015,Procedure on genitourinary system||Procedure on male genital system||Procedure on male genital organ||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236329000: Drainage of scrotal abscess,7,0.000815,2
+4346528,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241354002: Renal isotope studies,7,0.000815,6.29
+4346953,Procedure on endocrine system||Evaluation of endocrine system||Radioisotope study of endocrine system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241391008: Tc99m-MIBI parathyroid study,7,0.000815,1.14
+44807800,Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 827031000000103: Open subtotal colectomy,7,0.000815,1.86
+2101928,"Procedure on integumentary system||Procedure on skin and/or subcutaneous tissue||Procedure on skin||Current Procedural Terminology version 4 (AMA) 11055: Paring or cutting of benign hyperkeratotic lesion (eg, corn or callus); single lesion",6,0.000699,10.5
+2103233,Procedure on musculoskeletal system||Procedure on skeletal system||Procedure on bone||Current Procedural Terminology version 4 (AMA) 21310: Closed treatment of nasal bone fracture without manipulation,6,0.000699,2.33
+2108797,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Current Procedural Terminology version 4 (AMA) 42700: Incision and drainage abscess; peritonsillar,6,0.000699,1.83
+2109043,"Procedure on digestive system||Procedure on digestive tract||Operation on digestive tract||Current Procedural Terminology version 4 (AMA) 44143: Colectomy, partial; with end colostomy and closure of distal segment (Hartmann type procedure)",6,0.000699,2.5
+2109352,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Current Procedural Terminology version 4 (AMA) 47511: Introduction of percutaneous transhepatic stent for internal and external biliary drainage,6,0.000699,7
+2110194,Procedure on genitourinary system||Procedure on female genital system||Procedure on female genital organ||Current Procedural Terminology version 4 (AMA) 58300: Insertion of intrauterine device (IUD),6,0.000699,2.83
+2211467,"NA||NA||NA||Current Procedural Terminology version 4 (AMA) 73220: Magnetic resonance (eg, proton) imaging, upper extremity, other than joint; without contrast material(s), followed by contrast material(s) and further sequences",6,0.000699,1.5
+35622623,Procedure on nervous system||Procedure on central nervous system||Imaging of central nervous system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 764660008: Positron emission tomography of brain using fluorodeoxyglucose,6,0.000699,4.17
+37396118,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 715814000: Assessment using Attentional Capacity Test,6,0.000699,1.83
+4035589,Procedure on musculoskeletal system||Procedure on skeletal system||Skeletal traction||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 239644006: Application of pelvic traction,6,0.000699,16.5
+40478905,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 444284009: Analysis using multiplex ligation dependent probe amplification,6,0.000699,1
+4059077,Procedure on genitourinary system||Urogenital system investigation||Imaging of genitourinary system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 168864000: Urethrogram,6,0.000699,5.33
+4067672,Procedure on digestive system||Procedure on digestive organ||Procedure on biliary tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 174494006: Total cholecystectomy and excision of surrounding tissue,6,0.000699,3.67
+4071406,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 173813000: Fiberoptic endoscopic removal of foreign body from upper gastrointestinal tract,6,0.000699,5
+4082716,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241641004: MRI of knee,6,0.000699,2.17
+4085923,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243793001: Examination for accident,6,0.000699,1.17
+4086398,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 282043004: Drainage of dental abscess,6,0.000699,8.83
+4086918,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 243791004: Viral screening,6,0.000699,1.17
+4098349,Procedure on digestive system||Procedure on digestive tract||Procedure on mouth||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 25228008: Sedative filling,6,0.000699,6.83
+4099389,Procedure on genitourinary system||Urogenital system investigation||Special renal investigation||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 252892001: Peritoneal equilibration test,6,0.000699,6.5
+4128030,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 236973005: Delivery procedure,6,0.000699,2.83
+4137380,Procedure on cardiovascular system||Procedure on blood vessel||Procedure on artery||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 425611003: Percutaneous transluminal insertion of stent into carotid artery,6,0.000699,1.5
+4153324,Procedure on respiratory system||Respiratory tract procedure||Operation on respiratory tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 315618009: FESS - Functional endoscopic sinus surgery - sphenoethmoidectomy,6,0.000699,1
+4167183,Procedure on respiratory system||Respiratory tract procedure||Airway procedure||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 47935000: Cordectomy of vocal cord,6,0.000699,2.33
+4178367,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 363680008: Radiographic imaging procedure,6,0.000699,1
+4179344,Procedure on lymphatic system||Operation on lymphatic structure||Operation on lymph node||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 52211004: Excision of superficial cervical lymph nodes,6,0.000699,1
+4235076,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 438342006: Replacement of peritoneal dialysis catheter,6,0.000699,6.17
+4237359,Procedure on musculoskeletal system||Evaluation of musculoskelatal system||Imaging of musculoskeletal system||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 91672001: Ultrasound examination of joint,6,0.000699,2.5
+4245996,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 60619004: Diagnostic radiography of finger,6,0.000699,2.5
+42872876,Procedure on digestive system||Procedure on digestive tract||Procedure on gastrointestinal tract||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 450871008: Attention to colostomy,6,0.000699,3.33
+4346628,Procedure on cardiovascular system||Cardiovascular investigation||Angiography||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 241220000: External carotid arteriogram,6,0.000699,1.5
+44790529,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 237731000000105: Neuropsychology test of perception,6,0.000699,5.5
+44804895,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 782671000000103: Multidisciplinary care management,6,0.000699,2
+45765537,NA||NA||NA||Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO) 702502001: CT of lower limb with contrast,6,0.000699,1.5

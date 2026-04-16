@@ -1,0 +1,10 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+4098179,Immunology laboratory test,Measurement,R769,"Abnormal immunological finding in serum, unspecified",2985
+4246053,Blood test,Measurement,R788,"Findings of other specified substances, not normally found in blood",1296
+4046263,Enzyme measurement,Measurement,R749,Abnormal level of unspecified serum enzyme,160
+4097664,Albumin measurement,Measurement,R770,Abnormality of albumin,158
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,Abnormality of alphafetoprotein,16
+4041715,Blood ethanol measurement,Measurement,Y908,Blood alcohol level of 240mg/100ml or more,14
+4098353,Red blood cell test,Measurement,R71,Abnormality of red blood cells,10
+4045159,Hormone measurement,Measurement,R947,Abnormal results of other endocrine function studies,4
+4236592,Human Bocavirus present,Measurement,J2080,Acute bronchitis due to human bocavirus,2

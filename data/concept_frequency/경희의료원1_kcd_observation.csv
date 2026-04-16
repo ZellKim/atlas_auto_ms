@@ -1,0 +1,146 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+435928,Abnormal weight loss,Observation,R634,이상체중감소,2222
+141693,Elevated blood-pressure reading without diagnosis of hypertension,Observation,R030,고혈압의 진단 없이 혈압수치 상승,1716
+437643,Abnormal gait,Observation,R268,보행 및 이동의 기타 및 상세불명 이상,1086
+439141,Abnormal weight gain,Observation,R635,이상체중증가,900
+437478,Bite of nonvenomous arthropod,Observation,W579,"무독액성 곤충 및 기타 무독액성 절지동물에 물림 또는 쏘임, 상세불명 장소 ",542
+443448,Adverse reaction to viral vaccine,Observation,Y590,치료시 유해작용을 나타내는 바이러스백신,521
+4314871,"Place of occurrence of accident or poisoning, home",Observation,Y140,"의도 미확인의 기타 및 상세불명의 약물, 약제 및 생물학적 물질에 의한 중독 및 노출, 주택",511
+441207,Adverse reaction to drug,Observation,Y579,치료시 유해작용을 나타내는 상세불명의 약물 또는 약제,404
+45768509,"Place of occurrence of accident or poisoning, public place",Observation,X782,"예리한 물체에 의한 의도적 자해, 학교, 기타 시설 및 공공행정 구역",404
+441413,Death of unknown cause,Observation,R99,기타 불명확하고 상세불명의 사망원인,380
+433315,Feeding problems in newborn,Observation,P929,신생아의 상세불명의 수유문제,350
+4279614,Asphyxiation,Observation,T71,교액에 의한 질식,246
+42600276,Attacked by dog,Observation,W540,"개에 물림 또는 부딪힘, 주택 ",199
+4219484,Suicide attempt,Observation,X841,"상세불명의 수단에 의한 의도적 자해, 집단거주시설",177
+439558,Adverse reaction to bacterial vaccine,Observation,Y589,치료시 유해작용을 나타내는 기타 및 상세불명의 세균 백신,143
+4155221,Exposure to poison of venomous animals and plants,Observation,X279,"기타 명시된 독액성 동물과 접촉, 상세불명 장소",130
+4030353,Constitutional tall stature,Observation,E344,체질성 장신,129
+4312846,"Place of occurrence of accident or poisoning, place for recreation and sport",Observation,Y023,"피해자를 움직이는 물체앞에 밀거나 놓이게 하여 가해, 운동 및 경기장",122
+4318516,"Accident caused by immersion, suffocation, foreign body",Observation,W449,"눈 또는 인체의 개구부를 통하여 들어온 이물, 상세불명 장소 ",111
+4096848,Ataxic gait,Observation,R260,실조성 보행,110
+4291007,Exposure to attack by mammal,Observation,W558,"기타 포유동물에 의한 물림 또는 부딪힘, 기타 명시된 장소 ",103
+440279,Accident,Observation,X478,"기타 가스 및 휘발성 물질에 의한 불의의 중독 및 노출, 기타 명시된 장소",89
+4248196,Spastic gait,Observation,R261,마비성 보행,80
+4022569,Eating / feeding / drinking finding,Observation,R638,음식 및 수액 섭취에 관계된 기타 증상 및 징후,72
+443547,Non-steroidal anti-inflammatory drug adverse reaction,Observation,Y453,치료시 유해작용을 나타내는 기타 비스테로이드항염증제,72
+40490404,Adverse reaction to biological substance,Observation,Y599,상세불명의 백신 및 생물학적 물질,72
+4163244,Unilateral emphysema,Observation,J430,한쪽 폐의 투명성,70
+434750,Feeding difficulties and mismanagement,Observation,R633,급식장애 NOS,59
+4079844,Fetal death,Observation,P95,상세불명 원인의 태아사망,46
+438046,Medical accidents to patients during surgical and medical care,Observation,Y760,"유해사건과 관련된 산과 및 부인과적 장치, 진단 및 모니터 장치",41
+4311077,"Place of occurrence of accident or poisoning, residential institution",Observation,X841,"상세불명의 수단에 의한 의도적 자해, 집단거주시설",35
+439996,Anticoagulant adverse reaction,Observation,Y442,치료시 유해작용을 나타내는 항응고제,31
+443423,Pedal cycle accident,Observation,V193,비교통성 자전거 사고 NOS,28
+4310930,"Place of occurrence of accident or poisoning, farm",Observation,Y177,"의도 미확인의 기타 가스 및 휘발성 물질에 의한 중독 및 노출, 농장",28
+4314991,"Place of occurrence of accident or poisoning, industrial place and premises",Observation,Y176,"의도 미확인의 기타 가스 및 휘발성 물질에 의한 중독 및 노출, 산업 및 건설지역",21
+4053945,Exposure to excess sunlight,Observation,X329,"일광에 노출, 상세불명 장소",20
+439452,Assault by hanging and strangulation,Observation,X918,"목맴, 교액 및 질식에 의한 가해, 기타 명시된 장소",19
+437768,Adverse reaction to tuberculosis vaccine,Observation,Y580,치료시 유해작용을 나타내는 BCG백신,18
+4098471,Imbalance of constituents of food intake,Observation,E631,음식물 섭취의 성분불균형,17
+443080,Sexual abuse,Observation,T742,성적 학대,17
+437738,Motor vehicle accident off public road,Observation,V640,비교통사고에서 대형화물차 또는 버스와의 충돌로 다친 대형화물차운전자,14
+4055054,"Exposure to current from electric transmission lines, with passage of current through tissue",Observation,W859,"송전선에 노출, 상세불명 장소 ",14
+4055548,Assault involving moving vehicles,Observation,Y039,"자동차충돌에 의한 가해, 상세불명 장소",14
+4315085,"Place of occurrence of accident or poisoning, street and highway",Observation,X804,"높은 곳에서 뛰어내림에 의한 의도적 자해, 도로 및 고속도로",13
+4155225,"Assault by corrosive substance, except poisoning",Observation,X860,"부식성 물질에 의한 가해, 주택",13
+436592,Accidental drowning or immersion in bathtub,Observation,W658,"목욕통 안에 있는 동안의 익사 및 익수, 기타 명시된 장소 ",12
+4173786,Antenatal care,Observation,O262,습관적 유산자의 임신관리,11
+4315095,"Place of occurrence of accident or poisoning, shop, commercial",Observation,X205,"독액성 뱀 및 도마뱀과 접촉, 상업 및 서비스 구역",11
+4161447,Emotional abuse,Observation,T743,심리적 학대,9
+435154,"Hanging, strangulation or suffocation of unknown intent",Observation,W769,"기타 불의의 목맴 및 교액, 상세불명 장소 ",9
+440599,Assault by poisoning,Observation,X899,"기타 명시된 화학물질 및 독성물질에 의한 가해, 상세불명 장소",8
+443354,Antiprotozoal drug adverse reaction,Observation,Y412,치료시 유해작용을 나타내는 항말라리아제 및 기타 혈액내 원충류에 작용하는 약물,8
+439242,Adverse reaction to tetanus vaccine,Observation,Y584,치료시 유해작용을 나타내는 파상풍백신,8
+436299,Fall from one level to another,Observation,W179,"기타 한면에서 다른 면으로 넘어짐, 상세불명 장소 ",7
+441205,Foreign object left in body during surgical operation,Observation,Y619,상세불명의 외과적 및 내과적 치료 도중 체내에 불의로 남겨진 이물,7
+43530893,Suspected fetal damage from viral disease in mother,Observation,O353,모체의 바이러스병으로 인한 (의심되는) 태아손상에 대한 산모관리,6
+76819,Congenital unilateral subluxation of hip,Observation,Q653,한쪽 고관절의 선천부분탈구,6
+441139,Instantaneous death,Observation,R960,해명되지 않은 성인의 급사,6
+4162365,Failed intubation,Observation,T884,실패한 삽관 또는 삽관곤란,6
+437165,Motor vehicle traffic accident,Observation,V499,승용차 사고 NOS,6
+436593,Accidental drowning and submersion,Observation,W740,"상세불명의 익사 및 익수, 주택 ",6
+441764,Inhalation or ingestion of foreign body with respiratory obstruction or suffocation,Observation,W809,"기도의 폐색의 원인이 된 기타 물건의 흡입 및 섭취, 상세불명 장소 ",6
+4303528,Exposure to electric current,Observation,W878,"상세불명의 전류에 노출, 기타 명시된 장소 ",6
+437175,"Fall on same level from slipping, tripping or stumbling",Observation,W019,"미끄러짐, 걸림 및 헛디딤에 의한 동일 면상에서의 낙상, 상세불명 장소 ",5
+438638,Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation,Observation,W798,"기도폐색의 원인이 된 음식물의 흡입 및 섭취, 기타 명시된 장소 ",5
+432504,Accident caused by fire and flames,Observation,X088,"기타 명시된 연기, 불 및 불꽃에 노출, 기타 명시된 장소",5
+444046,Cold exposure,Observation,X319,"과다한 자연 한랭에 노출, 상세불명 장소",5
+438051,Assault by fire and burning,Observation,X978,"연기, 불 및 불꽃에 의한 가해, 기타 명시된 장소",5
+443345,Antineoplastic adverse reaction,Observation,Y433,치료시 유해작용을 나타내는 기타 항암제,5
+437767,Immunoglobulin products adverse reaction,Observation,Y593,치료시 유해작용을 나타내는 면역글로부린,5
+4071863,Underfeeding in newborn,Observation,P923,신생아의 수유부족,4
+42536911,Insufficient intake of food and water with self neglect,Observation,R636,자기무시에 의한 음식 및 물의 불충분한 섭취 ,4
+442451,Motor vehicle on road in collision with pedestrian,Observation,V031,"교통사고에서 승용차, 픽업트럭 또는 밴과 충돌로 다친 보행자 ",4
+441201,Fall from building,Observation,W138,"빌딩 또는 구조물에서의 낙상, 기타 명시된 장소 ",4
+441193,Accident caused by nonpowered hand tools and implements,Observation,W269,상세불명의 날카로운 물체와 접촉,4
+4298337,Exposure to animate mechanical force,Observation,W640,"기타 및 상세불명의 생물성 기계적 힘에 노출, 주택 ",4
+4303690,Intentionally harming self,Observation,X674,"기타 가스 및 휘발성 물질에 의한 자의의 중독 및 노출, 도로 및 고속도로 ",4
+4093699,Sexual assault,Observation,Y059,"완력에 의한 성적 학대, 상세불명 장소",4
+3661839,Adverse reaction to thyroid hormone,Observation,Y421,치료시 유해작용을 나타내는 갑상선 호르몬 및 대치물,4
+4095535,Centrally acting appetite suppressant adverse reaction,Observation,Y570,치료시 유해작용을 나타내는 식욕억제제,4
+438872,Excessive eating - polyphagia,Observation,R632,과다식사,3
+442666,"Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",Observation,V135,"교통사고에서 승용차, 픽업트럭 또는 밴과 충돌로 다친 자전거 승객 ",3
+433930,Motor vehicle on road in collision with another motor vehicle,Observation,V495,교통사고에서 기타 및 상세불명의 자동차와의 충돌로 다친 승객,3
+4053863,Fall due to slipping on ice or snow,Observation,W009,"얼음 또는 눈에 의한 동일 면상에서의  낙상, 상세불명 장소 ",3
+4146976,Crushed in between objects,Observation,W236,"물체속이나 사이에 붙잡힘, 으깨짐, 뭉개짐 또는 끼임, 산업 및 건설지역 ",3
+4230638,Exposure to inanimate mechanical force,Observation,W499,"기타 및 상세불명의 무생물성 기계적 힘에 노출, 상세불명 장소 ",3
+438304,Rat bite,Observation,W539,"쥐에 물림, 상세불명 장소 ",3
+4075631,Location inside building,Observation,X008,"건물 또는 구조물 안에서 통제되지 않은 불에 노출, 기타 명시된 장소",3
+432800,Assault by cutting and stabbing instruments,Observation,X999,"예리한 물체에 의한 가해, 상세불명 장소",3
+4167568,Accidental exposure to potentially harmful entity,Observation,Y140,"의도 미확인의 기타 및 상세불명의 약물, 약제 및 생물학적 물질에 의한 중독 및 노출, 주택",3
+4166164,Sex hormones adverse reaction,Observation,Y425,치료시 유해작용을 나타내는 기타 에스트로젠 및 프로제스토겐,3
+443370,Diuretic adverse reaction,Observation,Y545,치료시 유해작용을 나타내는 기타 이뇨제,3
+36716761,Neonatal difficulty in feeding at breast,Observation,P925,신생아 모유수유의 어려움,2
+443882,Unattended death,Observation,R98,시체가 발견되고 아무 원인도 밝혀지지 않은 상태의 사망 죽은 채로 발견됨,2
+440896,Railway accident,Observation,V159,교통사고에서 열차 또는 철도차량과 충돌로 다친 상세불명의 자전거 탑승자,2
+4053428,Accident while boarding or alighting from motor vehicle on road,Observation,V223,이륜 또는 삼륜자동차와 충돌로 모터사이클 승하차중 다친 사람,2
+435713,Transport accident,Observation,V99,상세불명의 운수 사고,2
+4216727,Struck by falling object,Observation,W206,"던져진, 쏘아진 또는 떨어지는 물체에 의한 타격, 산업 및 건설지역 ",2
+4301487,Exposure to attack by other person,Observation,W500,"타인에 의해 맞음, 부딪힘, 차임, 비틀림, 물림 또는 찰과 , 주택 ",2
+436319,Conflagration not in building or structure,Observation,X039,"건물 또는 구조물이 아닌 곳에서 통제된 불에 노출, 상세불명 장소",2
+438938,Accident with controlled fire,Observation,X039,"건물 또는 구조물이 아닌 곳에서 통제된 불에 노출, 상세불명 장소",2
+4166272,"Overexertion, strenuous movements and vibration",Observation,X502,"과잉노력 및 격심한 또는 반복적 운동, 학교, 기타 시설 및 공공행정 구역",2
+4305831,Exposure to potentially harmful entity,Observation,X588,"기타 명시된 요인에 노출, 기타 명시된 장소",2
+432532,Accidental event,Observation,X596,"상세불명의 요인에 노출, 산업 및 건설지역",2
+4169301,Exposure to gaseous substance,Observation,Y177,"의도 미확인의 기타 가스 및 휘발성 물질에 의한 중독 및 노출, 농장",2
+443603,Adverse reaction to antidiabetic drug,Observation,Y423,치료시 유해작용을 나타내는 인슐린 및 경구저혈당[항당뇨병]제,2
+434553,Androgen adverse reaction,Observation,Y427,치료시 유해작용을 나타내는 안드로젠 및 합성대사 유사물,2
+3661813,Adverse reaction to hormone,Observation,Y428,치료시 유해작용을 나타내는 뇌하수체 전엽 호르몬,2
+4303811,Mineralocorticoid adverse reaction,Observation,Y540,치료시 유해작용을 나타내는 미네랄코티코이드,2
+4096274,X-ray contrast media adverse reaction,Observation,Y575,치료시 유해작용을 나타내는 X-선 대조물질,2
+440309,Adverse reaction to diphtheria vaccine,Observation,Y585,치료시 유해작용을 나타내는 디프테리아백신,2
+441189,Adverse reaction to pertussis vaccine,Observation,Y586,치료시 유해작용을 나타내는 백일해 성분을 가진 복합제를 포함한 백일해백신,2
+435134,Motor vehicle accident,Observation,V092,기타 및 상세불명의 자동차에 관여된 교통사고에서 다친 보행자,1
+4062888,Pedal cycle in collision with another pedal cycle,Observation,V111,비교통사고에서 다른 자전거와 충돌로 다친 자전거 승객,1
+438301,Water transport accident,Observation,V940,"기타 및 상세불명의 수상 운수사고, 상선",1
+442984,Accident to powered aircraft,Observation,V950,탑승자가 다친 헬리콥터 사고,1
+435443,Fall from wheelchair,Observation,W058,"휠체어가 관여된 낙상, 기타 명시된 장소 ",1
+4308870,Fall from chair,Observation,W070,"의자가 관여된 낙상, 주택 ",1
+441749,Fall on or from stairs or steps,Observation,W109,"계단에서의 낙상, 상세불명 장소 ",1
+432803,Fall from ladder,Observation,W110,"사다리에서의 낙상, 주택 ",1
+4307686,Fall from tree,Observation,W140,"나무에서의 낙상, 주택 ",1
+432806,Fall from cliff,Observation,W156,"절벽에서의 낙상, 산업 및 건설지역 ",1
+4140830,Fall on same level,Observation,W184,"동일면상에서의 기타 낙상, 도로 및 고속도로",1
+441192,Accidentally struck by or against objects or persons,Observation,W22,다른 물체에 의한 타격,1
+4315372,Accident caused by glass edge,Observation,W250,"날카로운 유리와 접촉, 주택 ",1
+4318639,Accidental drowning and submersion in swimming pool,Observation,W679,"수영장 안에 있는 동안의 익사 및 익수, 상세불명 장소 ",1
+434257,Accident due to cold of man-made origin,Observation,W938,"인공적 과잉한랭에 노출, 기타 명시된 장소 ",1
+443532,Accident due to extremes of atmospheric pressure and to sudden changes in atmospheric pressure,Observation,W944,"고압 및 저압 및 기압의 변화에 노출, 도로 및 고속도로 ",1
+439605,Ignition of highly inflammable material,Observation,X041,"높은 가연성 물질의 발화에 노출, 집단거주시설",1
+438668,Accidents due to travel and motion,Observation,X518,"여행 및 이동, 기타 명시된 장소",1
+440280,Prolonged stay in weightless environment,Observation,X529,"무중력 환경에서의 장기간 체류, 상세불명 장소",1
+4054796,Assault with body part,Observation,Y049,"완력에 의한 가해, 상세불명 장소",1
+4160623,Neglect or abandonment,Observation,Y061,부모에 의한 방치 및 유기,1
+439441,Drowning or immersion of unknown intent,Observation,Y219,"의도 미확인의 익사 및 익수, 상세불명 장소",1
+433658,Penicillin adverse reaction,Observation,Y400,치료시 유해작용을 나타내는 페니실린,1
+3661639,Adverse reaction to oral contraceptive,Observation,Y424,치료시 유해작용을 나타내는 경구피임제,1
+4168964,Propionic acid derivative adverse reaction,Observation,Y452,치료시 유해작용을 나타내는 프로피온산유도체,1
+443602,Adverse reaction to antiparkinsonism drug,Observation,Y467,치료시 유해작용을 나타내는 항파킨슨제,1
+4167767,Cardiac inotropic agent adverse reaction,Observation,Y520,치료시 유해작용을 나타내는 심장자극 배당체 및 유사작용 약물,1
+4165323,Aldosterone antagonists adverse reaction,Observation,Y541,치료시 유해작용을 나타내는 미네랄코티코이드길항제[알도스테론길항제],1
+443351,Adverse reaction to vaccine product,Observation,Y581,치료시 유해작용을 나타내는 장티푸스와 파라티푸스 백신,1
+435137,"Foreign object left in body during aspiration of fluid or tissue, puncture and catheterization",Observation,Y616,"흡인, 천자 및 기타 카테터삽입 도중 체내에 불의로 남겨진 이물",1
+439630,Failure of sterile precautions during injection or vaccination,Observation,Y623,주사 또는 예방접종 도중 무균예방의 실패,1
+4314660,Failure in dose in shock therapy,Observation,Y634,전기쇼크 또는 인슐린쇼크 요법에서 용량 착오,1
+433663,Failure in suture and ligature during surgical operation,Observation,Y652,외과수술 도중 결찰 또는 봉합의 실패,1

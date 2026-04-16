@@ -402,8 +402,8 @@ PRESET FA 목록은 `atlas_preset_fa_list.csv` (105개)에 저장. 주요 ID:
 | Glucose | 3004501 | 3037110 (fasting) | ≥126 (mg/dL) | HUMC=B |
 
 나머지 12개 바이오마커는 전 기관 concept 동일.
-기관별 상세: `atlas_auto_cmdata/biomarker_concept_by_site.csv`
-Achilles frequency: `atlas_auto_cmdata/concept_frequency/{기관}_measurement.csv`
+기관별 상세: `data/biomarker/biomarker_concept_by_site.csv`
+Achilles frequency: `data/concept_frequency/{기관}_measurement.csv`
 
 **최종 확정: 22개 바이오마커, 13개 기관 (2026-04-15)**
 
@@ -848,3 +848,46 @@ C:\Users\data1\Desktop\atlas_auto_cmdata\
 - [ ] Negative control HR + EmpiricalCalibration
 - [ ] Characterization (보조 기술통계, 필요 시)
 - [ ] 결과 정리 + 논문/보고서
+
+---
+
+## §10 CdmInspection & FeatureExtraction unit_concept_id 검증 (2026-04-16)
+
+### 10.1 KHNMC unit_concept_id 현황
+
+CdmInspection 보고서에서 unit_concept_id 매핑 부족이 지적됨.
+실제 `data/biomarker/biomarker_units_by_site.csv` 확인 결과:
+
+- WBC(3010813), Neutro%(3017354), Neutro#(3017732), PLT(3002030) 등: **100% unit_concept_id=0**
+- CRP(3020460), Albumin(3024561), ESR(3015183): unit_concept_id=0과 정상 매핑 혼재
+- Hb(3000963): 99.4% unit_concept_id=0
+
+→ 대부분의 measurement에서 value_as_number는 존재하지만 unit만 매핑 안 된 상태.
+
+### 10.2 FeatureExtraction 영향 분석
+
+FeatureExtraction의 measurement 공변량 3종류와 unit_concept_id 영향:
+
+| 공변량 유형 | 현재 설정 | unit_concept_id=0 영향 |
+|---|---|---|
+| Measurement (binary 존재여부) | **ON** | 없음 — 레코드 존재만 확인 |
+| MeasurementValue (연속형 수치) | **OFF** | 해당 없음 (비활성) |
+| MeasurementRangeGroup (정상/비정상) | **ON** | range_low/range_high NOT NULL 여부만 확인, unit 미참조 |
+
+**결론**: 현재 estimation 설정에서 MeasurementValue는 비활성이므로 unit_concept_id=0이 PS matching에 실질적 영향 없음.
+MeasurementRangeGroup SQL (`FeatureExtraction/inst/sql/sql_server/MeasurementRangeGroup.sql`) 확인 결과,
+unit_concept_id를 WHERE/JOIN에서 사용하지 않으며 `range_low IS NOT NULL AND range_high IS NOT NULL` 조건만 적용.
+
+### 10.3 참조 데이터 통합 정리
+
+`C:\Users\data1\Desktop\atlas_auto_cmdata`에서 재사용 가능한 참조 데이터를 `data/`로 이동:
+- `data/site_mapping/` — 기관 ID 매핑
+- `data/biomarker/` — concept & unit 매핑
+- `data/atlas_reference/` — API, FA, 코호트 네이밍
+- `data/cohort_definitions/` — 재사용 코호트 JSON
+- `data/concept_frequency/` — Achilles 23기관×5domain (168 files)
+- `data/characterization/` — PRESET characterization 결과
+- `data/scripts/` — Python 생성 스크립트
+- `R/reference_scripts/` — R 분석 참고 스크립트 (20 files)
+
+무거운 연구 결과 (cmData 5.2GB, results 12.9GB 등)는 원본 경로에 유지.

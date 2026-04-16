@@ -1,0 +1,27 @@
+conceptId,conceptName,domain,kcdCode,kcdName,frequency
+36770544,Metastasis to liver,Measurement,C787,간 및 간내 담관의 이차성 악성 신생물,11126
+36769301,Metastasis to bone,Measurement,C7950,골의 이차성 악성 신생물,7575
+704985,Metastasis to abdomen,Measurement,C786,후복막 및 복막의 이차성 악성 신생물,5954
+36770040,Metastasis to gastrointestinal tract,Measurement,C788,기타 및 상세불명의 소화기관의 이차성 악성 신생물,1709
+36769180,Metastasis,Measurement,C799,상세불명 부위의 이차성 악성 신생물,1585
+35225543,Metastasis to large intestine,Measurement,C785,대장 및 직장의 이차성 악성 신생물,1372
+36770283,Metastasis to lung,Measurement,C780,폐의 이차성 악성 신생물,824
+35226152,Metastasis to genital organs,Measurement,C7981,생식기관의 이차성 악성 신생물,677
+35225775,Metastasis to nervous system,Measurement,C794,신경계통의 기타 및 상세불명 부분의 이차성 악성 신생물,549
+4236592,Human Bocavirus present,Measurement,J2180,사람보카바이러스에 의한 급성 세기관지염,463
+4046263,Enzyme measurement,Measurement,R749,상세불명의 혈청효소의 이상수치,406
+4197249,Alpha-1-Fetoprotein measurement,Measurement,R772,알파태아단백의 이상,370
+4098179,Immunology laboratory test,Measurement,R769,혈청의 상세불명의 면역학적 이상소견,177
+35225556,Metastasis to breast,Measurement,C7980,유방의 이차성 악성 신생물,167
+4262074,Human parainfluenza virus present,Measurement,J2181,파라인플루엔자바이러스에 의한 급성 세기관지염,132
+35225580,Metastasis to urinary system,Measurement,C791,방광 및 기타 및 상세불명의 비뇨기관의 이차성 악성 신생물,126
+35226280,Metastasis to respiratory tract,Measurement,C783,기타 및 상세불명의 호흡기관의 이차성 악성 신생물,118
+35226074,Metastasis to bone marrow,Measurement,C7951,골수의 이차성 악성 신생물,94
+4055657,Serum/plasma protein test,Measurement,R779,혈장단백질의 상세불명 이상,56
+37203929,Measurement of level of substance in blood,Measurement,R784,혈액내 중독가능성이 있는 기타 약물의 소견,46
+4095027,Antibody titer measurement,Measurement,R760,상승된 항체역가,44
+4353510,Globulin measurement,Measurement,R771,글로불린의 이상,38
+4098353,Red blood cell test,Measurement,R71,적혈구의 이상,34
+4097664,Albumin measurement,Measurement,R770,알부민의 이상,17
+4045159,Hormone measurement,Measurement,R947,기타 내분비기능검사의 이상결과,6
+4246053,Blood test,Measurement,R789,정상적으로는 혈액내에 없는 상세불명 물질의 존재,3
