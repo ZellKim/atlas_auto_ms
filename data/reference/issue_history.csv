@@ -11,4 +11,4 @@ id,issue,impact,resolution
 10,feedernet estimation POST 500 에러,API 직접 생성 불가,ATLAS copy+PUT 방식으로 우회
 11,feedernet cdmId ≠ atlasId ≠ group_id,execution API에서 CDM not found,기존 execution에서 cdmId 매핑 추출
 12,feedernet estimation 서버 불안정으로 즉시 실패,일부 기관 FINISHED_WITH_ERROR,재실행
-13,clinical_final_v4(11019) 7기관 반복 실패,cohortDefinitions 누락이 아니라 stopOnError=True + 1285(T2DM_v3) 코호트 SQL 에러,stopOnError=False로 변경 후 재실행. feedernet은 export 시 ATLAS에서 cohortDefinitions를 자동 resolve하므로 spec에 expression 없어도 실행 가능
+13,clinical_final_v4(11019) 7기관 반복 실패,원인 미확정. stopOnError=True 상태에서 특정 outcome 에러 추정 (11018과 차이는 outcome 1285 vs 1270뿐). cohortDefinitions 누락은 원인 아님 (feedernet이 자동 resolve),stopOnError=False로 변경 후 재실행. 결과 확인 후 실패 outcome 특정 필요
