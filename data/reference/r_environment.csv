@@ -1,0 +1,11 @@
+item,value,note
+R,4.5.2,
+Rtools,4.5,C:\rtools45
+Java,JDK 21,C:\Users\data1\java\jdk-21.0.10+7
+CohortMethod,4.2.2,CmData 호환
+Andromeda,0.6.0,CmData 호환 (1.x는 0.6.0 형식 못 읽음)
+FeatureExtraction,3.2.0,
+Cyclops,latest,
+duckdb,제거 필수,RSQLite 충돌
+ATLAS,v2.12.0,feedernet
+CmData 경로,C:\Users\data1\Desktop\atlas_auto_cmdata\,

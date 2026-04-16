@@ -1,0 +1,270 @@
+﻿var_nm,target_concept_id_1,Normal range,common_cd,common_cd_nm,local_cd1,local_cd1_nm,source_domain_id,target_domain_id,concept_code,target_concept_id_1,concept_name,target_domain_id,concept_class_id,vocabulary_id,local_cd2,local_cd2_nm,local_cd3,person_count,Value as number,Value as concept ID
+Hb,3027484,"Female: 12 to 16 g/dL 
+Male: 14 to 18 g/dL",D0002,일반혈액검사(CBC)-[혈구세포-장비측정],B1010001,Hemoglobin,Measurement,Measurement,20509-6,3027484,Hemoglobin [Mass/volume] in Blood by calculation,Measurement,Lab Test,LOINC,S02,EDTA Blood,g/dl,1452058,,
+ALT ,3006923,10 to 40 units/L,D1850,ALT (SGPT) [화학반응-장비측정],B2580001,ALT(GPT),Measurement,Measurement,1742-6,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,1415118,,
+AST,3013721,10 to 40 units/L,D1860,AST (SGOT) [화학반응-장비측정],B2570001,AST(GOT),Measurement,Measurement,7519,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,1415033,,
+Cholesterol,3027114,"Desirable: Less than 200 mg/dL 
+Borderline-high: 200 to 239 mg/dL 
+High: Greater than 239 mg/dL ",D2611,콜레스테롤-총콜레스테롤[화학반응-장비측정],C2411001,Cholesterol,Measurement,Measurement,70554,3027114,Cholesterol [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1363446,,
+Creatinine,3016723,"Female: 0.50 to 1.10 mg/dL
+Male: 0.70 to 1.30 mg/dL ",D2280,크레아티닌[화학반응-장비측정],C3750001,Creatinine,Measurement,Measurement,2160-0,3016723,Creatinine [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1313460,,
+HCt,3023314,"Female: 37-47%
+Male: 42-50%",D0002,일반혈액검사(CBC)-[혈구세포-장비측정],B1020001,Hematocrit,Measurement,Measurement,965763,3023314,Hematocrit [Volume Fraction] of Blood by Automated count,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,1284543,,
+WBC,3010813,4 X10³/ul to 11 X10³/ul,D0002,일반혈액검사(CBC)-[혈구세포-장비측정],B1050001,WBC,Measurement,Measurement,26464-8,3010813,Leukocytes [#/volume] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,X10³/ul,1257228,,
+Platelet,3007461,150 X 10³/ul to 450 X10³/ul,D0002,일반혈액검사(CBC)-[혈구세포-장비측정],B1060001,Platelet,Measurement,Measurement,26515-7,3007461,Platelets [#/volume] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,X10³/ul,1245486,,
+RBC,3026361,4.2 to 5.9 million red blood cells/microL,D0002,일반혈액검사(CBC)-[혈구세포-장비측정],B1040001,RBC,Measurement,Measurement,26453-1,3026361,Erythrocytes [#/volume] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,X10*6/ul,1240145,,
+MCHC,3003338,33 to 36 g/dL,,,B1040001C,MCHC,Measurement,Measurement,28540-3,3003338,MCHC [Mass/volume],Measurement,Lab Test,LOINC,S02,EDTA Blood,g/dl,1217872,,
+MCV,3024731,80 to 98 fL,,,B1040001A,MCV,Measurement,Measurement,30428-7,3024731,MCV [Entitic volume],Measurement,Lab Test,LOINC,S02,EDTA Blood,fL,1217872,,
+MCH,3035941,28 to 32 pg/cell ,,,B1040001B,MCH,Measurement,Measurement,28539-5,3035941,MCH [Entitic mass],Measurement,Lab Test,LOINC,S02,EDTA Blood,pg,1217872,,
+RDW,3019897,9 to 14.5,,,B1040001D,RDW,Measurement,Measurement,788-0,3019897,Erythrocyte distribution width [Ratio] by Automated count,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,1210333,,
+MPV,3001123,7–9 fL,,,B1060001B,MPV,Measurement,Measurement,28542-9,3001123,Platelet mean volume [Entitic volume] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,fL,1209680,,
+Lymphocyte,3002030,"20-50% (Leukocyte count: 4000 to 11,000/microL ; 4.5 to 11 x 109/L (SI))",D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100109,Lympho,Measurement,Measurement,26478-8,3002030,Lymphocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Metamyelo,3002179,0-1%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100105,Metamyelo,Measurement,Measurement,28541-1,3002179,Metamyelocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Band_neutrophils,3004809,0-5%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100107,Band,Measurement,Measurement,26508-2,3004809,Band form neutrophils/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Eosiniphil,3006504,0-7%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100111,Eosiniphil,Measurement,Measurement,26450-7,3006504,Eosinophils/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Atypical_lympho,3013498,6-12%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100113,Atypical lympho,Measurement,Measurement,13046-8,3013498,Variant lymphocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Myelo,3017181,0%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100104,Myelo,Measurement,Measurement,26498-6,3017181,Myelocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Monocyte,3019069,0-12%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100110,Monocyte,Measurement,Measurement,26485-3,3019069,Monocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Promyelo,3021440,0%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100103,Promyelo,Measurement,Measurement,26524-9,3021440,Promyelocytes/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Basophil,3022096,0-1%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100112,Basophil,Measurement,Measurement,30180-4,3022096,Basophils/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+Blast,3025159,0%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100102,Blast,Measurement,Measurement,26446-5,3025159,Blasts/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+nRBC,3034708,0/100 WBC,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100115,nRBC,Measurement,Measurement,19048-8,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,/WBC100,1191012,,
+Imm_cell,40758562,0%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100101,Imm.cell,Measurement,Measurement,55433-7,40758562,Immature cells/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+BUN,3013682,8 to 20 mg/dL ,D2300,요소질소[NPN포함][화학반응-장비측정],C3730001,BUN,Measurement,Measurement,3094-0,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1175108,,
+T_Bilirubin,3024128,0.3 to 1 mg/dL ,D1830,총빌리루빈[화학반응-장비측정],C3720001,T.Bilirubin,Measurement,Measurement,27426,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1172127,,
+Albumin,3024561,3.5 to 5.5 g/dL,D1880,알부민[화학반응-장비측정],C2210001,Albumin,Measurement,Measurement,1751-7,3024561,Albumin [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,g/dL,1158729,,
+Total_Protein,3020630,5.5 to 9 g/dL,D1840,총단백[화학반응-장비측정],C2200001,T.Protein,Measurement,Measurement,359798,3020630,Protein [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,g/dL,1158237,,
+BPH,3004249,90-120mmHg,,,BPH,최고혈압,Measurement,Measurement,2403450,3004249,Systolic blood pressure,Measurement,Clinical Observation,LOINC,,,mm[Hg],1155878,,
+BPL,3012888,60-80mmHg,,,BPL,최저혈압,Measurement,Measurement,2396814,3012888,Diastolic blood pressure,Measurement,Clinical Observation,LOINC,,,mm[Hg],1155868,,
+ALP,3035995,30 to 120 units/L,D1870,알칼리포스파타제[화학반응-장비측정],B2602001,Alk.Phosphatase,Measurement,Measurement,1778154,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,1145890,,
+Uric_acid,3037556,3 to 7 mg/dL,D2310,요산[화학반응-장비측정],C3780001,Uric acid,Measurement,Measurement,432449,3037556,Urate [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1109749,,
+Urine_Protein,40760845,"Normal: Negative
+Trace / + / ++ / +++ / ++++",D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010003,Urine Protein,Measurement,Measurement,57735-3,40760845,Protein [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1082453,"4: ++++
+3: +++
+2: ++
+1: +","4: 4126674
+3: 4125547	
+2: 4126673	
+1: 4123508	
+Trace: 9192
+Negative: 9189"
+Urine_Gravity,3039919,1.005 to 1.030,D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010009,specific Gravity,Measurement,Measurement,53326-5,3039919,Specific gravity of Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1082274,NONE,NONE
+Urine_pH,3029305,4.5 to 8.0,D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010010,pH,Measurement,Measurement,50560-2,3029305,pH of Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1082069,,
+Urine_Glucose,3030260,0 to 0.8 mmol/L,D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010004,Urine Glucose,Measurement,Measurement,50555-2,3030260,Glucose [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1075493,,
+Urine_Ketone,40760844,"Normal: Negative
+Trace / + / ++ / +++ / ++++",D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010007,Urine Ketone,Measurement,Measurement,57734-6,40760844,Ketones [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1075112,"4: ++++
+3: +++
+2: ++
+1: +","4: 4126674
+3: 4125547	
+2: 4126673	
+1: 4123508	
+Trace: 9192
+Negative: 9189"
+Urine_Nitrite,3030758,negative,D2242,요검사-[화학반응-장비측정],B0090001,Urine Nitrite,Measurement,Measurement,50558-6,3030758,Nitrite [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1074909,None,"Positive: 9191
+Negative: 9189"
+Calcium,3006906,8.6 to 10.2 mg/dL,D2800,전해질[화학반응-장비측정],C3795001,Calcium,Measurement,Measurement,17861-6,3006906,Calcium [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1071567,,
+Urine_Bacteria,3025255,Normal: 0/HPF & Negative ,D2201,요침사검사-[관찰판정-육안·장비측정],B004400107,Bacteria,Measurement,Measurement,1413246,3025255,Bacteria [#/area] in Urine sediment by Microscopy high power field,Measurement,Lab Test,LOINC,S06,R.Urine,/HPF,1061412,Integer (0~50),"4: 4126674
+3: 4125547	
+2: 4126673	
+1: 4123508	
+Negative: 9189"
+Urine_RBC,3035124,0-3/hpf,,,B004100101,RBC,Measurement,Measurement,13945-1,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,Measurement,Lab Test,LOINC,S06,R.Urine,/HPF,1061412,,
+Urine_leukocyte,3035583,0-3/hpf,,,B004100102,WBC,Measurement,Measurement,1432208,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,Measurement,Lab Test,LOINC,S06,R.Urine,/HPF,1061412,,
+phosphate,3011904,3 to 4.5 mg/dL,D2800,전해질[화학반응-장비측정],C3794001,In. Phosphorus,Measurement,Measurement,320320,3011904,Phosphate [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1046404,,
+Pulse,3027018,60-100/min,,,PULSE,맥박,Measurement,Measurement,2544737,3027018,Heart rate,Measurement,Clinical Observation,LOINC,,,/min,902125,,
+Potassium,3023103,3.5 to 5 mmol/L,D2800,전해질[화학반응-장비측정],C3792001,Potassium,Measurement,Measurement,337180,3023103,Potassium [Moles/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mMol/L,864570,,
+Sodium,3019550,136 to 145 mEq/L ,D2800,전해질[화학반응-장비측정],C3791001,Sodium,Measurement,Measurement,383903,3019550,Sodium [Moles/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mMol/L,864533,,
+Chloride,3014576,98 to 106 mEq/L ,D2800,전해질[화학반응-장비측정],C3793001,Chloride,Measurement,Measurement,2075-0,3014576,Chloride [Moles/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mMol/L,862011,,
+Body_TEMP,3020891,36.5–37.5 °C,,,YL8318A,Pt temp,Measurement,Measurement,2341326,3020891,Body temperature,Measurement,Clinical Observation,LOINC,S29,ABG BLOOD,℃,809019,,
+RR,3024171,12–16/min,,,BREATH,호흡수,Measurement,Measurement,2695127,3024171,Respiratory rate,Measurement,Clinical Observation,LOINC,,,/min,781122,,
+tCO2,3015632,23 to 30 mmol/L,D2830,혈액총이산화탄소함량[화학반응-장비측정],C3812001,CO2,Measurement,Measurement,46997,3015632,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",Measurement,Lab Test,LOINC,S01,Serum,mMol/L,732973,,
+INR,3022217,1.1 or below,,,B1540001B,INR,Measurement,Measurement,1607585,3022217,INR in Platelet poor plasma by Coagulation assay,Measurement,Lab Test,LOINC,S03,Citrate Plasma,,666296,,
+PT,3034426,11-13s,,,B1540001A,P.T,Measurement,Measurement,1461733,3034426,Prothrombin time (PT),Measurement,Lab Test,LOINC,S03,Citrate Plasma,sec,666296,,
+aPTT,3018677,25-35s,D1004,응고기능기본검사-활성화부분트롬보플라스틴시간,B1530002,aPTT,Measurement,Measurement,14979-9,3018677,aPTT in Platelet poor plasma by Coagulation assay,Measurement,Lab Test,LOINC,S03,Citrate Plasma,sec,660958,,
+GGT,3026910,"Female: 8 to 40 units/L 
+Male: 9 to 50 units/L ",D1890,γ-GTP [화학반응-장비측정],B2710001,γ-GT,Measurement,Measurement,154895,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,648581,,
+weight,3025315,,,,WEIGHT,체중,Measurement,Measurement,29463-7,3025315,Body weight,Measurement,Clinical Observation,LOINC,,,kg,645063,,
+eGFR,40771922,> 60 mL/min/1.73 m2,,,C3750001A,estimated GFR,Measurement,Measurement,69405-9,40771922,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",Measurement,Lab Test,LOINC,S01,Serum,,631184,,
+ESR,3015183,"0 to 15 mm/hour in men younger than 50
+0 to 20 mm/hour in men older than 50
+0 to 20 mm/hour in women younger than 50
+0 to 30 mm/hour for women older than 50",D0100,적혈구침강속도[관찰판정-육안·장비측정],B1030001,ESR,Measurement,Measurement,30341-2,3015183,Erythrocyte sedimentation rate,Measurement,Lab Test,LOINC,S02,EDTA Blood,mm/hr,613704,,
+Triglyceride,3022192,"Optimal: Less than 100 mg/dL 
+Normal: Less than 150 mg/dL 
+Borderline-high: 150 to 199 mg/dL
+High: 200 to 499 mg/dL
+Very high: Greater than 499 mg/dL ",D2263,지질[화학반응-장비측정]-트리글리세라이드,C2443001,Triglyceride,Measurement,Measurement,245292,3022192,Triglyceride [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,609586,,
+HDL,3007070,"60 mg/dL or above
+(Negative risk factor for CHD)
+< 40mg/dL (major risk factor for CHD)  ",D2613,콜레스테롤-HDL 콜레스테롤[화학반응-장비측정],C2420001,HDL-Cholesterol,Measurement,Measurement,67816,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,576053,,
+CRP,3020460,0.8 mg/dL or less,D0113,C-반응성단백-[정밀면역검사](정량),C2243002,CRP,Measurement,Measurement,32264,3020460,C reactive protein [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,550972,,
+height,3036277,,,,HEIGHT,신장,Measurement,Measurement,2338315,3036277,Body height,Measurement,Clinical Observation,LOINC,,,cm,484018,,
+BMI,3038553,"Underweight (below 18.5)
+Normal (18.5 - 24.9)
+Overweight (25.0 - 29.9)
+Obese (30.0 and Above)",,,BMI,BMI,Measurement,Measurement,39156-5,3038553,Body mass index (BMI) [Ratio],Measurement,Clinical Observation,LOINC,,,kg/m2,483065,,
+HBs_Ag,3019284,Negative: <1.00,D7015,정밀면역검사-B형간염표면항원(정성),C4802001,HBs Ag,Measurement,Measurement,1203535,3019284,Hepatitis B virus surface Ag [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,IU/ml,474239,Integer,"Positive: 9191
+Negative: 9189"
+Anti_HCV,3017143,Negative: <1.00,D7026,정밀면역검사-C형간염항체,C4872001,Anti-HCV,Measurement,Measurement,16128-1,3017143,Hepatitis C virus Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,465516,Integer,"Positive: 9191
+Negative: 9189"
+LDL,3028437,"Optimal: Less than 100 mg/dL 
+Near-optimal: 100 to 129 mg/dL 
+Borderline-high: 130 to 159 mg/dL 
+High: 160 to 189 mg/dL 
+Very high: Greater than 189 mg/dL",D2614,콜레스테롤-LDL콜레스테롤[화학반응-장비측정],C2430001,LDL-Cholesterol,Measurement,Measurement,69034,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,463056,,
+TSH,3009201,0.5 to 4 microU/mL ,D3250,갑상선자극호르몬[정밀면역검사],C3360001,TSH,Measurement,Measurement,407672,3009201,Thyrotropin [Units/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,uIU/mL,428780,,
+AFP,3009306,0-7.0 ng/mL,D2421,알파피토프로틴-[정밀면역검사)-핵의학적 방법,C4212053,AFP (Serum),Measurement,Measurement,1834-1,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,317359,,
+Magnesium,3001420,1.7 to 2.2 mg/dL,D2800,전해질[화학반응-장비측정],C3797001,Magnesium,Measurement,Measurement,19123-9,3001420,Magnesium [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,312237,,
+Free_T4,3008598,0.8 to 1.8 ng/dL ,D3231,갑상선호르몬 등[정밀면역검사]-핵의학적 방법,C3340051,Free T4,Measurement,Measurement,410716,3008598,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/dl,308760,,
+RA factor,3021614,0-13 U/mL,D7811,RA factor-[일반면역검사]-(정성),C4901001,RF(정성),Measurement,Measurement,11572-5,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/mL,308134,,
+Ionized_Calcium,3027694,4.5 to 4.9 mg/dL,D2810,이온화 전해질[화학반응-장비측정],C3796001,Ionized Calcium,Measurement,Measurement,17863-2,3027694,Calcium.ionized [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,263085,,
+MPC,46235211,21.5-30.5g/dL,,,B1060001D,MPC,Measurement,Measurement,76683-2,46235211,Mean platelet component [Mass/volume] in Blood by calculation,Measurement,Lab Test,LOINC,S02,EDTA Blood,g/dl,261786,,
+CEA,3003785,<3.8 ng/mL,D4291,태아성암항원 [정밀면역검사]-핵의학적 방법,C4220052,CEA (Serum),Measurement,Measurement,50922,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,251604,,
+D_Bilirubin,3027597,0.1 to 0.3 mg/dL,D1820,직접빌리루빈[화학반응-장비측정],C3721001,D.Bilirubin,Measurement,Measurement,25020,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,188249,,
+HbA1c,3004410,4-5.6 %,D3061,헤모글로빈A1C-[화학반응-장비측정],C3825001,HbA1c,Measurement,Measurement,967255,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,187904,,
+PCT,3039312,0.11–0.29%,,,B1060001A,PCT,Measurement,Measurement,51637-7,3039312,Plateletcrit [Volume Fraction] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,173632,,
+Free_T4,42529233,0.8 to 1.8 ng/dL ,D3230,갑상선호르몬 등[정밀면역검사],C3340001,Free T4,Measurement,Measurement,83122-2,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ng/dL,143941,,
+T3,3010340,80 to 180 ng/dL,D3231,갑상선호르몬 등[정밀면역검사]-핵의학적 방법,C3290051,Triiodothyronine(T3),Measurement,Measurement,421278,3010340,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/dl,142639,,
+PSA,3013603,0.00~4.00ng/mL,D4307,전립선암[정밀면역검사]-핵의학적 방법,C4280052,PSA,Measurement,Measurement,349540,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,128505,,
+CA_19_9,3022914,0–37 U/mL,D4351,CA-19-9[정밀면역검사]-핵의학적 방법,C4230052,CA-19-9 (Serum),Measurement,Measurement,24108-3,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/ml,121727,,
+hs_CRP,3010156,"Low risk: Less than 1 mg/L
+Average risk: 1 to 3 mg/L
+High risk: More than 3 mg/L ",D0113,C-반응성단백-[정밀면역검사](정량),C2243001,hs-CRP,Measurement,Measurement,30522-7,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,120116,,
+Homocysteine,3016724,5 to 15 micromol/L,D5147,,C4962107,Homocysteine,Measurement,Measurement,13965-9,3016724,Homocysteine [Moles/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,uMol/L,108695,,
+Anti_HBc_IgG,3045115,Negative: <1.00,D7021,정밀면역검사-B형간염핵심항체-핵의학적 방법,C4841052,HBc-Ab(Ig-G),Measurement,Measurement,32685-0,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,103440,None,"Positive: 9191, 4123508
+Negative: 9189"
+Ferritin,3015242,"Female: 11 to 307 ug/L
+Male: 24 to 336 ug/L",D0522,철대사검사-[정밀면역검사,C2520002,Ferritin,Measurement,Measurement,20567-4,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ug/L,102835,,
+CA_125,3037551,˂35 U/mL,D4312,CA-125[정밀면역검사]-핵의학적 방법,C4240052,CA-125,Measurement,Measurement,10334-1,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/ml,102507,,
+Fibrinogen,3016407,200-400mg/dl,B1601,섬유소원검사(기능적),B1601002,Fibrinogen,Measurement,Measurement,495087,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,Measurement,Lab Test,LOINC,S03,Citrate Plasma,mg/dL,100531,,
+PDW,3039417,10-17.9%,,,B1060002C,PDW,Measurement,Measurement,51631-0,3039417,Platelet distribution width [Ratio] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,96577,,
+T3,42529253,80 to 180 ng/dL,D3230,갑상선호르몬 등[정밀면역검사],C3290001,T3,Measurement,Measurement,83124-8,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ng/dL,81576,,
+vitamin_D_25,40765040,30 to 60 ng/mL,D4903,비타민-[정밀면역검사]-핵의학적 방법,CY155051,25-OH-V.D,Measurement,Measurement,62292-8,40765040,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,79390,,
+Iron,3002400,50 to 150 microg/dL,D0521,철대사검사-[화학반응-장비측정],C2490001,Serum Iron,Measurement,Measurement,218508,3002400,Iron [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ug/dL,71834,,
+UIBC,3021044,250 to 310 microg/dL,D0521,철대사검사-[화학반응-장비측정],C2510001,UIBC,Measurement,Measurement,219329,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ug/dL,69929,,
+Reticulocyte,3007124,0.5-1.5%,D0502,혈구성숙도-[혈구세포-장비측정],B1081001,Reticulocyte,Measurement,Measurement,17849-1,3007124,Reticulocytes/100 erythrocytes in Blood by Automated count,Measurement,Lab Test,LOINC,S02,EDTA Blood,％,65654,,
+IGF_1,3013273,"Ages 16 to 24: 182 to 780 ng/mL 
+Ages 25 to 39: 114 to 492 ng/mL 
+Ages 40 to 54: 90 to 360 ng/mL 
+Ages 55 and older: 71 to 290 ng/mL",D3441,성장호르몬 관련 단백[정밀면역검사]-핵의학적 방법,CX230051,Somatomedin-c,Measurement,Measurement,2484-4,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,61919,,
+Eosinophil_count,3028615,0-6%,D0022,호산구수(혈액)-[혈구세포-장비측정],B1070001,Eosinophil count,Measurement,Measurement,711-2,3028615,Eosinophils [#/volume] in Blood by Automated count,Measurement,Lab Test,LOINC,S02,EDTA Blood,/ul,57736,,
+CEA_immun,42529202,<3.8 ng/mL,D4290,태아성암항원 [정밀면역검사],C4220001,CEA,Measurement,Measurement,83085-1,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ng/mL,56072,,
+HAV_Ab,3006631,Negative: <1.00,D7011,정밀면역검사-A형간염항체,C4861001,HAV IgG,Measurement,Measurement,32018-4,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,47731,,
+PSA,42529229,0-4.0ng/ml,D4300,전립선암[정밀면역검사],C4280001,PSA,Measurement,Measurement,83112-3,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ng/mL,47082,,
+TPO_Ab_RIA,3015352,<16 IU/mL,D3213,갑상선관련항체-[정밀면역검사]-핵의학적 방법,C4952052,Microsome-Ab,Measurement,Measurement,5382-7,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),Measurement,Lab Test,LOINC,S01,Serum,U/ml,45072,,
+CA_19_9,42529201,0–37 U/mL,D4350,CA-19-9[정밀면역검사],C4230001,CA 19-9,Measurement,Measurement,83084-4,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,U/mL,44283,,
+Vitamin_B12,3000593,200 to 800 pg/mL ,D4902,비타민-[정밀면역검사],C2532001,Vitamin B12,Measurement,Measurement,2132-9,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,pg/mL,42874,,
+Folate,3036987,1.8 to 9 ng/mL,D4902,비타민-[정밀면역검사],C2540001,Folic acid,Measurement,Measurement,2284-8,3036987,Folate [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/mL,41024,,
+Osteocalcin,3028772,"Female: 7.2–27.9 ng/mL
+male: 11.3–35.4 ng/mL",D5031,,C3630001,Osteocalcin,Measurement,Measurement,2697-1,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,32804,,
+Testosterone,3008893,"Female: 18 to 54 ng/dL 
+Male: 291 to 1100 ng/dL",D3711,성선호르몬[정밀면역검사]-핵의학적 방법,C3530052,Testosterone,Measurement,Measurement,2986-8,3008893,Testosterone [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,32653,,
+Pro_BNP,3029187,"Less than 125 pg/mL for patients aged 0-74 years. 
+Less than 450 pg/mL for patients aged 75-99 years.",D4062,심장표지자-[정밀면역검사],CZ208001,Pro-BNP,Measurement,Measurement,33762-6,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,pg/mL,28342,,
+Microalbumin,3000034,0.2 to 1.9 mg/dL,D3003,미량알부민-[정밀면역검사(정량)]-핵의학적 방법,C2302051,Microalbumin (Urine),Measurement,Measurement,14957-5,3000034,Microalbumin [Mass/volume] in Urine,Measurement,Lab Test,LOINC,S06,R.Urine,mg/dl,26809,,
+C-peptide,3010084,0.5 to 2.7 ng/mL,D3051,인슐린관련단백[정밀면역검사]-핵의학적 방법,C3430056,C-peptide,Measurement,Measurement,1986-9,3010084,C peptide [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,19421,,
+T4,42529230,5 to 12 microg/dL,D3230,갑상선호르몬 등[정밀면역검사],C3330001,T4,Measurement,Measurement,83119-8,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ug/dl,19011,,
+CYFRA_21_1,3000659,0~3.3ng/mL,D4481,Cyfra 21-1(Cytokeratin 19 fragment) [정밀면역검사]-핵의학적 방법,C4300101,CYFRA 21-1,Measurement,Measurement,25390-6,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,18077,,
+CA_125_immun,42529199,˂35 U/mL,D4311,CA-125[정밀면역검사],C4240001,CA-125,Measurement,Measurement,83082-8,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,U/mL,16427,,
+Glucose_Fasting,3037110,"70 to 99 mg/dL 
+Impaired fasting glucose: 100~125mg/dL
+Diabetes (fasting): >=126mg/dL",D3022,당검사[화학반응-장비측정][정량],C3711002,Blood Fasting,Measurement,Measurement,1558-6,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S41,FAST BL,mg/dL,14944,,
+T4,3016991,5 to 12 microg/dL,D3231,갑상선호르몬 등[정밀면역검사]-핵의학적 방법,C3330053,Thyroxine (T4),Measurement,Measurement,3026-2,3016991,Thyroxine (T4) [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ug/dl,14544,,
+Calcitonin,3010989,"Female: 5 pg/mL or less
+Male: 10 pg/mL or less",D4240,칼시토닌[정밀면역검사],C3560002,Calcitonin,Measurement,Measurement,1992-7,3010989,Calcitonin [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,pg/ml,10885,,
+Thyroperoxidase_Ab ,40759598,<16 IU/mL,D3212,갑상선관련항체-[정밀면역검사],C4952001,Microsomal Ab,Measurement,Measurement,56477-3,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,IU/mL,8446,,
+CA_15_3,42529200,0–30 U/mL,D4340,CA-15-3[정밀면역검사],C4330001,CA 15-3,Measurement,Measurement,83083-6,42529200,Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,U/mL,8017,,
+CEA_Pleural_Fluid,3009804, <5.0 ng/mL,D4290,태아성암항원 [정밀면역검사],C4220001,CEA,Measurement,Measurement,19169-2,3009804,Carcinoembryonic Ag [Mass/volume] in Pleural fluid,Measurement,Lab Test,LOINC,S11,Pleural Fluid,ng/ml,7823,,
+LP,3013861,Desirable: Less than 30 mg/dL,D2620,리포프로테인(a) [정밀면역검사],C2480001,LP(a),Measurement,Measurement,10835-7,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dl,6872,,
+Apo_B,3014791,< 130 mg/dL,D2630,아포지단백[정밀면역검사],C2462001,Apo B,Measurement,Measurement,1884-6,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dl,5233,,
+AFP,42529190,0-7 ng/mL ,,,XC42120101,a-feto protein(AFP),Measurement,Measurement,83073-7,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,5049,,
+Apo_A1,3008364,"male: 110 to 180 mg/dL
+female: 110 to 205 mg/dL. ",D2630,아포지단백[정밀면역검사],C2461001,Apo A1,Measurement,Measurement,1869-7,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mg/dl,4244,,
+CEA_Peritoneal_Fluid ,3042038, <6.0 ng/mL,D4290,태아성암항원 [정밀면역검사],C4220001,CEA,Measurement,Measurement,40622-3,3042038,Carcinoembryonic Ag [Mass/volume] in Peritoneal fluid,Measurement,Lab Test,LOINC,S10,Peritoneal Fluid ,ng/ml,3748,,
+PIVKA2,3044620,< 40 mAU/ml,D4260,피브카 Ⅱ [정밀면역검사](정량),BX078001,PIVKA-II,Measurement,Measurement,34444-0,3044620,Acarboxyprothrombin [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,mAU/mL,3400,,
+TA_4 ,3005411,1.5 to 3 ng/mL ,D4391,편평상피세포암항원[정밀면역검사]-핵의학적 방법,C4300052,TA-4 (SCC),Measurement,Measurement,9679-2,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,2334,,
+CA_72_4,3018731,0-7 U/mL,D4361,CA-72-4 [정밀면역검사]-핵의학적 방법,C4260002,CA 72-4,Measurement,Measurement,17843-4,3018731,Cancer Ag 72-4 [Units/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/ml,1779,,
+Estradiol,42529213,"30 to 400 pg/mL for premenopausal women(55세 미만)
+0 to 30 pg/mL for postmenopausal women(55세 이상)
+10 to 50 pg/mL for men",C3260,에스트라디올,C3260001,Estradiol,Measurement,Measurement,83096-8,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,pg/ml,1061,,
+CK,3007220,"Female: 30–135 U/L
+male: 55–170 U/L",D2510,효소[화학반응-장비측정],B2630001,Creatine Kinase,Measurement,Measurement,94021,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,325378,,
+Troponin_I,3021337,≤0.04 ng/mL,D4023,트로포닌-[정밀면역검사],C3942002,Troponin I,Measurement,Measurement,10839-9,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/mL,149434,,
+Troponin_T,3019800,≤0.01 ng/mL,C3941,트로포닌T,C3941001,Troponin T,Measurement,Measurement,1716093,3019800,Troponin T.cardiac [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ng/ml,111818,,
+LDH,3022250,80–225 U/L,D2510,효소[화학반응-장비측정],B2590001,LD,Measurement,Measurement,14804-9,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,Measurement,Lab Test,LOINC,S01,Serum,U/L,351863,,
+Amylase,3016771,25–125 U/L,D3800,소화기관 효소[화학반응-장비측정],B2611001,Amylase,Measurement,Measurement,1798-8,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,237525,,
+Lipase,3004905,10–140 U/L,D3800,소화기관 효소[화학반응-장비측정],B2621001,Lipase,Measurement,Measurement,416438,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,U/L,101201,,
+CK_MB,3005785,0 – 5.0 ug/L,D4040,CK-MB[정밀면역검사],B2640001,CK-MB,Measurement,Measurement,13969-1,3005785,Creatine kinase.MB [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,ug/L,263127,,
+Lactic acid,3047181,0.7–2.1 mmol/L,D5110,유산[화학반응-장비측정],C3850001,Lactic acid,Measurement,Measurement,32693-4,3047181,Lactate [Moles/volume] in Blood,Measurement,Lab Test,LOINC,W17,Heparin Blood,mmol/L,99915,,
+BNP,3031569,˂100 pg/mL,D4061,심장표지자-[정밀면역검사](간이검사),C3797101,BNP test(정량),Measurement,Measurement,42637-9,3031569,Natriuretic peptide B [Mass/volume] in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,pg/mL,22656,,
+D_dimer,3018737,˂0.5 μg/mL,B1723,D-dimer검사(정량),B1723002,D-Dimer(정량)(수탁),Measurement,Measurement,3246-6,3018737,Fibrin D-dimer [Units/volume] in Platelet poor plasma by Immunoassay,Measurement,Lab Test,LOINC,S03,Citrate Plasma,ug/mL,57493,,
+Seg_neutrophils,3017354,40–70%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100108,Segmenthil,Measurement,Measurement,26505-8,3017354,Segmented neutrophils/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+neutrophils,3018010,55-70%,D0013,백혈구백분율(혈액)-[혈구세포-장비측정],B109100106,Neutrophil,Measurement,Measurement,26511-6,3018010,Neutrophils/100 leukocytes in Blood,Measurement,Lab Test,LOINC,S02,EDTA Blood,%,1191012,,
+PTH_intact,3000067,10–65 pg/mL,D5021,부갑상선표지자[정밀면역검사]-핵의학적 방법,C3400051,PTH Intact,Measurement,Measurement,2731-8,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,Measurement,Lab Test,LOINC,S01,Serum,pg/ml,38663,,
+vitamin_D_1_25,40765038,15–60 pg/mL,D4902,비타민-[정밀면역검사],CY165001,1α.25-(OH)2 VitD (Vit D),Measurement,Measurement,62290-2,40765038,"1,25-Dihydroxyvitamin D [Mass/volume] in Serum or Plasma",Measurement,Lab Test,LOINC,S01,Serum,pg/ml,10488,,
+ACTH,3027206,10–60 pg/mL,D3431,ACTH[정밀면역검사]-핵의학적 방법,C3590058,ACTH(Basal),Measurement,Measurement,6879-1,3027206,Corticotropin [Mass/volume] in Plasma by Radioimmunoassay (RIA),Measurement,Lab Test,LOINC,CE1,0 분,pg/ml,23986,,
+Anti_HBc_IgM,3013527,Negative: <1.00,D7020,정밀면역검사-B형간염핵심항체,C4842002,Anti-HBc(IgM),Measurement,Measurement,31204-1,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,35080,None,"Positive: 9191, 4123508
+Negative: 9189"
+Anti_Hbe,3013945,Negative: <1.00,D7024,정밀면역검사-B형간염e항체,C4832001,Anti-HBe,Measurement,Measurement,22320-6,3013945,Hepatitis B virus e Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,29607,None,"Positive: 9191, 4123508
+Negative: 9189"
+HBeAg,3027974,Negative: <1.00,D7022,정밀면역검사-B형간염e항원,C4822001,HBe-Ag,Measurement,Measurement,31844-4,3027974,Hepatitis B virus e Ag [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,22404,None,"Positive: 9191
+Negative: 9189"
+Anti_HBs,3013731,"Negative < 5mIU/ml
+intermediate: 5-12 mIU/ml
+protective: >12mIU/ml",D7018,정밀면역검사-B형간염표면항체,C4812001,Anti-HBs,Measurement,Measurement,1202958,3013731,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,mIU/ml,401527,Integer,"Positive: 9191
+Negative: 9189"
+Anti_HBs,3017797,"Negative < 5mIU/ml
+intermediate: 5-12 mIU/ml
+protective: >12mIU/ml",D7002,일반면역검사-B형간염표면항체,C4811001,HBs Ab (RPHA),Measurement,Measurement,22322-2,3017797,Hepatitis B virus surface Ab [Presence] in Serum,Measurement,Lab Test,LOINC,S01,Serum,,81443,None,"Positive: 9191
+Negative: 9189"
+HBV_DNA,3032567,Normal: Not detected ,D7044,핵산증폭-정량그룹1,C4854001,HBV DNA Real-time PCR,Measurement,Measurement,42595-9,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,Measurement,Lab Test,LOINC,W16,EDTA WB(6ml tube),IU/mL,13179,Integer,
+Urine_Blood,3041096,"Normal: Negative
+Trace / + / ++ / +++ / ++++",D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010005,Urine Blood,Measurement,Measurement,53292-9,3041096,Erythrocytes [Presence] in Urine by Automated,Measurement,Lab Test,LOINC,S06,R.Urine,,1082270,"4: ++++
+3: +++
+2: ++
+1: +","4: 4126674
+3: 4125547	
+2: 4126673	
+1: 4123508	
+Trace: 9192
+Negative: 9189"
+Glucose_premeal,3040820,normal: < 100 mg/dL,D3022,당검사[화학반응-장비측정][정량],C3711001,Glucose(AC),Measurement,Measurement,53049-3,3040820,Glucose [Mass/volume] in Serum or Plasma --pre-meal,Measurement,Lab Test,LOINC,S01,Serum,mg/dL,1384810,,
+Urobilinogen,40765224,"normal: 0.1-1.8 mg/dl
+borderline: 2.0mg/dl
+high >2.0 mg/dL",D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010002,Urobilino,Measurement,Measurement,62487-4,40765224,Urobilinogen [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,mg/dL,1075072,,
+Urine_WBC,3014749,0-5/HPF,D2242,요검사-[화학반응-장비측정],B0050001,Urine WBC,Measurement,Measurement,20408-1,3014749,Leukocytes [#/volume] in Urine by Test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1075026,"3
+2
+1
+","3: 4125547	
+2: 4126673	
+1: 4123508	
+Positive: 9192
+Negative: 9189"
+Urine_Bilirubin,3030477,"Normal: Negative
++ / ++ / +++ ",D2251,요 일반검사[화학반응-육안검사/화학반응-장비측정]-4종까지,B0010006,Urine Bilirubin,Measurement,Measurement,50551-1,3030477,Bilirubin.total [Presence] in Urine by Automated test strip,Measurement,Lab Test,LOINC,S06,R.Urine,,1074985,"3
+2
+1
+","3: 4125547	
+2: 4126673	
+1: 4123508	
+Negative: 9189"
+Urine_crystal,3051205,Negative,D2202,요침사검사-[관찰판정-현미경],B004100112,Crystal,Measurement,Measurement,38459-4,3051205,Crystals [#/area] in Urine sediment by Microscopy high power field,Measurement,Lab Test,LOINC,S06,R.Urine,,1061412,,"Positive: 9191
+Negative: 9189"
+HBs_Ag,3004563,Negative,D7016,정밀면역검사-B형간염표면항원(정성)-핵의학적 방법,C4802051,HBs-Ag,Measurement,Measurement,1204450,3004563,Hepatitis B virus surface Ag [Presence] in Serum by Radioimmunoassay (RIA),Measurement,Lab Test,LOINC,S01,Serum,IU/ml,336410,Integer,
+Anti_HBs,3022844,"Negative: < 10mIU/mL
+Hyporisponse: 10-100mIU/mL
+protective: > 100mIU/mL",D7019,정밀면역검사-B형간염표면항체-핵의학적 방법,C4812052,HBs Ab,Measurement,Measurement,1203262,3022844,Hepatitis B virus surface Ab [Units/volume] in Serum by Radioimmunoassay (RIA),Measurement,Lab Test,LOINC,S01,Serum,mIU/ml,323817,Integer,
+ASO,3046268,Negative: <200IU/mL,D5833,ASO검사-[정밀면역검사](정량),C4633001,ASO,Measurement,Measurement,45228-4,3046268,Streptolysin O Ab [Mass/volume] in Serum,Measurement,Lab Test,LOINC,S01,Serum,U/mL,78263,Integer,
+HIV_Ag_Ab,3035962,Negative,D7212,정밀면역검사-HIV 항원/항체(동시 선별),C4712001,Anti-HIV I/II,Measurement,Measurement,31201-7,3035962,HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay,Measurement,Lab Test,LOINC,S01,Serum,,433328,None,"Positive: 9191
+Negative: 9189"
+ANA,3029103,Negative,D7842,항핵항체-[면역형광법]-(정성),C4912001,ANA Screening,Measurement,Measurement,42254-3,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,Measurement,Lab Test,LOINC,S01,Serum,,151987,None,"Positive: 9191
+Negative: 9189"
+VDRL,3019428,Negative,D6911,"비트레포네마검사-매독반응검사[일반면역검사](VDRL,RPR,ART)",C4600001,VDRL-Qualitative(serum),Measurement,Measurement,1239118,3019428,Reagin Ab [Presence] in Serum by VDRL,Measurement,Lab Test,LOINC,S01,Serum,,412277,None,"Positive: 9191
+Negative: 9189"
+VDRL,3029634,"Negative: <1.00
+Positive: >= 1.00",D6912,비트레포네마검사-매독반응검사[일반면역검사](역가),C4601001,VDRL-Quantitative(serum),Measurement,Measurement,50690-7,3029634,Reagin Ab [Titer] in Serum by VDRL,Measurement,Lab Test,LOINC,S01,Serum,,17481,Integer,"Positive: 9191
+Negative: 9189"
+Urine_color,3029925,"Normal: straw color
+Dehydration: dark color",,,XB003001A,Color,Measurement,Measurement,50553-7,3029925,Color of Urine by Auto,Measurement,Lab Test,LOINC,S06,R.Urine,,1015153,None,"763957: Straw color
+763964: Amber color"
