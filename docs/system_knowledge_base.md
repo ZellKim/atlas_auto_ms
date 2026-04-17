@@ -332,7 +332,20 @@ Step 4: NC Calibration (R)
 
 ---
 
-## 9. 시스템 TODO
+## 9. 자동화 Hook
+
+`.claude/settings.json`에 설정된 hook이 매 세션·프롬프트마다 관련 문서를 context에 자동 주입.
+
+| Hook | 동작 | 스크립트 |
+|---|---|---|
+| **SessionStart** | 세션 시작 시 system_knowledge_base + study_knowledge_base + PROGRESS + IRB protocol 전체 주입 | `.claude/hooks/load_project_docs.sh` |
+| **UserPromptSubmit** | 프롬프트에 `분석\|실행\|IPD\|estimation\|calibration\|Cox\|matching\|outcome\|comparator` 키워드 있으면 §5·§7 재주입 | `.claude/hooks/load_analysis_context.sh` |
+
+이유: 메모리·CLAUDE.md는 수동 참조라 Claude가 놓칠 수 있음 → hook은 harness 실행이라 강제됨.
+
+수정·비활성화: `/hooks` 또는 `.claude/settings.json` 직접 편집.
+
+## 10. 시스템 TODO
 
 - [x] measurement unit 전수조사: 13/23기관 완료
 - [x] feedernet analysis 생성 API 확인: `POST /projects/{pid}/analysis`

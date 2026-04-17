@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash '.claude/hooks/load_project_docs.sh'",
+            "timeout": 30,
+            "statusMessage": "프로젝트 문서 로딩 중..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash '.claude/hooks/load_analysis_context.sh'",
+            "timeout": 10,
+            "statusMessage": "분석 컨텍스트 확인 중..."
+          }
+        ]
+      }
+    ]
+  }
+}
