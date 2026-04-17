@@ -12,3 +12,4 @@ id,issue,impact,resolution
 11,feedernet cdmId ≠ atlasId ≠ group_id,execution API에서 CDM not found,기존 execution에서 cdmId 매핑 추출
 12,feedernet estimation 서버 불안정으로 즉시 실패,일부 기관 FINISHED_WITH_ERROR,재실행
 13,clinical_final_v4(11019) 전 기관 반복 실패,1285(T2DM_v3) concept set name에 줄바꿈(\n\n) 포함 → R exportOutcomes에서 readChar() FATAL 에러. 분석 자체는 정상 완료되지만 결과 패키징에서 실패,concept set name에서 줄바꿈 strip() 후 PUT(expression=object). cohortdefinition PUT은 expression을 object로 보내야 함 (string → 400)
+14,MJH(명지병원) estimation 전 기관 실패 — target=1명,observation_period median 53일. CDM 구축 시 observation_period가 짧게 잡혀 prior observation 365일 조건 충족 환자 극소수. Achilles에 appendectomy 6208명이지만 코호트에서 1명만 남음,MJH는 데이터 품질(observation_period) 이슈로 estimation 연구 대상에서 제외. CDM 구축 담당자에게 observation_period 확인 요청 필요
