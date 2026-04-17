@@ -86,6 +86,8 @@ Base URL: /api/v1/
 | NC items=0 | **정상**. ATLAS가 실행 시 conceptSetId로 자동 resolve |
 | cohortDefinitions | feedernet이 export 시 ATLAS에서 **자동 resolve**. spec에 expression 없어도 실행 가능 |
 | 500 에러 | **API 불안정이 아니라 호출 방식 오류** 가능성 먼저 확인 |
+| concept set name 줄바꿈 | name에 `\n` 포함 시 R exportOutcomes에서 FATAL. ATLAS UI에서 복사 시 발생 가능 → strip() 필요 |
+| cohortdefinition PUT | expression은 **object**로 (string → 400). estimation PUT과 반대 |
 
 ---
 

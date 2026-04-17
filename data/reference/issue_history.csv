@@ -11,4 +11,4 @@ id,issue,impact,resolution
 10,estimation POST /import 500 에러,API 호출 방식 오류 가능성 (payload 구조 미확인). Generate GET/POST 혼동 및 expression string/object 혼동과 같은 패턴,copy+PUT은 확인된 안정적 방법. API 호출 전 WebAPI 소스코드에서 정확한 payload 구조 확인 필요
 11,feedernet cdmId ≠ atlasId ≠ group_id,execution API에서 CDM not found,기존 execution에서 cdmId 매핑 추출
 12,feedernet estimation 서버 불안정으로 즉시 실패,일부 기관 FINISHED_WITH_ERROR,재실행
-13,clinical_final_v4(11019) 7기관 반복 실패,원인 미확정. stopOnError=True 상태에서 특정 outcome 에러 추정 (11018과 차이는 outcome 1285 vs 1270뿐). cohortDefinitions 누락은 원인 아님 (feedernet이 자동 resolve),stopOnError=False로 변경 후 재실행. 결과 확인 후 실패 outcome 특정 필요
+13,clinical_final_v4(11019) 전 기관 반복 실패,1285(T2DM_v3) concept set name에 줄바꿈(\n\n) 포함 → R exportOutcomes에서 readChar() FATAL 에러. 분석 자체는 정상 완료되지만 결과 패키징에서 실패,concept set name에서 줄바꿈 strip() 후 PUT(expression=object). cohortdefinition PUT은 expression을 object로 보내야 함 (string → 400)
