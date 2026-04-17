@@ -281,11 +281,44 @@ NC HR → EmpiricalCalibration → calibrated HR. 기준: NC median ≈ 1.0, 유
 5.  논문 정리
 ```
 
-### 7.2 교훈
+### 7.2 결과 다운로드 → IPD pooled 프로세스 (강제 참조)
+
+```
+Step 1: result.zip 다운로드
+  → API: GET .../execution/{eid}/files/{fid}/download
+  → 또는 feedernet UI에서 직접 다운로드
+  → 저장: C:\Users\data1\Desktop\atlas_auto_cmdata\results_{연구명}\
+
+Step 2: CmData 추출 (Python)
+  → result.zip 안의 cmOutput/CmData_l1_t{T}_c{C}.zip 추출
+  → CmData.zip을 다시 unzip → *.sqlite + *.rds
+  → 저장: cmData_{연구명}\{기관}\CmData_l1_t{T}_c{C}\*.sqlite
+
+Step 3: IPD Pooled Analysis (R)
+  → SQLite 파일을 DBI::dbConnect()로 직접 로드 (loadCohortMethodData 아님!)
+  → dbReadTable(con, "cohorts"), "outcomes", "covariates", "covariateRef"
+  → site dummy covariate 추가
+  → Cyclops PS fitting → 1:1 matching → site-stratified Cox
+  → NC outcome도 동일 방식
+
+Step 4: NC Calibration (R)
+  → EmpiricalCalibration::fitNull() + calibrateP()
+  → calibrated HR, CI, p-value 산출
+```
+
+**⚠️ 반드시 지킬 것:**
+- CmData 로드는 **DBI::dbConnect(RSQLite::SQLite(), *.sqlite)** 사용
+- `loadCohortMethodData()`는 **Andromeda 버전 호환 문제**로 실패할 수 있음
+- `Rscript`로 실행 시 JAVA_HOME 누락 가능 → 스크립트 첫줄에 `Sys.setenv(JAVA_HOME=...)` 필수
+- dual-unit outcome (CRP, Neutro#)은 **기관별 unit에 맞는 코호트만 선택**
+- R 패키지: Andromeda 0.6.0, CohortMethod 4.2.2, duckdb 제거
+
+### 7.3 교훈
 1. 데이터 검증을 estimation 전에 수행
 2. estimation은 기존 copy → TCO만 변경 (새로 만들지 말 것)
 3. 500 에러 시 호출 방식 먼저 확인
-4. CmData/분석 시 R 패키지 버전 일치 필수
+4. CmData 로드는 SQLite 직접 (loadCohortMethodData 금지)
+5. result.zip → CmData.zip → sqlite 2단계 unzip 필요
 
 ---
 
