@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R.
+# Kept for reference only.
 # ============================================================
 # 실행 스크립트: atlas-auto 결과 pooled analysis
 # ============================================================

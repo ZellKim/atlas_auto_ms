@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R.
+# Kept for reference only.
 d <- "C:/Users/data1/Desktop/atlas_auto_cmdata/v4_ipd_workspace/CHNUH/v4_1a_cbc_wbc/CmData_l1_t1072_c1074"
 sqf <- list.files(d, pattern = "\\.sqlite$", full.names = TRUE)[1]
 con <- DBI::dbConnect(RSQLite::SQLite(), sqf)

@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R.
+# Kept for reference only.
 suppressPackageStartupMessages(library(EmpiricalCalibration))
 df <- read.csv("C:/Users/data1/Desktop/atlas_auto_cmdata/v4_pooled_output/v4_nofilter_nc_c1074_Chole.csv")
 nc <- df[!is.na(df$logHr) & !is.na(df$seLogHr) &

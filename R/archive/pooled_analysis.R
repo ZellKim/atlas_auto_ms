@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R.
+# Kept for reference only.
 # ============================================================
 # Pooled Analysis (Meta-Analysis) for Multi-site CES Results
 # ============================================================
