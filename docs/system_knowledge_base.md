@@ -18,7 +18,10 @@
 | - 기관별 unit | `data/measurement/by_site/units_by_site.csv` |
 | - Value 분포 (p10-90) | `data/measurement/unit_survey_full.csv`, `data/measurement/v4_surveys/*.csv` |
 | - Characterization (FA preset) | `data/measurement/characterization/char_preset_all.csv` |
-| Achilles frequency (23기관×5domain, cross-domain) | `data/concept_frequency/` |
+| **Achilles concept frequency** (23기관×5 domain) | `data/concept_frequency/` (README 있음) |
+| - 표준 기관별 dump | `data/concept_frequency/by_site/{CODE}_{domain}.csv` |
+| - KCD native vocab | `data/concept_frequency/kcd_vocab/` |
+| - OHDSI 공개 benchmark | `data/concept_frequency/benchmark/` |
 | R 환경 설정 | `data/reference/r_environment.csv` |
 | 이슈 히스토리 | `data/reference/issue_history.csv` |
 
