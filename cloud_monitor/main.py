@@ -27,15 +27,11 @@ GCS_BUCKET = os.environ.get("GCS_BUCKET", "investment-os-regiem-state")
 STATE_BLOB = "monitor/feedernet_monitor_state.json"
 
 # 모니터링 대상
+# - v3 analyses 11018/11019 removed 2026-04-19 (completed/cancelled)
+# - v4 appendectomy 11034-11038, 11044 removed 2026-04-24 (completed)
 MONITOR_TARGETS = {
-    11019: {
-        "name": "clinical_final_v4 (11 outcomes, T2DM=1285)",
-        "project_id": 5104,
-    },
-    11018: {
-        "name": "biomarker_changed_final (10 modified outcomes)",
-        "project_id": 5104,
-    },
+    # allergic diseases (22 sites, v2 spec with NC 54) — added 2026-04-24
+    11029: {"name": "AD_allergic_tic_adhd_v1 (22 sites)", "project_id": 5104},
 }
 
 
@@ -92,17 +88,21 @@ def get_execution_status(session: requests.Session, project_id: int, analysis_id
     resp.raise_for_status()
     groups = resp.json().get("content", [])
 
+    # Pick LATEST execution per cdmId by max eid (not first-match which is non-deterministic)
     latest_by_cdm = {}
     for group in groups:
         for ex in group.get("executionList", []):
-            cdm = ex.get("cdmName", "?")
-            if cdm not in latest_by_cdm:
-                latest_by_cdm[cdm] = ex
+            cdm_id = ex.get("cdmId")
+            if cdm_id is None:
+                continue
+            prev = latest_by_cdm.get(cdm_id)
+            if prev is None or (ex.get("id", 0) or 0) > (prev.get("id", 0) or 0):
+                latest_by_cdm[cdm_id] = ex
 
     counts = {"COMPLETE": 0, "RUNNING": 0, "FAILED": 0, "WAITING": 0, "CANCELED": 0}
     details = {"COMPLETE": [], "RUNNING": [], "FAILED": [], "WAITING": [], "CANCELED": []}
 
-    for cdm, ex in latest_by_cdm.items():
+    for ex in latest_by_cdm.values():
         status = ex.get("executionStatus", "")
         org = ex.get("orgName", "?")
 
@@ -151,6 +151,7 @@ def send_telegram(message: str):
 @functions_framework.http
 def monitor(request):
     """Cloud Scheduler에서 HTTP로 호출."""
+    print(f"[MONITOR] invoked; targets={list(MONITOR_TARGETS.keys())}")
     session = requests.Session()
     session.headers.update({
         "User-Agent": "FedernetMonitor/1.0",
@@ -160,23 +161,28 @@ def monitor(request):
     if not login_feedernet(session):
         send_telegram("feedernet 모니터링 로그인 실패")
         return ("login failed", 500)
+    print("[MONITOR] login OK")
 
     prev_state = load_previous_state()
+    # _retired = analyses that completed and were auto-removed from monitoring
+    retired = set(prev_state.get("_retired", []))
     current_state = {}
     messages = []
     should_notify = False
-    all_studies_done = True
+    newly_retired = []
 
     for analysis_id, target in MONITOR_TARGETS.items():
+        key = str(analysis_id)
+        if key in retired:
+            print(f"[MONITOR] skip {key} (retired)")
+            continue
         project_id = target["project_id"]
         name = target["name"]
-        key = str(analysis_id)
 
         try:
             status = get_execution_status(session, project_id, analysis_id)
         except Exception as e:
             logger.error(f"{name}: 조회 실패 - {e}")
-            all_studies_done = False
             continue
 
         c = status["counts"]
@@ -186,10 +192,6 @@ def monitor(request):
 
         current_state[key] = {"complete": c["COMPLETE"], "total": total}
 
-        if not status["all_done"]:
-            all_studies_done = False
-
-        # 완료 기관이 늘었으면 알림 대상
         if new_complete > 0:
             should_notify = True
 
@@ -203,32 +205,36 @@ def monitor(request):
         if new_complete > 0:
             new_orgs = status["details"]["COMPLETE"][-new_complete:]
             line += f"\n  +{new_complete} 새 완료: {', '.join(new_orgs)}"
-
         if c["RUNNING"] > 0:
             line += f"\n  실행중: {', '.join(status['details']['RUNNING'])}"
         if c["FAILED"] > 0:
             line += f"\n  실패: {', '.join(status['details']['FAILED'])}"
 
+        # Auto-retire when all done
         if status["all_done"]:
-            line += "\n  ALL DONE"
+            line += "\n  ✅ ALL DONE — 이후 모니터링 중단"
+            retired.add(key)
+            newly_retired.append(name)
+            should_notify = True
 
         messages.append(line)
 
-    # 상태 저장 (변화 유무와 무관하게)
+    current_state["_retired"] = sorted(retired)
     save_current_state(current_state)
 
+    all_studies_done = len(messages) == 0  # all targets retired → nothing to monitor
+
     # 알림 판단: 완료 수 증가 or 전체 완료
+    print(f"[MONITOR] should_notify={should_notify} all_done={all_studies_done} n_msgs={len(messages)}")
     if all_studies_done:
         msg = f"<b>ALL COMPLETE - feedernet Estimation 전체 완료</b>\n\n" + "\n\n".join(messages)
         send_telegram(msg)
-        logger.info("All studies done - Telegram sent")
+        print("[MONITOR] ALL DONE Telegram sent")
     elif should_notify:
         msg = f"<b>feedernet Estimation 진행 업데이트</b>\n\n" + "\n\n".join(messages)
         send_telegram(msg)
-        logger.info("New completions detected - Telegram sent")
+        print("[MONITOR] UPDATE Telegram sent")
     else:
-        logger.info("No change - skipping Telegram")
-        for m in messages:
-            logger.info(m.replace("<b>", "").replace("</b>", ""))
+        print("[MONITOR] no change - skip Telegram")
 
     return ("ok", 200)
