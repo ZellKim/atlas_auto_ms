@@ -10,6 +10,7 @@
 | API 엔드포인트 (70+) | `data/atlas_reference/atlas_webapi_endpoints_full.csv` |
 | 기관 4종 ID 매핑 (24기관) | `data/site_mapping/site_id_mapping_full.csv` |
 | 기관 sourceKey 매핑 | `data/site_mapping/source_key_mapping.csv` |
+| **기관 총 환자수·데이터 기간·DB명** | `data/site_mapping/site_summary_23.csv` |
 | PRESET FA 목록 (105개) | `data/atlas_reference/atlas_preset_fa_list.csv` |
 | ETRI measurement 리스트 | `data/atlas_reference/etri_measurement_list.csv` |
 | **Measurement 연구 시작 키트** | `data/measurement/` (README 있음) |
