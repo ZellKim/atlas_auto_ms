@@ -10,7 +10,7 @@ config <- list(
   # Where CmData SQLite files live. Directory layout:
   #   single analysis:  {cmdata_root}/{site}/CmData_l1_t{T}_c{C}/*.sqlite
   #   multi analysis:   {cmdata_root}/{site}/{analysis}/CmData_l1_t{T}_c{C}/*.sqlite
-  cmdata_root = "C:/Users/data1/Desktop/atlas_auto_cmdata/cmData_{STUDY}",
+  cmdata_root = "C:/Users/data1/Desktop/atlas_auto_cmdata/{STUDY}/cmData",
 
   # Site names matching directory names under cmdata_root.
   sites = c("AUMC_5.3.1_11", "CHNUH_5.3.1_01" # , ...
@@ -48,7 +48,7 @@ config <- list(
   time_windows = list(c(1, 30), c(31, 90), c(91, 365), c(366, 1095), c(1096, 3650))
 )
 
-OUT <- "C:/Users/data1/Desktop/atlas_auto_cmdata/{STUDY}_pooled_output"
+OUT <- "C:/Users/data1/Desktop/atlas_auto_cmdata/{STUDY}/pooled_output"
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 
 result <- run_ipd_pooled(config)

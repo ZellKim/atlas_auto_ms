@@ -437,7 +437,8 @@ Step 1: result.zip 다운로드
 Step 2: CmData 추출 (Python)
   → result.zip 안의 cmOutput/CmData_l1_t{T}_c{C}.zip 추출
   → CmData.zip을 다시 unzip → *.sqlite + *.rds
-  → 저장: cmData_{연구명}\{기관}\CmData_l1_t{T}_c{C}\*.sqlite
+  → 저장: {연구}/cmData/{기관}/CmData_l1_t{T}_c{C}/*.sqlite
+  (2026-04-24 이후 계층: C:\Users\data1\Desktop\atlas_auto_cmdata\{study}\[v{N}\]{cmData,results,pooled_output})
 
 Step 3-4: IPD Pooled + NC Calibration (R) — **R/lib/ipd_pooled.R 사용**
 
@@ -450,7 +451,7 @@ Step 3-4: IPD Pooled + NC Calibration (R) — **R/lib/ipd_pooled.R 사용**
   Sys.setenv(JAVA_HOME = "C:/Users/data1/java/jdk-21.0.10+7")
   source("R/lib/ipd_pooled.R")
   result <- run_ipd_pooled(list(
-    cmdata_root = "C:/Users/data1/Desktop/atlas_auto_cmdata/cmData_{연구}",
+    cmdata_root = "C:/Users/data1/Desktop/atlas_auto_cmdata/{연구}/cmData",
     sites = c(...),
     target_id = ..., comparator_id = ...,
     analyses = NULL,                      # or c("a","b","c") for multi-analysis
