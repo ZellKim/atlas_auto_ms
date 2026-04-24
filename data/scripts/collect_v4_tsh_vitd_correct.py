@@ -8,8 +8,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 from atlas_auto.client import FedernetClient
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-OUT = os.path.join(DATA_DIR, 'v4_tsh_vitd_survey.csv')
-RAW = os.path.join(DATA_DIR, 'v4_tsh_vitd_raw.json')
+OUT = os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'tsh_vitd_survey.csv')
+RAW = os.path.join(DATA_DIR, 'measurement', 'raw_drilldown', 'v4_tsh_vitd.json')
 
 CONCEPTS = [
     (3009201,  'TSH',        'mIU/L',   'Tier1'),

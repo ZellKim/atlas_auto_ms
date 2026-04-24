@@ -19,7 +19,7 @@ from atlas_auto.client import FedernetClient
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..')
-OUTPUT_PATH = os.path.join(DATA_DIR, 'measurement_unit_survey.csv')
+OUTPUT_PATH = os.path.join(DATA_DIR, 'measurement', 'unit_survey_full.csv')
 
 # 기관 매핑 (site_id_mapping_full.csv 기반)
 SITES = [

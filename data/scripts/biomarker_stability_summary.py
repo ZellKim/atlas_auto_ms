@@ -16,8 +16,8 @@ import os
 from collections import defaultdict
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-OUT_MATRIX = os.path.join(DATA_DIR, 'biomarker_site_concept_matrix.csv')
-OUT_SUMMARY = os.path.join(DATA_DIR, 'biomarker_stability_summary.csv')
+OUT_MATRIX = os.path.join(DATA_DIR, 'measurement', 'site_concept_matrix.csv')
+OUT_SUMMARY = os.path.join(DATA_DIR, 'measurement', 'stability_summary.csv')
 
 # biomarker → [(concept_id, name)]: 각 biomarker의 모든 alt concept
 BIOMARKER_CONCEPTS = {
@@ -174,9 +174,9 @@ def load_achilles_frequency():
 
 
 def main():
-    rows30 = load_rows(os.path.join(DATA_DIR, 'v4_all_outcomes_value_survey.csv'))
-    rows11 = load_rows(os.path.join(DATA_DIR, 'v4_extension11_value_survey.csv'))
-    rows_tv = load_rows(os.path.join(DATA_DIR, 'v4_tsh_vitd_survey.csv'))
+    rows30 = load_rows(os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'all_outcomes_value_survey.csv'))
+    rows11 = load_rows(os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'extension11_value_survey.csv'))
+    rows_tv = load_rows(os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'tsh_vitd_survey.csv'))
 
     # Achilles frequency CSV 직접 로드 → availability 체크 (drilldown보다 신뢰 가능)
     achilles = load_achilles_frequency()

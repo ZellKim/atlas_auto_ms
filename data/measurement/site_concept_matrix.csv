@@ -1,0 +1,705 @@
+﻿biomarker,site,used_concept_id,count,median,unit,status
+WBC,CHNUH,3000905,3229070,nan,No matching concept,USABLE
+WBC,DCMC,3010813,895285,nan,No matching concept,USABLE
+WBC,DSMC,3010813,2247470,6.75,thousand per microliter,USABLE
+WBC,EUMC,3010813,9263943,6.66,No matching concept,USABLE
+WBC,GNUCH,3010813,952932,6.92,thousand per microliter,USABLE
+WBC,GNUH,3010813,3752224,6.8,thousand per cubic millimeter,USABLE
+WBC,HUMC,3010813,1994744,nan,No matching concept,USABLE
+WBC,ISH,3010813,1304672,nan,No matching concept,USABLE
+WBC,JCMJ,3010813,543726,7.18,thousand per microliter,USABLE
+WBC,KCCH,3010813,2870351,5.87,No matching concept,USABLE
+WBC,KDH,3010813,1958615,7.13,thousand per microliter,USABLE
+WBC,KHMC,3010813,3084419,nan,No matching concept,USABLE
+WBC,KHNMC,3010813,3063915,7.2,No matching concept,USABLE
+WBC,KWMC,3010813,2166724,7.2,thousand per microliter,USABLE
+WBC,MJH,3010813,1140458,,Achilles-only,USABLE
+WBC,PNUH,3010813,30569051,nan,No matching concept,USABLE
+WBC,SCHBC,3010813,6726912,6.8,thousand per microliter,USABLE
+WBC,SCHCA,3010813,4339260,nan,No matching concept,USABLE
+WBC,SCHGM,3010813,1298105,nan,No matching concept,USABLE
+WBC,SCHSU,3010813,3402866,nan,No matching concept,USABLE
+WBC,UUH,3010813,685054,,Achilles-only,USABLE
+WBC,WKUH,3010813,4012643,nan,No matching concept,USABLE
+Neutro,CHNUH,,0,,,NO_DATA
+Neutro,DCMC,3017354,2394519,nan,No matching concept,USABLE
+Neutro,DSMC,3018010,1918548,64.3,percent,USABLE
+Neutro,EUMC,3018010,12712327,61.8,percent,USABLE
+Neutro,GNUCH,3017354,1040878,63.0,percent,USABLE
+Neutro,GNUH,3017732,3516282,4.03,thousand per cubic millimeter,USABLE
+Neutro,HUMC,3018010,2367485,62.3,percent,USABLE
+Neutro,ISH,3017732,1119400,4413.0,per microliter,USABLE_BUT_MISLABEL_SUSPECT
+Neutro,JCMJ,3017354,503235,61.2,percent,USABLE
+Neutro,KCCH,3017732,2869938,3.46,No matching concept,USABLE
+Neutro,KDH,3018010,3224028,63.0,percent,USABLE
+Neutro,KHMC,3017354,2230310,62.2,percent,USABLE
+Neutro,KHNMC,3017354,2721420,65.0,No matching concept,USABLE
+Neutro,KWMC,3018010,2033300,63.0,percent,USABLE
+Neutro,MJH,3018010,1024118,,Achilles-only,USABLE
+Neutro,PNUH,3017732,21440572,nan,No matching concept,USABLE
+Neutro,SCHBC,3018010,3945305,nan,No matching concept,USABLE
+Neutro,SCHCA,3018010,4085045,nan,No matching concept,USABLE
+Neutro,SCHGM,3018010,1185670,nan,No matching concept,USABLE
+Neutro,SCHSU,3018010,3332848,nan,No matching concept,USABLE
+Neutro,UUH,3018010,481723,,Achilles-only,USABLE
+Neutro,WKUH,3017732,3894993,nan,No matching concept,USABLE
+Lympho,CHNUH,3004327,3100254,nan,No matching concept,USABLE
+Lympho,DCMC,3002030,2394511,nan,No matching concept,USABLE
+Lympho,DSMC,3002030,1918548,23.8,percent,USABLE
+Lympho,EUMC,3002030,12724751,26.1,percent,USABLE
+Lympho,GNUCH,3002030,1040877,25.1,percent,USABLE
+Lympho,GNUH,3002030,3516281,25.8,percent,USABLE
+Lympho,HUMC,3002030,2367485,26.3,percent,USABLE
+Lympho,ISH,3002030,1119400,24.2,percent,USABLE
+Lympho,JCMJ,3002030,503235,27.0,percent,USABLE
+Lympho,KCCH,3002030,2869508,26.2,percent,USABLE
+Lympho,KDH,3002030,3224034,24.9,percent,USABLE
+Lympho,KHMC,3002030,2230340,26.1,percent,USABLE
+Lympho,KHNMC,3002030,2720471,23.2,No matching concept,USABLE
+Lympho,KWMC,3002030,2033347,25.0,percent,USABLE
+Lympho,MJH,3004327,2009543,nan,No matching concept,USABLE
+Lympho,PNUH,3002030,19969352,nan,No matching concept,USABLE
+Lympho,SCHBC,3002030,3945329,nan,No matching concept,USABLE
+Lympho,SCHCA,3002030,4085029,nan,No matching concept,USABLE
+Lympho,SCHGM,3002030,1185670,nan,No matching concept,USABLE
+Lympho,SCHSU,3002030,3333608,nan,No matching concept,USABLE
+Lympho,UUH,3002030,481723,,Achilles-only,USABLE
+Lympho,WKUH,3002030,3894230,25.0,percent,USABLE
+Eosino,CHNUH,,0,,,NO_DATA
+Eosino,DCMC,3006504,2394479,nan,No matching concept,USABLE
+Eosino,DSMC,3006504,1918548,1.6,percent,USABLE
+Eosino,EUMC,3006504,12498569,1.8,percent,USABLE
+Eosino,GNUCH,3006504,1040877,1.7,percent,USABLE
+Eosino,GNUH,3006504,3516284,1.7,percent,USABLE
+Eosino,HUMC,3006504,2367485,1.9,percent,USABLE
+Eosino,ISH,3006504,1119400,1.6,percent,USABLE
+Eosino,JCMJ,3006504,503235,1.7,percent,USABLE
+Eosino,KCCH,3006504,2819591,2.0,percent,USABLE
+Eosino,KDH,3006504,3224028,2.0,percent,USABLE
+Eosino,KHMC,3006504,2229973,2.0,percent,USABLE
+Eosino,KHNMC,3006504,2719736,1.6,No matching concept,USABLE
+Eosino,KWMC,3006504,1930828,1.9,percent,USABLE
+Eosino,MJH,3006504,1022005,,Achilles-only,USABLE
+Eosino,PNUH,3006504,23801904,nan,No matching concept,USABLE
+Eosino,SCHBC,3006504,3945307,nan,No matching concept,USABLE
+Eosino,SCHCA,3013115,4085041,nan,No matching concept,USABLE
+Eosino,SCHGM,3006504,1185649,nan,No matching concept,USABLE
+Eosino,SCHSU,3006504,3333564,nan,No matching concept,USABLE
+Eosino,UUH,3006504,481723,,Achilles-only,USABLE
+Eosino,WKUH,3013115,3905810,nan,No matching concept,USABLE
+Mono,CHNUH,,0,,,NO_DATA
+Mono,DCMC,3019069,2394491,nan,No matching concept,USABLE
+Mono,DSMC,3019069,1918548,7.4,percent,USABLE
+Mono,EUMC,3019069,12703289,7.3,percent,USABLE
+Mono,GNUCH,3019069,1041856,7.5,percent,USABLE
+Mono,GNUH,3019069,3516284,7.1,percent,USABLE
+Mono,HUMC,3019069,2367485,6.1,percent,USABLE
+Mono,ISH,3019069,1119400,7.2,percent,USABLE
+Mono,JCMJ,3019069,503235,7.8,percent,USABLE
+Mono,KCCH,3019069,2867224,5.8,percent,USABLE
+Mono,KDH,3019069,3224033,6.3,percent,USABLE
+Mono,KHMC,3019069,2230301,5.5,percent,USABLE
+Mono,KHNMC,3019069,2720150,7.3,No matching concept,USABLE
+Mono,KWMC,3019069,1930828,7.4,percent,USABLE
+Mono,MJH,3019069,1024135,,Achilles-only,USABLE
+Mono,PNUH,3019069,19839689,nan,No matching concept,USABLE
+Mono,SCHBC,3019069,3945320,nan,No matching concept,USABLE
+Mono,SCHCA,3019069,4084927,nan,No matching concept,USABLE
+Mono,SCHGM,3019069,1116257,nan,No matching concept,USABLE
+Mono,SCHSU,3019069,3333607,nan,No matching concept,USABLE
+Mono,UUH,3019069,481723,,Achilles-only,USABLE
+Mono,WKUH,3019069,3893300,7.3,percent,USABLE
+Baso,CHNUH,,0,,,NO_DATA
+Baso,DCMC,3022096,2394465,nan,No matching concept,USABLE
+Baso,DSMC,3022096,1918548,0.4,percent,USABLE
+Baso,EUMC,3022096,12337426,0.4,percent,USABLE
+Baso,GNUCH,3022096,1040877,0.4,percent,USABLE
+Baso,GNUH,3022096,3516285,0.4,percent,USABLE
+Baso,HUMC,3022096,2367485,0.4,percent,USABLE
+Baso,ISH,3022096,1119400,0.3,percent,USABLE
+Baso,JCMJ,3022096,503227,0.3,percent,USABLE
+Baso,KCCH,3022096,2796909,0.4,percent,USABLE
+Baso,KDH,3022096,3224027,0.4,percent,USABLE
+Baso,KHMC,3022096,2228816,0.4,percent,USABLE
+Baso,KHNMC,3022096,2721288,0.4,No matching concept,USABLE
+Baso,KWMC,3022096,1930827,0.4,percent,USABLE
+Baso,MJH,3022096,1014191,,Achilles-only,USABLE
+Baso,PNUH,3022096,19834690,nan,No matching concept,USABLE
+Baso,SCHBC,3022096,3945317,nan,No matching concept,USABLE
+Baso,SCHCA,3022096,4082875,nan,No matching concept,USABLE
+Baso,SCHGM,3022096,1116218,nan,No matching concept,USABLE
+Baso,SCHSU,3022096,3333413,nan,No matching concept,USABLE
+Baso,UUH,3022096,481723,,Achilles-only,USABLE
+Baso,WKUH,3022096,3893291,0.3,percent,USABLE
+Hgb,CHNUH,3000963,3316449,nan,No matching concept,USABLE
+Hgb,DCMC,3027484,168762,,Achilles-only,USABLE
+Hgb,DSMC,3000963,2339202,12.0,gram per deciliter,USABLE
+Hgb,EUMC,3000963,3439574,12.1,gram per deciliter,USABLE
+Hgb,GNUCH,3000963,1260367,12.2,gram per deciliter,USABLE
+Hgb,GNUH,3000963,4129838,11.9,gram per deciliter,USABLE
+Hgb,HUMC,3000963,2484091,12.8,gram per deciliter,USABLE
+Hgb,ISH,3000963,1455097,12.5,gram per deciliter,USABLE
+Hgb,JCMJ,3000963,691866,13.3,gram per deciliter,USABLE
+Hgb,KCCH,3000963,2981310,12.1,gram per deciliter,USABLE
+Hgb,KDH,3000963,3478454,12.3,gram per deciliter,USABLE
+Hgb,KHMC,3000963,3132677,12.8,gram per deciliter,USABLE
+Hgb,KHNMC,3000963,2982432,12.1,No matching concept,USABLE
+Hgb,KWMC,3000963,2351000,12.4,gram per deciliter,USABLE
+Hgb,MJH,3000963,1281737,,Achilles-only,USABLE
+Hgb,PNUH,3000963,30359904,nan,No matching concept,USABLE
+Hgb,SCHBC,3000963,671856,,Achilles-only,USABLE
+Hgb,SCHCA,3027484,618807,,Achilles-only,USABLE
+Hgb,SCHGM,3000963,671856,,Achilles-only,USABLE
+Hgb,SCHSU,3027484,618807,,Achilles-only,USABLE
+Hgb,UUH,3000963,685316,,Achilles-only,USABLE
+Hgb,WKUH,3000963,4894986,11.7,gram per deciliter,USABLE
+Hct,CHNUH,3023314,3213120,nan,No matching concept,USABLE
+Hct,DCMC,3009542,169222,,Achilles-only,USABLE
+Hct,DSMC,3009542,277031,,Achilles-only,USABLE
+Hct,EUMC,,0,,,NO_DATA
+Hct,GNUCH,3009542,199312,,Achilles-only,USABLE
+Hct,GNUH,3023314,575842,,Achilles-only,USABLE
+Hct,HUMC,3009542,181438,,Achilles-only,USABLE
+Hct,ISH,3009542,316200,,Achilles-only,USABLE
+Hct,JCMJ,3023314,546971,38.2,percent,USABLE
+Hct,KCCH,3023314,575842,,Achilles-only,USABLE
+Hct,KDH,3023314,415768,,Achilles-only,USABLE
+Hct,KHMC,3023314,3084386,38.0,percent,USABLE
+Hct,KHNMC,3009542,1177602,,Achilles-only,USABLE
+Hct,KWMC,3009542,318752,,Achilles-only,USABLE
+Hct,MJH,3009542,1177602,,Achilles-only,USABLE
+Hct,PNUH,3009542,561269,,Achilles-only,USABLE
+Hct,SCHBC,3009542,670359,,Achilles-only,USABLE
+Hct,SCHCA,3009542,549075,,Achilles-only,USABLE
+Hct,SCHGM,3009542,670359,,Achilles-only,USABLE
+Hct,SCHSU,3009542,549075,,Achilles-only,USABLE
+Hct,UUH,3009542,685027,,Achilles-only,USABLE
+Hct,WKUH,3023314,2662,,Achilles-only,USABLE
+MCV,CHNUH,,0,,,NO_DATA
+MCV,DCMC,3024731,3562254,nan,No matching concept,USABLE
+MCV,DSMC,3024731,2247471,92.1,femtoliter,USABLE
+MCV,EUMC,3024731,12495323,89.9,femtoliter,USABLE
+MCV,GNUCH,3024731,1041867,91.0,femtoliter,USABLE
+MCV,GNUH,3024731,575842,,Achilles-only,USABLE
+MCV,HUMC,3024731,2366925,91.1,femtoliter,USABLE
+MCV,ISH,3024731,1303960,90.7,femtoliter,USABLE
+MCV,JCMJ,3024731,538258,90.9,femtoliter,USABLE
+MCV,KCCH,3024731,2870384,90.9,femtoliter,USABLE
+MCV,KDH,3024731,3346775,91.3,femtoliter,USABLE
+MCV,KHMC,3024731,3034187,90.9,femtoliter,USABLE
+MCV,KHNMC,3024731,2841589,91.3,No matching concept,USABLE
+MCV,KWMC,3024731,1919501,nan,No matching concept,USABLE
+MCV,MJH,3024731,1155621,,Achilles-only,USABLE
+MCV,PNUH,3024731,30351795,nan,No matching concept,USABLE
+MCV,SCHBC,3024731,6732213,90.0,femtoliter,USABLE
+MCV,SCHCA,3024731,4317739,nan,No matching concept,USABLE
+MCV,SCHGM,3024731,1075771,nan,No matching concept,USABLE
+MCV,SCHSU,3024731,3402407,nan,No matching concept,USABLE
+MCV,UUH,3024731,685022,,Achilles-only,USABLE
+MCV,WKUH,3024731,4234834,nan,No matching concept,USABLE
+RDW,CHNUH,,0,,,NO_DATA
+RDW,DCMC,3002385,1759985,nan,No matching concept,USABLE
+RDW,DSMC,3002385,271000,12.7,percent,USABLE
+RDW,EUMC,3002385,12492248,13.4,percent,USABLE
+RDW,GNUCH,3002385,1041875,13.1,percent,USABLE
+RDW,GNUH,3002385,3516283,13.5,percent,USABLE
+RDW,HUMC,3002385,2367466,13.1,percent,USABLE
+RDW,ISH,3002385,1303347,13.0,percent,USABLE
+RDW,JCMJ,,0,,,NO_DATA
+RDW,KCCH,3002385,2868996,13.7,percent,USABLE
+RDW,KDH,3002385,3285071,13.2,percent,USABLE
+RDW,KHMC,3002385,1099788,,Achilles-only,USABLE
+RDW,KHNMC,3002385,948910,13.6,No matching concept,USABLE
+RDW,KWMC,3002385,8017,12.8,percent,USABLE
+RDW,MJH,3002385,948910,,Achilles-only,USABLE
+RDW,PNUH,3002385,30297606,nan,No matching concept,USABLE
+RDW,SCHBC,3002385,6711144,nan,percent,USABLE
+RDW,SCHCA,3002385,4317737,nan,No matching concept,USABLE
+RDW,SCHGM,3002385,1075771,nan,No matching concept,USABLE
+RDW,SCHSU,3002385,3385262,nan,No matching concept,USABLE
+RDW,UUH,3002385,494010,,Achilles-only,USABLE
+RDW,WKUH,3002385,4234748,13.5,percent,USABLE
+Platelet,CHNUH,,0,,,NO_DATA
+Platelet,DCMC,3007461,893548,nan,No matching concept,USABLE
+Platelet,DSMC,3007461,2247470,218.0,thousand per microliter,USABLE
+Platelet,EUMC,3007461,9299820,221.0,No matching concept,USABLE
+Platelet,GNUCH,3007461,953637,224.0,thousand per microliter,USABLE
+Platelet,GNUH,3007461,3752217,217.0,thousand per cubic millimeter,USABLE
+Platelet,HUMC,3007461,1991887,nan,No matching concept,USABLE
+Platelet,ISH,3007461,2609400,nan,No matching concept,USABLE
+Platelet,JCMJ,3007461,544654,233.0,thousand per microliter,USABLE
+Platelet,KCCH,3007461,2873159,229.0,No matching concept,USABLE
+Platelet,KDH,3007461,1958615,236.0,thousand per microliter,USABLE
+Platelet,KHMC,3007461,3772196,nan,No matching concept,USABLE
+Platelet,KHNMC,3007461,3023706,226.0,No matching concept,USABLE
+Platelet,KWMC,3007461,2166924,222.0,thousand per microliter,USABLE
+Platelet,MJH,3007461,1138803,,Achilles-only,USABLE
+Platelet,PNUH,3007461,35428067,nan,No matching concept,USABLE
+Platelet,SCHBC,3007461,669623,,Achilles-only,USABLE
+Platelet,SCHCA,3007461,4338000,nan,No matching concept,USABLE
+Platelet,SCHGM,3007461,1297824,nan,No matching concept,USABLE
+Platelet,SCHSU,3007461,3402462,nan,No matching concept,USABLE
+Platelet,UUH,3007461,684814,,Achilles-only,USABLE
+Platelet,WKUH,3007461,4011142,nan,No matching concept,USABLE
+CRP,CHNUH,3020460,1289379,nan,No matching concept,USABLE
+CRP,DCMC,3020460,1310140,7.8,milligram per liter,USABLE
+CRP,DSMC,3020460,913695,0.5,milligram per deciliter,USABLE
+CRP,EUMC,3020460,15916009,0.65,milligram per deciliter,USABLE
+CRP,GNUCH,3020460,741578,4.7,milligram per liter,USABLE
+CRP,GNUH,3020460,1942105,5.8,milligram per liter,USABLE
+CRP,HUMC,3020460,1374227,4.8,milligram per liter,USABLE
+CRP,ISH,3020460,854809,nan,No matching concept,USABLE
+CRP,JCMJ,3020460,387752,0.41,milligram per deciliter,USABLE
+CRP,KCCH,3020460,627046,1.24,milligram per deciliter,USABLE
+CRP,KDH,3020460,1596889,8.3,milligram per liter,USABLE
+CRP,KHMC,3020460,1799313,2.59,milligram per deciliter,USABLE
+CRP,KHNMC,3020460,1487161,0.5,milligram per deciliter,USABLE
+CRP,KWMC,3020460,1164162,0.49,milligram per deciliter,USABLE
+CRP,MJH,3020460,530955,,Achilles-only,USABLE
+CRP,PNUH,3020460,2450549,0.58,milligram per deciliter,USABLE
+CRP,SCHBC,3020460,460265,0.1,milligram per deciliter,USABLE
+CRP,SCHCA,3020460,1591608,6.55,milligram per liter,USABLE
+CRP,SCHGM,3020460,460265,,Achilles-only,USABLE
+CRP,SCHSU,3020460,773813,0.35,milligram per deciliter,USABLE
+CRP,UUH,,0,,,NO_DATA
+CRP,WKUH,3020460,1892002,7.06,milligram per liter,USABLE
+ESR,CHNUH,3015183,370989,nan,No matching concept,USABLE
+ESR,DCMC,3015183,856696,nan,No matching concept,USABLE
+ESR,DSMC,3015183,398563,22.0,millimeter per hour,USABLE
+ESR,EUMC,3015183,3101635,3.0,millimeter per hour,USABLE
+ESR,GNUCH,3015183,334228,17.0,millimeter per hour,USABLE
+ESR,GNUH,3015183,1075319,23.0,millimeter per hour,USABLE
+ESR,HUMC,3015183,1260945,15.0,millimeter per hour,USABLE
+ESR,ISH,3015183,587749,nan,No matching concept,USABLE
+ESR,JCMJ,3015183,178032,22.0,millimeter per hour,USABLE
+ESR,KCCH,3015183,320523,16.0,millimeter per hour,USABLE
+ESR,KDH,3015183,778209,19.0,millimeter per hour,USABLE
+ESR,KHMC,3015183,1270291,20.0,millimeter per hour,USABLE
+ESR,KHNMC,3015183,888075,19.0,millimeter per hour,USABLE
+ESR,KWMC,3015183,478761,16.0,millimeter per hour,USABLE
+ESR,MJH,3015183,538214,,Achilles-only,USABLE
+ESR,PNUH,3015183,582735,nan,millimeter per hour,USABLE
+ESR,SCHBC,3015183,2778908,18.0,millimeter per hour,USABLE
+ESR,SCHCA,3015183,1328604,19.0,millimeter per hour,USABLE
+ESR,SCHGM,3015183,485483,13.0,millimeter per hour,USABLE
+ESR,SCHSU,3015183,1179521,nan,No matching concept,USABLE
+ESR,UUH,3015183,420198,,Achilles-only,USABLE
+ESR,WKUH,3015183,1471845,12.0,millimeter per hour,USABLE
+Ferritin,CHNUH,,0,,,NO_DATA
+Ferritin,DCMC,3015242,100232,115.87,nanogram per milliliter,USABLE
+Ferritin,DSMC,3015242,133298,121.0,nanogram per milliliter,USABLE
+Ferritin,EUMC,3015242,568446,164.8,nanogram per milliliter,USABLE
+Ferritin,GNUCH,3015242,43073,103.6,nanogram per milliliter,USABLE
+Ferritin,GNUH,3015242,146853,164.0,nanogram per milliliter,USABLE
+Ferritin,HUMC,3015242,58348,113.0,nanogram per milliliter,USABLE
+Ferritin,ISH,3015242,50954,nan,No matching concept,USABLE
+Ferritin,JCMJ,3015242,11849,100.8,nanogram per milliliter,USABLE
+Ferritin,KCCH,3015242,42642,99.69,nanogram per milliliter,USABLE
+Ferritin,KDH,3015242,76421,128.6,nanogram per milliliter,USABLE
+Ferritin,KHMC,3015242,77492,92.1,nanogram per milliliter,USABLE
+Ferritin,KHNMC,3015242,111046,141.0,nanogram per milliliter,USABLE
+Ferritin,KWMC,3015242,102271,40.1,nanogram per milliliter,USABLE
+Ferritin,MJH,3015242,70428,,Achilles-only,USABLE
+Ferritin,PNUH,3015242,36577,,Achilles-only,USABLE
+Ferritin,SCHBC,3015242,179449,101.0,nanogram per milliliter,USABLE
+Ferritin,SCHCA,3015242,42559,,Achilles-only,USABLE
+Ferritin,SCHGM,3015242,91907,,Achilles-only,USABLE
+Ferritin,SCHSU,3015242,163094,121.0,nanogram per milliliter,USABLE
+Ferritin,UUH,,0,,,NO_DATA
+Ferritin,WKUH,3015242,89716,137.7,microgram per liter,USABLE
+ALT,CHNUH,3006923,2974921,nan,No matching concept,USABLE
+ALT,DCMC,3006923,339610,19.0,unit per liter,USABLE
+ALT,DSMC,3006923,2100011,18.0,unit per liter,USABLE
+ALT,EUMC,3006923,41693082,21.0,international unit per liter,USABLE
+ALT,GNUCH,3006923,1093268,20.0,unit per liter,USABLE
+ALT,GNUH,3006923,3333086,19.0,unit per liter,USABLE
+ALT,HUMC,3006923,2333890,18.0,international unit per liter,USABLE
+ALT,ISH,3006923,1234578,nan,No matching concept,USABLE
+ALT,JCMJ,3006923,649036,22.0,international unit per liter,USABLE
+ALT,KCCH,3006923,2728213,20.0,unit per liter,USABLE
+ALT,KDH,3006923,3106419,19.0,international unit per liter,USABLE
+ALT,KHMC,3006923,1180669,20.0,unit per liter,USABLE
+ALT,KHNMC,3006923,2388725,18.0,No matching concept,USABLE
+ALT,KWMC,3006923,2112072,21.0,unit per liter,USABLE
+ALT,MJH,3006923,1258956,,Achilles-only,USABLE
+ALT,PNUH,3006923,567916,,Achilles-only,USABLE
+ALT,SCHBC,3006923,2697421,nan,No matching concept,USABLE
+ALT,SCHCA,3006923,3484695,nan,No matching concept,USABLE
+ALT,SCHGM,3006923,1823406,nan,No matching concept,USABLE
+ALT,SCHSU,3006923,2778867,nan,No matching concept,USABLE
+ALT,UUH,3006923,643912,,Achilles-only,USABLE
+ALT,WKUH,3006923,2797374,21.0,international unit per liter,USABLE
+AST,CHNUH,3013721,3080102,nan,No matching concept,USABLE
+AST,DCMC,3013721,338283,21.0,unit per liter,USABLE
+AST,DSMC,3013721,2099517,23.0,unit per liter,USABLE
+AST,EUMC,3013721,41684679,25.0,international unit per liter,USABLE
+AST,GNUCH,3013721,1093199,25.0,unit per liter,USABLE
+AST,GNUH,3013721,3332968,23.0,unit per liter,USABLE
+AST,HUMC,3013721,2334984,22.0,international unit per liter,USABLE
+AST,ISH,3013721,1234851,nan,No matching concept,USABLE
+AST,JCMJ,3013721,648959,26.0,international unit per liter,USABLE
+AST,KCCH,3013721,2727525,22.0,unit per liter,USABLE
+AST,KDH,3013721,3106284,25.0,international unit per liter,USABLE
+AST,KHMC,3013721,3270702,24.0,unit per liter,USABLE
+AST,KHNMC,3013721,2407210,24.0,No matching concept,USABLE
+AST,KWMC,3013721,2112246,26.0,unit per liter,USABLE
+AST,MJH,3013721,1631805,25.0,unit per liter,USABLE
+AST,PNUH,3013721,26742768,nan,No matching concept,USABLE
+AST,SCHBC,3013721,2697421,nan,No matching concept,USABLE
+AST,SCHCA,3013721,3484696,nan,No matching concept,USABLE
+AST,SCHGM,3013721,1822942,nan,No matching concept,USABLE
+AST,SCHSU,3013721,2778867,nan,No matching concept,USABLE
+AST,UUH,3013721,643860,,Achilles-only,USABLE
+AST,WKUH,3013721,2796462,26.0,international unit per liter,USABLE
+GGT,CHNUH,3026910,727990,nan,No matching concept,USABLE
+GGT,DCMC,3026910,504716,25.0,unit per liter,USABLE
+GGT,DSMC,3026910,392039,25.0,unit per liter,USABLE
+GGT,EUMC,3026910,15098906,32.0,international unit per liter,USABLE
+GGT,GNUCH,3026910,619726,24.0,unit per liter,USABLE
+GGT,GNUH,3026910,2447270,27.0,unit per liter,USABLE
+GGT,HUMC,3026910,1908585,25.0,international unit per liter,USABLE
+GGT,ISH,3026910,516766,nan,No matching concept,USABLE
+GGT,JCMJ,3026910,299105,27.0,international unit per liter,USABLE
+GGT,KCCH,3026910,539206,27.0,unit per liter,USABLE
+GGT,KDH,3026910,1605280,26.0,international unit per liter,USABLE
+GGT,KHMC,3026910,2146840,26.0,unit per liter,USABLE
+GGT,KHNMC,3026910,1396132,24.0,No matching concept,USABLE
+GGT,KWMC,3026910,590620,25.0,unit per liter,USABLE
+GGT,MJH,3026910,773458,28.0,unit per liter,USABLE
+GGT,PNUH,3026910,704519,26.0,unit per liter,USABLE
+GGT,SCHBC,3026910,1132202,nan,unit per liter,USABLE
+GGT,SCHCA,3026910,1158780,25.0,international unit per liter,USABLE
+GGT,SCHGM,3026910,1380421,nan,No matching concept,USABLE
+GGT,SCHSU,3026910,1475587,nan,No matching concept,USABLE
+GGT,UUH,3026910,296473,,Achilles-only,USABLE
+GGT,WKUH,3026910,1271471,29.0,international unit per liter,USABLE
+ALP,CHNUH,3035995,2965081,nan,No matching concept,USABLE
+ALP,DCMC,3035995,356543,113.0,unit per liter,USABLE
+ALP,DSMC,3035995,1946887,77.0,unit per liter,USABLE
+ALP,EUMC,3035995,25537749,226.0,international unit per liter,USABLE
+ALP,GNUCH,3035995,1003426,77.0,unit per liter,USABLE
+ALP,GNUH,3035995,3163835,76.0,unit per liter,USABLE
+ALP,HUMC,3035995,2066636,72.0,international unit per liter,USABLE
+ALP,ISH,3035995,706394,nan,No matching concept,USABLE
+ALP,JCMJ,3035995,383625,152.0,international unit per liter,USABLE
+ALP,KCCH,3035995,2517474,73.0,unit per liter,USABLE
+ALP,KDH,3035995,2652976,78.0,international unit per liter,USABLE
+ALP,KHMC,3035995,852112,76.0,unit per liter,USABLE
+ALP,KHNMC,3035995,1916779,110.0,No matching concept,USABLE
+ALP,KWMC,3035995,1771128,79.0,unit per liter,USABLE
+ALP,MJH,3035995,999712,94.0,unit per liter,USABLE
+ALP,PNUH,3035995,26742840,nan,No matching concept,USABLE
+ALP,SCHBC,3035995,7208304,nan,unit per liter,USABLE
+ALP,SCHCA,3035995,3484693,nan,No matching concept,USABLE
+ALP,SCHGM,3035995,808133,nan,No matching concept,USABLE
+ALP,SCHSU,3035995,1983512,nan,No matching concept,USABLE
+ALP,UUH,3035995,626456,,Achilles-only,USABLE
+ALP,WKUH,3035995,2304001,nan,No matching concept,USABLE
+TotBili,CHNUH,3024128,2906135,nan,No matching concept,USABLE
+TotBili,DCMC,3024128,415570,0.9,milligram per deciliter,USABLE
+TotBili,DSMC,3024128,1958665,0.52,milligram per deciliter,USABLE
+TotBili,EUMC,3024128,26677029,0.7,milligram per deciliter,USABLE
+TotBili,GNUCH,3024128,1028632,0.66,milligram per deciliter,USABLE
+TotBili,GNUH,3024128,3176987,0.54,milligram per deciliter,USABLE
+TotBili,HUMC,3024128,2173960,0.5,milligram per deciliter,USABLE
+TotBili,ISH,3024128,803601,nan,No matching concept,USABLE
+TotBili,JCMJ,3024128,440216,0.6,milligram per deciliter,USABLE
+TotBili,KCCH,3024128,2528412,0.5,milligram per deciliter,USABLE
+TotBili,KDH,3024128,2715676,0.65,milligram per deciliter,USABLE
+TotBili,KHMC,3024128,942665,0.69,milligram per deciliter,USABLE
+TotBili,KHNMC,3024128,1637921,0.6,No matching concept,USABLE
+TotBili,KWMC,3024128,1866234,0.7,milligram per deciliter,USABLE
+TotBili,MJH,3024128,1009030,,Achilles-only,USABLE
+TotBili,PNUH,3024128,550953,,Achilles-only,USABLE
+TotBili,SCHBC,3024128,617977,,Achilles-only,USABLE
+TotBili,SCHCA,3024128,3484695,nan,No matching concept,USABLE
+TotBili,SCHGM,3024128,694028,nan,No matching concept,USABLE
+TotBili,SCHSU,3024128,1983924,nan,No matching concept,USABLE
+TotBili,UUH,3024128,625407,,Achilles-only,USABLE
+TotBili,WKUH,3024128,1994470,0.6,milligram per deciliter,USABLE
+Albumin,CHNUH,3024561,3177558,nan,No matching concept,USABLE
+Albumin,DCMC,3024561,381451,3.8,gram per deciliter,USABLE
+Albumin,DSMC,3024561,1937726,4.1,gram per deciliter,USABLE
+Albumin,EUMC,3024561,29809299,3.6,gram per deciliter,USABLE
+Albumin,GNUCH,3024561,1059773,4.0,gram per deciliter,USABLE
+Albumin,GNUH,3024561,3270534,4.1,gram per deciliter,USABLE
+Albumin,HUMC,3024561,2208368,4.3,gram per deciliter,USABLE
+Albumin,ISH,3024561,1830067,4.0,gram per deciliter,USABLE
+Albumin,JCMJ,3024561,445149,4.0,gram per deciliter,USABLE
+Albumin,KCCH,3024561,2562739,4.2,gram per deciliter,USABLE
+Albumin,KDH,3024561,2763251,4.0,gram per deciliter,USABLE
+Albumin,KHMC,3024561,2553063,4.1,gram per deciliter,USABLE
+Albumin,KHNMC,3024561,1655982,4.0,No matching concept,USABLE
+Albumin,KWMC,3024561,1794304,4.1,gram per deciliter,USABLE
+Albumin,MJH,3024561,1038644,,Achilles-only,USABLE
+Albumin,PNUH,3024561,36486544,nan,No matching concept,USABLE
+Albumin,SCHBC,3024561,2697462,nan,No matching concept,USABLE
+Albumin,SCHCA,3024561,3484855,nan,No matching concept,USABLE
+Albumin,SCHGM,3024561,699481,nan,No matching concept,USABLE
+Albumin,SCHSU,3024561,3038872,nan,No matching concept,USABLE
+Albumin,UUH,3024561,624272,,Achilles-only,USABLE
+Albumin,WKUH,3024561,2729185,3.9,gram per deciliter,USABLE
+TotProtein,CHNUH,3020630,3213580,nan,No matching concept,USABLE
+TotProtein,DCMC,3020630,278324,6.9,gram per deciliter,USABLE
+TotProtein,DSMC,3020630,1929667,6.7,gram per deciliter,USABLE
+TotProtein,EUMC,3020630,27679348,6.5,gram per deciliter,USABLE
+TotProtein,GNUCH,3020630,1053401,6.9,gram per deciliter,USABLE
+TotProtein,GNUH,3020630,3252455,6.8,gram per deciliter,USABLE
+TotProtein,HUMC,3020630,2200586,6.9,gram per deciliter,USABLE
+TotProtein,ISH,3020630,756406,6.9,gram per deciliter,USABLE
+TotProtein,JCMJ,3020630,180156,,Achilles-only,USABLE
+TotProtein,KCCH,3020630,2555209,6.9,gram per deciliter,USABLE
+TotProtein,KDH,3020630,2667650,6.8,gram per deciliter,USABLE
+TotProtein,KHMC,3020630,2453641,7.0,gram per deciliter,USABLE
+TotProtein,KHNMC,3020630,1702626,6.9,No matching concept,USABLE
+TotProtein,KWMC,3020630,1716951,6.9,gram per deciliter,USABLE
+TotProtein,MJH,3020630,1007810,,Achilles-only,USABLE
+TotProtein,PNUH,3020630,31983448,nan,No matching concept,USABLE
+TotProtein,SCHBC,3020630,2702376,nan,No matching concept,USABLE
+TotProtein,SCHCA,3020630,3490189,nan,No matching concept,USABLE
+TotProtein,SCHGM,3020630,635158,nan,No matching concept,USABLE
+TotProtein,SCHSU,3020630,1996601,nan,No matching concept,USABLE
+TotProtein,UUH,3020630,622962,,Achilles-only,USABLE
+TotProtein,WKUH,3020630,2004921,6.8,gram per deciliter,USABLE
+Glucose,CHNUH,3037110,3752,nan,No matching concept,USABLE
+Glucose,DCMC,3004501,389197,94.0,milligram per deciliter,USABLE
+Glucose,DSMC,3004501,2127816,107.0,milligram per deciliter,USABLE
+Glucose,EUMC,3004501,31156380,105.0,milligram per deciliter,USABLE
+Glucose,GNUCH,3037110,29459,113.0,milligram per deciliter,USABLE
+Glucose,GNUH,3004501,3494288,112.0,milligram per deciliter,USABLE
+Glucose,HUMC,3037110,1767660,108.0,milligram per deciliter,USABLE
+Glucose,ISH,3037110,852806,nan,No matching concept,USABLE
+Glucose,JCMJ,3004501,385888,110.0,milligram per deciliter,USABLE
+Glucose,KCCH,3004501,2736292,102.0,milligram per deciliter,USABLE
+Glucose,KDH,3004501,2859696,112.0,milligram per deciliter,USABLE
+Glucose,KHMC,3004501,1148857,109.0,milligram per deciliter,USABLE
+Glucose,KHNMC,3004501,1140623,104.0,milligram per deciliter,USABLE
+Glucose,KWMC,3004501,2059000,108.0,milligram per deciliter,USABLE
+Glucose,MJH,3004501,1140623,,Achilles-only,USABLE
+Glucose,PNUH,3004501,1677071,106.0,milligram per deciliter,USABLE
+Glucose,SCHBC,3004501,2657165,nan,No matching concept,USABLE
+Glucose,SCHCA,3037110,524041,115.0,milligram per deciliter,USABLE
+Glucose,SCHGM,3004501,666066,,Achilles-only,USABLE
+Glucose,SCHSU,3037110,2778454,nan,No matching concept,USABLE
+Glucose,UUH,3004501,589618,,Achilles-only,USABLE
+Glucose,WKUH,3037110,3989341,147.0,milligram per deciliter,USABLE
+HbA1c,CHNUH,3004410,376781,nan,No matching concept,USABLE
+HbA1c,DCMC,3004410,282656,nan,No matching concept,USABLE
+HbA1c,DSMC,3004410,439605,6.5,percent,USABLE
+HbA1c,EUMC,3004410,1777831,6.3,percent,USABLE
+HbA1c,GNUCH,3004410,256241,6.1,percent,USABLE
+HbA1c,GNUH,3004410,728256,6.2,percent,USABLE
+HbA1c,HUMC,3004410,488964,5.9,percent,USABLE
+HbA1c,ISH,3004410,156785,5.7,percent,USABLE
+HbA1c,JCMJ,3004410,119477,6.2,percent,USABLE
+HbA1c,KCCH,3004410,275383,6.1,percent,USABLE
+HbA1c,KDH,3004410,589522,6.3,percent,USABLE
+HbA1c,KHMC,3004410,980890,6.3,percent,USABLE
+HbA1c,KHNMC,3004410,451342,5.7,No matching concept,USABLE
+HbA1c,KWMC,3004410,466357,6.6,percent,USABLE
+HbA1c,MJH,3004410,385579,6.0,percent,USABLE
+HbA1c,PNUH,3004410,652993,nan,No matching concept,USABLE
+HbA1c,SCHBC,3004410,775850,6.6,percent,USABLE
+HbA1c,SCHCA,3004410,765981,5.9,percent,USABLE
+HbA1c,SCHGM,3004410,354042,6.0,percent,USABLE
+HbA1c,SCHSU,3004410,635014,nan,No matching concept,USABLE
+HbA1c,UUH,,0,,,NO_DATA
+HbA1c,WKUH,3004410,335788,6.3,percent,USABLE
+TG,CHNUH,3022192,1100292,nan,No matching concept,USABLE
+TG,DCMC,3022192,381758,104.0,milligram per deciliter,USABLE
+TG,DSMC,3022192,551032,108.0,milligram per deciliter,USABLE
+TG,EUMC,3022192,18348269,98.0,milligram per deciliter,USABLE
+TG,GNUCH,3022192,280476,117.0,milligram per deciliter,USABLE
+TG,GNUH,3022192,729910,108.0,milligram per deciliter,USABLE
+TG,HUMC,3022192,1720816,109.0,milligram per deciliter,USABLE
+TG,ISH,3022192,314582,nan,No matching concept,USABLE
+TG,JCMJ,3022192,256905,112.0,milligram per deciliter,USABLE
+TG,KCCH,3022192,426670,112.0,milligram per deciliter,USABLE
+TG,KDH,3022192,995254,115.0,milligram per deciliter,USABLE
+TG,KHMC,3022192,651667,113.0,milligram per deciliter,USABLE
+TG,KHNMC,3022192,496279,104.0,milligram per deciliter,USABLE
+TG,KWMC,3022192,594589,117.0,milligram per deciliter,USABLE
+TG,MJH,3022192,496279,,Achilles-only,USABLE
+TG,PNUH,3022192,1924761,nan,No matching concept,USABLE
+TG,SCHBC,3022192,948337,112.0,milligram per deciliter,USABLE
+TG,SCHCA,3022192,2101356,nan,No matching concept,USABLE
+TG,SCHGM,3022192,740760,104.0,milligram per deciliter,USABLE
+TG,SCHSU,3022192,1037442,nan,No matching concept,USABLE
+TG,UUH,3022192,231943,,Achilles-only,USABLE
+TG,WKUH,3022192,686002,110.0,milligram per deciliter,USABLE
+TC,CHNUH,3027114,2395193,nan,No matching concept,USABLE
+TC,DCMC,3027114,351515,179.0,milligram per deciliter,USABLE
+TC,DSMC,3027114,658480,164.0,milligram per deciliter,USABLE
+TC,EUMC,3027114,18839432,167.0,milligram per deciliter,USABLE
+TC,GNUCH,3027114,1061867,161.0,milligram per deciliter,USABLE
+TC,GNUH,3027114,3255174,155.0,milligram per deciliter,USABLE
+TC,HUMC,3027114,2157257,158.0,milligram per deciliter,USABLE
+TC,ISH,3027114,438057,nan,No matching concept,USABLE
+TC,JCMJ,3027114,475259,167.0,milligram per deciliter,USABLE
+TC,KCCH,3027114,2433755,169.0,milligram per deciliter,USABLE
+TC,KDH,3027114,2775854,156.0,milligram per deciliter,USABLE
+TC,KHMC,3027114,1788666,178.0,milligram per deciliter,USABLE
+TC,KHNMC,3027114,1717888,155.0,No matching concept,USABLE
+TC,KWMC,3027114,1741020,162.0,milligram per deciliter,USABLE
+TC,MJH,3027114,1807159,172.0,milligram per deciliter,USABLE
+TC,PNUH,3027114,17666256,nan,No matching concept,USABLE
+TC,SCHBC,3027114,1342415,175.0,milligram per deciliter,USABLE
+TC,SCHCA,3027114,2101357,nan,No matching concept,USABLE
+TC,SCHGM,3027114,796442,192.0,milligram per deciliter,USABLE
+TC,SCHSU,3027114,1037442,nan,No matching concept,USABLE
+TC,UUH,3027114,618640,,Achilles-only,USABLE
+TC,WKUH,3027114,441262,173.0,milligram per deciliter,USABLE
+HDL,CHNUH,3007070,539588,nan,No matching concept,USABLE
+HDL,DCMC,3007070,409030,51.9,milligram per deciliter,USABLE
+HDL,DSMC,3007070,524297,52.0,milligram per deciliter,USABLE
+HDL,EUMC,3007070,8622291,51.0,milligram per deciliter,USABLE
+HDL,GNUCH,3007070,274707,50.0,milligram per deciliter,USABLE
+HDL,GNUH,3007070,721964,51.0,milligram per deciliter,USABLE
+HDL,HUMC,3007070,640552,51.0,milligram per deciliter,USABLE
+HDL,ISH,3007070,294484,nan,No matching concept,USABLE
+HDL,JCMJ,3007070,226845,48.0,milligram per deciliter,USABLE
+HDL,KCCH,3007070,424422,54.1,milligram per deciliter,USABLE
+HDL,KDH,3007070,942234,49.0,milligram per deciliter,USABLE
+HDL,KHMC,3007070,1159340,52.0,milligram per deciliter,USABLE
+HDL,KHNMC,3007070,466280,53.0,milligram per deciliter,USABLE
+HDL,KWMC,3007070,583484,48.0,milligram per deciliter,USABLE
+HDL,MJH,3007070,1056427,51.0,milligram per deciliter,USABLE
+HDL,PNUH,3007070,1924755,nan,No matching concept,USABLE
+HDL,SCHBC,3007070,648226,nan,No matching concept,USABLE
+HDL,SCHCA,3007070,794948,51.0,milligram per deciliter,USABLE
+HDL,SCHGM,3007070,738807,53.0,milligram per deciliter,USABLE
+HDL,SCHSU,3007070,1037442,nan,No matching concept,USABLE
+HDL,UUH,3007070,219953,,Achilles-only,USABLE
+HDL,WKUH,3007070,348137,47.0,milligram per deciliter,USABLE
+LDL,CHNUH,3028437,464408,nan,No matching concept,USABLE
+LDL,DCMC,3028437,294859,106.5,milligram per deciliter,USABLE
+LDL,DSMC,3028437,442756,84.0,milligram per deciliter,USABLE
+LDL,EUMC,3028437,8617301,105.0,milligram per deciliter,USABLE
+LDL,GNUCH,3028437,260193,94.0,milligram per deciliter,USABLE
+LDL,GNUH,3028437,683738,97.0,milligram per deciliter,USABLE
+LDL,HUMC,3028437,612413,98.0,milligram per deciliter,USABLE
+LDL,ISH,3028437,181410,nan,No matching concept,USABLE
+LDL,JCMJ,3028437,84352,85.0,milligram per deciliter,USABLE
+LDL,KCCH,3028437,287729,98.0,milligram per deciliter,USABLE
+LDL,KDH,3028437,836863,94.0,milligram per deciliter,USABLE
+LDL,KHMC,3028437,1046649,104.0,milligram per deciliter,USABLE
+LDL,KHNMC,3028437,333757,112.0,milligram per deciliter,USABLE
+LDL,KWMC,3028437,506225,93.0,milligram per deciliter,USABLE
+LDL,MJH,3028437,580027,97.0,milligram per deciliter,USABLE
+LDL,PNUH,3028437,641511,nan,No matching concept,USABLE
+LDL,SCHBC,3028437,713401,104.0,milligram per deciliter,USABLE
+LDL,SCHCA,3028437,822791,102.0,milligram per deciliter,USABLE
+LDL,SCHGM,3028437,329319,121.0,milligram per deciliter,USABLE
+LDL,SCHSU,3028437,923943,104.0,milligram per deciliter,USABLE
+LDL,UUH,3028437,193934,,Achilles-only,USABLE
+LDL,WKUH,3028437,347346,96.0,milligram per deciliter,USABLE
+Creatinine,CHNUH,3016723,3204502,nan,No matching concept,USABLE
+Creatinine,DCMC,3016723,306368,0.8,milligram per deciliter,USABLE
+Creatinine,DSMC,3016723,2184898,0.83,milligram per deciliter,USABLE
+Creatinine,EUMC,3016723,42340695,0.9,milligram per deciliter,USABLE
+Creatinine,GNUCH,3016723,1110966,0.76,milligram per deciliter,USABLE
+Creatinine,GNUH,3016723,3418948,0.78,milligram per deciliter,USABLE
+Creatinine,HUMC,3016723,2385739,0.8,milligram per deciliter,USABLE
+Creatinine,ISH,3016723,1307604,nan,No matching concept,USABLE
+Creatinine,JCMJ,3016723,232064,,Achilles-only,USABLE
+Creatinine,KCCH,3016723,2610932,0.7,milligram per deciliter,USABLE
+Creatinine,KDH,3016723,3276798,0.8,milligram per deciliter,USABLE
+Creatinine,KHMC,3016723,3260312,0.75,milligram per deciliter,USABLE
+Creatinine,KHNMC,3016723,1980231,0.8,No matching concept,USABLE
+Creatinine,KWMC,3016723,2325869,0.8,milligram per deciliter,USABLE
+Creatinine,MJH,3016723,1106002,,Achilles-only,USABLE
+Creatinine,PNUH,3016723,31431820,nan,No matching concept,USABLE
+Creatinine,SCHBC,3016723,2765578,nan,No matching concept,USABLE
+Creatinine,SCHCA,3016723,3484697,nan,No matching concept,USABLE
+Creatinine,SCHGM,3016723,1011609,0.9,milligram per deciliter,USABLE
+Creatinine,SCHSU,3016723,2789262,nan,No matching concept,USABLE
+Creatinine,UUH,3016723,623841,,Achilles-only,USABLE
+Creatinine,WKUH,3016723,3676504,0.83,milligram per deciliter,USABLE
+BUN,CHNUH,3013682,3118462,nan,No matching concept,USABLE
+BUN,DCMC,3013682,208547,13.5,milligram per deciliter,USABLE
+BUN,DSMC,3013682,2075393,16.0,milligram per deciliter,USABLE
+BUN,EUMC,3013682,41418610,14.0,milligram per deciliter,USABLE
+BUN,GNUCH,3013682,1075050,15.0,milligram per deciliter,USABLE
+BUN,GNUH,3013682,3371496,14.5,milligram per deciliter,USABLE
+BUN,HUMC,3013682,2330584,13.4,milligram per deciliter,USABLE
+BUN,ISH,3013682,1160822,nan,No matching concept,USABLE
+BUN,JCMJ,3013682,496045,14.9,milligram per deciliter,USABLE
+BUN,KCCH,3013682,2442403,13.5,milligram per deciliter,USABLE
+BUN,KDH,3013682,3157831,14.7,milligram per deciliter,USABLE
+BUN,KHMC,3013682,1025034,16.0,milligram per deciliter,USABLE
+BUN,KHNMC,3013682,1962225,15.0,No matching concept,USABLE
+BUN,KWMC,3013682,2209435,14.7,milligram per deciliter,USABLE
+BUN,MJH,3013682,1019335,,Achilles-only,USABLE
+BUN,PNUH,3013682,31431792,nan,No matching concept,USABLE
+BUN,SCHBC,3013682,2765579,nan,No matching concept,USABLE
+BUN,SCHCA,3013682,3484695,nan,No matching concept,USABLE
+BUN,SCHGM,3013682,620834,nan,No matching concept,USABLE
+BUN,SCHSU,3013682,2789273,nan,No matching concept,USABLE
+BUN,UUH,3013682,618491,,Achilles-only,USABLE
+BUN,WKUH,3013682,3420405,14.9,milligram per deciliter,USABLE
+UA,CHNUH,3037556,1453159,nan,No matching concept,USABLE
+UA,DCMC,3037556,179940,4.9,milligram per deciliter,USABLE
+UA,DSMC,3037556,417177,5.2,milligram per deciliter,USABLE
+UA,EUMC,3037556,8391673,4.9,milligram per deciliter,USABLE
+UA,GNUCH,3037556,868446,4.9,milligram per deciliter,USABLE
+UA,GNUH,3037556,2479375,4.7,milligram per deciliter,USABLE
+UA,HUMC,3037556,1961132,4.6,milligram per deciliter,USABLE
+UA,ISH,3037556,309771,nan,No matching concept,USABLE
+UA,JCMJ,3037556,357430,5.0,milligram per deciliter,USABLE
+UA,KCCH,3037556,2288418,4.3,milligram per deciliter,USABLE
+UA,KDH,3037556,2664536,4.6,milligram per deciliter,USABLE
+UA,KHMC,3037556,1653914,4.9,milligram per deciliter,USABLE
+UA,KHNMC,3037556,1670498,4.4,No matching concept,USABLE
+UA,KWMC,3037556,1647254,4.8,milligram per deciliter,USABLE
+UA,MJH,3037556,1268368,4.9,milligram per deciliter,USABLE
+UA,PNUH,3037556,12289818,nan,No matching concept,USABLE
+UA,SCHBC,3037556,1389143,nan,No matching concept,USABLE
+UA,SCHCA,3037556,1789509,nan,No matching concept,USABLE
+UA,SCHGM,3037556,582903,nan,No matching concept,USABLE
+UA,SCHSU,3037556,1533326,nan,No matching concept,USABLE
+UA,UUH,3037556,274721,,Achilles-only,USABLE
+UA,WKUH,3037556,787705,5.0,milligram per deciliter,USABLE
+TSH,CHNUH,3009201,61176,nan,No matching concept,USABLE
+TSH,DCMC,3009201,362326,1.73,micro-international unit per milliliter,USABLE
+TSH,DSMC,3009201,203888,1.95,No matching concept,USABLE
+TSH,EUMC,3009201,6578355,1.73,No matching concept,USABLE
+TSH,GNUCH,,0,,,NO_DATA
+TSH,GNUH,3009201,510505,1.68,micro-international unit per milliliter,USABLE
+TSH,HUMC,3009201,468828,1.73,micro-international unit per milliliter,USABLE
+TSH,ISH,3009201,209632,nan,No matching concept,USABLE
+TSH,JCMJ,3009201,80074,1.6,micro-international unit per milliliter,USABLE
+TSH,KCCH,3009201,278642,0.69,No matching concept,USABLE
+TSH,KDH,3009201,491320,1.625,micro-international unit per milliliter,USABLE
+TSH,KHMC,3009201,428895,1.9,microunit per milliliter,USABLE
+TSH,KHNMC,3009201,354067,1.71,No matching concept,USABLE
+TSH,KWMC,3009201,275967,1.48,micro-international unit per milliliter,USABLE
+TSH,MJH,3009201,339845,,Achilles-only,USABLE
+TSH,PNUH,3009201,626561,nan,micro-international unit per milliliter,USABLE
+TSH,SCHBC,3009201,605144,1.74,micro-international unit per milliliter,USABLE
+TSH,SCHCA,3009201,218405,,Achilles-only,USABLE
+TSH,SCHGM,3009201,227695,,Achilles-only,USABLE
+TSH,SCHSU,3009201,593427,nan,No matching concept,USABLE
+TSH,UUH,3009201,246005,,Achilles-only,USABLE
+TSH,WKUH,3009201,358401,nan,No matching concept,USABLE
+VitD,CHNUH,3020149,38837,nan,No matching concept,USABLE
+VitD,DCMC,,0,,,NO_DATA
+VitD,DSMC,3020149,86921,32.68,No matching concept,USABLE
+VitD,EUMC,42529187,449985,21.6,nanogram per milliliter,USABLE
+VitD,GNUCH,42529187,34138,21.0,nanogram per milliliter,USABLE
+VitD,GNUH,42529187,43998,22.1,nanogram per milliliter,USABLE
+VitD,HUMC,40765040,84700,22.33,nanogram per milliliter,USABLE
+VitD,ISH,42529187,43788,,Achilles-only,USABLE
+VitD,JCMJ,42529187,2358,,Achilles-only,USABLE
+VitD,KCCH,42529187,119093,29.5,nanogram per milliliter,USABLE
+VitD,KDH,42529187,58279,22.05,nanogram per milliliter,USABLE
+VitD,KHMC,42529187,108215,21.37,nanogram per milliliter,USABLE
+VitD,KHNMC,40765040,59020,19.4,nanogram per milliliter,USABLE
+VitD,KWMC,40765040,49067,nan,nanogram per milliliter,USABLE
+VitD,MJH,3020149,40472,,Achilles-only,USABLE
+VitD,PNUH,40765040,111608,24.2,nanogram per milliliter,USABLE
+VitD,SCHBC,42529187,88213,23.48,nanogram per milliliter,USABLE
+VitD,SCHCA,3020149,93331,15.7,nanogram per milliliter,USABLE
+VitD,SCHGM,40765040,49203,,Achilles-only,USABLE
+VitD,SCHSU,3020149,213954,21.61,nanogram per milliliter,USABLE
+VitD,UUH,3020149,9077,,Achilles-only,USABLE
+VitD,WKUH,42529187,21000,21.9,nanogram per milliliter,USABLE

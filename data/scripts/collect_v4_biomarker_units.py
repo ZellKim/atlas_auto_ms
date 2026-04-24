@@ -32,8 +32,8 @@ from atlas_auto.client import FedernetClient
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..')
-OUTPUT_PATH = os.path.join(DATA_DIR, 'v4_biomarker_unit_survey.csv')
-RAW_PATH = os.path.join(DATA_DIR, 'v4_biomarker_drilldown_raw.json')
+OUTPUT_PATH = os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'biomarker_unit_survey.csv')
+RAW_PATH = os.path.join(DATA_DIR, 'measurement', 'raw_drilldown', 'v4_biomarker.json')
 
 TARGET_CONCEPTS = [
     ('3004410',  'HbA1c',  '%'),

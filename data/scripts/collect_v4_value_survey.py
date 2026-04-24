@@ -16,8 +16,8 @@ from atlas_auto.client import FedernetClient
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..')
-OUTPUT_PATH = os.path.join(DATA_DIR, 'v4_all_outcomes_value_survey.csv')
-RAW_PATH = os.path.join(DATA_DIR, 'v4_all_outcomes_drilldown_raw.json')
+OUTPUT_PATH = os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'all_outcomes_value_survey.csv')
+RAW_PATH = os.path.join(DATA_DIR, 'measurement', 'raw_drilldown', 'v4_all_outcomes.json')
 
 # 22 outcome의 underlying measurement concept IDs (중복 제거)
 # 확장해서 그룹별로 표기

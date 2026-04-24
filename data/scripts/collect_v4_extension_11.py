@@ -21,8 +21,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 from atlas_auto.client import FedernetClient
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-OUTPUT_PATH = os.path.join(DATA_DIR, 'v4_extension11_value_survey.csv')
-RAW_PATH = os.path.join(DATA_DIR, 'v4_extension11_drilldown_raw.json')
+OUTPUT_PATH = os.path.join(DATA_DIR, 'measurement', 'v4_surveys', 'extension11_value_survey.csv')
+RAW_PATH = os.path.join(DATA_DIR, 'measurement', 'raw_drilldown', 'v4_extension11.json')
 VOCAB_PATH = os.path.join(DATA_DIR, 'v4_extension11_vocab_check.csv')
 
 # 확장 11 concept (ID는 추정 — Step 1 vocab check으로 검증)

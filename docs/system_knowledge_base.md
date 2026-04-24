@@ -12,8 +12,13 @@
 | 기관 sourceKey 매핑 | `data/site_mapping/source_key_mapping.csv` |
 | PRESET FA 목록 (105개) | `data/atlas_reference/atlas_preset_fa_list.csv` |
 | ETRI measurement 리스트 | `data/atlas_reference/etri_measurement_list.csv` |
-| 바이오마커 unit 매핑 | `data/biomarker/biomarker_units_by_site.csv` |
-| Achilles frequency (23기관×5domain) | `data/concept_frequency/` |
+| **Measurement 연구 시작 키트** | `data/measurement/` (README 있음) |
+| - 기관별 biomarker 최종 선택 | `data/measurement/site_concept_matrix.csv` |
+| - biomarker 안정성 요약 | `data/measurement/stability_summary.csv` |
+| - 기관별 unit | `data/measurement/by_site/units_by_site.csv` |
+| - Value 분포 (p10-90) | `data/measurement/unit_survey_full.csv`, `data/measurement/v4_surveys/*.csv` |
+| - Characterization (FA preset) | `data/measurement/characterization/char_preset_all.csv` |
+| Achilles frequency (23기관×5domain, cross-domain) | `data/concept_frequency/` |
 | R 환경 설정 | `data/reference/r_environment.csv` |
 | 이슈 히스토리 | `data/reference/issue_history.csv` |
 

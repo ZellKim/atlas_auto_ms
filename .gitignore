@@ -61,6 +61,7 @@ docs/irb_*.md
 # 대용량 runtime/raw 데이터 (코드만 커밋)
 data/v4_*_raw.json
 data/v4_monitor_state.json
+data/measurement/raw_drilldown/
 reference/
 *.msi
 
@@ -70,5 +71,3 @@ data/scripts/omop_cdm_intermediate.json
 data/scripts/omop_cdm_papers_batch1.json
 data/scripts/omop_inline_metadata.json
 data/scripts/.Rhistory
-data/biomarker_site_concept_matrix.csv
-data/biomarker_stability_summary.csv
