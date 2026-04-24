@@ -9,7 +9,7 @@ import os, csv
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
 SUMMARY = os.path.join(ROOT, 'data', 'site_mapping', 'site_summary_23.csv')
-OUT_MD  = os.path.join(ROOT, 'docs', 'paper_table1_data_sources.md')
+OUT_MD  = os.path.join(ROOT, 'docs', 'data_source_table.md')
 
 with open(SUMMARY, encoding='utf-8') as f:
     rows = list(csv.DictReader(f))
