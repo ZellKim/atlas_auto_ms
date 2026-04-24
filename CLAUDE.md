@@ -2,6 +2,28 @@
 
 OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
+## ⛔ 최우선 규칙 — 추측 금지 (No Guessing)
+
+**이 시스템의 모든 사실 진술은 실제 데이터로 검증된 값만 사용한다. 추측·짐작·"아마도"·"곧" 금지.**
+
+적용 대상 (예외 없음):
+- API 필드명, 응답 구조, endpoint, 인증 방식
+- 실행 상태, site 진행 상황, queue 순번, COMPLETE/FAILED/WAITING 수 — state 파일만 보고 추측 말고 live API 또는 snapshot(`current_status`+`counts` 필드 있는) 조회
+- 분석 결과 수치 (HR, SMD, pair 수, event 수) — 파일 읽고 확인, 기억/이전 대화에서 복사 금지
+- 파일 출처 — 여러 sensitivity 공존 시 파일명 prefix + pair 수 cross-check 후 해석
+- Concept ID, cohort ID, estimation ID — 직접 조회 또는 매핑 파일 확인
+- 기관명, sourceKey, cdmId, groupId — `data/site_mapping/` 참조
+- Biomarker cutoff, unit — `data/biomarker/` 참조
+
+**사용자에게 숫자/상태 보고 전 체크리스트**:
+1. 이 값의 출처 파일/API를 지금 세션에서 직접 읽었는가?
+2. 파일이 이력 로그인지 현재 스냅샷인지 필드 구조 확인했는가?
+3. 불확실하면 "확인 후 보고" 하고 실제 조회 — "임박", "곧", "아마", "대략"으로 넘어가지 말 것.
+
+**위반 전례** (이 규칙이 생긴 이유):
+- 2026-04-19: 파일명 prefix 확인 안 하고 supplemental 결과를 main으로 착각 → Hernia SMD false alarm
+- 2026-04-20: state 파일의 `downloaded` 누적만 보고 "15/22, UUH 임박" 추측 → 실제 UUH는 FAILED 상태, DSMC도 queue에 있던 것 누락
+
 ## 대화 시작 시
 
 1. `cat docs/system_knowledge_base.md` — API 레시피, 운영 지식, 체크리스트

@@ -21,6 +21,11 @@
 
 ## 1. API 체계
 
+> **API 엔드포인트 CSV** (항상 먼저 참조):
+> - `data/atlas_reference/atlas_webapi_endpoints.csv` — **ATLAS WebAPI** (기관별, /api/v1/atlas/{group_id}/{site_id}/...)
+> - `data/atlas_reference/feedernet_portal_api_endpoints.csv` — **feedernet 포털 API** (다기관 관리, /api/v1/...)
+
+
 feedernet에는 **2개의 API**가 있다. 같은 쿠키로 인증되지만 역할이 다르다.
 
 ### 1.1 ATLAS WebAPI — 기관별 ATLAS 인스턴스
@@ -48,6 +53,20 @@ Base URL: /api/v1/atlas/{group_id}/{site_id}/
 
 ### 1.2 feedernet 포탈 API — 다기관 실행 관리
 
+**Project 관리 (2026-04-18 추가)**:
+| Method | Endpoint | 설명 |
+|---|---|---|
+| GET | `/api/v1/projects` | project 목록 (복수) |
+| POST | `/api/v1/projects` | project 생성. body: `{name, projectType: 'COMPARATIVE_EFFECTIVENESS' or 'OTHER'}`. 응답에 ID 없음, 이후 GET으로 확인 |
+| DELETE | `/api/v1/projects/{pid}` | project 삭제 |
+
+**projectType 값** (기존 projects 기준):
+- `COMPARATIVE_EFFECTIVENESS`: CER (estimation 분석)
+- `OTHER`: 기타
+
+**Analysis 관리 (기존)**:
+
+
 ```
 Base URL: /api/v1/
 ★ projects(복수) = 관리, project(단수) = 실행
@@ -61,7 +80,7 @@ Base URL: /api/v1/
 | GET | `/projects/{pid}/analysis/{aid}/atlas` | ATLAS 기관 목록 | |
 | POST | `/projects/{pid}/analysis/{aid}/atlas/{siteId}` | estimation import | body: atlasResearchId, researchType |
 | POST | `/project/{pid}/analysis/{aid}/execution` | 실행 트리거 | 단수 `project`, **researchName 필수** |
-| GET | `/project/{pid}/analysis/{aid}/execution` | 상태 조회 | content[] → executionList[] 중첩 |
+| GET | `/project/{pid}/analysis/{aid}/execution` | 상태 조회 | content[] → executionList[] 중첩. WAITING entry `waitingRank` = **포털 전체 큐 내 순위** (해당 analysis만이 아님) |
 | POST | `.../execution/{eid}/cancel` | 취소 | WAITING + EXECUTING 가능 |
 | GET | `.../execution/{eid}/files` | 결과 파일 목록 | |
 | GET | `.../execution/{eid}/files/{fid}/download` | 다운로드 | |
@@ -153,6 +172,36 @@ for group in groups:
 
 상태값: `EXECUTING_PREPARING`, `EXECUTING_DOCKER`, `WAITING`, `FINISHED_SUCCESSFULLY`, `FINISHED_WITH_ERROR`, `CANCELED`
 
+### 2.3a Execution log 조회 (SUCCESS만 가능)
+
+```python
+# 성공한 execution만 log 조회 가능
+# GET /api/v1/project/{pid}/analysis/{aid}/execution/{eid}/logs
+resp = session.get(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution/{eid}/logs')
+log_text = resp.json().get('content', '')
+# → 전체 R 실행 log: timestamp\t[thread]\tLEVEL\tclass\tmethod\tmessage
+```
+
+**FAILED execution의 경우 API로 log 완전 차단 (2026-04-18 전수 검증)**:
+- `/logs`: 제네릭 메시지 `"연구가 실패했습니다. 로그를 확인해주세요"`
+- `/files`, `/files/{n}/view`, `/files/{n}/download`: **code 7020** "Not completed"
+- `/shiny`: code 7020
+- UI frontend JS bundle(`index-CPRjfs_0.js`) 분석 결과 숨겨진 log endpoint 없음 — UI도 동일 response
+- 서버사이드 deliberate block (보안 추정)
+
+**실패 시 대안**:
+1. 포털 UI 수동 확인 (제네릭일 수 있음)
+2. feedernet admin 연락 (DB/docker 직접 접근 필요)
+3. Spec 재검토 후 재실행 (예방이 최선)
+4. 소규모 test execution (KHNMC 1 site 선실행 → 전체 확대)
+
+**예방 체크리스트** (실패 방지):
+- stopOnError=false ★
+- cohortDefinitions 전부 포함 (T + Cs + 모든 outcome)
+- NC 54 items + exclude 110 items 채움
+- concept set name `\n` strip
+- specification=string (json.dumps)
+
 ### 2.4 Execution 취소  [포탈, 단수 project]
 
 ```python
@@ -236,6 +285,25 @@ export/
 - measurement는 descendant 없음 → OR로 직접 포함
 - unit 이질성 → dual-unit 코호트 분리 필요
 
+### 4.1 Achilles Drilldown API 실수 방지 (2026-04-17 기록)
+
+**Endpoint**: `GET /api/v1/atlas/{group_id}/{site_id}/cdmresults/{sourceKey}/measurement/{concept_id}` (timeout=30)
+
+**Unit 데이터 정확한 필드** — `recordsByUnit`:
+```python
+data['recordsByUnit']  # [{'conceptId': 8840, 'conceptName': 'milligram per deciliter', 'countValue': 310059}, ...]
+```
+**쓰면 안 되는 필드** (혼동 주의):
+- `valuesRelativeToNorm` — "Within Range" 등 범주만, conceptName에 unit 이름 섞여 있어 파싱 오해
+- `measurementValueDistribution` — 값 분포, unit 아님
+
+**기존 `data/scripts/collect_measurement_units.py`는 버그 있음** (`valuesRelativeToNorm` 파싱). 참고 시 `collect_v4_biomarker_units.py` (recordsByUnit 사용) 기준으로 쓸 것.
+
+**자주 하는 실수 3종**:
+1. `cdmName`을 `sourceKey` 자리에 넣음 → 502 에러. **반드시** `data/site_mapping/source_key_mapping.csv` 3번째 컬럼
+2. drilldown JSON에서 `recordsByUnit` 대신 다른 필드 파싱 → unit 정보 누락
+3. Python stdout 버퍼링 → redirect 시 `python -u` 또는 `print(..., flush=True)` 필수. 안 하면 "정지한 줄 알았는데 실은 돌고 있음" 상황 발생
+
 ---
 
 ## 5. 분석 방법론
@@ -251,6 +319,74 @@ PS matching 1회 → 구간별 Cox. 구간: 1-30d, 31-90d, 91-365d, 366-1095d, 1
 
 ### 5.3 Negative Control Calibration
 NC HR → EmpiricalCalibration → calibrated HR. 기준: NC median ≈ 1.0, 유의 비율 ≈ 5%.
+
+**패키지 함정 2종 (2026-04-18 v4 분석에서 확인)**:
+
+1. **`fitMcmcNull()` 반환 객체 [2] = precision, SD 아님**
+   - 반환값이 `c(mean, precision)`. 헷갈려서 sd로 출력하면 비정상 큰 값 (`1/√77≈0.11`이 정상인데 `77`로 찍힘)
+   - 해결: `sd = 1/sqrt(precision)` 변환 또는 `fitNull()` (method-of-moments, `c(mean, sd)` 반환) 사용
+   - MCMC는 precision posterior CI가 넓은 경우(e.g., [6.7, 1256]) 불확실성 있음 — method-of-moments는 점추정만
+
+2. **R `tryCatch` 안 `<<-` 절대 금지 (silent empty return)**
+   - tryCatch **expr 블록 안에서 `<<-`** 쓰면 함수 local 변수가 아닌 전역 scope에 할당 → 함수 return 시 empty data frame
+   - 증상: 정상 flow의 `<<-`는 silent fail, 에러 flow와 early-return만 정상 작동 → `nrow=0` 결과
+   - downstream에서 `df$col <- ...` "replacement has 1 row, data has 0" 에러로 뒤늦게 발견
+   - **해결 패턴** (권장):
+     ```r
+     new_row <- tryCatch({
+       fit <- coxph(...)
+       data.frame(outcomeId=oid, hr=..., ...)
+     }, error = function(e) {
+       data.frame(outcomeId=oid, hr=NA, ...)
+     })
+     res <- rbind(res, new_row)  # always local <-
+     ```
+   - 주기 검사: `grep -rn 'res <<- rbind' R/`
+
+3. **`calibrateConfidenceInterval()` 내부 `legacy` 변수 미정의 silent error (EmpiricalCalibration 최신)**
+   - 함수 시그니처: `function(logRr, seLogRr, model, ciWidth = 0.95)`
+   - 내부 `logBound()` 호출 시 `if (legacy) {...}` 체크 → `missing value where TRUE/FALSE needed`
+   - tryCatch 안에서 silent NULL 반환 → 모든 `calHr/calCI = NA` (결과 없음)
+   - **우회**: Schuemie 2014 공식 직접 구현
+     ```r
+     calLogHr <- logHr - null_mean
+     calSe    <- sqrt(seLogHr^2 + null_sd^2)
+     calCi    <- c(exp(calLogHr - 1.96*calSe), exp(calLogHr + 1.96*calSe))
+     calP     <- 2 * pnorm(-abs(calLogHr)/calSe)
+     ```
+   - `calibrateP()`는 정상 작동 (legacy 버그 영향 없음)
+
+### 5.4 Measurement NC의 구조적 제약 (2026-04-20 정리)
+
+**결론**: 표준 NC conceptSet 경로로는 measurement NC를 넣을 수 없다. 구조적으로 condition/procedure 기반 프레임워크임.
+
+**원인**: estimation spec의 `negativeControlOutcomeCohortDefinition`:
+```json
+{
+  "occurrenceType": "first",
+  "detectOnDescendants": true,
+  "domains": ["condition", "procedure"]
+}
+```
+→ NC는 concept IDs만 넣으면 framework가 자동으로 "첫 condition/procedure occurrence of concept_id"를 event로 cohort 생성. **threshold logic(value > range_high 등) 주입 hook 없음**.
+
+**왜 domains에 "measurement" 추가로 해결 안 되나**:
+- 자동 생성되는 event = "그 검사가 처음 수행된 시점" (surveillance indicator)
+- 원하는 event = "첫 이상치 발견 시점" (abnormality)
+- OMOP measurement 테이블은 `value_as_number` + `range_high/low` 조합으로 이상치 판단 → framework의 "first occurrence" 로직으로는 불가
+
+**우회 경로 (이론상 존재, 실용적 아님)**:
+- primary outcome처럼 CIRCE JSON 수작업으로 threshold cohort 54개 빌드 → `targetComparatorOutcomes`에 regular outcome으로 추가 → R side에서 NC로 간주
+- 비용: 54 × dual-unit/bidirectional 변종 = 100+ cohort, 기관별 unit 처리, "수술 무관" justification, OHDSI 선례 부재
+
+**OHDSI 표준 NC는 전부 condition 기반** (Voss 2017 등) — measurement NC catalog 없음. Schuemie empirical calibration tutorial도 condition_era/condition_occurrence 기반만 예시.
+
+**실무 의사결정**:
+- primary가 measurement threshold인 연구에서 NC는 **condition outcome 유지**가 표준
+- NC-primary ascertainment 구조 불일치는 paper limitation에 명시 (surveillance bias 일부 잡히지 않음)
+- Reviewer 지적 시 σ-grid sensitivity (σ=0/0.16/0.3/0.5)로 calibration robustness 증명으로 대응
+
+**출처**: v4 analysis에서 54 condition NC 유지 결정 (`studies/appendectomy/v4_analysis_plan.md` §2.4, §4).
 
 ---
 
