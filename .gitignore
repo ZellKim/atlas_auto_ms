@@ -57,3 +57,18 @@ KCDtoConcept_id/
 PROGRESS.md
 docs/paper_*.md
 docs/irb_*.md
+
+# 대용량 runtime/raw 데이터 (코드만 커밋)
+data/v4_*_raw.json
+data/v4_monitor_state.json
+reference/
+*.msi
+
+# 연구-특이적 runtime 산출물 (literature enrichment 등)
+data/scripts/missing_pmids.json
+data/scripts/omop_cdm_intermediate.json
+data/scripts/omop_cdm_papers_batch1.json
+data/scripts/omop_inline_metadata.json
+data/scripts/.Rhistory
+data/biomarker_site_concept_matrix.csv
+data/biomarker_stability_summary.csv
