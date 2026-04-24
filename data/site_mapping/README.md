@@ -41,16 +41,17 @@ AUMC,AUMC_5.3.1_11,cdmpv53_251128,9,191
 **sourceKey** = PostgreSQL 스키마 이름 (Achilles 쿼리에서 사용).
 주의: `sourceKey ≠ cdmName`.
 
-### `site_summary_23.csv` — 총 환자수 + 기간 + DB명
+### `site_summary_23.csv` — 한글명 + 총 환자수 + 기간 + DB명
 
 ```csv
-code,source,source_key,period_start,period_end,total_persons,in_20sites
-AUMC,AUMC_5.3.1_11,cdmpv53_251128,1993,2026,"2,938,928",Y
+code,institution,source,source_key,period_start,period_end,total_persons,in_20sites
+AUMC,아주대학교병원,AUMC_5.3.1_11,cdmpv53_251128,1993,2026,"2,938,928",Y
 ```
 
 | 컬럼 | 의미 |
 |---|---|
-| `code` | 기관 코드 |
+| `code` | 영문 기관 코드 |
+| `institution` | 한글 기관명 |
 | `source` | CDM 인스턴스 이름 (`cdmName`) |
 | `source_key` | **조회된 PostgreSQL DB 스키마** (Achilles 쿼리 대상) |
 | `period_start` | 데이터 시작 연도 |
