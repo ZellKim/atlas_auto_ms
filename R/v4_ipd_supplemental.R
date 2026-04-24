@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R + driver pattern.
+# Kept for reference. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # v4 IPD Supplemental Analyses (S-C, S-D, S-H, S-F)
 # S-C: Full Union prior outcome filter → re-match → Cox

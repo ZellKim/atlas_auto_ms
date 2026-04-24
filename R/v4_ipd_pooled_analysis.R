@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R + driver pattern.
+# Kept for reference. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # v4 IPD Pooled Analysis (v4_1a, v4_1b, v4_2, v4_3 — 5 common sites)
 # - 2 comparators: 1074 (Chole), 1121 (Hernia)

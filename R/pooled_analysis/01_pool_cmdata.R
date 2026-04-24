@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — 구형 4-step pipeline, R/lib/ipd_pooled.R 로 대체.
+# Kept for reference only. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # 01_pool_cmdata.R
 # 다기관 CmData를 로드하여 단일 CohortMethodData 객체로 병합

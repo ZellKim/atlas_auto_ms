@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R + driver pattern.
+# Kept for reference. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # Compare Full Union with lookback windows: 90d vs 365d
 # Run same S-C/D/H/F for each lookback → produce comparison table

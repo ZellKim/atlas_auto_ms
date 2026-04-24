@@ -1,4 +1,9 @@
 # =============================================================================
+# ⚠️  DEPRECATED 2026-04-24 — superseded by R/lib/ipd_pooled.R + driver pattern.
+# Kept for reference. Regression test: this script's Chole output = lib output
+# bit-for-bit (30 outcomes, hr/ciLb/ciUb/calHr/calP diff = 0).
+# See: studies/appendectomy/R/run_v4_chole_via_lib.R for equivalent 60-line driver.
+# =============================================================================
 # v4 Main Analysis — 365d Full Union Lookback (v3: clinical-state combining)
 #
 # v3 extends v2's dual-unit combining (CRP mg/dL+mg/L) to include pooling

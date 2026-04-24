@@ -430,24 +430,48 @@ Step 2: CmData 추출 (Python)
   → CmData.zip을 다시 unzip → *.sqlite + *.rds
   → 저장: cmData_{연구명}\{기관}\CmData_l1_t{T}_c{C}\*.sqlite
 
-Step 3: IPD Pooled Analysis (R)
-  → SQLite 파일을 DBI::dbConnect()로 직접 로드 (loadCohortMethodData 아님!)
-  → dbReadTable(con, "cohorts"), "outcomes", "covariates", "covariateRef"
-  → site dummy covariate 추가
-  → Cyclops PS fitting → 1:1 matching → site-stratified Cox
-  → NC outcome도 동일 방식
+Step 3-4: IPD Pooled + NC Calibration (R) — **R/lib/ipd_pooled.R 사용**
 
-Step 4: NC Calibration (R)
-  → EmpiricalCalibration::fitNull() + calibrateP()
-  → calibrated HR, CI, p-value 산출
+  2026-04-24 v4 canonical (v4_main_365d_analysis_v3_clinicalstate.R) 로직을
+  공통 lib으로 추출. Regression test: v4 Chole 30 outcome 전 항목 bit-for-bit
+  일치 (hr/ciLb/ciUb/calHr/calP diff = 0).
+
+  신규 연구는 driver 스크립트만 60줄 작성:
+  ```r
+  Sys.setenv(JAVA_HOME = "C:/Users/data1/java/jdk-21.0.10+7")
+  source("R/lib/ipd_pooled.R")
+  result <- run_ipd_pooled(list(
+    cmdata_root = "C:/Users/data1/Desktop/atlas_auto_cmdata/cmData_{연구}",
+    sites = c(...),
+    target_id = ..., comparator_id = ...,
+    analyses = NULL,                      # or c("a","b","c") for multi-analysis
+    primary_outcomes = c(...),
+    nc_outcomes = NULL,                   # or explicit; default auto-detect
+    risk_window = c(91L, 1185L),
+    lookback_days = 365L,
+    dual_unit_map = NULL                  # or list("9001"=c(...))
+  ))
+  write.csv(result$primary, ..., row.names = FALSE)
+  ```
+
+  lib이 처리: rowId offset pool → lookback filter → Cyclops LASSO PS
+             (caliper search bounds 0.01-20) → 1:1 NN caliper 0.2×SD
+             → site-stratified Cox → fitNull (method-of-moments, 54 NC)
+             → Schuemie 2014 수동 calibration → E-value.
 ```
 
 **⚠️ 반드시 지킬 것:**
-- CmData 로드는 **DBI::dbConnect(RSQLite::SQLite(), *.sqlite)** 사용
+- **R/lib/ipd_pooled.R 경유**: 연구별 monolithic 스크립트 작성 금지 (2026-04-24 이후)
+- CmData 로드는 **DBI::dbConnect(RSQLite::SQLite(), *.sqlite)** 사용 (lib 내부에서 처리)
 - `loadCohortMethodData()`는 **Andromeda 버전 호환 문제**로 실패할 수 있음
-- `Rscript`로 실행 시 JAVA_HOME 누락 가능 → 스크립트 첫줄에 `Sys.setenv(JAVA_HOME=...)` 필수
-- dual-unit outcome (CRP, Neutro#)은 **기관별 unit에 맞는 코호트만 선택**
+- `Rscript`로 실행 시 JAVA_HOME 누락 가능 → driver 첫줄에 `Sys.setenv(JAVA_HOME=...)` 필수
+- dual-unit outcome (CRP, Neutro#)은 **기관별 unit에 맞는 코호트만 선택**하고 `dual_unit_map`에 pseudo_id → c(variant_ids) 등록
 - R 패키지: Andromeda 0.6.0, CohortMethod 4.2.2, duckdb 제거
+
+**Deprecated scripts (lib으로 superseded, 참고용 보존)**:
+- `R/v4_main_365d_analysis*.R`, `R/v4_loso_sensitivity*.R`, `R/v4_ipd_*.R`, `R/v4_clinical_*.R` — v4 monolithic
+- `R/pooled_analysis/00-04_*.R`, `R/pooled_analysis/ipd_pooled_cyclops*.R` — 구형 4-step pipeline
+- `R/allergic_ipd_pilot.R` — 3-site allergic pilot (v1)
 
 ### 7.3 교훈
 1. 데이터 검증을 estimation 전에 수행

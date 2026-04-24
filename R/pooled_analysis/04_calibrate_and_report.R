@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — 구형 4-step pipeline, R/lib/ipd_pooled.R 로 대체.
+# Kept for reference only. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # 04_calibrate_and_report.R
 # Empirical calibration + Forest plot + 비교 테이블

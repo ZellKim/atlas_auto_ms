@@ -30,6 +30,15 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 2. 활성 연구의 `PROGRESS.md`와 `study_knowledge_base.md` 읽기
 3. `git log --oneline -5` — 최근 시스템 변경 확인
 
+## IPD Pooled Analysis (R) — 공통 lib 사용
+
+**신규 연구는 `R/v4_*.R` 복제 금지**. `R/lib/ipd_pooled.R` + study-specific driver (60줄) 패턴.
+
+- Driver 템플릿: `R/lib/driver_template.R`
+- API: `run_ipd_pooled(config)` → primary + NC + calibrated HR + E-value + time-window
+- 2026-04-24 regression 검증: v4 Chole 30 outcome bit-for-bit 일치
+- 상세: `docs/system_knowledge_base.md` §7.2
+
 ## 현재 활성 연구
 
 **studies/allergic_diseases/** — 소아 알레르기-틱/ADHD 다기관 연구

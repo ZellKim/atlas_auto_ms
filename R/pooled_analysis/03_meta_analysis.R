@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — 구형 4-step pipeline, R/lib/ipd_pooled.R 로 대체.
+# Kept for reference only. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # 03_meta_analysis.R
 # 메타분석 — 가능한 outcome/사이트에 대해서만 수행 (Secondary)

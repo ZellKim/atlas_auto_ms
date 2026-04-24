@@ -1,3 +1,5 @@
+# ⚠️  DEPRECATED 2026-04-24 — 구형 4-step pipeline, R/lib/ipd_pooled.R 로 대체.
+# Kept for reference only. See docs/system_knowledge_base.md §7.2.
 # =============================================================================
 # 02_run_pooled_analysis.R
 # Pooled CmData에서 PS 재추정 → IPTW/Stratification/Matching → Cox regression
