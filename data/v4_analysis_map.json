@@ -1,0 +1,38 @@
+{
+  "v4_1a_cbc_wbc": {
+    "atlas_id": 222,
+    "analysis_id": 11034,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_1a_cbc_wbc_v4"
+  },
+  "v4_1b_cbc_rbc": {
+    "atlas_id": 223,
+    "analysis_id": 11035,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_1b_cbc_rbc_v4"
+  },
+  "v4_2_chem_hepa": {
+    "atlas_id": 224,
+    "analysis_id": 11036,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_2_chem_hepa_v4"
+  },
+  "v4_3_meta_endo": {
+    "atlas_id": 225,
+    "analysis_id": 11037,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_3_meta_endo_v4"
+  },
+  "v4_4_sex_specific": {
+    "atlas_id": 226,
+    "analysis_id": 11038,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_4_sex_specific_v4"
+  },
+  "v4_5_clinical": {
+    "atlas_id": 227,
+    "analysis_id": 11044,
+    "atlas_site_id": 203,
+    "analysis_name": "AD_v4_5_clinical_v4"
+  }
+}

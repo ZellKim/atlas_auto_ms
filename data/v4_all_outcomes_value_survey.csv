@@ -1,0 +1,761 @@
+﻿site,concept_id,biomarker,expected_unit,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+CHNUH,3000905,WBC_a,thou/uL,0,No matching concept,3229070,,,,,,,
+CHNUH,3010813,WBC_b,thou/uL,0,NO_DATA,0,,,,,,,
+CHNUH,3017732,Neutro_abs,thou/uL,0,NO_DATA,0,,,,,,,
+CHNUH,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+CHNUH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+CHNUH,3002385,Mono_a,thou/uL,0,NO_DATA,0,,,,,,,
+CHNUH,3019069,Mono_b,%,0,NO_DATA,0,,,,,,,
+CHNUH,3020460,CRP,mg/dL|mg/L,0,No matching concept,1289379,,,,,,,
+CHNUH,3004501,Glucose,mg/dL,0,NO_DATA,0,,,,,,,
+CHNUH,3037110,GlucFast,mg/dL,0,No matching concept,3752,,,,,,,
+CHNUH,3000963,Hgb,g/dL,0,No matching concept,3316449,,,,,,,
+CHNUH,3004327,Lympho_a,thou/uL,0,No matching concept,3100254,,,,,,,
+CHNUH,3002030,Lympho_b,%,0,NO_DATA,0,,,,,,,
+CHNUH,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+CHNUH,3006504,Eosino_b,%,0,NO_DATA,0,,,,,,,
+CHNUH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+CHNUH,3022096,Baso_b,%,0,NO_DATA,0,,,,,,,
+CHNUH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+CHNUH,3015183,ESR_b,mm/hr,0,No matching concept,370989,,,,,,,
+CHNUH,3022192,TG,mg/dL,0,No matching concept,1100292,,,,,,,
+CHNUH,3006923,ALT,U/L,0,No matching concept,2974921,,,,,,,
+CHNUH,3024561,Albumin,g/dL,0,No matching concept,3177558,,,,,,,
+CHNUH,3004410,HbA1c,%,0,No matching concept,376781,,,,,,,
+CHNUH,3028437,LDL,mg/dL,0,No matching concept,464408,,,,,,,
+CHNUH,3007070,HDL,mg/dL,0,No matching concept,539588,,,,,,,
+CHNUH,3037556,UA,mg/dL,0,No matching concept,1453159,,,,,,,
+CHNUH,3026910,GGT,U/L,0,No matching concept,727990,,,,,,,
+CHNUH,3035995,ALP,U/L,0,No matching concept,2965081,,,,,,,
+CHNUH,3013721,AST,U/L,0,No matching concept,3080102,,,,,,,
+CHNUH,3027114,TC,mg/dL,0,No matching concept,2395193,,,,,,,
+DCMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+DCMC,3010813,WBC_b,thou/uL,0,No matching concept,895285,,,,,,,
+DCMC,3017732,Neutro_abs,thou/uL,0,No matching concept,1716193,,,,,,,
+DCMC,3017354,Neutro_pct_a,%,0,No matching concept,2394519,,,,,,,
+DCMC,3018010,Neutro_pct_b,%,8554,percent,962977,0,7.03,50.1,70.9,83,89.8,321.2
+DCMC,3002385,Mono_a,thou/uL,0,No matching concept,1759985,,,,,,,
+DCMC,3019069,Mono_b,%,8554,percent,806174,0,2.8,4.8,6.9,9.3,12.3,98.5
+DCMC,3019069,Mono_b,%,0,No matching concept,2394491,,,,,,,
+DCMC,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1310140,0,0.6,1.6,7.8,37.7,96.6,2133
+DCMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,389197,2,79,86,94,110.0,147,1980.0
+DCMC,3037110,GlucFast,mg/dL,0,No matching concept,53626,,,,,,,
+DCMC,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+DCMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+DCMC,3002030,Lympho_b,%,8554,percent,806176,0,4.3,7.8,14.4,24.6,36.2,121.7
+DCMC,3002030,Lympho_b,%,0,No matching concept,2394511,,,,,,,
+DCMC,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+DCMC,3006504,Eosino_b,%,8554,percent,806176,0,0,0.2,0.9,2.3,4.3,84.9
+DCMC,3006504,Eosino_b,%,0,No matching concept,2394479,,,,,,,
+DCMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+DCMC,3022096,Baso_b,%,8554,percent,806177,0,0.1,0.2,0.4,0.7,1.1,64.2
+DCMC,3022096,Baso_b,%,0,No matching concept,2394465,,,,,,,
+DCMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+DCMC,3015183,ESR_b,mm/hr,0,No matching concept,856696,,,,,,,
+DCMC,3022192,TG,mg/dL,8840,milligram per deciliter,381758,-4,53,72,104,152,221,3661
+DCMC,3006923,ALT,U/L,8645,unit per liter,339610,-5,11,14,19,27,41,5072
+DCMC,3024561,Albumin,g/dL,8713,gram per deciliter,381451,0.1,2.5,3,3.8,4.4,4.7,8.6
+DCMC,3004410,HbA1c,%,8554,percent,50612,0,4.9,5.2,5.7,6.9,8.8,20.5
+DCMC,3004410,HbA1c,%,0,No matching concept,282656,,,,,,,
+DCMC,3028437,LDL,mg/dL,8840,milligram per deciliter,294859,0.4,63,82,106.5,133.5,158.9,605
+DCMC,3007070,HDL,mg/dL,8840,milligram per deciliter,409030,0.3,36,42.9,51.9,62.5,74,274
+DCMC,3037556,UA,mg/dL,8840,milligram per deciliter,179940,0.1,2.7,3.8,4.9,6.3,7.7,43.5
+DCMC,3026910,GGT,U/L,8645,unit per liter,504716,0,10.0,14,25,63,180.0,5818
+DCMC,3035995,ALP,U/L,8645,unit per liter,356543,1,53,68,113,186,330.0,9150.0
+DCMC,3013721,AST,U/L,8645,unit per liter,338283,-19,15,17,21,26,35,9900.0
+DCMC,3027114,TC,mg/dL,8840,milligram per deciliter,351515,0,132,154,179,206,232,1517
+DSMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+DSMC,3010813,WBC_b,thou/uL,8848,thousand per microliter,2247470,0,3.97,5.17,6.75,9.05,12.41,19031808359
+DSMC,3017732,Neutro_abs,thou/uL,0,No matching concept,1918546,0,1980.0,2840.0,4158.08,6430.0,9900.0,1801089
+DSMC,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+DSMC,3018010,Neutro_pct_b,%,8554,percent,1918548,0,45.3,54,64.3,75.8,84.9,100.0
+DSMC,3002385,Mono_a,thou/uL,8554,percent,85725,10.5,11.9,12.2,12.7,13.4,15,35.2
+DSMC,3019069,Mono_b,%,8554,percent,1918548,0,4.2,5.8,7.4,9.4,11.8,1695
+DSMC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,913695,0,0.03,0.1,0.5,3.6,9.6,72.2
+DSMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,2127816,1,85,94,107,134,179,3131
+DSMC,3037110,GlucFast,mg/dL,0,No matching concept,23752,14,86,97,114,136,170.0,90131
+DSMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,72113,16,88,95,107,126,155,949
+DSMC,3000963,Hgb,g/dL,8713,gram per deciliter,2339202,0,8.7,10.1,12,13.7,15,26.3
+DSMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+DSMC,3002030,Lympho_b,%,8554,percent,1918548,0,7.6,13.9,23.8,33.8,42.1,100.0
+DSMC,3013115,Eosino_a,thou/uL,8647,per microliter,15429,0,20.0,70.0,140.0,270.0,500.0,96630.0
+DSMC,3006504,Eosino_b,%,8554,percent,1918548,0,0.1,0.6,1.6,3.1,5.2,150.0
+DSMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+DSMC,3022096,Baso_b,%,8554,percent,1918548,0,0.1,0.2,0.4,0.6,0.9,50.0
+DSMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+DSMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,398563,1,4,10.0,22,44,76,1250.0
+DSMC,3022192,TG,mg/dL,0,No matching concept,8,123,123,132,189,207,602,602
+DSMC,3022192,TG,mg/dL,8840,milligram per deciliter,551032,4.6,58,77,108,155,221,10805
+DSMC,3006923,ALT,U/L,8645,unit per liter,2100011,-21,9,12,18,28,49,9161
+DSMC,3024561,Albumin,g/dL,8713,gram per deciliter,1937726,0,2.9,3.5,4.1,4.5,4.7,7.3
+DSMC,3004410,HbA1c,%,8554,percent,439605,0.1,5.4,5.8,6.5,7.3,8.5,49
+DSMC,3028437,LDL,mg/dL,8840,milligram per deciliter,442756,-95.8,47,62,84,112,140.0,1455
+DSMC,3007070,HDL,mg/dL,8840,milligram per deciliter,524297,1.4,36,43,52,63,75,278
+DSMC,3037556,UA,mg/dL,0,No matching concept,10,4,4,5.5,6.3,7,7.2,8.4
+DSMC,3037556,UA,mg/dL,8840,milligram per deciliter,417177,-0.2,3.3,4.1,5.2,6.5,7.8,75.5
+DSMC,3026910,GGT,U/L,0,No matching concept,8,28,28,29,41,57,106,106
+DSMC,3026910,GGT,U/L,8645,unit per liter,392039,0,11,15,25,51,123,5975
+DSMC,3035995,ALP,U/L,8645,unit per liter,1946887,1,49,61,77,104,162,6000.0
+DSMC,3013721,AST,U/L,8645,unit per liter,2099517,3,14,18,23,31,49,27890.0
+DSMC,3027114,TC,mg/dL,0,No matching concept,8,125,125,130.0,143,176,217,217
+DSMC,3027114,TC,mg/dL,8840,milligram per deciliter,658480,3.86,115,137,164,194,222,1554
+EUMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+EUMC,3010813,WBC_b,thou/uL,0,No matching concept,9263943,-7,3.85,5.07,6.66,9.08,12.72,20102315791
+EUMC,3010813,WBC_b,thou/uL,8848,thousand per microliter,31396,0.02,3.72,5.12,6.88,9.5,13.5,789
+EUMC,3017732,Neutro_abs,thou/uL,0,No matching concept,5043381,0,1.85,2.73,4.05,6.49,10.32,18274056750.04
+EUMC,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+EUMC,3018010,Neutro_pct_b,%,8554,percent,12712327,0,41.4,51.2,61.8,74.3,84.2,999
+EUMC,3002385,Mono_a,thou/uL,8554,percent,12492248,0,12.2,12.7,13.4,14.8,16.8,999
+EUMC,3019069,Mono_b,%,8554,percent,12703289,0,4.1,5.7,7.3,9.4,12.3,999
+EUMC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,15916009,0,0.04,0.1,0.65,3.98,10.63,555
+EUMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,31156380,0,83,92,105,132,174,7750.0
+EUMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,99944,9,81,93,108,129,156,1310.0
+EUMC,3000963,Hgb,g/dL,8713,gram per deciliter,3439574,0,8.3,9.9,12.1,13.7,14.9,999
+EUMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+EUMC,3002030,Lympho_b,%,8554,percent,12724751,0,7.9,14.9,26.1,36.4,45.4,999
+EUMC,3013115,Eosino_a,thou/uL,8647,per microliter,22181,0,30.0,80.0,170.0,360.0,732,101690.0
+EUMC,3013115,Eosino_a,thou/uL,0,No matching concept,97146,,,,,,,
+EUMC,3006504,Eosino_b,%,8554,percent,12498569,0,0.1,0.7,1.8,3.3,5.6,999
+EUMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+EUMC,3022096,Baso_b,%,8554,percent,12337426,0,0.1,0.2,0.4,0.6,1,999
+EUMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+EUMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,3101635,0,0,0,3,16,38,120.0
+EUMC,3022192,TG,mg/dL,8840,milligram per deciliter,18348269,0,48,67,98,147,216,999999
+EUMC,3006923,ALT,U/L,8923,international unit per liter,41693082,-6,10.0,14,21,35,68,55555555
+EUMC,3024561,Albumin,g/dL,8713,gram per deciliter,29809299,0,2.5,3,3.6,4.2,4.5,555555
+EUMC,3004410,HbA1c,%,0,No matching concept,319,4.1,5.4,5.8,6.7,7.6,8.8,14.2
+EUMC,3004410,HbA1c,%,8554,percent,1777831,0,5.3,5.6,6.3,7.2,8.4,19.9
+EUMC,3028437,LDL,mg/dL,8840,milligram per deciliter,8617301,0,64,82,105,129,152,11111
+EUMC,3007070,HDL,mg/dL,8840,milligram per deciliter,8622291,0,35,42,51,62,72,237
+EUMC,3037556,UA,mg/dL,8840,milligram per deciliter,8391673,0,3.1,3.9,4.9,6.2,7.4,93
+EUMC,3026910,GGT,U/L,8923,international unit per liter,15098906,0,13,18,32,74,194,150224.8
+EUMC,3035995,ALP,U/L,8923,international unit per liter,25537749,-6,114,165,226,333,587,35580.0
+EUMC,3013721,AST,U/L,8923,international unit per liter,41684679,0,16,19,25,38,71,77000.0
+EUMC,3027114,TC,mg/dL,8840,milligram per deciliter,18839432,-2,106,136,167,196,224,1293
+GNUCH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUCH,3010813,WBC_b,thou/uL,8848,thousand per microliter,952932,0.01,4.17,5.33,6.92,9.35,12.98,749.82
+GNUCH,3010813,WBC_b,thou/uL,8961,thousand per cubic millimeter,170468,0.05,4.27,5.52,7.22,9.82,13.51,636.38
+GNUCH,3017732,Neutro_abs,thou/uL,8848,thousand per microliter,879539,0,2.07,2.88,4.18,6.57,10.3,207.11
+GNUCH,3017732,Neutro_abs,thou/uL,8961,thousand per cubic millimeter,161338,0,2.1,2.99,4.37,6.86,10.57,146.94
+GNUCH,3017732,Neutro_abs,thou/uL,0,No matching concept,980,,,,,,,
+GNUCH,3017354,Neutro_pct_a,%,8554,percent,1040878,0,44.4,52.8,63,75,84.6,99.3
+GNUCH,3017354,Neutro_pct_a,%,0,No matching concept,980,,,,,,,
+GNUCH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+GNUCH,3002385,Mono_a,thou/uL,8554,percent,1041875,10.3,11.9,12.3,13.1,14.6,16.5,39.2
+GNUCH,3019069,Mono_b,%,8554,percent,1041856,0,4.5,6,7.5,9.4,11.7,87
+GNUCH,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,741578,0,0.4,0.9,4.7,28,100.4,770.0
+GNUCH,3004501,Glucose,mg/dL,0,NO_DATA,0,,,,,,,
+GNUCH,3037110,GlucFast,mg/dL,8840,milligram per deciliter,29459,27,92,99,113,137,173,800.0
+GNUCH,3000963,Hgb,g/dL,8713,gram per deciliter,1260367,-0.2,9,10.4,12.2,13.8,15.1,24.9
+GNUCH,3000963,Hgb,g/dL,0,No matching concept,6855,,,,,,,
+GNUCH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUCH,3002030,Lympho_b,%,8554,percent,1040877,0,8,14.9,25.1,34.9,42.9,99
+GNUCH,3002030,Lympho_b,%,0,No matching concept,980,,,,,,,
+GNUCH,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUCH,3006504,Eosino_b,%,8554,percent,1040877,0,0.1,0.7,1.7,3.1,5.1,85
+GNUCH,3006504,Eosino_b,%,0,No matching concept,980,,,,,,,
+GNUCH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUCH,3022096,Baso_b,%,8554,percent,1040877,0,0.1,0.2,0.4,0.6,0.9,34
+GNUCH,3022096,Baso_b,%,0,No matching concept,980,,,,,,,
+GNUCH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+GNUCH,3015183,ESR_b,mm/hr,8752,millimeter per hour,334228,1,2,7,17,36,63,120.0
+GNUCH,3022192,TG,mg/dL,8840,milligram per deciliter,280476,6,63,84,117,169,244,4006
+GNUCH,3006923,ALT,U/L,8645,unit per liter,1093268,-17,10.0,13,20.0,31,54,78120.0
+GNUCH,3024561,Albumin,g/dL,8713,gram per deciliter,1059773,0.1,2.8,3.4,4,4.4,4.6,8.3
+GNUCH,3004410,HbA1c,%,8554,percent,256241,2.2,5.3,5.6,6.1,6.9,7.9,19.8
+GNUCH,3028437,LDL,mg/dL,8840,milligram per deciliter,260193,3,54,71,94,122,148,1097
+GNUCH,3007070,HDL,mg/dL,8840,milligram per deciliter,274707,1,35,42,50.0,59,70.0,183
+GNUCH,3037556,UA,mg/dL,8840,milligram per deciliter,868446,0.1,2.9,3.9,4.9,6.2,7.6,29.4
+GNUCH,3026910,GGT,U/L,8645,unit per liter,619726,1,11,15,24,50.0,119,5218
+GNUCH,3035995,ALP,U/L,8645,unit per liter,1003426,0.3,50.0,61,77,106,179,6020.0
+GNUCH,3013721,AST,U/L,8645,unit per liter,1093199,1,16,20.0,25,35,56,454240.0
+GNUCH,3027114,TC,mg/dL,8840,milligram per deciliter,1061867,1,104,130.0,161,194,226,1045
+GNUH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUH,3010813,WBC_b,thou/uL,8961,thousand per cubic millimeter,3752224,0.01,3.84,5.13,6.8,9.31,13.06,888.9
+GNUH,3017732,Neutro_abs,thou/uL,8961,thousand per cubic millimeter,3516282,0,1.87,2.74,4.03,6.36,10.07,509.55
+GNUH,3017354,Neutro_pct_a,%,8554,percent,3516281,0,43,52.1,62.6,74.8,84.7,100.0
+GNUH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+GNUH,3002385,Mono_a,thou/uL,8554,percent,3516283,0,12.1,12.7,13.5,15,17,221
+GNUH,3019069,Mono_b,%,8554,percent,3516284,0,3.8,5.4,7.1,9.1,11.6,95
+GNUH,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1942105,0,0.4,1,5.8,32.8,88.8,722.3
+GNUH,3004501,Glucose,mg/dL,8840,milligram per deciliter,3494288,-21,86,96,112,142,189,2000.0
+GNUH,3037110,GlucFast,mg/dL,8840,milligram per deciliter,92956,6,91,101,119,147,193,1100.0
+GNUH,3000963,Hgb,g/dL,8713,gram per deciliter,4129838,-0.15,8.9,10.2,11.9,13.5,14.9,38.6
+GNUH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUH,3002030,Lympho_b,%,8554,percent,3516281,0,8.4,15.3,25.8,35.8,44.3,100.0
+GNUH,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUH,3006504,Eosino_b,%,8554,percent,3516284,0,0.2,0.7,1.7,3.2,5.3,93.7
+GNUH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+GNUH,3022096,Baso_b,%,8554,percent,3516285,0,0.1,0.2,0.4,0.6,0.9,91
+GNUH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+GNUH,3015183,ESR_b,mm/hr,8752,millimeter per hour,1075319,-4,4,10.0,23,47,76,170.0
+GNUH,3022192,TG,mg/dL,8840,milligram per deciliter,729910,-1,58,77,108,155,223,9247
+GNUH,3006923,ALT,U/L,8645,unit per liter,3333086,-1,9,13,19,29,51,21040.0
+GNUH,3024561,Albumin,g/dL,8713,gram per deciliter,3270534,0.2,2.8,3.4,4.1,4.5,4.7,32
+GNUH,3004410,HbA1c,%,8554,percent,728256,0,5.3,5.6,6.2,7.1,8.3,30.2
+GNUH,3028437,LDL,mg/dL,8840,milligram per deciliter,683738,1,56,73,97,125,152,788
+GNUH,3007070,HDL,mg/dL,8840,milligram per deciliter,721964,2,35,42,51,62,74,317
+GNUH,3037556,UA,mg/dL,8840,milligram per deciliter,2479375,0.1,2.7,3.6,4.7,5.9,7.3,25.2
+GNUH,3026910,GGT,U/L,8645,unit per liter,2447270,0,11,16,27,57,132,6733
+GNUH,3035995,ALP,U/L,8645,unit per liter,3163835,2,49,60.0,76,104,167,7370.0
+GNUH,3013721,AST,U/L,8645,unit per liter,3332968,0,15,18,23,33,55,29272
+GNUH,3027114,TC,mg/dL,8840,milligram per deciliter,3255174,-80.0,101,126,155,185,215,1901
+HUMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+HUMC,3010813,WBC_b,thou/uL,8848,thousand per microliter,377654,0.1,4.3,5.4,7.1,9.6,13.1,372.4
+HUMC,3010813,WBC_b,thou/uL,0,No matching concept,1994744,,,,,,,
+HUMC,3017732,Neutro_abs,thou/uL,8848,thousand per microliter,377177,0,2.05,2.87,4.18,6.57,10.05,104.58
+HUMC,3017732,Neutro_abs,thou/uL,0,No matching concept,1989834,,,,,,,
+HUMC,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+HUMC,3018010,Neutro_pct_b,%,8554,percent,2367485,0,44.8,52.8,62.3,74.1,84,841
+HUMC,3002385,Mono_a,thou/uL,8554,percent,2367466,0,12,12.5,13.1,14.2,16.1,55.3
+HUMC,3019069,Mono_b,%,8554,percent,2367485,0,3.7,4.7,6.1,7.9,10.0,89
+HUMC,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1374227,-0.1,1,1,4.8,31.7,92.5,813.9
+HUMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,501417,5,86,93,101,117,148,2100.0
+HUMC,3004501,Glucose,mg/dL,0,No matching concept,15844,,,,,,,
+HUMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,1767660,0.2,89,96,108,131,168,2069
+HUMC,3000963,Hgb,g/dL,8713,gram per deciliter,2484091,0,9.2,10.9,12.8,14.2,15.4,145
+HUMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+HUMC,3002030,Lympho_b,%,8554,percent,2367485,0,8.6,15.8,26.3,35.3,42.9,891
+HUMC,3013115,Eosino_a,thou/uL,8848,thousand per microliter,371969,0,0.05,0.08,0.15,0.24,0.38,31.67
+HUMC,3013115,Eosino_a,thou/uL,0,No matching concept,1976999,,,,,,,
+HUMC,3006504,Eosino_b,%,8554,percent,2367485,0,0.3,0.9,1.9,3.3,5.2,84
+HUMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+HUMC,3022096,Baso_b,%,8554,percent,2367485,0,0.1,0.2,0.4,0.6,0.8,69.1
+HUMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+HUMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,1260945,0,2,6,15,35,63,170.0
+HUMC,3022192,TG,mg/dL,8840,milligram per deciliter,1720816,0,56,76,109,160.0,234,17264
+HUMC,3006923,ALT,U/L,8923,international unit per liter,2333890,0,9,13,18,30.0,52,28889
+HUMC,3024561,Albumin,g/dL,8713,gram per deciliter,2208368,0.2,3,3.7,4.3,4.6,4.9,7.8
+HUMC,3024561,Albumin,g/dL,8840,milligram per deciliter,276,20.0,800.0,1200.0,1800.0,2690.0,3130.0,4500.0
+HUMC,3004410,HbA1c,%,8554,percent,488964,2.4,5.1,5.4,5.9,6.7,7.7,20.7
+HUMC,3028437,LDL,mg/dL,8840,milligram per deciliter,612413,0,54,73,98,126,152,889
+HUMC,3007070,HDL,mg/dL,8840,milligram per deciliter,640552,-1,35,42,51,62,73,1100.0
+HUMC,3037556,UA,mg/dL,8840,milligram per deciliter,1961132,0.1,2.6,3.6,4.6,5.9,7.1,44.4
+HUMC,3026910,GGT,U/L,8923,international unit per liter,1908585,2,10.0,14,25,50.0,112,6614
+HUMC,3035995,ALP,U/L,8923,international unit per liter,2066636,1,47,57,72,97,167,13160.0
+HUMC,3013721,AST,U/L,8923,international unit per liter,2334984,0.2,14,17,22,31,50.0,48849
+HUMC,3027114,TC,mg/dL,8840,milligram per deciliter,2157257,2,103,128,158,189,218,1682
+ISH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+ISH,3010813,WBC_b,thou/uL,0,No matching concept,1304672,,,,,,,
+ISH,3017732,Neutro_abs,thou/uL,8647,per microliter,1119400,0,2148,3010.0,4413,6933,10530.0,563820.0
+ISH,3017354,Neutro_pct_a,%,8554,percent,1119400,0,45.2,53.9,64.1,75.7,84.6,887
+ISH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+ISH,3019069,Mono_b,%,8554,percent,1119400,0,4,5.7,7.2,9.1,11.3,505
+ISH,3020460,CRP,mg/dL|mg/L,0,No matching concept,854809,,,,,,,
+ISH,3004501,Glucose,mg/dL,0,No matching concept,88222,,,,,,,
+ISH,3037110,GlucFast,mg/dL,0,No matching concept,852806,,,,,,,
+ISH,3000963,Hgb,g/dL,8713,gram per deciliter,1455097,0.7,8.9,10.6,12.5,14,15.3,145
+ISH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+ISH,3002030,Lympho_b,%,8554,percent,1119400,0,8,14,24.2,34.1,42.2,346
+ISH,3006504,Eosino_b,%,8554,percent,1119400,0,0,0.6,1.6,3.1,5.1,221
+ISH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+ISH,3022096,Baso_b,%,8554,percent,1119400,0,0,0.1,0.3,0.6,0.9,34
+ISH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+ISH,3015183,ESR_b,mm/hr,0,No matching concept,587749,,,,,,,
+ISH,3022192,TG,mg/dL,0,No matching concept,314582,,,,,,,
+ISH,3006923,ALT,U/L,0,No matching concept,1234578,,,,,,,
+ISH,3024561,Albumin,g/dL,8713,gram per deciliter,1830067,0.3,2.8,3.3,4,4.4,4.7,6.8
+ISH,3024561,Albumin,g/dL,0,No matching concept,444,,,,,,,
+ISH,3004410,HbA1c,%,8554,percent,156785,3,5.1,5.4,5.7,6.4,7.8,196
+ISH,3004410,HbA1c,%,0,No matching concept,148028,,,,,,,
+ISH,3028437,LDL,mg/dL,0,No matching concept,181410,,,,,,,
+ISH,3007070,HDL,mg/dL,0,No matching concept,294484,,,,,,,
+ISH,3037556,UA,mg/dL,0,No matching concept,309771,,,,,,,
+ISH,3026910,GGT,U/L,0,No matching concept,516766,,,,,,,
+ISH,3035995,ALP,U/L,0,No matching concept,706394,,,,,,,
+ISH,3013721,AST,U/L,0,No matching concept,1234851,,,,,,,
+ISH,3027114,TC,mg/dL,0,No matching concept,438057,,,,,,,
+JCMJ,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+JCMJ,3010813,WBC_b,thou/uL,8848,thousand per microliter,543726,0.08,4.56,5.64,7.18,9.46,12.72,395.83
+JCMJ,3017732,Neutro_abs,thou/uL,0,NO_DATA,0,,,,,,,
+JCMJ,3017354,Neutro_pct_a,%,8554,percent,503235,0,43.5,51.7,61.2,72.4,82.3,99.6
+JCMJ,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+JCMJ,3019069,Mono_b,%,8554,percent,503235,0,4.9,6.2,7.8,9.7,12.1,77.4
+JCMJ,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,387752,0,0.05,0.1,0.41,2.19,7.26,60.19
+JCMJ,3004501,Glucose,mg/dL,8840,milligram per deciliter,385888,1,87,96,110.0,136,183,1900.0
+JCMJ,3037110,GlucFast,mg/dL,8840,milligram per deciliter,181835,14,86,91,98,107,124,861
+JCMJ,3037110,GlucFast,mg/dL,0,No matching concept,14,,,,,,,
+JCMJ,3000963,Hgb,g/dL,8713,gram per deciliter,691866,0.5,9.9,11.6,13.3,14.7,15.9,23.7
+JCMJ,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+JCMJ,3002030,Lympho_b,%,8554,percent,503235,0,9.8,17.2,27,36.1,43.8,98.7
+JCMJ,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+JCMJ,3006504,Eosino_b,%,8554,percent,503235,0,0.2,0.7,1.7,3.2,5.2,82.1
+JCMJ,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+JCMJ,3022096,Baso_b,%,8554,percent,503227,0,0.1,0.2,0.3,0.6,0.8,13.5
+JCMJ,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+JCMJ,3015183,ESR_b,mm/hr,8752,millimeter per hour,178032,0,5,11,22,41,68,157
+JCMJ,3022192,TG,mg/dL,8840,milligram per deciliter,256905,3,54,75,112,171,257,12610.0
+JCMJ,3006923,ALT,U/L,8923,international unit per liter,649036,1,12,15,22,33,53,14130.0
+JCMJ,3024561,Albumin,g/dL,8713,gram per deciliter,445149,0.1,2.9,3.5,4,4.3,4.5,9.2
+JCMJ,3004410,HbA1c,%,8554,percent,119477,2.3,5.3,5.6,6.2,7.1,8.4,22.9
+JCMJ,3028437,LDL,mg/dL,8840,milligram per deciliter,84352,1,46,62,85,114,141,660.0
+JCMJ,3007070,HDL,mg/dL,8840,milligram per deciliter,226845,2,34,41,48,57,67,475
+JCMJ,3037556,UA,mg/dL,8840,milligram per deciliter,357430,0.1,3.1,3.9,5,6.3,7.6,28.9
+JCMJ,3026910,GGT,U/L,8923,international unit per liter,299105,2,13,17,27,50.0,103,5220.0
+JCMJ,3035995,ALP,U/L,8923,international unit per liter,383625,2,51,68,152,226,307,28090.0
+JCMJ,3013721,AST,U/L,8923,international unit per liter,648959,1,18,21,26,35,51,31900.0
+JCMJ,3027114,TC,mg/dL,8840,milligram per deciliter,475259,1,113,138,167,197,225,1360.0
+KCCH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+KCCH,3010813,WBC_b,thou/uL,0,No matching concept,2870351,0,2.98,4.34,5.87,7.87,10.9,888.2
+KCCH,3017732,Neutro_abs,thou/uL,0,No matching concept,2869938,0,1.49,2.35,3.46,5.29,8.49,599.91
+KCCH,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+KCCH,3018010,Neutro_pct_b,%,8554,percent,2869904,0,42.8,51.7,61.5,73.4,83.6,100.0
+KCCH,3002385,Mono_a,thou/uL,8554,percent,2868996,0,12.2,12.8,13.7,15.4,17.3,171
+KCCH,3019069,Mono_b,%,8554,percent,2867224,0,3.3,4.5,5.8,7.7,10.4,2804
+KCCH,3020460,CRP,mg/dL|mg/L,0,No matching concept,21471,0.01,0.31,0.41,2.32,7.83,14.8,9384
+KCCH,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,627046,0,0.1,0.19,1.24,5.37,11.55,69.89
+KCCH,3004501,Glucose,mg/dL,8840,milligram per deciliter,2736292,3,84,92,102,123,159,2167
+KCCH,3037110,GlucFast,mg/dL,0,NO_DATA,0,,,,,,,
+KCCH,3000963,Hgb,g/dL,8713,gram per deciliter,2981310,0,9.3,10.6,12.1,13.4,14.6,23.7
+KCCH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+KCCH,3002030,Lympho_b,%,8554,percent,2869508,0,8.5,15.6,26.2,35.6,43.6,100.0
+KCCH,3013115,Eosino_a,thou/uL,0,No matching concept,2819569,0,0.02,0.05,0.11,0.2,0.33,41.8
+KCCH,3006504,Eosino_b,%,8554,percent,2819591,0,0.4,1,2,3.4,5.5,90.3
+KCCH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+KCCH,3022096,Baso_b,%,8554,percent,2796909,0,0.1,0.2,0.4,0.7,1,77.2
+KCCH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+KCCH,3015183,ESR_b,mm/hr,8588,millimeter,57515,1,5,10.0,20.0,48,88,349
+KCCH,3015183,ESR_b,mm/hr,8752,millimeter per hour,320523,-4,2,6,16,35,66,120.0
+KCCH,3022192,TG,mg/dL,8840,milligram per deciliter,426670,4,61,80.0,112,159,223,7917
+KCCH,3006923,ALT,U/L,8645,unit per liter,2728213,-7,10.0,14,20.0,32,52,17280.0
+KCCH,3024561,Albumin,g/dL,8713,gram per deciliter,2562739,0.1,3,3.6,4.2,4.5,4.7,7.2
+KCCH,3004410,HbA1c,%,8554,percent,275383,2.1,5.2,5.6,6.1,6.9,7.9,74
+KCCH,3028437,LDL,mg/dL,8840,milligram per deciliter,287729,-210.0,61.3,77.1,98,123,147.1,876.1
+KCCH,3007070,HDL,mg/dL,8840,milligram per deciliter,424422,0,38,45,54.1,65.3,77,341
+KCCH,3037556,UA,mg/dL,0,No matching concept,12,3.7359,4.341029,5.453012,359,359,359,41029
+KCCH,3037556,UA,mg/dL,8840,milligram per deciliter,2288418,0.1,2.4,3.3,4.3,5.3,6.5,5200.0
+KCCH,3026910,GGT,U/L,8645,unit per liter,539206,0,12,17,27,59,156,5264
+KCCH,3035995,ALP,U/L,8645,unit per liter,2517474,1,47,57,73,97,151,21100.0
+KCCH,3013721,AST,U/L,8645,unit per liter,2727525,1,14,18,22,31,52,34260.0
+KCCH,3027114,TC,mg/dL,0,No matching concept,15181,14,140.0,157,179,204,230.0,971
+KCCH,3027114,TC,mg/dL,8840,milligram per deciliter,2433755,3,115,141,169,197,225,1426
+KDH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+KDH,3010813,WBC_b,thou/uL,0,No matching concept,1388373,0.01,4.26,5.4,6.87,8.95,12.01,430.6
+KDH,3010813,WBC_b,thou/uL,8848,thousand per microliter,1958615,0.01,4.21,5.46,7.13,9.66,13.24,1036
+KDH,3017732,Neutro_abs,thou/uL,8848,thousand per microliter,3127518,0,2.18,2.98,4.25,6.5,9.95,898626
+KDH,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+KDH,3018010,Neutro_pct_b,%,0,No matching concept,8018,1,53,54.5,56.3,58.4,61.3,468
+KDH,3018010,Neutro_pct_b,%,8554,percent,3224028,0,44.7,53,63,75,84.6,99.6
+KDH,3002385,Mono_a,thou/uL,8554,percent,3285071,1,12,12.5,13.2,14.6,16.4,3151
+KDH,3019069,Mono_b,%,8554,percent,3224033,0,3.6,4.8,6.3,8.1,10.2,112.1
+KDH,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1596889,0,0.5,1.4,8.3,39.1,101.7,960.0
+KDH,3004501,Glucose,mg/dL,0,No matching concept,3063,0,65,74,84,99,121,500.0
+KDH,3004501,Glucose,mg/dL,8840,milligram per deciliter,2859696,0,87,96,112,145,198,2245
+KDH,3037110,GlucFast,mg/dL,8840,milligram per deciliter,655555,0,89,99,117,145,193,4156
+KDH,3000963,Hgb,g/dL,8713,gram per deciliter,3478454,-0.2,8.9,10.4,12.3,13.7,15,42.1
+KDH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+KDH,3002030,Lympho_b,%,8554,percent,3224034,0,7.9,14.6,24.9,34.5,42.3,810.0
+KDH,3013115,Eosino_a,thou/uL,8647,per microliter,24820,0,50.0,100.0,180.0,340.0,610.0,41188
+KDH,3013115,Eosino_a,thou/uL,8848,thousand per microliter,3091458,0,0.03,0.07,0.14,0.24,0.4,340.0
+KDH,3006504,Eosino_b,%,8554,percent,3224028,0,0.3,1,2,3.6,5.7,88
+KDH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+KDH,3022096,Baso_b,%,8554,percent,3224027,0,0.1,0.2,0.4,0.6,0.9,95.3
+KDH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+KDH,3015183,ESR_b,mm/hr,8752,millimeter per hour,778209,0,3,8,19,40.0,67,184
+KDH,3022192,TG,mg/dL,8840,milligram per deciliter,995254,-3,60.0,81,115,167,242,13043
+KDH,3006923,ALT,U/L,8923,international unit per liter,3106419,-39,10.0,13,19,31,57,14382
+KDH,3024561,Albumin,g/dL,8713,gram per deciliter,2763251,0,2.8,3.4,4,4.4,4.6,2300.0
+KDH,3024561,Albumin,g/dL,8840,milligram per deciliter,176,2200.0,3500.0,3900.0,4200.0,4400.0,4700.0,5200.0
+KDH,3004410,HbA1c,%,8554,percent,589522,1.7,5.2,5.6,6.3,7.3,8.6,93.7
+KDH,3028437,LDL,mg/dL,8840,milligram per deciliter,836863,1,56,72,94,118,142,983
+KDH,3007070,HDL,mg/dL,8840,milligram per deciliter,942234,0,35,41,49,59,70.0,501
+KDH,3037556,UA,mg/dL,8840,milligram per deciliter,2664536,-3.4,2.5,3.5,4.6,5.9,7.3,114.7
+KDH,3026910,GGT,U/L,8923,international unit per liter,1605280,-34,12,16,26,55,131,6702
+KDH,3035995,ALP,U/L,8923,international unit per liter,2652976,0,48,59,78,116,202,16104
+KDH,3013721,AST,U/L,8923,international unit per liter,3106284,-37,16,19,25,34,56,36800.0
+KDH,3027114,TC,mg/dL,8840,milligram per deciliter,2775854,-7,100.0,126,156,187,217,2481
+KHMC,3000905,WBC_a,thou/uL,0,No matching concept,688035,,,,,,,
+KHMC,3010813,WBC_b,thou/uL,0,No matching concept,3084419,,,,,,,
+KHMC,3017732,Neutro_abs,thou/uL,0,NO_DATA,0,,,,,,,
+KHMC,3017354,Neutro_pct_a,%,8554,percent,2230310,0,44.7,52.8,62.2,73.8,83.6,965
+KHMC,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+KHMC,3002385,Mono_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHMC,3019069,Mono_b,%,8554,percent,2230301,0,3.4,4.4,5.5,6.9,8.6,161
+KHMC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,1799313,0.3,0.56,1,2.59,7.17,13.42,71.96
+KHMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,439993,2,89,98,109,133,179,3011
+KHMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,236764,0,72,80.0,94,117,147,662
+KHMC,3037110,GlucFast,mg/dL,0,No matching concept,266,,,,,,,
+KHMC,3000963,Hgb,g/dL,8713,gram per deciliter,3132677,0,9.3,11,12.8,14.2,15.4,33.1
+KHMC,3000963,Hgb,g/dL,0,No matching concept,686922,,,,,,,
+KHMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHMC,3002030,Lympho_b,%,8554,percent,2230340,0,8.8,16,26.1,35,42.5,787
+KHMC,3013115,Eosino_a,thou/uL,0,No matching concept,19349,,,,,,,
+KHMC,3006504,Eosino_b,%,8554,percent,2229973,0,0.4,1,2,3.4,5.5,83
+KHMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHMC,3022096,Baso_b,%,8554,percent,2228816,0,0.1,0.2,0.4,0.6,0.9,58
+KHMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+KHMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,1270291,-2,3,9,20.0,42,71,120.0
+KHMC,3022192,TG,mg/dL,8840,milligram per deciliter,289764,4,61,81,113,163,235,7292
+KHMC,3006923,ALT,U/L,8645,unit per liter,653140,2,10.0,14,20.0,31,51,55580.0
+KHMC,3024561,Albumin,g/dL,8713,gram per deciliter,2553063,0,3,3.5,4.1,4.4,4.6,9.2
+KHMC,3004410,HbA1c,%,8554,percent,980890,0,5.3,5.7,6.3,7.2,8.3,21.5
+KHMC,3028437,LDL,mg/dL,8840,milligram per deciliter,1046649,0,65,82,104,128,152,1236
+KHMC,3007070,HDL,mg/dL,8840,milligram per deciliter,1159340,0,37,44,52,63,73,293
+KHMC,3037556,UA,mg/dL,8840,milligram per deciliter,1653914,-0.1,2.8,3.8,4.9,6.2,7.5,38
+KHMC,3026910,GGT,U/L,8645,unit per liter,2146840,-313,12,16,26,52,120.0,6543
+KHMC,3035995,ALP,U/L,8645,unit per liter,458706,7,49,60.0,76,102,155,4085
+KHMC,3013721,AST,U/L,8645,unit per liter,3270702,-92,16,20.0,24,33,50.0,75740.0
+KHMC,3027114,TC,mg/dL,8840,milligram per deciliter,1788666,1,128,151,178,206,234,1834
+KHNMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHNMC,3010813,WBC_b,thou/uL,0,No matching concept,3063915,0,4.3,5.5,7.2,9.9,13.8,24825120.0
+KHNMC,3017732,Neutro_abs,thou/uL,0,No matching concept,2081424,0,2108,3017,4476,7107,10971,196666647
+KHNMC,3017354,Neutro_pct_a,%,0,No matching concept,2721420,0,44.6,54,65,77.2,86.1,1111111
+KHNMC,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+KHNMC,3002385,Mono_a,thou/uL,0,No matching concept,491562,0,12.2,12.8,13.6,14.7,16.7,52.2
+KHNMC,3019069,Mono_b,%,0,No matching concept,2720150,0,4,5.6,7.3,9.3,11.9,123
+KHNMC,3020460,CRP,mg/dL|mg/L,0,No matching concept,135374,0,0.05,0.07,0.2,1.42,5.99,56.83
+KHNMC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,1487161,0,0.04,0.1,0.5,3.1,9.2,142
+KHNMC,3004501,Glucose,mg/dL,0,No matching concept,569402,1,86,93,103,123,161,2307
+KHNMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,811936,1,85,93,104,127,172,2299
+KHNMC,3037110,GlucFast,mg/dL,0,No matching concept,32412,18,92,101,117,139,165,600.0
+KHNMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,11258,3,89,96,109,136,178,915
+KHNMC,3000963,Hgb,g/dL,0,No matching concept,2982432,0,8.6,10.1,12.1,13.7,15,25.1
+KHNMC,3000963,Hgb,g/dL,8713,gram per deciliter,17737,0.1,12.2,13,13.8,14.8,15.6,19.4
+KHNMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHNMC,3002030,Lympho_b,%,0,No matching concept,2720471,0,7,13,23.2,33.7,42.3,1719.7
+KHNMC,3013115,Eosino_a,thou/uL,0,No matching concept,29156,0,40.0,90.0,180.0,342,610.0,24050.0
+KHNMC,3006504,Eosino_b,%,0,No matching concept,2719736,0,0,0.5,1.6,3.1,5.5,22374060.0
+KHNMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+KHNMC,3022096,Baso_b,%,0,No matching concept,2721288,0,0,0.2,0.4,0.6,0.9,83.2
+KHNMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+KHNMC,3015183,ESR_b,mm/hr,0,No matching concept,326562,-2,2,6,14,32,61,128
+KHNMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,888075,-2,3,8,19,40.0,71,120.0
+KHNMC,3022192,TG,mg/dL,0,No matching concept,149680,4,51,70.0,101,149,219,4414
+KHNMC,3022192,TG,mg/dL,8840,milligram per deciliter,387650,1,52,71,104,156,231,9000.0
+KHNMC,3006923,ALT,U/L,0,No matching concept,2388725,-17,9,12,18,30.0,57,10000.0
+KHNMC,3024561,Albumin,g/dL,0,No matching concept,1655982,0.5,2.8,3.4,4,4.4,4.7,100.76
+KHNMC,3024561,Albumin,g/dL,8713,gram per deciliter,415812,0,2.6,3.1,3.7,4.3,4.6,8
+KHNMC,3004410,HbA1c,%,0,No matching concept,451342,0,5.1,5.3,5.7,6.3,7.4,49.2
+KHNMC,3028437,LDL,mg/dL,0,No matching concept,143322,2,54,70.0,93,121,148,479
+KHNMC,3028437,LDL,mg/dL,8840,milligram per deciliter,310059,-145,69,89,112,137,161,820.0
+KHNMC,3007070,HDL,mg/dL,0,No matching concept,148667,6,37,44,54,66,78,140.0
+KHNMC,3007070,HDL,mg/dL,8840,milligram per deciliter,360357,2,38,44,53,63,73,180.0
+KHNMC,3037556,UA,mg/dL,0,No matching concept,1670498,0.2,2.1,3.3,4.4,5.8,7.3,38.1
+KHNMC,3037556,UA,mg/dL,8840,milligram per deciliter,132826,0.2,3.5,4.3,5.3,6.4,7.6,25.9
+KHNMC,3026910,GGT,U/L,0,No matching concept,1396132,2,11,15,24,53,155,4754
+KHNMC,3026910,GGT,U/L,8645,unit per liter,1038,4,14,23,45,109,238,1569
+KHNMC,3035995,ALP,U/L,0,No matching concept,1916779,1,56,72,110.0,219,410.0,19000.0
+KHNMC,3013721,AST,U/L,0,No matching concept,2407210,-30.0,15,19,24,33,58,14000.0
+KHNMC,3027114,TC,mg/dL,0,No matching concept,1717888,10.0,89,122,155,188,219,5478
+KHNMC,3027114,TC,mg/dL,8840,milligram per deciliter,293285,10.0,142,164,189,216,242,1206
+KWMC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+KWMC,3010813,WBC_b,thou/uL,8848,thousand per microliter,2166724,0,4.4,5.6,7.2,9.6,13,643.9
+KWMC,3017732,Neutro_abs,thou/uL,8848,thousand per microliter,1314330,0,2.18,2.99,4.25,6.44,9.72,2010.0
+KWMC,3017354,Neutro_pct_a,%,8554,percent,22,,,,,,,
+KWMC,3018010,Neutro_pct_b,%,8554,percent,2033300,0,44.2,53,63,75,84,5655
+KWMC,3002385,Mono_a,thou/uL,8554,percent,8017,0,12,12.3,12.8,14.2,17.3,31.2
+KWMC,3019069,Mono_b,%,8554,percent,1930828,0,4.6,6,7.4,9.1,11.6,96.3
+KWMC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,1164162,0,0.023,0.077,0.49,3.085,9.441,98.7
+KWMC,3004501,Glucose,mg/dL,8840,milligram per deciliter,2059000,0,87,95,108,135,184,2513
+KWMC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,26379,18,93,105,124,151,189,839
+KWMC,3000963,Hgb,g/dL,8713,gram per deciliter,2351000,0,9,10.6,12.4,13.9,15.2,27.6
+KWMC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+KWMC,3002030,Lympho_b,%,8554,percent,2033347,0,8.9,15,25,35,43,220.0
+KWMC,3013115,Eosino_a,thou/uL,8647,per microliter,15396,0,50.0,100.0,200.0,400.0,730.0,88880.0
+KWMC,3006504,Eosino_b,%,8554,percent,1930828,0,0,1,1.9,3,5,100.0
+KWMC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+KWMC,3022096,Baso_b,%,8554,percent,1930827,0,0,0,0.4,1,1,32
+KWMC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+KWMC,3015183,ESR_b,mm/hr,8752,millimeter per hour,478761,-4,2,6,16,34,58,706
+KWMC,3015183,ESR_b,mm/hr,0,No matching concept,29,,,,,,,
+KWMC,3022192,TG,mg/dL,8840,milligram per deciliter,594589,0,59,81,117,174,259,10210.0
+KWMC,3006923,ALT,U/L,8645,unit per liter,2112072,0,11,15,21,31,52,10720.0
+KWMC,3024561,Albumin,g/dL,8713,gram per deciliter,1794304,0.1,2.8,3.5,4.1,4.4,4.6,12
+KWMC,3004410,HbA1c,%,8554,percent,466357,0,5.5,5.9,6.6,7.4,8.6,133
+KWMC,3028437,LDL,mg/dL,8840,milligram per deciliter,506225,0,53,69,93,121,147,607
+KWMC,3007070,HDL,mg/dL,8840,milligram per deciliter,583484,1,33,39,48,58,68,204
+KWMC,3037556,UA,mg/dL,8840,milligram per deciliter,1647254,0.1,2.8,3.8,4.8,6.1,7.5,39.3
+KWMC,3026910,GGT,U/L,8645,unit per liter,590620,0,11,15,25,54,139,5950.0
+KWMC,3035995,ALP,U/L,8645,unit per liter,1771128,2,50.0,61,79,111,193,14426
+KWMC,3013721,AST,U/L,8645,unit per liter,2112246,1,18,21,26,35,54,30430.0
+KWMC,3027114,TC,mg/dL,8840,milligram per deciliter,1741020,0,109,133,162,194,223,1315
+MJH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+MJH,3017732,Neutro_abs,thou/uL,0,NO_DATA,0,,,,,,,
+MJH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+MJH,3002385,Mono_a,thou/uL,0,NO_DATA,0,,,,,,,
+MJH,3020460,CRP,mg/dL|mg/L,0,NO_DATA,0,,,,,,,
+MJH,3004327,Lympho_a,thou/uL,0,No matching concept,2009543,,,,,,,
+MJH,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+MJH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+MJH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+MJH,3004410,HbA1c,%,8554,percent,385579,0,5.2,5.5,6,6.9,8.1,48.5
+MJH,3028437,LDL,mg/dL,8840,milligram per deciliter,580027,-128,54,72,97,126,152,1071
+MJH,3007070,HDL,mg/dL,8840,milligram per deciliter,1056427,1,36,42,51,62,73,249
+MJH,3037556,UA,mg/dL,8840,milligram per deciliter,1268368,-1.8,2.9,3.8,4.9,6.2,7.6,105
+MJH,3026910,GGT,U/L,8645,unit per liter,773458,6,13,17,28,56,129,7200.0
+MJH,3026910,GGT,U/L,8923,international unit per liter,443294,-10.0,12,16,27,58,149,7163
+MJH,3035995,ALP,U/L,8645,unit per liter,928218,10.0,54,68,94,185,298,12658
+MJH,3035995,ALP,U/L,8923,international unit per liter,577899,3,44,58,107,206,326,19819
+MJH,3013721,AST,U/L,8645,unit per liter,1631805,3.7,17,20.0,25,34,56,20000.0
+MJH,3013721,AST,U/L,8923,international unit per liter,1077670,-11,15,18,23,33,55,41600.0
+MJH,3027114,TC,mg/dL,8840,milligram per deciliter,1807159,1,118,144,172,201,228,1481
+PNUH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+PNUH,3010813,WBC_b,thou/uL,0,No matching concept,30569051,,,,,,,
+PNUH,3017732,Neutro_abs,thou/uL,0,No matching concept,21440572,,,,,,,
+PNUH,3017354,Neutro_pct_a,%,0,No matching concept,19833200,,,,,,,
+PNUH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+PNUH,3002385,Mono_a,thou/uL,0,No matching concept,30297606,,,,,,,
+PNUH,3019069,Mono_b,%,0,No matching concept,19839689,,,,,,,
+PNUH,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,2450549,0,0.03,0.09,0.58,3.4,8.84,80.09
+PNUH,3020460,CRP,mg/dL|mg/L,0,No matching concept,7,,,,,,,
+PNUH,3004501,Glucose,mg/dL,8840,milligram per deciliter,1677071,1,86,94,106,131,179,1664
+PNUH,3004501,Glucose,mg/dL,0,No matching concept,7,,,,,,,
+PNUH,3037110,GlucFast,mg/dL,0,NO_DATA,0,,,,,,,
+PNUH,3000963,Hgb,g/dL,8713,gram per deciliter,73198,2,12,12.8,13.7,14.7,15.7,24.7
+PNUH,3000963,Hgb,g/dL,0,No matching concept,30359904,,,,,,,
+PNUH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+PNUH,3002030,Lympho_b,%,0,No matching concept,19969352,,,,,,,
+PNUH,3013115,Eosino_a,thou/uL,0,No matching concept,15832036,,,,,,,
+PNUH,3006504,Eosino_b,%,0,No matching concept,23801904,,,,,,,
+PNUH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+PNUH,3022096,Baso_b,%,0,No matching concept,19834690,,,,,,,
+PNUH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+PNUH,3015183,ESR_b,mm/hr,8752,millimeter per hour,582735,,,,,,,
+PNUH,3022192,TG,mg/dL,8840,milligram per deciliter,119205,4,57,75,106,156,227,2222
+PNUH,3022192,TG,mg/dL,0,No matching concept,1924761,,,,,,,
+PNUH,3024561,Albumin,g/dL,8713,gram per deciliter,8778,1,2.3,2.7,3.1,4.18,4.76,10.2
+PNUH,3024561,Albumin,g/dL,0,No matching concept,36486544,,,,,,,
+PNUH,3004410,HbA1c,%,0,No matching concept,652993,,,,,,,
+PNUH,3028437,LDL,mg/dL,8840,milligram per deciliter,27266,1,63,82,106,133,158,396
+PNUH,3028437,LDL,mg/dL,0,No matching concept,641511,,,,,,,
+PNUH,3007070,HDL,mg/dL,8840,milligram per deciliter,111863,3,38,45,55,67,79,168
+PNUH,3007070,HDL,mg/dL,0,No matching concept,1924755,,,,,,,
+PNUH,3037556,UA,mg/dL,8840,milligram per deciliter,54633,0.2,1.71,2.72,4.03,5.45,7.11,29.15
+PNUH,3037556,UA,mg/dL,0,No matching concept,12289818,,,,,,,
+PNUH,3026910,GGT,U/L,8645,unit per liter,704519,2,11,16,26,55,139,6291
+PNUH,3035995,ALP,U/L,8645,unit per liter,3545,7,46,68,124,344,1053,4239
+PNUH,3035995,ALP,U/L,0,No matching concept,26742840,,,,,,,
+PNUH,3013721,AST,U/L,8645,unit per liter,106586,2,15,18,22,28,43,5070.0
+PNUH,3013721,AST,U/L,0,No matching concept,26742768,,,,,,,
+PNUH,3027114,TC,mg/dL,8840,milligram per deciliter,544428,5,121,142,169,198,226,947
+PNUH,3027114,TC,mg/dL,0,No matching concept,17666256,,,,,,,
+SCHBC,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHBC,3010813,WBC_b,thou/uL,8848,thousand per microliter,6726912,0,3.9,5.2,6.8,9.3,13,4715
+SCHBC,3010813,WBC_b,thou/uL,0,No matching concept,3639073,,,,,,,
+SCHBC,3017732,Neutro_abs,thou/uL,0,No matching concept,3732345,,,,,,,
+SCHBC,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+SCHBC,3018010,Neutro_pct_b,%,0,No matching concept,3945305,,,,,,,
+SCHBC,3002385,Mono_a,thou/uL,0,No matching concept,3639075,,,,,,,
+SCHBC,3002385,Mono_a,thou/uL,8554,percent,6711144,,,,,,,
+SCHBC,3019069,Mono_b,%,0,No matching concept,3945320,,,,,,,
+SCHBC,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,83260,0,0.02,0.04,0.1,0.329,2.6,57.1
+SCHBC,3004501,Glucose,mg/dL,8840,milligram per deciliter,1309969,0,80.0,87,96,112,146,5635
+SCHBC,3004501,Glucose,mg/dL,0,No matching concept,2657165,,,,,,,
+SCHBC,3037110,GlucFast,mg/dL,8840,milligram per deciliter,412441,13,92,104,121,146,182,1157
+SCHBC,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+SCHBC,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHBC,3002030,Lympho_b,%,0,No matching concept,3945329,,,,,,,
+SCHBC,3013115,Eosino_a,thou/uL,0,No matching concept,2975243,,,,,,,
+SCHBC,3006504,Eosino_b,%,0,No matching concept,3945307,,,,,,,
+SCHBC,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHBC,3022096,Baso_b,%,0,No matching concept,3945317,,,,,,,
+SCHBC,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+SCHBC,3015183,ESR_b,mm/hr,8752,millimeter per hour,2778908,-4,2,7,18,40.0,73,4840.0
+SCHBC,3022192,TG,mg/dL,8840,milligram per deciliter,948337,-21,56,76.1,112,167,244.1,11268
+SCHBC,3022192,TG,mg/dL,0,No matching concept,648226,,,,,,,
+SCHBC,3006923,ALT,U/L,0,No matching concept,2697421,,,,,,,
+SCHBC,3006923,ALT,U/L,8645,unit per liter,1656474,,,,,,,
+SCHBC,3024561,Albumin,g/dL,8713,gram per deciliter,1061498,0,2.9,3.5,4.1,4.5,4.7,6.5
+SCHBC,3024561,Albumin,g/dL,0,No matching concept,2697462,,,,,,,
+SCHBC,3004410,HbA1c,%,8554,percent,775850,1.5,5.5,5.9,6.6,7.5,8.7,68.6
+SCHBC,3028437,LDL,mg/dL,8840,milligram per deciliter,713401,0,64,81,104,128,152,580.0
+SCHBC,3028437,LDL,mg/dL,0,No matching concept,58773,,,,,,,
+SCHBC,3007070,HDL,mg/dL,8840,milligram per deciliter,628905,0,37,43,51,61,71,446
+SCHBC,3007070,HDL,mg/dL,0,No matching concept,648226,,,,,,,
+SCHBC,3037556,UA,mg/dL,8840,milligram per deciliter,691413,0,3,3.9,4.9,6.3,7.6,51.4
+SCHBC,3037556,UA,mg/dL,0,No matching concept,1389143,,,,,,,
+SCHBC,3026910,GGT,U/L,0,No matching concept,56800,,,,,,,
+SCHBC,3026910,GGT,U/L,8645,unit per liter,1132202,,,,,,,
+SCHBC,3035995,ALP,U/L,0,No matching concept,2695451,,,,,,,
+SCHBC,3035995,ALP,U/L,8645,unit per liter,7208304,,,,,,,
+SCHBC,3013721,AST,U/L,0,No matching concept,2697421,,,,,,,
+SCHBC,3013721,AST,U/L,8645,unit per liter,1653921,,,,,,,
+SCHBC,3027114,TC,mg/dL,8840,milligram per deciliter,1342415,-13,123,148,175,203,231,1315
+SCHBC,3027114,TC,mg/dL,0,No matching concept,1155686,,,,,,,
+SCHCA,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHCA,3010813,WBC_b,thou/uL,0,No matching concept,4339260,,,,,,,
+SCHCA,3017732,Neutro_abs,thou/uL,0,No matching concept,4085042,,,,,,,
+SCHCA,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+SCHCA,3018010,Neutro_pct_b,%,0,No matching concept,4085045,,,,,,,
+SCHCA,3002385,Mono_a,thou/uL,0,No matching concept,4317737,,,,,,,
+SCHCA,3019069,Mono_b,%,0,No matching concept,4084927,,,,,,,
+SCHCA,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1591608,0,0.41,1.18,6.55,31.91,83.01,671.32
+SCHCA,3004501,Glucose,mg/dL,0,NO_DATA,0,,,,,,,
+SCHCA,3037110,GlucFast,mg/dL,8840,milligram per deciliter,15521,4.4,88,99,115,143,204,753
+SCHCA,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+SCHCA,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHCA,3002030,Lympho_b,%,0,No matching concept,4085029,,,,,,,
+SCHCA,3013115,Eosino_a,thou/uL,0,No matching concept,4085041,,,,,,,
+SCHCA,3006504,Eosino_b,%,0,No matching concept,4083928,,,,,,,
+SCHCA,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHCA,3022096,Baso_b,%,0,No matching concept,4082875,,,,,,,
+SCHCA,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+SCHCA,3015183,ESR_b,mm/hr,8752,millimeter per hour,1328604,0.57,3,8,19,40.0,70.0,274
+SCHCA,3022192,TG,mg/dL,8840,milligram per deciliter,612582,0,55,74,108,163,242,4952
+SCHCA,3022192,TG,mg/dL,0,No matching concept,2101356,,,,,,,
+SCHCA,3006923,ALT,U/L,8923,international unit per liter,829099,0,10.0,14,20.0,31,50.0,9168
+SCHCA,3006923,ALT,U/L,0,No matching concept,3484695,,,,,,,
+SCHCA,3024561,Albumin,g/dL,8713,gram per deciliter,313431,0.1,4.3,4.6,4.8,5,5.1,6.2
+SCHCA,3024561,Albumin,g/dL,0,No matching concept,3484855,,,,,,,
+SCHCA,3004410,HbA1c,%,8554,percent,765981,0,5.2,5.5,5.9,6.8,8,1443384
+SCHCA,3004410,HbA1c,%,0,No matching concept,66475,,,,,,,
+SCHCA,3028437,LDL,mg/dL,8840,milligram per deciliter,822791,-192,61,80.0,102,128,153,723
+SCHCA,3007070,HDL,mg/dL,8840,milligram per deciliter,794948,1,36,42,51,62,73,221
+SCHCA,3007070,HDL,mg/dL,0,No matching concept,518169,,,,,,,
+SCHCA,3037556,UA,mg/dL,8840,milligram per deciliter,452300,0,3,4,5.1,6.4,7.5,26.3
+SCHCA,3037556,UA,mg/dL,0,No matching concept,1789509,,,,,,,
+SCHCA,3026910,GGT,U/L,8923,international unit per liter,1158780,-13,11,15,25,52,127,5780.0
+SCHCA,3026910,GGT,U/L,0,No matching concept,825836,,,,,,,
+SCHCA,3035995,ALP,U/L,8923,international unit per liter,311829,10.0,45,54,65,78,94,6464
+SCHCA,3035995,ALP,U/L,0,No matching concept,3484693,,,,,,,
+SCHCA,3013721,AST,U/L,8923,international unit per liter,829011,-18,15,17,21,27,37,35584
+SCHCA,3013721,AST,U/L,0,No matching concept,3484696,,,,,,,
+SCHCA,3027114,TC,mg/dL,8840,milligram per deciliter,672707,3,139,160.0,184,210.0,235,1237
+SCHCA,3027114,TC,mg/dL,0,No matching concept,2101357,,,,,,,
+SCHGM,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHGM,3010813,WBC_b,thou/uL,0,No matching concept,1298105,,,,,,,
+SCHGM,3017732,Neutro_abs,thou/uL,0,No matching concept,1163883,,,,,,,
+SCHGM,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+SCHGM,3018010,Neutro_pct_b,%,0,No matching concept,1185670,,,,,,,
+SCHGM,3002385,Mono_a,thou/uL,8554,percent,49309,10.8,12.1,12.4,12.7,13.1,13.6,29.2
+SCHGM,3002385,Mono_a,thou/uL,0,No matching concept,1075771,,,,,,,
+SCHGM,3019069,Mono_b,%,8554,percent,69412,0,5.1,6,7.1,8.4,9.7,68.6
+SCHGM,3019069,Mono_b,%,0,No matching concept,1116257,,,,,,,
+SCHGM,3020460,CRP,mg/dL|mg/L,0,NO_DATA,0,,,,,,,
+SCHGM,3004501,Glucose,mg/dL,0,NO_DATA,0,,,,,,,
+SCHGM,3037110,GlucFast,mg/dL,8840,milligram per deciliter,114104,24,96,107,125,149,186,1240.0
+SCHGM,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+SCHGM,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHGM,3002030,Lympho_b,%,0,No matching concept,1185670,,,,,,,
+SCHGM,3013115,Eosino_a,thou/uL,0,No matching concept,1163858,,,,,,,
+SCHGM,3006504,Eosino_b,%,0,No matching concept,1185649,,,,,,,
+SCHGM,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHGM,3022096,Baso_b,%,8554,percent,69413,0,0.2,0.3,0.5,0.7,1,6
+SCHGM,3022096,Baso_b,%,0,No matching concept,1116218,,,,,,,
+SCHGM,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+SCHGM,3015183,ESR_b,mm/hr,8752,millimeter per hour,485483,-2,2,5,13,30.0,58,195
+SCHGM,3022192,TG,mg/dL,8840,milligram per deciliter,740760,2,50.0,70.0,104,163,249,8297
+SCHGM,3022192,TG,mg/dL,0,No matching concept,204409,,,,,,,
+SCHGM,3006923,ALT,U/L,0,No matching concept,1823406,,,,,,,
+SCHGM,3024561,Albumin,g/dL,8713,gram per deciliter,187292,0.2,2.8,3.6,4.3,4.5,4.8,7.6
+SCHGM,3024561,Albumin,g/dL,0,No matching concept,699481,,,,,,,
+SCHGM,3004410,HbA1c,%,8554,percent,354042,-7,5.2,5.5,6,7,8.2,32.2
+SCHGM,3028437,LDL,mg/dL,8840,milligram per deciliter,313002,7,79,98,121,145,168,521
+SCHGM,3028437,LDL,mg/dL,0,No matching concept,141843,,,,,,,
+SCHGM,3007070,HDL,mg/dL,8840,milligram per deciliter,738807,3,40.0,46,53,62,71,190.0
+SCHGM,3007070,HDL,mg/dL,0,No matching concept,152155,,,,,,,
+SCHGM,3037556,UA,mg/dL,8840,milligram per deciliter,139610,0.2,3.8,4.7,5.8,7,8.1,34.7
+SCHGM,3037556,UA,mg/dL,0,No matching concept,582903,,,,,,,
+SCHGM,3026910,GGT,U/L,0,No matching concept,1380421,,,,,,,
+SCHGM,3035995,ALP,U/L,0,No matching concept,808133,,,,,,,
+SCHGM,3013721,AST,U/L,0,No matching concept,1822942,,,,,,,
+SCHGM,3027114,TC,mg/dL,8840,milligram per deciliter,796442,10.0,151,169,192,217,242,915
+SCHGM,3027114,TC,mg/dL,0,No matching concept,787313,,,,,,,
+SCHSU,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHSU,3010813,WBC_b,thou/uL,0,No matching concept,3402866,,,,,,,
+SCHSU,3017732,Neutro_abs,thou/uL,0,No matching concept,3307491,,,,,,,
+SCHSU,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+SCHSU,3018010,Neutro_pct_b,%,0,No matching concept,3332848,,,,,,,
+SCHSU,3002385,Mono_a,thou/uL,0,No matching concept,3385262,,,,,,,
+SCHSU,3019069,Mono_b,%,0,No matching concept,3333607,,,,,,,
+SCHSU,3020460,CRP,mg/dL|mg/L,8840,milligram per deciliter,773813,0,0.03,0.07,0.35,2.41,7.37,111
+SCHSU,3020460,CRP,mg/dL|mg/L,0,No matching concept,539268,,,,,,,
+SCHSU,3004501,Glucose,mg/dL,8840,milligram per deciliter,196944,39,79,85,92,100.0,112,664
+SCHSU,3004501,Glucose,mg/dL,0,No matching concept,10400,,,,,,,
+SCHSU,3037110,GlucFast,mg/dL,8840,milligram per deciliter,486294,0,83,90.0,99,119,153,1607
+SCHSU,3037110,GlucFast,mg/dL,0,No matching concept,2778454,,,,,,,
+SCHSU,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+SCHSU,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHSU,3002030,Lympho_b,%,0,No matching concept,3333608,,,,,,,
+SCHSU,3013115,Eosino_a,thou/uL,0,No matching concept,3306782,,,,,,,
+SCHSU,3006504,Eosino_b,%,0,No matching concept,3333564,,,,,,,
+SCHSU,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+SCHSU,3022096,Baso_b,%,0,No matching concept,3333413,,,,,,,
+SCHSU,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+SCHSU,3015183,ESR_b,mm/hr,0,No matching concept,1179521,,,,,,,
+SCHSU,3022192,TG,mg/dL,8840,milligram per deciliter,415168,1,53,71,103,154,225,11047
+SCHSU,3022192,TG,mg/dL,0,No matching concept,1037442,,,,,,,
+SCHSU,3006923,ALT,U/L,8645,unit per liter,463456,0,10.0,14,20.0,31,52,12695
+SCHSU,3006923,ALT,U/L,8923,international unit per liter,235158,0,10.0,14,20.0,30.0,45,3500.0
+SCHSU,3006923,ALT,U/L,0,No matching concept,2778867,,,,,,,
+SCHSU,3024561,Albumin,g/dL,8713,gram per deciliter,36349,0.1,2.7,3.3,4.3,4.6,4.9,6.1
+SCHSU,3024561,Albumin,g/dL,0,No matching concept,3038872,,,,,,,
+SCHSU,3004410,HbA1c,%,0,No matching concept,635014,,,,,,,
+SCHSU,3028437,LDL,mg/dL,8840,milligram per deciliter,923943,-30.6,60.0,80.0,104,130.0,154,670.0
+SCHSU,3028437,LDL,mg/dL,0,No matching concept,65481,,,,,,,
+SCHSU,3007070,HDL,mg/dL,8840,milligram per deciliter,395408,0,39,46,55,66,78,309
+SCHSU,3007070,HDL,mg/dL,0,No matching concept,1037442,,,,,,,
+SCHSU,3037556,UA,mg/dL,8840,milligram per deciliter,434238,0,3.3,4.1,5.2,6.5,7.6,24.9
+SCHSU,3037556,UA,mg/dL,0,No matching concept,1533326,,,,,,,
+SCHSU,3026910,GGT,U/L,8645,unit per liter,534459,1,11,15,24,47,105,5748
+SCHSU,3026910,GGT,U/L,8923,international unit per liter,197272,1,11,14,21,36,67,3360.0
+SCHSU,3026910,GGT,U/L,0,No matching concept,1475587,,,,,,,
+SCHSU,3035995,ALP,U/L,8645,unit per liter,1947981,1,47,58,81,192,306,16725
+SCHSU,3035995,ALP,U/L,8923,international unit per liter,26105,2,51,61,75,99,178,1283
+SCHSU,3035995,ALP,U/L,0,No matching concept,1983512,,,,,,,
+SCHSU,3013721,AST,U/L,8645,unit per liter,463632,0,15,18,22,29,44,19265
+SCHSU,3013721,AST,U/L,8923,international unit per liter,234621,0,15,18,22,28,35,5470.0
+SCHSU,3013721,AST,U/L,0,No matching concept,2778867,,,,,,,
+SCHSU,3027114,TC,mg/dL,8840,milligram per deciliter,560622,3,146,166,189,214,239,780.0
+SCHSU,3027114,TC,mg/dL,0,No matching concept,1037442,,,,,,,
+UUH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3010813,WBC_b,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3017732,Neutro_abs,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+UUH,3018010,Neutro_pct_b,%,0,NO_DATA,0,,,,,,,
+UUH,3002385,Mono_a,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3019069,Mono_b,%,0,NO_DATA,0,,,,,,,
+UUH,3020460,CRP,mg/dL|mg/L,0,NO_DATA,0,,,,,,,
+UUH,3004501,Glucose,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3037110,GlucFast,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3000963,Hgb,g/dL,0,NO_DATA,0,,,,,,,
+UUH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3002030,Lympho_b,%,0,NO_DATA,0,,,,,,,
+UUH,3013115,Eosino_a,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3006504,Eosino_b,%,0,NO_DATA,0,,,,,,,
+UUH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+UUH,3022096,Baso_b,%,0,NO_DATA,0,,,,,,,
+UUH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+UUH,3015183,ESR_b,mm/hr,0,NO_DATA,0,,,,,,,
+UUH,3022192,TG,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3006923,ALT,U/L,0,NO_DATA,0,,,,,,,
+UUH,3024561,Albumin,g/dL,0,NO_DATA,0,,,,,,,
+UUH,3004410,HbA1c,%,0,NO_DATA,0,,,,,,,
+UUH,3028437,LDL,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3007070,HDL,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3037556,UA,mg/dL,0,NO_DATA,0,,,,,,,
+UUH,3026910,GGT,U/L,0,NO_DATA,0,,,,,,,
+UUH,3035995,ALP,U/L,0,NO_DATA,0,,,,,,,
+UUH,3013721,AST,U/L,0,NO_DATA,0,,,,,,,
+UUH,3027114,TC,mg/dL,0,NO_DATA,0,,,,,,,
+WKUH,3000905,WBC_a,thou/uL,0,NO_DATA,0,,,,,,,
+WKUH,3010813,WBC_b,thou/uL,0,No matching concept,4012643,,,,,,,
+WKUH,3017732,Neutro_abs,thou/uL,0,No matching concept,3894993,,,,,,,
+WKUH,3017354,Neutro_pct_a,%,0,NO_DATA,0,,,,,,,
+WKUH,3018010,Neutro_pct_b,%,8554,percent,3893930,-72,42.7,52.5,63.6,75.2,84.1,6735
+WKUH,3002385,Mono_a,thou/uL,8554,percent,4234748,-10.9,12.3,12.7,13.5,14.8,16.6,990.0
+WKUH,3019069,Mono_b,%,8554,percent,3893300,-0.9,4.1,5.6,7.3,9.4,12.1,581
+WKUH,3020460,CRP,mg/dL|mg/L,8751,milligram per liter,1892002,-16.6,0.52,1.38,7.06,36.64,97.95,2569
+WKUH,3004501,Glucose,mg/dL,8840,milligram per deciliter,1099189,0,79,88,101,122,168,254256
+WKUH,3037110,GlucFast,mg/dL,8840,milligram per deciliter,3989341,-1,97,116,147,199,265,42010191218
+WKUH,3000963,Hgb,g/dL,8713,gram per deciliter,4894986,0,8.7,10.0,11.7,13.4,14.8,555
+WKUH,3000963,Hgb,g/dL,8840,milligram per deciliter,31,1.4,4.2,9,20.3,79.8,163.3,428.4
+WKUH,3004327,Lympho_a,thou/uL,0,NO_DATA,0,,,,,,,
+WKUH,3002030,Lympho_b,%,8554,percent,3894230,0,8.8,15,25,35.3,44.5,632
+WKUH,3013115,Eosino_a,thou/uL,0,No matching concept,3905810,,,,,,,
+WKUH,3006504,Eosino_b,%,8554,percent,3893305,0,0.2,0.7,1.7,3.3,5.6,235
+WKUH,3037575,Baso_a,thou/uL,0,NO_DATA,0,,,,,,,
+WKUH,3022096,Baso_b,%,8554,percent,3893291,0,0.1,0.2,0.3,0.5,0.8,311
+WKUH,3013707,ESR_a,mm/hr,0,NO_DATA,0,,,,,,,
+WKUH,3015183,ESR_b,mm/hr,8752,millimeter per hour,1471845,0,2,3,12,30.0,56,443130.0
+WKUH,3022192,TG,mg/dL,8840,milligram per deciliter,686002,-97,55,76,110.0,166,238,11310.0
+WKUH,3006923,ALT,U/L,8923,international unit per liter,2797374,-46,10.0,14,21,34,62,44700.0
+WKUH,3024561,Albumin,g/dL,8713,gram per deciliter,2729185,0,2.8,3.3,3.9,4.3,4.6,88
+WKUH,3004410,HbA1c,%,8554,percent,335788,0,5.2,5.6,6.3,7.6,9.2,78.08
+WKUH,3028437,LDL,mg/dL,8840,milligram per deciliter,347346,-59,55,72,96,123,149,1210.0
+WKUH,3007070,HDL,mg/dL,8840,milligram per deciliter,348137,1,33,39,47,56,66,2240.0
+WKUH,3037556,UA,mg/dL,8840,milligram per deciliter,787705,0,3.1,3.9,5,6.5,8,404300265
+WKUH,3026910,GGT,U/L,8923,international unit per liter,1271471,-3.6,11.8,17,29,67,176,504016370.0
+WKUH,3035995,ALP,U/L,0,No matching concept,2304001,,,,,,,
+WKUH,3013721,AST,U/L,8923,international unit per liter,2796462,-7,16,20.0,26,38,65,33802960.0
+WKUH,3027114,TC,mg/dL,8840,milligram per deciliter,441262,0.1,124,146,173,203,232,1237

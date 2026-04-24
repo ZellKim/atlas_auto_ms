@@ -1,0 +1,300 @@
+﻿site,concept_id,biomarker,expected_unit,tier,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+CHNUH,3007461,Platelet,thou/uL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3015242,Ferritin,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3024128,TotBili,mg/dL,Tier1,0,No matching concept,2906135,,,,,,,
+CHNUH,3002385,RDW,%|fL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3029187,VitD_b,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,3023314,Hct,%,Tier2,0,No matching concept,3213120,,,,,,,
+CHNUH,3024731,MCV,fL,Tier2,0,NO_DATA,0,,,,,,,
+CHNUH,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,3204502,,,,,,,
+CHNUH,3020630,TotProtein,g/dL,Tier2,0,No matching concept,3213580,,,,,,,
+CHNUH,3013682,BUN,mg/dL,Kidney,0,No matching concept,3118462,,,,,,,
+DCMC,3007461,Platelet,thou/uL,Tier1,0,No matching concept,893548,,,,,,,
+DCMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,100232,0,14,39,115.87,325.96,841.61,18921
+DCMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,415570,-0.5,0.4,0.56,0.9,1.7,6,95.7
+DCMC,3002385,RDW,%|fL,Tier1,0,No matching concept,1759985,,,,,,,
+DCMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+DCMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DCMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,119394,0,33.75,86.36,363.2,2003,9163,176690.0
+DCMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+DCMC,3024731,MCV,fL,Tier2,0,No matching concept,3562254,,,,,,,
+DCMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,306368,0.05,0.6,0.6,0.8,0.9,1.1,106
+DCMC,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,23242,,,,,,,
+DCMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,278324,0.1,5.2,6.1,6.9,7.4,7.7,14.4
+DCMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,208547,1.4,8.8,10.8,13.5,17.2,22.9,726
+DSMC,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,2247470,0,107,164,218,275,340.0,5270.0
+DSMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,133298,0.5,20.0,46,121,308,689,100000.0
+DSMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,1958665,-0.43,0.25,0.36,0.52,0.79,1.25,65.33
+DSMC,3002385,RDW,%|fL,Tier1,8554,percent,85725,10.5,11.9,12.2,12.7,13.4,15,35.2
+DSMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+DSMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DSMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,240437,5,28,72,287,1465,6347,70000.0
+DSMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+DSMC,3024731,MCV,fL,Tier2,8583,femtoliter,2247471,2,85.2,88.7,92.1,95.6,99.4,200.0
+DSMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,2184898,0,0.52,0.65,0.83,1.1,1.98,33.35
+DSMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,1929667,-1.6,5.3,6,6.7,7.1,7.5,15.6
+DSMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,2075393,0,9,12,16,23,38,298
+EUMC,3007461,Platelet,thou/uL,Tier1,0,No matching concept,9299820,0,100.0,165,221,278,344,5000.0
+EUMC,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,31385,1,99,164,224,285,362,1403
+EUMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,568446,0,13.4,50.3,164.8,503.6,1490.0,239543.7
+EUMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,26677029,-1.4,0.3,0.45,0.7,1,2.1,105.2
+EUMC,3002385,RDW,%|fL,Tier1,8554,percent,12492248,0,12.2,12.7,13.4,14.8,16.8,999
+EUMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+EUMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+EUMC,3029187,VitD_b,ng/mL,Tier1,0,No matching concept,42,48.7,153,572,3113,13095,23555,35000.0
+EUMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,2139784,0,0,0,0,250.0,2742,73740.0
+EUMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+EUMC,3024731,MCV,fL,Tier2,8583,femtoliter,12495323,0,82.6,86.5,89.9,93.2,96.8,999
+EUMC,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,10828,0.16,0.58,0.67,0.78,0.92,1.08,14.38
+EUMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,42340695,0,0.6,0.7,0.9,1.1,1.81,132.96
+EUMC,3020630,TotProtein,g/dL,Tier2,0,No matching concept,42,1,1,1,1,1,6.7,7.1
+EUMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,27679348,0,5.1,5.8,6.5,7.1,7.4,19.2
+EUMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,41418610,-3,8,11,14,21,37,560.0
+GNUCH,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,953637,0,114,171,224,281,347,4300.0
+GNUCH,3007461,Platelet,thou/uL,Tier1,8961,thousand per cubic millimeter,171264,1,113,178,233,291,361,2632
+GNUCH,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,43073,0.1,11.9,32.4,103.6,272.7,585.8,16500.0
+GNUCH,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,1028632,-0.17,0.39,0.49,0.66,0.92,1.37,58.33
+GNUCH,3002385,RDW,%|fL,Tier1,8554,percent,1041875,10.3,11.9,12.3,13.1,14.6,16.5,39.2
+GNUCH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+GNUCH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUCH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,149652,0.1,17,41,140.0,785,3754,35000.0
+GNUCH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+GNUCH,3024731,MCV,fL,Tier2,8583,femtoliter,1041867,48,84,88,91,95,99,168
+GNUCH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,1110966,0,0.47,0.59,0.76,0.98,1.45,37.53
+GNUCH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,1053401,0.6,5.5,6.3,6.9,7.4,7.7,15.8
+GNUCH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,1075050,0.2,8.8,11.4,15,20.3,31.2,270.7
+GNUH,3007461,Platelet,thou/uL,Tier1,8961,thousand per cubic millimeter,3752217,0,94,159,217,278,349,4367
+GNUH,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,146853,0.5,22.51,60.5,164,376.8,747,2438
+GNUH,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,3176987,-1.2,0.26,0.37,0.54,0.83,1.38,57.83
+GNUH,3002385,RDW,%|fL,Tier1,8554,percent,3516283,0,12.1,12.7,13.5,15,17,221
+GNUH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+GNUH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,233792,5,26.6,65.5,229,1065,4136,56475
+GNUH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+GNUH,3024731,MCV,fL,Tier2,0,NO_DATA,0,,,,,,,
+GNUH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,3418948,0,0.49,0.61,0.78,1.01,1.58,38.17
+GNUH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,3252455,0.1,5.4,6.1,6.8,7.2,7.6,15
+GNUH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,3371496,0.1,8.2,10.9,14.5,20.0,30.9,235.5
+HUMC,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,429679,1,148,194,241,297,368,2415
+HUMC,3007461,Platelet,thou/uL,Tier1,0,No matching concept,1991887,,,,,,,
+HUMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,58348,0,14,43,113,304,679,3633
+HUMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,2173960,0,0.3,0.4,0.5,0.8,1.1,192.9
+HUMC,3024128,TotBili,mg/dL,Tier1,0,No matching concept,4642,,,,,,,
+HUMC,3002385,RDW,%|fL,Tier1,8554,percent,2367466,0,12,12.5,13.1,14.2,16.1,55.3
+HUMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+HUMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+HUMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,124944,5,14.8,39.1,137,779,3385,137017
+HUMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+HUMC,3024731,MCV,fL,Tier2,8583,femtoliter,2366925,6.5,83.7,87.7,91.1,94.5,98,453.2
+HUMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,2385739,0.04,0.52,0.64,0.8,0.99,1.32,209.75
+HUMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,2200586,0.7,5.5,6.2,6.9,7.3,7.7,18.4
+HUMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,2330584,0.9,7.9,10.4,13.4,17.8,25.9,600.2
+ISH,3007461,Platelet,thou/uL,Tier1,0,No matching concept,2609400,,,,,,,
+ISH,3015242,Ferritin,ng/mL,Tier1,0,No matching concept,50954,,,,,,,
+ISH,3024128,TotBili,mg/dL,Tier1,0,No matching concept,803601,,,,,,,
+ISH,3002385,RDW,%|fL,Tier1,8554,percent,1303347,9.7,11.9,12.3,13,14.3,16.3,1452.9
+ISH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+ISH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+ISH,3029187,VitD_b,ng/mL,Tier1,0,No matching concept,233,,,,,,,
+ISH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+ISH,3024731,MCV,fL,Tier2,8583,femtoliter,1303960,47.5,83.2,87.2,90.7,94.1,97.7,176
+ISH,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,1307604,,,,,,,
+ISH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,756406,0.1,5.6,6.3,6.9,7.4,7.7,17
+ISH,3013682,BUN,mg/dL,Kidney,0,No matching concept,1160822,,,,,,,
+JCMJ,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,544654,1,141,186,233,286,348,2453
+JCMJ,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,10725,0.5,6.8,27.91,100.8,233.6,486.6,20000.0
+JCMJ,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,440216,-0.5,0.3,0.4,0.6,0.82,1.2,47.6
+JCMJ,3002385,RDW,%|fL,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,56361,0.015,20.5,49.31,150.9,715.3,2977,35000.0
+JCMJ,3023314,Hct,%,Tier2,8554,percent,546971,2.1,29.3,33.6,38.2,42.3,45.6,75.6
+JCMJ,3024731,MCV,fL,Tier2,8583,femtoliter,538258,46.2,82.1,87.2,90.9,94.3,97.8,147.4
+JCMJ,3016723,Creatinine,mg/dL,Tier2,0,NO_DATA,0,,,,,,,
+JCMJ,3020630,TotProtein,g/dL,Tier2,0,NO_DATA,0,,,,,,,
+JCMJ,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,496045,0.4,8.8,11.4,14.9,20.2,31.7,343
+KCCH,3007461,Platelet,thou/uL,Tier1,0,No matching concept,2873159,0,102,170.0,229,291,366,4845
+KCCH,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,42642,0.5,8.69,26.82,99.69,278,652,122000.0
+KCCH,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,2528412,0,0.3,0.4,0.5,0.8,1.2,98.7
+KCCH,3002385,RDW,%|fL,Tier1,8554,percent,2868996,0,12.2,12.8,13.7,15.4,17.3,171
+KCCH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+KCCH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KCCH,3029187,VitD_b,ng/mL,Tier1,8725,nanogram per liter,34574,12,70.0,75,182,692,2920.0,35000.0
+KCCH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,4018,5,60.0,108,434,1673,3000.0,3000.0
+KCCH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+KCCH,3024731,MCV,fL,Tier2,8583,femtoliter,2870384,0,83.9,87.4,90.9,94.5,98.4,152.8
+KCCH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,2610932,-0.2,0.5,0.6,0.7,0.9,1.1,1300.0
+KCCH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,2555209,0.3,5.6,6.3,6.9,7.3,7.7,367.2
+KCCH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,2442403,0,8,10.5,13.5,17.3,22.9,369.5
+KDH,3007461,Platelet,thou/uL,Tier1,0,No matching concept,1388371,1,120.0,175,228,286,353,2958
+KDH,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,1958615,0,121,180.0,236,299,377,6072
+KDH,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,76421,0,13,38.8,128.6,312.6,684.5,2000.0
+KDH,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,2715676,-0.2,0.34,0.49,0.65,0.92,1.5,145
+KDH,3002385,RDW,%|fL,Tier1,8554,percent,3285071,1,12,12.5,13.2,14.6,16.4,3151
+KDH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+KDH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KDH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,18917,5,35,89,325,1982,6188,45200.0
+KDH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+KDH,3024731,MCV,fL,Tier2,8583,femtoliter,3346775,1,84.1,87.9,91.3,94.9,98.6,155.2
+KDH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,3276798,-0.2,0.5,0.61,0.8,1.02,1.7,118.2
+KDH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,2667650,-0.1,5.4,6.2,6.8,7.2,7.6,5600.0
+KDH,3020630,TotProtein,g/dL,Tier2,0,No matching concept,868,,,,,,,
+KDH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,3157831,-0.1,8.2,11,14.7,20.3,32.6,823.1
+KHMC,3007461,Platelet,thou/uL,Tier1,0,No matching concept,3772196,,,,,,,
+KHMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,2211,0.6,7.8,27.6,92.1,274,863,9877
+KHMC,3015242,Ferritin,ng/mL,Tier1,0,No matching concept,122,,,,,,,
+KHMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,478937,0.02,0.4,0.51,0.69,0.96,1.41,85.93
+KHMC,3002385,RDW,%|fL,Tier1,0,NO_DATA,0,,,,,,,
+KHMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+KHMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KHMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,57452,5,24.02,53.08,167.7,952,4236,70000.0
+KHMC,3029187,VitD_b,ng/mL,Tier1,0,No matching concept,21250,,,,,,,
+KHMC,3023314,Hct,%,Tier2,8554,percent,3084386,0,28.1,33,38,42,45.5,148.5
+KHMC,3023314,Hct,%,Tier2,0,No matching concept,688289,,,,,,,
+KHMC,3024731,MCV,fL,Tier2,8583,femtoliter,3034187,0,84.3,87.6,90.9,94.3,97.9,868.8
+KHMC,3024731,MCV,fL,Tier2,0,No matching concept,740839,,,,,,,
+KHMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,3260312,-0.49,0.5,0.6,0.75,0.97,1.5,180.0
+KHMC,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,28285,,,,,,,
+KHMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,2453641,0,5.5,6.3,7,7.5,7.8,19.6
+KHMC,3020630,TotProtein,g/dL,Tier2,0,No matching concept,1907,,,,,,,
+KHMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,620084,1,10.0,12,16,22,33,367
+KHNMC,3007461,Platelet,thou/uL,Tier1,0,No matching concept,3023706,0,100.0,171,226,284,353,60100.0
+KHNMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,111046,0.5,18.9,52.2,141,365.8,910.0,90000.0
+KHNMC,3024128,TotBili,mg/dL,Tier1,0,No matching concept,1637921,0.05,0.3,0.4,0.6,0.8,1.3,50.0
+KHNMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,256892,0.1,0.5,0.6,0.9,4.1,9.4,35.8
+KHNMC,3002385,RDW,%|fL,Tier1,0,No matching concept,491562,0,12.2,12.8,13.6,14.7,16.7,52.2
+KHNMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+KHNMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KHNMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,32686,0,16.3,46.8,168.9,1075.4,5258.9,265831.8
+KHNMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+KHNMC,3024731,MCV,fL,Tier2,0,No matching concept,2841589,0,84.1,87.9,91.3,94.6,98,173
+KHNMC,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,1980231,0.1,0.5,0.62,0.8,1.07,2.13,60.0
+KHNMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,540969,0,0.51,0.63,0.79,0.9,1.1,60.0
+KHNMC,3020630,TotProtein,g/dL,Tier2,0,No matching concept,1702626,1,5.4,6.2,6.9,7.3,7.7,15
+KHNMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,407714,0,4.6,5.5,6.5,7.2,7.6,13.2
+KHNMC,3013682,BUN,mg/dL,Kidney,0,No matching concept,1962225,1,8,11,15,22,40.0,226
+KHNMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,383697,0,7,10.0,13,17,23,181
+KWMC,3007461,Platelet,thou/uL,Tier1,8848,thousand per microliter,2166924,0,117,171,222,278,343,3274
+KWMC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,102271,0.5,8.2,16.9,40.1,117.3,360.3,33511.2
+KWMC,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,1866234,0,0.33,0.5,0.7,0.98,1.5,91
+KWMC,3024128,TotBili,mg/dL,Tier1,0,No matching concept,648,,,,,,,
+KWMC,3002385,RDW,%|fL,Tier1,8554,percent,8017,0,12,12.3,12.8,14.2,17.3,31.2
+KWMC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+KWMC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KWMC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,8050,8.3,27.5,62.3,200.3,1113.8,4480.9,70000.0
+KWMC,3029187,VitD_b,ng/mL,Tier1,0,No matching concept,185,,,,,,,
+KWMC,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+KWMC,3024731,MCV,fL,Tier2,8583,femtoliter,226784,53.5,84.7,88.7,92.2,95.7,99.5,167.5
+KWMC,3024731,MCV,fL,Tier2,0,No matching concept,1919501,,,,,,,
+KWMC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,2325869,0,0.5,0.6,0.8,1,1.6,120.0
+KWMC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,1716951,0.1,5.6,6.4,6.9,7.3,7.7,31
+KWMC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,2209435,0,8.2,11,14.7,20.5,33.1,428.5
+MJH,3002385,RDW,%|fL,Tier1,0,NO_DATA,0,,,,,,,
+MJH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+MJH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+MJH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,195124,4.99,35,45,160.0,951.5,4504,793150.0
+PNUH,3007461,Platelet,thou/uL,Tier1,0,No matching concept,35428067,,,,,,,
+PNUH,3002385,RDW,%|fL,Tier1,0,No matching concept,30297606,,,,,,,
+PNUH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+PNUH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+PNUH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,150494,5,29,68,226,1036,3906,339067
+PNUH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+PNUH,3024731,MCV,fL,Tier2,0,No matching concept,30351795,,,,,,,
+PNUH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,192270,0.14,0.59,0.7,0.9,1.41,2.88,111.77
+PNUH,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,31431820,,,,,,,
+PNUH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,5081,0.66,4.18,5.65,6.97,7.4,7.8,15
+PNUH,3020630,TotProtein,g/dL,Tier2,0,No matching concept,31983448,,,,,,,
+PNUH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,109556,1.5,9.1,12,16.8,26.8,45.1,336
+PNUH,3013682,BUN,mg/dL,Kidney,0,No matching concept,31431792,,,,,,,
+SCHBC,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,179449,0,11.6,36.36,101,231.7,486.8,112910.0
+SCHBC,3002385,RDW,%|fL,Tier1,0,No matching concept,3639075,,,,,,,
+SCHBC,3002385,RDW,%|fL,Tier1,8554,percent,6711144,,,,,,,
+SCHBC,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHBC,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHBC,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,81486,5,35.4,89.2,346.6,1850.0,9259,486900.0
+SCHBC,3023314,Hct,%,Tier2,0,percent,0,0,26,31,36,40.0,44,71
+SCHBC,3024731,MCV,fL,Tier2,8583,femtoliter,6732213,46,82,86,90.0,93,97,171
+SCHBC,3024731,MCV,fL,Tier2,0,No matching concept,3637965,,,,,,,
+SCHBC,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,1553465,-0.03,0.7,0.8,0.94,1.15,1.7,231.96
+SCHBC,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,2765578,,,,,,,
+SCHBC,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,1815516,0.3,5.4,6.3,7,7.5,7.8,17.2
+SCHBC,3020630,TotProtein,g/dL,Tier2,0,No matching concept,2702376,,,,,,,
+SCHBC,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,1228050,0,8,10.7,14,19,30.0,547.1
+SCHBC,3013682,BUN,mg/dL,Kidney,0,No matching concept,2765579,,,,,,,
+SCHCA,3007461,Platelet,thou/uL,Tier1,0,No matching concept,4338000,,,,,,,
+SCHCA,3015242,Ferritin,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,372232,0,0.4,0.6,0.8,1.2,6.8,93.2
+SCHCA,3024128,TotBili,mg/dL,Tier1,0,No matching concept,3484695,,,,,,,
+SCHCA,3002385,RDW,%|fL,Tier1,0,No matching concept,4317737,,,,,,,
+SCHCA,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,3029187,VitD_b,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+SCHCA,3024731,MCV,fL,Tier2,0,No matching concept,4317739,,,,,,,
+SCHCA,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,840404,-0.1,0.6,0.7,0.8,1,1.2,157.89
+SCHCA,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,3484697,,,,,,,
+SCHCA,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,307751,0.6,6.9,7.1,7.4,7.7,8,10.3
+SCHCA,3020630,TotProtein,g/dL,Tier2,0,No matching concept,3490189,,,,,,,
+SCHCA,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,501163,0.1,8.6,10.5,13.1,17.3,27.4,344.9
+SCHCA,3013682,BUN,mg/dL,Kidney,0,No matching concept,3484695,,,,,,,
+SCHGM,3007461,Platelet,thou/uL,Tier1,0,No matching concept,1297824,,,,,,,
+SCHGM,3015242,Ferritin,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,221677,-0.1,0.43,0.6,0.8,1.2,2.1,39.2
+SCHGM,3024128,TotBili,mg/dL,Tier1,0,No matching concept,694028,,,,,,,
+SCHGM,3002385,RDW,%|fL,Tier1,8554,percent,49309,10.8,12.1,12.4,12.7,13.1,13.6,29.2
+SCHGM,3002385,RDW,%|fL,Tier1,0,No matching concept,1075771,,,,,,,
+SCHGM,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3029187,VitD_b,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+SCHGM,3024731,MCV,fL,Tier2,8583,femtoliter,53214,54.8,85.4,87.9,90.4,93,95.3,120.7
+SCHGM,3024731,MCV,fL,Tier2,0,No matching concept,1075771,,,,,,,
+SCHGM,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,1011609,0,0.7,0.8,0.9,1.03,1.2,29.9
+SCHGM,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,620833,,,,,,,
+SCHGM,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,215228,0.7,6.2,6.9,7.3,7.6,7.9,15.2
+SCHGM,3020630,TotProtein,g/dL,Tier2,0,No matching concept,635158,,,,,,,
+SCHGM,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,482703,-3.5,8.9,11.3,14.5,19.7,34.8,317.4
+SCHGM,3013682,BUN,mg/dL,Kidney,0,No matching concept,620834,,,,,,,
+SCHSU,3007461,Platelet,thou/uL,Tier1,0,No matching concept,3402462,,,,,,,
+SCHSU,3015242,Ferritin,ng/mL,Tier1,8842,nanogram per milliliter,163094,0,13.36,39.75,121,325.07,800.89,40000.0
+SCHSU,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,619830,0,0.4,0.5,0.8,1.1,2.5,105.8
+SCHSU,3024128,TotBili,mg/dL,Tier1,0,No matching concept,1983924,,,,,,,
+SCHSU,3002385,RDW,%|fL,Tier1,0,No matching concept,3385262,,,,,,,
+SCHSU,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHSU,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHSU,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,284051,0,21,62,306,2026,10811,58857
+SCHSU,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+SCHSU,3024731,MCV,fL,Tier2,0,No matching concept,3402407,,,,,,,
+SCHSU,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,669897,-0.4,0.6,0.7,0.89,1.1,2.3,224
+SCHSU,3016723,Creatinine,mg/dL,Tier2,0,No matching concept,2789262,,,,,,,
+SCHSU,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,282267,0.6,6.3,6.8,7.2,7.5,7.8,24
+SCHSU,3020630,TotProtein,g/dL,Tier2,0,No matching concept,1996601,,,,,,,
+SCHSU,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,464618,0.3,9.1,11.5,15,22.9,43,1301
+SCHSU,3013682,BUN,mg/dL,Kidney,0,No matching concept,2789273,,,,,,,
+UUH,3007461,Platelet,thou/uL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3015242,Ferritin,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3024128,TotBili,mg/dL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3002385,RDW,%|fL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3029187,VitD_b,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+UUH,3024731,MCV,fL,Tier2,0,NO_DATA,0,,,,,,,
+UUH,3016723,Creatinine,mg/dL,Tier2,0,NO_DATA,0,,,,,,,
+UUH,3020630,TotProtein,g/dL,Tier2,0,NO_DATA,0,,,,,,,
+UUH,3013682,BUN,mg/dL,Kidney,0,NO_DATA,0,,,,,,,
+WKUH,3007461,Platelet,thou/uL,Tier1,0,No matching concept,4011142,,,,,,,
+WKUH,3015242,Ferritin,ng/mL,Tier1,8748,microgram per liter,89716,0.503,11.03,40.59,137.7,394.9,984,330100.0
+WKUH,3024128,TotBili,mg/dL,Tier1,8840,milligram per deciliter,1994470,-6.5,0.29,0.4,0.6,0.91,1.68,76.5
+WKUH,3002385,RDW,%|fL,Tier1,8554,percent,4234748,-10.9,12.3,12.7,13.5,14.8,16.6,990.0
+WKUH,3019577,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+WKUH,3010137,VitD_a,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+WKUH,3029187,VitD_b,ng/mL,Tier1,8845,picogram per milliliter,16336,5.01,22.8,47.78,121,535.6,2656,193200.0
+WKUH,3023314,Hct,%,Tier2,0,NO_DATA,0,,,,,,,
+WKUH,3024731,MCV,fL,Tier2,0,No matching concept,4234834,,,,,,,
+WKUH,3016723,Creatinine,mg/dL,Tier2,8751,milligram per liter,182,0.22,0.45,0.58,0.75,1,1.71,7.17
+WKUH,3016723,Creatinine,mg/dL,Tier2,8840,milligram per deciliter,3676504,-0.1,0.5,0.65,0.83,1.09,1.75,135
+WKUH,3020630,TotProtein,g/dL,Tier2,8713,gram per deciliter,2004921,-0.01,5.5,6.2,6.8,7.3,7.7,735023
+WKUH,3013682,BUN,mg/dL,Kidney,8840,milligram per deciliter,3420405,-9.2,8.1,11,14.9,21,34.7,540.0

@@ -1,0 +1,281 @@
+﻿site,concept_id,biomarker,expected_unit,unit_concept_id,actual_unit,count,num_persons
+CHNUH,3004410,HbA1c,%,0,No matching concept,376781,0
+CHNUH,3028437,LDL,mg/dL,0,No matching concept,464408,0
+CHNUH,3007070,HDL,mg/dL,0,No matching concept,539588,0
+CHNUH,3037556,UA_a,mg/dL,0,No matching concept,1453159,0
+CHNUH,3000285,UA_b,mg/dL,0,NO_DATA,0,0
+CHNUH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+CHNUH,3036277,eGFR_b,mL/min/1.73m2,0,NO_DATA,0,0
+CHNUH,3026910,GGT_a,U/L,0,No matching concept,727990,0
+CHNUH,3013721,GGT_b,U/L,0,No matching concept,3080102,0
+CHNUH,3035995,ALP,U/L,0,No matching concept,2965081,0
+DCMC,3004410,HbA1c,%,0,No matching concept,282656,0
+DCMC,3004410,HbA1c,%,8554,percent,50612,0
+DCMC,3028437,LDL,mg/dL,8840,milligram per deciliter,294859,0
+DCMC,3007070,HDL,mg/dL,8840,milligram per deciliter,409030,0
+DCMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,179940,0
+DCMC,3000285,UA_b,mg/dL,8753,millimole per liter,175905,0
+DCMC,3000285,UA_b,mg/dL,9557,milliequivalent per liter,58694,0
+DCMC,40771922,eGFR_a,mL/min/1.73m2,8840,milligram per deciliter,124297,0
+DCMC,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,5018033,0
+DCMC,3026910,GGT_a,U/L,8645,unit per liter,504716,0
+DCMC,3013721,GGT_b,U/L,8645,unit per liter,338283,0
+DCMC,3035995,ALP,U/L,8645,unit per liter,356543,0
+DSMC,3004410,HbA1c,%,8554,percent,439605,0
+DSMC,3028437,LDL,mg/dL,8840,milligram per deciliter,442756,0
+DSMC,3007070,HDL,mg/dL,8840,milligram per deciliter,524297,0
+DSMC,3037556,UA_a,mg/dL,0,No matching concept,10,0
+DSMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,417177,0
+DSMC,3000285,UA_b,mg/dL,8753,millimole per liter,1870596,0
+DSMC,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+DSMC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,519062,0
+DSMC,3026910,GGT_a,U/L,0,No matching concept,8,0
+DSMC,3026910,GGT_a,U/L,8645,unit per liter,392039,0
+DSMC,3013721,GGT_b,U/L,8645,unit per liter,2099517,0
+DSMC,3035995,ALP,U/L,8645,unit per liter,1946887,0
+EUMC,3004410,HbA1c,%,0,No matching concept,319,0
+EUMC,3004410,HbA1c,%,8554,percent,1777831,0
+EUMC,3028437,LDL,mg/dL,8840,milligram per deciliter,8617301,0
+EUMC,3007070,HDL,mg/dL,8840,milligram per deciliter,8622291,0
+EUMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,8391673,0
+EUMC,3000285,UA_b,mg/dL,0,No matching concept,13595,0
+EUMC,3000285,UA_b,mg/dL,8753,millimole per liter,2832122,0
+EUMC,3000285,UA_b,mg/dL,9557,milliequivalent per liter,36142794,0
+EUMC,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+EUMC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,1559760,0
+EUMC,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,1642364,0
+EUMC,3026910,GGT_a,U/L,8923,international unit per liter,15098906,0
+EUMC,3013721,GGT_b,U/L,8923,international unit per liter,41684679,0
+EUMC,3035995,ALP,U/L,8923,international unit per liter,25537749,0
+GNUCH,3004410,HbA1c,%,8554,percent,256241,0
+GNUCH,3028437,LDL,mg/dL,8840,milligram per deciliter,260193,0
+GNUCH,3007070,HDL,mg/dL,8840,milligram per deciliter,274707,0
+GNUCH,3037556,UA_a,mg/dL,8840,milligram per deciliter,868446,0
+GNUCH,3000285,UA_b,mg/dL,8753,millimole per liter,1092326,0
+GNUCH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+GNUCH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,421587,0
+GNUCH,3026910,GGT_a,U/L,8645,unit per liter,619726,0
+GNUCH,3013721,GGT_b,U/L,8645,unit per liter,1093199,0
+GNUCH,3035995,ALP,U/L,8645,unit per liter,1003426,0
+GNUH,3004410,HbA1c,%,8554,percent,728256,0
+GNUH,3028437,LDL,mg/dL,8840,milligram per deciliter,683738,0
+GNUH,3007070,HDL,mg/dL,8840,milligram per deciliter,721964,0
+GNUH,3037556,UA_a,mg/dL,8840,milligram per deciliter,2479375,0
+GNUH,3000285,UA_b,mg/dL,8753,millimole per liter,3681011,0
+GNUH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+GNUH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,693266,0
+GNUH,3026910,GGT_a,U/L,8645,unit per liter,2447270,0
+GNUH,3013721,GGT_b,U/L,8645,unit per liter,3332968,0
+GNUH,3035995,ALP,U/L,8645,unit per liter,3163835,0
+HUMC,3004410,HbA1c,%,8554,percent,488964,0
+HUMC,3028437,LDL,mg/dL,8840,milligram per deciliter,612413,0
+HUMC,3007070,HDL,mg/dL,8840,milligram per deciliter,640552,0
+HUMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,1961132,0
+HUMC,3000285,UA_b,mg/dL,8753,millimole per liter,2398937,0
+HUMC,3000285,UA_b,mg/dL,0,No matching concept,493337,0
+HUMC,40771922,eGFR_a,mL/min/1.73m2,9117,milliliter per minute per 1.73 square meter,1540535,0
+HUMC,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,601105,0
+HUMC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,1340112,0
+HUMC,3026910,GGT_a,U/L,8923,international unit per liter,1908585,0
+HUMC,3013721,GGT_b,U/L,8923,international unit per liter,2334984,0
+HUMC,3035995,ALP,U/L,8923,international unit per liter,2066636,0
+ISH,3004410,HbA1c,%,0,No matching concept,148028,0
+ISH,3004410,HbA1c,%,8554,percent,156785,0
+ISH,3028437,LDL,mg/dL,0,No matching concept,181410,0
+ISH,3007070,HDL,mg/dL,0,No matching concept,294484,0
+ISH,3037556,UA_a,mg/dL,0,No matching concept,309771,0
+ISH,3000285,UA_b,mg/dL,0,No matching concept,1158067,0
+ISH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+ISH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,262339,0
+ISH,3026910,GGT_a,U/L,0,No matching concept,516766,0
+ISH,3013721,GGT_b,U/L,0,No matching concept,1234851,0
+ISH,3035995,ALP,U/L,0,No matching concept,706394,0
+JCMJ,3004410,HbA1c,%,8554,percent,119477,0
+JCMJ,3028437,LDL,mg/dL,8840,milligram per deciliter,84352,0
+JCMJ,3007070,HDL,mg/dL,8840,milligram per deciliter,226845,0
+JCMJ,3037556,UA_a,mg/dL,8840,milligram per deciliter,357430,0
+JCMJ,3000285,UA_b,mg/dL,0,NO_DATA,0,0
+JCMJ,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,431885,0
+JCMJ,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,66891,0
+JCMJ,3026910,GGT_a,U/L,8923,international unit per liter,299105,0
+JCMJ,3013721,GGT_b,U/L,8923,international unit per liter,648959,0
+JCMJ,3035995,ALP,U/L,8923,international unit per liter,383625,0
+KCCH,3004410,HbA1c,%,8554,percent,275383,0
+KCCH,3028437,LDL,mg/dL,8840,milligram per deciliter,287729,0
+KCCH,3007070,HDL,mg/dL,8840,milligram per deciliter,424422,0
+KCCH,3037556,UA_a,mg/dL,0,No matching concept,12,0
+KCCH,3037556,UA_a,mg/dL,8840,milligram per deciliter,2288418,0
+KCCH,3000285,UA_b,mg/dL,8753,millimole per liter,1528059,0
+KCCH,3000285,UA_b,mg/dL,9557,milliequivalent per liter,475672,0
+KCCH,40771922,eGFR_a,mL/min/1.73m2,8795,milliliter per minute,57797,0
+KCCH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,7717789,0
+KCCH,3026910,GGT_a,U/L,8645,unit per liter,539206,0
+KCCH,3013721,GGT_b,U/L,8645,unit per liter,2727525,0
+KCCH,3035995,ALP,U/L,8645,unit per liter,2517474,0
+KDH,3004410,HbA1c,%,8554,percent,589522,0
+KDH,3028437,LDL,mg/dL,8840,milligram per deciliter,836863,0
+KDH,3007070,HDL,mg/dL,8840,milligram per deciliter,942234,0
+KDH,3037556,UA_a,mg/dL,8840,milligram per deciliter,2664536,0
+KDH,3000285,UA_b,mg/dL,8753,millimole per liter,558652,0
+KDH,3000285,UA_b,mg/dL,9557,milliequivalent per liter,3023345,0
+KDH,40771922,eGFR_a,mL/min/1.73m2,9117,milliliter per minute per 1.73 square meter,1934873,0
+KDH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,889862,0
+KDH,3026910,GGT_a,U/L,8923,international unit per liter,1605280,0
+KDH,3013721,GGT_b,U/L,8923,international unit per liter,3106284,0
+KDH,3035995,ALP,U/L,8923,international unit per liter,2652976,0
+KHMC,3004410,HbA1c,%,8554,percent,980890,0
+KHMC,3028437,LDL,mg/dL,8840,milligram per deciliter,1046649,0
+KHMC,3007070,HDL,mg/dL,8840,milligram per deciliter,1159340,0
+KHMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,1653914,0
+KHMC,3000285,UA_b,mg/dL,8753,millimole per liter,1979268,0
+KHMC,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+KHMC,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,287203,0
+KHMC,3026910,GGT_a,U/L,8645,unit per liter,2146840,0
+KHMC,3013721,GGT_b,U/L,8645,unit per liter,3270702,0
+KHMC,3035995,ALP,U/L,8645,unit per liter,458706,0
+KHNMC,3004410,HbA1c,%,0,No matching concept,451342,0
+KHNMC,3028437,LDL,mg/dL,0,No matching concept,143322,0
+KHNMC,3028437,LDL,mg/dL,8840,milligram per deciliter,310059,0
+KHNMC,3007070,HDL,mg/dL,0,No matching concept,148667,0
+KHNMC,3007070,HDL,mg/dL,8840,milligram per deciliter,360357,0
+KHNMC,3037556,UA_a,mg/dL,0,No matching concept,1670498,0
+KHNMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,132826,0
+KHNMC,3000285,UA_b,mg/dL,0,No matching concept,2433382,0
+KHNMC,3000285,UA_b,mg/dL,9557,milliequivalent per liter,1184,0
+KHNMC,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+KHNMC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,558269,0
+KHNMC,3026910,GGT_a,U/L,0,No matching concept,1396132,0
+KHNMC,3026910,GGT_a,U/L,8645,unit per liter,1038,0
+KHNMC,3013721,GGT_b,U/L,0,No matching concept,2407210,0
+KHNMC,3035995,ALP,U/L,0,No matching concept,1916779,0
+KWMC,3004410,HbA1c,%,8554,percent,466357,0
+KWMC,3028437,LDL,mg/dL,8840,milligram per deciliter,506225,0
+KWMC,3007070,HDL,mg/dL,8840,milligram per deciliter,583484,0
+KWMC,3037556,UA_a,mg/dL,8840,milligram per deciliter,1647254,0
+KWMC,3000285,UA_b,mg/dL,8753,millimole per liter,640342,0
+KWMC,3000285,UA_b,mg/dL,9557,milliequivalent per liter,1675921,0
+KWMC,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,1264629,0
+KWMC,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,347737,0
+KWMC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,211745,0
+KWMC,3026910,GGT_a,U/L,8645,unit per liter,590620,0
+KWMC,3013721,GGT_b,U/L,8645,unit per liter,2112246,0
+KWMC,3035995,ALP,U/L,8645,unit per liter,1771128,0
+MJH,3004410,HbA1c,%,8554,percent,385579,0
+MJH,3028437,LDL,mg/dL,8840,milligram per deciliter,580027,0
+MJH,3007070,HDL,mg/dL,8840,milligram per deciliter,1056427,0
+MJH,3037556,UA_a,mg/dL,8840,milligram per deciliter,1268368,0
+MJH,3000285,UA_b,mg/dL,0,NO_DATA,0,0
+MJH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+MJH,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,4393,0
+MJH,3026910,GGT_a,U/L,8645,unit per liter,773458,0
+MJH,3026910,GGT_a,U/L,8923,international unit per liter,443294,0
+MJH,3013721,GGT_b,U/L,8645,unit per liter,1631805,0
+MJH,3013721,GGT_b,U/L,8923,international unit per liter,1077670,0
+MJH,3035995,ALP,U/L,8645,unit per liter,928218,0
+MJH,3035995,ALP,U/L,8923,international unit per liter,577899,0
+PNUH,3004410,HbA1c,%,0,No matching concept,652993,0
+PNUH,3028437,LDL,mg/dL,0,No matching concept,641511,0
+PNUH,3028437,LDL,mg/dL,8840,milligram per deciliter,27266,0
+PNUH,3007070,HDL,mg/dL,0,No matching concept,1924755,0
+PNUH,3007070,HDL,mg/dL,8840,milligram per deciliter,111863,0
+PNUH,3037556,UA_a,mg/dL,0,No matching concept,12289818,0
+PNUH,3037556,UA_a,mg/dL,8840,milligram per deciliter,54633,0
+PNUH,3000285,UA_b,mg/dL,0,No matching concept,15428528,0
+PNUH,3000285,UA_b,mg/dL,8753,millimole per liter,453,0
+PNUH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+PNUH,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,984074,0
+PNUH,3026910,GGT_a,U/L,8645,unit per liter,704519,0
+PNUH,3013721,GGT_b,U/L,0,No matching concept,26742768,0
+PNUH,3013721,GGT_b,U/L,8645,unit per liter,106586,0
+PNUH,3035995,ALP,U/L,0,No matching concept,26742840,0
+PNUH,3035995,ALP,U/L,8645,unit per liter,3545,0
+SCHBC,3004410,HbA1c,%,8554,percent,775850,0
+SCHBC,3028437,LDL,mg/dL,0,No matching concept,58773,0
+SCHBC,3028437,LDL,mg/dL,8840,milligram per deciliter,713401,0
+SCHBC,3007070,HDL,mg/dL,0,No matching concept,648226,0
+SCHBC,3007070,HDL,mg/dL,8840,milligram per deciliter,628905,0
+SCHBC,3037556,UA_a,mg/dL,0,No matching concept,1389143,0
+SCHBC,3037556,UA_a,mg/dL,8840,milligram per deciliter,691413,0
+SCHBC,3000285,UA_b,mg/dL,0,No matching concept,2812920,0
+SCHBC,3000285,UA_b,mg/dL,8753,millimole per liter,942080,0
+SCHBC,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,4280632,0
+SCHBC,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,2403491,0
+SCHBC,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,6464,0
+SCHBC,3026910,GGT_a,U/L,0,No matching concept,56800,0
+SCHBC,3026910,GGT_a,U/L,8645,unit per liter,1132202,0
+SCHBC,3013721,GGT_b,U/L,0,No matching concept,2697421,0
+SCHBC,3013721,GGT_b,U/L,8645,unit per liter,1653921,0
+SCHBC,3035995,ALP,U/L,0,No matching concept,2695451,0
+SCHBC,3035995,ALP,U/L,8645,unit per liter,7208304,0
+SCHCA,3004410,HbA1c,%,0,No matching concept,66475,0
+SCHCA,3004410,HbA1c,%,8554,percent,765981,0
+SCHCA,3028437,LDL,mg/dL,8840,milligram per deciliter,822791,0
+SCHCA,3007070,HDL,mg/dL,0,No matching concept,518169,0
+SCHCA,3007070,HDL,mg/dL,8840,milligram per deciliter,794948,0
+SCHCA,3037556,UA_a,mg/dL,0,No matching concept,1789509,0
+SCHCA,3037556,UA_a,mg/dL,8840,milligram per deciliter,452300,0
+SCHCA,3000285,UA_b,mg/dL,0,No matching concept,3654302,0
+SCHCA,3000285,UA_b,mg/dL,8753,millimole per liter,143032,0
+SCHCA,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,4312850,0
+SCHCA,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,2738654,0
+SCHCA,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,3178,0
+SCHCA,3026910,GGT_a,U/L,0,No matching concept,825836,0
+SCHCA,3026910,GGT_a,U/L,8923,international unit per liter,1158780,0
+SCHCA,3013721,GGT_b,U/L,0,No matching concept,3484696,0
+SCHCA,3013721,GGT_b,U/L,8923,international unit per liter,829011,0
+SCHCA,3035995,ALP,U/L,0,No matching concept,3484693,0
+SCHCA,3035995,ALP,U/L,8923,international unit per liter,311829,0
+SCHGM,3004410,HbA1c,%,8554,percent,354042,0
+SCHGM,3028437,LDL,mg/dL,0,No matching concept,141843,0
+SCHGM,3028437,LDL,mg/dL,8840,milligram per deciliter,313002,0
+SCHGM,3007070,HDL,mg/dL,0,No matching concept,152155,0
+SCHGM,3007070,HDL,mg/dL,8840,milligram per deciliter,738807,0
+SCHGM,3037556,UA_a,mg/dL,0,No matching concept,582903,0
+SCHGM,3037556,UA_a,mg/dL,8840,milligram per deciliter,139610,0
+SCHGM,3000285,UA_b,mg/dL,0,No matching concept,927681,0
+SCHGM,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,1631255,0
+SCHGM,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,1311985,0
+SCHGM,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,326,0
+SCHGM,3026910,GGT_a,U/L,0,No matching concept,1380421,0
+SCHGM,3013721,GGT_b,U/L,0,No matching concept,1822942,0
+SCHGM,3035995,ALP,U/L,0,No matching concept,808133,0
+SCHSU,3004410,HbA1c,%,0,No matching concept,635014,0
+SCHSU,3007070,HDL,mg/dL,0,No matching concept,1037442,0
+SCHSU,3007070,HDL,mg/dL,8840,milligram per deciliter,395408,0
+SCHSU,3037556,UA_a,mg/dL,0,No matching concept,1533326,0
+SCHSU,3037556,UA_a,mg/dL,8840,milligram per deciliter,434238,0
+SCHSU,3000285,UA_b,mg/dL,0,No matching concept,2745080,0
+SCHSU,3000285,UA_b,mg/dL,8753,millimole per liter,205289,0
+SCHSU,40771922,eGFR_a,mL/min/1.73m2,0,No matching concept,3327319,0
+SCHSU,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,3086908,0
+SCHSU,3036277,eGFR_b,mL/min/1.73m2,8582,centimeter,1000,0
+SCHSU,3026910,GGT_a,U/L,0,No matching concept,1475587,0
+SCHSU,3026910,GGT_a,U/L,8645,unit per liter,534459,0
+SCHSU,3026910,GGT_a,U/L,8923,international unit per liter,197272,0
+SCHSU,3013721,GGT_b,U/L,0,No matching concept,2778867,0
+SCHSU,3013721,GGT_b,U/L,8645,unit per liter,463632,0
+SCHSU,3013721,GGT_b,U/L,8923,international unit per liter,234621,0
+SCHSU,3035995,ALP,U/L,0,No matching concept,1983512,0
+SCHSU,3035995,ALP,U/L,8645,unit per liter,1947981,0
+SCHSU,3035995,ALP,U/L,8923,international unit per liter,26105,0
+UUH,3004410,HbA1c,%,0,NO_DATA,0,0
+UUH,3028437,LDL,mg/dL,0,NO_DATA,0,0
+UUH,3007070,HDL,mg/dL,0,NO_DATA,0,0
+UUH,3037556,UA_a,mg/dL,0,NO_DATA,0,0
+UUH,3000285,UA_b,mg/dL,0,NO_DATA,0,0
+UUH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+UUH,3036277,eGFR_b,mL/min/1.73m2,0,NO_DATA,0,0
+UUH,3026910,GGT_a,U/L,0,NO_DATA,0,0
+UUH,3013721,GGT_b,U/L,0,NO_DATA,0,0
+UUH,3035995,ALP,U/L,0,NO_DATA,0,0
+WKUH,3004410,HbA1c,%,8554,percent,335788,0
+WKUH,3028437,LDL,mg/dL,8840,milligram per deciliter,347346,0
+WKUH,3007070,HDL,mg/dL,8840,milligram per deciliter,348137,0
+WKUH,3037556,UA_a,mg/dL,8840,milligram per deciliter,787705,0
+WKUH,3000285,UA_b,mg/dL,0,No matching concept,827502,0
+WKUH,3000285,UA_b,mg/dL,9557,milliequivalent per liter,3383277,0
+WKUH,40771922,eGFR_a,mL/min/1.73m2,0,NO_DATA,0,0
+WKUH,3036277,eGFR_b,mL/min/1.73m2,0,No matching concept,346260,0
+WKUH,3026910,GGT_a,U/L,8923,international unit per liter,1271471,0
+WKUH,3013721,GGT_b,U/L,8923,international unit per liter,2796462,0
+WKUH,3035995,ALP,U/L,0,No matching concept,2304001,0

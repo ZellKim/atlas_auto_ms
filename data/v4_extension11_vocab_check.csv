@@ -1,0 +1,13 @@
+﻿concept_id,claimed,actual_name,domain,vocab,standard,tier,match_status
+3007461,Platelet,Platelets [#/volume] in Blood,Measurement,LOINC,S,Tier1,OK
+3015242,Ferritin,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,Measurement,LOINC,S,Tier1,OK
+3024128,TotBili,Bilirubin.total [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,Tier1,OK
+3002385,RDW,Erythrocyte distribution width [Ratio],Measurement,LOINC,S,Tier1,OK
+3019577,TSH,Aspen IgG Ab [Units/volume] in Serum,Measurement,LOINC,S,Tier1,MISMATCH
+3010137,VitD_a,3-Hydroxydodecanoate (3-OH-C12:0) [Presence] in Urine,Measurement,LOINC,S,Tier1,MISMATCH
+3029187,VitD_b,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,Tier1,MISMATCH
+3023314,Hct,Hematocrit [Volume Fraction] of Blood by Automated count,Measurement,LOINC,S,Tier2,OK
+3024731,MCV,MCV [Entitic volume],Measurement,LOINC,S,Tier2,OK
+3016723,Creatinine,Creatinine [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,Tier2,OK
+3020630,TotProtein,Protein [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,Tier2,OK
+3013682,BUN,Urea nitrogen [Mass/volume] in Serum or Plasma,Measurement,LOINC,S,Kidney,OK

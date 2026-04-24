@@ -1,0 +1,67 @@
+{
+  "v4_1a_cbc_wbc": {
+    "status_code": 200,
+    "body": {
+      "result": true,
+      "message": null,
+      "code": 0,
+      "content": true,
+      "hasPrevious": false,
+      "hasNext": false,
+      "total": 0,
+      "statusCode": 200
+    }
+  },
+  "v4_1b_cbc_rbc": {
+    "status_code": 200,
+    "body": {
+      "result": true,
+      "message": null,
+      "code": 0,
+      "content": true,
+      "hasPrevious": false,
+      "hasNext": false,
+      "total": 0,
+      "statusCode": 200
+    }
+  },
+  "v4_2_chem_hepa": {
+    "status_code": 200,
+    "body": {
+      "result": true,
+      "message": null,
+      "code": 0,
+      "content": true,
+      "hasPrevious": false,
+      "hasNext": false,
+      "total": 0,
+      "statusCode": 200
+    }
+  },
+  "v4_3_meta_endo": {
+    "status_code": 200,
+    "body": {
+      "result": true,
+      "message": null,
+      "code": 0,
+      "content": true,
+      "hasPrevious": false,
+      "hasNext": false,
+      "total": 0,
+      "statusCode": 200
+    }
+  },
+  "v4_4_sex_specific": {
+    "status_code": 200,
+    "body": {
+      "result": true,
+      "message": null,
+      "code": 0,
+      "content": true,
+      "hasPrevious": false,
+      "hasNext": false,
+      "total": 0,
+      "statusCode": 200
+    }
+  }
+}

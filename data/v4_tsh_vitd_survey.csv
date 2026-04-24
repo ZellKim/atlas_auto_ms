@@ -1,0 +1,99 @@
+﻿site,concept_id,biomarker,expected_unit,tier,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+CHNUH,3009201,TSH,mIU/L,Tier1,0,No matching concept,61176,,,,,,,
+CHNUH,3020149,VitD_D3,ng/mL,Tier1,0,No matching concept,38837,,,,,,,
+CHNUH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+CHNUH,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DCMC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,362326,0,0.1,0.9,1.73,3.01,5.4,100.0
+DCMC,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DCMC,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DCMC,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+DSMC,3009201,TSH,mIU/L,Tier1,0,No matching concept,203888,0,0.27,1.06,1.95,3.35,5.37,627.3
+DSMC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,113966,0,0.443,1.12,2,3.43,5.87,100.0
+DSMC,3020149,VitD_D3,ng/mL,Tier1,0,No matching concept,86921,0.09,15.86,22.57,32.68,45.83,59.52,1692
+DSMC,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,56868,0.33,17.33,22.29,28.76,37,46.09,204.78
+DSMC,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+EUMC,3009201,TSH,mIU/L,Tier1,0,No matching concept,6578355,0.01,0.2,0.91,1.73,2.97,4.94,624
+EUMC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,335304,0,0.62,1.17,1.9,3.02,4.71,690.0
+EUMC,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,10716,0,7.51,14.5,24.42,36.31,48.58,130.0
+EUMC,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+EUMC,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,449985,0,11.2,15.4,21.6,29.9,38.8,210.0
+GNUCH,3009201,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+GNUCH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUCH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUCH,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,34138,4.2,9.8,14.1,21,29.2,37.6,150.0
+GNUCH,42529187,VitD_totIA,ng/mL,Tier1,0,No matching concept,21,,,,,,,
+GNUH,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,510505,0.01,0.08,0.82,1.68,2.92,4.96,100.0
+GNUH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+GNUH,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,43998,3,9.8,14.7,22.1,30.5,39.2,108
+HUMC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,468828,0,0.37,0.98,1.73,2.82,4.49,100.0
+HUMC,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+HUMC,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,84700,3,9.1,13.9,22.33,32.3,41.7,155.9
+HUMC,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+ISH,3009201,TSH,mIU/L,Tier1,0,No matching concept,209632,,,,,,,
+ISH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+ISH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,80074,0.005,0.419,0.946,1.6,2.61,4.23,100.0
+JCMJ,3009201,TSH,mIU/L,Tier1,0,No matching concept,100,,,,,,,
+JCMJ,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+JCMJ,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KCCH,3009201,TSH,mIU/L,Tier1,0,No matching concept,278642,0,0.06,0.1,0.69,2.25,6.57,100120.0
+KCCH,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,268067,0.005,0.161,0.914,1.79,3.1,5.14,330.7
+KCCH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KCCH,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,6139,1.09,11.39,14.79,19.44,28.6,37.7,121.91
+KCCH,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,119093,1,12.5,19.8,29.5,38.4,47.7,155.9
+KDH,3009201,TSH,mIU/L,Tier1,0,No matching concept,8,1.04,1.04,1.18,3.42,5.76,12.2,12.2
+KDH,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,491320,0,0.16,0.822,1.625,2.85,5.11,150.0
+KDH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KDH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KDH,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,58279,0,11.38,15.86,22.05,29.4,38.1,150.0
+KHMC,3009201,TSH,mIU/L,Tier1,8860,microunit per milliliter,373579,0,0.19,1,1.9,3.14,4.86,643.7
+KHMC,3009201,TSH,mIU/L,Tier1,0,No matching concept,149955,,,,,,,
+KHMC,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,59008,0.36,11.6,17.18,26.81,43.16,64.18,34150.95
+KHMC,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KHMC,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,90252,0,10.78,14.89,21.37,29.36,37.99,214.07
+KHNMC,3009201,TSH,mIU/L,Tier1,0,No matching concept,354067,0,0.59,1.05,1.71,2.71,4.224,500.0
+KHNMC,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KHNMC,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,59020,1,7.9,12.4,19.4,28.3,38,140.0
+KHNMC,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+KWMC,3009201,TSH,mIU/L,Tier1,8985,international unit per milliliter,1580,0.003,0.067,0.605,1.186,2.057,3.372,100.0
+KWMC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,275967,0.001,0.36,0.87,1.48,2.372,3.82,500.0
+KWMC,3009201,TSH,mIU/L,Tier1,0,No matching concept,15952,,,,,,,
+KWMC,3020149,VitD_D3,ng/mL,Tier1,0,No matching concept,4145,,,,,,,
+KWMC,40765040,VitD_total,ng/mL,Tier1,0,No matching concept,2067,,,,,,,
+KWMC,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,49067,,,,,,,
+KWMC,42529187,VitD_totIA,ng/mL,Tier1,0,nanogram per milliliter,0,2,11.7,17.1,24.5,33.3,42.68,169.79
+MJH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+MJH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+PNUH,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,626561,,,,,,,
+PNUH,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,50069,,,,,,,
+PNUH,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,111608,3,11.34,16.4,24.2,33,41.75,200.0
+PNUH,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHBC,3009201,TSH,mIU/L,Tier1,9093,micro-international unit per milliliter,605144,0,0.04,0.826,1.74,3.03,5.1,861.6
+SCHBC,3009201,TSH,mIU/L,Tier1,0,No matching concept,174448,,,,,,,
+SCHBC,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,56074,0.01,10.79,16.08,23.38,32.75,42.33,138
+SCHBC,3020149,VitD_D3,ng/mL,Tier1,0,No matching concept,5890,,,,,,,
+SCHBC,40765040,VitD_total,ng/mL,Tier1,0,No matching concept,5216,,,,,,,
+SCHBC,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,88213,0,10.61,15.62,23.48,32.03,40.82,7170.0
+SCHCA,3009201,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,71118,0,8.6,11.6,15.7,21.1,27.9,380.0
+SCHCA,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHCA,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3009201,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,2257,4,8.48,12.7,18.78,25.28,30.75,63.3
+SCHGM,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHGM,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+SCHSU,3009201,TSH,mIU/L,Tier1,8763,unit per milliliter,338,0.001,0.662,1.04,1.51,2.31,3.05,7.31
+SCHSU,3009201,TSH,mIU/L,Tier1,0,No matching concept,593427,,,,,,,
+SCHSU,3020149,VitD_D3,ng/mL,Tier1,8842,nanogram per milliliter,213954,0.01,9.62,14.26,21.61,31.67,43.31,2340.0
+SCHSU,40765040,VitD_total,ng/mL,Tier1,8842,nanogram per milliliter,16024,0.01,14.27,20.05,29.03,40.58,51.13,96.87
+SCHSU,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3009201,TSH,mIU/L,Tier1,0,NO_DATA,0,,,,,,,
+UUH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+UUH,42529187,VitD_totIA,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+WKUH,3009201,TSH,mIU/L,Tier1,0,No matching concept,358401,,,,,,,
+WKUH,3020149,VitD_D3,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+WKUH,40765040,VitD_total,ng/mL,Tier1,0,NO_DATA,0,,,,,,,
+WKUH,42529187,VitD_totIA,ng/mL,Tier1,8842,nanogram per milliliter,21000,1.2,9.3,14,21.9,32,42,42312220539
