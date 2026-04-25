@@ -76,6 +76,8 @@ data/scripts/omop_cdm_papers_batch1.json
 data/scripts/omop_inline_metadata.json
 data/scripts/.Rhistory
 R/lib/.Rhistory
+Rplots.pdf
+*/Rplots.pdf
 R/archive/pooled_analysis/export_combined/
 R/archive/pooled_analysis/matched_results/
 R/archive/pooled_analysis/matched_results_cyclops/
