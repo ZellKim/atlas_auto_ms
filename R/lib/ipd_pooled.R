@@ -494,6 +494,7 @@ run_ipd_pooled <- function(config) {
     timewindow = tw_all,
     diagnostics = diag,
     null       = nullD,
-    matched    = matched
+    matched    = matched,
+    pool       = pool   # exposed for downstream KM/diagnostics
   )
 }
