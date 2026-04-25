@@ -65,6 +65,10 @@ data/measurement/raw_drilldown/
 reference/
 *.msi
 
+# Legacy archive (2026-04-25 정리, 추후 안전 삭제 가능)
+_legacy/
+results/
+
 # 연구-특이적 runtime 산출물 (literature enrichment 등)
 data/scripts/missing_pmids.json
 data/scripts/omop_cdm_intermediate.json
