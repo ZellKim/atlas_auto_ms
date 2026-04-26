@@ -233,7 +233,7 @@ for cid in cdmIds:
     time.sleep(90)
 ```
 
-**검증 결과 (appendectomy v8 PID 5126, 2026-04-26)**:
+**검증 결과 (appendectomy v4.2, PID 5126 artifact name `appendectomy_v8`, 2026-04-26)**:
 - Bulk 5 estimation × 22 사이트 = 110 site bulk POST → **0 즉사**
 - 같은 시간대 sequential cbc_wbc 22 → 1 fail (5%)
 - 즉 bulk가 sequential보다 더 안전했음 (큐 부하 동일 분포)

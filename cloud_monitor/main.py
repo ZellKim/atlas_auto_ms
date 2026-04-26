@@ -33,13 +33,14 @@ STATE_BLOB = "monitor/feedernet_monitor_state.json"
 MONITOR_TARGETS = {
     # allergic v7 (PID 5125) — 23 sites, v6 메서드 + stopOnError=false
     11069: {"name": "allergic v7 (23 sites)", "project_id": 5125},
-    # appendectomy v8 (PID 5126) — 6 estimation × 22 sites, L3 site-aware default
-    11070: {"name": "appendectomy v8 cbc_wbc",      "project_id": 5126},
-    11071: {"name": "appendectomy v8 cbc_rbc",      "project_id": 5126},
-    11072: {"name": "appendectomy v8 chem_hepa",    "project_id": 5126},
-    11073: {"name": "appendectomy v8 meta_endo",    "project_id": 5126},
-    11074: {"name": "appendectomy v8 sex_specific", "project_id": 5126},
-    11075: {"name": "appendectomy v8 clinical",     "project_id": 5126},
+    # appendectomy v4.2 (PID 5126, artifact name appendectomy_v8) — 6 estimation × 22 sites
+    # L3 site-aware default: restrictToCommonPeriod=false + CharlsonIndex=true + VisitCountLongTerm=true
+    11070: {"name": "appendectomy v4.2 cbc_wbc",      "project_id": 5126},
+    11071: {"name": "appendectomy v4.2 cbc_rbc",      "project_id": 5126},
+    11072: {"name": "appendectomy v4.2 chem_hepa",    "project_id": 5126},
+    11073: {"name": "appendectomy v4.2 meta_endo",    "project_id": 5126},
+    11074: {"name": "appendectomy v4.2 sex_specific", "project_id": 5126},
+    11075: {"name": "appendectomy v4.2 clinical",     "project_id": 5126},
 }
 
 
