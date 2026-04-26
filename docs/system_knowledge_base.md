@@ -217,6 +217,37 @@ log_text = resp.json().get('content', '')
 session.post(f'{base}/api/v1/project/{pid}/analysis/{aid}/execution/{eid}/cancel')
 ```
 
+### 2.4a Trigger 패턴 — bulk POST vs sequential (2026-04-26 검증)
+
+**결론**: bulk POST(`cdmIds: [...N개...]`)는 **clean queue에서 안전**. Sequential(1개씩 90s gap)도 안전. 선택 기준 = **속도 vs 큐 부하**.
+
+```python
+# 패턴 A: bulk POST (권장 — 큐 비어있고 1 estimation 다중 사이트)
+session.post(f'.../execution',
+    json={'cdmIds': [273, 312, 318, ...22개], 'researchName': '...', 'executionType': 'ESTIMATION'})
+# → 1 POST → 22개 동시 큐 entry (큐가 알아서 처리, 동시 spawn은 ~6개 등 엔진풀 capacity 제한됨)
+
+# 패턴 B: sequential single (구버전 기본 — 보수적)
+for cid in cdmIds:
+    session.post(f'.../execution', json={'cdmIds': [cid], ...})
+    time.sleep(90)
+```
+
+**검증 결과 (appendectomy v8 PID 5126, 2026-04-26)**:
+- Bulk 5 estimation × 22 사이트 = 110 site bulk POST → **0 즉사**
+- 같은 시간대 sequential cbc_wbc 22 → 1 fail (5%)
+- 즉 bulk가 sequential보다 더 안전했음 (큐 부하 동일 분포)
+
+**과거 issue #13 ("bulk 11/11 즉사") 정정**:
+- 원인은 bulk POST 자체가 아니라 **v2 spec 문제 + 큐 부하 + 동시기 다른 사이트 RUNNING** 등 복합 요인
+- bulk POST 단독 비난 정당화 안 됨
+- 메모리: `feedback_bulk_trigger_safe.md`
+
+**언제 sequential을 쓸까**:
+- 큐에 다른 분석 RUNNING 다수 + 추가 부담 회피 원할 때
+- 사이트 100개+ 트리거하면서 gradual rate 통제 원할 때
+- 그 외 대부분 → bulk 권장 (트리거 시간 ~200x 단축)
+
 ### 2.5 Achilles 수집
 
 ```python
