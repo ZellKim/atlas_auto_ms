@@ -29,9 +29,17 @@ STATE_BLOB = "monitor/feedernet_monitor_state.json"
 # 모니터링 대상
 # - v3 analyses 11018/11019 removed 2026-04-19 (completed/cancelled)
 # - v4 appendectomy 11034-11038, 11044 removed 2026-04-24 (completed)
+# - allergic v2 11029 removed 2026-04-26 (cancelled, replaced by v7)
 MONITOR_TARGETS = {
-    # allergic diseases (22 sites, v2 spec with NC 54) — added 2026-04-24
-    11029: {"name": "AD_allergic_tic_adhd_v1 (22 sites)", "project_id": 5104},
+    # allergic v7 (PID 5125) — 23 sites, v6 메서드 + stopOnError=false
+    11069: {"name": "allergic v7 (23 sites)", "project_id": 5125},
+    # appendectomy v8 (PID 5126) — 6 estimation × 22 sites, L3 site-aware default
+    11070: {"name": "appendectomy v8 cbc_wbc",      "project_id": 5126},
+    11071: {"name": "appendectomy v8 cbc_rbc",      "project_id": 5126},
+    11072: {"name": "appendectomy v8 chem_hepa",    "project_id": 5126},
+    11073: {"name": "appendectomy v8 meta_endo",    "project_id": 5126},
+    11074: {"name": "appendectomy v8 sex_specific", "project_id": 5126},
+    11075: {"name": "appendectomy v8 clinical",     "project_id": 5126},
 }
 
 
@@ -220,21 +228,40 @@ def monitor(request):
         messages.append(line)
 
     current_state["_retired"] = sorted(retired)
-    save_current_state(current_state)
 
     all_studies_done = len(messages) == 0  # all targets retired → nothing to monitor
 
-    # 알림 판단: 완료 수 증가 or 전체 완료
-    print(f"[MONITOR] should_notify={should_notify} all_done={all_studies_done} n_msgs={len(messages)}")
+    # 중복 ALL DONE 방지: prev_state에 _all_done_sent flag 저장
+    # MONITOR_TARGETS의 keys 집합으로 hash 비교 → targets 변경 시 flag reset
+    targets_sig = ",".join(map(str, sorted(MONITOR_TARGETS.keys())))
+    prev_targets_sig = prev_state.get("_targets_sig", "")
+    prev_all_done_sent = prev_state.get("_all_done_sent", False)
+    targets_changed = targets_sig != prev_targets_sig
+
+    # State 저장
+    current_state["_targets_sig"] = targets_sig
+    current_state["_all_done_sent"] = prev_all_done_sent  # 기본 유지
+
+    # 알림 판단: 완료 수 증가 or 전체 완료(once)
+    print(f"[MONITOR] should_notify={should_notify} all_done={all_studies_done} "
+          f"n_msgs={len(messages)} prev_all_done_sent={prev_all_done_sent} targets_changed={targets_changed}")
+
     if all_studies_done:
-        msg = f"<b>ALL COMPLETE - feedernet Estimation 전체 완료</b>\n\n" + "\n\n".join(messages)
-        send_telegram(msg)
-        print("[MONITOR] ALL DONE Telegram sent")
+        if not prev_all_done_sent or targets_changed:
+            msg = f"<b>ALL COMPLETE - feedernet Estimation 전체 완료</b>\n\n" + "\n\n".join(messages)
+            send_telegram(msg)
+            print("[MONITOR] ALL DONE Telegram sent (first time after retire)")
+            current_state["_all_done_sent"] = True
+        else:
+            print("[MONITOR] all_done already notified — skip")
     elif should_notify:
         msg = f"<b>feedernet Estimation 진행 업데이트</b>\n\n" + "\n\n".join(messages)
         send_telegram(msg)
         print("[MONITOR] UPDATE Telegram sent")
+        current_state["_all_done_sent"] = False  # 활성 진행 있음 → flag reset
     else:
         print("[MONITOR] no change - skip Telegram")
+        current_state["_all_done_sent"] = False  # 활성 있음(메시지 있음) → flag reset
 
+    save_current_state(current_state)
     return ("ok", 200)
