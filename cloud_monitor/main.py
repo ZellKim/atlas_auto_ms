@@ -89,7 +89,12 @@ def login_feedernet(session: requests.Session) -> bool:
 
 
 def get_execution_status(session: requests.Session, project_id: int, analysis_id: int) -> dict:
-    """기관별 최신 실행 상태 요약 반환."""
+    """기관별 최신 실행 상태 요약 반환.
+
+    Per-cdm aggregation: cdm 하나에 exec 여러 개 있어도(bulk+sequential 중복 등)
+    "any FS exists" 우선, 그 다음 active → cancel → fail 순으로 categorize.
+    이렇게 해야 중복 cancel 후에도 진짜 결과 카운트가 맞음.
+    """
     resp = session.get(
         f"{PORTAL_URL}/api/v1/project/{project_id}/analysis/{analysis_id}/execution",
         timeout=30,
@@ -97,34 +102,35 @@ def get_execution_status(session: requests.Session, project_id: int, analysis_id
     resp.raise_for_status()
     groups = resp.json().get("content", [])
 
-    # Pick LATEST execution per cdmId by max eid (not first-match which is non-deterministic)
-    latest_by_cdm = {}
+    # Per-cdm: collect ALL exec states + remember orgName
+    by_cdm = {}
     for group in groups:
         for ex in group.get("executionList", []):
             cdm_id = ex.get("cdmId")
             if cdm_id is None:
                 continue
-            prev = latest_by_cdm.get(cdm_id)
-            if prev is None or (ex.get("id", 0) or 0) > (prev.get("id", 0) or 0):
-                latest_by_cdm[cdm_id] = ex
+            d = by_cdm.setdefault(cdm_id, {"states": [], "org": ex.get("orgName", "?")})
+            d["states"].append(ex.get("executionStatus", ""))
 
     counts = {"COMPLETE": 0, "RUNNING": 0, "FAILED": 0, "WAITING": 0, "CANCELED": 0}
     details = {"COMPLETE": [], "RUNNING": [], "FAILED": [], "WAITING": [], "CANCELED": []}
 
-    for ex in latest_by_cdm.values():
-        status = ex.get("executionStatus", "")
-        org = ex.get("orgName", "?")
+    for d in by_cdm.values():
+        ss = d["states"]
+        org = d["org"]
 
-        if status == "FINISHED_SUCCESSFULLY":
+        if "FINISHED_SUCCESSFULLY" in ss:
             tag = "COMPLETE"
-        elif status == "EXECUTING_DOCKER":
+        elif any(s == "EXECUTING_DOCKER" or s == "EXECUTING_PREPARING" or s == "SAVING_RESULT_FILES" for s in ss):
             tag = "RUNNING"
-        elif status == "WAITING":
+        elif any(s == "WAITING" for s in ss):
             tag = "WAITING"
-        elif status == "CANCELED":
+        elif any(s == "FINISHED_WITH_ERROR" for s in ss):
+            tag = "FAILED"
+        elif all(s == "CANCELED" for s in ss):
             tag = "CANCELED"
         else:
-            tag = "FAILED"
+            tag = "FAILED"  # unknown state — flag as fail
 
         counts[tag] += 1
         details[tag].append(org)
@@ -208,7 +214,7 @@ def monitor(request):
             f"<b>{name}</b>\n"
             f"  총 {total}개 기관\n"
             f"  COMPLETE: {c['COMPLETE']}  |  RUNNING: {c['RUNNING']}  |  "
-            f"FAILED: {c['FAILED']}  |  WAITING: {c['WAITING']}"
+            f"WAITING: {c['WAITING']}  |  FAILED: {c['FAILED']}  |  CANCELED: {c['CANCELED']}"
         )
 
         if new_complete > 0:
