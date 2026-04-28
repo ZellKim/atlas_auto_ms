@@ -508,6 +508,18 @@ fwrite(result$table1, "table1_publication.csv")     # paper-ready
 fwrite(result$balance, "table1_balance_exact_N.csv") # 모든 spec covariate 상세
 ```
 
+**Multi-analysis 연구 (v4 스타일)**: 한 사이트에 여러 analysis 디렉토리가 있고(예: `cbc_wbc/`, `chem_hepa/`) primary outcome이 분석마다 분산되어 있을 때:
+
+```r
+build_table1(list(
+  cmdata_root        = ".../cmData_<study>",
+  analysis_subdir    = "v4_1a_cbc_wbc",          # site/analysis_subdir/CmData_*
+  prior_excluded_ids = full_union_lookback_ids,   # 호출자가 모든 analysis의 outcomes union
+  ...
+))
+```
+이유: 각 analysis sqlite는 자기 outcomes만 보유 → full-union lookback은 caller가 사전 계산 후 주입. `analysis_subdir = NULL`(default)일 때는 single-analysis 경로 (`{site}/CmData_l1_t<T>_c<C>/`).
+
 **참조 구현**: `studies/allergic_diseases/R/run_v7_table1_exact.R` (v7 16-site standalone, 2026-04-28) ↔ `R/run_v7_table1_via_lib.R` (lib 호출, bit-for-bit identical regression 통과).
 
 ---

@@ -52,17 +52,26 @@ suppressPackageStartupMessages({
 # build_table1(config)
 #
 # config = list(
-#   cmdata_root      = "C:/.../cmData_<study>",   # {site}/CmData_l1_t<T>_c<C>/*.sqlite
+#   cmdata_root      = "C:/.../cmData_<study>",   # {site}[/{analysis_subdir}]/CmData_l1_t<T>_c<C>/*.sqlite
 #   sites            = NULL or character vector  (NULL = autodetect)
 #   target_id        = 1290L,
 #   comparator_id    = 1287L,
-#   primary_outcomes = c(1288L, 1289L),  # for lookback exclusion
-#   lookback_days    = 365L,
+#   primary_outcomes = c(1288L, 1289L),  # for lookback exclusion (ignored if prior_excluded_ids supplied)
+#   lookback_days    = 365L,             # ignored if prior_excluded_ids supplied
 #   matched_rds      = ".../matched.rds",
 #   primary_csv      = ".../primary.csv",  # for N consistency check
 #   spec_top_n_cond  = 10L,
 #   spec_top_n_drug  = 8L,
-#   extra_cov_ids    = NULL  # additional covariateIds to force include
+#   extra_cov_ids    = NULL,  # additional covariateIds to force include
+#   # --- 2026-04-28: multi-analysis support ---
+#   analysis_subdir    = NULL,  # e.g. "v4_1a_cbc_wbc". If provided, sqlite path becomes
+#                                # {cmdata_root}/{site}/{analysis_subdir}/CmData_l1_t<T>_c<C>/*.sqlite
+#                                # Cohorts/covariates are identical across analyses (same T/C),
+#                                # so reading from one analysis suffices.
+#   prior_excluded_ids = NULL   # integer vector of OFFSET-applied rowIds to exclude
+#                                # (overrides the internal outcomes-table lookback computation).
+#                                # Required when primary outcomes span multiple analyses (full-union),
+#                                # because each analysis's sqlite holds only its own outcomes.
 # )
 # -----------------------------------------------------------------------------
 build_table1 <- function(config) {
@@ -73,20 +82,29 @@ build_table1 <- function(config) {
   LB      <- as.integer(config$lookback_days %||% 365L)
   TOP_C   <- as.integer(config$spec_top_n_cond %||% 10L)
   TOP_D   <- as.integer(config$spec_top_n_drug %||% 8L)
+  SUBDIR  <- config$analysis_subdir   # NULL or string
+  EXT_PRIOR <- config$prior_excluded_ids
+
+  # Path helper: insert optional analysis subdir between site and CmData_*
+  cm_path <- function(site) {
+    if (is.null(SUBDIR))
+      file.path(CMROOT, site, sprintf("CmData_l1_t%d_c%d", T_ID, C_ID))
+    else
+      file.path(CMROOT, site, SUBDIR, sprintf("CmData_l1_t%d_c%d", T_ID, C_ID))
+  }
 
   if (is.null(config$sites)) {
     SITES <- sort(list.files(CMROOT))
-    SITES <- SITES[file.exists(file.path(CMROOT, SITES,
-                                          sprintf("CmData_l1_t%d_c%d", T_ID, C_ID)))]
+    SITES <- SITES[file.exists(vapply(SITES, cm_path, character(1)))]
   } else SITES <- config$sites
-  cat(sprintf("[Table1] Sites: %d\n", length(SITES)))
+  cat(sprintf("[Table1] Sites: %d%s\n", length(SITES),
+              if (!is.null(SUBDIR)) sprintf("  (analysis_subdir=%s)", SUBDIR) else ""))
 
   # -------------------------------------------------------------------------
   # Stage 1: get superset of candidate covariateIds in target analysisIds
   # via covariateRef (small) from one site. Set is consistent across sites.
   # -------------------------------------------------------------------------
-  ref_sqf  <- list.files(file.path(CMROOT, SITES[1],
-                                    sprintf("CmData_l1_t%d_c%d", T_ID, C_ID)),
+  ref_sqf  <- list.files(cm_path(SITES[1]),
                          pattern = "\\.sqlite$", full.names = TRUE)[1]
   con <- dbConnect(SQLite(), ref_sqf)
   ref_names <- as.data.table(dbGetQuery(con,
@@ -111,28 +129,34 @@ build_table1 <- function(config) {
   prior_ids <- integer(0)
   for (si in seq_along(SITES)) {
     off <- (si - 1L) * 100000000L
-    sqf <- list.files(file.path(CMROOT, SITES[si],
-                                  sprintf("CmData_l1_t%d_c%d", T_ID, C_ID)),
+    sqf <- list.files(cm_path(SITES[si]),
                        pattern = "\\.sqlite$", full.names = TRUE)[1]
     con <- dbConnect(SQLite(), sqf)
     cov <- as.data.table(dbGetQuery(con, sprintf(
       "SELECT rowId, covariateId, covariateValue FROM covariates WHERE covariateId IN (%s)",
       cid_sql_all)))
     coh <- as.data.table(dbGetQuery(con, "SELECT rowId, treatment FROM cohorts"))
-    oc  <- as.data.table(dbGetQuery(con, sprintf(
-      "SELECT rowId FROM outcomes WHERE outcomeId IN (%s) AND daysToEvent < 0 AND daysToEvent >= %d",
-      paste(PRI, collapse = ","), -LB)))
+    # Skip internal outcomes-table lookback if caller supplied prior_excluded_ids.
+    # In multi-analysis studies the local outcomes table holds only THIS analysis's
+    # outcomes, so a full-union lookback must be computed by the caller.
+    if (is.null(EXT_PRIOR)) {
+      oc <- as.data.table(dbGetQuery(con, sprintf(
+        "SELECT rowId FROM outcomes WHERE outcomeId IN (%s) AND daysToEvent < 0 AND daysToEvent >= %d",
+        paste(PRI, collapse = ","), -LB)))
+      if (nrow(oc) > 0) prior_ids <- c(prior_ids, unique(as.integer(oc$rowId) + off))
+    }
     dbDisconnect(con)
     cov[, rowId := as.integer(rowId) + off]
     cov[, covariateId := as.numeric(covariateId)]
     coh[, rowId := as.integer(rowId) + off]
-    if (nrow(oc) > 0) prior_ids <- c(prior_ids, unique(as.integer(oc$rowId) + off))
     all_cov[[si]] <- cov; all_coh[[si]] <- coh
   }
+  if (!is.null(EXT_PRIOR)) prior_ids <- as.integer(EXT_PRIOR)
   cov_pool <- rbindlist(all_cov)
   coh_pool <- rbindlist(all_coh)
-  cat(sprintf("[Table1] Pool raw: cohort %d, cov %d  | lookback excl: %d\n",
-              nrow(coh_pool), nrow(cov_pool), length(prior_ids)))
+  cat(sprintf("[Table1] Pool raw: cohort %d, cov %d  | lookback excl: %d%s\n",
+              nrow(coh_pool), nrow(cov_pool), length(prior_ids),
+              if (!is.null(EXT_PRIOR)) "  (caller-supplied prior_excluded_ids)" else ""))
   coh_pool <- coh_pool[!rowId %in% prior_ids]
   cov_pool <- cov_pool[!rowId %in% prior_ids]
 
