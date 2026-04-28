@@ -439,6 +439,77 @@ NC HR → EmpiricalCalibration → calibrated HR. 기준: NC median ≈ 1.0, 유
 
 **출처**: v4 analysis에서 54 condition NC 유지 결정 (`studies/appendectomy/v4_analysis_plan.md` §2.4, §4).
 
+### 5.5 Baseline Table 1 (publication-ready, exact N) — 2026-04-28 확립
+
+**원칙**: CmData sqlite의 row-level data를 직접 카운트해서 정확한 N + signed SMD 산출. CohortMethod의 `prepareTable1`/`createCmTable1`는 미국 표준 concept ID(Race/Ethnicity 등)에 의존해 한국 CDM에서 crash. 사용자 옛 패턴(prop × N 복원)은 round-off 손실.
+
+**핵심 차이**:
+
+| 접근 | 정확도 | 한국 CDM 호환 |
+|---|---|---|
+| `CohortMethod::createCmTable1()` (default spec) | exact | ❌ Race/Ethnicity 부재로 crash |
+| 사용자 옛 `prepareTable1()` + prop × N | ±수십 (round-off) | ✅ 함수 자체는 robust |
+| **sqlite 직접 카운트** (권장) | exact (machine epsilon) | ✅ |
+
+**구현 패턴** (R 스크립트, 표준 위치 `studies/{연구}/R/run_*_table1_exact.R`):
+
+```r
+# 1) 16 site sqlite의 covariates 테이블에서 spec covariateId만 SELECT
+con <- dbConnect(SQLite(), site_sqlite)
+cov <- dbGetQuery(con, sprintf("SELECT rowId, covariateId, covariateValue
+                                 FROM covariates WHERE covariateId IN (%s)", cid_sql))
+coh <- dbGetQuery(con, "SELECT rowId, treatment FROM cohorts")
+
+# 2) site offset (1e8 × site_index) 후 pool
+cov[, rowId := as.integer(rowId) + offset]
+cov[, covariateId := as.numeric(covariateId)]   # drug ID는 int32 overflow → numeric 필수
+
+# 3) Lookback 일관성 — primary 분석과 동일 365d 적용
+prior_ids <- outcomes WHERE outcomeId IN primary AND daysToEvent IN [-365, 0)
+coh_pool <- coh_pool[!rowId %in% prior_ids]
+
+# 4) Pre/post N exact count
+nT_pre  <- coh_pool[treatment == 1, .N]      # primary.csv N과 정확히 일치해야
+nT_post <- coh_pool[rowId %in% matched_ids & treatment == 1, .N]
+
+# 5) Cov sum per (covariateId, treatment) → exact 환자 N
+sum_T <- cov[treatment == 1, sum(covariateValue), by = covariateId]
+mean_T <- sum_T / nT
+SMD <- (mean_T - mean_C) / sqrt((mean_T*(1-mean_T) + mean_C*(1-mean_C)) / 2)
+```
+
+**Spec 선정 (Korean CDM 적응)**:
+- Demographics: analysisId 1 (gender 8507/8532), analysisId 3 (age group, 5y bands)
+- Medical history: analysisId 210, **default spec covariateIds 무시** + 우리 데이터 top-prevalence로 동적 선택
+- Medication: analysisId 410, 동일 패턴
+- Race/Ethnicity (analysisId 4, 5) **제외** — Korean CDM 미수집
+
+**검증 체크리스트**:
+1. Sanity: `meanT_pre × nT_pre`로 계산한 sum vs sqlite 직접 sum의 max diff < 1e-10 (machine epsilon)
+2. Pre-match N이 `primary.csv`의 nT, nC와 정확히 일치 (lookback 적용 확인)
+3. Post-match N이 matched.rds rowId 수의 절반과 정확히 일치
+
+**SMD 부호 관행**: 기본 signed (T-C / pooled SD). `+0.00`/`-0.00`은 cosmetic으로 `0.00`으로 통일. \|SMD\|>0.1 임계값은 footnote 명시.
+
+**<5 cell suppression**: 없음. CmData는 patient-level이고 feedernet은 row data 그대로 전송. 옛 NHIS/HIRA 집계 결과처럼 <5 마스킹 걱정 불필요.
+
+**재사용 라이브러리**: `R/lib/baseline_table1.R` — `build_table1(config)` 한 호출로 끝.
+
+```r
+source("R/lib/baseline_table1.R")
+result <- build_table1(list(
+  cmdata_root      = ".../cmData_<study>",
+  target_id        = 1290L, comparator_id = 1287L,
+  primary_outcomes = c(1288L, 1289L), lookback_days = 365L,
+  matched_rds      = ".../matched.rds",
+  spec_top_n_cond  = 10L, spec_top_n_drug = 8L
+))
+fwrite(result$table1, "table1_publication.csv")     # paper-ready
+fwrite(result$balance, "table1_balance_exact_N.csv") # 모든 spec covariate 상세
+```
+
+**참조 구현**: `studies/allergic_diseases/R/run_v7_table1_exact.R` (v7 16-site standalone, 2026-04-28) ↔ `R/run_v7_table1_via_lib.R` (lib 호출, bit-for-bit identical regression 통과).
+
 ---
 
 ## 6. 이슈 해결 패턴
