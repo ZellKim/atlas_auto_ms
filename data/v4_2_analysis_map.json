@@ -1,0 +1,38 @@
+{
+  "v4_2_cbc_wbc": {
+    "atlas_id": 232,
+    "analysis_id": 11070,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_cbc_wbc"
+  },
+  "v4_2_cbc_rbc": {
+    "atlas_id": 233,
+    "analysis_id": 11071,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_cbc_rbc"
+  },
+  "v4_2_chem_hepa": {
+    "atlas_id": 234,
+    "analysis_id": 11072,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_chem_hepa"
+  },
+  "v4_2_meta_endo": {
+    "atlas_id": 235,
+    "analysis_id": 11073,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_meta_endo"
+  },
+  "v4_2_sex_specific": {
+    "atlas_id": 236,
+    "analysis_id": 11074,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_sex_specific"
+  },
+  "v4_2_clinical": {
+    "atlas_id": 237,
+    "analysis_id": 11075,
+    "atlas_site_id": 203,
+    "analysis_name": "appendectomy_v8_clinical"
+  }
+}

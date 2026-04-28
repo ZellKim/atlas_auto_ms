@@ -1,8 +1,14 @@
 """
-v4 estimation 현재 상태를 v4_monitor_state.json 스냅샷에서 읽어 출력.
+v4 / v4.2 estimation 현재 상태를 monitor_state.json 스냅샷에서 읽어 출력.
 
 - API 호출 없이 마지막 poll 결과만 표시 (빠름, 무해).
-- 라이브 상태 필요하면 `python v4_phase_e_monitor.py` 재실행.
+- 라이브 상태 필요하면 `python v4_phase_e_monitor.py [--pid ... --map ... --state ...]` 재실행.
+
+CLI:
+  # default (v4.1)
+  python v4_status_show.py
+  # v4.2
+  python v4_status_show.py --map data/v4_2_analysis_map.json --state data/v4_2_monitor_state.json
 
 출력:
   analysis × status 집계, FAILED/WAITING per-site 상세, last_poll age.
@@ -12,6 +18,7 @@ import sys
 import json
 import datetime
 import functools
+import argparse
 
 print = functools.partial(print, flush=True)
 
@@ -36,12 +43,17 @@ def load_site_map():
 
 
 def main():
-    if not os.path.exists(STATE_PATH):
-        print(f'(no state file: {STATE_PATH})')
+    parser = argparse.ArgumentParser(description='Show v4 / v4.2 estimation snapshot')
+    parser.add_argument('--map', dest='map_path', default=ANA_MAP_PATH, help='analysis map JSON path')
+    parser.add_argument('--state', dest='state_path', default=STATE_PATH, help='state JSON path')
+    args = parser.parse_args()
+
+    if not os.path.exists(args.state_path):
+        print(f'(no state file: {args.state_path})')
         sys.exit(0)
-    with open(STATE_PATH, encoding='utf-8') as f:
+    with open(args.state_path, encoding='utf-8') as f:
         state = json.load(f)
-    with open(ANA_MAP_PATH, encoding='utf-8') as f:
+    with open(args.map_path, encoding='utf-8') as f:
         ana_map = json.load(f)
     sites = load_site_map()
 

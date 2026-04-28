@@ -61,6 +61,7 @@ docs/irb_*.md
 # 대용량 runtime/raw 데이터 (코드만 커밋)
 data/v4_*_raw.json
 data/v4_monitor_state.json
+data/v4_2_monitor_state.json
 data/measurement/raw_drilldown/
 reference/
 *.msi
