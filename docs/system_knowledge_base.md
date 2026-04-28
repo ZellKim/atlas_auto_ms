@@ -248,6 +248,17 @@ for cid in cdmIds:
 - 사이트 100개+ 트리거하면서 gradual rate 통제 원할 때
 - 그 외 대부분 → bulk 권장 (트리거 시간 ~200x 단축)
 
+**검증 후 중복 cancel — 상태 조회 시 함정 (2026-04-28 기록)**:
+v4.2 검증 시퀀스는 (1) 2026-04-26 16:36 sequential trigger 132 + (2) 같은 날 bulk POST 110 (cbc_rbc/chem_hepa/meta_endo/sex_specific/clinical 각 22) 였음. **(2) bulk POST가 안전함을 확인한 즉시 110 중복 execution은 모두 의도적으로 cancel** 함 (사이트 부담 회피). 결과적으로 feedernet API에서 v4.2 5개 분석을 polling 하면 site별로 `[FINISHED_SUCCESSFULLY/WAITING, CANCELED-startedAt-None]` 두 execution이 보임.
+
+**함정**: naïve "latest by id" 로직 (`v4_phase_e_monitor.flatten_latest_per_cdm` 구버전 / 직접 작성한 일회성 poll 스크립트)으로 polling 하면 → 21/22 CANCELED → "v4.2 폭망" false alarm. CLAUDE.md ⛔ 추측 금지 규칙 직접 위반 케이스.
+
+**올바른 read 규칙**:
+- `executionStatus == 'CANCELED'` AND `startedAt is None` AND `completedAt is None` AND **그 cdm에 더 이전 execution이 있으면** → preempted-duplicate, 무시. 그 이전의 의미 있는 execution을 latest로 사용
+- 단일 execution이거나 startedAt이 있는 CANCELED는 진짜 cancel (예: UUH 2026-04-23 hang cancel 처럼) → 그대로 보고
+- `data/scripts/v4_phase_e_monitor.py`에 이 로직 반영 완료 (2026-04-28)
+- cloud_monitor는 이미 `e992f2b` commit에서 per-cdm any-state aggregation으로 처리
+
 ### 2.5 Achilles 수집
 
 ```python
