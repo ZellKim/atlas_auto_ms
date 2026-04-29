@@ -15,6 +15,7 @@ import sys, os, json, zipfile, argparse, subprocess
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "automation"))
 from feedernet_client import FedernetClient
+from credentials import get_feedernet_credentials
 
 # ─── 설정 ───
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -27,10 +28,7 @@ PROJECT_ID = 2908
 ANALYSIS_ID = 10858
 TARGET_RESEARCH = "E01_E04_clinical_ms_v6_nomatch"
 
-EMAIL = "20230172@khnmc.or.kr"
-PASSWORD = "rlaaudtjr1!"
-
-
+EMAIL, PASSWORD = get_feedernet_credentials()  # via GCP Secret / env var
 def login():
     client = FedernetClient()
     client.login_portal(EMAIL, PASSWORD)

@@ -24,6 +24,28 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 - 2026-04-19: 파일명 prefix 확인 안 하고 supplemental 결과를 main으로 착각 → Hernia SMD false alarm
 - 2026-04-20: state 파일의 `downloaded` 누적만 보고 "15/22, UUH 임박" 추측 → 실제 UUH는 FAILED 상태, DSMC도 queue에 있던 것 누락
 
+## ⛔ 최우선 규칙 — 기존 자산 먼저 확인 (No Reinventing)
+
+**뭔가 할 때 (스크립트, 데이터, 코드, 분석) 새로 만들기 전에 폴더 내에 이미 존재하는지부터 확인.**
+
+적용 대상:
+- **새 스크립트 작성 전**: `Glob`/`Grep`로 `data/scripts/`, `automation/`, `studies/{연구}/`, `R/lib/` 검색. 비슷한 이름·기능 있으면 그것부터 검토.
+- **API 호출 전**: 직접 endpoint 추측 X. `data/atlas_reference/atlas_webapi_endpoints.csv` + `automation/feedernet_client.py` 메서드 + 기존 호출 사례 grep.
+- **분석 데이터 수집 전**: `data/measurement/`, `data/concept_frequency/`, `studies/{연구}/docs/`, `C:\Users\adam\Desktop\atlas_auto_result\` 먼저 확인.
+- **모니터링/상태 조회 전**: `v4_phase_e_monitor.py` (estimation), monitor state 파일, cloud_monitor 등 캐노니컬 도구 사용. 직접 API call 작성 X.
+- **Credential 작성 전**: `automation/credentials.py` 사용 (env → GCP Secret → local file fallback). 하드코딩 X.
+- **Cohort/biomarker 매핑 전**: `data/site_mapping/`, `data/measurement/site_concept_matrix.csv`, `stability_summary.csv` 우선 참조.
+
+**검색 순서** (어떤 task든):
+1. `Glob` — 파일명 패턴 (`*monitor*.py`, `*deploy*char*.py`, `build_table*`)
+2. `Grep` — 키워드 (`API endpoint`, `class FedernetClient`, 함수명)
+3. 발견된 파일 `Read` 후 사용·확장. 처음부터 새로 작성 X.
+4. 정말 없으면 그때 신규 작성 (그리고 PROGRESS.md에 산출물 위치 기록).
+
+**위반 전례** (이 규칙이 생긴 이유):
+- 2026-04-30: estimation live status 조회 — `v4_phase_e_monitor.py` 표준 도구 있는데 직접 `dashboard/project/...` URL 추측 → 404 → grep으로 정답 찾고 → 직접 Counter 작성 → cdmName 위치 잘못 → 다시 raw inspect → 5-10분 낭비. 정답: `python data/scripts/v4_phase_e_monitor.py [--pid 5126]` 한 줄.
+- 2026-04-29: Δ analysis 위해 char data 새로 수집하려다 → 실은 `data/measurement/characterization/char_preset_all.csv`에 47K rows 이미 존재.
+
 ## 대화 시작 시
 
 1. `cat docs/system_knowledge_base.md` — API 레시피, 운영 지식, 체크리스트
@@ -83,3 +105,32 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 - **연구별 지식** (설계, 매핑, 이슈) → `studies/{연구}/study_knowledge_base.md`
 - **연구별 진행** → `studies/{연구}/PROGRESS.md`
 - credentials 절대 커밋 금지
+
+## ⛔ Credentials 처리 (2026-04-29 정립)
+
+**모든 새 스크립트는 `automation/credentials.py` 사용**:
+
+```python
+import sys
+sys.path.insert(0, r"G:\My Drive\KHNMC\atlas_auto_with_claude\automation")
+from credentials import get_feedernet_credentials, get_telegram_credentials
+
+# feedernet
+client.login_portal(*get_feedernet_credentials())
+
+# Telegram
+token, chat_id = get_telegram_credentials()
+```
+
+**Resolution order** (`automation/credentials.py`):
+1. 환경변수: `FEEDERNET_EMAIL` / `FEEDERNET_PASSWORD` (또는 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`)
+2. GCP Secret Manager (`investment-os-chain` 프로젝트)
+3. 로컬 파일: `~/.atlas_auto_credentials.json` (gitignored)
+4. 실패 → 명확한 에러 (어디 설정해야 하는지 알려줌)
+
+**금지**:
+- `client.login_portal("20230172@khnmc.or.kr", "rlaaudtjr1!")` 같은 하드코딩
+- `EMAIL = "..."` / `PASSWORD = "..."` 변수 직접 정의
+- `.env` 파일을 git에 커밋
+
+**기존 스크립트 refactor 도구**: `automation/_refactor_creds.py` (one-time 사용, 신규 스크립트가 같은 패턴 따르면 재사용 X)

@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """
 Update data/site_mapping/site_summary_23.csv:
 - Fill UUH missing data from feedernet dashboard API
@@ -37,7 +41,7 @@ print(f'Current columns: {orig_fields}')
 
 # Fetch UUH via dashboard
 client = FedernetClient()
-client.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+client.login_portal(*get_feedernet_credentials())
 cdms = client.get_available_cdms()
 by_name = {c.get('cdmName'): c for c in cdms}
 

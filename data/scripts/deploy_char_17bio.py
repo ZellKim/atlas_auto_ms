@@ -2,6 +2,7 @@
 import sys, json, re
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, r"g:\내 드라이브\KHNMC\atlas_auto_with_claude\automation")
+from credentials import get_feedernet_credentials
 from feedernet_client import FedernetClient
 
 
@@ -51,7 +52,7 @@ TIME_WINDOWS = [
 # ===== Phase 1: KHNMC에서 template FA 생성 =====
 print("=== Phase 1: KHNMC에서 FA 생성 ===")
 client = FedernetClient()
-client.login_portal("20230172@khnmc.or.kr", "rlaaudtjr1!")
+client.login_portal(*get_feedernet_credentials())
 client.connect_site(7, 203)
 
 # FA 372 (WindowedCriteria template) 존재 확인
@@ -159,7 +160,7 @@ sites_13 = [
 for gid, sid, code in sites_13:
     try:
         c = FedernetClient()
-        c.login_portal("20230172@khnmc.or.kr", "rlaaudtjr1!")
+        c.login_portal(*get_feedernet_credentials())
         c.connect_site(gid, sid)
 
         sources = c.get_sources()

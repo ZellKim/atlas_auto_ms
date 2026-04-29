@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """
 Phase B: Build 5 v4 estimation by copying ATLAS 212 (biomarker_v3) base.
 
@@ -164,7 +168,7 @@ def build_estimation(client, est_name, outcome_ids, base_spec_str, base_data):
 
 def main():
     c = FedernetClient()
-    c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+    c.login_portal(*get_feedernet_credentials())
     c.connect_site(group_id=KHNMC_GROUP, site_id=KHNMC_SITE)
 
     # Fetch base 212 once to verify

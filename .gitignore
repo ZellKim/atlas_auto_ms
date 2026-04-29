@@ -1,6 +1,8 @@
 # credentials & config
 config.yaml
 *.env
+.atlas_auto_credentials.json
+**/.atlas_auto_credentials.json
 
 # Python
 __pycache__/
@@ -63,6 +65,7 @@ data/v4_*_raw.json
 data/v4_monitor_state.json
 data/v4_2_monitor_state.json
 data/measurement/raw_drilldown/
+data/measurement/characterization/raw_3sites/
 reference/
 *.msi
 

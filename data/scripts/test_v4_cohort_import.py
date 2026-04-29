@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """
 v4 cohort 1개 ATLAS import 테스트 (WBC_high)
 - import 후 KHNMC에서 generate → count 확인 → 검증
@@ -18,7 +22,7 @@ KHNMC = {'group_id': 7, 'site_id': 203, 'sourceKey': 'cdmpv53_251128'}
 
 def main():
     c = FedernetClient()
-    c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+    c.login_portal(*get_feedernet_credentials())
     c.connect_site(group_id=KHNMC['group_id'], site_id=KHNMC['site_id'])
 
     # 1. Create cohort from JSON

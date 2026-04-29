@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """
 Phase E: Local monitor for v4 / v4.2 executions.
 
@@ -285,7 +289,7 @@ def main():
     state = load_state()
 
     c = FedernetClient()
-    c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+    c.login_portal(*get_feedernet_credentials())
 
     for est_name, info in ana_map.items():
         if info.get('error'):

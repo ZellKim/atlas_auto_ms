@@ -2,10 +2,11 @@
 import sys, json
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, r"g:\내 드라이브\KHNMC\atlas_auto_with_claude\automation")
+from credentials import get_feedernet_credentials
 from feedernet_client import FedernetClient
 
 c = FedernetClient()
-c.login_portal("20230172@khnmc.or.kr", "rlaaudtjr1!")
+c.login_portal(*get_feedernet_credentials())
 c.connect_site(7, 203)
 
 def concept(cid, name, loinc):

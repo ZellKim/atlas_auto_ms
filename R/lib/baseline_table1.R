@@ -203,8 +203,13 @@ build_table1 <- function(config) {
   pre_with_ai[, max_prev := pmax(meanT, meanC)]
   age_ids    <- pre_with_ai[analysisId == 3L,   covariateId]
   gender_ids <- pre_with_ai[analysisId == 1L,   covariateId]
-  cond_ids   <- pre_with_ai[analysisId == 210L][order(-max_prev)][1:TOP_C, covariateId]
-  drug_ids   <- pre_with_ai[analysisId == 410L][order(-max_prev)][1:TOP_D, covariateId]
+  # TOP_C / TOP_D = 0 → skip auto-pick (caller will supply via extra_cov_ids).
+  # Useful for hand-curated clinically meaningful categories instead of auto top-prevalence
+  # (which can be dominated by procedural artifacts like contrast media or "Various").
+  cond_ids   <- if (TOP_C > 0) pre_with_ai[analysisId == 210L][order(-max_prev)][1:TOP_C, covariateId]
+                else numeric(0)
+  drug_ids   <- if (TOP_D > 0) pre_with_ai[analysisId == 410L][order(-max_prev)][1:TOP_D, covariateId]
+                else numeric(0)
   needed_cids <- unique(c(age_ids, gender_ids, cond_ids, drug_ids,
                           as.numeric(config$extra_cov_ids)))
   needed_cids <- needed_cids[!is.na(needed_cids)]
@@ -252,16 +257,23 @@ build_table1 <- function(config) {
     rbindlist(out)
   }
 
+  # Section labels — caller may override (e.g. for hand-curated category sets)
+  cond_label <- config$cond_label %||%
+                (if (TOP_C > 0) sprintf("Medical history (1 yr prior, top %d)", TOP_C)
+                 else "Medical history (1 yr prior)")
+  drug_label <- config$drug_label %||%
+                (if (TOP_D > 0) sprintf("Medication use (1 yr prior, top %d)", TOP_D)
+                 else "Medication use (1 yr prior)")
   t1 <- rbindlist(list(
     data.table(Characteristic = sprintf(
         "Pre-match: T=%s, C=%s   Post-match: T=%s, C=%s (1:1)",
         format(nT_pre,  big.mark=","), format(nC_pre,  big.mark=","),
         format(nT_post, big.mark=","), format(nC_post, big.mark=",")),
         bf_T="", bf_C="", bf_SMD="", af_T="", af_C="", af_SMD=""),
-    build_section("Demographics — Age",                       3L),
-    build_section("Demographics — Gender",                    1L),
-    build_section(sprintf("Medical history (1 yr prior, top %d)", TOP_C), 210L),
-    build_section(sprintf("Medication use (1 yr prior, top %d)", TOP_D),  410L)
+    build_section("Demographics — Age",    3L),
+    build_section("Demographics — Gender", 1L),
+    build_section(cond_label,              210L),
+    build_section(drug_label,              410L)
   ))
   setnames(t1, c("bf_T","bf_C","bf_SMD","af_T","af_C","af_SMD"),
            c("Before T","Before C","Before SMD","After T","After C","After SMD"))

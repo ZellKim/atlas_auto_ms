@@ -134,18 +134,30 @@ ipd_build_pooled <- function(cmdata_root, sites, target_id, comparator_id,
 # excludes subjects with prior occurrence of ANY primary outcome within
 # `lookback_days` before index.
 # -----------------------------------------------------------------------------
-ipd_apply_lookback <- function(pool, primary_ids, lookback_days) {
+ipd_apply_lookback <- function(pool, primary_ids, lookback_days, skip_recent_days = 0L) {
+  # skip_recent_days: ignore abnormalities within the last N days before index.
+  # Use case: include patients whose acute pre-surgical labs were elevated
+  # (e.g. acute appendicitis), excluding only patients with truly chronic
+  # baseline abnormalities outside the acute window. Set to 30 to skip the
+  # immediate pre-op month (acute-resolution alternative to strict full-window).
+  # Preserve original `daysToEvent < 0` semantics (events strictly before index)
+  # so day-0 events (labs taken on the day of surgery) are NOT counted as prior.
+  # Day-0 events are common in surgical cohorts (ED workup labs same day as surgery)
+  # and excluding them as "prior" was an off-by-one bug introduced 2026-04-29.
   prior_rows <- pool$outcomes %>%
     dplyr::filter(outcomeId %in% primary_ids,
                   daysToEvent < 0,
+                  daysToEvent <= -skip_recent_days,
                   daysToEvent >= -lookback_days)
   prior <- unique(prior_rows$rowId)
   n_before <- nrow(pool$cohorts)
   pool$cohorts    <- pool$cohorts[!pool$cohorts$rowId %in% prior, ]
   pool$outcomes   <- pool$outcomes[!pool$outcomes$rowId %in% prior, ]
   pool$covariates <- pool$covariates[!pool$covariates$rowId %in% prior, ]
-  cat(sprintf("  Lookback[%dd]: excluded %d, kept %d/%d (%.1f%%)\n",
-              lookback_days, length(prior), nrow(pool$cohorts), n_before,
+  win_label <- if (skip_recent_days == 0L) sprintf("[%dd]", lookback_days)
+               else sprintf("[%dd skip last %dd]", lookback_days, skip_recent_days)
+  cat(sprintf("  Lookback%s: excluded %d, kept %d/%d (%.1f%%)\n",
+              win_label, length(prior), nrow(pool$cohorts), n_before,
               100 * nrow(pool$cohorts) / n_before))
   pool
 }
@@ -394,7 +406,8 @@ run_ipd_pooled <- function(config) {
             !is.null(config$primary_outcomes))
 
   risk_window   <- if (is.null(config$risk_window)) c(1L, 3650L) else config$risk_window
-  lookback_days <- if (is.null(config$lookback_days)) 365L else config$lookback_days
+  lookback_days    <- if (is.null(config$lookback_days)) 365L else config$lookback_days
+  skip_recent_days <- if (is.null(config$skip_recent_days)) 0L  else as.integer(config$skip_recent_days)
   dual_map      <- config$dual_unit_map
   time_windows  <- config$time_windows
   analyses      <- config$analyses
@@ -414,7 +427,7 @@ run_ipd_pooled <- function(config) {
                             unname(unlist(dual_map))))
                  else config$primary_outcomes
   cat("\n== Step 2: apply lookback ==\n")
-  pool <- ipd_apply_lookback(pool, primary_raw, lookback_days)
+  pool <- ipd_apply_lookback(pool, primary_raw, lookback_days, skip_recent_days)
 
   # 3) PS LASSO
   cat("\n== Step 3: fit PS ==\n")

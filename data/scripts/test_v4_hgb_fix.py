@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """Hgb_low_sex 재import 테스트 (fallback 추가 후 count 증가 확인)"""
 import os, sys, time, functools
 print = functools.partial(print, flush=True)
@@ -8,7 +12,7 @@ COHORT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'
                             'studies', 'appendectomy', 'cohort_definitions', 'v4')
 
 c = FedernetClient()
-c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+c.login_portal(*get_feedernet_credentials())
 c.connect_site(group_id=7, site_id=203)
 
 name = 'v4_Hgb_low_sex'

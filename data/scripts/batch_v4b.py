@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """v4b 43 cohort 전체 batch import + KHNMC generate + count 집계"""
 import os, sys, time, functools, glob, csv
 print = functools.partial(print, flush=True)
@@ -11,7 +15,7 @@ OUT_LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..',
 KHNMC = {'group_id': 7, 'site_id': 203, 'sourceKey': 'cdmpv53_251128'}
 
 c = FedernetClient()
-c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+c.login_portal(*get_feedernet_credentials())
 c.connect_site(group_id=KHNMC['group_id'], site_id=KHNMC['site_id'])
 
 files = sorted(glob.glob(os.path.join(COHORT_DIR, 'v4_*.json')))

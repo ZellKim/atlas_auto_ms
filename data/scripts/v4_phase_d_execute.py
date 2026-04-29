@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+from credentials import get_feedernet_credentials
+
 """
 Phase D: Trigger 22-site execution for each of 5 v4 analyses in project 5115.
 
@@ -75,7 +79,7 @@ def main():
     print(f'Target {len(cdm_ids)} sites: {codes}')
 
     c = FedernetClient()
-    c.login_portal('20230172@khnmc.or.kr', 'rlaaudtjr1!')
+    c.login_portal(*get_feedernet_credentials())
 
     results = {}
     for est_name, info in ana_map.items():
