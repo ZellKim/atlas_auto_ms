@@ -44,8 +44,15 @@ config <- list(
   #   list("9001" = c(1370, 1369))  # CRP mg/dL + mg/L → 9001
   dual_unit_map = NULL,
 
-  # Optional: landmark analysis windows.
-  time_windows = list(c(1, 30), c(31, 90), c(91, 365), c(366, 1095), c(1096, 3650))
+  # Optional: landmark interval Cox (NON-overlapping windows from index).
+  # NULL → step skipped (default).
+  # Set ONLY if your hypothesis benefits from interval decomposition (e.g.
+  # appendectomy: acute post-op vs late complication). For lag×TAR sliding
+  # sensitivity (e.g. allergic study: lag 0/30/90/180 × TAR 3y/5y), DO NOT
+  # use this — write a separate driver looping risk_window instead.
+  # Appendectomy-style default reference (uncomment per-study only):
+  #   time_windows = list(c(1, 30), c(31, 90), c(91, 365), c(366, 1095), c(1096, 3650))
+  time_windows = NULL
 )
 
 OUT <- "C:/Users/data1/Desktop/atlas_auto_cmdata/{STUDY}/pooled_output"
