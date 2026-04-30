@@ -522,6 +522,83 @@ build_table1(list(
 
 **참조 구현**: `studies/allergic_diseases/R/run_v7_table1_exact.R` (v7 16-site standalone, 2026-04-28) ↔ `R/run_v7_table1_via_lib.R` (lib 호출, bit-for-bit identical regression 통과).
 
+### 5.6 Multi-model Progressive Cox from CmData (Park 2023 비교용) — 2026-04-29 확립
+
+**가능함**: CmData 의 covariates 테이블이 patient-level (sparse long format `rowId × covariateId × covariateValue`)이라 PS 매칭 없이 표준 Cox 회귀 progressive adjustment 분석 가능. Park 2023 / 사용자 옛 statin 분석과 동일한 4-5 model progressive 구조를 구현할 수 있다.
+
+**활용 동기**:
+- Reviewer가 "PS-matched HR만 있고 traditional Cox adjusted HR 없냐" 질문 시 답변
+- Park 2023 (NHIS) 같은 선행연구의 adjusted HR과 직접 비교 행 생성
+- PS matching이 적절했음을 표준 회귀 결과와 일치 확인 (robustness)
+
+**데이터 구조**:
+```
+cohorts:    rowId, personId, treatment, daysToObsEnd, cohortStartDate ...
+outcomes:   rowId, outcomeId, daysToEvent
+covariates: rowId, covariateId, covariateValue   (sparse: 0이면 미저장)
+covariateRef: covariateId, covariateName
+```
+
+**Wide format 변환 (R, 약 15개 핵심 변수만)**:
+```r
+SEL <- list(
+  male       = 8507001L, female  = 8532001L,
+  age_0_4    = 3L,       age_5_9 = 1003L,    age_10_14 = 2003L, age_15_19 = 3003L,
+  visit_count= 1920L,    charlson= 901L,
+  resp_drug  = 21605007410, sense_drug = 21603550410,
+  # + 기타 specific condition/drug covariateIds
+)
+cov_w <- dcast(cov_long, rowId ~ covariateId, value.var = "covariateValue", fill = 0)
+# 컬럼명 friendly로 rename
+```
+
+**Categorical 통합 (paper-friendly)**:
+```r
+# one-hot binary 4개 → factor 1개
+final[, age_group := fcase(
+  age_0_4 == 1, "0-4", age_5_9 == 1, "5-9",
+  age_10_14 == 1, "10-14", age_15_19 == 1, "15-19")]
+final[, age_group := factor(age_group, levels = c("0-4","5-9","10-14","15-19"))]
+final[, age_group := relevel(age_group, ref = "5-9")]   # 큰 군 reference
+final[, sex := factor(fcase(male == 1, "Male", female == 1, "Female"),
+                      levels = c("Female","Male"))]
+```
+
+**Time/event 컬럼 (Cox 입력)**:
+```r
+oc <- outcomes[outcomeId == primary_oid &
+               daysToEvent >= risk_start & daysToEvent <= risk_end,
+               .(adhd_day = min(daysToEvent)), by = rowId]
+final <- merge(coh, oc, all.x = TRUE)
+final[, max_fu := pmin(daysToObsEnd, risk_end)]
+final[, event  := as.integer(!is.na(adhd_day) & adhd_day <= max_fu)]
+final[, time   := ifelse(event == 1, adhd_day, max_fu)]
+```
+
+**Progressive Cox (Park 2023 / 옛 statin 패턴)**:
+```r
+m0 <- coxph(Surv(time, event) ~ treatment + strata(site), data = final)             # crude
+m1 <- update(m0, . ~ . + sex + age_group)                                            # demographics
+m2 <- update(m1, . ~ . + visit_count + charlson)                                     # utilization + comorb
+m3 <- update(m2, . ~ . + resp_drug + sense_drug)                                     # drug history
+# + Cox formula별 HR/CI/p 추출하여 progressive table
+```
+
+**검증 체크**:
+1. m0의 treatment HR은 raw Cox 결과 (PS 매칭 안 한 경우, 큰 imbalance 반영)
+2. m3가 가장 보정 강하지만, 1만 covariate 중 ~15만 사용하므로 PS LASSO보다 약함
+3. PS-matched + NC calibrated HR이 m3 HR과 비슷하면 → 우리 PS 결과 robust
+4. 큰 차이 나면 → unmeasured confounding 가능성 시사
+
+**참조 스크립트**:
+- `studies/allergic_diseases/R/show_analysis_table_head.R` — wide-format 변환 + categorical 통합 데모
+- `studies/allergic_diseases/R/check_covariate_level.R` — CmData 환자레벨 구조 검증
+
+**한계**:
+- 사용 변수 선택은 manual curation 필요 (1만 covariate 다 못 넣음)
+- PS LASSO만큼 high-dim 보정 약함 (그래서 PS-matched가 primary)
+- Multi-model은 supplementary / Park 비교 행 용도가 적합
+
 ---
 
 ## 6. 이슈 해결 패턴
