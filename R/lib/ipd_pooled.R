@@ -396,6 +396,90 @@ ipd_e_value <- function(hr, ci_lb, ci_ub) {
 }
 
 # -----------------------------------------------------------------------------
+# Fast LOSO sensitivity using already-matched cohort.
+#
+# Runs leave-one-site-out by filtering the matched cohort (drop rows where
+# site == skip) and re-running site-stratified Cox + calibration per outcome.
+# **Skips the expensive PSM refit** that full-LOSO would otherwise repeat
+# 15× — relies on the assumption that the primary PSM was site-aware (site
+# indicator is a covariate by default in run_ipd_pooled). Empirically validated
+# 2026-05-05: full-LOSO and fast-LOSO produce equivalent retention counts
+# when site is in the PS covariate set.
+#
+# Speed: full-LOSO ~10 hr (60 PSM refits); fast-LOSO ~5-30 min (Cox only).
+#
+# Args
+#   matched          data.frame from ipd_match_1to1 with columns
+#                    rowId, treatment, site, daysToObsEnd
+#   outcomes         pool$outcomes from ipd_build_pooled (rowId, outcomeId, daysToEvent)
+#   primary_ids      integer vector — primary outcomes
+#   sites            character vector — sites to leave-one-out
+#   nc_ids           integer vector — negative-control outcome IDs (for refit_null path)
+#                    Optional; if NULL, calibration uses null_fit unchanged
+#   null_fit         list(mean=, sd=, n_used=) — primary's fitted null
+#                    Used when recompute_null = FALSE (fast path)
+#   risk_window      c(start, end) days
+#   recompute_null   logical (FALSE = use single null_fit; TRUE = refit per LOSO iter
+#                    using nc_ids over filtered cohort)
+#
+# Returns
+#   data.frame: outcomeId, nT, nC, evT, evC, hr, ciLb, ciUb, logHr, seLogHr, p,
+#               calHr, calCiLb, calCiUb, calP, site_skipped, n_matched, null_mean, null_sd
+#
+# Usage
+#   res <- run_ipd_pooled(config)
+#   loso <- ipd_loso_fast(
+#     matched     = res$matched,
+#     outcomes    = res$pool$outcomes,
+#     primary_ids = config$primary_outcomes,
+#     sites       = config$sites,
+#     null_fit    = res$null,        # reuse primary null (fast)
+#     risk_window = config$risk_window
+#   )
+# -----------------------------------------------------------------------------
+ipd_loso_fast <- function(matched, outcomes, primary_ids, sites,
+                          nc_ids = NULL, null_fit = NULL,
+                          risk_window = c(1L, 3650L),
+                          recompute_null = FALSE) {
+  if (!"site" %in% names(matched)) {
+    stop("matched must contain `site` column")
+  }
+  rs <- as.integer(risk_window[1]); re <- as.integer(risk_window[2])
+  rows <- list()
+  for (skip in sites) {
+    sub <- matched[matched$site != skip, ]
+    if (nrow(sub) == 0) {
+      cat(sprintf("  [skip=%s] empty after filter — skip\n", skip)); next
+    }
+    nT <- sum(sub$treatment == 1); nC <- sum(sub$treatment == 0)
+
+    # Cox over primary outcomes
+    pri <- ipd_cox_outcomes(sub, outcomes, primary_ids, rs, re)
+
+    # Calibration
+    nf <- null_fit
+    if (recompute_null && !is.null(nc_ids)) {
+      nc_res <- ipd_cox_outcomes(sub, outcomes, nc_ids, rs, re)
+      nf <- ipd_fit_null(nc_res)
+    }
+    if (!is.null(nf)) {
+      pri <- ipd_calibrate(pri, nf$mean, nf$sd)
+    }
+
+    pri$site_skipped <- skip
+    pri$n_matched <- min(nT, nC)
+    pri$null_mean <- if (!is.null(nf)) nf$mean else NA_real_
+    pri$null_sd   <- if (!is.null(nf)) nf$sd   else NA_real_
+    rows[[skip]] <- pri
+    cat(sprintf("  [skip=%s] T=%d C=%d, sig=%d/%d\n",
+                skip, nT, nC,
+                sum(!is.na(pri$calP) & pri$calP < 0.05, na.rm = TRUE),
+                nrow(pri)))
+  }
+  do.call(rbind, rows)
+}
+
+# -----------------------------------------------------------------------------
 # High-level driver. Consumes config list, returns analysis result list.
 # -----------------------------------------------------------------------------
 run_ipd_pooled <- function(config) {

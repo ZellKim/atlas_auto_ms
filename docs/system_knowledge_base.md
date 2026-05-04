@@ -599,6 +599,87 @@ m3 <- update(m2, . ~ . + resp_drug + sense_drug)                                
 - PS LASSO만큼 high-dim 보정 약함 (그래서 PS-matched가 primary)
 - Multi-model은 supplementary / Park 비교 행 용도가 적합
 
+### 5.7 Fast LOSO via `ipd_loso_fast()` — 2026-05-05 확립
+
+**Naive LOSO (run_v4_*_loso.R 패턴)**: 60 iter 동안 매번 cmData 로드 + Pool 빌드 + Cyclops LASSO PSM 재fit + match + Cox + null refit + calibrate. **iter당 ~10분 → 60 iter 총 ~10시간**.
+
+**Smart LOSO (`ipd_loso_fast()`)**: primary 결과의 matched cohort + null fit 재활용. iter마다 site별 row drop + Cox만 재실행. **iter당 ~30초 → 60 iter 총 ~10분 (~70× 빠름)**.
+
+**가능한 이유**: `run_ipd_pooled()` 의 Cyclops LASSO PSM이 기본적으로 **site indicator를 covariate로 포함**하므로 PS 모델은 이미 site-aware. LOSO는 본질적으로 "이 site의 데이터를 분석에서 빼면" 인데, site-stratified Cox에 한 stratum이 없는 것과 등가 → 매칭된 cohort에서 그 site 행만 drop하면 됨.
+
+**API**:
+```r
+res <- run_ipd_pooled(config)              # primary 1회 (~15-30 min)
+loso <- ipd_loso_fast(
+  matched     = res$matched,
+  outcomes    = res$pool$outcomes,
+  primary_ids = config$primary_outcomes,
+  sites       = config$sites,
+  null_fit    = res$null,                  # primary null 재사용 (fast path)
+  risk_window = config$risk_window,
+  recompute_null = FALSE                    # TRUE 면 iter마다 nc로 null 재fit (slow)
+)
+```
+
+**Driver 패턴**: `studies/appendectomy/R/run_v4_1_15site_beta_loso_fast.R` 참조. 다른 연구에서 SITES + outcome IDs + cmData_root 만 변경하면 재사용.
+
+**Fast vs Full LOSO 차이** (검증 2026-05-05, appendectomy v4.1 15-site β):
+
+| 항목 | Full LOSO | Fast LOSO |
+|---|---|---|
+| 시간 (60 iter) | ~10시간 | ~10분 |
+| Statistical question | "이 site가 study에 없었다면?" — full pipeline 재실행 | "이 site의 데이터를 분석에서만 뺐다면?" — cohort 고정, Cox만 재실행 |
+| Null fit | iter마다 재fit (per-cohort) | primary 1회 결과 재사용 |
+| 결과 차이 (15-site appendectomy 예) | Chole bio retain 21/23, Hernia bio 7/16, protective core 5 | Chole bio 19/23, Hernia bio 13/16, protective core 6 |
+| 보수성 | 더 보수적 (null이 iter별로 변동) | 약간 더 permissive |
+
+**언제 어느 것?**
+- **Paper 제출용 LOSO 검증**: Full LOSO (보수적, gold standard)
+- **빠른 sensitivity check / 다른 분석 비교 / 다기관 robustness 진단**: Fast LOSO 충분
+- 두 결과가 큰 차이 (예: protective core 5 vs 8 등)면 PS 모델이 site-imbalanced → site indicator coefficient 점검 + null heterogeneity 평가
+
+**경고**:
+- `recompute_null=TRUE` 옵션은 nc outcomes를 가지고 iter별 null 재fit을 하지만 여전히 PSM은 fixed. 더 정확한 보정이지만 full LOSO와 같진 않음. 시간은 ~30분-1시간 (Cox + null fit per iter).
+- matched cohort에 `site` 컬럼 필요. `ipd_match_1to1` 출력은 site 보존하지만 외부 변환 시 누락 주의.
+
+### 5.8 Build script SRC path 관리 (silent staleness 방지) — 2026-05-05 교훈
+
+**증상**: `data/scripts/build_etable*.py` 같은 supplementary 빌드 스크립트가 SRC 경로를 hardcode 하고 있는데, 그 경로의 분석 spec과 paper 본문 spec이 silent하게 어긋남. 결과: paper Table 2 cHR 0.17 + supplementary eTable4 cHR 0.21 같은 내부 불일치 — reviewer 1차 catch 위험.
+
+**전형적 시나리오 (2026-05-05 appendectomy 사례)**:
+- paper Tables 1-4: adam 머신 `v4_1_15site_beta_primary` (β-spec, 15-site, lookback 365-30) 출처
+- 사용자가 PC를 data1으로 옮김
+- 누군가 `build_etable4.py` 를 data1에서 재실행 — script SRC가 data1의 `v4_pooled_output/v4_fu365d_primary.csv` 가리킴
+- 그러나 그 파일은 옛 α-spec (lookback 365 strict, no skip_recent_days, 16-site) regression test 결과
+- → eTable4 가 다른 분석에서 만들어졌는데 paper와 같은 source인 것처럼 commit됨
+
+**예방 패턴**:
+
+1. **Build script header에 source spec 명시**:
+   ```python
+   """
+   eTable X: ...
+   Source: paper β analysis (15 sites, Full-Union 365-30 lookback) at <path>.
+   Reproduces <reference machine/run> bit-for-bit (verified <date>: <key numbers>).
+   """
+   ```
+
+2. **Cross-check paper claim 자동 verify**: build script 끝에 paper의 핵심 N + sig count 와 generated 결과 비교 print:
+   ```python
+   # End of script:
+   print(f'\n=== Paper claim cross-check ===')
+   for stratum, expected_sig, expected_N in PAPER_CLAIMS:
+       actual_sig = ...; actual_N = ...
+       match = '✓' if actual_sig == expected_sig and actual_N == expected_N else '✗'
+       print(f'  {stratum}: paper {expected_sig}/{expected_N} vs run {actual_sig}/{actual_N} {match}')
+   ```
+
+3. **Spec 변경 시 SRC 경로도 따라 변경 (또는 스크립트 새로 작성)**: paper β로 업그레이드할 때 build_etable4.py의 SRC도 함께 갱신. 옛 α regression test는 별도 파일/path로 유지.
+
+4. **Cross-machine 작업 시 cmData 동일성 우선 검증**: PC 옮긴 직후 primary 1회 재실행 후 N + 핵심 cHR 검증해야 paper와 supplementary 정합 보장됨. 검증 안 하고 supplementary만 재빌드 → silent staleness.
+
+**관련 메모리**: `feedback_build_script_src_path.md` (글로벌 메모리에 등재).
+
 ---
 
 ## 6. 이슈 해결 패턴

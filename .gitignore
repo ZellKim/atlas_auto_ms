@@ -78,8 +78,8 @@ data/scripts/missing_pmids.json
 data/scripts/omop_cdm_intermediate.json
 data/scripts/omop_cdm_papers_batch1.json
 data/scripts/omop_inline_metadata.json
-data/scripts/.Rhistory
-R/lib/.Rhistory
+.Rhistory
+**/.Rhistory
 Rplots.pdf
 */Rplots.pdf
 R/archive/pooled_analysis/export_combined/
