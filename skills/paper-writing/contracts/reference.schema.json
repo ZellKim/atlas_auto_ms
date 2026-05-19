@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas-auto/paper-writing/reference.schema.json",
+  "title": "Paper-Writing L2 Reference Pack Entry",
+  "description": "L2 refpack의 단일 reference entry. researcher-pubmed agent가 PubMed 검색 후 채움. paper-writer는 이 pack 밖 citation 금지.",
+  "type": "object",
+  "required": ["citation_key", "pmid", "intended_use", "quotable_claim"],
+  "additionalProperties": false,
+  "properties": {
+    "citation_key": {
+      "type": "string",
+      "pattern": "^[A-Z][a-zA-Z]+[0-9]{4}[a-z]?$",
+      "description": "예: Lee2023, Schuemie2014b — first-author surname + year (+ disambiguation suffix)"
+    },
+    "pmid": { "type": "string", "description": "PubMed ID (없으면 'PMID-UNKNOWN')" },
+    "doi": { "type": ["string", "null"] },
+    "title": { "type": "string" },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "AMA style: 6명 이하 모두, 7명 이상 first 3 + et al"
+    },
+    "journal": { "type": "string" },
+    "year": { "type": "integer" },
+    "volume": { "type": ["string", "null"] },
+    "pages": { "type": ["string", "null"] },
+    "design": {
+      "type": "string",
+      "description": "예: 'systematic review', 'multicenter retrospective cohort', 'RCT', 'methodological note'"
+    },
+    "population": { "type": "string", "description": "예: 'adults undergoing appendectomy (n=12,345)'" },
+    "exposure": { "type": ["string", "null"] },
+    "outcome": { "type": ["string", "null"] },
+    "effect_size_95CI": {
+      "type": ["string", "null"],
+      "description": "예: 'HR 0.85 (0.72–1.01)' — pack을 보고 paper-writer가 직접 인용 가능한 형식"
+    },
+    "key_finding": {
+      "type": "string",
+      "description": "1-2 문장 요약. discussion comparison에 사용."
+    },
+    "limitations": { "type": ["string", "null"] },
+    "quotable_claim": {
+      "type": "string",
+      "description": "정확히 인용 가능한 한 문장 (논문 안의 표현 그대로 또는 paraphrase)."
+    },
+    "intended_use": {
+      "enum": [
+        "intro/burden",
+        "intro/prior_evidence",
+        "intro/gap",
+        "discussion/concordance",
+        "discussion/discordance",
+        "discussion/mechanism",
+        "methods/precedent"
+      ],
+      "description": "섹션별 의도된 사용처. discussion/discordance는 1~2개 강제 포함 (LLM이 자기 결과 지지 편향 방지)."
+    },
+    "pdf_path": { "type": ["string", "null"], "description": "로컬 PDF 저장 시 경로" },
+    "added_by": {
+      "enum": ["researcher-pubmed", "user-manual"],
+      "description": "agent가 검색한 건지 사용자가 수동 추가한 건지"
+    },
+    "added_at": { "type": "string", "format": "date-time" }
+  }
+}

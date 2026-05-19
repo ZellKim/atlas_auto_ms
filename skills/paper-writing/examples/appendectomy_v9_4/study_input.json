@@ -1,0 +1,123 @@
+{
+  "paper_meta": {
+    "study_code": "appendectomy",
+    "version": "v9_4",
+    "language": "en",
+    "preprint_doi": null,
+    "irb_number": "KHNMC IRB 2025-10-009"
+  },
+  "journal_target": "jama_network_open",
+  "study": {
+    "design": "Retrospective active-comparator cohort within a federated OMOP common data model network of 15 Korean tertiary hospitals, with Cyclops regularized propensity-score estimation, 1:1 nearest-neighbor matching, site-stratified Cox regression at a postacute (31-3650 day) primary risk window, and empirical calibration against 54 negative-control outcomes",
+    "data_source": {
+      "name": "federated OMOP common data model network of 15 Korean tertiary hospitals",
+      "n_sites": 15,
+      "period_start": "2002-01-01",
+      "period_end": "2024-12-31",
+      "cdm_version": "OMOP CDM v5.3"
+    },
+    "population": {
+      "inclusion": [
+        "Adults aged 18 years or older",
+        "Incident appendectomy (target), cholecystectomy (first active comparator), or hernia repair (second active comparator) between 2002-01-01 and 2024-12-31",
+        "At least 365 days of observation before the index date",
+        "At least 1 day of observation after the index date"
+      ],
+      "exclusion": [
+        "Prior diagnosis of organ-specific neoplasm: appendix neoplasm (concept 4129881 + descendants) for appendectomy; gallbladder neoplasm (concept 4130520 + descendants) for cholecystectomy; no neoplasm-of-organ exclusion for hernia repair",
+        "Any concurrent same-day major abdominal surgery from an 8-concept set including hysterectomy, cesarean section, colon excision, oophorectomy, salpingectomy, and descendants",
+        "Any of the 35 biomarker-abnormality events in the -365 to -30 day prior-abnormality-exclusion window (symmetric across arms)"
+      ],
+      "n_target": 13225,
+      "n_comparators": {
+        "cholecystectomy": 13225,
+        "hernia_repair": 7151
+      },
+      "n_matched_pairs": {
+        "cholecystectomy_biomarker": 13223,
+        "hernia_repair_biomarker": 7148,
+        "cholecystectomy_clinical": 16105,
+        "hernia_repair_clinical": 9184
+      }
+    },
+    "exposure": {
+      "target": "appendectomy",
+      "comparators": [
+        {
+          "name": "cholecystectomy",
+          "rationale": "First active surgical comparator: distinct surgical indication (biliary disease) sharing general perioperative care patterns with appendectomy"
+        },
+        {
+          "name": "hernia_repair",
+          "rationale": "Second active surgical comparator: elective non-abdominal-organ surgery distinguishing appendix-specific biology from generic perioperative effects"
+        }
+      ],
+      "operationalization": "OMOP standard concepts with descendants: appendectomy 4198190 (ATLAS cohort 1072); cholecystectomy 4242997 (cohort 1074); hernia repair 4196678 and 4244809 (cohort 1121). First occurrence per patient."
+    },
+    "outcome": {
+      "primary": [
+        {
+          "name": "Three-endpoint cellular-immune core: low lymphocyte percentage, neutrophilia, elevated WBC",
+          "definition": "First post-index laboratory measurement crossing a prespecified threshold; pooled across measurement-recording variants where applicable",
+          "endpoint_type": "time-to-event",
+          "followup_days": 3650
+        },
+        {
+          "name": "Supportive inflammatory endpoint: CRP elevated (mg/dL + mg/L pooled)",
+          "definition": "First post-index CRP measurement above the prespecified threshold; events pooled across CRP mg/dL and mg/L unit variants",
+          "endpoint_type": "time-to-event",
+          "followup_days": 3650
+        }
+      ],
+      "secondary": [
+        {
+          "name": "30 prespecified biomarker abnormality endpoints across cellular-immune, inflammatory, hematologic, hepatobiliary, metabolic (glucose, lipids), endocrine, and renal domains",
+          "definition": "First post-index measurement crossing the prespecified assay-specific reference limit or clinical-decision cutoff; 5 analytes bidirectional; 3 endpoints pool measurement-recording variants",
+          "endpoint_type": "time-to-event",
+          "followup_days": 3650
+        },
+        {
+          "name": "11 prespecified clinical disease outcomes",
+          "definition": "Ulcerative colitis, Crohn disease, asthma, atopic dermatitis, rheumatoid arthritis, C. difficile infection, Parkinson disease, biliary calculus, colorectal cancer, acute MI (v2 without inpatient-only requirement), type-2 diabetes (v3 laboratory-confirmed: concept code OR glucose >=126 mg/dL OR HbA1c >=6.5%)",
+          "endpoint_type": "time-to-event",
+          "followup_days": 3650
+        }
+      ],
+      "negative_controls": [
+        {
+          "count": 54,
+          "selection": "Prespecified OHDSI LEGEND framework drawing on Voss et al. and Ryan et al. reference sets",
+          "criteria": "No plausible causal link to appendectomy or either comparator; coverage of at least 8 OMOP body systems; at least 1 event in at least 80% of sites",
+          "note": "Clinical domain negative controls — addresses broad residual systematic error rather than laboratory-specific measurement-process bias"
+        }
+      ]
+    },
+    "covariates": [
+      "Demographics (sex, 5-year age bands)",
+      "Prior conditions (long-term lookback, all OMOP standard concepts in CDM)",
+      "Prior medications (long-term lookback, ATC-1/2)",
+      "Site indicator (dummy variable to encode institutional heterogeneity)"
+    ],
+    "analysis": {
+      "matching": "1:1 nearest-neighbor propensity-score matching on logit propensity score; caliper width 0.2 standard deviations of logit propensity score",
+      "primary_model": "Site-stratified Cox proportional-hazards regression with standard partial-likelihood variance",
+      "calibration": "Empirical calibration against 54 negative-control outcomes; per-comparator empirical null fitted by method of moments (Schuemie 2014); calibrated HR = exp(logHR - null_mean); calibrated SE = sqrt(SE^2 + null_sd^2); calibrated 95% CI and P-value derived from calibrated SE",
+      "sensitivity": [
+        "Leave-one-site-out (15 iterations x 4 strata)",
+        "Sigma-grid: null SD = 0.10, 0.20, 0.30",
+        "Lookback 90/365/unlimited outer windows with 30-day inner skip",
+        "Beta secondary window: 1-3650 days (including 1-30 day acute interval)"
+      ],
+      "subgroups": []
+    }
+  },
+  "results_pointer": "skills/paper-writing/examples/appendectomy_v9_4/results.json",
+  "refpack_pointer": "skills/paper-writing/examples/appendectomy_v9_4/refpack.json",
+  "hypotheses": {
+    "primary": "Appendectomy is associated with reproducible, multi-sensitivity-robust differences in cellular-immune and inflammatory laboratory abnormality event rates beyond the postacute landmark across both active comparators (cholecystectomy and hernia repair)",
+    "secondary": [
+      "Clinical disease incidence (UC, Crohn, atopic dermatitis, type-2 diabetes, Parkinson disease, colorectal cancer, etc.) differs after appendectomy versus active comparators in the postacute window",
+      "The cross-comparator core findings are robust to sensitivity analyses (LOSO, sigma-grid, lookback variation, beta secondary window)"
+    ]
+  }
+}

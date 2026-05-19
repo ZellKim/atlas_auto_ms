@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas-auto/paper-writing/study_input.schema.json",
+  "title": "Paper-Writing L1 Input Contract",
+  "description": "Single source of truth for all paper-writing agents. study + results + hypotheses + journal_target.",
+  "type": "object",
+  "required": ["study", "results", "hypotheses", "journal_target", "paper_meta"],
+  "additionalProperties": false,
+  "properties": {
+    "paper_meta": {
+      "type": "object",
+      "required": ["study_code", "version", "language"],
+      "properties": {
+        "study_code": { "type": "string", "description": "studies/{study_code}/ 디렉토리명 (e.g., appendectomy)" },
+        "version": { "type": "string", "description": "예: v9_4 또는 v10" },
+        "language": { "enum": ["en", "en+ko"] },
+        "preprint_doi": { "type": ["string", "null"] },
+        "irb_number": { "type": "string", "description": "예: KHNMC IRB 2025-10-009" }
+      }
+    },
+    "journal_target": {
+      "enum": ["jama_network_open", "scientific_reports"],
+      "description": "SKILL_ref_*.md 분기 트리거"
+    },
+    "study": {
+      "type": "object",
+      "required": ["design", "data_source", "population", "exposure", "outcome", "covariates", "analysis"],
+      "properties": {
+        "design": {
+          "type": "string",
+          "description": "예: retrospective multicenter active-comparator cohort with site-stratified propensity score matching"
+        },
+        "data_source": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string", "description": "예: federated OMOP CDM network of N Korean tertiary hospitals" },
+            "n_sites": { "type": "integer" },
+            "period_start": { "type": "string", "description": "YYYY-MM-DD or YYYY" },
+            "period_end": { "type": "string" },
+            "cdm_version": { "type": "string", "description": "예: OMOP CDM v5.3.1" }
+          },
+          "required": ["name", "n_sites"]
+        },
+        "population": {
+          "type": "object",
+          "required": ["inclusion", "exclusion", "n_target", "n_comparators"],
+          "properties": {
+            "inclusion": { "type": "array", "items": { "type": "string" } },
+            "exclusion": { "type": "array", "items": { "type": "string" } },
+            "n_target": { "type": "integer" },
+            "n_comparators": {
+              "type": "object",
+              "patternProperties": { "^[a-z_]+$": { "type": "integer" } },
+              "description": "예: {chole: 13225, hernia: 7151}"
+            },
+            "n_matched_pairs": {
+              "type": "object",
+              "patternProperties": { "^[a-z_]+$": { "type": "integer" } }
+            }
+          }
+        },
+        "exposure": {
+          "type": "object",
+          "required": ["target", "comparators"],
+          "properties": {
+            "target": { "type": "string", "description": "예: appendectomy" },
+            "comparators": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "rationale"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "rationale": { "type": "string", "description": "왜 이 active comparator인지" }
+                }
+              }
+            },
+            "operationalization": { "type": "string", "description": "OMOP cohort definition reference (concept_id list)" }
+          }
+        },
+        "outcome": {
+          "type": "object",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "definition", "endpoint_type"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "definition": { "type": "string" },
+                  "endpoint_type": { "enum": ["time-to-event", "binary", "continuous"] },
+                  "followup_days": { "type": "integer" }
+                }
+              }
+            },
+            "secondary": { "type": "array", "items": { "type": "object" } },
+            "negative_controls": {
+              "type": "array",
+              "items": { "type": "object" },
+              "description": "NC outcomes for empirical calibration"
+            }
+          }
+        },
+        "covariates": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "PS model covariates (large-scale LASSO 의 경우 'large-scale Cyclops LASSO with site dummy' 식으로 단축)"
+        },
+        "analysis": {
+          "type": "object",
+          "required": ["matching", "primary_model", "calibration"],
+          "properties": {
+            "matching": { "type": "string", "description": "예: 1:1 nearest-neighbor PSM, caliper 0.2 SD logit PS" },
+            "primary_model": { "type": "string", "description": "예: site-stratified Cox proportional hazards" },
+            "calibration": { "type": "string", "description": "예: empirical calibration on NC HRs (Schuemie 2014)" },
+            "sensitivity": { "type": "array", "items": { "type": "string" } },
+            "subgroups": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "results": {
+      "type": "object",
+      "required": ["table1", "primary", "calibration"],
+      "properties": {
+        "table1": {
+          "type": "object",
+          "description": "기준치 분포 (matched cohort). 자유 형식이지만 표준 필드 권장.",
+          "additionalProperties": true
+        },
+        "primary": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["outcome", "metric", "value", "ci_lower", "ci_upper"],
+            "properties": {
+              "outcome": { "type": "string" },
+              "comparator": { "type": "string" },
+              "metric": { "enum": ["HR", "OR", "RR", "RD", "Mean diff"] },
+              "value": { "type": "number" },
+              "ci_lower": { "type": "number" },
+              "ci_upper": { "type": "number" },
+              "p_value": { "type": ["string", "number"], "description": "예: '<.001', 0.023" },
+              "events": { "type": "object", "description": "{target: N, comparator: N}" },
+              "person_years": { "type": "object" }
+            }
+          }
+        },
+        "secondary": { "type": "array", "items": { "type": "object" } },
+        "sensitivity": { "type": "array", "items": { "type": "object" } },
+        "calibration": {
+          "type": "object",
+          "properties": {
+            "nc_median_hr": { "type": "number" },
+            "nc_proportion_significant": { "type": "number" },
+            "null_mean": { "type": "number" },
+            "null_sd": { "type": "number" },
+            "calibrated_primary": { "type": "array", "items": { "type": "object" } }
+          }
+        }
+      }
+    },
+    "hypotheses": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": { "type": "string", "description": "본문 Intro 마지막 문단·Abstract Objective에 그대로 들어갈 한 문장" },
+        "secondary": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

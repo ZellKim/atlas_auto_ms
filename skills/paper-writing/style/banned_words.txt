@@ -1,0 +1,73 @@
+# Banned words / phrases — voice-rewriter가 강제 제거
+# 사유: AI tell, overused academic filler, hyperbole, generic phrases.
+# 출처: docs/paper-writing-harness-design.md §4-1 + paper_draft_CHANGELOG.md 정착 규칙.
+# 1줄당 1 token/phrase. 대소문자 무시.
+
+# === Filler verbs ===
+delve into
+leverage
+unlock
+unleash
+underscore
+underscores
+emphasize
+highlights
+pivotal
+crucial role
+critical role
+play a crucial
+key role
+
+# === Transitional / connective filler ===
+Taken together
+In conclusion
+In summary
+It is important to note
+It should be noted
+Notably
+Importantly
+Remarkably
+Significantly (as a clause connector — keep when "statistically significant")
+Of note
+Interestingly
+
+# === Hyperbole / superlatives ===
+comprehensive
+robust
+novel insights
+groundbreaking
+paradigm shift
+state-of-the-art
+cutting-edge
+unprecedented
+remarkable
+vast
+profound
+
+# === Vague nouns ===
+realm
+landscape
+tapestry
+nexus
+intricacies
+multifaceted
+holistic approach
+
+# === Hedge cliches (when overused) ===
+shed light on
+pave the way
+
+# === Vendor / platform names (memory feedback_no_feedernet_in_papers) ===
+FeederNet
+Feedernet
+feedernet
+
+# === ChatGPT/LLM tells ===
+As an AI
+As a language model
+
+# === Banned-when-overused (voice-rewriter alerts if frequency > threshold) ===
+furthermore
+moreover
+however  # too many in a paragraph signals AI
+therefore # same
