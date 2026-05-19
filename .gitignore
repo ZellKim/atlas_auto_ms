@@ -17,6 +17,7 @@ build/
 .vscode/
 .idea/
 *.swp
+.codex/
 
 # OS
 Thumbs.db
@@ -68,6 +69,16 @@ data/measurement/raw_drilldown/
 data/measurement/characterization/raw_3sites/
 reference/
 *.msi
+
+# Drilldown raw json (대용량 100MB+, drilldown 재실행으로 reproducible)
+data/measurement/drilldown_*/raw/
+
+# Drilldown partial/broken backup CSV (incomplete state, 디버깅 추적용 only)
+data/measurement/drilldown_*/*partial*.csv
+data/measurement/drilldown_*/*broken*.csv
+
+# Drilldown errors-laden archive (pre-401-fix, deprecated; memory에 history 기록됨)
+data/measurement/drilldown_*/archive_pre_*/
 
 # Legacy archive (2026-04-25 정리, 추후 안전 삭제 가능)
 _legacy/
