@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:39:37.894899+00:00",
+  "site_code": "SCHBC",
+  "cdm_name": "SCHBC_5.3.1_03",
+  "group_id": 29,
+  "site_id": 206,
+  "source_key": "cdmpv533",
+  "domain": "drug",
+  "api_endpoint": "/cdmresults/cdmpv533/drug",
+  "rows_returned": 5484,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 23.51,
+  "source_id": 3,
+  "source_name": "SCHBC_5.3.1_03",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv533",
+    "Vocabulary": "cdmpv533",
+    "Results": "cdmpv533_results_fnet_v2120",
+    "CEM": "cdmpv533_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-AUG-25",
+  "total_persons": 1359109,
+  "data_cutoff_month": 202305
+}

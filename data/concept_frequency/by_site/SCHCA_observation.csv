@@ -1,279 +1,270 @@
 conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
-40481925,Situation with explicit context||Finding with explicit context||Clinical finding absent||No history of clinical finding in subject,237538,0.193365,21.93
-37396387,Finding with explicit context||Clinical finding absent||No history of clinical finding in subject||No known allergy,214305,0.174452,3.97
-40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,166358,0.135422,2.78
-4051104,NA||Situation with explicit context||Finding with explicit context||No family history of,148730,0.121072,18.32
-1340204,NA||Qualifier value||Situation with explicit context||History of event,118109,0.096145,8.11
-4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,43657,0.035538,6.71
-37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,38900,0.031666,1.87
-44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,21252,0.0173,2.7
-4275495,Behavior finding||Health-related behavior finding||Tobacco use and exposure - finding||Tobacco smoking behavior - finding,17032,0.013865,13.88
-4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,14781,0.012032,7.4
-704996,Clinical finding||General clinical state finding||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,14240,0.011592,5.92
-4237865,Eye observable||Pupil observable||Appearance of pupil||Size of pupil,11906,0.009692,153.67
-4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,11066,0.009008,2.09
-36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,10319,0.0084,1.84
-37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,10007,0.008146,1.71
-437175,"Fall||Accidental fall||Fall on same level||Fall on same level from slipping, tripping or stumbling",8046,0.00655,1.16
-4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,6785,0.005523,6.71
-45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",6638,0.005404,2.08
-36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,6331,0.005154,2.02
-4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",6271,0.005105,1.24
-4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,5348,0.004353,2.06
-4016911,Prevention status||Immunization status||Requires vaccination||Requires a yellow fever vaccination,5129,0.004175,1.03
-4079646,Clinical finding||Administrative statuses||Follow-up status||Surgical follow-up,4935,0.004017,2.44
-4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,4661,0.003794,1.21
-45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",4342,0.003535,1.3
-4125461,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of quantity of drinking,4070,0.003313,4.61
-4036083,Behavior observable||Health-related behavior||Tobacco use and exposure||Total time smoked,3984,0.003243,4.91
-4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,3805,0.003097,6.02
-4128819,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of frequency of drinking,3679,0.002995,4.34
-4061424,Antenatal/postnatal care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,3557,0.002896,5.44
-441749,Traumatic event||Fall||Accidental fall||Fall on or from stairs or steps,3504,0.002852,1.11
-37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,3467,0.002822,1.58
-4315085,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, street and highway",2874,0.00234,1.11
-433930,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with another motor vehicle,2751,0.002239,1.41
-4140830,Traumatic event||Fall||Accidental fall||Fall on same level,2668,0.002172,1.16
-438046,Event||Traumatic event||Accidental event||Medical accidents to patients during surgical and medical care,2337,0.001902,1.13
-45768509,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public place",1933,0.001574,1.19
-4019967,Functional finding||Finding of functional performance and activity||Dialysis finding||Dependence on renal dialysis,1921,0.001564,99.16
-4315095,"Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public building||Place of occurrence of accident or poisoning, shop, commercial",1878,0.001529,1.11
-4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,1876,0.001527,1.36
-442451,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with pedestrian,1807,0.001471,1.54
-45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,1635,0.001331,2.89
-40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,1617,0.001316,3.19
-45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,1602,0.001304,2.8
-40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,1601,0.001303,2.34
-4156363,NA||NA||NA||Event,1488,0.001211,1.13
-435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,1459,0.001188,5.42
-441207,Disease||Disease||Drug-related disorder||Adverse reaction to drug,1451,0.001181,3.2
-3661935,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine,1430,0.001164,2.29
-437165,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident,1428,0.001162,1.34
-437643,Finding related to ability to move||Finding of walking||Finding of gait||Abnormal gait,1404,0.001143,3.93
-4312846,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, place for recreation and sport",1368,0.001114,1.08
-4166272,"Accidental event||Accident||Accident due to physical impact or mechanical violence||Overexertion, strenuous movements and vibration",1311,0.001067,1.1
-141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,1301,0.001059,1.56
-4014829,NA||Procedure||Procedure by method||Consultation,1300,0.001058,1.19
-4053423,Vehicle accident||Motor vehicle traffic accident||Motorcycle accident||Motor vehicle on road in collision with motor cycle,1299,0.001057,1.45
-36713466,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn born outside hospital,1281,0.001043,1.06
-441413,NA||Event||Death||Death of unknown cause,1259,0.001025,1.44
-4054796,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault with body part,1201,0.000978,1.11
-4305831,NA||NA||Event||Exposure to potentially harmful entity,1161,0.000945,1.11
-441192,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons,1147,0.000934,1.09
-435134,Accidental event||Transport accident||Vehicle accident||Motor vehicle accident,1127,0.000917,1.44
-4314991,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, industrial place and premises",1086,0.000884,1.27
-36713461,Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,1051,0.000856,2.42
-436882,Fall||Accidental fall||Fall from furniture||Fall from bed,925,0.000753,1.19
-443423,Transport accident||Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident,841,0.000685,1.13
-441201,Fall||Accidental fall||Fall from one level to another||Fall from building,824,0.000671,1.22
-443345,Disease||Drug-related disorder||Adverse reaction to drug||Antineoplastic adverse reaction,755,0.000615,2.11
-4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,718,0.000584,2.92
-4175576,Transport accident||Vehicle accident||Motor vehicle accident||Motorcycle accident,702,0.000571,1.22
-4021166,NA||Procedure||Regimes and therapies||Care regime,649,0.000528,2.11
-4053863,Fall on same level||Fall on same level due to nature of surface||Fall on same level from slipping||Fall due to slipping on ice or snow,648,0.000527,1.09
-35622275,Musculoskeletal finding||Prosthesis in situ||Postprocedural finding of lower limb||Hip joint prosthesis present,627,0.00051,8.35
-436299,Traumatic event||Fall||Accidental fall||Fall from one level to another,610,0.000497,1.17
-4301487,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person,583,0.000475,1.05
-440279,Event||Traumatic event||Accidental event||Accident,543,0.000442,1.24
-4308870,Fall||Accidental fall||Fall from furniture||Fall from chair,522,0.000425,1.14
-4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,513,0.000418,2.08
-4216727,Event||Traumatic event||Exposure to mechanical force||Struck by falling object,497,0.000405,1.13
-4318516,"Traumatic event||Accidental event||Accident||Accident caused by immersion, suffocation, foreign body",468,0.000381,1.1
-4315372,Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp-edged object||Accident caused by glass edge,467,0.00038,1.05
-4186037,Procedure||Regimes and therapies||Care regime||Aftercare,447,0.000364,4.17
-432803,Traumatic event||Fall||Accidental fall||Fall from ladder,437,0.000356,1.16
-4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,432,0.000352,1.29
-45766277,Finding of region of thorax||Viscus structure finding||Device in situ||Cardiac implant in situ,430,0.00035,16.0
-4168384,Fall||Accidental fall||Fall on same level||Fall on same level due to nature of surface,427,0.000348,1.07
-439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,416,0.000339,4.51
-43531719,Musculoskeletal finding||Joint finding||Knee joint finding||Artificial knee joint present,411,0.000335,3.98
-436292,Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against stationary object||Accidental collision with stationary object,404,0.000329,1.37
-40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,399,0.000325,2.0
-4219484,NA||Event||Traumatic event||Suicide attempt,358,0.000291,1.47
-436583,Event||Traumatic event||Exposure to mechanical force||Fall,357,0.000291,1.1
-4074035,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,346,0.000282,1.26
-4301680,Care regime||Care of body sites||Renal care||Dialysis care,323,0.000263,1.27
-4279614,NA||Event||Traumatic event||Asphyxiation,317,0.000258,3.45
-4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,317,0.000258,8.05
-4146976,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Crushed in between objects,315,0.000256,1.1
-4152780,Equipment observable||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,312,0.000254,1.43
-4239303,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Bumped into other person,271,0.000221,1.05
-4050586,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Struck by sports equipment,264,0.000215,1.05
-437477,Traumatic event||Fall||Accidental fall||Fall from playground equipment,260,0.000212,1.03
-435713,Event||Traumatic event||Accidental event||Transport accident,250,0.000204,1.53
-437738,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road,249,0.000203,1.36
-37312608,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria,239,0.000195,2.03
-37117058,Situation with explicit context||Procedure with explicit context||Procedure not done||Vaccination not done,231,0.000188,1.02
-442666,"Motor vehicle traffic accident||Motor vehicle on road in collision with nonmotor vehicle||Motor vehicle on road in collision with pedal cycle||Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",227,0.000185,1.4
-4311077,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, residential institution",212,0.000173,1.17
-432509,"Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Accident to motor vehicle on road, not involving collision",206,0.000168,1.49
-4054574,"Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot liquid||Burning due to contact with hot drinks, liquid foods, fats and cooking oils",200,0.000163,1.08
-441193,Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements,198,0.000161,1.06
-432807,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects,192,0.000156,1.09
-37312599,Prevention status||Immunization status||Requires vaccination||Requires vaccination against typhoid-paratyphoid,181,0.000147,1.06
-4015725,Prevention status||Immunization status||Requires vaccination||Requires a course of cholera vaccination,162,0.000132,1.86
-4017161,Prevention status||Immunization status||Requires vaccination||Requires rabies vaccination course,146,0.000119,2.51
-40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,145,0.000118,3.87
-4096274,Adverse reaction to substance||Diagnostic agent adverse reaction||Contrast media adverse reaction||X-ray contrast media adverse reaction,144,0.000117,2.57
-4035493,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Contact with machinery,143,0.000116,1.07
-437191,Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction,140,0.000114,1.24
-4053428,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Accident while boarding or alighting from motor vehicle on road,134,0.000109,1.35
-40479792,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to viral hepatitis,132,0.000107,2.9
-4315363,"Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool||Accidents caused by knives, swords and daggers",131,0.000107,1.03
-4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,127,0.000103,1.65
-432504,Traumatic event||Accidental event||Accident||Accident caused by fire and flames,124,0.000101,1.36
-439996,Disease||Drug-related disorder||Adverse reaction to drug||Anticoagulant adverse reaction,124,0.000101,1.41
-432800,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by cutting and stabbing instruments,120,9.8e-05,1.12
-4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,117,9.5e-05,3.85
-4053867,Accidental fall||Fall on same level||Fall on same level due to impact against another person||Fall on same level due to accidental impact with another person,117,9.5e-05,1.08
-4093699,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Sexual assault,117,9.5e-05,1.39
-433657,Traumatic event||Fall||Accidental fall||Fall from furniture,114,9.3e-05,1.14
-4203722,NA||NA||Procedure||Patient encounter procedure,109,8.9e-05,1.54
-4062888,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle in collision with another pedal cycle,107,8.7e-05,1.03
-4071457,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by striking with blunt object,105,8.5e-05,1.18
-4054576,Burning due to contact with hot substance||Burning due to contact with hot liquid||Burning due to contact with hot water||Burning due to contact with water from hot tap,101,8.2e-05,1.08
-4054297,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with road-side fixed object,101,8.2e-05,1.23
-4168385,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool,98,8e-05,1.02
-4167568,Event||Traumatic event||Exposure to potentially harmful entity||Accidental exposure to potentially harmful entity,92,7.5e-05,1.3
-436874,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accident caused by agricultural machine,92,7.5e-05,1.26
-4073070,"Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot heating appliances, radiators and pipes",91,7.4e-05,1.22
-4310930,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, farm",91,7.4e-05,1.59
-443351,Clinical finding||Disease||Adverse reaction||Vaccine adverse reaction,88,7.2e-05,1.26
-4171358,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Slow feeding in newborn,86,7e-05,2.55
-4054152,Traumatic event||Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot liquid,83,6.8e-05,1.06
-438921,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Collision between pedal cycle and fixed object,83,6.8e-05,1.05
-443547,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Non-steroidal anti-inflammatory drug adverse reaction,73,5.9e-05,3.36
-4168834,Disease||Adverse reaction||Adverse reaction to substance||Beta lactam adverse reaction,72,5.9e-05,1.06
-40479426,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to sexually transmissible disorder,70,5.7e-05,2.83
-442995,Event||Traumatic event||Contact with hot or corrosive substance||Burning due to contact with hot substance,69,5.6e-05,1.12
-442247,"Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle accident collision with pedestrian||Pedal cycle accident involving collision between pedal cycle and pedestrian, pedestrian injured",65,5.3e-05,1.15
-435443,Fall||Accidental fall||Fall from furniture||Fall from wheelchair,65,5.3e-05,1.22
-37311060,Disease suspected||Suspected infectious disease||Suspected coronavirus infection||Suspected COVID-19,58,4.7e-05,2
-433315,Clinical finding||Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn,57,4.6e-05,2.11
-4244882,Traumatic event||Fall||Accidental fall||Fall while being carried,57,4.6e-05,1.07
-4303528,Event||Traumatic event||Exposure to non-mechanical force||Exposure to electric current,56,4.6e-05,2.36
-4307686,Traumatic event||Fall||Accidental fall||Fall from tree,51,4.2e-05,1.18
-4168046,Traumatic event||Accidental event||Transport accident||Vehicle accident,51,4.2e-05,1.22
-4053939,Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot household appliances,50,4.1e-05,1.08
-36717637,NA||Situation with explicit context||Finding with explicit context||Twin liveborn born outside hospital,50,4.1e-05,1.12
-42600276,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal||Attacked by dog,50,4.1e-05,1.06
-4055051,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp pointed object,49,4e-05,1.04
-4298337,Event||Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force,47,3.8e-05,1.23
-437478,Bite||Bite of non-human animal||Bite of arthropod||Bite of nonvenomous arthropod,47,3.8e-05,1.11
-4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,45,3.7e-05,1.4
-438657,Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction||Antimycobacterial agent adverse reaction,45,3.7e-05,1.42
-4222734,Traumatic event||Fall||Accidental fall||Fall in home,41,3.3e-05,1.44
-441488,Clinical finding||Disease||Adverse reaction||Adverse reaction to substance,40,3.3e-05,1.2
-443080,NA||Event||Abuse||Sexual abuse,39,3.2e-05,1.77
-433658,Adverse reaction||Adverse reaction to substance||Beta lactam adverse reaction||Penicillin adverse reaction,38,3.1e-05,3
-435154,"NA||Event||Event of undetermined intent||Hanging, strangulation or suffocation of unknown intent",37,3e-05,2.51
-4075631,Residential environment||Home||Location within home premises||Location inside building,36,2.9e-05,1.08
-433390,Disease||Drug-related disorder||Adverse reaction to drug||Immunosuppressant adverse reaction,35,2.8e-05,7
-436593,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion",35,2.8e-05,1.23
-4014023,Procedure||Regimes and therapies||Palliative procedure||Palliative care,35,2.8e-05,1.06
-37312602,Prevention status||Immunization status||Requires vaccination||Requires vaccination against pertussis,34,2.8e-05,1.09
-40490404,Disease||Adverse reaction||Adverse reaction to substance||Adverse reaction to biological substance,33,2.7e-05,1.58
-434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,33,2.7e-05,2.82
-438301,Traumatic event||Accidental event||Transport accident||Water transport accident,33,2.7e-05,1.21
-45763889,Prevention status||Immunization status||Requires vaccination||Requires rubella vaccination,31,2.5e-05,1.39
-443448,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to viral vaccine,30,2.4e-05,1.17
-4196193,Function||Nervous system function||Cerebral function||Drowsiness,30,2.4e-05,2.17
-4158188,Globe finding||Finding of device of eye||Prosthesis in situ||Prosthetic eye in situ,28,2.3e-05,2.96
-437768,Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to tuberculosis vaccine,26,2.1e-05,1.77
-606633,General finding of observation of patient||Head finding||Finding of head circumference||Macrocephaly,25,2e-05,3.28
-438655,"Accidental event||Medical accidents to patients during surgical and medical care||Failure of sterile precautions during procedure||Failure of sterile precautions during aspiration of fluid or tissue, puncture and catheterization",25,2e-05,1.08
-439452,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by hanging and strangulation,24,2e-05,2.04
-37312606,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria-tetanus-pertussis with typhoid-paratyphoid,24,2e-05,1.54
-606878,General finding of observation of patient||Head finding||Finding of head circumference||Microcephaly,24,2e-05,3.79
-432789,Drug-related disorder||Adverse reaction to drug||Analgesic adverse reaction||Opioid analgesic adverse reaction,23,1.9e-05,2.09
-4238738,Care regime||Care provision regime||Professional / ancillary services care||Physical therapy procedure,23,1.9e-05,1.57
-4096848,Finding of walking||Finding of gait||Abnormal gait||Ataxic gait,23,1.9e-05,4.39
-438638,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation",23,1.9e-05,1.35
-4303690,NA||Event||Traumatic event||Intentionally harming self,22,1.8e-05,1.18
-434537,"Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accident caused by a crowd, by collective fear or panic",22,1.8e-05,1.05
-439987,"Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance||Accident caused by hot liquid and vapor, including steam",22,1.8e-05,1.14
-4304736,Disease||Adverse reaction||Adverse reaction to substance||Para-aminophenol derivative adverse reaction,22,1.8e-05,1.05
-4019953,Social context||Person||Person in the healthcare environment||Donor for medical or surgical procedure,21,1.7e-05,1.52
-440896,Traumatic event||Accidental event||Transport accident||Railway accident,21,1.7e-05,1.1
-432534,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery,20,1.6e-05,1.25
-45765650,Regimes and therapies||Procedure||Surveillance||Surveillance of contraception,20,1.6e-05,2.15
-4119154,Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway,20,1.6e-05,1.3
-4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,20,1.6e-05,2.3
-3661779,Drug-related disorder||Adverse reaction to drug||Sedative adverse reaction||Adverse reaction to benzodiazepine,19,1.5e-05,1.95
-438639,Disease||Drug-related disorder||Adverse reaction to drug||Antidepressant drug adverse reaction,19,1.5e-05,1.21
-42709971,Device in situ||Prosthesis in situ||Prosthetic heart valve in situ||Biologic cardiac valve prosthesis in situ,19,1.5e-05,61.58
-436592,"Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion||Accidental drowning or immersion in bathtub",18,1.5e-05,1.11
-439605,Accidental event||Accident||Accident caused by fire and flames||Ignition of highly inflammable material,18,1.5e-05,1.11
-439558,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine,18,1.5e-05,1.5
-435439,Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway||Accidents involving powered vehicles used solely within the buildings and premises of an industrial or commercial establishment,18,1.5e-05,1.28
-441205,Accidental event||Medical accidents to patients during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during surgical operation,18,1.5e-05,1.22
-432804,Fall||Accidental fall||Fall from one level to another||Fall from scaffold,18,1.5e-05,2.11
-4230638,Event||Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force,17,1.4e-05,1.06
-4318639,Accidental drowning and submersion||Accidental drowning or immersion during recreation||Accidental drowning or immersion while swimming||Accidental drowning and submersion in swimming pool,17,1.4e-05,1.12
-4168964,Disease||Adverse reaction||Adverse reaction to substance||Propionic acid derivative adverse reaction,17,1.4e-05,1.18
-4022061,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Blood donor,16,1.3e-05,1.69
-436589,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accident caused by diving or jumping into water",16,1.3e-05,1.19
-4054162,Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot machinery and tools,16,1.3e-05,1
-4064538,Accidental event||Transport accident||Railway accident||Collision between railway vehicles of any kind,15,1.2e-05,1
-4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,15,1.2e-05,2.07
-4051114,Family history of clinical finding||Family history of disorder||Family history of metabolic disorder||Family history of diabetes mellitus,15,1.2e-05,2
-4079844,NA||Event||Death||Fetal death,15,1.2e-05,2.47
-4167767,Disease||Drug-related disorder||Adverse reaction to drug||Cardiac inotropic agent adverse reaction,15,1.2e-05,1.2
-438668,Traumatic event||Accidental event||Accident due to environmental factor||Accidents due to travel and motion,15,1.2e-05,1.07
-443346,Drug-related disorder||Adverse reaction to drug||Anesthetics adverse reaction||Local anesthetic drug adverse reaction,15,1.2e-05,1.13
-4240903,Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance||Allergy to penicillin,14,1.1e-05,4.79
-4055054,"Exposure to non-mechanical force||Exposure to electric current||Exposure to electric current, with passage of current through tissue||Exposure to current from electric transmission lines, with passage of current through tissue",14,1.1e-05,2.21
-432809,Disease||Drug-related disorder||Adverse reaction to drug||Antiepileptic adverse reaction,14,1.1e-05,1.14
-443347,Drug-related disorder||Adverse reaction to drug||Anesthetics adverse reaction||General anesthetic drug adverse reaction,14,1.1e-05,1
-444046,Event||Traumatic event||Exposure to non-mechanical force||Cold exposure,14,1.1e-05,1.14
-441744,Disease||Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction,13,1.1e-05,1.23
-439503,"Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway||Accident involving collision between powered vehicle, used solely within the buildings and premises of an industrial or commercial establishment, and another vehicle",13,1.1e-05,1.23
-440607,Accident||Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosive material,12,1e-05,1.08
-4173786,Care of patient states||Reproductive care||Antenatal/postnatal care||Antenatal care,12,1e-05,7.33
-440910,Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction||Antiviral drug adverse reaction,12,1e-05,1
-4303295,Procedure||Regimes and therapies||Support||Caregiver support,11,9e-06,1.18
-36713468,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,11,9e-06,1
-441764,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation or ingestion of foreign body with respiratory obstruction or suffocation",11,9e-06,2.27
-4334494,Family history of disorder||Family history of neoplasm||Family history of cancer||Family history of malignant neoplasm of digestive organ,11,9e-06,2.09
-441751,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Adverse reaction to salicylate,11,9e-06,1.09
-4094126,Problem||Problem situation||Problem situation relating to social and personal history||Family problems,11,9e-06,12.18
-4054573,Traumatic event||Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance,11,9e-06,1
-4164114,Disease||Drug-related disorder||Adverse reaction to drug||Calcium regulating agent adverse reaction,11,9e-06,1
-432806,Accidental fall||Fall from one level to another||Fall from geological formation||Fall from cliff,11,9e-06,1
-439237,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person||Assault,11,9e-06,1.18
-435430,Accidental event||Accident due to environmental factor||Accidents due to excessive heat||Accident due to heat of man-made origin,10,8e-06,1
-440309,Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to diphtheria vaccine,10,8e-06,1.3
-4201412,Procedure by intent||Therapeutic procedure||Therapy||Speech therapy,10,8e-06,2
-4179963,Family history with explicit context||Family history of neoplasm||Have you or anyone in your family ever been diagnosed with the following cancer conditions? Think only of the people you are related to by blood. Select all that apply.||Family history of breast cancer,10,8e-06,3.7
-443370,Disease||Drug-related disorder||Adverse reaction to drug||Diuretic adverse reaction,10,8e-06,1.9
-4154624,General finding of observation of patient||Problem||Problem situation||Problem situation relating to social and personal history,10,8e-06,3.1
-4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,9,7e-06,1.33
-36713460,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of infertility,9,7e-06,2.78
-4009858,"Exposure to potentially harmful entity||Exposure to pollution||Exposure to polluted air||Exposure to polluted air, occupational",9,7e-06,1.33
-438938,Accidental event||Accident||Accident caused by fire and flames||Accident with controlled fire,8,7e-06,1
-439222,Disease||Drug-related disorder||Adverse reaction to drug||Corticosteroids adverse reaction,8,7e-06,1
-439224,Propensity to adverse reaction||Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to drug,8,7e-06,11.75
-439242,Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to tetanus vaccine,8,7e-06,1.12
-437740,Accident||Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosion of pressure vessel,8,7e-06,2
-436890,Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosion of pressure vessel||Accident caused by explosion of gas cylinder,8,7e-06,1
-434553,Adverse reaction to drug||Adverse reaction to hormone||Sex hormones adverse reaction||Androgen adverse reaction,8,7e-06,1.12
-4097925,Disease||Drug-related disorder||Adverse reaction to drug||Calcium-channel blocker adverse reaction,8,7e-06,1.75
-4022569,NA||NA||Clinical finding||Eating / feeding / drinking finding,8,7e-06,1.12
-438630,Event||Traumatic event||Exposure to non-mechanical force||Exposure to radiation,8,7e-06,5.5
-4155398,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Finding relating to psychosocial functioning||Malingerer",7,6e-06,2.29
-439983,Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Accident involving off-road land motor vehicle,7,6e-06,1
-4168815,"Traumatic event||Exposure to potentially harmful entity||Exposure to animate mechanical force||Contact with plant spines, thorns, or sharp leaves",7,6e-06,1.29
-3661517,Disease||Adverse reaction||Adverse reaction to substance||Adverse reaction to platelet aggregation inhibitor,7,6e-06,1.14
-42872393,Nutritional finding||Dietary finding||Dietary history||Inappropriate diet and eating habits,6,5e-06,2.83
-4099883,Disease||Adverse reaction||Adverse reaction to substance||Aminoglycosides adverse reaction,6,5e-06,1.17
-4096278,Disease||Drug-related disorder||Adverse reaction to drug||H2 receptor antagonist adverse reaction,6,5e-06,1.5
-3661841,Disease||Adverse reaction||Adverse reaction to substance||Adverse reaction to hydantoin and hydantoin derivative,6,5e-06,1.67
-433109,"Accidental event||Accident due to environmental factor||Accident due to hunger, thirst, exposure and neglect||Accident due to lack of food",6,5e-06,1
-40479434,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Rabies virus,6,5e-06,2.83
-437167,Traumatic event||Accidental event||Accident||Accident caused by firearm missile,6,5e-06,1.17
-4053938,Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects,6,5e-06,2.67
-443340,Disease||Drug-related disorder||Adverse reaction to drug||Neuroleptic adverse reaction,6,5e-06,1
-443367,Disease||Drug-related disorder||Adverse reaction to drug||Antihypertensive adverse reaction,6,5e-06,1.67
-4248196,Finding of gait||Abnormal gait||Middle level sensorimotor gait disorder||Spastic gait,6,5e-06,3.83
-4022059,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Eye donor for corneal transplant,6,5e-06,1.33
-42536911,Nutritional finding||Self-care behavior||Self-neglect||Insufficient intake of food and water with self neglect,6,5e-06,2.33
+40481925,Situation with explicit context||Finding with explicit context||Clinical finding absent||No history of clinical finding in subject,333968,0.30503595019582624,19.965346979351317
+37396387,Finding with explicit context||Clinical finding absent||No history of clinical finding in subject||No known allergy,305468,0.2790049394984509,3.6569264210981185
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,210066,0.19186772958438067,4.15882627364733
+4051104,NA||Situation with explicit context||Finding with explicit context||No family history of,195045,0.17814801689366927,16.53250275577431
+1340204,NA||Qualifier value||Situation with explicit context||History of event,156031,0.1425138466709534,6.981586992328448
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,64134,0.05857799438826212,5.241463186453363
+4275495,Behavior finding||Health-related behavior finding||Tobacco use and exposure - finding||Tobacco smoking behavior - finding,28027,0.025598987256678554,12.8742284225925
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,19050,0.017399675571403518,1.2640944881889764
+4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,12842,0.01172948208335769,6.7935679800654105
+4036083,Behavior observable||Health-related behavior||Tobacco use and exposure||Total time smoked,10978,0.010026962646869702,4.093915102933139
+4125461,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of quantity of drinking,10441,0.009536483603203368,3.495163298534623
+36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,10084,0.009210410942888875,1.6055136850456169
+4128819,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of frequency of drinking,9126,0.008335403635938505,3.662941047556432
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,8610,0.007864105336996552,3.131939605110337
+4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",8224,0.007511544981586485,1.1797178988326849
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,6959,0.006356133454141579,2.355654548067251
+704996,Clinical finding||General clinical state finding||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,6881,0.006284890688022447,4.175555878506031
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,6239,0.005698507920734203,2.6419297964417376
+437175,"Fall||Accidental fall||Fall on same level||Fall on same level from slipping, tripping or stumbling",5733,0.00523634330975624,1.141810570381999
+4140830,Traumatic event||Fall||Accidental fall||Fall on same level,5298,0.0048390278833226165,1.150245375613439
+437643,Finding related to ability to move||Finding of walking||Finding of gait||Abnormal gait,3910,0.0035712719939206172,4.238618925831202
+45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",3335,0.0030460849359911146,3.0608695652173914
+4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,3162,0.0028880721342140645,3.1043643263757117
+4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,2878,0.00262867539603671,3.543085476025017
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,2520,0.00230168936692582,1.8003968253968254
+4314991,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, industrial place and premises",2418,0.002208525749693108,1.207609594706369
+37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,2385,0.0021783845794119366,1.6092243186582809
+4315085,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, street and highway",2034,0.0018577921318758404,1.119960668633235
+433930,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with another motor vehicle,1999,0.0018258242240018706,1.4722361180590295
+441207,Disease||Disease||Drug-related disorder||Adverse reaction to drug,1876,0.001713479862044777,3.7691897654584223
+441749,Traumatic event||Fall||Accidental fall||Fall on or from stairs or steps,1833,0.0016742050037996143,1.099290780141844
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,1791,0.0016358435143508504,4.326633165829146
+4312846,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, place for recreation and sport",1753,0.0016011355000876833,1.0684540787221906
+45768509,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public place",1710,0.0015618606418425205,1.1619883040935672
+4156363,NA||NA||NA||Event,1659,0.0015152788332261648,1.133212778782399
+441192,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons,1646,0.001503405038872976,1.0607533414337789
+40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,1640,0.001497924826094581,5.298780487804878
+4054796,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault with body part,1612,0.0014723504997954055,1.0694789081885856
+35622275,Musculoskeletal finding||Prosthesis in situ||Postprocedural finding of lower limb||Hip joint prosthesis present,1557,0.001422115215993453,6.3050738599871545
+443345,Disease||Drug-related disorder||Adverse reaction to drug||Antineoplastic adverse reaction,1544,0.0014102414216402642,2.3471502590673574
+442451,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with pedestrian,1495,0.0013654863506167066,1.5210702341137123
+43531719,Musculoskeletal finding||Joint finding||Knee joint finding||Artificial knee joint present,1478,0.0013499590810779213,7.7422192151556155
+4166272,"Accidental event||Accident||Accident due to physical impact or mechanical violence||Overexertion, strenuous movements and vibration",1428,0.0013042906412579645,1.0798319327731092
+45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",1347,0.0012303077687496346,1.2501855976243503
+3661935,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine,1284,0.001172765534576489,1.7702492211838006
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,1252,0.001143537733091717,3.936900958466454
+437165,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident,1181,0.0010786885485473783,1.3564775613886537
+436299,Traumatic event||Fall||Accidental fall||Fall from one level to another,1136,0.0010375869527094173,1.1452464788732395
+36713461,Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,1042,0.0009517302858478985,5.357005758157389
+441201,Fall||Accidental fall||Fall from one level to another||Fall from building,1014,0.0009261559595487227,1.1400394477317555
+4318516,"Traumatic event||Accidental event||Accident||Accident caused by immersion, suffocation, foreign body",951,0.0008686137253755773,1.0872765509989486
+4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,922,0.0008421260302800024,1.116052060737527
+45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,908,0.0008293388671304144,2.75
+4216727,Event||Traumatic event||Exposure to mechanical force||Struck by falling object,902,0.0008238586543520196,1.1374722838137472
+443423,Transport accident||Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident,863,0.0007882372712924534,1.0915411355735805
+4315095,"Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public building||Place of occurrence of accident or poisoning, shop, commercial",803,0.0007334351435085053,1.0821917808219177
+435134,Accidental event||Transport accident||Vehicle accident||Motor vehicle accident,791,0.0007224747179517156,1.472819216182048
+441413,NA||Event||Death||Death of unknown cause,780,0.0007124276611913252,1.132051282051282
+4175576,Transport accident||Vehicle accident||Motor vehicle accident||Motorcycle accident,755,0.0006895934412813468,1.2092715231788078
+436882,Fall||Accidental fall||Fall from furniture||Fall from bed,747,0.0006822864909101537,1.1713520749665327
+4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,744,0.0006795463845209564,4.252688172043011
+4305831,NA||NA||Event||Exposure to potentially harmful entity,733,0.0006694993277605658,1.1637107776261937
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,725,0.0006621923773893728,3.8537931034482757
+4053423,Vehicle accident||Motor vehicle traffic accident||Motorcycle accident||Motor vehicle on road in collision with motor cycle,724,0.0006612790085929736,1.505524861878453
+437191,Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction,677,0.0006183506751622143,1.3722304283604136
+45766277,Finding of region of thorax||Viscus structure finding||Device in situ||Cardiac implant in situ,669,0.0006110437247910212,20.980568011958148
+4035493,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Contact with machinery,620,0.0005662886537674636,1.153225806451613
+4310930,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, farm",611,0.0005580683345998714,1.1423895253682488
+440279,Event||Traumatic event||Accidental event||Accident,556,0.000507833050797919,1.2535971223021583
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,536,0.0004895656748699363,1.8152985074626866
+4239303,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Bumped into other person,534,0.000487738937277138,1.0280898876404494
+432803,Traumatic event||Fall||Accidental fall||Fall from ladder,530,0.00048408546209154145,1.149056603773585
+436583,Event||Traumatic event||Exposure to mechanical force||Fall,524,0.0004786052493131467,1.1011450381679388
+4050586,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Struck by sports equipment,499,0.00045577102940316827,1.0360721442885772
+4279614,NA||Event||Traumatic event||Asphyxiation,484,0.00044207049745718127,3.231404958677686
+436292,Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against stationary object||Accidental collision with stationary object,480,0.0004384170222715847,1.4479166666666667
+438046,Event||Traumatic event||Accidental event||Medical accidents to patients during surgical and medical care,470,0.00042928333430759336,1.2723404255319148
+4053863,Fall on same level||Fall on same level due to nature of surface||Fall on same level from slipping||Fall due to slipping on ice or snow,466,0.00042562985912199686,1.0879828326180259
+4146976,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Crushed in between objects,454,0.0004146694335652072,1.0991189427312775
+4301487,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person,439,0.0004009689016192202,1.061503416856492
+443547,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Non-steroidal anti-inflammatory drug adverse reaction,426,0.00038909510726603145,4.814553990610329
+436874,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accident caused by agricultural machine,405,0.00036991436254164964,1.219753086419753
+4308870,Fall||Accidental fall||Fall from furniture||Fall from chair,374,0.00034159992985327646,1.1310160427807487
+4219484,NA||Event||Traumatic event||Suicide attempt,355,0.00032424592272169286,1.2563380281690142
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,350,0.0003196790787396972,1.122857142857143
+4315372,Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp-edged object||Accident caused by glass edge,346,0.0003160256035541007,1.0317919075144508
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,345,0.00031511223475770155,2.1536231884057973
+4168384,Fall||Accidental fall||Fall on same level||Fall on same level due to nature of surface,323,0.00029501812123692054,1.061919504643963
+4019967,Functional finding||Finding of functional performance and activity||Dialysis finding||Dependence on renal dialysis,314,0.00028679780206932837,6.162420382165605
+37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,307,0.0002804042204945344,1.4495114006514658
+4021166,NA||Procedure||Regimes and therapies||Care regime,268,0.00024478283743496813,2.0261194029850746
+4054574,"Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot liquid||Burning due to contact with hot drinks, liquid foods, fats and cooking oils",247,0.00022560209271058632,1.0283400809716599
+442666,"Motor vehicle traffic accident||Motor vehicle on road in collision with nonmotor vehicle||Motor vehicle on road in collision with pedal cycle||Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",246,0.00022468872391418718,1.4878048780487805
+432807,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects,240,0.00021920851113579236,1.0291666666666668
+4054152,Traumatic event||Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot liquid,237,0.00021646840474659495,1.0464135021097045
+438668,Traumatic event||Accidental event||Accident due to environmental factor||Accidents due to travel and motion,237,0.00021646840474659495,1.780590717299578
+437477,Traumatic event||Fall||Accidental fall||Fall from playground equipment,231,0.00021098819196820016,1.051948051948052
+4014829,NA||Procedure||Procedure by method||Consultation,229,0.00020916145437540189,1.148471615720524
+434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,227,0.0002073347167826036,4.185022026431718
+4168046,Traumatic event||Accidental event||Transport accident||Vehicle accident,225,0.00020550797918980534,1.3777777777777778
+443448,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to viral vaccine,211,0.00019272081604021745,1.947867298578199
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,206,0.00018815397205822177,3.3446601941747574
+4152780,Equipment observable||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,202,0.00018450049687262525,1.3217821782178218
+4096274,Adverse reaction to substance||Diagnostic agent adverse reaction||Contrast media adverse reaction||X-ray contrast media adverse reaction,197,0.00017993365289062957,10.98984771573604
+4079646,Clinical finding||Administrative statuses||Follow-up status||Surgical follow-up,197,0.00017993365289062957,1.0558375634517767
+433315,Clinical finding||Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn,196,0.00017902028409423043,3.4744897959183674
+36713460,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of infertility,195,0.0001781069152978313,1.2307692307692308
+441193,Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements,194,0.00017719354650143216,1.0876288659793814
+4196193,Function||Nervous system function||Cerebral function||Drowsiness,193,0.00017628017770503302,3.010362694300518
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,190,0.0001735400713158356,7.110526315789474
+437738,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road,172,0.0001570994329806512,1.505813953488372
+606878,General finding of observation of patient||Head finding||Finding of head circumference||Microcephaly,165,0.00015070585140585725,5.206060606060606
+4099883,Disease||Adverse reaction||Adverse reaction to substance||Aminoglycosides adverse reaction,164,0.0001497924826094581,1.146341463414634
+4167568,Event||Traumatic event||Exposure to potentially harmful entity||Accidental exposure to potentially harmful entity,162,0.00014796574501665984,1.2716049382716048
+439996,Disease||Drug-related disorder||Adverse reaction to drug||Anticoagulant adverse reaction,161,0.0001470523762202607,2.0745341614906834
+4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,161,0.0001470523762202607,1.0559006211180124
+4311077,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, residential institution",157,0.00014339890103466418,1.1528662420382165
+4074035,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,152,0.0001388320570526685,3.138157894736842
+4244882,Traumatic event||Fall||Accidental fall||Fall while being carried,151,0.00013791868825626936,1.0397350993377483
+435713,Event||Traumatic event||Accidental event||Transport accident,148,0.00013517858186707195,1.5743243243243243
+606633,General finding of observation of patient||Head finding||Finding of head circumference||Macrocephaly,148,0.00013517858186707195,2.675675675675676
+432504,Traumatic event||Accidental event||Accident||Accident caused by fire and flames,130,0.00011873794353188753,1.1692307692307693
+442995,Event||Traumatic event||Contact with hot or corrosive substance||Burning due to contact with hot substance,127,0.00011599783714269012,1.1574803149606299
+4168385,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool,126,0.00011508446834629099,1.0317460317460316
+4053867,Accidental fall||Fall on same level||Fall on same level due to impact against another person||Fall on same level due to accidental impact with another person,123,0.00011234436195709359,1.048780487804878
+4073070,"Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot heating appliances, radiators and pipes",117,0.00010686414917869878,1.3076923076923077
+432800,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by cutting and stabbing instruments,117,0.00010686414917869878,1.0598290598290598
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,115,0.00010503741158590051,8.278260869565218
+437768,Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to tuberculosis vaccine,111,0.00010138393640030396,3.4504504504504503
+4315363,"Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool||Accidents caused by knives, swords and daggers",109,9.95571988075057e-05,1.055045871559633
+4307686,Traumatic event||Fall||Accidental fall||Fall from tree,99,9.042351084351435e-05,1.101010101010101
+4054576,Burning due to contact with hot substance||Burning due to contact with hot liquid||Burning due to contact with hot water||Burning due to contact with water from hot tap,98,8.951014204711522e-05,1.183673469387755
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,94,8.585666686151868e-05,3.3404255319148937
+433657,Traumatic event||Fall||Accidental fall||Fall from furniture,88,8.037645408312386e-05,1.0568181818181819
+4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,86,7.85497164903256e-05,1.1162790697674418
+4071457,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by striking with blunt object,82,7.489624130472906e-05,1.0853658536585367
+435443,Fall||Accidental fall||Fall from furniture||Fall from wheelchair,82,7.489624130472906e-05,1.121951219512195
+4303528,Event||Traumatic event||Exposure to non-mechanical force||Exposure to electric current,75,6.850265972993511e-05,1.4933333333333334
+4079844,NA||Event||Death||Fetal death,75,6.850265972993511e-05,4.04
+4203722,NA||NA||Procedure||Patient encounter procedure,68,6.210907815514117e-05,3.0588235294117645
+4055051,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp pointed object,67,6.119570935874203e-05,1.0895522388059702
+4222734,Traumatic event||Fall||Accidental fall||Fall in home,66,6.0282340562342904e-05,1.0909090909090908
+42600276,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal||Attacked by dog,66,6.0282340562342904e-05,1.121212121212121
+4145796,"Finding with explicit context||Family history of clinical finding||Have you or anyone in your family ever been diagnosed with the following bone, joint, and muscle conditions? Think only of the people you are related to by blood. Select all that apply.||FH: Musculoskeletal disease",64,5.845560296954463e-05,3.078125
+4173786,Care of patient states||Reproductive care||Antenatal/postnatal care||Antenatal care,64,5.845560296954463e-05,6.25
+432509,"Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Accident to motor vehicle on road, not involving collision",63,5.7542234173145494e-05,1.5714285714285714
+4171358,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Slow feeding in newborn,60,5.480212778394809e-05,3.75
+40490404,Disease||Adverse reaction||Adverse reaction to substance||Adverse reaction to biological substance,60,5.480212778394809e-05,1.5333333333333332
+43020416,Problem situation||Problem situation relating to social and personal history||Family problems||Problem with aged spouse or partner,58,5.2975390191149824e-05,2.4655172413793105
+435439,Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway||Accidents involving powered vehicles used solely within the buildings and premises of an industrial or commercial establishment,56,5.114865259835155e-05,1.2678571428571428
+36713466,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn born outside hospital,54,4.9321915005553284e-05,1.8518518518518519
+4054297,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with road-side fixed object,54,4.9321915005553284e-05,1.1111111111111112
+439558,Disease||Adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine,51,4.658180861635588e-05,1.2745098039215685
+36713468,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,49,4.475507102355761e-05,2.142857142857143
+437478,Bite||Bite of non-human animal||Bite of arthropod||Bite of nonvenomous arthropod,48,4.384170222715847e-05,1.0833333333333333
+4334494,Family history of disorder||Family history of neoplasm||Family history of cancer||Family history of malignant neoplasm of digestive organ,45,4.110159583796107e-05,2.8222222222222224
+435154,"NA||Event||Event of undetermined intent||Hanging, strangulation or suffocation of unknown intent",45,4.110159583796107e-05,2.2
+4053939,Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot household appliances,42,3.8361489448763665e-05,1.0476190476190477
+433952,Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction||Antifungal drug adverse reaction,42,3.8361489448763665e-05,1.880952380952381
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,42,3.8361489448763665e-05,3.0238095238095237
+4095535,Disease||Drug-related disorder||Adverse reaction to drug||Centrally acting appetite suppressant adverse reaction,40,3.653475185596539e-05,3.6
+434537,"Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accident caused by a crowd, by collective fear or panic",40,3.653475185596539e-05,1.025
+4240903,Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance||Allergy to penicillin,39,3.562138305956626e-05,6.897435897435898
+4053428,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Accident while boarding or alighting from motor vehicle on road,39,3.562138305956626e-05,1.4102564102564104
+443080,NA||Event||Abuse||Sexual abuse,37,3.379464546676799e-05,1.7027027027027026
+439605,Accidental event||Accident||Accident caused by fire and flames||Ignition of highly inflammable material,36,3.288127667036885e-05,1.0833333333333333
+4298337,Event||Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force,35,3.196790787396972e-05,1.2285714285714286
+40479792,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to viral hepatitis,35,3.196790787396972e-05,1.6
+438921,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Collision between pedal cycle and fixed object,34,3.1054539077570585e-05,1.0294117647058825
+4167767,Disease||Drug-related disorder||Adverse reaction to drug||Cardiac inotropic agent adverse reaction,34,3.1054539077570585e-05,1.3235294117647058
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,32,2.9227801484772315e-05,1.125
+441488,Clinical finding||Disease||Adverse reaction||Adverse reaction to substance,31,2.8314432688373182e-05,1.4516129032258065
+438638,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation",31,2.8314432688373182e-05,1.4193548387096775
+42535211,Event||Exposure to potentially harmful entity||Exposure to toxin||Occupational exposure to toxic agents,31,2.8314432688373182e-05,2.129032258064516
+4147169,"Legal, financial, employment and/or socioeconomic history finding||Employment finding||Work and retirement-related problems||Problems at work",29,2.6487695095574912e-05,1.2413793103448276
+435145,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by horticultural cutting machines||Accident caused by powered lawn mower,28,2.5574326299175775e-05,1.0714285714285714
+441764,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation or ingestion of foreign body with respiratory obstruction or suffocation",28,2.5574326299175775e-05,1.8571428571428572
+440607,Accident||Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosive material,28,2.5574326299175775e-05,1
+4094126,Problem||Problem situation||Problem situation relating to social and personal history||Family problems,27,2.4660957502776642e-05,2.7777777777777777
+42709971,Device in situ||Prosthesis in situ||Prosthetic heart valve in situ||Biologic cardiac valve prosthesis in situ,27,2.4660957502776642e-05,18.62962962962963
+436890,Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosion of pressure vessel||Accident caused by explosion of gas cylinder,26,2.3747588706377505e-05,1.1153846153846154
+438657,Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction||Antimycobacterial agent adverse reaction,26,2.3747588706377505e-05,1.4615384615384615
+4071863,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Underfeeding in newborn,26,2.3747588706377505e-05,2.8846153846153846
+4119154,Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway,24,2.1920851113579235e-05,1.1666666666666667
+436593,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion",24,2.1920851113579235e-05,1.125
+37311060,Disease suspected||Suspected infectious disease||Suspected coronavirus infection||Suspected COVID-19,24,2.1920851113579235e-05,3.4583333333333335
+4075631,Residential environment||Home||Location within home premises||Location inside building,23,2.1007482317180102e-05,1.1304347826086958
+441751,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Adverse reaction to salicylate,23,2.1007482317180102e-05,6
+36717637,NA||Situation with explicit context||Finding with explicit context||Twin liveborn born outside hospital,23,2.1007482317180102e-05,2.5652173913043477
+4054162,Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot machinery and tools,21,1.9180744724381832e-05,1.1428571428571428
+4318639,Accidental drowning and submersion||Accidental drowning or immersion during recreation||Accidental drowning or immersion while swimming||Accidental drowning and submersion in swimming pool,21,1.9180744724381832e-05,1.1428571428571428
+4303690,NA||Event||Traumatic event||Intentionally harming self,21,1.9180744724381832e-05,1.1904761904761905
+4093699,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Sexual assault,21,1.9180744724381832e-05,1.7142857142857142
+439987,"Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance||Accident caused by hot liquid and vapor, including steam",20,1.8267375927982696e-05,1
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,20,1.8267375927982696e-05,2.4
+4055548,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault involving moving vehicles,19,1.7354007131583562e-05,1.368421052631579
+4053938,Contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects,19,1.7354007131583562e-05,1.1052631578947367
+4061424,Antenatal/postnatal care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,19,1.7354007131583562e-05,2.210526315789474
+4055054,"Exposure to non-mechanical force||Exposure to electric current||Exposure to electric current, with passage of current through tissue||Exposure to current from electric transmission lines, with passage of current through tissue",19,1.7354007131583562e-05,1.631578947368421
+40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,19,1.7354007131583562e-05,3.473684210526316
+442247,"Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle accident collision with pedestrian||Pedal cycle accident involving collision between pedal cycle and pedestrian, pedestrian injured",18,1.6440638335184426e-05,1.1111111111111112
+4073205,Traumatic event||Bite||Bite of non-human animal||Bite of reptile,18,1.6440638335184426e-05,1.3333333333333333
+436592,"Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion||Accidental drowning or immersion in bathtub",18,1.6440638335184426e-05,1.4444444444444444
+441205,Accidental event||Medical accidents to patients during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during surgical operation,18,1.6440638335184426e-05,1.3333333333333333
+4009858,"Exposure to potentially harmful entity||Exposure to pollution||Exposure to polluted air||Exposure to polluted air, occupational",18,1.6440638335184426e-05,1.6666666666666667
+444046,Event||Traumatic event||Exposure to non-mechanical force||Cold exposure,18,1.6440638335184426e-05,1.5
+439237,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person||Assault,16,1.4613900742386158e-05,1.125
+37312608,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria,16,1.4613900742386158e-05,1
+4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,15,1.3700531945987023e-05,1
+4096848,Finding of walking||Finding of gait||Abnormal gait||Ataxic gait,15,1.3700531945987023e-05,2.6
+4168834,Disease||Adverse reaction||Adverse reaction to substance||Beta lactam adverse reaction,15,1.3700531945987023e-05,1.6666666666666667
+438938,Accidental event||Accident||Accident caused by fire and flames||Accident with controlled fire,15,1.3700531945987023e-05,1.0666666666666667
+436589,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accident caused by diving or jumping into water",15,1.3700531945987023e-05,1.0666666666666667
+4230638,Event||Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force,15,1.3700531945987023e-05,1.8666666666666667
+4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,14,1.2787163149587888e-05,2.142857142857143
+440599,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by poisoning,14,1.2787163149587888e-05,1.0714285714285714
+438301,Traumatic event||Accidental event||Transport accident||Water transport accident,14,1.2787163149587888e-05,1.2142857142857142
+439224,Propensity to adverse reaction||Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to drug,14,1.2787163149587888e-05,1.2857142857142858
+4158188,Globe finding||Finding of device of eye||Prosthesis in situ||Prosthetic eye in situ,13,1.1873794353188753e-05,2.6153846153846154
+4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,13,1.1873794353188753e-05,6.461538461538462
+439983,Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road||Accident involving off-road land motor vehicle,13,1.1873794353188753e-05,1.0769230769230769
+4019953,Social context||Person||Person in the healthcare environment||Donor for medical or surgical procedure,13,1.1873794353188753e-05,2.3076923076923075
+4160622,NA||Event||Abuse||Domestic abuse,13,1.1873794353188753e-05,1.2307692307692308
+439452,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by hanging and strangulation,12,1.0960425556789618e-05,2.0833333333333335
+4049041,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Overfeeding in newborn,12,1.0960425556789618e-05,1.5
+432804,Fall||Accidental fall||Fall from one level to another||Fall from scaffold,12,1.0960425556789618e-05,1.1666666666666667
+4053945,Exposure to non-mechanical force||Exposure to radiation||Exposure to light||Exposure to excess sunlight,12,1.0960425556789618e-05,1.1666666666666667
+441139,Event||Death||Sudden death||Instantaneous death,12,1.0960425556789618e-05,1
+443370,Disease||Drug-related disorder||Adverse reaction to drug||Diuretic adverse reaction,12,1.0960425556789618e-05,1.5
+37312602,Prevention status||Immunization status||Requires vaccination||Requires vaccination against pertussis,12,1.0960425556789618e-05,1
+3661779,Drug-related disorder||Adverse reaction to drug||Sedative adverse reaction||Adverse reaction to benzodiazepine,12,1.0960425556789618e-05,1.8333333333333333
+433658,Adverse reaction||Adverse reaction to substance||Beta lactam adverse reaction||Penicillin adverse reaction,12,1.0960425556789618e-05,4.5
+437167,Traumatic event||Accidental event||Accident||Accident caused by firearm missile,10,9.133687963991348e-06,1.2
+4265443,Equipment finding||Device status||Device applied to patient||Device in situ,10,9.133687963991348e-06,1.1
+4329840,General finding of observation of patient||Social context finding||Social problem not due to a mental disorder||Legal problem,10,9.133687963991348e-06,1.3
+4248196,Finding of gait||Abnormal gait||Middle level sensorimotor gait disorder||Spastic gait,10,9.133687963991348e-06,12.4
+434257,Traumatic event||Accidental event||Accident due to environmental factor||Accident due to cold of man-made origin,10,9.133687963991348e-06,1.1
+432534,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery,10,9.133687963991348e-06,1.2
+432806,Accidental fall||Fall from one level to another||Fall from geological formation||Fall from cliff,9,8.220319167592213e-06,1
+443882,NA||Event||Death||Unattended death,9,8.220319167592213e-06,1
+4054573,Traumatic event||Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance,9,8.220319167592213e-06,1.4444444444444444
+440597,Accidental event||Medical accidents to patients during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during endoscopic examination,9,8.220319167592213e-06,1.1111111111111112
+4021231,NA||Event||Traumatic event||Exposure to non-mechanical force,9,8.220319167592213e-06,1.3333333333333333
+4022061,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Blood donor,8,7.306950371193079e-06,2
+4022569,NA||NA||Clinical finding||Eating / feeding / drinking finding,8,7.306950371193079e-06,1.25
+437740,Accident||Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosion of pressure vessel,8,7.306950371193079e-06,1.25
+435137,"Accidental event||Medical accidents to patients during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during aspiration of fluid or tissue, puncture and catheterization",8,7.306950371193079e-06,1.25
+4050793,Finding with explicit context||Family history of clinical finding||Family history of disorder||Family history of infectious disease,8,7.306950371193079e-06,1.75
+4171594,Family history of clinical finding||Family history of disorder||Family history of neoplasm||Family history of cancer,8,7.306950371193079e-06,1.75
+4155398,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Finding relating to psychosocial functioning||Malingerer",8,7.306950371193079e-06,1.5
+45765734,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of high risk pregnancy for primigravida age 15 years or younger,7,6.393581574793944e-06,2
+4074313,Weight trend finding||Weight change finding||Weight gain||Excessive weight gain,7,6.393581574793944e-06,3.2857142857142856
+4152175,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with nonmotor vehicle,7,6.393581574793944e-06,1.5714285714285714
+3661813,Disease||Drug-related disorder||Adverse reaction to drug||Adverse reaction to hormone,7,6.393581574793944e-06,1.1428571428571428
+433390,Disease||Drug-related disorder||Adverse reaction to drug||Immunosuppressant adverse reaction,7,6.393581574793944e-06,1.4285714285714286
+442212,Transport accident||Vehicle accident||Accident to unpowered road vehicle or conveyance||Animal-drawn vehicle accident,7,6.393581574793944e-06,1.2857142857142858
+4022060,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for heart transplant,7,6.393581574793944e-06,1.1428571428571428
+4067156,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle accident collision with pedestrian,7,6.393581574793944e-06,1
+4160623,NA||Event||Abuse||Neglect or abandonment,7,6.393581574793944e-06,2.4285714285714284
+443603,Disease||Drug-related disorder||Adverse reaction to drug||Adverse reaction to antidiabetic drug,7,6.393581574793944e-06,1
+433109,"Accidental event||Accident due to environmental factor||Accident due to hunger, thirst, exposure and neglect||Accident due to lack of food",7,6.393581574793944e-06,1
+4168815,"Traumatic event||Exposure to potentially harmful entity||Exposure to animate mechanical force||Contact with plant spines, thorns, or sharp leaves",6,5.480212778394809e-06,1
+37312606,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria-tetanus-pertussis with typhoid-paratyphoid,6,5.480212778394809e-06,1
+4062888,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle in collision with another pedal cycle,6,5.480212778394809e-06,1
+4010331,"Exposure to potentially harmful entity||Exposure to toxin||Exposure to toxic agricultural agents||Exposure to toxic agricultural agents, occupational",6,5.480212778394809e-06,2
+4145781,Situation with explicit context||Procedure with explicit context||Procedure not done||Medical care unavailable,6,5.480212778394809e-06,2
+42709968,Finding of head region||Head finding||Vestibular system finding||Cochlear prosthesis in situ,6,5.480212778394809e-06,1.3333333333333333
+437761,Accident due to physical impact or mechanical violence||Accident caused by explosion||Accident caused by explosive material||Accident caused by fireworks,6,5.480212778394809e-06,1
+436319,Accidental event||Accident||Accident caused by fire and flames||Conflagration not in building or structure,6,5.480212778394809e-06,1

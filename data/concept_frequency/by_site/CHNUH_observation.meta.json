@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:31:42.998734+00:00",
+  "site_code": "CHNUH",
+  "cdm_name": "CHNUH_5.3.1_01",
+  "group_id": 95,
+  "site_id": 227,
+  "source_key": "cdm",
+  "domain": "observation",
+  "api_endpoint": "/cdmresults/cdm/observation",
+  "rows_returned": 0,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 0.66,
+  "source_id": 1,
+  "source_name": "CHNUH_5.3.1_01",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdm",
+    "Vocabulary": "cdm",
+    "Results": "cdm_results_fnet_v2120",
+    "CEM": "cdm_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 04-FEB-22",
+  "total_persons": 842542,
+  "data_cutoff_month": 202112
+}

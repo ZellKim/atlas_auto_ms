@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:34:03.881067+00:00",
+  "site_code": "HUMC",
+  "cdm_name": "HUMC_DONGTAN_5.3.1_04",
+  "group_id": 117,
+  "site_id": 256,
+  "source_key": "cdmpv53_251128",
+  "domain": "procedure",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/procedure",
+  "rows_returned": 1714,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 0.8,
+  "source_id": 4,
+  "source_name": "HUMC_DONGTAN_5.3.1_04",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-FEB-25",
+  "total_persons": 1083633,
+  "data_cutoff_month": 202510
+}

@@ -1,0 +1,86 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4022664,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Non - drinker,119778,0.323744,1.75
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,114845,0.310411,6.37
+4222303,Health-related behavior finding||Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker,92985,0.251326,1.65
+4074035,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,43278,0.116975,1.39
+704996,Clinical finding||General clinical state finding||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,17100,0.046219,2.93
+40766945,{component}||Survey terms not yet categorized||Specification of main pathology panel Spine Tango||Current smoker,16974,0.045879,1.47
+4310250,Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker||Ex-smoker,13684,0.036986,1.65
+4165000,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin,6752,0.01825,1.19
+4165006,Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin||Allergy to ceftriaxone,6719,0.018161,1.19
+4240903,Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance||Allergy to penicillin,6034,0.016309,1.6
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,4805,0.012987,1.98
+4171321,Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin||Allergy to cefazolin,4584,0.01239,1.19
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,3182,0.008601,2.76
+437643,Finding related to ability to move||Finding of walking||Finding of gait||Abnormal gait,1486,0.004016,4.71
+36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,1405,0.003798,3.6
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,1129,0.003052,3.05
+4167479,Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin||Allergy to cefoxitin,1085,0.002933,1.14
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,776,0.002097,7.53
+1340204,NA||Qualifier value||Situation with explicit context||History of event,704,0.001903,5.87
+4171324,Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin||Allergy to cefotaxime,611,0.001651,1.34
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,546,0.001476,3.26
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,536,0.001449,4.65
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,436,0.001178,1.12
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,391,0.001057,1.54
+4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,365,0.000987,4.59
+42535209,Traumatic event||Exposure to non-mechanical force||Exposure to radiation||Occupational exposure to radiation,354,0.000957,4.36
+4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,335,0.000905,1.95
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,273,0.000738,2.19
+434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,181,0.000489,2.99
+4167474,Propensity to adverse reactions to drug||Allergy to drug||Allergy to cephalosporin||Allergy to ceftazidime,166,0.000449,1.18
+4167464,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to drug||Allergy to ampicillin,163,0.000441,2.01
+441207,Disease||Disease||Drug-related disorder||Adverse reaction to drug,161,0.000435,1.92
+4061424,Antenatal/postnatal care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,157,0.000424,6.44
+45766277,Finding of region of thorax||Viscus structure finding||Device in situ||Cardiac implant in situ,117,0.000316,12.54
+4173786,Care of patient states||Reproductive care||Antenatal/postnatal care||Antenatal care,113,0.000305,12.21
+40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,109,0.000295,2.19
+36713467,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn unspecified as to place of birth,103,0.000278,2.82
+4022569,NA||NA||Clinical finding||Eating / feeding / drinking finding,99,0.000268,3.15
+37311060,Disease suspected||Suspected infectious disease||Suspected coronavirus infection||Suspected COVID-19,86,0.000232,2.33
+4279614,NA||Event||Traumatic event||Asphyxiation,83,0.000224,1.83
+4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",78,0.000211,1.26
+36713461,Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,71,0.000192,4.27
+4196193,Function||Nervous system function||Cerebral function||Drowsiness,59,0.000159,1.37
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,56,0.000151,2.93
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,52,0.000141,1.15
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,49,0.000132,1.04
+45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,44,0.000119,2.57
+4167462,Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to penicillin||Allergy to penicillin G,44,0.000119,1.45
+4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,42,0.000114,1.79
+441413,NA||Event||Death||Death of unknown cause,42,0.000114,1.02
+4329840,General finding of observation of patient||Social context finding||Social problem not due to a mental disorder||Legal problem,32,8.6e-05,1.06
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,32,8.6e-05,5.62
+4014829,NA||Procedure||Procedure by method||Consultation,29,7.8e-05,1.31
+4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,28,7.6e-05,1.14
+433315,Clinical finding||Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn,27,7.3e-05,1.26
+4219484,NA||Event||Traumatic event||Suicide attempt,26,7e-05,1.35
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,26,7e-05,6.19
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,23,6.2e-05,1.7
+4310930,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, farm",19,5.1e-05,1.53
+440279,Event||Traumatic event||Accidental event||Accident,19,5.1e-05,1.53
+432504,Traumatic event||Accidental event||Accident||Accident caused by fire and flames,18,4.9e-05,1.06
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,18,4.9e-05,1.28
+606633,General finding of observation of patient||Head finding||Finding of head circumference||Macrocephaly,18,4.9e-05,2.89
+42600276,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal||Attacked by dog,17,4.6e-05,1.53
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,14,3.8e-05,6.07
+4054573,Traumatic event||Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance,13,3.5e-05,1.08
+4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,13,3.5e-05,2.54
+36713468,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,12,3.2e-05,1.17
+4167568,Event||Traumatic event||Exposure to potentially harmful entity||Accidental exposure to potentially harmful entity,12,3.2e-05,1.08
+40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,11,3e-05,2.73
+37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,11,3e-05,1
+4248196,Finding of gait||Abnormal gait||Middle level sensorimotor gait disorder||Spastic gait,11,3e-05,3.73
+433930,Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident||Motor vehicle on road in collision with another motor vehicle,9,2.4e-05,1.56
+4203722,NA||NA||Procedure||Patient encounter procedure,9,2.4e-05,1.44
+43531719,Musculoskeletal finding||Joint finding||Knee joint finding||Artificial knee joint present,8,2.2e-05,2
+4314991,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, industrial place and premises",8,2.2e-05,1.75
+606878,General finding of observation of patient||Head finding||Finding of head circumference||Microcephaly,8,2.2e-05,2.5
+43020416,Problem situation||Problem situation relating to social and personal history||Family problems||Problem with aged spouse or partner,8,2.2e-05,2
+4096848,Finding of walking||Finding of gait||Abnormal gait||Ataxic gait,7,1.9e-05,5
+36717636,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of insufficient antenatal care,7,1.9e-05,4
+4105261,NA||Situation with explicit context||Family history with explicit context||Family social history,7,1.9e-05,4.71
+438638,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation",6,1.6e-05,1.67
+4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,6,1.6e-05,4.83
+4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,6,1.6e-05,1.33
+439224,Propensity to adverse reaction||Propensity to adverse reactions to substance||Propensity to adverse reactions to drug||Allergy to drug,6,1.6e-05,1.33

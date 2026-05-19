@@ -1,157 +1,529 @@
 conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
-4041306,NA||NA||NA||Tobacco use and exposure,235275,0.1117,1.98
-4052351,NA||NA||NA||Alcohol intake,235275,0.1117,1.98
-4203148,NA||NA||NA||Alcohol,76505,0.036322,1.64
-40481011,NA||NA||NA||Number of alcohol units consumed on typical drinking day,74045,0.035154,1.65
-44786670,NA||NA||NA||Number of years alcohol consumed [Time],72036,0.0342,1.65
-3004518,NA||NA||NA||Cigarettes smoked current (pack per day) - Reported,55518,0.026358,1.82
-4141787,NA||NA||NA||Smoking started,54150,0.025708,1.83
-44786668,NA||NA||NA||Date quit tobacco smoking,45223,0.02147,1.89
-44798293,NA||NA||NA||[V]Unspecified general medical examination,34209,0.016241,2.4
-44795767,NA||NA||NA||[V]Routine health check-up,21727,0.010315,1.98
-4145111,NA||NA||NA||Dental consultation and report,17361,0.008242,6.94
-4306655,NA||NA||NA||Death,12788,0.006071,1.0
-4047564,NA||NA||NA||Routine antenatal care,12186,0.005785,8.55
-4304360,NA||NA||NA||Preparation of medical certificate,12106,0.005747,1.1
-4014829,NA||NA||NA||Consultation,7642,0.003628,1.63
-36713465,NA||NA||NA||Singleton liveborn born in hospital,6671,0.003167,6.19
-4336011,NA||NA||NA||Glaucoma suspect,5557,0.002638,4.03
-37109774,NA||NA||NA||Requires vaccination,4317,0.00205,4.74
-44784283,NA||NA||NA||Requires influenza virus vaccination,3301,0.001567,2.54
-761166,NA||NA||NA||Suspected bilateral glaucoma,2807,0.001333,3.59
-4079646,NA||NA||NA||Surgical follow-up,2202,0.001045,1.81
-40479809,NA||NA||NA||Exposure to Mycobacterium tuberculosis,2020,0.000959,3.91
-435928,NA||NA||NA||Abnormal weight loss,1587,0.000753,4.57
-442165,NA||NA||NA||Loss of appetite,1290,0.000612,3.13
-437643,NA||NA||NA||Abnormal gait,1099,0.000522,4.85
-4082086,NA||NA||NA||No home medical services,922,0.000438,1.63
-36713461,NA||NA||NA||Antenatal care of elderly primigravida,812,0.000386,1.29
-141693,NA||NA||NA||Elevated blood-pressure reading without diagnosis of hypertension,762,0.000362,3.7
-4148887,NA||NA||NA||Patient on waiting list,702,0.000333,2.76
-40483084,NA||NA||NA||Twin liveborn born in hospital,686,0.000326,7.11
-4301680,NA||NA||NA||Dialysis care,665,0.000316,13.94
-441207,NA||NA||NA||Adverse reaction to drug,619,0.000294,4.92
-439141,NA||NA||NA||Abnormal weight gain,604,0.000287,5.06
-4152780,NA||NA||NA||Presence of orthopedic joint implant,553,0.000263,2.89
-434833,NA||NA||NA||Adverse reaction to anti-common cold drug,512,0.000243,9.04
-4030353,NA||NA||NA||Constitutional tall stature,484,0.00023,4.72
-4074035,NA||NA||NA||Current drinker,438,0.000208,2.08
-443448,NA||NA||NA||Adverse reaction to viral vaccines,435,0.000207,2.27
-45765728,NA||NA||NA||Supervision of high risk pregnancy,434,0.000206,1.48
-4022062,NA||NA||NA||Bone marrow donor,430,0.000204,1.86
-4215685,NA||NA||NA||Past history of procedure,406,0.000193,3.04
-441139,NA||NA||NA||Instantaneous death,364,0.000173,1.05
-4291007,NA||NA||NA||Exposure to attack by mammal,355,0.000169,1.66
-4019967,NA||NA||NA||Dependence on renal dialysis,354,0.000168,42.14
-4230638,NA||NA||NA||Exposure to inanimate mechanical force,341,0.000162,1.52
-4050870,NA||NA||NA||Exposure to sting or bite by insect,333,0.000158,2.16
-4307024,NA||NA||NA||Follow-up encounter,297,0.000141,5.89
-40485017,NA||NA||NA||Exposure to communicable disease,294,0.00014,1.48
-36713466,NA||NA||NA||Singleton liveborn born outside hospital,293,0.000139,4.9
-443882,NA||NA||NA||Unattended death,270,0.000128,1.02
-4270276,NA||NA||NA||Failure to gain weight,250,0.000119,3.89
-4149299,NA||NA||NA||Follow-up orthopedic assessment,199,9.4e-05,3.62
-4019957,NA||NA||NA||Donor of kidney for transplant,176,8.4e-05,6.98
-36713460,NA||NA||NA||Supervision of pregnancy with history of infertility,172,8.2e-05,8.64
-4023154,NA||NA||NA||Donor for liver transplant,152,7.2e-05,5.99
-761167,NA||NA||NA||Suspected glaucoma of left eye,133,6.3e-05,4.96
-761168,NA||NA||NA||Suspected glaucoma of right eye,128,6.1e-05,5.01
-433315,NA||NA||NA||Feeding problems in newborn,114,5.4e-05,9
-45765666,NA||NA||NA||Surveillance of intrauterine device contraception,112,5.3e-05,2.89
-42537735,NA||NA||NA||Dental prosthetic device in situ,107,5.1e-05,4.5
-4061424,NA||NA||NA||Antenatal care: primigravida,95,4.5e-05,2.95
-4155221,NA||NA||NA||Exposure to poison of venomous animals and plants,95,4.5e-05,1.21
-4174707,NA||NA||NA||Dietary management surveillance,93,4.4e-05,5.49
-4302371,"NA||NA||NA||Anaphylactic shock, due to adverse effect of correct medicinal substance properly administered",93,4.4e-05,5.04
-40490404,NA||NA||NA||Adverse reaction to biological substance,85,4e-05,2.96
-4094126,NA||NA||NA||Family problems,83,3.9e-05,7.65
-4082397,NA||NA||NA||Repeated prescription,77,3.7e-05,1.7
-4051114,NA||NA||NA||Family history of diabetes mellitus,75,3.6e-05,7.92
-4005823,NA||NA||NA||Tobacco user,68,3.2e-05,4.71
-45766277,NA||NA||NA||Cardiac implant in situ,68,3.2e-05,11.91
-4098471,NA||NA||NA||Imbalance of constituents of food intake,65,3.1e-05,3
-36713471,NA||NA||NA||Routine postpartum follow-up,65,3.1e-05,3.58
-4308570,NA||NA||NA||Phototoxic drug eruption,64,3e-05,6.53
-439558,NA||NA||NA||Adverse reaction to bacterial vaccines,64,3e-05,3.64
-438046,NA||NA||NA||Medical accidents to patients during surgical and medical care,61,2.9e-05,3.28
-432454,NA||NA||NA||Excessive thirst,59,2.8e-05,4.85
-4279614,NA||NA||NA||Asphyxiation,57,2.7e-05,2.19
-4303528,NA||NA||NA||Exposure to electric current,56,2.7e-05,2.86
-4021166,NA||NA||NA||Care regime,55,2.6e-05,1.91
-434750,NA||NA||NA||Feeding difficulties and mismanagement,51,2.4e-05,1.98
-4152408,NA||NA||NA||H/O: deliberate self harm,50,2.4e-05,1.72
-4079844,NA||NA||NA||Fetal death,49,2.3e-05,4.49
-432504,NA||NA||NA||Accident caused by fire and flames,49,2.3e-05,1.45
-436298,NA||NA||NA||Adverse reaction to food,47,2.2e-05,3.38
-441201,NA||NA||NA||Fall from building,42,2e-05,1.48
-40479792,NA||NA||NA||Exposure to viral hepatitis,39,1.9e-05,2.95
-4248196,NA||NA||NA||Spastic gait,38,1.8e-05,7.32
-4016909,NA||NA||NA||Requires full course of tetanus vaccination,37,1.8e-05,1.49
-443372,NA||NA||NA||Lipid-lowering drug adverse reaction,36,1.7e-05,12.33
-4219484,NA||NA||NA||Suicide attempt,36,1.7e-05,1.58
-4306703,NA||NA||NA||Atherosclerosis,33,1.6e-05,10.15
-439242,NA||NA||NA||Adverse reaction to tetanus vaccine,32,1.5e-05,1.84
-4096848,NA||NA||NA||Ataxic gait,29,1.4e-05,2.79
-438668,NA||NA||NA||Accidents due to travel and motion,28,1.3e-05,1.43
-437768,NA||NA||NA||Adverse reaction to BCG vaccine,28,1.3e-05,3.46
-4167217,NA||NA||NA||Family history of clinical finding,27,1.3e-05,4.44
-439452,NA||NA||NA||Assault by hanging and strangulation,27,1.3e-05,1.41
-4167568,NA||NA||NA||Accidental exposure to potentially harmful entity,26,1.2e-05,1.42
-436583,NA||NA||NA||Fall,26,1.2e-05,2.08
-436882,NA||NA||NA||Fall from bed,25,1.2e-05,2.56
-436593,NA||NA||NA||Accidental drowning and submersion,23,1.1e-05,4.65
-438042,NA||NA||NA||Adverse reaction to expectorant,22,1e-05,10.14
-36717636,NA||NA||NA||Supervision of pregnancy with history of insufficient antenatal care,21,1e-05,6.14
-4169307,NA||NA||NA||Allergy to substance,21,1e-05,2.62
-432507,NA||NA||NA||Suicide - hanging,20,9e-06,1
-435134,NA||NA||NA||Motor vehicle accident,20,9e-06,2.85
-4031101,NA||NA||NA||Lichenoid drug eruption,18,9e-06,7.67
-45763889,NA||NA||NA||Requires rubella vaccination,18,9e-06,2.28
-37117058,NA||NA||NA||Vaccination not done,17,8e-06,2.65
-4301487,NA||NA||NA||Exposure to attack by other person,16,8e-06,1.69
-440309,NA||NA||NA||Adverse reaction to diphtheria vaccine,16,8e-06,7.56
-4303202,NA||NA||NA||Staggering gait,16,8e-06,3
-4334494,NA||NA||NA||Family history of malignant neoplasm of digestive organ,14,7e-06,3
-4201412,NA||NA||NA||Speech therapy,14,7e-06,1.86
-40479328,NA||NA||NA||Exposure to Human immunodeficiency virus,13,6e-06,4.38
-4171902,"NA||NA||NA||Death occurring less than 24 hours from onset of symptoms, not otherwise expected",13,6e-06,1
-42535090,NA||NA||NA||Need for personal care assistance,13,6e-06,4.38
-443354,NA||NA||NA||Antiprotozoal drug adverse reaction,13,6e-06,2.23
-37116462,NA||NA||NA||Exposure to intestinal infectious disease,13,6e-06,2.08
-4203722,NA||NA||NA||Patient encounter procedure,12,6e-06,1.17
-40479430,NA||NA||NA||Exposure to Rubella virus,12,6e-06,2.75
-4140830,NA||NA||NA||Fall on same level,12,6e-06,4
-4022569,NA||NA||NA||Eating / feeding / drinking finding,11,5e-06,1.82
-4059338,NA||NA||NA||H/O: injury,11,5e-06,1.91
-4168046,NA||NA||NA||Vehicle accident,11,5e-06,3
-4015930,NA||NA||NA||Requires polio vaccination,10,5e-06,5.7
-441413,NA||NA||NA||Death of unknown cause,10,5e-06,1
-42535209,NA||NA||NA||Occupational exposure to radiation,9,4e-06,2.22
-4059343,NA||NA||NA||H/O: non-drug allergy,9,4e-06,5.22
-4059182,NA||NA||NA||H/O: infectious disease,9,4e-06,4.56
-4214956,NA||NA||NA||History of clinical finding in subject,9,4e-06,8.11
-440599,NA||NA||NA||Assault by poisoning,9,4e-06,2.78
-35610791,NA||NA||NA||History of malignant neoplasm of digestive organ,9,4e-06,7.89
-443547,NA||NA||NA||Non-steroidal anti-inflammatory drug adverse reaction,9,4e-06,5.11
-437192,NA||NA||NA||Antidiarrheal drug adverse reaction,9,4e-06,1.56
-4050793,NA||NA||NA||Family history of infectious disease,8,4e-06,2
-443348,NA||NA||NA||Laxative adverse reaction,8,4e-06,7.12
-438639,NA||NA||NA||Antidepressant drug adverse reaction,8,4e-06,7.62
-4158345,NA||NA||NA||Has not grown in height,8,4e-06,3.25
-4324190,NA||NA||NA||History of malignant neoplasm of breast,8,4e-06,6
-4014023,NA||NA||NA||Palliative care,8,4e-06,4.75
-4097790,NA||NA||NA||Topical dermatological preparation adverse reaction,7,3e-06,1.71
-40479426,NA||NA||NA||Exposure to sexually transmissible disorder,7,3e-06,1.86
-4186037,NA||NA||NA||Aftercare,7,3e-06,3.71
-4020871,NA||NA||NA||Asphyxia by strangulation,7,3e-06,1.29
-36713467,NA||NA||NA||Singleton liveborn unspecified as to place of birth,7,3e-06,1.86
-4164254,NA||NA||NA||Combined oral contraceptive adverse reaction,7,3e-06,1
-438051,NA||NA||NA||Assault by fire and burning,7,3e-06,1.29
-4175576,NA||NA||NA||Motorcycle accident,7,3e-06,1.57
-4178782,NA||NA||NA||History of malignant neoplasm of cervix,6,3e-06,4.17
-42536906,NA||NA||NA||History of allergy to drug,6,3e-06,2.83
-443367,NA||NA||NA||Antihypertensive adverse reaction,6,3e-06,19.17
-4096435,NA||NA||NA||Drug groups primarily affecting central nervous system adverse reaction,6,3e-06,2.5
-443423,NA||NA||NA||Pedal cycle accident,6,3e-06,2.33
-4055054,"NA||NA||NA||Exposure to current from electric transmission lines, with passage of current through tissue",6,3e-06,1.33
-4144289,NA||NA||NA||H/O: malignant neoplasm,6,3e-06,3.83
+1030279,NA||NA||NA||Chief complaint,520928,0.5516575311131255,4.638773496529271
+1031370,NA||NA||NA||Assessment,489231,0.5180907257893711,15.066860031355331
+4114518,Qualifier value||Descriptor||Behavior descriptors||Subjective,383249,0.40585684997077187,14.675675605154874
+1029318,NA||NA||NA||Body weight,288402,0.305414827554072,5.632322244644628
+1029031,NA||NA||NA||Body height,264303,0.27989422808102543,4.384645652905945
+3023170,"Survey set||Survey terms not yet categorized||PhenX - personal medical history of allergies, infectious diseases, and immunizations - adult protocol 161602||Hospital admission date",253395,0.2683427654040682,7.994159316482172
+3021690,"Survey set||Survey terms not yet categorized||PhenX - personal medical history of allergies, infectious diseases, and immunizations - adult protocol 161602||Hospital discharge date",250125,0.26487986817692755,4.892061969015493
+4135376,NA||Observable entity||General clinical state||Gender,226184,0.23952658912036057,5.128178827856966
+3022304,Test of Infant Motor Performance (TIMP) set||Vaccination order set||Vaccine Adverse Event Reporting System (VAERS) panel||Age,226184,0.23952658912036057,5.128178827856966
+4224657,Inflammatory morphology||Inflammation||Chronic inflammatory morphology||Chronic inflammation,30171,0.03195078661775545,1.1297603659142885
+4262123,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Adenocarcinoma",15131,0.016023577352863933,1.8064899874429978
+4053015,Morphologically altered structure||Morphologically abnormal structure||Inflammatory morphology||Inflammation,12983,0.013748866880723841,1.2038819995378571
+4234469,NA||Observable entity||Interpretation of findings||Diagnosis,11203,0.011863864720384287,1.0658752119967865
+4195317,"Soft tissue tumor, benign||Leiomyomatous neoplasm - category||Benign leiomyomatous neoplasm - category||Leiomyoma",6660,0.007052873251607547,1.0337837837837838
+4174659,Morphologically altered structure||Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Cytologic atypia,6497,0.006880257885239374,1.2959827612744343
+40483719,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Tubular adenoma - category",6219,0.006585858671433534,1.1125582891140056
+4163835,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Acute inflammation,5916,0.006264984708184722,1.0096348884381339
+4140663,Morphologically altered structure||Morphologically abnormal structure||Degenerative abnormality||Degeneration,5709,0.006045773782796919,1.0768961289192502
+4093456,Squamous cell neoplasm||Squamous cell carcinoma - category||Malignant squamous tumor||Papillary carcinoma,5291,0.0056031159721104395,1.5051975051975053
+4187628,Lesion||Proliferation||Proliferative mass||Polyp,4185,0.004431873056753391,1.0592592592592593
+4210465,Morphologically altered structure||Morphologically abnormal structure||Growth alteration||Hypertrophy,3542,0.0037509425010801697,1.0197628458498025
+4296894,Morphologically altered structure||Morphologically abnormal structure||Growth alteration||Hyperplasia,3514,0.003721290781704042,1.0577689243027888
+4189291,"Neoplasm||Neoplasm, malignant (primary)||Infiltrating duct carcinoma||Invasive ductal carcinoma with an extensive intraductal component",3367,0.003565619254979371,1.7543807543807544
+4103543,Squamous cell neoplasm||Squamous cell carcinoma - category||Malignant squamous tumor||Squamous cell carcinoma,3360,0.0035582063251353387,1.7306547619047619
+45771295,Qualifier value||Technique||Measurement technique||Cytology,3258,0.003450189347408016,1.4407612031921424
+4244991,Morphologically abnormal structure||Growth alteration||Proliferation||Endometriosis,3094,0.0032765149910621246,1.0601163542340013
+4279699,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Cyst,2827,0.0029937646670111914,1.0350194552529184
+4265059,Proliferative mass||Polyp||Serrated polyp||Hyperplastic polyp,2689,0.00284762405008599,1.0799553737448866
+4028206,Morphologically altered structure||Morphologically abnormal structure||Degenerative abnormality||Atrophy,2477,0.0026231181748095937,1.3371013322567622
+4093447,Morphologically altered structure||Morphologically abnormal structure||Lesion||Dysplasia,2318,0.0024547387683522964,1.0849870578084555
+4287106,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Carcinoma",2221,0.0023520167405135677,1.4416929311121116
+4048223,Morphologically abnormal structure||Inflammatory morphology||Reactive cellular changes||Reactive cellular changes associated with inflammation,2123,0.0022482357226971204,1.1078662270372115
+4321751,Morphologically abnormal structure||Degenerative abnormality||Degeneration||Myxoid degeneration,2045,0.00216563450443505,1.0645476772616136
+4206914,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Ulcer,2000,0.002117979955437702,1.1215
+4012791,Morphologically abnormal structure||Mechanical abnormality||Protrusion||Hernia sac,1888,0.0019993730779331903,1.0280720338983051
+4263948,Morphologically abnormal structure||Growth alteration||Hyperplasia||Nodular hyperplasia,1765,0.0018691173106737719,1.2113314447592067
+4120014,NA||Qualifier value||Technique||Polymerase chain reaction,1764,0.001868058320696053,1.8134920634920635
+4278093,Mechanical abnormality||Mechanical lesion||Calculus||Lithiasis,1716,0.0018172268017655482,1.0198135198135199
+4012171,Morphologically abnormal structure||Lesion||Fibrosis AND/OR repair abnormality||Fibrosis,1662,0.0017600413429687302,1.1323706377858003
+4279921,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Fibroadenoma",1638,0.0017346255835034778,1.1233211233211233
+4028533,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Non-small cell carcinoma",1514,0.0016033108262663402,1.5092470277410832
+4247022,Morphologically altered structure||Tissue repair||Excessive repair||Granulation tissue,1462,0.00154824334742496,1.0800273597811219
+4262548,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Tubular adenocarcinoma",1419,0.0015027067783830493,1.2353770260747006
+4263459,"Neoplasm||Malignant epithelial neoplasm - category||Neoplasm, metastatic||Adenocarcinoma, metastatic",1371,0.0014518752594525446,1.6885485047410649
+4144955,Mechanical abnormality||Mechanical lesion||Accumulation of fluid||Blister,1266,0.0013406813117920653,1.1627172195892574
+4262916,"Soft tissue tumor, benign||Benign lipomatous tumor morphology||Lipoma morphology||Lipoma",1259,0.0013332683819480332,1.027799841143765
+4282379,Proliferative mass||Neoplasm and/or hamartoma||Neoplasm||Malignant Neoplasm (Morphology),1240,0.001313147572371375,1.1879032258064517
+4306002,Mechanical lesion||Keratinizing cyst||Epithelial inclusion cyst||Epidermal inclusion cyst,1219,0.0012909087828392792,1.0426579163248564
+4286333,Neoplasm||In situ neoplasm (morphology)||Carcinoma in situ - category||Carcinoma in situ,1189,0.0012591390835077136,1.5197645079899076
+4049449,Mechanical abnormality||Mechanical lesion||Ulcer||Superficial ulcer,1138,0.0012051305946440523,1.047451669595782
+4267876,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Tubulovillous adenoma",1100,0.001164888975490736,1.0872727272727274
+4194691,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, metastatic||Carcinoma, metastatic",1086,0.0011500631158026721,1.365561694290976
+4175497,"Neoplasm||Neoplasm, benign||Benign germ cell neoplasm||Teratoma, benign",1086,0.0011500631158026721,1.0313075506445673
+4269928,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Granulomatous inflammation,1050,0.0011119394766047933,1.5047619047619047
+4272387,Mechanical abnormality||Mechanical lesion||Fibrosis||Fibrocystic change,1049,0.0011108804866270746,1.0781696854146805
+4097829,Neoplasm||Malignant Neoplasm (Morphology)||Transitional cell neoplasm||Transitional cell carcinoma,1004,0.0010632259376297264,1.8117529880478087
+4280654,Morphologically abnormal structure||Lesion||Damage||Necrosis,999,0.001057930987741132,1.1901901901901901
+4275600,Lesion||Dysplasia||Epithelial dysplasia||Parakeratosis,983,0.0010409871480976305,1.0834181078331637
+4029830,Enlargement||Dilatation||Phlebectasia||Varix,963,0.0010198073485432535,1.0186915887850467
+4215373,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Renal cell carcinoma",942,0.0009975685590111576,1.5615711252653928
+4187933,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Proliferative endometrium,936,0.0009912146191448444,1.0363247863247862
+4174818,Morphologically abnormal structure||Degenerative abnormality||Deposition||Cholesterolosis,925,0.000979565729389937,1.0108108108108107
+4022015,Morphologically abnormal structure||Inflammatory morphology||Acute inflammatory morphology||Acute abscess,904,0.0009573269398578412,1.0807522123893805
+36715450,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Lymphoid follicular inflammation,895,0.0009477960300583716,1.2681564245810055
+4101758,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Hepatocellular carcinoma",845,0.000894846531172429,1.7029585798816569
+4298084,Mechanical abnormality||Mechanical lesion||Accumulation of fluid||Hydrocele,841,0.0008906105712615536,1.0344827586206897
+4183395,Inflammation||Chronic inflammatory morphology||Chronic inflammation||Chronic lymphocytic inflammation,830,0.0008789616815066462,1.0855421686746989
+4252582,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Small cell carcinoma",828,0.0008768437015512085,1.858695652173913
+4227888,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Signet ring cell carcinoma",727,0.0007698857138016046,1.7207702888583218
+4029645,Function||Reproductive function||Female reproductive function||Conception,719,0.0007614137939798538,1.0347705146036161
+4241977,In situ neoplasm (morphology)||Squamous cell neoplasm||Squamous carcinoma in situ||Squamous cell carcinoma in situ,715,0.0007571778340689783,1.13986013986014
+4313576,Lesion||Damage||Necrosis||Avascular necrosis,715,0.0007571778340689783,1.1272727272727272
+4071676,"Neoplasm||Malignant hematopoietic neoplasm||Neoplasm, malignant (primary)||Malignant lymphoma",681,0.0007211721748265374,1.5212922173274597
+4053959,Lesion||Pathologic mineralization||Pathologic calcification||Diffuse calcium deposition,653,0.0006915204554504096,1.0290964777947933
+4078234,Morphologically abnormal structure||Degenerative abnormality||Degeneration||Hyaline degeneration,650,0.000688343485517253,1.023076923076923
+4218973,Morphologically abnormal structure||Mechanical lesion||Ulcer||Ulcerative inflammation,605,0.0006406889365199047,1.0413223140495869
+4224139,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Adenomyoma",576,0.000609978227166058,1.0086805555555556
+4312484,Morphologically altered structure||Morphologically abnormal structure||Postmortem change||Autolysis,575,0.0006089192371883393,1.0121739130434784
+4281855,"Neoplasm||Cystic, mucinous AND/OR serous neoplasm||Cystadenoma||Mucinous cystadenoma",575,0.0006089192371883393,1.031304347826087
+4211256,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Atrophic endometrium,571,0.0006046832772774639,1.043782837127846
+4195235,Lesion||Metaplasia||Glandular metaplasia||Gastric metaplasia,565,0.0005983293374111508,1.0212389380530973
+4233476,Mechanical abnormality||Mechanical lesion||Ulcer||Chronic ulcer,562,0.0005951523674779942,1.0551601423487544
+4191603,Cellular AND/OR subcellular abnormality||Cytologic atypia||Squamous cell atypia||Atypical squamous cells of undetermined significance,562,0.0005951523674779942,1.1690391459074734
+4179955,Morphologically altered structure||Morphologically abnormal structure||Mechanical abnormality||Hemorrhage,554,0.0005866804476562434,1.036101083032491
+4294981,Proliferation||Proliferative mass||Polyp||Inflammatory polyp,553,0.0005856214576785246,1.0253164556962024
+4245118,Mechanical abnormality||Mechanical lesion||Blood clot||Thrombus,553,0.0005856214576785246,1.1265822784810127
+4291183,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Secretory endometrium,550,0.000582444487745368,1.0145454545454544
+4032806,"Neoplasm and/or hamartoma||Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, metastatic",546,0.0005782085278344926,1.4706959706959708
+4247921,"Neoplasm and/or hamartoma||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Mucinous adenocarcinoma",546,0.0005782085278344926,1.8205128205128205
+4290186,Mass||Nodule||Granuloma||Foreign body giant cell granuloma,543,0.0005750315579013361,1.0662983425414365
+36715176,Inflammatory morphology||Inflammation||Lymphoid follicular inflammation||Chronic lymphoid follicular inflammation,543,0.0005750315579013361,1.320441988950276
+4013220,Cytologic atypia||Squamous cell atypia||Squamous intraepithelial lesion||Low-grade squamous intraepithelial lesion,532,0.0005633826681464287,1.193609022556391
+44783561,Morphologically abnormal structure||Growth alteration||Hyperplasia||Adenomyomatosis,522,0.0005527927683692402,1.0076628352490422
+4098436,Morphologically abnormal structure||Growth alteration||Hyperplasia||Hyperkeratosis,520,0.0005506747884138025,1.05
+4312098,Morphologically abnormal structure||Mechanical abnormality||Fluid disturbance||Congestion,519,0.0005496157984360836,1.0366088631984587
+4239134,Morphologically altered structure||Morphologically abnormal structure||Lesion||Cholesteatoma,510,0.000540084888636614,1.076470588235294
+4195465,Morphologically abnormal structure||Growth alteration||Hyperplasia||Lymphoid hyperplasia,500,0.0005294949888594255,1.09
+4161177,NA||Observable entity||Sample observable||Adequacy of specimen,483,0.000511492159238205,1.0641821946169772
+4206471,Lesion||Damage||Structural change due to ischemia||Infarct,461,0.00048819437972839023,1.0260303687635575
+4030134,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Gastrointestinal stromal tumor, benign",450,0.0004765454899734829,1.1844444444444444
+4206488,Growth alteration||Cyclic tissue alteration||Cyclic alteration of ovary||Corpus hemorrhagicum,425,0.00045007074053051165,1.0352941176470587
+4272024,"Neoplasm, benign||Squamous cell neoplasm||Benign squamous cell tumor||Squamous cell papilloma",424,0.0004490117505527928,1.0778301886792454
+4307654,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Pleomorphic adenoma",409,0.00043312690088701,1.0929095354523226
+4321755,Nervous system tumor morphology||Nerve sheath tumor||Benign nerve sheath tumor - category||Schwannoma,401,0.0004246549810652592,1.1521197007481296
+4204525,"Neoplasm, benign||Neoplasm||Follicular neoplasm||Follicular adenoma",400,0.00042359599108754035,1.0775
+4053290,Morphologically abnormal structure||Growth alteration||Hyperplasia||Acanthosis,374,0.0003960622516668502,1.0160427807486632
+37051592,Genes||Mutations||BRAF gene||BRAF gene targeted mutation analysis,366,0.0003875903318450994,1.4153005464480874
+4147383,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Endometrioid carcinoma",361,0.00038229538195650516,1.6980609418282548
+4185717,Lesion||Damage||Necrosis||Necrotic debris,353,0.00037382346213475436,1.1388101983002834
+4035081,Mycobacteriaceae||Mycobacterium||Slow growing mycobacteria||Mycobacterium tuberculosis complex,350,0.0003706464922015978,1.2542857142857142
+4101098,Morphologically abnormal structure||Lesion||Mass||Nodule,346,0.0003664105322907224,1.0520231213872833
+4306703,Degenerative abnormality||Vascular sclerosis||Arteriosclerosis||Atherosclerosis,346,0.0003664105322907224,1.046242774566474
+4305589,"Proliferative mass||Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign",345,0.00036535154231300356,1.046376811594203
+4197571,"Neoplasm||Cystic, mucinous AND/OR serous neoplasm||Cystadenoma||Serous cystadenoma",339,0.00035899760244669047,1.0176991150442478
+4266492,"Squamous cell carcinoma - category||Neoplasm, malignant (primary)||Squamous cell carcinoma||Metaplastic squamous cell carcinoma",339,0.00035899760244669047,1.448377581120944
+4043006,Morphologically altered structure||Morphologically abnormal structure||Mechanical lesion||Fistula,336,0.00035582063251353386,1.0357142857142858
+4263947,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Perforation,324,0.00034311275278090767,1.0432098765432098
+4217808,Mechanical abnormality||Traumatic abnormality||Traumatic abnormality by morphology||Fracture,321,0.0003399357828477511,1.0186915887850467
+4028538,Proliferative mass||Polyp||Serrated polyp||Serrated adenoma,321,0.0003399357828477511,1.0218068535825544
+4270888,"In situ neoplasm (morphology)||Squamous intraepithelial neoplasia - category||Squamous intraepithelial neoplasia, low grade||Squamous intraepithelial neoplasia grade 1",320,0.00033887679287003227,1.040625
+4264769,Proliferation||Proliferative mass||Polyp||Cholesterol polyp,309,0.0003272279031151249,1.0032362459546926
+4195121,Lesion||Damage||Necrosis||Fat necrosis,299,0.0003166380033379364,1.0903010033444815
+4192740,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Blood clot,298,0.0003155790133602176,1.0134228187919463
+4324949,Mechanical abnormality||Mechanical lesion||Cyst||Ganglion cyst,296,0.0003134610334047799,1.027027027027027
+4004504,Morphologically abnormal structure||Developmental abnormality||Odontogenic cyst||Odontogenic keratocyst,294,0.0003113430534493422,1.030612244897959
+4055737,Mechanical abnormality||Mechanical lesion||Cyst||Mucous cyst,292,0.0003092250734939044,1.0171232876712328
+4104542,Morphologically abnormal structure||Degenerative abnormality||Degeneration||Fatty degeneration,290,0.0003071070935384667,1.0586206896551724
+4012174,"Soft tissue tumor AND/OR sarcoma||Neoplasm, benign||Benign fibromatous neoplasm - category||Fibroma",287,0.0003039301236053102,1.024390243902439
+4194936,Morphologically abnormal structure||Lesion||Obliteration||Fibrous obliteration,279,0.0002954582037835594,1.093189964157706
+4227429,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Tumor cells, malignant",277,0.0002933402238281217,1.3104693140794224
+4147213,Morphologically altered structure||Morphologically abnormal structure||Growth alteration||Proliferation,269,0.0002848683040063709,1.0929368029739777
+4105753,Morphologically abnormal structure||Mechanical abnormality||Displacement||Prolapse,260,0.00027533739420690124,1.0076923076923077
+4024298,"Neoplasm||Neoplasm, benign||Benign meningeal neoplasm||Benign meningioma",243,0.00025733456458568074,1.168724279835391
+4239910,Blood vessel feature||Venous feature||Appearance of vein||Varicose vein feature,241,0.00025521658463024304,1.016597510373444
+4147001,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Hematoma,234,0.0002478036547862111,1.0341880341880343
+4007020,Morphologically altered structure||Morphologically abnormal structure||Developmental abnormality||Embryonic cyst,232,0.0002456856748307734,1.0560344827586208
+4104248,"Neoplasm||Neoplasm, benign||Hyperkeratosis||Seborrheic keratosis",231,0.00024462668485305454,1.0173160173160174
+4024987,Squamous cell neoplasm||Benign squamous cell tumor||Verrucous papilloma||Condyloma,231,0.00024462668485305454,1.0606060606060606
+40798277,Molecular pathology||Genes||Mutations||BRAF gene,222,0.0002350957750535849,1.3153153153153152
+4187662,Inflammatory morphology||Inflammation||Suppurative inflammation||Acute suppurative inflammation,222,0.0002350957750535849,1.0405405405405406
+4245922,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Inactive endometrium,220,0.0002329777950981472,1
+4251763,Damage||Structural change due to ischemia||Infarct||Hemorrhagic infarct,219,0.00023191880512042835,1.0182648401826484
+4306771,Lesion||Metaplasia||Epithelial metaplasia||Squamous metaplasia,214,0.0002266238552318341,1.0233644859813085
+4105128,Inflammatory morphology||Inflammation||Organizing inflammation||Proliferative inflammation,213,0.00022556486525411525,3.131455399061033
+4260206,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Adrenal cortical adenoma - category",212,0.00022450587527639637,1.070754716981132
+4304037,Mechanical abnormality||Mechanical lesion||Cyst||Follicular cyst,209,0.00022132890534323982,1.0287081339712918
+4142343,Neoplasm and/or hamartoma||Blood vessel tumor||Benign hemangioma||Cavernous hemangioma,205,0.00021709294543236442,1.0634146341463415
+4232456,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Lobular carcinoma",191,0.00020226708574430053,1.4921465968586387
+4138073,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Adenoma",188,0.00019909011581114395,1.0319148936170213
+4053818,Lesion||Fibrosis AND/OR repair abnormality||Fibrosis||Interstitial fibrosis,184,0.00019485415590026855,1.2771739130434783
+4028320,"Neoplasm||Malignant basal cell tumor||Neoplasm, malignant (primary)||Basal cell carcinoma",183,0.0001937951659225497,1.1202185792349726
+4321680,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Cholangiocarcinoma",182,0.00019273617594483085,1.2857142857142858
+4149565,Proliferation||Squamous cell neoplasm||Polyp||Fibroepithelial polyp,182,0.00019273617594483085,1.0164835164835164
+4280377,Morphologically abnormal structure||Inflammatory morphology||Pus||Empyema,181,0.000191677185967112,1.022099447513812
+4196943,Morphologically abnormal structure||Mechanical abnormality||Fluid disturbance||Edema,181,0.000191677185967112,1.0386740331491713
+4189146,"Neoplasm, malignant (primary)||Non-Hodgkin lymphoma (category)||Mature (peripheral) B-cell neoplasm||Diffuse large B-cell lymphoma - category",178,0.00018850021603395546,1.3932584269662922
+4198703,Proliferation||Proliferative mass||Neoplasm and/or hamartoma||Hamartoma,177,0.0001874412260562366,1.1073446327683616
+4239158,Morphologically abnormal structure||Lesion||Metaplasia||Adenosis,174,0.00018426425612308006,1.0747126436781609
+4135604,Morphologically abnormal structure||Lesion||Necrosis||Necrotizing inflammation,173,0.0001832052661453612,1.1502890173410405
+4217347,Lesion||Necrosis||Necrotizing inflammation||Acute necrotizing inflammation,172,0.00018214627616764236,1.0232558139534884
+4331440,Cytologic atypia||Squamous cell atypia||Squamous intraepithelial lesion||High-grade squamous intraepithelial lesion,170,0.00018002829621220466,1.0588235294117647
+4179640,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Intraductal papilloma",169,0.0001789693062344858,1.1242603550295858
+40488976,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Xanthogranulomatous inflammation,169,0.0001789693062344858,1.0591715976331362
+4048446,"Neoplasm||Neoplasm, benign||Complex epithelial neoplasm||Adenolymphoma",165,0.00017473334632361038,1.1575757575757577
+36684856,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, metastatic||Metastatic non-small cell carcinoma",159,0.00016837940645729729,1.930817610062893
+4050007,Morphologically abnormal structure||Lesion||Fibrosis AND/OR repair abnormality||Scar,157,0.00016626142650185959,1.0318471337579618
+4028882,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Pituitary adenoma",156,0.00016520243652414074,1.1987179487179487
+4146758,Lesion||Proliferation||Proliferative mass||Verruca,155,0.00016414344654642189,1.0516129032258066
+4185707,"Neoplasm, benign||Neoplasm with pilar differentiation||Benign neoplasm with pilar differentiation||Pilomatrixoma",155,0.00016414344654642189,1.0193548387096774
+4148292,"Neoplasm||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Clear cell adenocarcinoma",153,0.0001620254665909842,1.3986928104575163
+4234101,"Neoplasm, benign||Squamous cell neoplasm||Benign squamous cell tumor||Squamous cell papilloma, inverted",151,0.0001599074866355465,1.1788079470198676
+4168143,Morphologically abnormal structure||Degenerative abnormality||Vascular sclerosis||Atheroma,151,0.0001599074866355465,1.0264900662251657
+35624481,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Eosinophilic inflammation,150,0.00015884849665782764,1.1066666666666667
+4051455,Neoplasm and/or hamartoma||Blood vessel tumor||Benign hemangioma||Hemangioma,150,0.00015884849665782764,1.0666666666666667
+4138847,Morphologically abnormal structure||Growth alteration||Hyperplasia||Atypical hyperplasia,147,0.0001556715267246711,1.1156462585034015
+4163983,Lesion||Mass||Nodule||Granuloma,146,0.00015461253674695224,1.1438356164383563
+4275662,Mechanical abnormality||Mechanical lesion||Cyst||Retention cyst,144,0.00015249455679151454,1.034722222222222
+4034142,"Neoplasm, benign||Squamous cell neoplasm||Benign squamous cell tumor||Papilloma (except papilloma of bladder M-81201)",143,0.00015143556681379566,1.062937062937063
+4228373,Morphologically abnormal structure||Mechanical lesion||Retention||Fecalith,137,0.00014508162694748257,1.0291970802919708
+4236657,"Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Cystadenocarcinoma||Serous cystadenocarcinoma",135,0.00014296364699204487,1.7037037037037037
+4150051,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Diverticulum,134,0.00014190465701432602,1.0746268656716418
+4010103,Nevus AND/OR melanoma||Hamartoma||Melanocytic nevus - category||Intradermal nevus,134,0.00014190465701432602,1.0522388059701493
+4199584,"Neoplasm and/or hamartoma||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Follicular adenocarcinoma",134,0.00014190465701432602,1.208955223880597
+4051986,Mechanical lesion||Blood clot||Thrombus||Organizing thrombus,134,0.00014190465701432602,1.0522388059701493
+36714282,Morphologically abnormal structure||Lesion||Heterotopia||Ectopic tissue,131,0.00013872768708116947,1.1145038167938932
+4169094,Morphologically abnormal structure||Mechanical abnormality||Retention||Bile cast,126,0.00013343273719257522,1.0396825396825398
+4133828,"Neuroendocrine neoplasm||Malignant neuroendocrine neoplasm, epithelial||Neuroendocrine tumor||Neuroendocrine tumor grade 1",125,0.00013237374721485637,1.24
+4198862,Neoplasm||In situ neoplasm (morphology)||In situ adenomatous neoplasm - category||Adenocarcinoma in situ,122,0.00012919677728169982,1.2622950819672132
+4070551,Morphologically altered structure||Morphologically abnormal structure||Lesion||Metaplasia,118,0.0001249608173708244,1.0847457627118644
+4179946,Lesion||Metaplasia||Adenosis||Fibrosing adenosis,115,0.00012178384743766785,1.0869565217391304
+4004505,Morphologically abnormal structure||Enlargement||Dilatation||Duct ectasia,115,0.00012178384743766785,1.2434782608695651
+4028720,Neoplasm and/or hamartoma||Thymic epithelial neoplasm||Thymoma - category||Thymoma,113,0.00011966586748223015,1.2212389380530972
+4230507,Inflammatory morphology||Inflammation||Acute inflammation||Acute pseudomembranous inflammation,113,0.00011966586748223015,1.0265486725663717
+4184624,Morphologically abnormal structure||Mechanical lesion||Induration||Sclerosis,111,0.00011754788752679245,1.4144144144144144
+4100551,Neoplasm and/or hamartoma||Lymphatic vessel tumor||Lymphangioma||Benign lymphangioma,111,0.00011754788752679245,1.063063063063063
+4309965,"Neoplasm||Neoplasm, benign||Hyperkeratosis||Actinic keratosis",109,0.00011542990757135473,1.036697247706422
+4294139,Morphologically abnormal structure||Lesion||Lesion of degenerative abnormality||Xanthomatous deposition,109,0.00011542990757135473,1.0642201834862386
+4062787,Morphologically abnormal structure||Lesion||Fibrosis AND/OR repair abnormality||Fibromatosis,108,0.00011437091759363588,1.1666666666666667
+4101856,Morphologically altered structure||Morphologically abnormal structure||Congenital septation||Congenital multiseptation,108,0.00011437091759363588,1.2592592592592593
+4136351,Morphologically altered structure||Morphologically abnormal structure||Lesion||Minimal lesion,107,0.00011331192761591704,3.467289719626168
+4182060,Mechanical abnormality||Mechanical lesion||Cyst||Hemorrhagic cyst,107,0.00011331192761591704,1.0093457943925235
+40287650,"Proliferation||Proliferative mass||Neoplasm, benign||Dermoid cyst",107,0.00011331192761591704,1.0093457943925235
+4031176,Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Cytologic atypia||Koilocytotic atypia,106,0.00011225293763819819,1.0660377358490567
+4230356,Nervous system tumor morphology||Nerve sheath tumor||Benign nerve sheath tumor - category||Neurofibroma,105,0.00011119394766047934,1.276190476190476
+4137436,Mechanical abnormality||Mechanical lesion||Cyst||Serous cyst,103,0.00010907596770504164,1.0097087378640777
+4181934,Neoplasm and/or hamartoma||Neoplasm||Osseous AND/OR chondromatous neoplasm||Osteochondroma,103,0.00010907596770504164,1
+4272329,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Membranous inflammation,103,0.00010907596770504164,3.5825242718446604
+4053693,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Interstitial inflammation,103,0.00010907596770504164,1.2330097087378642
+37206155,Morphologically abnormal structure||Persistent embryonic structure||Persistent branchial cleft||Branchial cyst,101,0.00010695798774960394,1.0594059405940595
+4304399,Neoplasm||Neuroendocrine tumor||Neuroendocrine tumor grade 1||Carcinoid tumor,101,0.00010695798774960394,1.386138613861386
+4313421,"Proliferative mass||Neoplasm and/or hamartoma||Neoplasm||Neoplasm, uncertain whether benign or malignant",97,0.00010272202783872853,1.1134020618556701
+4099607,Proliferative mass||Proliferative mass||Polyp||Hamartomatous polyp,97,0.00010272202783872853,1.0618556701030928
+46271141,"Malignant Neoplasm (Morphology)||Neoplasm, metastatic||Carcinoma, metastatic||Metastatic small cell carcinoma",95,0.00010060404788329083,1.7894736842105263
+4272187,Malignant glioma - category||High grade glioma||Glioblastoma - category||Glioblastoma,94,9.954505790557198e-05,1.574468085106383
+4268765,Morphologically abnormal structure||Degenerative abnormality||Atrophy||Senile atrophy,93,9.848606792785313e-05,1.10752688172043
+4175338,Morphologically abnormal structure||Lesion||Fibrosis AND/OR repair abnormality||Adhesion,93,9.848606792785313e-05,1.010752688172043
+4053605,Mechanical abnormality||Mechanical lesion||Disruption||Rupture,90,9.530909799469658e-05,1.011111111111111
+4063049,"Soft tissue tumor, benign||Benign lipomatous tumor morphology||Lipoma morphology||Angiomyolipoma",90,9.530909799469658e-05,1.3777777777777778
+4050004,Neoplasm||Malignant Neoplasm (Morphology)||Transitional cell neoplasm||Papillary transitional cell carcinoma,88,9.319111803925888e-05,1.2272727272727273
+4215012,Damage||Traumatic abnormality||Traumatic abnormality by mechanism||Radiation injury,88,9.319111803925888e-05,1.1590909090909092
+4176406,Metaplasia||Hyperplasia||Squamous metaplasia||Leukoplakia,88,9.319111803925888e-05,1.0454545454545454
+4311963,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Aneurysm,87,9.213212806154003e-05,1.0344827586206897
+4241582,Morphologically altered structure||Tissue repair||Excessive repair||Keloid,86,9.107313808382118e-05,1.0116279069767442
+4067107,"Neoplasm and/or hamartoma||Neoplasm, benign||Capillary hemangioma - category||Granuloma pyogenicum",86,9.107313808382118e-05,1
+4282600,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Arias-Stella effect,85,9.001414810610233e-05,1
+4109737,Morphologically abnormal structure||Mechanical lesion||Inflammatory lesion||Diverticulitis,85,9.001414810610233e-05,1
+4221289,Morphologically abnormal structure||Degenerative abnormality||Vascular sclerosis||Glomerulosclerosis,85,9.001414810610233e-05,2.223529411764706
+4014760,Neoplasm||Neuroendocrine neoplasm||Paraganglioma AND/OR glomus tumor||Glomus tumor,84,8.895515812838348e-05,1.0714285714285714
+4298197,"Neoplasm and/or hamartoma||Neoplasm||Ductal, lobular AND/OR medullary neoplasm||Lobular carcinoma in situ",83,8.789616815066462e-05,1.2409638554216866
+4049499,"Neoplasm||Nevus AND/OR melanoma||Neoplasm, malignant (primary)||Malignant melanoma",83,8.789616815066462e-05,1.6144578313253013
+4304591,Morphologically abnormal structure||Lesion||Suppurative inflammation||Carbuncle/furuncle,82,8.683717817294577e-05,1.024390243902439
+4030273,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Villous adenoma",81,8.577818819522692e-05,1.0740740740740742
+4069416,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Loose body,81,8.577818819522692e-05,1.0123456790123457
+4099780,Damage||Traumatic abnormality||Traumatic abnormality by extent/number||Major injury,80,8.471919821750807e-05,1.1375
+4271022,"Neoplasm, benign||Neoplasm, benign||Pleomorphic adenoma||Eccrine mixed tumor",79,8.366020823978922e-05,1.189873417721519
+4109438,Morphologically altered structure||Morphologically abnormal structure||Lesion||Eruption,79,8.366020823978922e-05,1.0886075949367089
+4102695,Morphologically altered structure||Morphologically abnormal structure||Enlargement||Dilatation,78,8.260121826207037e-05,1.0256410256410255
+4084784,Neoplasm||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Sarcoma,78,8.260121826207037e-05,1.3717948717948718
+4307371,Neoplasm and/or hamartoma||Blood vessel tumor||Capillary hemangioma - category||Capillary hemangioma,76,8.048323830663267e-05,1.0263157894736843
+4044047,Mechanical abnormality||Displacement||Malposition||Torsion,76,8.048323830663267e-05,1
+4238484,Degenerative abnormality||Deposition||Protein deposition||Immunoglobulin deposit,74,7.836525835119497e-05,2
+4206155,Morphologically abnormal structure||Lesion||Dysplasia||Severe dysplasia,74,7.836525835119497e-05,1.0540540540540542
+4199138,Mechanical abnormality||Mechanical lesion||Blood clot||Fibrin blood clot,74,7.836525835119497e-05,1.0810810810810811
+4250341,"Soft tissue tumor, benign||Benign lipomatous tumor morphology||Lipoma morphology||Angiolipoma",74,7.836525835119497e-05,1.0540540540540542
+4058208,Nevus AND/OR melanoma||Hamartoma||Melanocytic nevus - category||Pigmented nevus,73,7.730626837347612e-05,1
+4232172,"Neoplasm, benign||Neoplasm||Hurthle cell neoplasm||Oxyphilic adenoma",73,7.730626837347612e-05,1.1095890410958904
+4216245,"Neoplasm, benign||Fibrohistiocytic neoplasm - category||Benign fibrohistiocytic neoplasm - category||Dermatofibroma",73,7.730626837347612e-05,1.095890410958904
+4103842,Morphologically abnormal structure||Degenerative abnormality||Vascular sclerosis||Arteriosclerosis,73,7.730626837347612e-05,2.3698630136986303
+4190388,Morphologically abnormal structure||Mechanical abnormality||Protrusion||Hernia,71,7.518828841803841e-05,1.0140845070422535
+4171355,Nevus AND/OR melanoma||Hamartoma||Melanocytic nevus - category||Compound nevus,70,7.412929844031956e-05,1
+4145904,Morphologically abnormal structure||Growth alteration||Cyclic tissue alteration||Decidual alteration,69,7.307030846260071e-05,1
+4201008,Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Cytologic atypia||Mild cytologic atypia,68,7.201131848488186e-05,1.0147058823529411
+4316348,Morphologically abnormal structure||Developmental abnormality||Embryonic cyst||Bronchogenic cyst,68,7.201131848488186e-05,1.0735294117647058
+4288616,Morphologically abnormal structure||Degenerative abnormality||Deposition||Amyloid deposition,68,7.201131848488186e-05,2.764705882352941
+4308902,Neoplasm||Osseous AND/OR chondromatous neoplasm||Benign osteogenic neoplasm||Osteoma,68,7.201131848488186e-05,1
+4311087,Neoplasm and/or hamartoma||Neoplasm||Chromaffin cell neoplasm||Pheochromocytoma,66,6.989333852944416e-05,1.1363636363636365
+4313772,Neoplasm||Osseous AND/OR chondromatous neoplasm||Chondroma||Enchondroma,65,6.883434855172531e-05,1
+4075418,Morphologically abnormal structure||Vascular malformation||Anomalous vascular connection||Arteriovenous malformation,65,6.883434855172531e-05,1.1076923076923078
+4052694,Mechanical abnormality||Mechanical lesion||Hematoma||Organizing hematoma,63,6.671636859628761e-05,1
+4253608,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Mucoepidermoid carcinoma",61,6.45983886408499e-05,1.4098360655737705
+4220900,"Neoplasm and/or hamartoma||Trophoblastic neoplasm||Neoplasm, benign||Hydatidiform mole, benign",59,6.24804086854122e-05,1.1864406779661016
+4133297,"Neuroendocrine neoplasm||Malignant neuroendocrine neoplasm, epithelial||Neuroendocrine tumor||Neuroendocrine tumor grade 2",59,6.24804086854122e-05,1.1016949152542372
+4177036,Morphologically abnormal structure||Lesion||Pigment alteration||Pigment deposition,57,6.03624287299745e-05,1.1228070175438596
+4161591,"Cellular AND/OR subcellular abnormality||Cytologic atypia||Squamous cell atypia||Atypical squamous cells, cannot exclude HSIL",56,5.930343875225565e-05,1.0178571428571428
+4022895,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Adenoid cystic carcinoma",54,5.718545879681795e-05,1.6666666666666667
+4201415,"Sarcoma - category||Malignant myomatous tumor||Neoplasm, malignant (primary)||Leiomyosarcoma",54,5.718545879681795e-05,1.5185185185185186
+4268158,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Mesothelioma, malignant",54,5.718545879681795e-05,1.5185185185185186
+46270937,"Neoplasm||Malignant epithelial neoplasm - category||Neoplasm, metastatic||Papillary adenocarcinoma, metastatic",53,5.612646881909909e-05,1.3018867924528301
+4005169,Proliferation||Proliferative mass||Polyp||Juvenile polyp,53,5.612646881909909e-05,1.0377358490566038
+4140205,"Neoplasm and/or hamartoma||Neuroendocrine neoplasm||Malignant neuroendocrine neoplasm, epithelial||Medullary carcinoma",52,5.506747884138024e-05,1.4615384615384615
+37117005,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Intraductal papillary neoplasm with low-grade intraepithelial neoplasia",52,5.506747884138024e-05,1.1153846153846154
+4229592,Lesion||Damage||Necrosis||Hemorrhagic necrosis,52,5.506747884138024e-05,1
+4212804,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Myxoma",51,5.4008488863661393e-05,1.196078431372549
+4239133,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, uncertain whether benign or malignant||Giant cell tumor of bone",50,5.2949498885942544e-05,1.1
+4028861,Malignant Neoplasm (Morphology)||Malignant hematopoietic neoplasm||Malignant lymphoma - category||Hodgkin lymphoma (category),50,5.2949498885942544e-05,1.22
+4028351,Morphologically abnormal structure||Lesion||Mass||Pseudocyst,48,5.0831518930504844e-05,1.0625
+4133298,"Neuroendocrine neoplasm||Malignant neuroendocrine neoplasm, epithelial||Neuroendocrine tumor||Neuroendocrine tumor grade 3",48,5.0831518930504844e-05,1.7083333333333333
+4218400,"Neoplasm, benign||Squamous cell neoplasm||Benign squamous cell tumor||Squamous papillomatosis",47,4.977252895278599e-05,1
+44783232,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Lichenoid inflammation,47,4.977252895278599e-05,1
+4169883,Mechanical abnormality||Retention||Gas retention||Emphysema,47,4.977252895278599e-05,1.1702127659574468
+4234558,"Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Low grade serous carcinoma||Papillary serous cystadenocarcinoma",46,4.871353897506714e-05,1.6521739130434783
+4166210,"Neoplasm, benign||Neoplasm||Cystic, mucinous AND/OR serous neoplasm||Cystadenoma",45,4.765454899734829e-05,1.0666666666666667
+4163558,"Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Plasma cell neoplasm (morphology)||Plasma cell myeloma/plasmacytoma",45,4.765454899734829e-05,1.3777777777777778
+4219881,Proliferative mass||Nevus AND/OR melanoma||Hamartoma||Melanocytic nevus - category,45,4.765454899734829e-05,1.0444444444444445
+4078068,Morphologically abnormal structure||Lesion||Damage||Traumatic abnormality,45,4.765454899734829e-05,1.0222222222222221
+4151900,Morphologically abnormal structure||Growth alteration||Hyperplasia||Epithelial hyperplasia,44,4.659555901962944e-05,1.0227272727272727
+4267601,Mechanical lesion||Ulcer||Ulcerative inflammation||Chronic ulcerative inflammation,44,4.659555901962944e-05,1.1136363636363635
+4243327,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Carcinoma, undifferentiated",44,4.659555901962944e-05,1.2954545454545454
+4172953,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Papillary adenocarcinoma",43,4.553656904191059e-05,1.5348837209302326
+4148390,Traumatic abnormality||Wound||Open wound||Laceration,43,4.553656904191059e-05,1
+4166770,Nerve sheath tumor||Benign nerve sheath tumor - category||Neuroma - category||Neuroma (excluding acoustic),43,4.553656904191059e-05,1.069767441860465
+4241843,Neoplasm||Squamous cell neoplasm||Squamous cell carcinoma - category||Adenosquamous carcinoma,43,4.553656904191059e-05,1.5813953488372092
+4177360,Neoplasm and/or hamartoma||Neoplasm||Fibroepithelial neoplasm||Phyllodes tumor - category,43,4.553656904191059e-05,1.069767441860465
+4030289,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Leukemia (category)",42,4.447757906419174e-05,1.3333333333333333
+4053032,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Adenomatoid tumor",42,4.447757906419174e-05,1.0714285714285714
+4093906,Morphologically abnormal structure||Mechanical abnormality||Obstructive morphology||Obstruction,41,4.341858908647288e-05,1.3658536585365855
+4329563,Morphologically abnormal structure||Degenerative abnormality||Degeneration||Elastoid degeneration,41,4.341858908647288e-05,1.0975609756097562
+4260683,Neoplasm and/or hamartoma||Neoplasm||Transitional cell neoplasm||Urothelial papilloma,41,4.341858908647288e-05,1.048780487804878
+4325284,Morphologically abnormal structure||Growth alteration||Proliferation||von Brunn's nests,40,4.2359599108754034e-05,1.025
+4069557,"Neoplasm||Squamous cell neoplasm||Squamous intraepithelial neoplasia - category||Squamous intraepithelial neoplasia, high grade",39,4.1300609131035184e-05,1.0512820512820513
+4189207,Morphologically abnormal structure||Lesion||Metaplasia||Glandular metaplasia,39,4.1300609131035184e-05,1.0256410256410255
+4301753,"Neoplasm||Neoplasm, benign||Neoplasm with sebaceous differentiation||Sebaceous adenoma",39,4.1300609131035184e-05,1.0512820512820513
+35622944,Specialized gonadal neoplasm||Sex cord-stromal tumor category||Thecoma||Fibrothecoma,38,4.0241619153316334e-05,1.0526315789473684
+40288199,Mechanical abnormality||Mechanical lesion||Cyst||Synovial cyst,38,4.0241619153316334e-05,1
+4068366,"Neoplasm, benign||Neoplasm||Fibroepithelial neoplasm||Serous adenofibroma",38,4.0241619153316334e-05,1
+4054190,Mechanical abnormality||Mechanical lesion||Diverticulum||Multiple diverticula,37,3.9182629175597485e-05,1.027027027027027
+4069420,Neoplasm and/or hamartoma||Neoplasm||Odontogenic neoplasm (morphology)||Ameloblastoma,37,3.9182629175597485e-05,1.3243243243243243
+4331315,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Large cell carcinoma",36,3.812363919787863e-05,1.5833333333333333
+4005360,Nervous system tumor morphology||Nerve sheath tumor||Granular cell tumor AND/OR alveolar soft part sarcoma||Granular cell tumor,36,3.812363919787863e-05,1.1388888888888888
+4012173,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Bronchiolo-alveolar adenocarcinoma",35,3.706464922015978e-05,1.8857142857142857
+4012800,Morphologically abnormal structure||Growth alteration||Hyperplasia||Pseudoepitheliomatous hyperplasia,35,3.706464922015978e-05,1.0571428571428572
+4225687,Mass||Nodule||Granuloma||Cholesterol granuloma,34,3.600565924244093e-05,1
+40480624,In situ neoplasm (morphology)||Carcinoma in situ - category||Ductal carcinoma in situ - category||Apocrine intraductal carcinoma,33,3.494666926472208e-05,1.3636363636363635
+4142624,Morphologically altered structure||Morphologically abnormal structure||Growth alteration||Regeneration,32,3.388767928700323e-05,1
+4052763,Morphologically abnormal structure||Degenerative abnormality||Vascular sclerosis||Segmental glomerulosclerosis,32,3.388767928700323e-05,3.3125
+4147312,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Menstrual endometrium,32,3.388767928700323e-05,1
+4166542,Pigment alteration||Pigment deposition||Melanin pigmentation||Melanosis,32,3.388767928700323e-05,1.03125
+40488418,Cyclic tissue alteration||Cyclic alteration of endometrium||Secretory endometrium||Early secretory endometrium,32,3.388767928700323e-05,1
+4220826,Morphologically abnormal structure||Growth alteration||Hyperplasia||Mesothelial hyperplasia,31,3.282868930928438e-05,1.096774193548387
+4207199,Nervous system tumor morphology||Neoplasm||Neuronal and mixed neuronal-glial tumor||Ganglioneuroma,31,3.282868930928438e-05,1.2258064516129032
+4196794,Neoplasm and/or hamartoma||Neuroendocrine neoplasm||Paraganglioma AND/OR glomus tumor||Paraganglioma,31,3.282868930928438e-05,1.1612903225806452
+4106411,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Adenofibroma",31,3.282868930928438e-05,1.064516129032258
+36713022,Mechanical abnormality||Mechanical lesion||Cyst||Pilonidal cyst,30,3.1769699331565524e-05,1.1
+4216363,Proliferation||Proliferative mass||Polyp||Tag,30,3.1769699331565524e-05,1
+4280592,Malignant Neoplasm (Morphology)||Malignant germ cell neoplasm||Seminoma - category||Seminoma,30,3.1769699331565524e-05,1.3333333333333333
+4054116,Lesion||Mass||Nodule||Fibrocalcific nodule,30,3.1769699331565524e-05,1.1666666666666667
+4264478,Proliferation||Proliferation of hematopoietic cell type||Histiocytic proliferation||Histiocytosis,30,3.1769699331565524e-05,1.1666666666666667
+4184611,Morphologically abnormal structure||Lesion||Metaplasia||Epithelial metaplasia,29,3.0710709353846674e-05,1.0344827586206897
+4030140,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Tenosynovial giant cell tumor",29,3.0710709353846674e-05,1.0689655172413792
+4323847,Morphologically abnormal structure||Lesion||Eruption||Erythema,29,3.0710709353846674e-05,1
+4269155,"Clinical history/examination observable||Pregnancy, childbirth / puerperium observable||Structures of conception observable||Placental feature",29,3.0710709353846674e-05,1.1724137931034484
+4221224,Lesion||Fibrosis AND/OR repair abnormality||Adhesion||Fibrous adhesion,28,2.9651719376127824e-05,1.2142857142857142
+4219051,Proliferation||Proliferative mass||Polyp||Adenomatous polyp,28,2.9651719376127824e-05,1
+4166561,Lesion||Proliferation||Proliferative mass||Dermoid tumor,28,2.9651719376127824e-05,1.1785714285714286
+4047773,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Purpura,28,2.9651719376127824e-05,1.75
+4270062,Morphologically abnormal structure||Traumatic abnormality||Traumatic abnormality by morphology||Traumatic neuroma,28,2.9651719376127824e-05,1.2142857142857142
+4078373,Morphologically altered structure||Morphologically abnormal structure||Mechanical abnormality||Foreign body,28,2.9651719376127824e-05,1
+4308204,Function of the integumentary system||Skin function||Skin melanocyte function||Skin pigmentation,27,2.8592729398408975e-05,1
+4176894,Soft tissue tumor AND/OR sarcoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Liposarcoma,27,2.8592729398408975e-05,1.8148148148148149
+4217928,Lesion||Metaplasia||Glandular metaplasia||Apocrine metaplasia,27,2.8592729398408975e-05,1.1481481481481481
+4102536,Lesion||Mass||Nodule||Calcified nodule,27,2.8592729398408975e-05,1.1481481481481481
+4048730,Morphologically altered structure||Morphologically abnormal structure||Degenerative abnormality||Obliteration,27,2.8592729398408975e-05,1.037037037037037
+4235284,"Soft tissue tumor, benign||Leiomyomatous neoplasm - category||Benign leiomyomatous neoplasm - category||Cellular leiomyoma",26,2.753373942069012e-05,1.0384615384615385
+4010094,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Telangiectasis,26,2.753373942069012e-05,1
+4277912,Mechanical abnormality||Mechanical lesion||Cyst||Mesothelial cyst,26,2.753373942069012e-05,1.0384615384615385
+4222150,Morphologically abnormal structure||Growth alteration||Hyperplasia||Fibroepithelial hyperplasia,26,2.753373942069012e-05,1.0384615384615385
+4233228,Morphologically abnormal structure||Growth alteration||Hyperplasia||Basal cell hyperplasia,25,2.6474749442971272e-05,1
+4262799,"Specialized gonadal neoplasm||Sex cord-stromal tumor category||Granulosa cell tumor, malignant||Granulosa cell tumor",25,2.6474749442971272e-05,1.32
+4030314,Proliferation||Proliferative mass||Neoplasm and/or hamartoma||Neoplasm,25,2.6474749442971272e-05,1.36
+37203864,Mechanical lesion||Epidermoid cyst||Sebaceous cyst||Steatocystomas,25,2.6474749442971272e-05,1.04
+4166877,Cyst||Keratinizing cyst||Epidermoid cyst||Sebaceous cyst,25,2.6474749442971272e-05,1
+4211103,Neoplasm and/or hamartoma||Blood vessel tumor||Benign hemangioma||Venous hemangioma,25,2.6474749442971272e-05,1.2
+4051451,Lesion||Dysplasia||Epithelial dysplasia||Dyskeratosis,25,2.6474749442971272e-05,1.04
+4186313,Morphologically altered structure||Morphologically abnormal structure||Degenerative abnormality||Dystrophy,25,2.6474749442971272e-05,1.08
+4174813,Lesion||Pigment alteration||Pigment deposition||Hyperpigmentation,24,2.5415759465252422e-05,1
+4161594,Morphologically altered structure||Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Epithelial cell abnormality,24,2.5415759465252422e-05,1
+4031183,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Chromophobe carcinoma",24,2.5415759465252422e-05,1.0833333333333333
+4138252,Lesion||Damage||Necrosis||Coagulative necrosis,23,2.435676948753357e-05,1.0434782608695652
+4263985,Lesion||Pathologic mineralization||Pathologic calcification||Dystrophic calcification,23,2.435676948753357e-05,1.1304347826086958
+4336682,"Soft tissue tumor AND/OR sarcoma||Soft tissue tumor, benign||Benign myomatous tumor||Angiomyoma",23,2.435676948753357e-05,1
+4004358,Mass||Nodule||Granuloma||Hypersensitivity granuloma,23,2.435676948753357e-05,1.0869565217391304
+4135340,T-cell AND/OR NK-cell neoplasm||T-cell lymphoma morphology||Specified cutaneous AND/OR peripheral T cell lymphoma||Peripheral T-cell lymphoma,23,2.435676948753357e-05,1.8695652173913042
+4106557,"Neoplasm with apocrine differentiation||Neoplasm, malignant (primary)||Paget's disease of skin||Paget's disease, mammary",22,2.329777950981472e-05,1.2272727272727273
+4205271,"Neoplasm, malignant (primary)||Non-Hodgkin lymphoma (category)||Mature (peripheral) B-cell neoplasm||Follicular lymphoma",22,2.329777950981472e-05,1.0454545454545454
+42872901,"Neoplasm and/or hamartoma||Neoplasm, uncertain whether benign or malignant||Cystic, mucinous AND/OR serous neoplasm||Low grade appendiceal mucinous neoplasm",22,2.329777950981472e-05,1.2727272727272727
+4086011,Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Cytologic atypia||Moderate cytologic atypia,22,2.329777950981472e-05,1.0454545454545454
+4298902,"Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Malignant glioma - category||Astrocytoma",22,2.329777950981472e-05,1.2727272727272727
+4095725,Inflammation||Chronic inflammatory morphology||Chronic inflammation||Plasma cell inflammation,22,2.329777950981472e-05,1.1363636363636365
+4028095,"Neoplasm, benign||Neoplasm||Fibroepithelial neoplasm||Mucinous adenofibroma",22,2.329777950981472e-05,1.0909090909090908
+4053536,Morphologically abnormal structure||Growth alteration||Hyperplasia||Diffuse hyperplasia,21,2.223878953209587e-05,1
+4103444,Neoplasm and/or hamartoma||Pathologic mineralization||Pathologic calcification||Ossifying fibroma,21,2.223878953209587e-05,1.0476190476190477
+4091792,Male genitalia feature||Testicular feature||Appearance of testes||Position of testicle,21,2.223878953209587e-05,1.0476190476190477
+4063179,Growth alteration||Hyperplasia||Hyperkeratosis||Lichenification,21,2.223878953209587e-05,1.0476190476190477
+4167819,Mechanical abnormality||Mechanical lesion||Aneurysm||Lymphangiectasis,21,2.223878953209587e-05,1
+4165901,Mechanical abnormality||Mechanical lesion||Cyst||Bursal cyst,21,2.223878953209587e-05,1
+4012802,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Carcinosarcoma, embryonal",20,2.1179799554377017e-05,1.8
+4098107,"Soft tissue tumor, benign||Benign lipomatous tumor morphology||Lipoma morphology||Fibrolipoma",20,2.1179799554377017e-05,1
+4098712,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign basal cell tumor||Basal cell adenoma",19,2.0120809576658167e-05,1
+4087722,"Neoplasm||Neoplasm, benign||Benign germ cell neoplasm||Struma ovarii",19,2.0120809576658167e-05,1.1052631578947367
+4167867,Mechanical lesion||Cyst||Keratinizing cyst||Trichilemmal cyst,19,2.0120809576658167e-05,1
+4247661,Squamous cell neoplasm||Squamous cell carcinoma - category||Malignant squamous tumor||Lymphoepithelial carcinoma,19,2.0120809576658167e-05,1.1578947368421053
+4300163,"Neoplasm, malignant (primary)||Non-Hodgkin lymphoma (category)||Burkitt lymphoma/leukemia||Burkitt lymphoma",19,2.0120809576658167e-05,1.2105263157894737
+44783942,Proliferation||Proliferative mass||Neoplasm and/or hamartoma||Chorangioma,19,2.0120809576658167e-05,1
+4005166,Mass||Traumatic abnormality||Traumatic abnormality by morphology||Traumatic granuloma,19,2.0120809576658167e-05,1.1052631578947367
+4317530,Mechanical lesion||Mechanical lesion||Rupture||Ruptured aneurysm,18,1.9061819598939314e-05,1
+4323699,"Neoplasm with apocrine differentiation||Neoplasm, malignant (primary)||Paget's disease of skin||Paget's disease, extramammary (except Paget's disease of bone)",18,1.9061819598939314e-05,1.6111111111111112
+4194233,Growth alteration||Cyclic tissue alteration||Cyclic alteration of ovary||Cystic ovarian follicle,18,1.9061819598939314e-05,1
+4134295,Morphologically altered structure||Morphologically abnormal structure||Lesion||Heterotopia,18,1.9061819598939314e-05,1.0555555555555556
+4210177,Plasma cell neoplasm (morphology)||Plasma cell myeloma/plasmacytoma||Plasma cell myeloma - category||Multiple myeloma,18,1.9061819598939314e-05,1.1666666666666667
+4149908,Neoplasm and/or hamartoma||Neoplasm||Osseous AND/OR chondromatous neoplasm||Chondroma,18,1.9061819598939314e-05,1
+37116991,Malignant Neoplasm (Morphology)||Malignant epithelial neoplasm - category||Malignant adenomatous neoplasm - category||Intraductal papillary neoplasm with invasive carcinoma,18,1.9061819598939314e-05,1.3333333333333333
+4147294,Morphologically abnormal structure||Lesion||Pseudotumor||Inflammatory pseudotumor,17,1.8002829621220464e-05,1.2352941176470589
+4250473,Morphologically abnormal structure||Mechanical lesion||Protrusion||Intussusceptum,17,1.8002829621220464e-05,1.0588235294117647
+4281594,Mechanical abnormality||Mechanical lesion||Cyst||Polycystic change,17,1.8002829621220464e-05,1.352941176470588
+4323562,Neoplasm and/or hamartoma||Neoplasm||Phyllodes tumor - category||Borderline phyllodes tumor,17,1.8002829621220464e-05,1.1764705882352942
+4049451,Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Abnormal cell structure||Molluscum bodies,17,1.8002829621220464e-05,1.0588235294117647
+4052146,"Squamous cell neoplasm||Squamous cell carcinoma - category||Malignant squamous tumor||Squamous cell carcinoma, microinvasive",17,1.8002829621220464e-05,1.1176470588235294
+4262386,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Juvenile fibroadenoma",16,1.6943839643501615e-05,1.0625
+4309352,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Mullerian mixed tumor",16,1.6943839643501615e-05,1.875
+4100082,Narrowing||Narrowed structure||Stenosis||Stricture,16,1.6943839643501615e-05,1
+37204873,Body structure||Morphologically altered structure||Morphologically abnormal structure||Vascular malformation,16,1.6943839643501615e-05,1.1875
+4093908,"Neoplasm, benign||Fibrohistiocytic neoplasm - category||Benign fibrohistiocytic neoplasm - category||Benign fibrous histiocytoma",15,1.5884849665782762e-05,1
+4281696,Mechanical abnormality||Mechanical lesion||Cyst||Bone cyst,15,1.5884849665782762e-05,1
+4322329,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Exudative inflammation,15,1.5884849665782762e-05,1.2666666666666666
+4193751,"Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Cystadenocarcinoma||Mucinous cystadenocarcinoma",15,1.5884849665782762e-05,1.4
+45766455,"Soft tissue tumor AND/OR sarcoma||Neoplasm, benign||Benign fibromatous neoplasm - category||Nodular fasciitis",15,1.5884849665782762e-05,1
+4318952,"Malignant epithelial neoplasm - category||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Adrenal cortical carcinoma",15,1.5884849665782762e-05,1.3333333333333333
+4195284,Neoplasm and/or hamartoma||Neoplasm||Odontogenic neoplasm (morphology)||Odontoma,15,1.5884849665782762e-05,1
+4019491,Neoplasm||Nervous system tumor morphology||Central nervous system tumor morphology||Glioma,15,1.5884849665782762e-05,1.2
+40488359,Neoplasm||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Endometrial stromal sarcoma - category,15,1.5884849665782762e-05,1.2666666666666666
+4221403,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Infiltrating duct carcinoma",15,1.5884849665782762e-05,1.3333333333333333
+4029026,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, uncertain whether benign or malignant||Gastrointestinal stromal tumor, uncertain malignant potential",15,1.5884849665782762e-05,1.0666666666666667
+4024302,"Malignant Neoplasm (Morphology)||Malignant germ cell neoplasm||Malignant teratoma - category||Teratoma, malignant",14,1.4825859688063912e-05,1
+4245400,"Neoplasm||Neoplasm, benign||Benign blood vessel neoplasm||Angiofibroma",14,1.4825859688063912e-05,1.0714285714285714
+4150348,"Neoplasm, malignant (primary)||Malignant glioma - category||Oligodendroglioma - category||Oligodendroglioma, anaplastic",14,1.4825859688063912e-05,1.5714285714285714
+4244071,Neoplasm and/or hamartoma||Neoplasm||Odontogenic neoplasm (morphology)||Odontogenic tumor,14,1.4825859688063912e-05,1
+40486546,Cyclic tissue alteration||Cyclic alteration of endometrium||Secretory endometrium||Late secretory endometrium,14,1.4825859688063912e-05,1
+4191591,Neoplasm||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Hemangiosarcoma,14,1.4825859688063912e-05,1.6428571428571428
+4279468,"Soft tissue tumor AND/OR sarcoma||Soft tissue tumor, benign||Benign myomatous tumor||Myoma",14,1.4825859688063912e-05,1.0714285714285714
+4201573,Proliferative mass||Neoplasm and/or hamartoma||Hamartoma||Cutaneous hamartoma,14,1.4825859688063912e-05,1
+4202374,Soft tissue tumor AND/OR sarcoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Fibrosarcoma,14,1.4825859688063912e-05,1.1428571428571428
+45769803,Morphologically abnormal structure||Mechanical abnormality||Obstructive morphology||Obstructive lesion,14,1.4825859688063912e-05,1
+37118754,Malignant Neoplasm (Morphology)||Malignant germ cell neoplasm||Malignant teratoma - category||Prepubertal type mixed teratoma and yolk sac neoplasm,14,1.4825859688063912e-05,1.2142857142857142
+4048673,Inflammatory morphology||Organizing inflammation||Proliferative inflammation||Diffuse proliferative inflammation,14,1.4825859688063912e-05,2.5
+4030130,"Neoplasm and/or hamartoma||Soft tissue tumor AND/OR sarcoma||Neoplasm, uncertain whether benign or malignant||Solitary fibrous tumor",13,1.376686971034506e-05,1.0769230769230769
+4216834,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Mixed tumor, malignant",13,1.376686971034506e-05,1.5384615384615385
+4242054,Mechanical abnormality||Mechanical lesion||Cyst||Colloid cyst,13,1.376686971034506e-05,1.2307692307692308
+4145768,"Neoplasm||Malignant fibromatous neoplasm||Neoplasm, malignant (primary)||Fibrous histiocytoma, malignant",13,1.376686971034506e-05,1.3076923076923077
+4294380,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Aneurysmal bone cyst",13,1.376686971034506e-05,1
+4080326,"Soft tissue tumor, benign||Benign lipomatous tumor morphology||Lipoma morphology||Intramuscular lipoma",13,1.376686971034506e-05,1
+4266621,Lesion||Effect of surgery||Post-surgical anatomy||Surgically constructed organ,12,1.2707879732626211e-05,2
+4166114,Morphologically abnormal structure||Lesion||Heterotopia||Congenital ectopia,12,1.2707879732626211e-05,1
+4120308,"Soft tissue tumor AND/OR sarcoma||Neoplasm, benign||Benign fibromatous neoplasm - category||Histiocytoma",12,1.2707879732626211e-05,1.0833333333333333
+4052167,Morphologically abnormal structure||Degenerative abnormality||Deposition||Fibrin deposition,12,1.2707879732626211e-05,1.0833333333333333
+4217949,Morphologically abnormal structure||Lesion||Fibrosis AND/OR repair abnormality||Gliosis,12,1.2707879732626211e-05,1.3333333333333333
+4219751,Lesion||Damage||Necrosis||Liquefactive necrosis,12,1.2707879732626211e-05,1.1666666666666667
+4240952,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Carcinoma, anaplastic",12,1.2707879732626211e-05,1.5
+4012801,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, metastatic||Pseudomyxoma peritonei",11,1.164888975490736e-05,1.3636363636363635
+4260393,Neoplasm and/or hamartoma||Neoplasm||Trophoblastic neoplasm||Choriocarcinoma,11,1.164888975490736e-05,1.4545454545454546
+4243303,"Neoplasm||Neoplasm, benign||Benign meningeal neoplasm||Psammomatous meningioma",11,1.164888975490736e-05,1.1818181818181819
+4251953,"Neoplasm, malignant (primary)||Non-Hodgkin lymphoma (category)||Mature (peripheral) B-cell neoplasm||Mantle cell lymphoma",11,1.164888975490736e-05,1.3636363636363635
+4019083,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Solid pseudopapillary carcinoma",11,1.164888975490736e-05,1.2727272727272727
+4145294,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Rheumatic inflammation,11,1.164888975490736e-05,1.0909090909090908
+4048432,"Soft tissue tumor, benign||Soft tissue tumor, benign||Lipoma morphology||Myelolipoma",11,1.164888975490736e-05,1
+44783170,Pathologic mineralization||Pathologic calcification||Osseous metaplasia||Osseous and chondromatous metaplasia,11,1.164888975490736e-05,1
+4101123,Soft tissue tumor AND/OR sarcoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Myxoid liposarcoma,11,1.164888975490736e-05,1.0909090909090908
+4203462,Neoplasm||In situ neoplasm (morphology)||Transitional cell neoplasm||Transitional cell carcinoma in situ,11,1.164888975490736e-05,1.1818181818181819
+4217691,Mechanical abnormality||Narrowing||Narrowed structure||Stenosis,11,1.164888975490736e-05,1.0909090909090908
+4198551,Morphologically abnormal structure||Mechanical abnormality||Foreign body||Bezoar,11,1.164888975490736e-05,1
+4029967,Morphologically abnormal structure||Mechanical lesion||Fistula||Arteriovenous fistula,11,1.164888975490736e-05,1
+4099817,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Benign Brenner tumor",11,1.164888975490736e-05,1.0909090909090908
+4239519,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Myoepithelioma",11,1.164888975490736e-05,1.1818181818181819
+4246856,Morphologically abnormal structure||Degenerative abnormality||Deposition||Keratotic precipitates,10,1.0589899777188508e-05,1
+4295283,"Soft tissue tumor AND/OR sarcoma||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Dermatofibrosarcoma protuberans",10,1.0589899777188508e-05,1.2
+4179770,Lesion||Pigment alteration||Pigment deposition||Melanin pigmentation,10,1.0589899777188508e-05,1.1
+4028881,Neoplasm||Neuroendocrine tumor||Neuroendocrine tumor grade 2||Atypical carcinoid tumor,10,1.0589899777188508e-05,1.2
+4149420,Sarcoma - category||Rhabdomyomatous neoplasm - category||Rhabdomyosarcoma - category||Rhabdomyosarcoma,10,1.0589899777188508e-05,1.5
+4097374,Neoplasm and/or hamartoma||Blood vessel tumor||Benign hemangioma||Angiokeratoma,10,1.0589899777188508e-05,1.1
+4101242,Proliferative mass||Neoplasm and/or hamartoma||Hamartoma||Biliary hamartoma,10,1.0589899777188508e-05,1.2
+4215906,"Neoplasm||Neoplasm, uncertain whether benign or malignant||Blood vessel neoplasm, uncertain whether benign or malignant||Hemangioblastoma",9,9.530909799469657e-06,1.3333333333333333
+4200830,Neoplasm and/or hamartoma||Specialized gonadal neoplasm||Sex cord-stromal tumor category||Thecoma,9,9.530909799469657e-06,1
+4327493,"Neoplasm and/or hamartoma||Soft tissue tumor AND/OR sarcoma||Neoplasm, uncertain whether benign or malignant||Smooth muscle tumor",9,9.530909799469657e-06,1.1111111111111112
+4176436,"Neoplasm||Neoplasm, benign||Benign meningeal neoplasm||Fibrous meningioma",9,9.530909799469657e-06,1.3333333333333333
+4307013,Morphologically abnormal structure||Lesion||Lesion of degenerative abnormality||Tophus,9,9.530909799469657e-06,1.222222222222222
+4220185,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, uncertain whether benign or malignant||Craniopharyngioma",9,9.530909799469657e-06,1.1111111111111112
+4098272,Lesion||Necrosis||Necrotizing inflammation||Necrotizing granulomatous inflammation,9,9.530909799469657e-06,1.222222222222222
+4306469,"Neuroendocrine neoplasm||Malignant neuroendocrine neoplasm, neural||Medulloblastoma - category||Medulloblastoma",9,9.530909799469657e-06,1.1111111111111112
+4239146,Morphologically abnormal structure||Growth alteration||Hyperplasia||Cystic hyperplasia,9,9.530909799469657e-06,1
+4144966,Lesion||Damage||Necrosis||Caseous necrosis,9,9.530909799469657e-06,1.777777777777778
+4240593,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Glandular-stromal asynchrony of endometrium,9,9.530909799469657e-06,1
+4179799,Lesion||Mass||Nodule||Rheumatoid nodule,8,8.471919821750807e-06,1.125
+4045406,Morphologically altered structure||Morphologically abnormal structure||Lesion||Neovascularization,8,8.471919821750807e-06,1
+4224505,In situ neoplasm (morphology)||Squamous cell neoplasm||Squamous carcinoma in situ||Bowen's disease,8,8.471919821750807e-06,1
+4167865,Lymphoproliferative disorder||Lymphoid neoplasm||T-cell AND/OR NK-cell neoplasm||Mature T-cell AND/OR NK cell neoplasm,8,8.471919821750807e-06,1
+4261495,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Hepatoblastoma",8,8.471919821750807e-06,1.25
+4207964,Morphologically abnormal structure||Cellular AND/OR subcellular abnormality||Cytologic atypia||Columnar cell atypia,8,8.471919821750807e-06,1
+4075751,Morphologically abnormal structure||Degenerative abnormality||Vascular sclerosis||Arteriolosclerosis,8,8.471919821750807e-06,1.5
+4055959,"Neoplasm||Neoplasm, malignant (primary)||Malignant epithelial neoplasm - category||Pleomorphic carcinoma",8,8.471919821750807e-06,2
+4253051,"Neoplasm and/or hamartoma||Neoplasm||Odontogenic neoplasm (morphology)||Odontogenic tumor, benign",8,8.471919821750807e-06,1
+4190099,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, uncertain whether benign or malignant||Keratoacanthoma - category",8,8.471919821750807e-06,1
+4265015,Non-Hodgkin lymphoma (category)||B-cell neoplasm||Mature (peripheral) B-cell neoplasm||Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue,8,8.471919821750807e-06,1
+4300039,Morphologically abnormal structure||Mechanical abnormality||Deformity||Congenital deformity,8,8.471919821750807e-06,1.125
+4013218,Mass||Nodule||Granuloma||Spermatogenic granuloma,8,8.471919821750807e-06,1
+4337398,"Nervous system tumor morphology||Neuroepitheliomatous neoplasm||Malignant neuroendocrine neoplasm, neural||Neuroblastoma",8,8.471919821750807e-06,1.625
+4212379,"Neoplasm and/or hamartoma||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Oxyphilic adenocarcinoma",8,8.471919821750807e-06,1.125
+4253789,Neoplasm||Neuroendocrine neoplasm||Paraganglioma AND/OR glomus tumor||Glomangioma,8,8.471919821750807e-06,1
+4175617,Neoplasm and/or hamartoma||Neoplasm||Transitional cell neoplasm||Schneiderian papilloma,8,8.471919821750807e-06,1
+4070783,Neoplasm and/or hamartoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Osteosarcoma,8,8.471919821750807e-06,1.125
+4317675,Proliferation||Proliferative mass||Polyp||Multiple polyps,8,8.471919821750807e-06,1.125
+40481054,Nervous system tumor morphology||Central nervous system tumor morphology||Glioma||Ependymoma - category,7,7.412929844031956e-06,1.2857142857142858
+4288742,"Neoplasm||Neoplasm, benign||Benign meningeal neoplasm||Meningothelial meningioma",7,7.412929844031956e-06,1.1428571428571428
+4337139,Mechanical abnormality||Fluid disturbance||Congestion||Passive congestion,7,7.412929844031956e-06,1.4285714285714286
+4102790,"Soft tissue tumor AND/OR sarcoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Liposarcoma, well differentiated",7,7.412929844031956e-06,1.2857142857142858
+40481903,Neoplasm and/or hamartoma||Soft tissue tumor AND/OR sarcoma||Sarcoma - category||Chondrosarcoma - category,7,7.412929844031956e-06,1.1428571428571428
+35624562,Proliferative mass||Neoplasm and/or hamartoma||Melanosis||Lentigo,7,7.412929844031956e-06,1
+4211255,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, benign||Tumor cells, benign",7,7.412929844031956e-06,1.4285714285714286
+4305316,Neoplasm||Osseous AND/OR chondromatous neoplasm||Chondromatosis||Primary synovial chondromatosis,7,7.412929844031956e-06,1
+4031160,Growth alteration||Cyclic tissue alteration||Cyclic alteration of endometrium||Hypersecretory gestational endometrium,7,7.412929844031956e-06,1
+4181016,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, metastatic||Metastatic signet ring cell carcinoma",7,7.412929844031956e-06,1.1428571428571428
+4325607,Neoplasm||Osseous AND/OR chondromatous neoplasm||Benign osteogenic neoplasm||Osteoid osteoma,7,7.412929844031956e-06,1
+36715451,Morphologically abnormal structure||Inflammatory morphology||Inflammation||Hair follicle inflammation,7,7.412929844031956e-06,1
+4164740,"Neoplasm and/or hamartoma||Neoplasm||Neoplasm, malignant (primary)||Acinar cell carcinoma",7,7.412929844031956e-06,1.4285714285714286
+44783779,Mechanical lesion||Disruption||Rupture||Flap tear,7,7.412929844031956e-06,1
+4053522,Lesion||Extracellular alteration||Basement membrane alteration||Basement membrane duplication,7,7.412929844031956e-06,1
+4101688,Morphologically altered structure||Tissue repair||New bone formation||Bony callus,7,7.412929844031956e-06,1
+4302931,Body structure||Morphologically altered structure||Morphologically abnormal structure||Absence,7,7.412929844031956e-06,1
+4077588,"Trophoblastic neoplasm||Neoplasm||Neoplasm, uncertain whether benign or malignant||Invasive hydatidiform mole",6,6.3539398663131056e-06,1.1666666666666667
+4182993,"Neoplasm||Neoplasm, malignant (primary)||Primary malignant adenomatous neoplasm||Sebaceous adenocarcinoma",6,6.3539398663131056e-06,1
+4242267,Neoplasm||Malignant Neoplasm (Morphology)||Transitional cell neoplasm||Basaloid carcinoma,6,6.3539398663131056e-06,1.3333333333333333
+4323426,Lesion||Pigment alteration||Pigment deposition||Hemosiderin pigmentation,6,6.3539398663131056e-06,1
+4328884,Morphologically abnormal structure||Mechanical abnormality||Mechanical lesion||Pseudoaneurysm,6,6.3539398663131056e-06,1
+4243519,Reproductive function||Female reproductive function||Uterine function||Placental separation,6,6.3539398663131056e-06,1
+4271449,Nevus AND/OR melanoma||Hamartoma||Melanocytic nevus - category||Blue nevus,6,6.3539398663131056e-06,1
+4233949,Squamous cell neoplasm||Squamous cell carcinoma - category||Malignant squamous tumor||Verrucous carcinoma,6,6.3539398663131056e-06,1.1666666666666667
+4042856,Lesion||Mass||Nodule||Fibrous nodule,6,6.3539398663131056e-06,1.1666666666666667
+4263788,Mass||Nodule||Granuloma||Lipogranuloma,6,6.3539398663131056e-06,1
+4223482,Proliferative mass||Neoplasm and/or hamartoma||Lymphatic vessel tumor||Cystic lymphangioma,6,6.3539398663131056e-06,1.1666666666666667
+4140097,"Neoplasm||Malignant Neoplasm (Morphology)||Neoplasm, malignant (primary)||Mixed germ cell tumor",6,6.3539398663131056e-06,1
+4228345,Vascular malformation||Neoplasm and/or hamartoma||Lymphatic vessel tumor||Cavernous lymphangioma,6,6.3539398663131056e-06,1
+4183196,Degenerative abnormality||Lysis AND/OR resorbed tissue||Lysis||Acantholysis,6,6.3539398663131056e-06,1.3333333333333333
+36717288,Mechanical abnormality||Mechanical lesion||Contracture||Dupuytren's contracture,6,6.3539398663131056e-06,1
+4241090,"Neoplasm, benign||Neoplasm with pilar differentiation||Benign neoplasm with pilar differentiation||Trichoepithelioma",6,6.3539398663131056e-06,1.1666666666666667
+4188078,Morphologically altered structure||Morphologically abnormal structure||Degenerative abnormality||Deposition,6,6.3539398663131056e-06,1.3333333333333333
+4312347,"Neoplasm, benign||Benign epithelial neoplasm - category||Benign adenomatous neoplasm - category||Papillary adenoma",6,6.3539398663131056e-06,1.1666666666666667
+4141460,"Neoplasm, benign||Neoplasm||Cystic, mucinous AND/OR serous neoplasm||Mucinous adenoma",6,6.3539398663131056e-06,1
+4217948,"Neoplasm, benign||Neoplasm with eccrine differentiation||Benign neoplasm with eccrine differentiation||Sweat gland adenoma",6,6.3539398663131056e-06,1
+4233385,T-cell AND/OR NK-cell neoplasm||T-cell lymphoma morphology||Primary cutaneous T-cell lymphoma - category||Mycosis fungoides,6,6.3539398663131056e-06,2
+4243219,Lesion||Metaplasia||Adenosis||Blunt duct adenosis,6,6.3539398663131056e-06,1.1666666666666667

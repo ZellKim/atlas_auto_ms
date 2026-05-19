@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-05-12T09:19:53.205319+00:00",
+  "site_code": "UUH",
+  "cdm_name": "UUH_5.3.0_04",
+  "group_id": 99,
+  "site_id": 243,
+  "source_key": "cdm_0022",
+  "domain": "measurement",
+  "api_endpoint": "/cdmresults/cdm_0022/measurement",
+  "rows_returned": 1604,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 0.58,
+  "source_id": 3,
+  "source_name": "UUH_5.3.0_03",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdm_0022",
+    "Vocabulary": "cdm_0022",
+    "Results": "cdm_0022_results_fnet_v2120",
+    "CEM": "cdm_0022_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 23-JAN-23",
+  "total_persons": 944296,
+  "data_cutoff_month": 202212,
+  "source_key_override": true,
+  "site_mapping_default_source_key": "cdm_0023",
+  "override_reason": "site_mapping default sourceKey returned HTTP 500 (BadSqlGrammarException) at refresh time"
+}

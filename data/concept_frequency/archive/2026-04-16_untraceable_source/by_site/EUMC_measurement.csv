@@ -1,0 +1,531 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+3000963,{component}||Survey terms not yet categorized||Short blood count panel - Blood||Hemoglobin [Mass/volume] in Blood,835087,0.526047,6.58
+3013721,Protein measurement||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,801301,0.504764,5.82
+3006923,Order set||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,800806,0.504452,5.81
+3009542,{component}||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Hematocrit [Volume Fraction] of Blood,774989,0.488189,7.01
+3010813,Order set||Urinalysis||Short blood count panel - Blood||Leukocytes [#/volume] in Blood,759486,0.478423,7.13
+3026361,Order set||Urinalysis||Short blood count panel - Blood||Erythrocytes [#/volume] in Blood,757858,0.477398,7.14
+3007461,Serology Panels||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||Platelets [#/volume] in Blood,738505,0.465207,7.31
+3001123,Order set||Platelet indices||Platelet mean volume | Blood | Hematology and Cell counts||Platelet mean volume [Entitic volume] in Blood,735724,0.463455,7.32
+3024731,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCV [Entitic volume],735724,0.463455,7.32
+3035941,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCH [Entitic mass],735724,0.463455,7.32
+3003338,Order set||Short blood count panel | Blood | Hematology and Cell Count Panels||Short blood count panel - Blood||MCHC [Mass/volume],735724,0.463455,7.32
+3002385,Order set||Red cell indices||Hemogram without Platelets panel - Blood||Erythrocyte distribution width [Ratio],735724,0.463455,7.32
+3016723,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Creatinine [Mass/volume] in Serum or Plasma,705703,0.444544,7.43
+3027114,{component}||Urinalysis||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Cholesterol [Mass/volume] in Serum or Plasma,685889,0.432062,4.52
+3004501,Urinalysis||Sugars/Sugar metabolism||Renal function 2000 panel - Serum or Plasma||Glucose [Mass/volume] in Serum or Plasma,662537,0.417352,5.29
+3006504,Order set||Urinalysis||Short blood count panel - Blood||Eosinophils/100 leukocytes in Blood,653253,0.411504,7.68
+3002030,Order set||Urinalysis||Short blood count panel - Blood||Lymphocytes/100 leukocytes in Blood,653253,0.411504,7.68
+3022096,Order set||Urinalysis||Short blood count panel - Blood||Basophils/100 leukocytes in Blood,653253,0.411504,7.68
+3017354,Order set||Urinalysis||Segmented neutrophils | Blood | Hematology and Cell counts||Segmented neutrophils/100 leukocytes in Blood,653253,0.411504,7.68
+3004809,Order set||Urinalysis||Short blood count panel - Blood||Band form neutrophils/100 leukocytes in Blood,653253,0.411504,7.68
+3019069,Order set||Urinalysis||Short blood count panel - Blood||Monocytes/100 leukocytes in Blood,653253,0.411504,7.68
+3013498,Order set||Urinalysis||Variant lymphocytes | Blood | Hematology and Cell counts||Variant lymphocytes/100 leukocytes in Blood,653252,0.411503,7.68
+3014051,Urine substance measurement||Urine protein measurement||Urine dipstick for protein||Protein [Presence] in Urine by Test strip,652253,0.410874,4.4
+3013682,Water deprivation challenge panel | Urine and Serum or Plasma | Challenge Bank Panels||Water deprivation challenge panel - Urine and Serum or Plasma||Vasopressin challenge post water deprivation panel - Urine and Serum or Plasma||Urea nitrogen [Mass/volume] in Serum or Plasma,643802,0.40555,7.78
+3011397,Urine protein measurement||Urine dipstick for protein||Urine dipstick for hemoglobin||Hemoglobin [Presence] in Urine by Test strip,637710,0.401713,4.48
+3009261,Urine substance measurement||Urine dipstick test||Urine dipstick for glucose||Glucose [Presence] in Urine by Test strip,637606,0.401647,4.48
+3022621,Urine substance measurement||Urine dipstick test||pH|Urine/Urine sed||pH of Urine by Test strip,631047,0.397516,4.43
+3024128,Urinalysis||Survey terms not yet categorized||Sequential Organ Failure Assessment SOFA||Bilirubin.total [Mass/volume] in Serum or Plasma,616032,0.388057,6.22
+3020630,Urinalysis||Protein fractions 3 panel | Serum or Plasma | Chemistry Panels||Protein|Moment in time|Serum or Plasma||Protein [Mass/volume] in Serum or Plasma,577474,0.363768,6.11
+3024561,Urinalysis||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Albumin [Mass/volume] in Serum or Plasma,576777,0.363329,6.44
+3035995,Protein measurement||Metabolic panel.small animal | Serum or Plasma | Chemistry Panels||Metabolic panel.small animal - Serum or Plasma||Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,574216,0.361716,6.05
+3002736,Order set||Platelet indices||Platelet distribution width | Blood | Hematology and Cell counts||Platelet distribution width [Entitic volume] in Blood by Automated count,574117,0.361654,4.9
+3035350,Urinalysis order set||Urinalysis order set||Urinalysis macro (dipstick) panel - Urine||Ketones [Presence] in Urine by Test strip,570816,0.359574,4.65
+3018834,Urine substance measurement||Urine dipstick test||Urine dipstick for bilirubin||Bilirubin.total [Presence] in Urine by Test strip,570805,0.359567,4.65
+3037426,"Urobilinogen measurement||Urobilinogen measurement, urine||Urobilinogen|Presence or Threshold|Urine||Urobilinogen [Presence] in Urine by Test strip",570805,0.359567,4.65
+3021601,Urine substance measurement||Urine dipstick test||Urine dipstick for nitrite||Nitrite [Presence] in Urine by Test strip,570804,0.359567,4.65
+3000330,Urinalysis order set||Urinalysis order set||Urinalysis macro (dipstick) panel - Urine||Specific gravity of Urine by Test strip,564040,0.355306,4.6
+40771922,"{component}||Laboratory||Lab terms not yet categorized||Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",559485,0.352437,7.3
+3032503,"Order set||Mineral, bone, joint, connective tissue||Chemistry||Calcium [Mass/volume] in Blood",548136,0.345288,6.51
+3005456,Order set||Sodium and Potassium panel | Blood | Chemistry Panels||Sodium and Potassium panel [Moles/volume] - Blood||Potassium [Moles/volume] in Blood,527004,0.331976,7.48
+3000285,"Order set||Sodium and Potassium panel | Blood | Chemistry Panels||Sodium|Substance Concentration|Moment in time|Blood, Serum or Plasma||Sodium [Moles/volume] in Blood",526946,0.331939,7.48
+3018572,Order set||Measurement of substance||Electrolytes panel - Blood||Chloride [Moles/volume] in Blood,523044,0.329481,7.46
+3024232,"Measurement||Mineral, bone, joint, connective tissue||Phosphate|Moment in time|Blood|94.97 g/mole||Phosphate [Mass/volume] in Blood",522843,0.329355,6.06
+3017732,Order set||Urinalysis||Short blood count panel - Blood||Neutrophils [#/volume] in Blood,513892,0.323716,7.71
+3020460,Urinalysis||Rheumatoid arthritis disease activity panel | Serum or Plasma | Chemistry Panels||Rheumatoid arthritis disease activity panel - Serum or Plasma by VectraDA||C reactive protein [Mass/volume] in Serum or Plasma,452867,0.285275,6.53
+4208414,Measurement of substance||Protein measurement||Globulin measurement||C-reactive protein measurement,449839,0.283367,6.94
+3026910,Reportable microbiology||Nonalcoholic steatohepatitis and fibrosis panel | Serum or Plasma | Chemistry Panels||Nonalcoholic steatohepatitis and fibrosis panel - Serum or Plasma||Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,418903,0.26388,3.07
+3022192,{component}||Urinalysis||Triglyceride|Moment in time|Serum or Plasma||Triglyceride [Mass/volume] in Serum or Plasma,402918,0.25381,4.12
+4032789,Measurement||Measurement of substance||Lipids measurement||Triglycerides measurement,387229,0.243927,3.98
+3014094,"Order set||Respiratory measures and Ventilator management||Gas panel - Blood||Carbon dioxide, total [Moles/volume] in Blood",384933,0.242481,5.84
+3019284,{component}||Survey terms not yet categorized||Vaccination panel [ESRD]||Hepatitis B virus surface Ag [Presence] in Serum,380849,0.239908,1.57
+3027597,Urinalysis||Pyrrole measurement||Hepatic function 2000 panel - Serum or Plasma||Bilirubin.direct [Mass/volume] in Serum or Plasma,376231,0.236999,4.36
+3007070,{component}||Urinalysis||Lipoprotein metabolism panel - Serum or Plasma||Cholesterol in HDL [Mass/volume] in Serum or Plasma,372469,0.23463,3.68
+3015183,Laboratory||Red blood cell test||Hematology (coagulation) differential count||Erythrocyte sedimentation rate,370160,0.233175,4.53
+3028437,{component}||Urinalysis||Low density lipoprotein cholesterol measurement||Cholesterol in LDL [Mass/volume] in Serum or Plasma,361144,0.227496,4.07
+3023421,{component}||Survey terms not yet categorized||Vaccination panel [ESRD]||Hepatitis B virus surface Ab [Units/volume] in Serum,356082,0.224307,1.57
+3000348,Urine protein measurement||Urine dipstick for protein||Urine dipstick for leukocyte esterase||Leukocyte esterase [Presence] in Urine by Test strip,348824,0.219735,4.69
+3035124,Urinalysis order set||Urinalysis order set||Urinalysis||Erythrocytes [#/area] in Urine sediment by Microscopy high power field,340813,0.214688,3.55
+3035583,Urinalysis order set||Urinalysis order set||Urinalysis||Leukocytes [#/area] in Urine sediment by Microscopy high power field,340813,0.214688,3.55
+3034426,Survey instruments||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||Prothrombin time (PT),332352,0.209359,4.13
+3033658,Order set||Routine||Prothrombin time (PT) | Platelet poor plasma | Coagulation||Prothrombin time (PT) actual/Normal,330591,0.208249,4.13
+4101713,Protein measurement||Lipoproteins measurement||High density lipoprotein measurement||High density lipoprotein cholesterol measurement,326709,0.205804,3.11
+4012479,Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement||Low density lipoprotein cholesterol measurement,325640,0.205131,3.86
+3018677,PT and aPTT and Fibrinogen panel | Platelet poor plasma | Coagulation Panels||aPTT panel | Platelet poor plasma | Coagulation Panels||aPTT | Platelet poor plasma | Coagulation||aPTT in Platelet poor plasma by Coagulation assay,323696,0.203906,3.61
+4289475,Measurement of substance||Protein measurement||Enzyme measurement||Gamma glutamyl transferase measurement,316843,0.199589,3.23
+3007220,Protein measurement||Enzyme measurement||Creatine kinase | Serum or Plasma | Chemistry - non-challenge||Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,311211,0.196041,4.92
+3037556,Measurement of substance in specimen||Uric acid measurement||Urate|Moment in time|Serum or Plasma|168.112 g/mole||Urate [Mass/volume] in Serum or Plasma,306204,0.192887,4.4
+4324383,Evaluation procedure||Measurement||Measurement of substance||Creatinine measurement,300394,0.189227,5.07
+4146380,Measurement of substance||Protein measurement||Enzyme measurement||Alanine aminotransferase measurement,298856,0.188258,4.39
+4263457,Measurement of substance||Protein measurement||Enzyme measurement||Aspartate aminotransferase measurement,297071,0.187134,4.38
+3016436,Protein measurement||Lactate dehydrogenase panel | Serum or Plasma | Chemistry Panels||Lactate dehydrogenase | Serum or Plasma | Chemistry - non-challenge||Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma,296195,0.186582,5.22
+4313992,Evaluation procedure||Measurement||Measurement of substance||Uric acid measurement,290677,0.183106,4.1
+3022217,Survey instruments||Warfarin tracking panel | Platelet poor plasma | Coagulation Panels||Warfarin tracking panel - Platelet poor plasma||INR in Platelet poor plasma by Coagulation assay,281040,0.177036,4.37
+3009201,"Order set||Serology order set||Thyrotropin|Arbitrary Concentration|Moment in time|Blood, Serum or Plasma||Thyrotropin [Units/volume] in Serum or Plasma",268024,0.168836,2.52
+4168615,Microbial antigen assay||Viral antigen assay||Measurement of Hepatitis B antigen||Hepatitis B surface antigen measurement,254791,0.160501,1.41
+4278658,Measurement of microbial antibody||Measurement of viral antibody||Hepatitis antibody test||Hepatitis B surface antibody measurement,237307,0.149487,1.4
+4018317,"Measurement of substance||Carbohydrate measurement||Glucose measurement||Glucose measurement, quantitative",229907,0.144825,4.16
+3021879,{component}||Reportable microbiology||Microbiology||Hepatitis B virus core Ab [Presence] in Serum,223240,0.140626,1.53
+4119650,Measurement||Measurement of substance||Protein measurement||Total protein measurement,222206,0.139974,4.8
+42529233,Laboratory||Thyroid Hormones-||Thyroxine.free|Moment in time|Serum or Plasma|Immunoassay||Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,218178,0.137437,2.57
+3010189,Urinalysis order set||Urinalysis order set||Urinalysis||Epithelial cells [#/area] in Urine sediment by Microscopy high power field,206574,0.130127,3.19
+3016771,Protein measurement||Single allergens||Chemistry||Amylase [Enzymatic activity/volume] in Serum or Plasma,205638,0.129538,2.43
+3021614,Order set||Serology order set||Serology (antibodies and most antigens except blood bank and infectious agents)||Rheumatoid factor [Units/volume] in Serum or Plasma,201973,0.127229,2.04
+46272018,Microbial antigen assay||Viral antigen assay||Human immunodeficiency virus antibody test||HIV-1/HIV-2 antigen/antibody combination immunoassay,201317,0.126816,1.57
+4273104,Measurement of microbial antibody||Measurement of viral antibody||Hepatitis antibody test||Hepatitis C antibody measurement,199885,0.125914,1.54
+3017143,{component}||Reportable microbiology||Microbiology||Hepatitis C virus Ab [Presence] in Serum,199446,0.125637,1.52
+4009848,"Immunology laboratory test||In-vitro immunologic test||Rheumatoid factor measurement||Rheumatoid factor, quantitative",197111,0.124166,2.03
+4074649,Measurement||Measurement of substance||Urea measurement||Urea nitrogen measurement,195878,0.12339,5.63
+3004410,{component}||Survey terms not yet categorized||Laboratory - end stage renal disease form 2728||Hemoglobin A1c/Hemoglobin.total in Blood,193672,0.122,3.08
+3002529,Order set||Obstetrics order set||Obstetric 1996 panel - Serum and Blood||ABO group [Type] in Blood,188424,0.118694,4.71
+3003310,Order set||Obstetrics order set||Rh | Blood | Blood bank||Rh [Type] in Blood,188374,0.118663,2.35
+4008265,Measurement of substance||Lipids measurement||Cholesterol measurement||Total cholesterol measurement,187608,0.11818,3.63
+3027946,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Carbon dioxide [Partial pressure] in Arterial blood,184192,0.116028,7.4
+3019977,"Urinalysis||PhenX domain - Respiratory||pH|Log Substance Concentration|Moment in time|Blood, Serum or Plasma||pH of Arterial blood",184189,0.116026,7.4
+3008152,Order set||Measurement of substance||IEEE 11073 Rosetta laboratory panel Blood||Bicarbonate [Moles/volume] in Arterial blood,184132,0.11599,7.4
+3003396,Order set||Measurement of level of substance in blood||Gas panel - Arterial blood||Base excess in Arterial blood by calculation,184129,0.115988,7.4
+3027801,PhenX Panel||Respiratory measures and Ventilator management||PhenX - respiratory - arterial blood gas - ABG protocol 090201||Oxygen [Partial pressure] in Arterial blood,184124,0.115985,7.4
+3016502,Order set||Specific hemodynamics||SaO2 | Blood arterial | Chemistry - non-challenge||Oxygen saturation in Arterial blood,184059,0.115944,7.4
+4230543,"Measurement of substance||Pyrrole measurement||Bilirubin measurement||Bilirubin, total measurement",177155,0.111595,4.98
+4097664,Measurement||Measurement of substance||Protein measurement||Albumin measurement,176558,0.111219,5.28
+4230636,Measurement of substance||Protein measurement||Enzyme measurement||Alkaline phosphatase measurement,159400,0.100411,5.0
+36306105,Order set||Troponin I.cardiac panel | Serum or Plasma | Chemistry Panels||Troponin I.cardiac | Serum or Plasma | Chemistry - non-challenge||Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,158497,0.099842,3.69
+42529209,"Enzyme measurement||Flowsheet - laboratory||Creatine kinase.MB|Mass Concentration|Moment in time|Blood, Serum or Plasma||Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay",156671,0.098692,3.14
+4017058,Protein measurement||Enzyme measurement||Creatine kinase isoenzymes measurement||Creatine kinase MB measurement,155193,0.097761,3.27
+3004249,"{component}||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Systolic blood pressure",153629,0.096776,35.93
+3012888,"{component}||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Wearable device external physiologic monitoring panel||Diastolic blood pressure",153621,0.096771,35.93
+3020891,"Vital signs, weight and height panel||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Wearable device external physiologic monitoring panel||Body temperature",133572,0.084141,36.34
+4081838,Evaluation procedure||Measurement||Measurement of substance||Blood gas analysis,124683,0.078542,6.96
+3004905,Protein measurement||Gases and acid/Base||Triacylglycerol lipase | Serum or Plasma | Chemistry - non-challenge||Lipase [Enzymatic activity/volume] in Serum or Plasma,123415,0.077743,2.53
+4018619,Procedure by method||Procedure by intent||Screening procedure||Screening for occult blood in feces,117487,0.074009,1.74
+3024171,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Respiratory rate",116932,0.073659,39.34
+40761554,{component}||Laboratory||Lab terms not yet categorized||Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,116819,0.073588,1.68
+4244721,Measurement||Measurement of substance||Tumor marker measurement||Carcinoembryonic antigen measurement,115630,0.072839,2.36
+4175016,"Laboratory test related to hemostasis||Coagulation pathway screening||Intrinsic coagulation pathway screening||Partial thromboplastin time, activated",108887,0.068591,3.15
+40762499,"Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel||Oxygen saturation in Arterial blood by Pulse oximetry",108430,0.068303,38.73
+42529201,Tumor marker measurement||Tumor markers||Chemistry||Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,108226,0.068175,2.46
+4164784,Measurement of substance||Tumor marker measurement||Tumor antigen measurement||Cancer antigen 19-9 measurement,107990,0.068026,2.64
+4189544,Laboratory procedure||Laboratory test||Microbiology procedure||Microbial culture,107203,0.06753,5.13
+4029710,Laboratory procedure||Laboratory test||Microbiology procedure||Identification procedure for living organism,107203,0.06753,5.13
+4190299,Laboratory test||Microbiology procedure||Organism inhibition test||Broth microdilution susceptibility test,106153,0.066869,4.84
+4245261,Laboratory test related to hemostasis||Coagulation pathway screening||Extrinsic coagulation pathway screening||Prothrombin time,104624,0.065906,4.01
+4103860,Procedure by method||Evaluation procedure||Measurement||Osmolality measurement,103315,0.065081,3.71
+4006392,"Evaluation procedure||Measurement||Measurement of substance||Ketone bodies measurement, qualitative",98845,0.062265,1.97
+3017250,"Order set||Vanillylmandelate, Homovanillate and Creatinine panel | Urine | Chemistry Panels||Vanillylmandelate, Homovanillate and Creatinine panel - 24 hour Urine||Creatinine [Mass/volume] in Urine",93510,0.058905,4.68
+4219104,Laboratory test||Hematology procedure||Laboratory test related to hemostasis||Bleeding time,92855,0.058492,1.32
+3025315,"Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Weight and Height tracking panel||Body weight",89477,0.056364,4.47
+3036277,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Vital signs, weight, height, head circumference, oxygen saturation and BMI panel | Patient | Vital Signs Panels||Weight and Height tracking panel||Body height",87070,0.054848,2.67
+3038553,{component}||Weighing device panel | Patient | Panel.devices||Weight and Height tracking panel||Body mass index (BMI) [Ratio],84594,0.053288,2.39
+4216632,"Measurement of substance||Pyrrole measurement||Bilirubin measurement||Bilirubin, direct measurement",84470,0.05321,3.08
+4223193,Laboratory test related to immunohematology||Blood group typing||Group and save||Blood group typing Rho(D),83344,0.052501,1.22
+3037110,Urinalysis||Sugars/Sugar metabolism||Glucose^post CFst|Moment in time|Serum or Plasma||Fasting glucose [Mass/volume] in Serum or Plasma,79332,0.049974,1.0
+4015482,"Fibrin-fibrinogen split products assay||Fibrin fragments assay||D-dimer assay||D-dimer assay, quantitative",78667,0.049555,2.29
+4135963,Measurement||Measurement of substance||Blood gas analysis||Carbon dioxide content measurement,77072,0.04855,4.78
+42529253,Laboratory||Thyroid hormone measurement||Triiodothyronine|Moment in time|Serum or Plasma|Immunoassay|650.977 g/mole||Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,76834,0.0484,2.45
+4255168,Protein measurement||Antibody measurement||Autoantibody measurement||Anti-cyclic citrullinated peptide antibody level,76025,0.04789,1.39
+42529190,Measurement of substance||Tumor markers||Chemistry||Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,74676,0.047041,2.66
+4245982,Measurement||Measurement of substance||Intermediary products of metabolism measurement||Ammonia measurement,73704,0.046428,2.36
+4190509,Laboratory test||Immunology laboratory test||In-vitro immunologic test||ASO test,70572,0.044455,1.21
+42529202,{component}||Laboratory||Lab terms not yet categorized||Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,67491,0.042515,2.42
+35609812,Screening for disorder||Infection screening||Venereal disease screening||Syphilis screening,60662,0.038213,1.41
+4197913,Measurement of substance||Tumor marker measurement||Tumor antigen measurement||CA 125 measurement,59770,0.037651,2.25
+3015242,Order set||Protein measurement||Hemoglobinopathy panel||Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,59047,0.037195,2.79
+37310257,Measurement of substance||Measurement of Coronavirus (Coronavirinae subfamily species)||Observable entity||Measurement of Severe acute respiratory syndrome coronavirus 2 antigen,58795,0.037037,1.4
+4149519,Measurement||Measurement of substance||Carbohydrate measurement||Glucose measurement,55392,0.034893,41.1
+3006916,"Measurement||Mineral, bone, joint, connective tissue||Magnesium|Moment in time|Blood|24.305 g/mole||Magnesium [Mass/volume] in Blood",53742,0.033854,3.69
+4098214,Procedure||Laboratory test||Histologic test||Histopathology test,53441,0.033664,1.76
+4143902,Measurement||Measurement of substance||Protein measurement||Myoglobin measurement,52939,0.033348,3.46
+3002400,Order set||Mass-Molar conversion||Iron|Moment in time|Serum or Plasma|55.845 g/mole||Iron [Mass/volume] in Serum or Plasma,51388,0.032371,2.34
+3021044,Order set||Mass-Molar conversion||Iron binding capacity|Moment in time|Serum or Plasma||Iron binding capacity [Mass/volume] in Serum or Plasma,51099,0.032189,2.34
+3002112,Measurement of substance||Vitamin measurement||Folic acid measurement||Folate [Mass/volume] in Blood,50444,0.031776,1.53
+3011152,"Laboratory||Vitamin B complex||Cobalamins|Mass Concentration|Moment in time|Blood, Serum or Plasma||Cobalamin (Vitamin B12) [Mass/volume] in Blood",50213,0.031631,1.91
+42529187,Laboratory||Mass-Molar conversion||Chemistry||25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,50186,0.031614,1.79
+44788645,Protein measurement||Immunoglobulin measurement||Immunoglobulin E measurement||Total immunoglobulin E level,50169,0.031603,1.32
+4095045,Measurement of substance||Protein measurement||Oxygen saturation measurement||Capillary oxygen saturation measurement,49675,0.031292,9.4
+3016650,{component}||Reportable microbiology||Microbiology||Hepatitis A virus Ab [Presence] in Serum,46550,0.029323,1.27
+4087260,Respiratory measure||Respiratory flow rate||Peak flow rate (respiratory)||Peak expiratory flow rate,46236,0.029125,1.37
+42529229,"{component}||Laboratory||Prostate specific Ag|Mass Concentration|Moment in time|Blood, Serum or Plasma||Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay",45523,0.028676,2.62
+3022891,PhenX Panel||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1 Predicted,43900,0.027654,1.48
+3024594,PhenX Panel||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1/FVC Predicted,43459,0.027376,1.49
+4176265,Respiratory measure||Respiratory volume||Dynamic lung volume||Forced vital capacity,43415,0.027348,1.49
+44791466,Measurement||Measurement of substance||Hormone measurement||Procalcitonin measurement,41893,0.02639,2.16
+3010156,Urinalysis||Mass-Molar conversion||Chemistry||C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,41186,0.025944,2.31
+4213582,Evaluation procedure||Measurement||Measurement of substance||Lactic acid measurement,40784,0.025691,5.06
+3013327,{component}||Reportable microbiology||Microbiology||Hepatitis A virus IgM Ab [Presence] in Serum,40106,0.025264,1.23
+4065263,Physical examination||Taking patient vital signs||Blood pressure taking||Ambulatory blood pressure recording,38899,0.024504,3.47
+4039357,Antigen assay||Microbial antigen assay||Viral antigen assay||Influenza A and B virus antigen assay,38790,0.024435,1.26
+3017797,{component}||Reportable microbiology||Microbiology||Hepatitis B virus surface Ab [Presence] in Serum,36602,0.023057,1.01
+4268574,Protein measurement||Paraprotein measurement||Cryoglobulin measurement||Cryoglobulin screening test,36021,0.022691,1.34
+42529199,Chemistry - non-challenge||Tumor markers||Chemistry||Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,35400,0.0223,2.34
+3018954,Survey terms not yet categorized||Tumor markers||Pregnancy test||Choriogonadotropin (pregnancy test) [Presence] in Urine,34029,0.021436,1.28
+4086918,Screening procedure||Screening for disorder||Infection screening||Viral screening,33823,0.021306,1.79
+4147623,Protein measurement||Measurement of substance||Tumor marker measurement||Neuron-specific enolase measurement,33374,0.021023,1.76
+4090666,Respiration observable||Respiratory measure||Respiratory flow rate||Flow volume loop flow rate,31653,0.019939,1.32
+3027018,"Vital signs, weight and height panel | Patient | Vital Signs Panels||Wells pulmonary embolism risk calculator panel | Patient | Clinical Risk Panel||Wells pulmonary embolism risk calculator panel||Heart rate",30386,0.019141,73.65
+3027974,{component}||Reportable microbiology||Microbiology||Hepatitis B virus e Ag [Presence] in Serum,28239,0.017789,1.76
+2213329,"Measurement||Pathology and Laboratory Procedures||Other Pathology and Laboratory Procedures||Leukocyte assessment, fecal, qualitative or semiquantitative",28069,0.017682,1.5
+4065904,Protein measurement||Thyroid hormone measurement||Thyroglobulin measurement||Thyroglobulin antibody measurement,26921,0.016958,2.52
+4017202,Evaluation procedure||Measurement||Measurement of substance||Lipids measurement,25923,0.01633,1.9
+42529215,"Pathology||Specific antigens||Follitropin|Arbitrary Concentration|Moment in time|Blood, Serum or Plasma||Follitropin [Units/volume] in Serum or Plasma by Immunoassay",24764,0.0156,2.1
+4056542,Microbiology procedure||Microbial identification test||Urease test||CLO test for helicobacter pylori,24005,0.015121,1.2
+3009413,Order set||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --fasting,23021,0.014502,2.18
+4216098,Blood cell count||White blood cell count||Granulocyte count||Eosinophil count,22335,0.014069,1.28
+3013115,Order set||Urinalysis||Manual Differential panel - Blood||Eosinophils [#/volume] in Blood,22327,0.014064,1.27
+40759598,"{component}||Laboratory||Thyroperoxidase Ab|Arbitrary Concentration|Moment in time|Blood, Serum or Plasma||Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay",22301,0.014048,1.46
+42529220,"Chemistry - non-challenge||Pituitary Hormones-||Lutropin|Arbitrary Concentration|Moment in time|Blood, Serum or Plasma||Lutropin [Units/volume] in Serum or Plasma by Immunoassay",22221,0.013998,2.18
+4278664,Procedure to identify antibody||Autoantibody measurement||Antiphospholipid antibody measurement||Anticardiolipin antibody measurement,21720,0.013682,2.39
+4013262,Protein measurement||Antibody measurement||Procedure to identify antibody||Widal test,21316,0.013428,1.48
+44789161,Measurement||Measurement of substance||Protein measurement||Cystatin C measurement,20933,0.013186,4.52
+3013527,{component}||Reportable microbiology||Microbiology||Hepatitis B virus core IgM Ab [Presence] in Serum,20547,0.012943,1.09
+4010412,Measurement||Measurement of substance||Hormone measurement||Prolactin measurement,20450,0.012882,1.68
+40325320,Complement assay||Complement functional assay||Complement hemolytic assay||Hemolytic complement CH50 level,20051,0.012631,8.27
+4216186,Measurement of substance||Protein measurement||Globulin measurement||Beta-2-microglobulin measurement,19556,0.012319,3.08
+42529564,Measurement of substance||Steroid measurement||Testosterone|Moment in time|Serum or Plasma|Immunoassay|288.431 g/mole||Testosterone [Mass/volume] in Serum or Plasma by Immunoassay,19216,0.012105,1.95
+42529230,Laboratory||Thyroid hormone measurement||Thyroxine|Moment in time|Serum or Plasma|Immunoassay|776.874 g/mole||Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,19150,0.012063,1.75
+4263791,Measurement||Measurement of substance||Protein measurement||Antithrombin III assay,18836,0.011865,1.57
+4209123,Microbial antigen assay||Viral antigen assay||Measurement of Hepatitis B antigen||Hepatitis B e antigen test,18134,0.011423,1.41
+3034485,Urinalysis||Flowsheet - laboratory||Chemistry||Albumin/Creatinine [Mass Ratio] in Urine,18063,0.011378,2.86
+4042762,Evaluation procedure||Measurement||Measurement of renal clearance||Measurement of renal clearance of creatinine,17445,0.010989,2.18
+3016407,Order set||Routine||PT and aPTT and Fibrinogen panel - Platelet poor plasma by Coagulation assay||Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,16864,0.010623,1.75
+3010084,Order set||Sugars/Sugar metabolism||Chemistry||C peptide [Mass/volume] in Serum or Plasma,16674,0.010503,2.39
+4048727,Screening procedure||Screening for disorder||Screening for neoplasm||Screening for cancer,16610,0.010463,1.99
+3013945,{component}||Reportable microbiology||Microbiology||Hepatitis B virus e Ab [Presence] in Serum,16206,0.010209,2.11
+42529213,Measurement of substance||Steroid measurement||Estradiol|Moment in time|Serum or Plasma|Immunoassay|272.388 g/mole||Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,15989,0.010072,2.16
+4226401,Physical examination||Taking patient vital signs||Blood pressure taking||Taking arterial blood pressure,15945,0.010044,4.27
+4219426,Measurement of substance||Protein measurement||Thyroid hormone measurement||Thyroglobulin measurement,15860,0.009991,4.11
+4133843,Procedure by method||Laboratory procedure||Laboratory test||Body fluid analysis,14518,0.009145,1.87
+4311562,Urodynamic studies||Physiologic measurement||Uroflowmetry||Complex uroflowmetry,14203,0.008947,1.85
+3012516,Urine protein measurement||Urine albumin measurement||Chemistry||Albumin [Mass/volume] in Urine,13447,0.008471,2.71
+4170855,Measurement||Measurement of substance||Tumor marker measurement||Adrenocorticotropic hormone measurement,13190,0.008309,1.61
+3028772,Measurement of substance||Protein measurement||Osteocalcin|Moment in time|Serum or Plasma||Osteocalcin [Mass/volume] in Serum or Plasma,13154,0.008286,1.96
+3029187,Order set||Public health record order set||Natriuretic peptide.B prohormone N-Terminal|Moment in time|Serum or Plasma||Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,12921,0.008139,1.64
+4265529,Measurement||Measurement of respiratory function||Membrane diffusion capacity||Carbon monoxide diffusing capacity measurement,12886,0.008117,1.69
+4169175,NA||Staging and scales||Assessment scales||Mini-mental state examination,12673,0.007983,1.6
+4242723,Procedure on soft tissue||Procedure on skin and/or subcutaneous tissue||Type 1 hypersensitivity skin test||Prick test,12141,0.007648,1.04
+4013180,Measurement of substance||Tumor marker measurement||Tumor antigen measurement||Cancer antigen 15-3 measurement,11596,0.007305,3.27
+4191727,Measurement||Measurement of substance||Tumor marker measurement||Squamous cell carcinoma antigen level,11563,0.007284,2.84
+4094436,Measurement||Measurement of substance||Protein measurement||Fibrinogen measurement,10039,0.006324,1.73
+3000034,Urine protein measurement||Urine albumin measurement||Microalbumin|Mass Concentration|Urine||Microalbumin [Mass/volume] in Urine,9965,0.006277,2.07
+44805804,Measurement of substance||Protein measurement||Albumin measurement||Ischaemia modified albumin measurement,9543,0.006011,1.34
+3037142,Order set||Thyroid newborn screening panel | DBS | Chemistry Panels||Thyrotropin | DBS | Chemistry - non-challenge||Thyrotropin [Units/volume] in DBS,9522,0.005998,1.02
+3007922,Hormone measurement||Somatomedin measurement||Somatomedin-C measurement||Insulin-like growth factor-I [Mass/volume] in Blood,9066,0.005711,2.41
+4052083,Procedure by method||Evaluation procedure||Measurement||Measurement of respiratory function,8502,0.005356,1.21
+3038136,Survey terms not yet categorized||Tumor markers||Pregnancy lab tests - FPAR 2.0 set||Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,8497,0.005353,2.65
+4076661,Procedure by method||Procedure by intent||Screening procedure||Pre-employment screening,8256,0.005201,1.35
+4296540,"Measurement of substance||Tumor marker measurement||Human chorionic gonadotropin measurement||Chorionic gonadotropin, beta-subunit measurement",8042,0.005066,2.83
+3018447,{component}||Reportable microbiology||Microbiology||Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,7868,0.004956,1.41
+4064734,Evaluation procedure||Measurement||Measurement of respiratory function||Bronchial provocation test,7824,0.004929,1.18
+3037879,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||Forced vital capacity [Volume] Respiratory system --pre bronchodilation,7660,0.004825,1.26
+3005025,PhenX Panel||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1 --pre bronchodilation,7645,0.004816,1.26
+900000008,NA||NA||NA||FEV1 pre bronchodilation measured/predicted,7637,0.004811,1.26
+900000012,NA||NA||NA||FVC pre bronchodilation measured/predicted,7636,0.00481,1.26
+3016724,Order set||Small molecules||Homocysteine|Moment in time|Serum or Plasma||Homocysteine [Moles/volume] in Serum or Plasma,7489,0.004718,1.19
+3032567,{component}||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,7217,0.004546,2.12
+4014887,Measurement of substance||Protein measurement||White blood cell enzyme activity measurement||Adenosine deaminase measurement,6578,0.004144,1.49
+40480067,Measurement||Measurement of substance||Red blood cell test||Measurement of total hemoglobin concentration,6530,0.004113,1.14
+3027346,{component}||Reportable microbiology||Microbiology||Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,6522,0.004108,2.24
+4193755,Measurement of microbial antibody||Measurement of viral antibody||Hepatitis antibody test||Hepatitis Be antibody measurement,6470,0.004076,1.45
+4020542,"Urine protein measurement||Urine albumin measurement||Microalbuminuria measurement||Microalbumin measurement, urine, quantitative",6231,0.003925,1.42
+3021337,"Chemistry and Chemistry - challenge||Flowsheet - laboratory||Troponin I.cardiac|Mass Concentration|Moment in time|Blood, Serum or Plasma||Troponin I.cardiac [Mass/volume] in Serum or Plasma",5834,0.003675,1.04
+3041449,Laboratory||Serology - non-micro||Collagen crosslinked C-telopeptide|Moment in time|Serum or Plasma||Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,5830,0.003672,1.44
+4194895,Procedure by method||Procedure by intent||Screening procedure||Screening for disorder,5687,0.003582,1.45
+4233038,Respiration observable||Respiratory measure||Respiratory percentage||FEV1/FVC ratio before bronchodilator,5666,0.003569,1.27
+4070937,Hematology procedure||Laboratory test related to hemostasis||Coagulation factor assay||Protein S assay,5516,0.003475,1.78
+4133684,Laboratory procedure||Laboratory test||Genotype determination||Apolipoprotein E genotype determination,5506,0.003468,1.07
+4095691,"Laboratory test related to hemostasis||Coagulation factor assay||Protein C, assay||Protein C, functional assay",5389,0.003395,1.22
+44804356,Measurement of substance||Protein measurement||Hormone measurement||Anti-Mullerian hormone measurement,5088,0.003205,1.17
+900000010,NA||NA||NA||FEV1/FVC ratio pre bronchodilation measured/predicted,5078,0.003199,1.21
+4339109,Protein measurement||Antibody measurement||Autoantibody measurement||Antibody to double stranded DNA measurement,5038,0.003174,3.99
+4308939,Procedure on skin||Skin test||Test of cell-mediated immunity||Delayed hypersensitivity skin test for tuberculin PPD,4839,0.003048,1.11
+4014036,"Coagulation factor assay||Plasmin assay||Fibrin-fibrinogen split products assay||Fibrin-fibrinogen split products assay, quantitative",4695,0.002958,1.64
+3021737,Urinalysis||Sugars/Sugar metabolism||Glucose^2H post meal|Moment in time|Serum or Plasma||Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,4657,0.002934,1.66
+4238668,"Measurement||Measurement of substance||Drug of abuse screen||Drug of abuse, qualitative screen",4540,0.00286,1.08
+44789255,Protein measurement||Hormone measurement||Renin measurement||Renin activity measurement,4343,0.002736,1.35
+4327663,Laboratory procedure||Laboratory test||Immunology laboratory test||Clostridium difficile toxin assay,4193,0.002641,1.57
+42742328,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||MTHFR (5,10-methylenetetrahydrofolate reductase) (eg, hereditary hypercoagulability) gene analysis, common variants (eg, 677T, 1298C)",4184,0.002636,1.02
+4147378,Measurement||Measurement of substance||Hormone measurement||Calcitonin measurement,4136,0.002605,1.17
+3010989,Measurement of substance||Serology - non-micro||Chemistry||Calcitonin [Mass/volume] in Serum or Plasma,4114,0.002592,1.16
+3023550,PhenX Panel||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1 --post bronchodilation,4110,0.002589,1.33
+900000011,NA||NA||NA||FVC post bronchodilation measured/predicted,4110,0.002589,1.33
+900000007,NA||NA||NA||FEV1 post bronchodilation measured/predicted,4110,0.002589,1.33
+3001668,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||Forced vital capacity [Volume] Respiratory system --post bronchodilation,4110,0.002589,1.33
+42868472,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1 percent change,4110,0.002589,1.33
+3010391,Laboratory||Serology - non-micro||Collagen crosslinked N-telopeptide/Creatinine|Substance Ratio|Urine||Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,4077,0.002568,1.48
+44811087,Dynamic lung volume||Forced vital capacity||Forced vital capacity (FVC) after bronchodilation||FVC (forced vital capacity) post bronchodilator percentage change,4041,0.002546,1.32
+40480257,Measurement||Measurement of respiratory function||Measurement of substance||Measurement of expired nitric oxide,3947,0.002486,1.63
+4015457,Protein measurement||Antibody measurement||Procedure to identify antibody||Antibody to mitochondria measurement,3825,0.002409,1.16
+900000018,NA||NA||NA||IVC pre bronchodilation,3781,0.002382,1.08
+900000019,NA||NA||NA||IVC pre bronchodilation measured/predicted,3781,0.002382,1.08
+4092629,Respiratory volume||Dynamic lung volume||Vital capacity||Inspiratory vital capacity,3781,0.002382,1.08
+4150788,Respiratory measure||Respiratory flow rate||Peak flow rate (respiratory)||Peak flow rate before bronchodilation,3780,0.002381,1.08
+42528785,Clinical||Respiratory measures and Ventilator management||Vital capacity | Respiratory system | Respiratory measures and Ventilator management||Vital capacity [Volume] Respiratory system by Spirometry --pre bronchodilation,3780,0.002381,1.08
+900000025,NA||NA||NA||VC pre bronchodilation measured/predicted,3780,0.002381,1.08
+4147814,Respiratory measure||Respiratory volume||Dynamic lung volume||Vital capacity,3780,0.002381,1.08
+900000022,NA||NA||NA||PEF pre bronchodilation measured/predicted,3780,0.002381,1.08
+3028425,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||Inspiratory capacity Predicted,3779,0.002381,1.08
+4097906,Laboratory test||Hematology procedure||Hematology test||White blood cell test,3662,0.002307,1.03
+4044814,Protein measurement||Antibody measurement||Procedure to identify antibody||Measurement of acetylcholine receptor antibody,3626,0.002284,1.22
+42868459,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1/FVC --post bronchodilation,3467,0.002184,1.25
+3020682,Urinalysis||Kidney failure 2-year and 5-year risk panel | Patient | Chemistry Panels||Kidney failure 2-year and 5-year risk panel by KFRE||Albumin/Creatinine [Ratio] in Urine,3432,0.002162,1.4
+900000009,NA||NA||NA||FEV1/FVC ratio post bronchodilation measured/predicted,3399,0.002141,1.24
+4055657,Measurement||Measurement of substance||Protein measurement||Serum/plasma protein test,3395,0.002139,1.08
+4232747,Procedure on organ||Procedure on inner ear||Vestibular function test||Berg balance test,3359,0.002116,1.61
+40759603,Measurement of substance||Serology - non-micro||Insulin | Serum or Plasma | Chemistry - challenge||Insulin [Units/volume] in Serum or Plasma --baseline,3349,0.00211,2.63
+42868473,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||FEV1/FVC percent change,3336,0.002101,1.23
+4107569,Regimes and therapies||Procedure with a procedure focus||Medication monitoring||Therapeutic drug monitoring assay,2937,0.00185,3.06
+4197936,Respiration observable||Respiratory measure||Expired gas concentration||Expired carbon dioxide concentration,2916,0.001837,2.24
+4274014,Laboratory test related to hemostasis||Platelet function test||Platelet aggregation test||Platelet aggregation with drug test,2788,0.001756,1.82
+4045506,Protein measurement||Antibody measurement||Procedure to identify antibody||Measurement of liver and kidney microsomal antibody,2653,0.001671,1.09
+4179789,Protein measurement||Procedure to identify antibody||Autoantibody measurement||Smooth muscle antibody measurement,2622,0.001652,1.13
+4264096,Evaluation procedure||Measurement||Measurement of substance||Very long chain fatty acids measurement,2575,0.001622,1.0
+3017028,{component}||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Mass/volume] (viral load) in Serum by Probe with signal amplification,2555,0.001609,1.47
+46257662,"Current Procedural Terminology Concept||Pathology and Laboratory Procedures||Genomic Sequencing Procedures and Other Molecular Multianalyte Assays||Targeted genomic sequence analysis panel, hematolymphoid neoplasm or disorder, DNA analysis, and RNA analysis when performed, 5-50 genes (eg, BRAF, CEBPA, DNMT3A, EZH2, FLT3, IDH1, IDH2, JAK2, KRAS, KIT, MLL, NRAS, NPM1, NOTCH1), interrogation for sequenc",2526,0.001591,2.2
+4208541,Protein measurement||Fibrinogen measurement||Fibrinogen screening||Thrombin time,2487,0.001567,1.37
+4132491,Procedure on cornea||Procedure categorized by device involved||Corneal pachymetry||Ultrasound pachymetry,2320,0.001461,1.83
+4196848,Protein measurement||Antibody measurement||Autoantibody measurement||Hu antibody measurement,2295,0.001446,1.04
+4314176,Procedure by site||Procedure||Taking patient vital signs||Taking orthostatic vital signs,2270,0.00143,1.03
+4197711,Protein measurement||Antibody measurement||Autoantibody measurement||GBM antibody measurement,2203,0.001388,1.08
+3019800,"Troponin measurement||Troponin T measurement||Troponin T.cardiac|Mass Concentration|Moment in time|Blood, Serum or Plasma||Troponin T.cardiac [Mass/volume] in Serum or Plasma",2185,0.001376,1.03
+2212506,Pathology and Laboratory Procedures||Measurement||Oncoprotein||Oncoprotein; des-gamma-carboxy-prothrombin (DCP),2181,0.001374,3.07
+4154635,Respiratory measure||Respiratory flow rate||Peak flow rate (respiratory)||Peak flow rate after bronchodilation,2156,0.001358,1.07
+900000024,NA||NA||NA||VC post bronchodilation measured/predicted,2156,0.001358,1.07
+900000023,NA||NA||NA||VC percent change,2156,0.001358,1.07
+900000021,NA||NA||NA||PEF post bronchodilation measured/predicted,2156,0.001358,1.07
+900000020,NA||NA||NA||PEF percent change,2156,0.001358,1.07
+900000017,NA||NA||NA||IVC post bronchodilation measured/predicted,2156,0.001358,1.07
+900000016,NA||NA||NA||IVC post bronchodilation,2156,0.001358,1.07
+900000015,NA||NA||NA||IVC percent change,2156,0.001358,1.07
+42528786,Clinical||Respiratory measures and Ventilator management||Vital capacity | Respiratory system | Respiratory measures and Ventilator management||Vital capacity [Volume] Respiratory system by Spirometry --post bronchodilation,2156,0.001358,1.07
+4331302,Measurement of substance||Protein measurement||Lipoproteins measurement||Low density lipoprotein measurement,2109,0.001329,1.43
+4056952,Measurement||Measurement of substance||Lipids measurement||Phospholipid measurement,2044,0.001288,1.42
+4046641,Antibody measurement||Measurement of microbial antibody||Measurement of bacterial antibody||Treponema pallidum reagin antibody level,2020,0.001272,1.19
+35948140,NA||NA||NA||SOD1 (superoxide dismutase 1) gene variant measurement,2009,0.001266,1.01
+36770544,NA||Metastasis||Metastasis to digestive organ||Metastasis to liver,1803,0.001136,15.82
+4234494,Measurement of substance||Protein measurement||Enzyme measurement||Angiotensin converting enzyme measurement,1784,0.001124,1.41
+4145847,Measurement||Measurement of substance||Protein measurement||Amyloid A level,1765,0.001112,1.73
+4213892,Measurement||Measurement of substance||Hormone measurement||Growth hormone measurement,1761,0.001109,3.84
+4072152,Measurement of substance||Lipids measurement||Fatty acid measurement||Free fatty acids measurement,1708,0.001076,2.1
+4168929,"Hematology procedure||Laboratory test related to hemostasis||Coagulation factor assay||Protein C, assay",1671,0.001053,1.09
+3018910,Chemistry and Chemistry - challenge||Chemistry - non-challenge||Chemistry||Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,1627,0.001025,1.27
+4018470,Measurement of substance in specimen||Protein measurement||Serologic test||Measurement of Helicobacter pylori antibody,1570,0.000989,1.4
+36769180,NA||NA||NA||Metastasis,1560,0.000983,14.12
+3028729,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||Expiratory reserve Predicted,1559,0.000982,1.05
+900000014,NA||NA||NA||IC pre bronchodilation measured/predicted,1537,0.000968,1.05
+900000013,NA||NA||NA||IC pre bronchodilation,1537,0.000968,1.05
+37017153,Procedure by method||Evaluation procedure||Measurement||Measurement of surface foot pressure,1494,0.000941,1.18
+42358228,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level B),1383,0.000871,1.1
+4018320,Measurement of substance||Protein measurement||Glycated protein measurement||Glycated albumin measurement,1364,0.000859,1.11
+4056787,Measurement of substance||Protein measurement||Carbonyl hemoglobin measurement||Carboxyhemoglobin measurement,1341,0.000845,1.34
+37207519,Genetic test||Molecular genetic test||WGS - whole genome sequencing||Germline WGS (whole genome sequencing),1334,0.00084,1.06
+4095027,Measurement of substance||Protein measurement||Antibody measurement||Antibody titer measurement,1323,0.000833,4.19
+40483682,Steroid measurement||Measurement of substance in specimen||Measurement of level of substance in blood||Quantitative measurement of cortisol in baseline serum or plasma specimen after ACTH challenge,1304,0.000821,1.08
+44789066,Autoantibody measurement||Measurement of ganglioside antibody||Anti-ganglioside M1 measurement||Anti-ganglioside M1 immunoglobulin M measurement,1245,0.000784,1.01
+4208363,Staging and scales||Assessment scales||Rey figure test||Rey complex figure test,1204,0.000758,1.05
+4064927,Procedure by intent||Screening procedure||Screening for disorder||Respiratory disease screening,1203,0.000758,1.88
+43527945,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||EGFR (epidermal growth factor receptor) (eg, non-small cell lung cancer) gene analysis, common variants (eg, exon 19 LREA deletion, L858R, T790M, G719A, G719S, L861Q)",1202,0.000757,1.28
+4268036,Measurement||Measurement of substance||Hormone measurement||Antidiuretic hormone measurement,1144,0.000721,1.39
+4288447,"Laboratory test||Hematology procedure||Laboratory test related to hemostasis||Coagulation time, activated",1140,0.000718,19.74
+4310476,Protein measurement||Antibody measurement||Autoantibody measurement||Glutamic acid decarboxylase antibody level,1078,0.000679,1.11
+4040056,Evaluation procedure||Measurement||Measurement of substance||Cytokeratin 19 fragment measurement,999,0.000629,2.15
+36770283,Metastasis||Metastasis to viscera||Metastasis to intrathoracic organs||Metastasis to lung,975,0.000614,16.67
+704985,NA||NA||Metastasis||Metastasis to abdomen,974,0.000614,12.29
+4290342,Antibody measurement||Procedure to identify antibody||Antibody to tissue specific antigen measurement||Insulin antibody measurement,950,0.000598,1.16
+35945647,NA||NA||NA||CYP2C19 (cytochrome P450 family 2 subfamily C member 19) gene variant measurement,949,0.000598,1.01
+40483235,Measurement||Measurement of substance||Tumor marker measurement||Measurement of cancer antigen 72-4,933,0.000588,1.43
+4098630,Measurement||Measurement of substance||Hormone measurement||Luteinizing hormone/follicle stimulating hormone measurement,879,0.000554,1.11
+927144,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||PABPN1 (poly[A] binding protein nuclear 1) (eg, oculopharyngeal muscular dystrophy) gene analysis, evaluation to detect abnormal (eg, expanded) alleles",869,0.000547,1.0
+40761553,{component}||Reportable microbiology||Microbiology||Hepatitis B virus surface Ag [Units/volume] in Serum,835,0.000526,1.04
+42742305,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||FMR1 (fragile X mental retardation 1) (eg, fragile X mental retardation) gene analysis; evaluation to detect abnormal (eg, expanded) alleles",827,0.000521,1.02
+43020942,Ultrasound procedure on cardiovascular system||Screening for cardiovascular system disease||Heart disease screening||Fetal echocardiography screening,827,0.000521,10.66
+900000001,NA||NA||NA||Carbon monoxide diffusing capacity,787,0.000496,1.08
+900000002,NA||NA||NA||DLCO pre bronchodilation measured/predicted,774,0.000488,1.08
+3049714,"Protein measurement||Procollagen peptide type 1 measurement||Procollagen type I.N-terminal propeptide|Mass Concentration|Moment in time|Blood, Serum or Plasma||Procollagen type I.N-terminal propeptide [Mass/volume] in Serum",747,0.000471,1.67
+4015325,"Laboratory test||Microbiology procedure||Antimicrobial susceptibility test||Antibiotic sensitivity, tubercle bacillus",740,0.000466,1.11
+35946461,NA||NA||NA||ATXN2 (ataxin 2) gene variant measurement,734,0.000462,1.03
+35951777,NA||NA||NA||ATXN3 (ataxin 3) gene variant measurement,729,0.000459,1.03
+40760490,Chemistry - non-challenge||Sugars/Sugar metabolism||Challenge tests||C peptide [Mass/volume] in Serum or Plasma --baseline,723,0.000455,1.05
+45770207,Laboratory test||Genetic test||Molecular genetic test||Kirsten rat sarcoma viral oncogene homolog targeted genetic test,717,0.000452,1.02
+42742303,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||F5 (coagulation factor V) (eg, hereditary hypercoagulability) gene analysis, Leiden variant",685,0.000432,1.04
+3008293,Order set||Thyroid newborn screening panel | DBS | Chemistry Panels||Thyroxine|Moment in time|Blood filter paper|776.874 g/mole||Thyroxine (T4) [Mass/volume] in DBS,663,0.000418,1.24
+42742564,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||BRAF (B-Raf proto-oncogene, serine/threonine kinase) (eg, colon cancer, melanoma), gene analysis, V600 variant(s)",652,0.000411,1.02
+35954940,NA||NA||NA||NOTCH3 (notch receptor 3) gene variant measurement,633,0.000399,1.01
+35950202,NA||NA||NA||ATXN1 (ataxin 1) gene variant measurement,626,0.000394,1.02
+35961946,NA||NA||NA||CACNA1A (calcium voltage-gated channel subunit alpha1 A) gene variant measurement,616,0.000388,1.03
+3013005,Measurement of substance||Vitamin measurement||Vitamin A measurement||Retinol [Moles/volume] in Serum or Plasma,611,0.000385,3.3
+3027232,Clinical||Respiratory measures and Ventilator management||Pulmonary ventilator management||Diffusion capacity/Alveolar volume,606,0.000382,1.05
+900000003,NA||NA||NA||DLCOVA pre bronchodilation,590,0.000372,1.05
+900000004,NA||NA||NA||DLCOVA pre bronchodilation measured/predicted,578,0.000364,1.05
+4196106,Evaluation procedure||Measurement||Measurement of respiratory function||Determination of resistance to airflow,570,0.000359,1.68
+46257532,"Current Procedural Terminology Concept||Pathology and Laboratory Procedures||Genomic Sequencing Procedures and Other Molecular Multianalyte Assays||Targeted genomic sequence analysis panel, solid organ neoplasm, DNA analysis, and RNA analysis when performed, 5-50 genes (eg, ALK, BRAF, CDKN2A, EGFR, ERBB2, KIT, KRAS, NRAS, MET, PDGFRA, PDGFRB, PGR, PIK3CA, PTEN, RET), interrogation for sequence varian",555,0.00035,1.12
+4007663,Measurement of substance||Protein measurement||Lipoproteins measurement||Lipoprotein (a) measurement,550,0.000346,1.03
+36769301,NA||NA||Metastasis||Metastasis to bone,547,0.000345,16.23
+46284252,Protein measurement||Antibody measurement||Autoantibody measurement||Serum phospholipase-A2 receptor antibody measurement,544,0.000343,1.07
+42627943,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||NRAS (neuroblastoma RAS viral [v-ras] oncogene homolog) (eg, colorectal carcinoma), gene analysis, variants in exon 2 (eg, codons 12 and 13) and exon 3 (eg, codon 61)",539,0.00034,1.02
+4013117,Coagulation factor assay||Plasmin assay||Plasminogen activator inhibitor assay||Plasminogen activator inhibitor type 1 assay,522,0.000329,4.15
+4034850,Procedure||Procedure by method||Laboratory procedure||Laboratory test,504,0.000317,2.67
+4167406,Procedure by intent||Screening procedure||Screening for disorder||Eye disorder screening,500,0.000315,1.49
+42742338,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Microsatellite instability analysis (eg, hereditary non-polyposis colorectal cancer, Lynch syndrome) of markers for mismatch repair deficiency (eg, BAT25, BAT26), includes comparison of neoplastic and normal tissue, if performed",494,0.000311,1.01
+4133773,Measurement||Measurement of substance||Protein measurement||Serum C1 esterase inhibitor antigen level,493,0.000311,1.09
+35225775,NA||NA||Metastasis||Metastasis to nervous system,488,0.000307,9.68
+4253329,Antigen assay||Microbial antigen assay||Parasite antigen assay||Malaria antigen test,488,0.000307,1.04
+35955666,NA||NA||NA||ATXN7 (ataxin 7) gene variant measurement,479,0.000302,1.02
+4264765,Procedure by site||Physical examination||Taking patient vital signs||Blood pressure taking,475,0.000299,2.33
+42266183,"NA||NA||NA||Genetic Tests for Somatic Variants_PCR-Extended_PCR-Hybridization[ROS1 Gene],pathological examination qualitative addition(4%), Clinical Pathologist etc. reading",464,0.000292,1.04
+40484574,Procedure by method||Measurement of substance||Protein measurement||Quantitative measurement of calprotectin in stool specimen,459,0.000289,1.55
+35947699,NA||NA||NA||TOR1A (torsin family 1 member A) gene variant measurement,447,0.000282,1.02
+4016523,"Blood group typing||Blood group typing, RH phenotyping||D blood group typing||Weak D blood group typing",403,0.000254,1.08
+40487879,Measurement||Measurement of respiratory function||Bronchial provocation test||Exercise bronchial provocation test,403,0.000254,1.07
+44791431,Evaluation procedure||Measurement||Measurement of substance||Human epidermal growth factor receptor-2 measurement,362,0.000228,1.17
+4219996,Laboratory test||Immunology laboratory test||Laboratory test related to immunohematology||Major crossmatch,332,0.000209,1.54
+3021125,{component}||Reportable microbiology||Microbiology||Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection,319,0.000201,1.04
+4161982,Cardiovascular observable||Cardiovascular measure||Cardiac measure||Fractional flow reserve,314,0.000198,1.08
+36770040,NA||NA||Metastasis||Metastasis to gastrointestinal tract,311,0.000196,12.87
+44789299,Measurement of substance||Tumor marker measurement||Parathyroid hormone measurement||Parathyroid hormone related peptide measurement,309,0.000195,1.17
+3001467,Order set||Chemistry order set||Chemistry||Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma,308,0.000194,1.8
+4098179,Procedure by method||Laboratory procedure||Laboratory test||Immunology laboratory test,302,0.00019,2.77
+42361374,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level C- Number of Paraffin Blocks ≤9),281,0.000177,1.13
+4015178,Measurement of substance||Red blood cell test||Measurement of total hemoglobin concentration||Measurement of total hemoglobin concentration in plasma specimen,280,0.000176,1.17
+42742302,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||F2 (prothrombin, coagulation factor II) (eg, hereditary hypercoagulability) gene analysis, 20210G>A variant",268,0.000169,1.05
+36675049,Procedure on organ||Procedure on soft tissue||Periodontic procedure||Measurement of periodontal pocket depth,255,0.000161,1.72
+4310328,Measurement of substance||Protein measurement||Oxygen saturation measurement||Blood oxygen saturation (calculated),255,0.000161,2.49
+4097882,"Blood gas analysis||Carbon dioxide content measurement||Carbon dioxide measurement, partial pressure||Measurement of partial pressure of carbon dioxide in blood",255,0.000161,2.49
+927109,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||BRCA1 (BRCA1, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis||BRCA1 (BRCA1, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis; full sequence analysis",243,0.000153,1.01
+42742290,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||Molecular genetic test||BRCA2 (BRCA2, DNA repair associated) (eg, hereditary breast and ovarian cancer) gene analysis; full sequence analysis",242,0.000152,1.01
+42361147,NA||NA||NA||Cytopathology Examination- External slide reading (Liquid-Based Cytopathologic Examination)- Aspiration Cytopathology,240,0.000151,1.15
+4197858,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Growth hormone stimulation test,234,0.000147,2.04
+4007807,Measurement of substance||Protein measurement||Enzyme measurement||Tryptase measurement,232,0.000146,1.03
+4049641,Procedure on organ||Upper gastrointestinal procedure||Procedure on esophagus||Esophageal manometry,230,0.000145,1.01
+4066034,Respiration observable||Respiratory measure||Respiratory pressure||Peak expiratory pressure,221,0.000139,1.79
+4101694,Respiration observable||Respiratory measure||Respiratory pressure||Peak inspiratory pressure,221,0.000139,1.79
+4300166,Evaluation procedure||Measurement||Measurement of substance||Fructosamine measurement,218,0.000137,1.73
+42742322,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||JAK2 (Janus kinase 2) (eg, myeloproliferative disorder) gene analysis, p.Val617Phe (V617F) variant",218,0.000137,1.28
+35956050,NA||NA||NA||RNF213 (ring finger protein 213) gene variant measurement,209,0.000132,1.01
+4196111,Laboratory procedure||Laboratory test||Cell chromosome examination||Karyotype determination,206,0.00013,1.02
+35225543,Metastasis to viscera||Metastasis to intra-abdominal organs||Metastasis to intestinal tract||Metastasis to large intestine,189,0.000119,17.06
+2212964,"Current Procedural Terminology Concept||Procedure||Transfusion Medicine Procedures||Irradiation of blood product, each unit",188,0.000118,1.01
+4046263,Measurement||Measurement of substance||Protein measurement||Enzyme measurement,187,0.000118,4.08
+4082602,Measurement||Measurement of substance||Protein measurement||Sex hormone binding globulin measurement,181,0.000114,1.03
+35952829,NA||NA||NA||PMP22 (peripheral myelin protein 22) gene variant measurement,170,0.000107,1.04
+42538681,Screening procedure||Screening for neoplasm||Screening for cancer||Screening for malignant neoplasm of intestinal tract,164,0.000103,1.95
+42358140,NA||NA||NA||sFlt-1/PlGF quantitative test [High quality immunoassay],163,0.000103,1.22
+35955025,NA||NA||NA||SPAST (spastin) gene variant measurement,160,0.000101,1
+4143027,Immunology laboratory test||Agglutination assay||Hemagglutination assay||Hemagglutination inhibition assay,159,0.0001,1.14
+4176275,Pyrrole measurement||Indole measurement||Indolamine measurement||Serotonin measurement,154,9.7e-05,1.55
+42364373,NA||NA||NA||Cytopathology Examination- External slide reading (General Cytopathologic Examination)- Aspiration Cytopathology,152,9.6e-05,1.18
+4004235,Measurement of substance||Protein measurement||Transferrin measurement||Carbohydrate deficient transferrin measurement,152,9.6e-05,1.4
+4232313,"Microbial identification test||Microbial identification kit method||Microbial identification kit conventional method||Microbial identification kit, rapid strep method",149,9.4e-05,1.27
+4221394,Measurement of substance||Steroid measurement||Androgen level||Androstenedione measurement,146,9.2e-05,1.11
+4157251,NA||Staging and scales||Assessment scales||Child depression scale,140,8.8e-05,1.01
+4032801,Laboratory procedure||Laboratory test||Microbiology procedure||Antimicrobial susceptibility test,133,8.4e-05,1.65
+42538680,Screening procedure||Screening for neoplasm||Screening for cancer||Screening for malignant neoplasm of stomach,129,8.1e-05,1.97
+4147961,Screening for disorder||Screening for neoplasm||Screening for cancer||Screening for malignant neoplasm of breast,125,7.9e-05,2.08
+44805230,Immunoglobulin measurement||Immunoglobulin G measurement||IgG clearance ratio measurement||IgG/transferrin clearance ratio measurement,124,7.8e-05,1.13
+35225580,NA||NA||Metastasis||Metastasis to urinary system,122,7.7e-05,16.03
+4085922,Procedure by intent||Screening procedure||Screening for disorder||Infection screening,116,7.3e-05,1.43
+4017228,Measurement of substance||Hormone measurement||Gastrointestinal hormone measurement||Proinsulin measurement,116,7.3e-05,1.56
+3022058,{component}||Reportable microbiology||Microbiology||Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection,113,7.1e-05,1.04
+44789067,Autoantibody measurement||Measurement of ganglioside antibody||Anti-ganglioside M1 measurement||Anti-ganglioside M1 immunoglobulin G measurement,112,7.1e-05,1.38
+35946715,NA||NA||NA||MAPT (microtubule associated protein tau) gene variant measurement,109,6.9e-05,1.26
+42742317,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IGK@ (Immunoglobulin kappa light chain locus) (eg, leukemia and lymphoma, B-cell), gene rearrangement analysis, evaluation to detect abnormal clonal population(s)",107,6.7e-05,1.11
+4218642,Skin test||Immunology laboratory test||Type 4 hypersensitivity skin test||Patch test,106,6.7e-05,1.25
+4091300,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Dexamethasone suppression test,102,6.4e-05,1.12
+4013623,Laboratory test||Hematology procedure||Laboratory test related to hemostasis||Thromboplastin generation test,98,6.2e-05,19.62
+4269563,"Protein measurement||Measurement of substance||Measurement of substance in specimen||Acetylcholinesterase measurement, amniotic fluid",88,5.5e-05,1.07
+35947340,NA||NA||NA||CALR (calreticulin) gene variant measurement,81,5.1e-05,1.1
+35960978,"NA||NA||NA||MPL (MPL proto-oncogene, thrombopoietin receptor) gene variant measurement",79,5e-05,1.06
+43020943,Screening procedure||Screening for disorder||Chromosome abnormality screening||Fetal chromosomal abnormality screening,77,4.9e-05,6.38
+35977085,NA||NA||RARA (retinoic acid receptor alpha) gene variant measurement||PML-RARA Gene Fusion measurement,71,4.5e-05,3.08
+4282927,"Procedure by method||Microbiology procedure||Microbial ova-parasite examination||Microbial ova-parasite examination, fecal",70,4.4e-05,1.03
+35956470,NA||NA||NA||GCH1 (GTP cyclohydrolase 1) gene variant measurement,68,4.3e-05,1
+42361370,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level A),65,4.1e-05,1.09
+4098031,Immunology laboratory test||In-vitro immunologic test||Cell function assay||Natural killer cell function test,61,3.8e-05,1.16
+3022826,Urinalysis||Flowsheet - laboratory||Microalbumin|Ratio|Urine||Microalbumin/Creatinine [Ratio] in Urine,60,3.8e-05,1
+4236592,Clinical finding||Evaluation finding||Virus present||Human Bocavirus present,60,3.8e-05,2.57
+4165141,NA||Staging and scales||Assessment scales||Positive and negative syndrome scale,59,3.7e-05,1.24
+3045115,{component}||Reportable microbiology||Microbiology||Hepatitis B virus core IgG Ab [Presence] in Serum,54,3.4e-05,1.13
+4014899,Measurement||Measurement of substance||Protein measurement||Angiotensin II measurement,54,3.4e-05,1.41
+4064918,Procedure by intent||Screening procedure||Screening for disorder||Diabetes mellitus screening,54,3.4e-05,2.04
+4252203,Measurement||Measurement of substance||Protein measurement||von Willebrand factor antigen level,52,3.3e-05,1.04
+4035322,Coagulation factor assay||Intrinsic coagulation pathway factor measurement||Factor VIII R: WF assay||Factor VIII R: R Co assay,52,3.3e-05,1.12
+35945114,NA||NA||NA||ATN1 (atrophin 1) gene variant measurement,51,3.2e-05,1.02
+927132,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||DMPK (DM1 protein kinase) (eg, myotonic dystrophy type 1) gene analysis||DMPK (DM1 protein kinase) (eg, myotonic dystrophy type 1) gene analysis; evaluation to detect abnormal (expanded) alleles",50,3.1e-05,1.18
+4327657,Measurement||Measurement of substance||Pyrrole measurement||Urobilinogen measurement,49,3.1e-05,1.08
+4017061,Measurement of substance||Steroid measurement||Androgen level||Dehydroepiandrosterone measurement,48,3e-05,1.1
+4062637,Screening for disorder||Infection screening||Bacterial disease screening||Tuberculosis screening,47,3e-05,1.6
+35225597,NA||NA||Metastasis||Metastasis to viscera,46,2.9e-05,5.39
+4012477,Procedure by method||Laboratory test||Pancreatic function test||Glucose tolerance test,46,2.9e-05,1.11
+4277286,"Laboratory test||Evaluation of urine specimen||Urinalysis||Hemosiderin measurement, urine",46,2.9e-05,1.07
+725078,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IDH1 (isocitrate dehydrogenase 1 [NADP+], soluble) (eg, glioma), common variants (eg, R132H, R132C)",45,2.8e-05,1
+4308515,Measurement of substance||Measurement of substance||Measurement of substance in specimen||Seminal fructose level,45,2.8e-05,1
+42363524,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks ≤9),43,2.7e-05,1.21
+927151,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||TBP (TATA box binding protein) (eg, spinocerebellar ataxia) gene analysis, evaluation to detect abnormal (eg, expanded) alleles",42,2.6e-05,1.02
+4062484,Screening procedure||Screening for neoplasm||Screening for cancer||Screening for malignant neoplasm of cervix,41,2.6e-05,3.8
+4094582,Blood gas analysis||Oxygen measurement||Measurement of partial pressure of oxygen in blood||Measurement of capillary partial pressure of oxygen,40,2.5e-05,1.73
+4019984,"Measurement of substance||Pyrrole measurement||Urine substance measurement||Porphobilinogen measurement, quantitative, urine",39,2.5e-05,2
+4098194,In-vitro immunologic test||Transplantation assay||Histocompatibility crossmatch||Interleukin-2 secretion induction test,39,2.5e-05,1.05
+42742316,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||IGH@ (Immunoglobulin heavy chain locus) (eg, leukemia and lymphoma, B-cell), variable region somatic mutation analysis",38,2.4e-05,1.16
+35226280,NA||NA||Metastasis||Metastasis to respiratory tract,37,2.3e-05,16.41
+44790868,Measurement of substance||Hormone measurement||Inhibin measurement||Inhibin A measurement,36,2.3e-05,3.92
+927136,"Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||HTT (huntingtin) (eg, Huntington disease) gene analysis||HTT (huntingtin) (eg, Huntington disease) gene analysis; evaluation to detect abnormal (eg, expanded) alleles",34,2.1e-05,1.09
+900000005,NA||NA||NA||ERV pre bronchodilation,32,2e-05,1
+900000006,NA||NA||NA||ERV pre bronchodilation measured/predicted,32,2e-05,1
+35226074,NA||NA||Metastasis||Metastasis to bone marrow,31,2e-05,28.39
+42364605,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks =10~15),31,2e-05,1.03
+4087235,Procedure by intent||Screening procedure||Screening at times of life||Antenatal screening,30,1.9e-05,6.5
+4304824,Antigen assay||Microbial antigen assay||Bacterial antigen assay||Helicobacter pylori antigen assay,28,1.8e-05,1
+35945595,NA||NA||NA||ATXN8 (ataxin 8) gene variant measurement,27,1.7e-05,1.07
+42361376,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level C- Number of Paraffin Blocks ≥10),26,1.6e-05,1.04
+42742353,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||TRG@ (T cell antigen receptor, gamma) (eg, leukemia and lymphoma), gene rearrangement analysis, evaluation to detect abnormal clonal population(s)",24,1.5e-05,1.08
+4045651,Protein measurement||Antibody measurement||Procedure to identify antibody||Measurement of insulin receptor antibody,23,1.4e-05,1.04
+4092969,Laboratory test||Immunology laboratory test||Clinical immunological test||In vivo test of hypersensitivity,22,1.4e-05,3.68
+4092809,Measurement of substance||Laboratory test||Laboratory test of hypothalamic and pituitary hormones||Combined pituitary function test,20,1.3e-05,1.1
+4090967,Laboratory test||Dynamic endocrine function test||Dexamethasone suppression test||Low dose dexamethasone suppression test,19,1.2e-05,1.16
+4148286,Protein measurement||Procedure to identify antibody||Autoantibody measurement||Antibody to gastric parietal cell measurement,18,1.1e-05,1.11
+4012480,"Measurement of substance||Pyrrole measurement||Urine substance measurement||Porphobilinogen measurement, qualitative, urine",17,1.1e-05,1.06
+4093320,Measurement of substance||Protein measurement||Hormone measurement||Alpha-subunit of pituitary glycoprotein hormone measurement,16,1e-05,1.31
+4021127,Measurement of substance||Protein measurement||Enzyme measurement||Pepsinogen measurement,16,1e-05,1
+35977100,NA||NA||RUNX1T1 (RUNX1 partner transcriptional co-repressor 1) gene variant measurement||RUNX1-RUNX1T1 Gene Fusion measurement,15,9e-06,1.8
+4064903,Screening for disorder||Infection screening||Viral screening||HIV screening,15,9e-06,5.4
+4262074,Clinical finding||Evaluation finding||Virus present||Human parainfluenza virus present,15,9e-06,4.67
+35948926,NA||NA||NA||TP53 (tumor protein p53) gene variant measurement,15,9e-06,1.13
+35950080,NA||NA||NA||LDLR (low density lipoprotein receptor) gene variant measurement,15,9e-06,1.07
+35956124,NA||NA||NA||TPMT (thiopurine S-methyltransferase) gene variant measurement,15,9e-06,1
+4197249,Measurement||Measurement of substance||Tumor marker measurement||Alpha-1-Fetoprotein measurement,15,9e-06,2.87
+927143,"Pathology and Laboratory Procedures||Molecular Pathology Procedures||Tier 1 Molecular Pathology Procedures||NUDT15 (nudix hydrolase 15) (eg, drug metabolism) gene analysis, common variant(s) (eg, *2, *3, *4, *5, *6)",14,9e-06,1
+4105290,NA||Staging and scales||Assessment scales||Suicide intent score scale,13,8e-06,1.08
+4091570,Laboratory procedure||Laboratory test||Dynamic endocrine function test||Aldosterone suppression test,13,8e-06,1
+4006180,Protein measurement||Glycoproteins measurement||Chromogranin level||Chromogranin A measurement,13,8e-06,1.23
+4151408,Protein measurement||Serologic test||Syphilis antibody titer measurement||Syphilis infectious titer test,13,8e-06,1.15
+35976981,NA||NA||RUNX1 (RUNX family transcription factor 1) gene variant measurement||ETV6-RUNX1 Gene Fusion measurement,13,8e-06,1.15
+44806195,Laboratory test||Genetic test||Molecular genetic test||Janus kinase 2 exon 12 mutation analysis,12,8e-06,1
+3011904,Survey set||Survey terms not yet categorized||Renal function 2000 panel - Serum or Plasma||Phosphate [Mass/volume] in Serum or Plasma,12,8e-06,1.08
+4288542,NA||Staging and scales||Assessment scales||Developmental test of visual perception,11,7e-06,1.36
+40481415,Measurement||Measurement of substance||Protein measurement||Measurement of Bence Jones protein,11,7e-06,1
+927014,"Current Procedural Terminology Concept||Pathology and Laboratory Procedures||Proprietary Laboratory Analyses||NPM1 (nucleophosmin) (eg, acute myeloid leukemia) gene analysis, quantitative",11,7e-06,2.27
+36713462,Screening procedure||Screening for developmental disorder||Screening for congenital malformation||Antenatal screening for malformation,11,7e-06,3.82
+35976955,NA||NA||BCR (BCR activator of RhoGEF and GTPase) gene variant measurement||BCR-ABL1 Gene Fusion measurement,11,7e-06,1.45
+35954836,NA||NA||NA||TTR (transthyretin) gene variant measurement,9,6e-06,1
+35961119,NA||NA||NA||ABCD1 (ATP binding cassette subfamily D member 1) gene variant measurement,9,6e-06,1.11
+4251636,Measurement of substance||Protein measurement||Antibody measurement||Intrinsic factor antibody measurement,8,5e-06,1.12
+4098353,Laboratory test||Hematology procedure||Hematology test||Red blood cell test,8,5e-06,2
+35963010,NA||NA||NA||ARSA (arylsulfatase A) gene variant measurement,7,4e-06,1
+3003694,Laboratory||Blood bank||Blood bank||ABO and Rh group [Type] in Blood,7,4e-06,1
+35957043,NA||NA||NA||SNRPN (small nuclear ribonucleoprotein polypeptide N) gene variant measurement,7,4e-06,1
+35962083,NA||NA||NA||NF2 (neurofibromin 2) gene variant measurement,7,4e-06,1
+42358237,NA||NA||NA||Histopathologic Examination [per organ]- External slide reading (Level D- Number of Paraffin Blocks ≥16),6,4e-06,1
+4064379,Screening for disorder||Screening for developmental disorder||Developmental handicap screening||Child developmental handicap screening,6,4e-06,5.33
+36713463,Screening procedure||Screening for disorder||Screening for developmental disorder||Antenatal screening for fetal growth retardation,6,4e-06,4.83
+42363291,NA||NA||NA||Cytopathology Examination- External slide reading (General Cytopathologic Examination)- Cervicovaginal Cytopathology,6,4e-06,1.17
+35950151,NA||NA||NA||PROS1 (protein S) gene variant measurement,6,4e-06,1.17
+4246053,Procedure by method||Laboratory procedure||Laboratory test||Blood test,6,4e-06,19.67

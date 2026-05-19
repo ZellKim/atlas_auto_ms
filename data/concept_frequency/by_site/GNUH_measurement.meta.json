@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:33:04.535088+00:00",
+  "site_code": "GNUH",
+  "cdm_name": "GNUH_5.3.1_07",
+  "group_id": 88,
+  "site_id": 198,
+  "source_key": "cdmpv53_251128",
+  "domain": "measurement",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/measurement",
+  "rows_returned": 945,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 17.03,
+  "source_id": 6,
+  "source_name": "GNUH_5.3.1_07",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 30-AUG-24",
+  "total_persons": 703802,
+  "data_cutoff_month": 202510
+}

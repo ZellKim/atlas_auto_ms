@@ -1,0 +1,147 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4052351,Dietary intake||Food and drink intake||Drink intake||Alcohol intake,232810,0.121794,2.12
+4041306,"Mental state, behavior / psychosocial function observable||Behavior observable||Health-related behavior||Tobacco use and exposure",232810,0.121794,2.12
+44798293,NA||NA||NA||[V]Unspecified general medical examination,22942,0.012002,2.54
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,20501,0.010725,1.13
+44795767,NA||NA||NA||[V]Routine health check-up,15851,0.008292,1.63
+4306655,NA||NA||Event||Death,12703,0.006646,1.0
+4336011,Possible clinical finding||Suspected clinical finding||Disease suspected||Glaucoma suspect,9290,0.00486,5.12
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,8558,0.004477,4.2
+4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,7663,0.004009,8.76
+4014829,Procedure by method||Procedure by method||Procedure by method||Consultation,4937,0.002583,2.01
+4145111,Procedure on head||Procedure on mouth||Other anatomic and physiologic measurements and manual examinations||Dental consultation and report,4897,0.002562,5.63
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,4716,0.002467,3.06
+36713465,History of clinical finding in subject||Birth history||Liveborn born in hospital||Singleton liveborn born in hospital,4519,0.002364,4.71
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,3760,0.001967,5.2
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,3306,0.00173,3.68
+4079646,Clinical finding||Administrative statuses||Follow-up status||Surgical follow-up,2776,0.001452,1.78
+443448,"Adverse reaction to drug||Vaccine, immunoglobulins and antisera adverse reaction||Vaccines adverse reaction||Adverse reaction to viral vaccines",2119,0.001109,2.42
+4148887,Clinical finding||Administrative statuses||Waiting list status||Patient on waiting list,1875,0.000981,2.32
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,1824,0.000954,6.05
+4306703,Degenerative abnormality||Vascular sclerosis||Arteriosclerosis||Atherosclerosis,1602,0.000838,6.03
+761166,Disease suspected||Glaucoma suspect||Suspected glaucoma of right eye||Suspected bilateral glaucoma,1211,0.000634,4.32
+437643,Finding related to ability to move||Finding of walking||Finding of gait||Abnormal gait,1104,0.000578,4.66
+442165,Functional finding||Finding of appetite||Finding of quantity of appetite||Loss of appetite,1004,0.000525,3.22
+4301680,Care regime||Care of body sites||Renal care||Dialysis care,883,0.000462,33.65
+4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,858,0.000449,1.95
+42535209,Exposure to potentially harmful entity||Exposure to non-mechanical force||Exposure to radiation||Occupational exposure to radiation,788,0.000412,2.66
+441207,Complication||Disease||Drug-related disorder||Adverse reaction to drug,719,0.000376,3.21
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,617,0.000323,6.39
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,531,0.000278,1.76
+141693,Situation with explicit context||Finding with explicit context||Clinical finding present||Elevated blood-pressure reading without diagnosis of hypertension,522,0.000273,5.2
+4230638,Event||Exposure to potentially harmful entity||Exposure to mechanical force||Exposure to inanimate mechanical force,494,0.000258,2.11
+4074035,Clinical history and observation findings||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,485,0.000254,1.49
+441139,Event||Death||Sudden death||Instantaneous death,465,0.000243,1.06
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,460,0.000241,7.32
+40483084,History of clinical finding in subject||Birth history||Liveborn born in hospital||Twin liveborn born in hospital,402,0.00021,7.31
+36713461,Antenatal care||A/N care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,366,0.000191,5.0
+434833,Adverse reaction to drug||Drug groups primarily affecting respiratory system adverse reaction||Cough/decongestant preparation adverse reaction||Adverse reaction to anti-common cold drug,363,0.00019,6.15
+433315,Clinical history and observation findings||General finding of observation of patient||Finding of neonate||Feeding problems in newborn,360,0.000188,6.13
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,357,0.000187,5.35
+4291007,Exposure to potentially harmful entity||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,336,0.000176,2.08
+36713466,Finding with explicit context||History of clinical finding in subject||Birth history||Singleton liveborn born outside hospital,317,0.000166,4.18
+4050870,NA||NA||NA||Exposure to sting or bite by insect,312,0.000163,2.5
+40479792,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to viral hepatitis,299,0.000156,2.35
+4174707,Monitoring procedure||Surveillance||Procedure with a procedure focus||Dietary management surveillance,276,0.000144,7.7
+761168,Suspected clinical finding||Disease suspected||Glaucoma suspect||Suspected glaucoma of right eye,276,0.000144,4.69
+761167,Suspected clinical finding||Disease suspected||Glaucoma suspect||Suspected glaucoma of left eye,249,0.00013,3.72
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,248,0.00013,7.29
+443882,NA||Event||Death||Unattended death,239,0.000125,1.03
+4061424,Antenatal/postnatal care||Antenatal care||A/N care categorized by gravida number||Antenatal care: primigravida,178,9.3e-05,4.25
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,176,9.2e-05,5.7
+4215685,NA||Situation with explicit context||Procedure with explicit context||Past history of procedure,158,8.3e-05,4.19
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,146,7.6e-05,2.97
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,142,7.4e-05,4.51
+4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,139,7.3e-05,1.82
+37117058,Procedure with explicit context||Procedure not done||Medication not administered||Vaccination not done,128,6.7e-05,4.37
+4270276,Body measurement finding||Weight finding||Weight trend finding||Failure to gain weight,120,6.3e-05,4.62
+432504,Event||Accidental event||Accident||Accident caused by fire and flames,110,5.8e-05,1.18
+4152780,Equipment observable||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,95,5e-05,7.55
+436298,Complication||Adverse reaction||Adverse reaction to substance||Adverse reaction to food,91,4.8e-05,2.64
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,82,4.3e-05,1.41
+4279614,NA||Event||Immediately dangerous to life and health condition||Asphyxiation,75,3.9e-05,2.13
+40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,73,3.8e-05,4.86
+45766277,Equipment finding||Device status||Device in situ||Cardiac implant in situ,65,3.4e-05,12.85
+4082397,Procedure carried out on subject||Therapeutic prescription||Previous treatment continue||Repeated prescription,65,3.4e-05,1.52
+4079844,NA||Event||Death||Fetal death,63,3.3e-05,7.19
+439242,"Vaccine, immunoglobulins and antisera adverse reaction||Vaccines adverse reaction||Adverse reaction to bacterial vaccines||Adverse reaction to tetanus vaccine",63,3.3e-05,1.76
+439558,"Adverse reaction to drug||Vaccine, immunoglobulins and antisera adverse reaction||Vaccines adverse reaction||Adverse reaction to bacterial vaccines",62,3.2e-05,2.45
+438046,NA||Event||Accidental event||Medical accidents to patients during surgical and medical care,56,2.9e-05,2.36
+4096848,Finding of walking||Finding of gait||Abnormal gait||Ataxic gait,56,2.9e-05,5.88
+434750,Clinical history and observation findings||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,55,2.9e-05,1.91
+4302371,"Anaphylaxis||Anaphylaxis due to substance||Drug-induced anaphylaxis||Anaphylactic shock, due to adverse effect of correct medicinal substance properly administered",48,2.5e-05,1.73
+40490404,Complication||Adverse reaction||Adverse reaction to substance||Adverse reaction to biological substance,46,2.4e-05,2.87
+4171358,General finding of observation of patient||Finding of neonate||Feeding problems in newborn||Slow feeding in newborn,45,2.4e-05,2.58
+432454,Clinical history and observation findings||Functional finding||Thirst finding||Excessive thirst,44,2.3e-05,4.41
+4021166,NA||Procedure||Regimes and therapies||Care regime,44,2.3e-05,1.34
+4005823,Behavior finding||Health-related behavior finding||Tobacco use and exposure - finding||Tobacco user,43,2.2e-05,6.02
+4303528,Event||Exposure to potentially harmful entity||Exposure to non-mechanical force||Exposure to electric current,41,2.1e-05,1.22
+4051114,Family history of clinical finding||Family history of disorder||Family history of metabolic disorder||Family history of diabetes mellitus,41,2.1e-05,6.93
+439452,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by hanging and strangulation,41,2.1e-05,1.56
+4219484,NA||Event||Immediately dangerous to life and health condition||Suicide attempt,41,2.1e-05,1.39
+435134,Accidental event||Transport accident||Vehicle accident||Motor vehicle accident,40,2.1e-05,3.45
+4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,38,2e-05,3.21
+441201,Fall||Accidental fall||Fall from one level to another||Fall from building,38,2e-05,2.03
+4152408,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||H/O: deliberate self harm,37,1.9e-05,1.7
+432507,Event||OMOP Suicidality 1||Suicide||Suicide - hanging,35,1.8e-05,1.37
+4171902,"NA||Event||Death||Death occurring less than 24 hours from onset of symptoms, not otherwise expected",33,1.7e-05,1
+36713460,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of infertility,29,1.5e-05,14.66
+4201412,Procedure by intent||Therapeutic procedure||Therapy||Speech therapy,28,1.5e-05,1.64
+4248196,Finding of gait||Abnormal gait||Middle level sensorimotor gait disorder||Spastic gait,27,1.4e-05,5.11
+4140830,Exposure to mechanical force||Fall||Accidental fall||Fall on same level,26,1.4e-05,2.69
+4167568,NA||Event||Exposure to potentially harmful entity||Accidental exposure to potentially harmful entity,26,1.4e-05,1.5
+45763889,Prevention status||Immunization status||Requires vaccination||Requires rubella vaccination,25,1.3e-05,3.2
+4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,25,1.3e-05,7.76
+4175576,Transport accident||Vehicle accident||Motor vehicle accident||Motorcycle accident,24,1.3e-05,1.79
+443354,Drug-related disorder||Adverse reaction to drug||Anti-infectives adverse reaction||Antiprotozoal drug adverse reaction,22,1.2e-05,3.68
+436593,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion",22,1.2e-05,2.45
+4301487,Exposure to potentially harmful entity||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by other person,21,1.1e-05,2.19
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,21,1.1e-05,6.48
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,18,9e-06,4.61
+4019953,Social context||Person||Person in the healthcare environment||Donor for medical or surgical procedure,17,9e-06,1.94
+4308570,Skin finding||Photosensitivity||Drug-induced photosensitivity||Phototoxic drug eruption,16,8e-06,5.19
+36713468,History of clinical finding in subject||Birth history||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,16,8e-06,9.81
+440309,"Vaccine, immunoglobulins and antisera adverse reaction||Vaccines adverse reaction||Adverse reaction to bacterial vaccines||Adverse reaction to diphtheria vaccine",16,8e-06,2.31
+436882,Fall||Accidental fall||Fall from furniture||Fall from bed,15,8e-06,1.4
+4324190,H/O: Disorder||H/O: neoplasm||H/O: malignant neoplasm||History of malignant neoplasm of breast,15,8e-06,6.87
+45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,15,8e-06,2.67
+438668,Event||Accidental event||Accident due to environmental factor||Accidents due to travel and motion,14,7e-06,2.43
+40479426,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to sexually transmissible disorder,14,7e-06,2.07
+4303202,Finding of gait||Abnormal gait||High level sensorimotor gait disorder||Staggering gait,13,7e-06,4.08
+4019967,Functional finding||Finding of functional performance and activity||Dialysis finding||Dependence on renal dialysis,13,7e-06,17.92
+443372,Drug-related disorder||Adverse reaction to drug||Drug groups primarily affecting cardiovascular system adverse reaction||Lipid-lowering drug adverse reaction,13,7e-06,13.54
+42537735,Finding of mouth region||Oral cavity finding||Prosthesis in situ||Dental prosthetic device in situ,13,7e-06,6.15
+4055054,"Exposure to non-mechanical force||Exposure to electric current||Exposure to electric current, with passage of current through tissue||Exposure to current from electric transmission lines, with passage of current through tissue",12,6e-06,1.58
+4059182,Finding with explicit context||History of clinical finding in subject||H/O: Disorder||H/O: infectious disease,12,6e-06,2
+436583,Event||Exposure to potentially harmful entity||Exposure to mechanical force||Fall,12,6e-06,7
+443628,Drug-related disorder||Adverse reaction to drug||Drug groups primarily affecting central nervous system adverse reaction||Adverse reaction to hypnotic AND/OR sedative,11,6e-06,1.64
+4301229,Exposure to mechanical force||Exposure to inanimate mechanical force||Exposed to noise||Occupational noise exposure,11,6e-06,1.36
+443348,Drug-related disorder||Adverse reaction to drug||Drug groups primarily affecting gastrointestinal system adverse reaction||Laxative adverse reaction,11,6e-06,1.82
+4022569,NA||Clinical finding||Clinical history and observation findings||Eating / feeding / drinking finding,11,6e-06,2.82
+42536906,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||History of allergy to drug,10,5e-06,3
+35610791,H/O: Disorder||H/O: neoplasm||H/O: malignant neoplasm||History of malignant neoplasm of digestive organ,10,5e-06,4.9
+4020871,Event||Immediately dangerous to life and health condition||Asphyxiation||Asphyxia by strangulation,10,5e-06,1.4
+4059338,Finding with explicit context||History of clinical finding in subject||H/O: Disorder||H/O: injury,9,5e-06,1.44
+4059343,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||H/O: non-drug allergy,9,5e-06,6.89
+440599,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by poisoning,9,5e-06,1.78
+4073067,Accident||Accident due to contact with hot or corrosive substance||Burning due to contact with hot substance||Burning due to contact with hot gas,9,5e-06,1
+438051,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by fire and burning,9,5e-06,1
+435154,"NA||Event||Event of undetermined intent||Hanging, strangulation or suffocation of unknown intent",8,4e-06,1.12
+4010331,"Exposure to potentially harmful entity||Exposure to toxin||Exposure to toxic agricultural agents||Exposure to toxic agricultural agents, occupational",8,4e-06,1.88
+44784292,Procedure with explicit context||Past history of procedure||H/O: tissue/organ recipient||History of transplantation of pancreas,8,4e-06,34.12
+4155398,"Finding by method||Mental state, behavior and/or psychosocial function finding||Social and personal history finding||Malingerer",8,4e-06,1.38
+4031101,Skin lesion||Eruption||Eruption due to drug||Lichenoid drug eruption,8,4e-06,5.62
+437768,"Vaccine, immunoglobulins and antisera adverse reaction||Vaccines adverse reaction||Antineoplastic adverse reaction||Adverse reaction to BCG vaccine",8,4e-06,4
+441749,Exposure to mechanical force||Fall||Accidental fall||Fall on or from stairs or steps,8,4e-06,1.5
+4144289,History of clinical finding in subject||H/O: Disorder||H/O: neoplasm||H/O: malignant neoplasm,7,4e-06,12.14
+4093699,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Sexual assault,7,4e-06,1.29
+36717636,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of insufficient antenatal care,7,4e-06,2.14
+40479430,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Rubella virus,7,4e-06,4
+4097790,Drug-related disorder||Adverse reaction to drug||Topical agent adverse reaction||Topical dermatological preparation adverse reaction,6,3e-06,12.17
+4164254,Disease||Drug-related disorder||Adverse reaction to drug||Combined oral contraceptive adverse reaction,6,3e-06,1.83
+432806,Accidental fall||Fall from one level to another||Fall from geological formation||Fall from cliff,6,3e-06,1
+443423,Transport accident||Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident,6,3e-06,1
+438639,Drug-related disorder||Adverse reaction to drug||Drug groups primarily affecting central nervous system adverse reaction||Antidepressant drug adverse reaction,6,3e-06,4.17
+437192,Drug-related disorder||Adverse reaction to drug||Drug groups primarily affecting gastrointestinal system adverse reaction||Antidiarrheal drug adverse reaction,6,3e-06,4.83
+4060084,Situation with explicit context||Finding with explicit context||History of clinical finding in subject||H/O: radiation exposure,6,3e-06,11.17
+433657,Exposure to mechanical force||Fall||Accidental fall||Fall from furniture,6,3e-06,1.5

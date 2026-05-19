@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:40:52.847123+00:00",
+  "site_code": "SCHSU",
+  "cdm_name": "SCHSU_5.3.3_03",
+  "group_id": 27,
+  "site_id": 209,
+  "source_key": "cdmpv533",
+  "domain": "procedure",
+  "api_endpoint": "/cdmresults/cdmpv533/procedure",
+  "rows_returned": 2250,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 0.65,
+  "source_id": 3,
+  "source_name": "SCHSU_5.3.3_03",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv533",
+    "Vocabulary": "cdmpv533",
+    "Results": "cdmpv533_results_fnet_v2120",
+    "CEM": "cdmpv533_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-AUG-25",
+  "total_persons": 1228445,
+  "data_cutoff_month": 202304
+}

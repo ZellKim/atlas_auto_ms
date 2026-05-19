@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:41:17.409070+00:00",
+  "site_code": "WKUH",
+  "cdm_name": "WKUH_5.3.1_07",
+  "group_id": 13,
+  "site_id": 188,
+  "source_key": "cdmpv53_251126",
+  "domain": "observation",
+  "api_endpoint": "/cdmresults/cdmpv53_251126/observation",
+  "rows_returned": 285,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 1.57,
+  "source_id": 9,
+  "source_name": "WKUH_5.3.1_07",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251126",
+    "Vocabulary": "cdmpv53_251126",
+    "Results": "cdmpv53_251126_results_fnet_v2120",
+    "CEM": "cdmpv53_251126_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-AUG-25",
+  "total_persons": 1378978,
+  "data_cutoff_month": 202404
+}

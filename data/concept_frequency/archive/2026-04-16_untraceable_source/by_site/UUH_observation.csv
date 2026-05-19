@@ -1,0 +1,157 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4041306,NA||NA||NA||Tobacco use and exposure,235275,0.1117,1.98
+4052351,NA||NA||NA||Alcohol intake,235275,0.1117,1.98
+4203148,NA||NA||NA||Alcohol,76505,0.036322,1.64
+40481011,NA||NA||NA||Number of alcohol units consumed on typical drinking day,74045,0.035154,1.65
+44786670,NA||NA||NA||Number of years alcohol consumed [Time],72036,0.0342,1.65
+3004518,NA||NA||NA||Cigarettes smoked current (pack per day) - Reported,55518,0.026358,1.82
+4141787,NA||NA||NA||Smoking started,54150,0.025708,1.83
+44786668,NA||NA||NA||Date quit tobacco smoking,45223,0.02147,1.89
+44798293,NA||NA||NA||[V]Unspecified general medical examination,34209,0.016241,2.4
+44795767,NA||NA||NA||[V]Routine health check-up,21727,0.010315,1.98
+4145111,NA||NA||NA||Dental consultation and report,17361,0.008242,6.94
+4306655,NA||NA||NA||Death,12788,0.006071,1.0
+4047564,NA||NA||NA||Routine antenatal care,12186,0.005785,8.55
+4304360,NA||NA||NA||Preparation of medical certificate,12106,0.005747,1.1
+4014829,NA||NA||NA||Consultation,7642,0.003628,1.63
+36713465,NA||NA||NA||Singleton liveborn born in hospital,6671,0.003167,6.19
+4336011,NA||NA||NA||Glaucoma suspect,5557,0.002638,4.03
+37109774,NA||NA||NA||Requires vaccination,4317,0.00205,4.74
+44784283,NA||NA||NA||Requires influenza virus vaccination,3301,0.001567,2.54
+761166,NA||NA||NA||Suspected bilateral glaucoma,2807,0.001333,3.59
+4079646,NA||NA||NA||Surgical follow-up,2202,0.001045,1.81
+40479809,NA||NA||NA||Exposure to Mycobacterium tuberculosis,2020,0.000959,3.91
+435928,NA||NA||NA||Abnormal weight loss,1587,0.000753,4.57
+442165,NA||NA||NA||Loss of appetite,1290,0.000612,3.13
+437643,NA||NA||NA||Abnormal gait,1099,0.000522,4.85
+4082086,NA||NA||NA||No home medical services,922,0.000438,1.63
+36713461,NA||NA||NA||Antenatal care of elderly primigravida,812,0.000386,1.29
+141693,NA||NA||NA||Elevated blood-pressure reading without diagnosis of hypertension,762,0.000362,3.7
+4148887,NA||NA||NA||Patient on waiting list,702,0.000333,2.76
+40483084,NA||NA||NA||Twin liveborn born in hospital,686,0.000326,7.11
+4301680,NA||NA||NA||Dialysis care,665,0.000316,13.94
+441207,NA||NA||NA||Adverse reaction to drug,619,0.000294,4.92
+439141,NA||NA||NA||Abnormal weight gain,604,0.000287,5.06
+4152780,NA||NA||NA||Presence of orthopedic joint implant,553,0.000263,2.89
+434833,NA||NA||NA||Adverse reaction to anti-common cold drug,512,0.000243,9.04
+4030353,NA||NA||NA||Constitutional tall stature,484,0.00023,4.72
+4074035,NA||NA||NA||Current drinker,438,0.000208,2.08
+443448,NA||NA||NA||Adverse reaction to viral vaccines,435,0.000207,2.27
+45765728,NA||NA||NA||Supervision of high risk pregnancy,434,0.000206,1.48
+4022062,NA||NA||NA||Bone marrow donor,430,0.000204,1.86
+4215685,NA||NA||NA||Past history of procedure,406,0.000193,3.04
+441139,NA||NA||NA||Instantaneous death,364,0.000173,1.05
+4291007,NA||NA||NA||Exposure to attack by mammal,355,0.000169,1.66
+4019967,NA||NA||NA||Dependence on renal dialysis,354,0.000168,42.14
+4230638,NA||NA||NA||Exposure to inanimate mechanical force,341,0.000162,1.52
+4050870,NA||NA||NA||Exposure to sting or bite by insect,333,0.000158,2.16
+4307024,NA||NA||NA||Follow-up encounter,297,0.000141,5.89
+40485017,NA||NA||NA||Exposure to communicable disease,294,0.00014,1.48
+36713466,NA||NA||NA||Singleton liveborn born outside hospital,293,0.000139,4.9
+443882,NA||NA||NA||Unattended death,270,0.000128,1.02
+4270276,NA||NA||NA||Failure to gain weight,250,0.000119,3.89
+4149299,NA||NA||NA||Follow-up orthopedic assessment,199,9.4e-05,3.62
+4019957,NA||NA||NA||Donor of kidney for transplant,176,8.4e-05,6.98
+36713460,NA||NA||NA||Supervision of pregnancy with history of infertility,172,8.2e-05,8.64
+4023154,NA||NA||NA||Donor for liver transplant,152,7.2e-05,5.99
+761167,NA||NA||NA||Suspected glaucoma of left eye,133,6.3e-05,4.96
+761168,NA||NA||NA||Suspected glaucoma of right eye,128,6.1e-05,5.01
+433315,NA||NA||NA||Feeding problems in newborn,114,5.4e-05,9
+45765666,NA||NA||NA||Surveillance of intrauterine device contraception,112,5.3e-05,2.89
+42537735,NA||NA||NA||Dental prosthetic device in situ,107,5.1e-05,4.5
+4061424,NA||NA||NA||Antenatal care: primigravida,95,4.5e-05,2.95
+4155221,NA||NA||NA||Exposure to poison of venomous animals and plants,95,4.5e-05,1.21
+4174707,NA||NA||NA||Dietary management surveillance,93,4.4e-05,5.49
+4302371,"NA||NA||NA||Anaphylactic shock, due to adverse effect of correct medicinal substance properly administered",93,4.4e-05,5.04
+40490404,NA||NA||NA||Adverse reaction to biological substance,85,4e-05,2.96
+4094126,NA||NA||NA||Family problems,83,3.9e-05,7.65
+4082397,NA||NA||NA||Repeated prescription,77,3.7e-05,1.7
+4051114,NA||NA||NA||Family history of diabetes mellitus,75,3.6e-05,7.92
+4005823,NA||NA||NA||Tobacco user,68,3.2e-05,4.71
+45766277,NA||NA||NA||Cardiac implant in situ,68,3.2e-05,11.91
+4098471,NA||NA||NA||Imbalance of constituents of food intake,65,3.1e-05,3
+36713471,NA||NA||NA||Routine postpartum follow-up,65,3.1e-05,3.58
+4308570,NA||NA||NA||Phototoxic drug eruption,64,3e-05,6.53
+439558,NA||NA||NA||Adverse reaction to bacterial vaccines,64,3e-05,3.64
+438046,NA||NA||NA||Medical accidents to patients during surgical and medical care,61,2.9e-05,3.28
+432454,NA||NA||NA||Excessive thirst,59,2.8e-05,4.85
+4279614,NA||NA||NA||Asphyxiation,57,2.7e-05,2.19
+4303528,NA||NA||NA||Exposure to electric current,56,2.7e-05,2.86
+4021166,NA||NA||NA||Care regime,55,2.6e-05,1.91
+434750,NA||NA||NA||Feeding difficulties and mismanagement,51,2.4e-05,1.98
+4152408,NA||NA||NA||H/O: deliberate self harm,50,2.4e-05,1.72
+4079844,NA||NA||NA||Fetal death,49,2.3e-05,4.49
+432504,NA||NA||NA||Accident caused by fire and flames,49,2.3e-05,1.45
+436298,NA||NA||NA||Adverse reaction to food,47,2.2e-05,3.38
+441201,NA||NA||NA||Fall from building,42,2e-05,1.48
+40479792,NA||NA||NA||Exposure to viral hepatitis,39,1.9e-05,2.95
+4248196,NA||NA||NA||Spastic gait,38,1.8e-05,7.32
+4016909,NA||NA||NA||Requires full course of tetanus vaccination,37,1.8e-05,1.49
+443372,NA||NA||NA||Lipid-lowering drug adverse reaction,36,1.7e-05,12.33
+4219484,NA||NA||NA||Suicide attempt,36,1.7e-05,1.58
+4306703,NA||NA||NA||Atherosclerosis,33,1.6e-05,10.15
+439242,NA||NA||NA||Adverse reaction to tetanus vaccine,32,1.5e-05,1.84
+4096848,NA||NA||NA||Ataxic gait,29,1.4e-05,2.79
+438668,NA||NA||NA||Accidents due to travel and motion,28,1.3e-05,1.43
+437768,NA||NA||NA||Adverse reaction to BCG vaccine,28,1.3e-05,3.46
+4167217,NA||NA||NA||Family history of clinical finding,27,1.3e-05,4.44
+439452,NA||NA||NA||Assault by hanging and strangulation,27,1.3e-05,1.41
+4167568,NA||NA||NA||Accidental exposure to potentially harmful entity,26,1.2e-05,1.42
+436583,NA||NA||NA||Fall,26,1.2e-05,2.08
+436882,NA||NA||NA||Fall from bed,25,1.2e-05,2.56
+436593,NA||NA||NA||Accidental drowning and submersion,23,1.1e-05,4.65
+438042,NA||NA||NA||Adverse reaction to expectorant,22,1e-05,10.14
+36717636,NA||NA||NA||Supervision of pregnancy with history of insufficient antenatal care,21,1e-05,6.14
+4169307,NA||NA||NA||Allergy to substance,21,1e-05,2.62
+432507,NA||NA||NA||Suicide - hanging,20,9e-06,1
+435134,NA||NA||NA||Motor vehicle accident,20,9e-06,2.85
+4031101,NA||NA||NA||Lichenoid drug eruption,18,9e-06,7.67
+45763889,NA||NA||NA||Requires rubella vaccination,18,9e-06,2.28
+37117058,NA||NA||NA||Vaccination not done,17,8e-06,2.65
+4301487,NA||NA||NA||Exposure to attack by other person,16,8e-06,1.69
+440309,NA||NA||NA||Adverse reaction to diphtheria vaccine,16,8e-06,7.56
+4303202,NA||NA||NA||Staggering gait,16,8e-06,3
+4334494,NA||NA||NA||Family history of malignant neoplasm of digestive organ,14,7e-06,3
+4201412,NA||NA||NA||Speech therapy,14,7e-06,1.86
+40479328,NA||NA||NA||Exposure to Human immunodeficiency virus,13,6e-06,4.38
+4171902,"NA||NA||NA||Death occurring less than 24 hours from onset of symptoms, not otherwise expected",13,6e-06,1
+42535090,NA||NA||NA||Need for personal care assistance,13,6e-06,4.38
+443354,NA||NA||NA||Antiprotozoal drug adverse reaction,13,6e-06,2.23
+37116462,NA||NA||NA||Exposure to intestinal infectious disease,13,6e-06,2.08
+4203722,NA||NA||NA||Patient encounter procedure,12,6e-06,1.17
+40479430,NA||NA||NA||Exposure to Rubella virus,12,6e-06,2.75
+4140830,NA||NA||NA||Fall on same level,12,6e-06,4
+4022569,NA||NA||NA||Eating / feeding / drinking finding,11,5e-06,1.82
+4059338,NA||NA||NA||H/O: injury,11,5e-06,1.91
+4168046,NA||NA||NA||Vehicle accident,11,5e-06,3
+4015930,NA||NA||NA||Requires polio vaccination,10,5e-06,5.7
+441413,NA||NA||NA||Death of unknown cause,10,5e-06,1
+42535209,NA||NA||NA||Occupational exposure to radiation,9,4e-06,2.22
+4059343,NA||NA||NA||H/O: non-drug allergy,9,4e-06,5.22
+4059182,NA||NA||NA||H/O: infectious disease,9,4e-06,4.56
+4214956,NA||NA||NA||History of clinical finding in subject,9,4e-06,8.11
+440599,NA||NA||NA||Assault by poisoning,9,4e-06,2.78
+35610791,NA||NA||NA||History of malignant neoplasm of digestive organ,9,4e-06,7.89
+443547,NA||NA||NA||Non-steroidal anti-inflammatory drug adverse reaction,9,4e-06,5.11
+437192,NA||NA||NA||Antidiarrheal drug adverse reaction,9,4e-06,1.56
+4050793,NA||NA||NA||Family history of infectious disease,8,4e-06,2
+443348,NA||NA||NA||Laxative adverse reaction,8,4e-06,7.12
+438639,NA||NA||NA||Antidepressant drug adverse reaction,8,4e-06,7.62
+4158345,NA||NA||NA||Has not grown in height,8,4e-06,3.25
+4324190,NA||NA||NA||History of malignant neoplasm of breast,8,4e-06,6
+4014023,NA||NA||NA||Palliative care,8,4e-06,4.75
+4097790,NA||NA||NA||Topical dermatological preparation adverse reaction,7,3e-06,1.71
+40479426,NA||NA||NA||Exposure to sexually transmissible disorder,7,3e-06,1.86
+4186037,NA||NA||NA||Aftercare,7,3e-06,3.71
+4020871,NA||NA||NA||Asphyxia by strangulation,7,3e-06,1.29
+36713467,NA||NA||NA||Singleton liveborn unspecified as to place of birth,7,3e-06,1.86
+4164254,NA||NA||NA||Combined oral contraceptive adverse reaction,7,3e-06,1
+438051,NA||NA||NA||Assault by fire and burning,7,3e-06,1.29
+4175576,NA||NA||NA||Motorcycle accident,7,3e-06,1.57
+4178782,NA||NA||NA||History of malignant neoplasm of cervix,6,3e-06,4.17
+42536906,NA||NA||NA||History of allergy to drug,6,3e-06,2.83
+443367,NA||NA||NA||Antihypertensive adverse reaction,6,3e-06,19.17
+4096435,NA||NA||NA||Drug groups primarily affecting central nervous system adverse reaction,6,3e-06,2.5
+443423,NA||NA||NA||Pedal cycle accident,6,3e-06,2.33
+4055054,"NA||NA||NA||Exposure to current from electric transmission lines, with passage of current through tissue",6,3e-06,1.33
+4144289,NA||NA||NA||H/O: malignant neoplasm,6,3e-06,3.83

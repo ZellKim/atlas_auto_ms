@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:37:35.487996+00:00",
+  "site_code": "KDH",
+  "cdm_name": "KDH_5.3.1_08",
+  "group_id": 4,
+  "site_id": 201,
+  "source_key": "cdmpv53_251128",
+  "domain": "drug",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/drug",
+  "rows_returned": 4483,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 7.12,
+  "source_id": 7,
+  "source_name": "KDH_5.3.1_08",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 31-MAY-23",
+  "total_persons": 1290120,
+  "data_cutoff_month": 202510
+}

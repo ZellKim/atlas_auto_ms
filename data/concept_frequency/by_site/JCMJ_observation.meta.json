@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:35:46.848851+00:00",
+  "site_code": "JCMJ",
+  "cdm_name": "JCMJ_5.3.1_04",
+  "group_id": 93,
+  "site_id": 226,
+  "source_key": "cdmpv53_250317",
+  "domain": "observation",
+  "api_endpoint": "/cdmresults/cdmpv53_250317/observation",
+  "rows_returned": 89,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 1.13,
+  "source_id": 4,
+  "source_name": "JCMJ_5.3.1_04",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_250317",
+    "Vocabulary": "cdmpv53_250317",
+    "Results": "cdmpv53_250317_results_fnet_v2120",
+    "CEM": "cdmpv53_250317_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 04-FEB-22",
+  "total_persons": 256051,
+  "data_cutoff_month": 202502
+}

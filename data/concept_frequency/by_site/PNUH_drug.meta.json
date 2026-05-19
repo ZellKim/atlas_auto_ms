@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:39:01.595978+00:00",
+  "site_code": "PNUH",
+  "cdm_name": "PNUH_5.3.0_04",
+  "group_id": 3,
+  "site_id": 190,
+  "source_key": "cdmpv53_251128",
+  "domain": "drug",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/drug",
+  "rows_returned": 6435,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 4.7,
+  "source_id": 4,
+  "source_name": "PNUH_5.3.0_04",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-FEB-25",
+  "total_persons": 2121581,
+  "data_cutoff_month": 202509
+}

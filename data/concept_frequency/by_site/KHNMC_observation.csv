@@ -1,210 +1,353 @@
 conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
-40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,1465276,0.684765,14.86
-37396387,Finding with explicit context||Clinical finding absent||No history of clinical finding in subject||No known allergy,581052,0.271542,2.32
-4275495,NA||NA||NA||Tobacco smoking behavior - finding,312879,0.146217,1.79
-4042860,"Mental state, behavior and/or psychosocial function finding||Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior",305226,0.142641,3.42
-40481925,Situation with explicit context||Finding with explicit context||Clinical finding absent||No history of clinical finding in subject,302226,0.141239,4.94
-1340204,"Pregnancy, labour, delivery and postpartum conditions||Qualifier value||Situation with explicit context||History of event",132797,0.06206,3.22
-44802448,Education||Patient education||Self-care patient education||Prompting to change position,85095,0.039767,15.43
-43530807,Hypersensitivity NOS||Propensity to adverse reaction||Hypersensitivity disposition||Allergic disposition,33372,0.015596,1.58
-4051104,NA||Situation with explicit context||Finding with explicit context||No family history of,31683,0.014806,2.89
-4217197,"Therapeutic procedures NEC||Therapy||Biofeedback procedure||Biofeedback, pulse wave velocity",21759,0.010169,1.66
-4242272,Procedure by method||Education||Functional training||Physiotherapy training,18529,0.008659,12.84
-37109569,Education||Procedure education||Activity of daily living education||Training in extending range of activity of daily living,15653,0.007315,20.82
-4263540,Education||Disease process or condition education||Education about metabolic disease||Diabetic education,13976,0.006531,1.18
-4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,13344,0.006236,1.91
-4040383,Procedure||Procedure by method||Education||Functional training,12723,0.005946,27.83
-4036083,NA||NA||NA||Total time smoked,12002,0.005609,1.12
-4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,10412,0.004866,1.81
-37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,10406,0.004863,2.23
-42537730,Systemic arterial finding||Coronary artery finding||Procedure related finding||Coronary artery graft present,8139,0.003804,22.79
-4055248,Procedure||Procedure by method||Education||Postoperative procedure education,7990,0.003734,1.03
-704996,Viral lower respiratory tract infections||General clinical state finding||Laboratory confirmed SARS-CoV-2 infection without symptoms||Patient meets COVID-19 laboratory diagnostic criteria,7810,0.00365,1.59
-4301464,Procedure education||Education about treatment regime||Care regimes education||Chemotherapy care education,7787,0.003639,1.45
-4313464,"Procedure||Professional / ancillary services education||Occupational therapy education||Occupational therapy education, guidance, counseling",5665,0.002647,11.84
-4174882,"Professional / ancillary services education||Rehabilitation therapy education||Physical rehabilitation therapy education||Speech and language therapy education, guidance, and counseling",5291,0.002473,15.74
-4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,4735,0.002213,2.8
-4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,4444,0.002077,2.58
-36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,4342,0.002029,4.19
-4125461,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of quantity of drinking,3879,0.001813,1.06
-4326757,Functional training||Physiotherapy training||Ambulation training||Gait training procedure,3864,0.001806,21.82
-36713466,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn born outside hospital,3468,0.001621,2.56
-4154783,NA||NA||Clinical finding||Finding of general physiological development,3095,0.001446,6.53
-4262029,"Procedure||Procedure by method||Counseling||Cardiac care education, guidance, and counseling",3041,0.001421,1.09
-4105886,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Disease||Adverse reaction,2393,0.001118,10.93
-4015842,Infectious disorders carrier||Infectious disorders carrier||Viral hepatitis carrier||Viral hepatitis carrier,2353,0.0011,8.71
-4307820,Unintended pregnancies||Unintended pregnancy||Unintended pregnancy||Unplanned pregnancy,2336,0.001092,3.43
-199075,Urinary bladder finding||Spinal cord and nerve root disorders NEC||Neurogenic dysfunction of urinary bladder||Neurogenic urinary bladder,2194,0.001025,8.38
-4066112,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by emergency cesarean section",1999,0.000934,2.87
-4081128,Medical procedure||Procedure||Follow-up encounter||Chemotherapy follow-up,1865,0.000872,2.44
-37018683,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 32 weeks,1778,0.000831,6.65
-37018889,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 33 weeks,1778,0.000831,6.65
-4294928,Education about treatment regime||Care regimes education||Terminal care education||Hospice care education,1606,0.000751,2.05
-438485,Clinical finding||Procedure related finding||Postprocedural state finding||Postoperative state,1542,0.000721,6.74
-377575,Inner ear signs and symptoms||Tinnitus||Tinnitus||Tinnitus,1522,0.000711,4.48
-4061457,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by elective cesarean section",1476,0.00069,3.56
-4307024,Therapeutic procedures NEC||Medical procedure||Procedure||Follow-up encounter,1430,0.000668,3.2
-45765728,Regimes and therapies||Reproductive care||Supervision||Supervision of high risk pregnancy,1327,0.00062,4.28
-4149609,Clinical finding||Weight finding||Birth weight finding||Birth weight 1000-2499 g,1161,0.000543,5.09
-4019967,Lifestyle issues||Finding of functional performance and activity||Dialysis finding||Dependence on renal dialysis,1125,0.000526,3.64
-44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,1071,0.000501,2.19
-36713471,Reproductive care||Procedure||Routine procedure||Routine postpartum follow-up,1068,0.000499,1.99
-4073624,Procedure by method||Education||Disease process or condition education||Cancer education,978,0.000457,1.02
-4014829,Medical procedure||Procedure||Procedure by method||Consultation,942,0.00044,1.27
-40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,873,0.000408,5.3
-197607,Polymenorrhoea||Polymenorrhoea||Polymenorrhea||Excessive and frequent menstruation,852,0.000398,5.54
-4147717,Weight finding||Birth weight finding||Birth weight 1000-2499 g||Baby birth weight 1.5 to 2 kilogram,813,0.00038,8.17
-4058388,Skin injuries and mechanical dermatoses||Skin dystrophies||Scar||Hypertrophic scar,796,0.000372,7.91
-439926,"Mental state, behavior and/or psychosocial function finding||Unwell||Malaise||Malaise and fatigue",790,0.000369,2.93
-4128819,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Finding of frequency of drinking,750,0.00035,1.0
-437643,Neurological signs and symptoms NEC||Neurological signs and symptoms NEC||Gait disturbance||Abnormal gait,718,0.000336,4.79
-441919,Pregnant||Pregnancy||Twin pregnancy||Twin pregnancy,715,0.000334,3.62
-4055029,Procedure by method||Education||Functional training||Stoma training,707,0.00033,1.02
-46271955,Premature baby 33 to 36 weeks||Premature infant||Premature infant 28-37 weeks||Baby premature 28-32 weeks,705,0.000329,15.01
-74698,Foetal complications||Foetal position and presentation abnormalities||Breech presentation||Breech presentation,683,0.000319,3.01
-4299535,"Pregnancy, labour, delivery and postpartum conditions||Pregnancy, childbirth and puerperium finding||Pregnant||Pregnancy",682,0.000319,3.69
-762577,Premature baby||Premature baby 33 to 36 weeks||Premature infant||Baby premature 35-36 weeks,666,0.000311,4.69
-37016212,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 34 weeks,666,0.000311,4.69
-36713461,Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,652,0.000305,3.51
-316822,Finding by method||Finding by auscultation||Murmur||Heart murmur,523,0.000244,2.22
-443882,Death and sudden death||Event||Death||Unattended death,508,0.000237,1.05
-435928,Weight trend finding||Weight loss||Weight loss||Abnormal weight loss,507,0.000237,3.61
-441207,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug,482,0.000225,5.95
-40479809,Exposure to potentially harmful entity||Exposure to organism||Exposure to tuberculosis||Exposure to Mycobacterium tuberculosis,441,0.000206,2.87
-433196,Scarring||Scar||Retinal scar||Chorioretinal scar,433,0.000202,7.21
-4150397,Weight finding||Birth weight finding||Birth weight 1500 gram or less||Baby birth weight 1 to 1.5 kilogram,421,0.000197,11.08
-372448,Transient alteration of awareness||Obtundation||Passed out||Loss of consciousness,410,0.000192,4.91
-42538119,Viscus structure finding||Transplant recipient||Transplant present||Transplanted heart valve present,409,0.000191,28.57
-4109135,Scarring||Scar||Corneal scar||Corneal scars and opacities,393,0.000184,9.74
-139036,Myocardial disorders||Myocardial disorders NEC||Systolic dysfunction||Systolic dysfunction,386,0.00018,5.27
-4185711,Upper respiratory tract disorders (excl infections)||Olfactory nerve disorders||Smell loss||Loss of sense of smell,376,0.000176,2.95
-4293175,"NA||NA||Clinical finding||Mental state, behavior and/or psychosocial function finding",353,0.000165,8.39
-42539502,Viscus structure finding||Urinary system finding||Transplant present||Transplanted kidney present,344,0.000161,34.83
-434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,335,0.000157,3.42
-40354893,Swelling of body structure||Swelling of body region||Swelling of trunk||Pelvic swelling,297,0.000139,3.27
-4257954,Procedure education||Education about treatment regime||Care regimes education||Radiation therapy care education,289,0.000135,1
-45765666,Monitoring procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,288,0.000135,3.4
-37110284,Premature delivery||Premature delivery||Procedure related finding||Preterm delivery following Cesarean section,274,0.000128,2.55
-37110283,Premature delivery||Premature delivery||Procedure related finding||Preterm delivery following induction of labor,274,0.000128,2.55
-4021166,Medical procedure||Procedure||Regimes and therapies||Care regime,269,0.000126,1.79
-4093347,NA||NA||Clinical finding||Stool finding,253,0.000118,3.07
-4152169,Sexual function and fertility disorders NEC||Sexual function abnormal||Abnormal sexual function||Failure of genital response,243,0.000114,7.76
-37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,242,0.000113,2.46
-4329455,Age related factors||Clinical finding||Age AND/OR growth finding||Adolescence period,234,0.000109,4.76
-433596,Respiratory and pulmonary investigations (excl blood gases)||Respiratory tract and thoracic histopathology procedures||Sputum finding||Abnormal sputum,232,0.000108,2.22
-441840,NA||NA||NA||Clinical finding,228,0.000107,2.06
-196168,Menstruation and uterine bleeding NEC||Menstruation irregular||Menstruation irregular||Irregular periods,218,0.000102,4.22
-4300838,Education about treatment regime||Care regimes education||Renal care education||Dialysis care education,218,0.000102,1.07
-4201390,Clinical finding||Finding of trunk structure||Stoma finding||Colostomy present,203,9.5e-05,7.63
-4201717,Gastrointestinal tract finding||Clinical finding||Stoma finding||Ileostomy present,191,8.9e-05,8.08
-40484646,Non-occupational environmental exposures||Exposure to allergen||Exposure to potentially harmful entity||Exposure to organism,190,8.9e-05,1.12
-36717637,NA||Situation with explicit context||Finding with explicit context||Twin liveborn born outside hospital,187,8.7e-05,3.13
-40318195,Menstruation with decreased bleeding||Menses lack of||Amenorrhea||Secondary amenorrhea,181,8.5e-05,4.77
-4171358,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Slow feeding in newborn,180,8.4e-05,6.34
-4279614,Respiratory disorders NEC||Non-site specific injuries NEC||Traumatic event||Asphyxiation,176,8.2e-05,1.82
-4150396,Weight finding||Birth weight finding||Birth weight 1500 gram or less||Baby birth weight equal to 751g-1kg,175,8.2e-05,10.5
-443800,Reproductive finding||Menstruation with decreased bleeding||Menses lack of||Amenorrhea,168,7.9e-05,4.99
-42537741,Lifestyle issues||Social issues NEC||Transplant recipient||Transplant present,164,7.7e-05,27.01
-433315,Clinical finding||Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn,160,7.5e-05,3.6
-4016911,Prevention status||Immunization status||Requires vaccination||Requires a yellow fever vaccination,160,7.5e-05,1.01
-45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",149,7e-05,1.57
-4280208,Procedure by method||Education||Procedure education||Peritoneal dialysis education,149,7e-05,1.08
-4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,142,6.6e-05,1.56
-439141,Weight trend finding||Wt gain||Weight gain||Abnormal weight gain,141,6.6e-05,3.6
-441413,Death and sudden death||Event||Unknown cause of death||Death of unknown cause,114,5.3e-05,1
-4151169,Birth weight finding||Birth weight 1500 gram or less||Birth weight 999 g or less||Baby birth weight less than 751gm,108,5e-05,5.24
-4079646,Clinical finding||Administrative statuses||Follow-up status||Surgical follow-up,107,5e-05,6.36
-442165,Functional finding||Finding of appetite||Finding of quantity of appetite||Loss of appetite,100,4.7e-05,6.85
-4103072,Procedure by method||Education||Procedure education||Hemodialysis education,100,4.7e-05,1
-44803354,Qualifier value||Classification system||National Public Health Classification data||Mental and behavioural disorder,100,4.7e-05,2.02
-4177710,Prevention status||Immunization status||Requires vaccination||Requires Bacillus Calmette-Guerin vaccination,98,4.6e-05,2.55
-141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,96,4.5e-05,1.98
-200843,Clinical finding||Micturition finding||Finding of pattern of urination||Finding of frequency of urination,95,4.4e-05,2.65
-4104824,Therapeutic procedures NEC||Therapy||Biofeedback procedure||Electroencephalographic biofeedback,81,3.8e-05,2.64
-4152780,Lifestyle issues||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,81,3.8e-05,6.85
-36716686,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature at delivery 23 completed weeks,79,3.7e-05,5.41
-4025215,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Mental state finding||Emotional state finding",75,3.5e-05,4.28
-437038,Vascular haemorrhagic disorders||Urinary abnormalities||Urine finding||Blood in urine,73,3.4e-05,7.66
-762494,Education||Disease process or condition education||Education about metabolic disease||Dyslipidemia education,73,3.4e-05,1.04
-4061424,Reproductive care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,68,3.2e-05,3.74
-37397151,Procedure related finding||Evaluation finding||Presence of organism - finding||Acinetobacter baumannii or Acinetobacter haemolyticus,67,3.1e-05,1.54
-4047564,Procedure||Reproductive care||Antenatal care||Routine antenatal care,65,3e-05,4.22
-606878,Musculoskeletal and connective tissue disorders congenital||Musculoskeletal and connective tissue disorders of skull congenital||Microcephaly||Microcephaly,64,3e-05,7.05
-4201388,Clinical finding||Finding of trunk structure||Stoma finding||Gastrostomy present,59,2.8e-05,7.98
-4246719,"Procedure on head||Procedure on mouth||Procedure on oral cavity||Personal periodontal care, plaque control education",58,2.7e-05,1.24
-37016220,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature 24 weeks,55,2.6e-05,6.53
-606633,Musculoskeletal and connective tissue disorders congenital||Musculoskeletal and connective tissue disorders of skull congenital||Macrocephaly||Macrocephaly,55,2.6e-05,3
-4338120,Gastrointestinal motility and defaecation conditions||Gastrointestinal dyskinetic disorders||Finding of bowel action||Altered bowel function,53,2.5e-05,5.98
-42537744,Social issues NEC||Transplant recipient||Transplant present||Transplanted cornea present,52,2.4e-05,20.52
-37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,50,2.3e-05,1.78
-4061458,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by cesarean hysterectomy",49,2.3e-05,3.67
-316814,Respiratory finding||Respiratory finding||Ventilation finding||Hyperventilation,49,2.3e-05,2.98
-436667,Speech and language finding||Speech articulation and rhythm disturbances||Finding of fluency of speech||Stuttering,47,2.2e-05,12.32
-4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,46,2.1e-05,2.09
-45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",44,2.1e-05,1.2
-4096274,Non-site specific procedural complications||Diagnostic agent adverse reaction||Contrast media adverse reaction||X-ray contrast media adverse reaction,41,1.9e-05,6.39
-37018684,Premature infant||Baby premature at delivery less than 32 weeks||Baby premature 26-28 weeks||Baby premature 27 weeks,41,1.9e-05,7.95
-434319,Sexual function and fertility disorders||Orgasmic disorders and disturbances||Premature ejaculation||Premature ejaculation,40,1.9e-05,5.5
-254387,Respiratory system disorder||Upper respiratory tract finding||Hypersensitivity reaction||Upper respiratory tract hypersensitivity reaction,39,1.8e-05,1.87
-4174707,Monitoring procedure||Surveillance||Care regimes surveillance||Dietary management surveillance,39,1.8e-05,3.13
-37016221,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature 25 weeks,37,1.7e-05,7.46
-40318194,Menstruation with decreased bleeding||Menses lack of||Amenorrhea||Primary amenorrhea,36,1.7e-05,8.25
-4129155,Vulvovaginal disorders NEC||Vulvovaginal disorders NEC||Vaginal hemorrhage||Vaginal bleeding,36,1.7e-05,2.69
-4303295,Therapeutic procedures NEC||Supportive care||Support||Caregiver support,34,1.6e-05,4.26
-4168681,Irritability||Short tempered||Feeling irritable||Irritability and anger,33,1.5e-05,1.85
-37016222,Premature infant||Baby premature at delivery less than 32 weeks||Baby premature 26-28 weeks||Baby premature 26 weeks,32,1.5e-05,10.78
-36713468,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,31,1.4e-05,9.26
-44790744,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is home environment,30,1.4e-05,2.43
-437768,Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to tuberculosis vaccine,29,1.4e-05,2.9
-4092879,Viscus structure finding||Urinary system finding||Solitary kidney||Absent kidney,27,1.3e-05,8.41
-42537740,Finding of urinary tract proper||Pelvic organ finding||Urinary bladder finding||Urinary bladder stoma present,22,1e-05,2.82
-4054165,Traumatic event||Exposure to radiation||Exposure to light||Exposure to heat and light,21,1e-05,2.24
-4302555,Menstruation with increased bleeding||Menstruation with increased bleeding||Menstrual flow excessive||Menorrhagia,21,1e-05,9.33
-4251306,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Stress||Stress",21,1e-05,6.33
-193277,"Genital finding||Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean",21,1e-05,1.86
-432375,Pregnant||Pregnancy||Multiple pregnancy||Triplet pregnancy,20,9e-06,6.6
-36716685,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature at delivery less than 23 weeks,20,9e-06,1
-4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,20,9e-06,1.35
-4217564,Neonatal and perinatal conditions||Premature baby||Premature baby 33 to 36 weeks||Premature infant,19,9e-06,5.63
-4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,18,8e-06,3.72
-444074,Clinical finding||Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident,17,8e-06,2.71
-36714126,Neurological signs and symptoms NEC||Gait disturbance||Walking difficulty||Difficulty walking,17,8e-06,2.94
-44791203,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is public building environment,16,7e-06,1
-439996,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Anticoagulant adverse reaction,16,7e-06,9.56
-44791198,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is construction area,16,7e-06,15.62
-44790746,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is industrial area,16,7e-06,15.62
-762470,Procedure by method||Education||Disease process or condition education||Education about metabolic disease,16,7e-06,1.62
-4059637,"Finding by method||Legal, financial, employment and/or socioeconomic history finding||Employment finding||Work environment deleterious",16,7e-06,1.38
-4017161,Prevention status||Immunization status||Requires vaccination||Requires rabies vaccination course,15,7e-06,2.53
-4219484,Suicidal and self-injurious behaviours NEC||Suicide attempt||Traumatic event||Suicide attempt,15,7e-06,1.07
-4015725,Prevention status||Immunization status||Requires vaccination||Requires a course of cholera vaccination,15,7e-06,1.8
-437165,Transport accident||Vehicle accident||Traffic accident||Motor vehicle traffic accident,15,7e-06,2.87
-3661935,Vaccination related complications||Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine,15,7e-06,2.13
-4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,15,7e-06,3.33
-46270485,Clinical finding||General clinical state finding||Finding related to biological sex||Indeterminate sex,14,7e-06,4.5
-4144895,Spinal cord and nerve root disorders NEC||Neurogenic dysfunction of urinary bladder||Neurogenic urinary bladder||Flaccid neurogenic urinary bladder,14,7e-06,8.71
-4203722,Therapeutic procedures NEC||Medical procedure||Procedure||Patient encounter procedure,13,6e-06,2.38
-4010658,Clinical finding||Micturition finding||Urination difficulty||Difficulty passing urine,13,6e-06,3.31
-195321,Vascular haemorrhagic disorders||Thoracic bleeding||Postmenopausal state||Postmenopausal bleeding,13,6e-06,5.38
-195861,Renal disorders (excl nephropathies)||Renal structural abnormalities and trauma||Kidney small||Small kidney,12,6e-06,7.25
-903654,Lifestyle issues||Tobacco use||Tobacco user||Tobacco or its derivatives user,12,6e-06,1.83
-4151220,Therapeutic procedures and supportive care NEC||Therapeutic procedures NEC||Therapy||Biofeedback procedure,12,6e-06,2.75
-46271901,Weight finding||Birth weight finding||Birth weight 1500 gram or less||Birth weight less than 500g,11,5e-06,2.73
-4024000,Finding of trunk structure||Finding of abdominopelvic segment of trunk||Urogenital finding||Urinary system finding,11,5e-06,2.09
-442274,Menstruation with decreased bleeding||Oligomenorrhoea||Oligomenorrhoea||Oligomenorrhea,11,5e-06,3.09
-4137049,General clinical state finding||Loss of personal independence in daily activities||Disability||Disability affecting daily living,11,5e-06,8.27
-4051114,Family history of clinical finding||Family history of disorder||Family history of metabolic disorder||Family history of diabetes mellitus,10,5e-06,3
-443367,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antihypertensive adverse reaction,10,5e-06,1.3
-4014023,Therapeutic procedures and supportive care NEC||Therapeutic procedures NEC||Palliative procedure||Palliative care,9,4e-06,1
-439224,Propensity to adverse reaction||Propensity to adverse reaction||Specific allergy (drug)||Allergy to drug,9,4e-06,9.56
-438046,Event||Traumatic event||Accidental event||Medical accident to patient during surgical and medical care,9,4e-06,3.78
-436233,NA||Clinical finding||Finding of general physiological development||Delayed milestone,8,4e-06,3.25
-4074035,Lifestyle issues||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,8,4e-06,4.88
-4300515,NA||Observable entity||Function||Respiratory function,7,3e-06,1.29
-198195,Menstruation and uterine bleeding NEC||Intermenstrual bleeding||OMOP Bleeding 3||Ovulation bleeding,7,3e-06,2.57
-40479426,Exposure to allergen||Exposure to potentially harmful entity||Exposure to organism||Exposure to sexually transmissible disorder,7,3e-06,2.71
-443603,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Adverse reaction to antidiabetic drug,7,3e-06,2.29
-4286638,Age related factors||Clinical finding||Childhood||Childhood,7,3e-06,4.57
-4229897,Transient alteration of awareness||Mental confusion||Stupor||Stupor,6,3e-06,2
-4166272,"Accidental event||Accident||Accident due to physical impact or mechanical violence||Overexertion, strenuous movements and vibration",6,3e-06,6.33
-252442,Pulmonary aspiration||Pulmonary aspiration of fluid||Pulmonary aspiration of blood||Neonatal aspiration of blood,6,3e-06,2.17
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,79863,0.0691146970092963,4.3202359039855756
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,63203,0.054696870829777915,1.3432432004809898
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,33133,0.02867381961620543,2.4462620348293243
+40484646,Non-occupational environmental exposures||Exposure to allergen||Exposure to potentially harmful entity||Exposure to organism,28152,0.024363183829880036,2.54216396703609
+44802448,Education||Patient education||Self-care patient education||Prompting to change position,27673,0.023948649691825457,7.6011635890579266
+377575,Inner ear signs and symptoms||Tinnitus||Tinnitus||Tinnitus,17182,0.014869573194266794,3.7560819462227912
+1340204,"Pregnancy, labour, delivery and postpartum conditions||Qualifier value||Situation with explicit context||History of event",13113,0.011348196560145529,7.12079615648593
+4242272,Procedure by method||Education||Functional training||Physiotherapy training,8807,0.007621716396339638,13.762575224253435
+704996,Clinical finding||General clinical state finding||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,8453,0.007315359225418299,4.571394771087188
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,7656,0.006625622882976754,1.9518025078369905
+439926,Psychological finding||Unwell||Malaise||Malaise and fatigue,6964,0.00602675519292713,3.628230901780586
+3656234,Mood alterations with depressive symptoms||Mood finding||Depressed mood||Depressive episode,6506,0.005630394785350935,11.418075622502306
+36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,6148,0.005320575951481332,2.7662654521795704
+4040383,Procedure||Procedure by method||Education||Functional training,5394,0.0046680524857336215,25.637560252131998
+37109569,Education||Procedure education||Activity of daily living education||Training in extending range of activity of daily living,5321,0.004604877136927809,19.100545010336404
+4307024,Therapeutic procedures NEC||Medical procedure||Procedure||Follow-up encounter,4977,0.004307174123377129,6.367088607594937
+4177710,Prevention status||Immunization status||Requires vaccination||Requires Bacillus Calmette-Guerin vaccination,4913,0.0042517875162049095,1.18644412782414
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,4680,0.004050145649468548,2.985042735042735
+4326757,Functional training||Physiotherapy training||Ambulation training||Gait training procedure,4607,0.003986970300662735,18.487518992836986
+37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,4239,0.0036684973094224735,1.914130691200755
+4016911,Prevention status||Immunization status||Requires vaccination||Requires a yellow fever vaccination,4152,0.0035932061402977377,1.025770712909441
+200843,Clinical finding||Micturition finding||Finding of pattern of urination||Finding of frequency of urination,4025,0.0034832983416903645,4.1607453416149065
+4301464,Procedure education||Education about treatment regime||Care regimes education||Chemotherapy care education,3446,0.002982222629929192,1.3296575739988392
+4217197,"Therapeutic procedures NEC||Therapy||Biofeedback procedure||Biofeedback, pulse wave velocity",3259,0.002820389887097863,1.006136851795029
+36713471,Reproductive care||Procedure||Routine procedure||Routine postpartum follow-up,3128,0.002707020425542226,2.311700767263427
+4257954,Procedure education||Education about treatment regime||Care regimes education||Radiation therapy care education,2992,0.00258932388530126,1.0113636363636365
+44790744,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is home environment,2600,0.0022500809163714156,6.716923076923077
+4055248,Procedure||Procedure by method||Education||Postoperative procedure education,2485,0.0021505581066088336,1.0164989939637827
+45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",2471,0.002138442286289911,2.1857547551598544
+433596,Respiratory and pulmonary investigations (excl blood gases)||Respiratory tract and thoracic histopathology procedures||Sputum finding||Abnormal sputum,2331,0.0020172840831006807,2.2269412269412268
+437643,Neurological signs and symptoms NEC||Neurological signs and symptoms NEC||Gait disturbance||Abnormal gait,2195,0.0018995875428597143,5.675170842824602
+436233,General symptom||Clinical finding||Finding of general physiological development||Delayed milestone,2116,0.001831219699631506,5.514650283553875
+4066112,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by emergency cesarean section",2045,0.001769775182299825,4.705134474327628
+43530807,Procedural related injuries and complications NEC||Seasonal allergy||Spider bite allergic reaction||Allergic disposition,2038,0.0017637172721403636,2.305201177625123
+441413,Death and sudden death||Event||Unknown cause of death||Death of unknown cause,1950,0.0016875606872785618,1.3497435897435897
+4058388,Skin injuries and mechanical dermatoses||Skin dystrophies||Scar||Hypertrophic scar,1900,0.0016442899004252653,5.051578947368421
+4263540,Education||Disease process or condition education||Education about metabolic disease||Diabetic education,1874,0.001621789091261551,2.0581643543223054
+435928,Weight trend finding||Weight loss||Weight loss||Abnormal weight loss,1800,0.0015577483267186724,4.003888888888889
+372448,Transient alteration of awareness||Obtundation||Passed out||Loss of consciousness,1792,0.001550825000822145,3.5239955357142856
+4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,1750,0.001514477539865376,2.049714285714286
+4015842,Infectious disorders carrier||Infectious disorders carrier||Viral hepatitis carrier||Viral hepatitis carrier,1688,0.0014608217641672884,4.261255924170616
+40479809,Exposure to potentially harmful entity||Exposure to organism||Exposure to tuberculosis||Exposure to Mycobacterium tuberculosis,1655,0.0014322630448441126,4.08036253776435
+4061457,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by elective cesarean section",1564,0.001353510212771113,5.166240409207161
+4047564,Procedure||Reproductive care||Antenatal care||Routine antenatal care,1524,0.001318893583288476,6.168635170603674
+37018889,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 33 weeks,1500,0.0012981236055988937,7.577333333333334
+37018683,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 32 weeks,1500,0.0012981236055988937,7.577333333333334
+4154783,General signs and symptoms NEC||General symptom||Clinical finding||Finding of general physiological development,1317,0.0011397525257158287,4.668185269552012
+442165,Feelings and sensations NEC||Finding of appetite||Finding of quantity of appetite||Loss of appetite,1300,0.0011250404581857078,5.006923076923077
+4061424,Reproductive care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,1212,0.001048883873323906,7.155115511551155
+437175,"Fall||Accidental fall||Fall on same level||Fall on same level from slipping, tripping or stumbling",1150,0.0009952280976258184,7.389565217391304
+4140830,Traumatic event||Fall||Accidental fall||Fall on same level,1137,0.0009839776930439614,7.885664028144239
+4010658,Clinical finding||Micturition finding||Urination difficulty||Difficulty passing urine,1118,0.0009675347940397087,3.396243291592129
+4152169,Sexual function and fertility disorders NEC||Sexual function abnormal||Abnormal sexual function||Failure of genital response,874,0.000756373354195622,4.649885583524028
+438046,Event||Traumatic event||Accidental event||Medical accident to patient during surgical and medical care,857,0.0007416612866655012,4.366394399066511
+4168192,NA||Situation with explicit context||Procedure with explicit context||Procedure not done,813,0.0007035829942346004,1.1623616236162362
+37311060,Viral lower respiratory tract infections||Viral lower respiratory tract infections||Suspected coronavirus infection||Suspected COVID-19,809,0.0007001213312863366,1.903584672435105
+44790743,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is highway environment,801,0.0006931980053898092,6.923845193508115
+44791698,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is non highway environment,801,0.0006931980053898092,6.923845193508115
+45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",787,0.0006810821850708862,1.5247776365946633
+45765728,Regimes and therapies||Reproductive care||Supervision||Supervision of high risk pregnancy,780,0.0006750242749114247,4.573076923076923
+44791205,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is sports facility,780,0.0006750242749114247,5.430769230769231
+443345,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antineoplastic adverse reaction,752,0.0006507926342735787,7.469414893617022
+74698,Foetal complications||Presentation of fetus - finding||Breech presentation||Breech presentation,746,0.0006456001398511831,5.474530831099195
+4073624,Procedure by method||Education||Disease process or condition education||Cancer education,726,0.0006282918251098646,1.9931129476584022
+432510,Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Driver in vehicular AND/OR traffic accident,720,0.000623099330687469,5.926388888888889
+444074,Clinical finding||Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident,715,0.0006187722520021393,4.479720279720279
+40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,711,0.0006153105890538755,4.767932489451477
+436583,Non-site specific injuries NEC||Traumatic event||Falling down||Fall,711,0.0006153105890538755,6.925457102672293
+37016212,Premature infant||Premature infant 28-37 weeks||Baby premature 32-36 weeks||Baby premature 34 weeks,670,0.0005798285438341725,5.367164179104478
+762577,Premature baby||Premature baby 33 to 36 weeks||Premature infant||Baby premature 35-36 weeks,670,0.0005798285438341725,5.367164179104478
+44803354,Qualifier value||Classification system||National Public Health Classification data||Mental and behavioural disorder,668,0.0005780977123600406,2.067365269461078
+4021166,Medical procedure||Procedure||Regimes and therapies||Care regime,646,0.0005590585661445902,1.7554179566563466
+4293175,"General signs and symptoms NEC||General symptom||Clinical finding||Mental state, behavior and/or psychosocial function finding",619,0.0005356923412438101,8.633279483037157
+441207,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug,586,0.0005071336219206345,2.967576791808874
+441749,Traumatic event||Fall||Accidental fall||Fall on or from stairs or steps,580,0.0005019411274982389,7.120689655172414
+4166272,"Accidental event||Accident||Accident due to physical impact or mechanical violence||Overexertion, strenuous movements and vibration",515,0.00044568910458895347,5.6854368932038835
+4152780,Lifestyle issues||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,513,0.0004439582731148216,4.920077972709552
+4329840,Social problem||Social context finding||Social problem not due to a mental disorder||Legal problem,488,0.0004223228796881734,2.4918032786885247
+4168681,Irritability||Short tempered||Feeling irritable||Irritability and anger,478,0.00041366872231751413,1.9497907949790796
+40482727,Myocardial disorders NEC||Systolic dysfunction||Systolic dysfunction||Combined systolic and diastolic dysfunction,467,0.0004041491492097889,9.541755888650963
+139036,Myocardial disorders||Myocardial disorders NEC||Systolic dysfunction||Systolic dysfunction,451,0.00039030249741673403,12.463414634146341
+44791203,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is public building environment,448,0.0003877062502055362,4.466517857142857
+37117058,Situation with explicit context||Procedure with explicit context||Procedure not done||Vaccination not done,438,0.00037905209283487694,1.0821917808219177
+440279,Injuries NEC||Traumatic event||Accidental event||Accident,438,0.00037905209283487694,5.47945205479452
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,431,0.00037299418267541546,2.1531322505800463
+4268911,Neurological signs and symptoms NEC||Neurological signs and symptoms NEC||Temporospatial disorientation||Disorientated,392,0.0003392429689298442,3.737244897959184
+433099,"Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Victim, cyclist in vehicular AND/OR traffic accident",385,0.0003331850587703827,6.6
+439141,Weight trend finding||Wt gain||Weight increased||Abnormal weight gain,381,0.000329723395822119,3.1942257217847767
+44791198,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is construction area,375,0.00032453090139972343,5.522666666666667
+44790746,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is industrial area,375,0.00032453090139972343,5.522666666666667
+4279614,Respiratory disorders NEC||Non-site specific injuries NEC||Traumatic event||Asphyxiation,371,0.0003210692384514597,3.9245283018867925
+443423,Transport accident||Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident,360,0.0003115496653437345,6.65
+36715044,Procedure||Procedure by method||Education||Education about chronic kidney disease,360,0.0003115496653437345,1.0666666666666667
+433930,Vehicle accident||Traffic accident||Motor vehicle traffic accident||Motor vehicle on road in collision with another motor vehicle,355,0.0003072225866584048,4.543661971830986
+46271955,Premature baby 33 to 36 weeks||Premature infant||Premature infant 28-37 weeks||Baby premature 28-32 weeks,354,0.0003063571709213389,23.062146892655367
+4305831,"Exposures, chemical injuries and poisoning||Non-occupational environmental exposures||Exposure to allergen||Exposure to potentially harmful entity",340,0.0002942413506024159,5.5058823529411764
+4174882,"Professional / ancillary services education||Rehabilitation therapy education||Physical rehabilitation therapy education||Speech and language therapy education, guidance, and counseling",335,0.00028991427191708624,3.6
+4318516,"Traumatic event||Accidental event||Accident||Accident caused by immersion, suffocation, foreign body",324,0.000280394698809361,2.4537037037037037
+437165,Transport accident||Vehicle accident||Traffic accident||Motor vehicle traffic accident,321,0.0002777984515981632,3.5700934579439254
+4103072,Procedure by method||Education||Procedure education||Hemodialysis education,321,0.0002777984515981632,1.0155763239875388
+37110284,Premature delivery||Premature delivery||Procedure related finding||Preterm delivery following Cesarean section,305,0.0002639517998051084,3.760655737704918
+37110283,Premature delivery||Premature delivery||Procedure related finding||Preterm delivery following induction of labor,305,0.0002639517998051084,3.760655737704918
+436882,Fall||Accidental fall||Fall from furniture||Fall from bed,299,0.0002587593053827128,7.2675585284280935
+46286017,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is farm environment,297,0.00025702847390858096,2.9158249158249157
+441192,Accidental event||Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons,295,0.0002552976424344491,4.420338983050848
+436298,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Adverse reaction||Adverse reaction to food,291,0.00025183597948618536,5.731958762886598
+4128827,Functional finding||Communication finding||Voice finding||Voice production finding,286,0.00024750890080085574,2.1888111888111887
+46286094,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is trade or service environment,282,0.000244047237852592,5.574468085106383
+4109135,Scarring||Scar||Corneal scar||Corneal scars and opacities,270,0.00023366224900780086,4.022222222222222
+36713466,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn born outside hospital,262,0.0002267389231112734,1.9580152671755724
+4201388,General symptom||Finding of trunk structure||Stoma finding||Gastrostomy present,261,0.0002258735073742075,10.084291187739463
+4298337,Exposure to allergen||Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force,260,0.00022500809163714157,3.046153846153846
+4329455,General symptom||Clinical finding||Age AND/OR growth finding||Adolescence period,258,0.0002232772601630097,3.6085271317829455
+438310,"Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Victim, motorcycle rider in vehicular AND/OR traffic accident",255,0.00022068101295181193,5.968627450980392
+4300838,Education about treatment regime||Care regimes education||Renal care education||Dialysis care education,254,0.000219815597214746,4.448818897637795
+4024000,Finding of trunk structure||Finding of abdominopelvic segment of trunk||Urogenital finding||Urinary system finding,250,0.00021635393426648229,2.152
+45765666,Monitoring procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,250,0.00021635393426648229,3.684
+36713460,Reproductive care||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of infertility,248,0.00021462310279235042,7.911290322580645
+4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,228,0.00019731478805103185,3.1973684210526314
+4096848,Neurological signs and symptoms NEC||Gait disturbance||Abnormal gait||Ataxic gait,224,0.0001938531251027681,8.245535714285714
+4217564,Neonatal and perinatal conditions||Premature baby||Premature baby 33 to 36 weeks||Premature infant,220,0.0001903914621545044,11.50909090909091
+43021845,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Finding relating to psychosocial functioning||Psychosocial problems related to unwanted pregnancy",219,0.00018952604641743847,2.054794520547945
+4229897,Transient alteration of awareness||Mental confusion||Stupor||Stupor,211,0.00018260272052091105,2.1658767772511847
+762494,Education||Disease process or condition education||Education about metabolic disease||Dyslipidemia education,206,0.00017827564183558138,1.4466019417475728
+4015725,Prevention status||Immunization status||Requires vaccination||Requires a course of cholera vaccination,206,0.00017827564183558138,1.4466019417475728
+4222734,Traumatic event||Fall||Accidental fall||Fall in home,198,0.00017135231593905397,6.843434343434343
+441201,Fall||Accidental fall||Fall from one level to another||Fall from building,197,0.00017048690020198803,6.2944162436548226
+434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,191,0.00016529440577959246,3.905759162303665
+4145320,Procedure||Regimes and therapies||Growth and development treatments and procedures||Child health care,185,0.00016010191135719688,1.5891891891891892
+4148410,Finding with explicit context||Sick relative||Family history of disorder||FH: Respiratory disease,182,0.0001575056641459991,7.747252747252747
+4081128,Medical procedure||Procedure||Follow-up encounter||Chemotherapy follow-up,179,0.0001549094169348013,1.7597765363128492
+435134,Accidental event||Transport accident||Vehicle accident||Motor vehicle accident,175,0.0001514477539865376,5.382857142857143
+4280208,Procedure by method||Education||Procedure education||Peritoneal dialysis education,164,0.00014192818087881238,1.0121951219512195
+4308870,Fall||Accidental fall||Fall from furniture||Fall from chair,161,0.0001393319336676146,8.024844720496894
+441188,"Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Victim, pedestrian in vehicular AND/OR traffic accident",156,0.00013500485498228493,5.92948717948718
+4201717,General symptom||Clinical finding||Stoma finding||Ileostomy present,151,0.0001306777762969553,7.841059602649007
+436667,Speech and language finding||Speech articulation and rhythm disturbances||Finding of fluency of speech||Stuttering,149,0.00012894694482282345,3.208053691275168
+4301680,Regimes and therapies||Care regime||Renal care||Dialysis care,147,0.00012721611334869158,2.7891156462585034
+436299,Traumatic event||Fall||Accidental fall||Fall from one level to another,145,0.0001254852818745597,7.179310344827586
+442451,Vehicle accident||Traffic accident||Motor vehicle traffic accident||Motor vehicle on road in collision with pedestrian,144,0.00012461986613749378,5.625
+37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,140,0.00012115820318923007,1.45
+37312602,Prevention status||Immunization status||Requires vaccination||Requires vaccination against pertussis,139,0.00012029278745216415,1.014388489208633
+42538119,Viscus structure finding||Transplant recipient||Transplant present||Transplanted heart valve present,139,0.00012029278745216415,15.755395683453237
+4079646,Clinical finding||Administrative statuses||Follow-up status||Surgical follow-up,136,0.00011769654024096636,5.9411764705882355
+44791204,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is residential home environment,135,0.00011683112450390043,5.022222222222222
+432803,Traumatic event||Fall||Accidental fall||Fall from ladder,129,0.00011163863008150485,6.488372093023256
+443547,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Non-steroidal anti-inflammatory drug adverse reaction,126,0.00010904238287030706,4.341269841269841
+4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,123,0.00010644613565910928,1.2520325203252034
+4053863,Fall on same level||Fall on same level due to nature of surface||Fall on same level from slipping||Fall due to slipping on ice or snow,121,0.00010471530418497742,7.56198347107438
+4053423,Vehicle accident||Motor vehicle traffic accident||Motorcycle accident||Motor vehicle on road in collision with motor cycle,120,0.00010384988844791149,6.1
+4092879,Viscus structure finding||Urinary system finding||Solitary kidney||Absent kidney,119,0.00010298447271084557,7.310924369747899
+4175576,Transport accident||Vehicle accident||Motor vehicle accident||Motorcycle accident,118,0.00010211905697377963,5.88135593220339
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,116,0.00010038822549964778,3.646551724137931
+42537729,Viscus structure finding||Systemic arterial finding||Procedure related finding||Aortocoronary bypass graft present,113,9.779197828844999e-05,6.68141592920354
+40479792,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to viral hepatitis,105,9.086865239192256e-05,1.380952380952381
+437191,Therapeutic and nontherapeutic responses||Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction,99,8.567615796952698e-05,3.757575757575758
+42536911,Nutritional finding||Self-care behavior||Self-neglect||Insufficient intake of food and water with self neglect,99,8.567615796952698e-05,2.101010101010101
+4219484,Suicidal and self-injurious behaviours NEC||Suicide attempt||Traumatic event||Suicide attempt,97,8.394532649539513e-05,9.793814432989691
+4201390,General symptom||Finding of trunk structure||Stoma finding||Colostomy present,96,8.30799107583292e-05,8.8125
+4168384,Fall||Accidental fall||Fall on same level||Fall on same level due to nature of surface,96,8.30799107583292e-05,6.5625
+437477,Traumatic event||Fall||Accidental fall||Fall from playground equipment,95,8.221449502126326e-05,6.389473684210526
+4216727,Exposure to allergen||Traumatic event||Exposure to mechanical force||Struck by falling object,93,8.048366354713141e-05,5.559139784946237
+43020487,Social context finding||Problem||Relationship problem||Problem in relationship with in-laws,92,7.961824781006547e-05,4.5
+36717637,NA||Situation with explicit context||Finding with explicit context||Twin liveborn born outside hospital,83,7.182950617647212e-05,5.578313253012048
+254387,Respiratory system disorder||Upper respiratory tract finding||Hypersensitivity reaction||Upper respiratory tract hypersensitivity reaction,82,7.096409043940619e-05,1.7804878048780488
+4149299,Administrative statuses||Follow-up status||Surgical follow-up||Follow-up orthopedic assessment,81,7.009867470234025e-05,3.9506172839506175
+437738,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle accident off public road,80,6.923325896527433e-05,5
+437478,Non-site specific injuries NEC||Bite of non-human animal||Bite of arthropod||Bite of nonvenomous arthropod,77,6.663701175407655e-05,2.3506493506493507
+4094126,Problem||Problem situation||Problem situation relating to social and personal history||Family problems,75,6.490618027994468e-05,3.9466666666666668
+42537740,General symptom||Pelvic organ finding||Urinary bladder finding||Urinary bladder stoma present,74,6.404076454287876e-05,19.08108108108108
+4096274,Non-site specific procedural complications||Diagnostic agent adverse reaction||Contrast media adverse reaction||X-ray contrast media adverse reaction,72,6.230993306874689e-05,3.7083333333333335
+4082086,Procedure with explicit context||Procedure not done||Medical care unavailable||No home medical services,72,6.230993306874689e-05,2.125
+4054796,Physical assault||Exposure to attack by other person||Assault||Assault with body part,71,6.144451733168097e-05,2.5774647887323945
+606633,Musculoskeletal and connective tissue disorders congenital||Musculoskeletal and connective tissue disorders of skull congenital||Macrocephaly||Macrocephaly,69,5.971368585754911e-05,3.289855072463768
+4239303,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Bumped into other person,66,5.711743864635132e-05,4.121212121212121
+193277,"Genital finding||Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean",64,5.5386607172219466e-05,2.59375
+434228,Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Passenger in vehicular AND/OR traffic accident,64,5.5386607172219466e-05,4.1875
+4022569,General signs and symptoms NEC||General symptom||Clinical finding||Eating / feeding / drinking finding,62,5.3655775698087605e-05,2.306451612903226
+437768,Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to tuberculosis vaccine,58,5.019411274982389e-05,2.2758620689655173
+4174707,Monitoring procedure||Surveillance||Care regimes surveillance||Dietary management surveillance,58,5.019411274982389e-05,5.810344827586207
+4050586,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Struck by sports equipment,57,4.932869701275796e-05,3.245614035087719
+439996,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Anticoagulant adverse reaction,57,4.932869701275796e-05,1.3859649122807018
+4146976,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Crushed in between objects,56,4.846328127569203e-05,6.089285714285714
+195861,Renal disorders (excl nephropathies)||Renal structural abnormalities and trauma||Kidney small||Small kidney,56,4.846328127569203e-05,13.160714285714286
+443603,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Adverse reaction to antidiabetic drug,53,4.586703406449424e-05,2.0377358490566038
+4105886,Therapeutic and nontherapeutic responses||Therapeutic and nontherapeutic responses||Disease||Adverse reaction,53,4.586703406449424e-05,3.4716981132075473
+40490404,Therapeutic and nontherapeutic responses||Disease||Adverse reaction||Adverse reaction to biological substance,53,4.586703406449424e-05,1.5283018867924527
+4248196,Movement disorders (incl parkinsonism)||Paralysis and paresis (excl cranial nerve)||Middle level sensorimotor gait disorder||Spastic gait,53,4.586703406449424e-05,7.39622641509434
+435088,General body state finding||Elderly||Old-age||Senility,53,4.586703406449424e-05,3.2641509433962264
+4286638,General symptom||Clinical finding||Childhood||Childhood,50,4.327078685329645e-05,3.94
+4053867,Accidental fall||Fall on same level||Fall on same level due to impact against another person||Fall on same level due to accidental impact with another person,49,4.2405371116230525e-05,6.36734693877551
+439224,Seasonal allergy||Vaccination related complications||Specific allergy (drug)||Allergy to drug,49,4.2405371116230525e-05,4.591836734693878
+37312608,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria,49,4.2405371116230525e-05,1.3877551020408163
+439452,Physical assault||Exposure to attack by other person||Assault||Assault by hanging and strangulation,48,4.15399553791646e-05,3.9583333333333335
+435443,Fall||Accidental fall||Fall from furniture||Fall from wheelchair,47,4.067453964209867e-05,6.0212765957446805
+442666,"Motor vehicle traffic accident||Motor vehicle on road in collision with nonmotor vehicle||Motor vehicle on road in collision with pedal cycle||Motor vehicle traffic accident involving collision between motor vehicle and pedal cycle, pedal cyclist injured",44,3.807829243090088e-05,3.5227272727272725
+439222,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Corticosteroids adverse reaction,44,3.807829243090088e-05,3.840909090909091
+434553,Adverse reaction to drug||Adverse reaction to hormone||Sex hormones adverse reaction||Androgen adverse reaction,44,3.807829243090088e-05,3.840909090909091
+4054165,Traumatic event||Exposure to radiation||Exposure to light||Exposure to heat and light,42,3.634746095676902e-05,7.809523809523809
+37312606,Prevention status||Immunization status||Requires vaccination||Requires vaccination against diphtheria-tetanus-pertussis with typhoid-paratyphoid,42,3.634746095676902e-05,1.8571428571428572
+435713,Event||Traumatic event||Accidental event||Transport accident,40,3.461662948263717e-05,4.2
+40479328,Exposure to potentially harmful entity||Exposure to organism||Exposure to viral disease||Exposure to Human immunodeficiency virus,40,3.461662948263717e-05,1.05
+4145318,Perinatal observable||Neonate observable||Birth outcome||Outcome of delivery,40,3.461662948263717e-05,2.15
+4181176,Procedure by method||Education||Disease process or condition education||Education about cardiovascular disease,39,3.375121374557123e-05,2.076923076923077
+4167568,Non-occupational environmental exposures||Traumatic event||Unintended ingestion of product||Accidental exposure to potentially harmful entity,39,3.375121374557123e-05,2.9743589743589745
+196821,Urethral disorders (excl calculi)||Urethral disorders NEC||Urethral finding||Urethral discharge,38,3.2885798008505306e-05,2.0789473684210527
+435988,"Victim of trauma||Victim of vehicular AND/OR traffic accident||Motor vehicle accident victim||Motor vehicle accident, driver",38,3.2885798008505306e-05,4.2105263157894735
+433196,Scarring||Scar||Retinal scar||Chorioretinal scar,37,3.202038227143938e-05,2.4054054054054053
+4035493,Traumatic event||Exposure to mechanical force||Exposure to inanimate mechanical force||Contact with machinery,37,3.202038227143938e-05,4.5675675675675675
+4053428,Vehicle accident||Traffic accident||Motor vehicle traffic accident||Accident while boarding or alighting from motor vehicle on road,36,3.1154966534373445e-05,6.083333333333333
+4168834,Therapeutic and nontherapeutic responses||Disease||Adverse reaction||Beta lactam adverse reaction,36,3.1154966534373445e-05,1
+4079844,Fatal outcomes||Stillbirth and foetal death||Foetal death||Fetal death,35,3.0289550797307518e-05,3.8
+438485,Clinical finding||Procedure related finding||Postprocedural state finding||Postoperative state,35,3.0289550797307518e-05,3.0285714285714285
+37312609,Prevention status||Immunization status||Requires vaccination||Requires vaccination against cholera with typhoid-paratyphoid,34,2.942413506024159e-05,1.0882352941176472
+433390,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Immunosuppressant adverse reaction,33,2.855871932317566e-05,1.9090909090909092
+4303528,Exposure to allergen||Traumatic event||Exposure to non-mechanical force||Exposure to electric current,33,2.855871932317566e-05,2.3636363636363638
+37018684,Premature infant||Baby premature at delivery less than 32 weeks||Baby premature 26-28 weeks||Baby premature 27 weeks,33,2.855871932317566e-05,13.93939393939394
+36716686,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature at delivery 23 completed weeks,32,2.7693303586109733e-05,19.9375
+443448,Vaccination related complications||Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to viral vaccine,32,2.7693303586109733e-05,2.34375
+4098471,Clinical finding||Nutritional finding||Nutrient intake - finding||Imbalance of constituents of food intake,31,2.6827887849043802e-05,1.870967741935484
+440897,Victim status||Victim of trauma||Victim of vehicular AND/OR traffic accident||Motor vehicle accident victim,31,2.6827887849043802e-05,4.67741935483871
+4074035,Lifestyle issues||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,31,2.6827887849043802e-05,2.774193548387097
+4168046,Traumatic event||Accidental event||Transport accident||Vehicle accident,30,2.5962472111977872e-05,5.466666666666667
+4280828,General symptom||Infectious disorders carrier||Infectious disease carrier||Carrier of infectious organism,30,2.5962472111977872e-05,2.4
+4295204,Procedure education||Education about treatment regime||Rehabilitation therapy education||Cardiac rehabilitation education,30,2.5962472111977872e-05,1.0333333333333332
+436292,Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accidentally struck by or against stationary object||Accidental collision with stationary object,30,2.5962472111977872e-05,5.433333333333334
+37312599,Prevention status||Immunization status||Requires vaccination||Requires vaccination against typhoid-paratyphoid,28,2.4231640637846014e-05,1.1785714285714286
+432504,Traumatic event||Accidental event||Accident||Accident caused by fire and flames,28,2.4231640637846014e-05,1.8571428571428572
+4019967,Lifestyle issues||Disability issues||Dialysis finding||Dependence on renal dialysis,27,2.3366224900780087e-05,18.62962962962963
+903654,Lifestyle issues||Tobacco use||Tobacco user||Tobacco or its derivatives user,27,2.3366224900780087e-05,3.148148148148148
+443370,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Diuretic adverse reaction,26,2.2500809163714156e-05,2.730769230769231
+4055051,Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp pointed object,26,2.2500809163714156e-05,4.923076923076923
+443882,Death and sudden death||Event||Death||Unattended death,26,2.2500809163714156e-05,1.9230769230769231
+4168212,Restlessness||Unrest||Restlessness||Restlessness and agitation,25,2.1635393426648226e-05,2.76
+4062888,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle in collision with another pedal cycle,24,2.07699776895823e-05,6.666666666666667
+4315363,"Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by edge tool||Accidents caused by knives, swords and daggers",24,2.07699776895823e-05,2.625
+433657,Traumatic event||Fall||Accidental fall||Fall from furniture,24,2.07699776895823e-05,3.2916666666666665
+4061458,"Pregnancy, childbirth and puerperium finding||Uterus finding||Deliveries by cesarean||Delivery by cesarean hysterectomy",24,2.07699776895823e-05,3.4583333333333335
+438921,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Collision between pedal cycle and fixed object,23,1.9904561952516368e-05,4.478260869565218
+432807,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accidents caused by cutting and piercing instruments or objects,23,1.9904561952516368e-05,3.6956521739130435
+4160623,NA||Event||Maltreatment||Neglect or abandonment,23,1.9904561952516368e-05,8.26086956521739
+42537741,Lifestyle issues||Social issues NEC||Transplant recipient||Transplant present,22,1.903914621545044e-05,8
+4203722,Therapeutic procedures NEC||Medical procedure||Procedure||Patient encounter procedure,22,1.903914621545044e-05,1.4545454545454546
+432509,"Vehicle accident||Traffic accident||Motor vehicle traffic accident||Accident to motor vehicle on road, not involving collision",21,1.817373047838451e-05,4
+436593,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion",21,1.817373047838451e-05,4.904761904761905
+4307686,Traumatic event||Fall||Accidental fall||Fall from tree,21,1.817373047838451e-05,4.238095238095238
+442247,"Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle accident collision with pedestrian||Pedal cycle accident involving collision between pedal cycle and pedestrian, pedestrian injured",19,1.6442899004252653e-05,5.7368421052631575
+432789,Drug side effect||Adverse reaction to drug||Analgesic adverse reaction||Opioid analgesic adverse reaction,19,1.6442899004252653e-05,3.8947368421052633
+435154,"NA||Event||Event of undetermined intent||Hanging, strangulation or suffocation of unknown intent",18,1.5577483267186722e-05,7.5
+439632,Accidental event||Medical accident to patient during surgical and medical care||Failure of sterile precautions during procedure||Failure of sterile precautions during infusion or transfusion,18,1.5577483267186722e-05,2.944444444444444
+4334494,Family history of disorder||Family history of neoplasm||Family history of malignant neoplasm||Family history of malignant neoplasm of digestive organ,18,1.5577483267186722e-05,6
+4055054,"Exposure to non-mechanical force||Exposure to electric current||Exposure to electric current, with passage of current through tissue||Exposure to current from electric transmission lines, with passage of current through tissue",18,1.5577483267186722e-05,1.8333333333333333
+443367,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antihypertensive adverse reaction,17,1.4712067530120795e-05,3.411764705882353
+438657,Adverse reaction to drug||Anti-infectives adverse reaction||Antibacterial drug adverse reaction||Antimycobacterial agent adverse reaction,17,1.4712067530120795e-05,6.705882352941177
+4243334,Viscus structure finding||Lung finding||Pulmonary aspiration||Aspiration of food,17,1.4712067530120795e-05,1.4117647058823528
+36712857,Social context finding||Social problem not due to a mental disorder||Family disruption||Family disruption due to death of family member,16,1.3846651793054866e-05,7.1875
+4055029,Procedure by method||Education||Functional training||Stoma training,16,1.3846651793054866e-05,1
+4025215,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Mental state finding||Emotional state finding",16,1.3846651793054866e-05,1.875
+4014829,Medical procedure||Procedure||Procedure by method||Consultation,16,1.3846651793054866e-05,1
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,16,1.3846651793054866e-05,3.75
+4170260,Sleep disorders and disturbances||Parasomnias||Nightmares||Nightmares,16,1.3846651793054866e-05,5.25
+4105261,NA||Situation with explicit context||Family history with explicit context||Family social history,16,1.3846651793054866e-05,7.1875
+36714126,Neurological signs and symptoms NEC||Gait disturbance||Walking difficulty||Difficulty walking,16,1.3846651793054866e-05,2.1875
+443548,Disease||Adverse reaction||Adverse reaction to biological substance||Adverse reaction to blood or blood product,16,1.3846651793054866e-05,2.25
+4315372,Accidents caused by cutting and piercing instruments or objects||Accident caused by nonpowered hand tools and implements||Accident caused by sharp-edged object||Accident caused by glass edge,16,1.3846651793054866e-05,3.5625
+37016220,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature 24 weeks,15,1.2981236055988936e-05,8.466666666666667
+433658,Disease||Anti-infectives adverse reaction||Beta lactam adverse reaction||Penicillin adverse reaction,15,1.2981236055988936e-05,2.933333333333333
+4095811,Drug side effect||Adverse reaction to drug||Antihypertensive adverse reaction||Beta-adrenoceptor blocking drug adverse reaction,15,1.2981236055988936e-05,1.2
+4169301,Non-occupational environmental exposures||Exposure to allergen||Exposure to potentially harmful entity||Exposure to gaseous substance,15,1.2981236055988936e-05,1.8666666666666667
+435439,Motor vehicle accident||Motor vehicle accident off public road||Accident to specialized powered vehicle not for use on public roadway||Accidents involving powered vehicles used solely within the buildings and premises of an industrial or commercial establishment,14,1.2115820318923007e-05,11
+440896,Traumatic event||Accidental event||Transport accident||Railway accident,14,1.2115820318923007e-05,3.2857142857142856
+440910,Drug side effect||Adverse reaction to drug||Anti-infectives adverse reaction||Antiviral drug adverse reaction,14,1.2115820318923007e-05,1.0714285714285714
+4169106,Mood alterations with depressive symptoms||Emotional state finding||Mood finding||Feeling unhappy,14,1.2115820318923007e-05,1.2857142857142858
+4041284,General signs and symptoms NEC||General symptom||Clinical finding||Functional finding,14,1.2115820318923007e-05,2.857142857142857
+4162908,Drug side effect||Adverse reaction to drug||Diuretic adverse reaction||Loop diuretic adverse reaction,13,1.1250404581857078e-05,2
+4088034,Prevention status||Monitoring status||Chronic disease monitoring status||Repeat prescription monitoring status,13,1.1250404581857078e-05,1.9230769230769231
+4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,13,1.1250404581857078e-05,3.5384615384615383
+4244882,Traumatic event||Fall||Accidental fall||Fall while being carried,13,1.1250404581857078e-05,4.076923076923077
+36713467,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn unspecified as to place of birth,13,1.1250404581857078e-05,1.3076923076923077
+4051630,Social problem||Social context finding||Social problem not due to a mental disorder||Malingering,12,1.038498884479115e-05,1.75
+434537,"Accident||Accident due to physical impact or mechanical violence||Accidentally struck by or against objects or persons||Accident caused by a crowd, by collective fear or panic",12,1.038498884479115e-05,6
+4179963,Family history with explicit context||Family history of neoplasm||Have you or anyone in your family ever been diagnosed with the following cancer conditions? Think only of the people you are related to by blood. Select all that apply.||Family history of breast cancer,12,1.038498884479115e-05,3
+4051114,Sick relative||Family history of disorder||Family history of metabolic disorder||Family history of diabetes mellitus,12,1.038498884479115e-05,1.75
+438929,Traumatic or non-traumatic injury||Traumatic injury||Traumatic complication of procedure||Acute reaction to foreign substance accidentally left during a procedure,12,1.038498884479115e-05,2.3333333333333335
+37312604,Prevention status||Immunization status||Requires vaccination||Requires vaccination against measles,11,9.51957310772522e-06,1.1818181818181819
+4097925,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Calcium-channel blocker adverse reaction,11,9.51957310772522e-06,2.909090909090909
+4251306,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Stress||Stress",11,9.51957310772522e-06,2.6363636363636362
+434548,Accidental event||Medical accident to patient during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during removal of catheter or packing,11,9.51957310772522e-06,2.3636363636363638
+36716685,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature at delivery less than 23 weeks,11,9.51957310772522e-06,8.454545454545455
+42535090,"Clinical finding||Finding by method||Household, family and support network finding||Need for personal care assistance",11,9.51957310772522e-06,3.6363636363636362
+436874,Accident||Accident due to physical impact or mechanical violence||Accident caused by machinery||Accident caused by agricultural machine,11,9.51957310772522e-06,4.454545454545454
+438041,Adverse reaction to drug||Anesthetics adverse reaction||General anesthetic drug adverse reaction||Inhalational anesthetics adverse reaction,11,9.51957310772522e-06,8.090909090909092
+4164114,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Calcium regulating agent adverse reaction,11,9.51957310772522e-06,2.090909090909091
+436589,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accident caused by diving or jumping into water",11,9.51957310772522e-06,4.909090909090909
+432512,Traumatic event||Accidental event||Medical accident to patient during surgical and medical care||Foreign object left in body during procedure,11,9.51957310772522e-06,1.7272727272727273
+4053605,Mechanical abnormality||Mechanical lesion||Disruption||Rupture,11,9.51957310772522e-06,5
+439558,Vaccination related complications||Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine,11,9.51957310772522e-06,1.4545454545454546
+36716761,"Finding of neonate||Functional finding||Eating, feeding and drinking abilities - finding||Neonatal difficulty in feeding at breast",10,8.654157370659292e-06,2.4
+603099,Vaccination related complications||Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to COVID-19 vaccine,10,8.654157370659292e-06,1.6
+44805275,Finding related to ability to perform personal care activity||Finding related to ability to manage personal health care||Finding related to ability to use appliances for sensory impairment||Uses visual aid,10,8.654157370659292e-06,2.2
+254163,Respiratory tract disorders NEC||Pulmonary aspiration||Vomit aspiration||Pulmonary aspiration of gastric contents,10,8.654157370659292e-06,1.3
+4083044,Social issues NEC||Convalescent||Convalescence||Convalescence after fracture treatment,10,8.654157370659292e-06,1
+45765650,Regimes and therapies||Monitoring procedure||Surveillance||Surveillance of contraception,10,8.654157370659292e-06,2.3
+441205,Accidental event||Medical accident to patient during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during surgical operation,10,8.654157370659292e-06,2
+4044812,Morphologically altered structure||Morphologically abnormal structure||Abnormal cellular component of blood||Abnormality of red blood cells,10,8.654157370659292e-06,3.2
+432809,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antiepileptic adverse reaction,10,8.654157370659292e-06,6.7
+4154624,General symptom||Problem||Problem situation||Problem situation relating to social and personal history,10,8.654157370659292e-06,2.5
+4073070,"Burning due to contact with hot substance||Burning due to contact with hot solid objects and materials||Burning due to contact with hot metal objects||Burning due to contact with hot heating appliances, radiators and pipes",9,7.788741633593361e-06,6.444444444444445
+3661813,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Adverse reaction to hormone,9,7.788741633593361e-06,1.8888888888888888
+37016221,Premature infant||Premature baby less than 26 weeks||Premature baby less than 26 weeks||Baby premature 25 weeks,9,7.788741633593361e-06,6.222222222222222
+432806,Accidental fall||Fall from one level to another||Fall from geological formation||Fall from cliff,9,7.788741633593361e-06,5.444444444444445
+195597,Kidney small||Small kidney||Small right kidney||Bilateral small kidney,9,7.788741633593361e-06,6.444444444444445
+4095498,Therapeutic and nontherapeutic responses||Disease||Adverse reaction||Diagnostic agent adverse reaction,9,7.788741633593361e-06,1
+44790762,Clinical finding||Finding of physical location of patient||Place of occurrence of injury||Place of occurrence of injury is unknown environment,9,7.788741633593361e-06,1.777777777777778
+46270485,Clinical finding||General clinical state finding||Finding related to biological sex||Indeterminate sex,9,7.788741633593361e-06,5.333333333333333
+442995,Event||Traumatic event||Contact with hot or corrosive substance||Burning due to contact with hot substance,9,7.788741633593361e-06,1.4444444444444444
+4318639,Accidental drowning and submersion||Accidental drowning or immersion during recreation||Accidental drowning or immersion while swimming||Accidental drowning and submersion in swimming pool,9,7.788741633593361e-06,2.888888888888889
+37016222,Premature infant||Baby premature at delivery less than 32 weeks||Baby premature 26-28 weeks||Baby premature 26 weeks,8,6.923325896527433e-06,23
+439656,NA||Situation with explicit context||Antenatal risk factors||Antenatal care: grand multiparity,8,6.923325896527433e-06,3.875
+438301,Traumatic event||Accidental event||Transport accident||Water transport accident,8,6.923325896527433e-06,6.125
+3661517,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Adverse reaction to platelet aggregation inhibitor,8,6.923325896527433e-06,1
+4240903,Vaccination related complications||Specific allergy (drug)||Penicillin allergy||Allergy to penicillin,8,6.923325896527433e-06,6.375
+441751,Adverse reaction to drug||Analgesic adverse reaction||Non-opioid analgesic adverse reaction||Adverse reaction to salicylate,8,6.923325896527433e-06,1.125
+440309,Vaccination adverse reaction||Vaccine adverse reaction||Adverse reaction to bacterial vaccine||Adverse reaction to diphtheria vaccine,8,6.923325896527433e-06,1.875
+4054297,Vehicle accident||Traffic accident||Motor vehicle traffic accident||Motor vehicle on road in collision with road-side fixed object,8,6.923325896527433e-06,6.25
+442289,Death and sudden death||Event||Death||Death in less than 24 hours from onset of symptoms,8,6.923325896527433e-06,1.875
+438639,Drug side effect||Disorder caused by psychoactive substance||Adverse reaction caused by psychotropic||Antidepressant drug adverse reaction,8,6.923325896527433e-06,1.875
+443602,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Adverse reaction to antiparkinsonism drug,7,6.0579101594615035e-06,1.1428571428571428
+36717636,Reproductive care||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of insufficient antenatal care,7,6.0579101594615035e-06,4.142857142857143
+4083043,Social issues NEC||Convalescent||Convalescence||Convalescence after surgery,7,6.0579101594615035e-06,2.5714285714285716
+4059637,Employment finding||Job details - finding||Details relating to place of work and employer - finding||Work environment deleterious,7,6.0579101594615035e-06,1.7142857142857142
+36713468,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Multiple liveborn other than twins born in hospital,7,6.0579101594615035e-06,1
+438631,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antithyroid drug adverse reaction,7,6.0579101594615035e-06,3
+4067156,Vehicle accident||Accident to unpowered road vehicle or conveyance||Pedal cycle accident||Pedal cycle accident collision with pedestrian,7,6.0579101594615035e-06,5
+45765734,Reproductive care||Supervision||Supervision of high risk pregnancy||Supervision of high risk pregnancy for primigravida age 15 years or younger,7,6.0579101594615035e-06,1.4285714285714286
+4079936,Social issues NEC||Convalescent||Convalescence||Convalescence after chemotherapy,7,6.0579101594615035e-06,2.142857142857143
+436592,"Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion||Accidental drowning or immersion in bathtub",7,6.0579101594615035e-06,5.857142857142857
+435137,"Accidental event||Medical accident to patient during surgical and medical care||Foreign object left in body during procedure||Foreign object left in body during aspiration of fluid or tissue, puncture and catheterization",7,6.0579101594615035e-06,2.4285714285714284
+4095832,Drug side effect||Adverse reaction to drug||Sympathomimetic adverse reaction||Beta-adrenoceptor agonist adverse reaction,7,6.0579101594615035e-06,2.2857142857142856
+443371,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Antiarrhythmic drug adverse reaction,7,6.0579101594615035e-06,1.4285714285714286
+4116798,General signs and symptoms NEC||General symptom||Clinical finding||Finding of general observation of appearance,6,5.192494422395575e-06,6.166666666666667
+42537744,Social issues NEC||Transplant recipient||Transplant present||Transplanted cornea present,6,5.192494422395575e-06,10.833333333333334
+4200056,General symptom||Clinical finding||Eye / vision finding||Finding of vision of eye,6,5.192494422395575e-06,3.5
+3661779,"Drug side effect||Sedative, hypnotic AND/OR anxiolytic-related disorder||Sedative adverse reaction||Adverse reaction to benzodiazepine",6,5.192494422395575e-06,1
+42872393,Nutritional finding||Dietary finding||Dietary history||Inappropriate diet and eating habits,6,5.192494422395575e-06,1.3333333333333333
+443375,Therapeutic and nontherapeutic responses||Drug side effect||Adverse reaction to drug||Vitamin products adverse reaction,6,5.192494422395575e-06,5.833333333333333
+4304736,Therapeutic and nontherapeutic responses||Disease||Adverse reaction||Para-aminophenol derivative adverse reaction,6,5.192494422395575e-06,1.1666666666666667
+4168964,Therapeutic and nontherapeutic responses||Disease||Adverse reaction||Propionic acid derivative adverse reaction,6,5.192494422395575e-06,2.5
+4165323,Adverse reaction to drug||Diuretic adverse reaction||Potassium sparing diuretic adverse reaction||Aldosterone antagonists adverse reaction,6,5.192494422395575e-06,1
+4022065,Role relationship pattern||Parenting finding||Parent-child problem||Overprotective parent,6,5.192494422395575e-06,6.833333333333333
+439448,Physical assault||Exposure to attack by other person||Assault||Assault by drowning,6,5.192494422395575e-06,1.6666666666666667
+432800,Physical assault||Exposure to attack by other person||Assault||Assault by cutting and stabbing instruments,6,5.192494422395575e-06,3.3333333333333335

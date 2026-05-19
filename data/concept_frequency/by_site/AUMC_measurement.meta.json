@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:31:24.792841+00:00",
+  "site_code": "AUMC",
+  "cdm_name": "AUMC_5.3.1_11",
+  "group_id": 9,
+  "site_id": 191,
+  "source_key": "cdmpv53_251128",
+  "domain": "measurement",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/measurement",
+  "rows_returned": 1931,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 0.42,
+  "source_id": 9,
+  "source_name": "AUMC_5.3.1_11",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 27-FEB-25",
+  "total_persons": 2938928,
+  "data_cutoff_month": 202606
+}

@@ -1,0 +1,120 @@
+conceptId,conceptPath,numPersons,percentPersons,recordsPerPerson
+4214956,NA||NA||NA||History of clinical finding in subject,279066,0.2745618134503471,3.8880408218844287
+40479411,Situation with explicit context||Finding with explicit context||Possible clinical finding||Suspected clinical finding,244780,0.2408291970228403,8.131019691151238
+4074035,Clinical finding||Health-related behavior finding||Finding relating to alcohol drinking behavior||Current drinker,19262,0.018951107088217786,1.127920257501817
+40766945,{component}||Survey terms not yet categorized||Specification of main pathology panel Spine Tango||Current smoker,14404,0.014171516275500416,1.172035545681755
+4167217,NA||Situation with explicit context||Finding with explicit context||Family history of clinical finding,12494,0.012292344095119563,1.150472226668801
+4304360,Procedure||Administrative procedure||Certification procedure||Preparation of medical certificate,10611,0.010439736128806923,3.0197907831495616
+4047564,Reproductive care||Antenatal/postnatal care||Antenatal care||Routine antenatal care,8109,0.007978118958486036,6.603403625601184
+4310250,Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker||Ex-smoker,5643,0.005551920740256099,1.1226298068403333
+44784283,Prevention status||Immunization status||Requires vaccination||Requires influenza virus vaccination,5538,0.005448615463324167,3.6601661249548574
+36713471,Reproductive care||Procedure by priority||Routine procedure||Routine postpartum follow-up,5067,0.00498521750680093,2.581606473258338
+704996,Clinical finding||General clinical state finding||COVID-19 diagnostic criterion||Patient meets COVID-19 laboratory diagnostic criteria,4644,0.004569044819732292,2.875968992248062
+4051104,NA||Situation with explicit context||Finding with explicit context||No family history of,4605,0.004530674288300431,1.057328990228013
+1340204,NA||Qualifier value||Situation with explicit context||History of event,4423,0.004351611808285083,4.742934659733213
+36713465,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Singleton liveborn born in hospital,2651,0.0026082122775861983,2.906450396076952
+4169307,Propensity to adverse reaction||Propensity to adverse reaction||Propensity to adverse reactions to substance||Allergy to substance,2371,0.0023327315391010474,1.1956980177140446
+437643,Finding related to ability to move||Finding of walking||Finding of gait||Abnormal gait,2327,0.0022894417087676662,5.277610657498926
+37109774,Administrative statuses||Prevention status||Immunization status||Requires vaccination,2294,0.002256974336017631,3.3491717523975586
+4220362,Health-related behavior finding||Finding relating to alcohol drinking behavior||Non - drinker||Ex-drinker,2074,0.002040525184350726,1.0675024108003857
+45765728,Regimes and therapies||Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy,1974,0.0019421392063203153,6.02532928064843
+435928,Weight trend finding||Weight change finding||Weight loss||Abnormal weight loss,1888,0.0018575272652141617,5.779661016949152
+4023154,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor for liver transplant,1677,0.0016499328515699942,3.642814549791294
+36713461,Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida||Antenatal care of elderly primigravida,1583,0.0015574500322214078,6.569804169298799
+3003680,{component}||History and physical panel||Patient history||History of Allergies,1359,0.001337065441433287,1.0515084621044886
+441413,NA||Event||Death||Death of unknown cause,1260,0.0012396633231831799,1.026190476190476
+37312598,Prevention status||Immunization status||Requires vaccination||Requires vaccination against viral hepatitis,1075,0.0010576492638269194,3.2511627906976743
+4307024,NA||Procedure||Patient encounter procedure||Follow-up encounter,1055,0.0010379720682208373,5.817061611374408
+37312602,Prevention status||Immunization status||Requires vaccination||Requires vaccination against pertussis,952,0.0009366345108495137,1.5577731092436975
+45766277,Finding of region of thorax||Viscus structure finding||Device in situ||Cardiac implant in situ,856,0.0008421839719403191,25.442757009345794
+4266614,Eating feeding / drinking observable||Characteristic of drinking||Drinking pattern||Frequency of drinking,743,0.0007310078167659546,1.0551816958277254
+4061424,Antenatal/postnatal care||Antenatal care||Antenatal care categorized by gravida number||Antenatal care: primigravida,730,0.000718217639622001,4.697260273972603
+4196193,Function||Nervous system function||Cerebral function||Drowsiness,696,0.0006847664070916613,1.1752873563218391
+40479809,Event||Exposure to potentially harmful entity||Exposure to organism||Exposure to Mycobacterium tuberculosis,682,0.0006709923701674037,4.265395894428153
+43531719,Musculoskeletal finding||Joint finding||Knee joint finding||Artificial knee joint present,589,0.0005794934105991214,6.516129032258064
+35622275,Musculoskeletal finding||Prosthesis in situ||Postprocedural finding of lower limb||Hip joint prosthesis present,554,0.0005450583182884776,6.086642599277979
+40485017,NA||Event||Exposure to potentially harmful entity||Exposure to communicable disease,483,0.0004752042738868856,1.5320910973084887
+4279614,NA||Event||Traumatic event||Asphyxiation,457,0.00044962391959897874,1.5667396061269148
+4019967,Functional finding||Finding of functional performance and activity||Dialysis finding||Dependence on renal dialysis,450,0.00044273690113685,3.328888888888889
+441207,Disease||Disease||Drug-related disorder||Adverse reaction to drug,440,0.0004328983033338089,6.55
+36713460,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of infertility,365,0.0003591088198110005,7.438356164383562
+4145111,Procedure on head||Procedure on mouth||Inspection of mouth||Dental consultation and report,353,0.0003473025024473512,4.835694050991501
+40483084,Situation with explicit context||Finding with explicit context||Liveborn born in hospital||Twin liveborn born in hospital,322,0.0003168028492579238,3.5093167701863353
+439141,Weight trend finding||Weight change finding||Weight gain||Abnormal weight gain,253,0.0002489165244169401,5.130434782608695
+4096848,Finding of walking||Finding of gait||Abnormal gait||Ataxic gait,246,0.00024202950595481133,7.479674796747967
+45766222,"Prevention status||Immunization status||Requires vaccination||Requires diphtheria, tetanus and pertussis vaccination",244,0.0002400617863942031,4.622950819672131
+433315,Clinical finding||Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn,200,0.00019677195606082222,6.72
+37117058,Situation with explicit context||Procedure with explicit context||Procedure not done||Vaccination not done,197,0.0001938203767199099,1.5279187817258884
+4015930,Prevention status||Immunization status||Requires vaccination||Requires polio vaccination,192,0.00018890107781838932,4.973958333333333
+4022062,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Bone marrow donor,181,0.0001780786202350441,2.0110497237569063
+606878,General finding of observation of patient||Head finding||Finding of head circumference||Microcephaly,178,0.00017512704089413177,10.606741573033707
+434750,Clinical finding||Eating / feeding / drinking finding||Feeding finding||Feeding difficulties and mismanagement,146,0.0001436435279244002,5.63013698630137
+4173786,Care of patient states||Reproductive care||Antenatal/postnatal care||Antenatal care,136,0.0001338049301213591,11.095588235294118
+45771329,"Prevention status||Immunization status||Requires vaccination||Requires measles, mumps and rubella vaccination",129,0.00012691791165923033,2.488372093023256
+4314871,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, home",122,0.00012003089319710156,1.7459016393442623
+141693,Situation with explicit context||Finding with explicit context||Disorder excluded||Elevated blood-pressure reading without diagnosis of hypertension,120,0.00011806317363649332,3.0166666666666666
+4030353,General finding of height||Height above average||Tall stature||Constitutional tall stature,110,0.00010822457583345222,6.254545454545455
+606633,General finding of observation of patient||Head finding||Finding of head circumference||Macrocephaly,103,0.00010133755737132343,5.883495145631068
+4022569,NA||NA||Clinical finding||Eating / feeding / drinking finding,90,8.854738022736999e-05,3.2333333333333334
+4014829,NA||Procedure||Procedure by method||Consultation,84,8.264422154554533e-05,1.9166666666666667
+4016909,Prevention status||Immunization status||Requires vaccination||Requires full course of tetanus vaccination,81,7.9692642204633e-05,2.444444444444444
+438668,Traumatic event||Accidental event||Accident due to environmental factor||Accidents due to travel and motion,73,7.18217639622001e-05,2.0273972602739727
+4222303,Health-related behavior finding||Tobacco use and exposure - finding||Tobacco smoking behavior - finding||Non-smoker,69,6.788632484098367e-05,1.0289855072463767
+4019957,Person in the healthcare environment||Donor for medical or surgical procedure||Organ donor||Donor of kidney for transplant,68,6.690246506067955e-05,4.955882352941177
+37312610,Prevention status||Immunization status||Requires vaccination||Requires vaccination against arthropod-borne viral encephalitis,57,5.608000747733433e-05,2.245614035087719
+4079844,NA||Event||Death||Fetal death,52,5.116070857581378e-05,2.173076923076923
+4329840,General finding of observation of patient||Social context finding||Social problem not due to a mental disorder||Legal problem,51,5.017684879550966e-05,1.1764705882352942
+4152780,Equipment observable||Musculoskeletal observable||Musculoskeletal device observable||Presence of orthopedic joint implant,47,4.624140967429322e-05,6
+42537733,Musculoskeletal finding||Finding of face||Prosthesis in situ||Mandibular implant in situ,45,4.4273690113684997e-05,1.8444444444444443
+443080,NA||Event||Abuse||Sexual abuse,43,4.230597055307677e-05,2.186046511627907
+4021166,NA||Procedure||Regimes and therapies||Care regime,41,4.0338250992468555e-05,1.6829268292682926
+432504,Traumatic event||Accidental event||Accident||Accident caused by fire and flames,35,3.443509231064389e-05,1.2571428571428571
+43020416,Problem situation||Problem situation relating to social and personal history||Family problems||Problem with aged spouse or partner,34,3.345123253033977e-05,12.323529411764707
+40479792,Event||Exposure to potentially harmful entity||Exposure to communicable disease||Exposure to viral hepatitis,33,3.2467372750035664e-05,2.5454545454545454
+40481925,Situation with explicit context||Finding with explicit context||Clinical finding absent||No history of clinical finding in subject,33,3.2467372750035664e-05,1.0303030303030303
+4291007,Traumatic event||Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal,30,2.951579340912333e-05,2.1333333333333333
+36717636,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of pregnancy with history of insufficient antenatal care,29,2.8531933628819222e-05,1.6896551724137931
+42600276,Exposure to mechanical force||Exposure to animate mechanical force||Exposure to attack by mammal||Attacked by dog,28,2.754807384851511e-05,1.25
+45768509,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, public place",25,2.4596494507602777e-05,2.44
+4219484,NA||Event||Traumatic event||Suicide attempt,25,2.4596494507602777e-05,1.36
+42709971,Device in situ||Prosthesis in situ||Prosthetic heart valve in situ||Biologic cardiac valve prosthesis in situ,24,2.3612634727298665e-05,9.333333333333334
+43530893,Disease suspected||Suspected fetal disorder||Suspected fetal damage from disease in the mother||Suspected fetal damage from viral disease in mother,22,2.1644915166690444e-05,2.0454545454545454
+4105261,NA||Situation with explicit context||Family history with explicit context||Family social history,22,2.1644915166690444e-05,5.590909090909091
+444046,Event||Traumatic event||Exposure to non-mechanical force||Cold exposure,22,2.1644915166690444e-05,5.454545454545454
+4071863,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Underfeeding in newborn,21,2.0661055386386332e-05,4.190476190476191
+441488,Clinical finding||Disease||Adverse reaction||Adverse reaction to substance,21,2.0661055386386332e-05,13.142857142857142
+4154624,General finding of observation of patient||Problem||Problem situation||Problem situation relating to social and personal history,20,1.967719560608222e-05,3.45
+45765734,Procedure with a clinical finding focus||Supervision||Supervision of high risk pregnancy||Supervision of high risk pregnancy for primigravida age 15 years or younger,20,1.967719560608222e-05,3.05
+4186037,Procedure||Regimes and therapies||Care regime||Aftercare,19,1.869333582577811e-05,3.4210526315789473
+4310930,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, farm",18,1.7709476045474e-05,1.4444444444444444
+4022061,Person||Person in the healthcare environment||Donor for medical or surgical procedure||Blood donor,17,1.6725616265169886e-05,1.647058823529412
+4167568,Event||Traumatic event||Exposure to potentially harmful entity||Accidental exposure to potentially harmful entity,17,1.6725616265169886e-05,1.2352941176470589
+4203722,NA||NA||Procedure||Patient encounter procedure,16,1.5741756484865778e-05,1.75
+4155221,Accidental event||Accident due to environmental factor||Accident due to animal or plant||Exposure to poison of venomous animals and plants,15,1.4757896704561666e-05,2.2666666666666666
+441139,Event||Death||Sudden death||Instantaneous death,15,1.4757896704561666e-05,1
+4318516,"Traumatic event||Accidental event||Accident||Accident caused by immersion, suffocation, foreign body",15,1.4757896704561666e-05,1.2666666666666666
+36713466,NA||Situation with explicit context||Finding with explicit context||Singleton liveborn born outside hospital,14,1.3774036924257555e-05,3.142857142857143
+4334494,Family history of disorder||Family history of neoplasm||Family history of cancer||Family history of malignant neoplasm of digestive organ,14,1.3774036924257555e-05,4.714285714285714
+4314991,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, industrial place and premises",14,1.3774036924257555e-05,1.2142857142857142
+4054573,Traumatic event||Traumatic event||Contact with hot or corrosive substance||Accident due to contact with hot or corrosive substance,13,1.2790177143953445e-05,1.3076923076923077
+436583,Event||Traumatic event||Exposure to mechanical force||Fall,12,1.1806317363649332e-05,3.8333333333333335
+4248196,Finding of gait||Abnormal gait||Middle level sensorimotor gait disorder||Spastic gait,11,1.0822457583345222e-05,14.545454545454545
+4311077,"Environment||Place||Place of occurrence of accident or poisoning||Place of occurrence of accident or poisoning, residential institution",11,1.0822457583345222e-05,2.090909090909091
+437165,Transport accident||Vehicle accident||Motor vehicle accident||Motor vehicle traffic accident,11,1.0822457583345222e-05,1
+45765666,Procedure||Surveillance||Surveillance of contraception||Surveillance of intrauterine device contraception,10,9.83859780304111e-06,1.6
+441764,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation or ingestion of foreign body with respiratory obstruction or suffocation",10,9.83859780304111e-06,1
+440279,Event||Traumatic event||Accidental event||Accident,10,9.83859780304111e-06,1.8
+4155398,"Clinical finding||Mental state, behavior and/or psychosocial function finding||Finding relating to psychosocial functioning||Malingerer",9,8.854738022737e-06,2.444444444444444
+4171358,Eating / feeding / drinking finding||Finding of neonate||Feeding problems in newborn||Slow feeding in newborn,9,8.854738022737e-06,4.333333333333333
+4148585,Traumatic event||Asphyxiation||Accidental asphyxia||Mechanical asphyxia accident,9,8.854738022737e-06,1.3333333333333333
+4019953,Social context||Person||Person in the healthcare environment||Donor for medical or surgical procedure,8,7.870878242432889e-06,2.125
+438638,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Inhalation and ingestion of food causing obstruction of respiratory tract or suffocation",8,7.870878242432889e-06,1.5
+43530888,Suspected clinical finding||Disease suspected||Suspected fetal disorder||Suspected fetal damage from radiation,7,6.8870184621287775e-06,2.142857142857143
+37312599,Prevention status||Immunization status||Requires vaccination||Requires vaccination against typhoid-paratyphoid,7,6.8870184621287775e-06,2.5714285714285716
+439452,Exposure to animate mechanical force||Exposure to attack by other person||Assault||Assault by hanging and strangulation,7,6.8870184621287775e-06,1.1428571428571428
+4073205,Traumatic event||Bite||Bite of non-human animal||Bite of reptile,6,5.903158681824666e-06,1.6666666666666667
+437478,Bite||Bite of non-human animal||Bite of arthropod||Bite of nonvenomous arthropod,6,5.903158681824666e-06,1.6666666666666667
+436593,"Accidental event||Accident||Accident caused by immersion, suffocation, foreign body||Accidental drowning and submersion",6,5.903158681824666e-06,2.1666666666666665
+4098471,Clinical finding||Nutritional finding||Nutrient intake - finding||Imbalance of constituents of food intake,6,5.903158681824666e-06,1.5
+4303528,Event||Traumatic event||Exposure to non-mechanical force||Exposure to electric current,6,5.903158681824666e-06,3.3333333333333335
+4265443,Equipment finding||Device status||Device applied to patient||Device in situ,6,5.903158681824666e-06,2

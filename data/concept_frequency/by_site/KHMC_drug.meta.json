@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-05-12T08:37:59.299046+00:00",
+  "site_code": "KHMC",
+  "cdm_name": "KHMC_5.3.1_07",
+  "group_id": 11,
+  "site_id": 202,
+  "source_key": "cdmpv53_251128",
+  "domain": "drug",
+  "api_endpoint": "/cdmresults/cdmpv53_251128/drug",
+  "rows_returned": 3681,
+  "collector_script": "refresh_achilles_frequency.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "fetch_seconds": 4.32,
+  "source_id": 7,
+  "source_name": "KHMC_5.3.1_07",
+  "source_dialect": "postgresql",
+  "daimons": {
+    "CDM": "cdmpv53_251128",
+    "Vocabulary": "cdmpv53_251128",
+    "Results": "cdmpv53_251128_results_fnet_v2120",
+    "CEM": "cdmpv53_251128_results_fnet_v2120"
+  },
+  "omop_vocabulary_release": "v5.0 31-MAY-23",
+  "total_persons": 1222935,
+  "data_cutoff_month": 202210
+}
