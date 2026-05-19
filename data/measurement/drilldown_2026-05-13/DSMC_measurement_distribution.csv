@@ -1,0 +1,636 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+DSMC,3000963,Hemoglobin [Mass/volume] in Blood,314582,8713,gram per deciliter,2339202,0,8.7,10.1,12,13.7,15,26.3
+DSMC,3027018,Heart rate,314049,8483,counts per minute,17164234,0,62,70.0,80.0,95,118,323
+DSMC,3004501,Glucose [Mass/volume] in Serum or Plasma,307905,8840,milligram per deciliter,2127816,1,85,94,107,134,179,3131
+DSMC,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,306625,8645,unit per liter,2100011,-21,9,12,18,28,49,9161
+DSMC,3016723,Creatinine [Mass/volume] in Serum or Plasma,306607,8840,milligram per deciliter,2184898,0,0.52,0.65,0.83,1.1,1.98,33.35
+DSMC,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,306392,8645,unit per liter,2099517,3,14,18,23,31,49,27890.0
+DSMC,3024171,Respiratory rate,296667,8483,counts per minute,15116836,0,16,18,20.0,20.0,26,200.0
+DSMC,3004249,Systolic blood pressure,290081,8876,millimeter mercury column,14999388,0,97,110.0,123,140.0,150.0,300.0
+DSMC,3012888,Diastolic blood pressure,290061,8876,millimeter mercury column,14998595,0,52,60.0,70.0,80.0,89,270.0
+DSMC,3003338,MCHC [Mass/volume],288347,8713,gram per deciliter,2247471,0,31.6,32.4,33.2,33.9,34.7,228.5
+DSMC,3035941,MCH [Entitic mass],288347,8564,picogram,2247471,0,28,29.4,30.6,31.9,33.1,2860.0
+DSMC,3009542,Hematocrit [Volume Fraction] of Blood,288347,8554,percent,2247471,0.6,26.3,30.6,36.1,40.6,44.4,77.4
+DSMC,3024731,MCV [Entitic volume],288347,8583,femtoliter,2247471,2,85.2,88.7,92.1,95.6,99.4,200.0
+DSMC,3026361,Erythrocytes [#/volume] in Blood,288347,0,No matching concept,2247471,0.04,2.81,3.3,3.93,4.47,4.9,13
+DSMC,3010813,Leukocytes [#/volume] in Blood,288346,8848,thousand per microliter,2247470,0,3.97,5.17,6.75,9.05,12.41,19031808359
+DSMC,3007461,Platelets [#/volume] in Blood,288346,8848,thousand per microliter,2247470,0,107,164,218,275,340.0,5270.0
+DSMC,3001123,Platelet mean volume [Entitic volume] in Blood,286155,8583,femtoliter,2241831,5.5,8.6,9.2,9.9,10.6,11.4,6060.0
+DSMC,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,281371,8554,percent,11110023,0,95,97,98,99,100.0,100.0
+DSMC,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,274038,8840,milligram per deciliter,2075393,0,9,12,16,23,38,298
+DSMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,272815,8840,milligram per deciliter,1958665,-0.43,0.25,0.36,0.52,0.79,1.25,65.33
+DSMC,3020630,Protein [Mass/volume] in Serum or Plasma,271579,8713,gram per deciliter,1929667,-1.6,5.3,6,6.7,7.1,7.5,15.6
+DSMC,3024561,Albumin [Mass/volume] in Serum or Plasma,271543,8713,gram per deciliter,1937726,0,2.9,3.5,4.1,4.5,4.7,7.3
+DSMC,3006906,Calcium [Mass/volume] in Serum or Plasma,270087,8840,milligram per deciliter,1930098,1.2,8.1,8.6,9.1,9.5,9.9,73
+DSMC,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",270051,0,No matching concept,2028395,0,27.9,60.9,86.9,101.2,116.9,896.2
+DSMC,46236952,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",270051,0,No matching concept,2028395,0,25.8,58,83,105.2,134.3,42115.5
+DSMC,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,270035,8645,unit per liter,1946887,1,49,61,77,104,162,6000.0
+DSMC,3011904,Phosphate [Mass/volume] in Serum or Plasma,269862,8840,milligram per deciliter,1922199,0.1,2.5,3,3.4,3.9,4.5,25.2
+DSMC,3020891,Body temperature,265033,586323,degree Celsius,15153349,0,36.3,36.5,36.8,37.1,37.5,45
+DSMC,3002030,Lymphocytes/100 leukocytes in Blood,263699,8554,percent,1918548,0,7.6,13.9,23.8,33.8,42.1,100.0
+DSMC,3019069,Monocytes/100 leukocytes in Blood,263699,8554,percent,1918548,0,4.2,5.8,7.4,9.4,11.8,1695
+DSMC,3018010,Neutrophils/100 leukocytes in Blood,263699,8554,percent,1918548,0,45.3,54,64.3,75.8,84.9,100.0
+DSMC,3017732,Neutrophils [#/volume] in Blood,263699,0,No matching concept,1918546,0,1980.0,2840.0,4158.08,6430.0,9900.0,1801089
+DSMC,3006504,Eosinophils/100 leukocytes in Blood,263699,8554,percent,1918548,0,0.1,0.6,1.6,3.1,5.2,150.0
+DSMC,3022096,Basophils/100 leukocytes in Blood,263699,8554,percent,1918548,0,0.1,0.2,0.4,0.6,0.9,50.0
+DSMC,3010224,Large unstained cells/100 leukocytes in Blood,261532,8554,percent,1913086,0,0.8,1.3,1.8,2.5,3.5,78
+DSMC,3019198,Lymphocytes [#/volume] in Blood,261532,0,No matching concept,1913084,0,610.0,990.0,1500.0,2070.0,2690.0,922100.0
+DSMC,3005456,Potassium [Moles/volume] in Blood,253583,8753,millimole per liter,1863318,0.7,3.6,3.9,4.3,4.6,5,26.7
+DSMC,3000285,Sodium [Moles/volume] in Blood,253061,8753,millimole per liter,1870596,74,133,136,138,140.0,142,197
+DSMC,3025315,Body weight,236376,9529,kilogram,1014416,0,2.88,42.8,57,67.5,77.5,222
+DSMC,3018572,Chloride [Moles/volume] in Blood,230897,8753,millimole per liter,1760406,51,97,100.0,103,105,108,1104
+DSMC,3036277,Body height,218749,8582,centimeter,519062,10.0,95.8,151,159.9,166.9,172.6,212.7
+DSMC,3027162,Color of Urine,217312,0,No matching concept,791501,,,,,,,
+DSMC,3004562,Bacteria [Presence] in Urine sediment by Light microscopy,217312,0,No matching concept,791494,0,0,0,0,5,5,5
+DSMC,3018834,Bilirubin.total [Presence] in Urine by Test strip,217312,0,No matching concept,791501,,,,,,,
+DSMC,3035350,Ketones [Presence] in Urine by Test strip,217312,0,No matching concept,791501,,,,,,,
+DSMC,3000330,Specific gravity of Urine by Test strip,217289,0,No matching concept,791777,0.015,1.007,1.011,1.016,1.022,1.028,13013
+DSMC,3021601,Nitrite [Presence] in Urine by Test strip,217284,0,No matching concept,791434,,,,,,,
+DSMC,3000348,Leukocyte esterase [Presence] in Urine by Test strip,217284,0,No matching concept,791434,,,,,,,
+DSMC,3009261,Glucose [Presence] in Urine by Test strip,217123,0,No matching concept,791244,,,,,,,
+DSMC,3014051,Protein [Presence] in Urine by Test strip,217123,0,No matching concept,791244,,,,,,,
+DSMC,3022621,pH of Urine by Test strip,217123,0,No matching concept,791244,1.039,5,5,6,7,7,18082920208
+DSMC,3011397,Hemoglobin [Presence] in Urine by Test strip,217123,0,No matching concept,791244,,,,,,,
+DSMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,215993,8786,per high power field,837514,,,,,,,
+DSMC,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,215992,8786,per high power field,789015,,,,,,,
+DSMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,215992,8786,per high power field,789016,,,,,,,
+DSMC,3038553,Body mass index (BMI) [Ratio],214786,0,No matching concept,964799,0,12.86,18.72,22.4,25.46,28.52,8200.0
+DSMC,3037426,Urobilinogen [Presence] in Urine by Test strip,199725,0,No matching concept,652493,0.1,0.1,0.1,0.1,1,1,12
+DSMC,3027114,Cholesterol [Mass/volume] in Serum or Plasma,196689,0,No matching concept,8,125,125,130.0,143,176,217,217
+DSMC,3027114,Cholesterol [Mass/volume] in Serum or Plasma,196689,8840,milligram per deciliter,658480,3.86,115,137,164,194,222,1554
+DSMC,3020460,C reactive protein [Mass/volume] in Serum or Plasma,185349,8840,milligram per deciliter,913695,0,0.03,0.1,0.5,3.6,9.6,72.2
+DSMC,3033658,Prothrombin time (PT) actual/Normal,183246,8554,percent,580270,2.5,38.7,70.2,92,104.3,113.3,1057
+DSMC,3022217,INR in Platelet poor plasma by Coagulation assay,183246,0,No matching concept,580270,0.69,0.93,0.97,1.04,1.21,1.74,19080309333
+DSMC,3034426,Prothrombin time (PT),183246,8555,second,580270,8,10.8,11.3,12,13.9,19.8,207
+DSMC,3018677,aPTT in Platelet poor plasma by Coagulation assay,174938,8555,second,427283,16,23.6,25.1,27.1,30.6,40.2,236.9
+DSMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,171152,0,No matching concept,237210,-0.066,0.286,0.325,0.374,0.431,0.499,4528
+DSMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,171152,8779,signal to cutoff ratio,25851,0.07,0.1,0.1,0.1,0.14,0.39,3436
+DSMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,170304,0,No matching concept,1405,53.4,53.4,92.76,287.47,514.92,1000.0,1000.0
+DSMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,170304,8923,international unit per liter,236349,0.998,2,2,41.1,251,973,42136
+DSMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,170304,9550,milli-international unit per milliliter,25991,0,3.1,4.41,37.18,231.13,910.53,9051
+DSMC,3022192,Triglyceride [Mass/volume] in Serum or Plasma,158051,0,No matching concept,8,123,123,132,189,207,602,602
+DSMC,3022192,Triglyceride [Mass/volume] in Serum or Plasma,158051,8840,milligram per deciliter,551032,4.6,58,77,108,155,221,10805
+DSMC,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,156529,0,No matching concept,8,28,28,29,41,57,106,106
+DSMC,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,156529,8645,unit per liter,392039,0,11,15,25,51,123,5975
+DSMC,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,152077,8840,milligram per deciliter,524297,1.4,36,43,52,63,75,278
+DSMC,3015183,Erythrocyte sedimentation rate,150741,8752,millimeter per hour,398563,1,4,10.0,22,44,76,1250.0
+DSMC,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,141773,8840,milligram per deciliter,379179,-0.03,0.12,0.17,0.27,0.52,1.81,35.99
+DSMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,131406,0,No matching concept,203888,0,0.27,1.06,1.95,3.35,5.37,627.3
+DSMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,131406,9093,micro-international unit per milliliter,113966,0,0.443,1.12,2,3.43,5.87,100.0
+DSMC,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,128539,8645,unit per liter,398299,-4.8,41,62,96,164,368,337030.0
+DSMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,127769,8779,signal to cutoff ratio,17261,0.05,0.05,0.05,0.05,0.05,0.05,0.05
+DSMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,127769,0,No matching concept,160422,,,,,,,
+DSMC,3017143,Hepatitis C virus Ab [Presence] in Serum,126803,0,No matching concept,175529,,,,,,,
+DSMC,3017143,Hepatitis C virus Ab [Presence] in Serum,126803,8779,signal to cutoff ratio,15437,,,,,,,
+DSMC,3002529,ABO group [Type] in Blood,126457,0,No matching concept,293463,,,,,,,
+DSMC,3003310,Rh [Type] in Blood,126450,0,No matching concept,293427,,,,,,,
+DSMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,125831,0,No matching concept,186924,0.01,0.92,0.99,1.1,1.25,1.43,44
+DSMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,125831,8817,nanogram per deciliter,112303,0.04,0.97,1.1,1.26,1.45,1.68,7.77
+DSMC,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,120474,8840,milligram per deciliter,442756,-95.8,47,62,84,112,140.0,1455
+DSMC,3037556,Urate [Mass/volume] in Serum or Plasma,119953,0,No matching concept,10,4,4,5.5,6.3,7,7.2,8.4
+DSMC,3037556,Urate [Mass/volume] in Serum or Plasma,119953,8840,milligram per deciliter,417177,-0.2,3.3,4.1,5.2,6.5,7.8,75.5
+DSMC,3021461,Reagin Ab [Presence] in Serum by RPR,111302,0,No matching concept,163081,,,,,,,
+DSMC,3005225,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction,106954,8645,unit per liter,258179,10.0,340.0,390.0,470.0,608,850.0,62401
+DSMC,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,103143,8554,percent,439605,0.1,5.4,5.8,6.5,7.3,8.5,49
+DSMC,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,102247,8645,unit per liter,234869,3,32,45,61,84,123,10639
+DSMC,757677,SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection,97744,0,No matching concept,171578,,,,,,,
+DSMC,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,95626,8842,nanogram per milliliter,278076,0.3,0.73,1.17,2.03,4.14,10.2,1775.6
+DSMC,3001079,Blood group antibody screen [Presence] in Serum or Plasma,95398,0,No matching concept,221622,,,,,,,
+DSMC,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,95213,8842,nanogram per milliliter,243912,0.017,0.16,0.16,0.16,0.16,0.622,400.0
+DSMC,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,91765,8840,milligram per deciliter,3063700,10.0,96,117,149,197,255,700.0
+DSMC,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,87415,0,No matching concept,100942,3.98,102.18,121.69,138.02,153.49,168.86,20053
+DSMC,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,87415,8842,nanogram per milliliter,75004,0.13,0.72,0.84,0.99,1.17,1.46,6.51
+DSMC,3001420,Magnesium [Mass/volume] in Serum or Plasma,86634,8840,milligram per deciliter,293996,-0.6,1.8,1.9,2.1,2.3,2.7,11
+DSMC,3008295,Osmolality of Serum or Plasma,85112,8991,milliosmole per kilogram of H20,267280,0.2,274,282,289,296,311,910.0
+DSMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,83833,8845,picogram per milliliter,240437,5,28,72,287,1465,6347,70000.0
+DSMC,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,82652,8840,milligram per deciliter,155130,19,195.9,248.7,320.9,440.7,606.4,1572
+DSMC,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,79877,8645,unit per liter,169882,0,15,22,32,53,114,30000.0
+DSMC,3026008,Bacteria identified in Urine by Culture,70102,0,No matching concept,219477,,,,,,,
+DSMC,3021119,Calcium.ionized [Moles/volume] in Blood,66934,9557,milliequivalent per liter,192850,0.4,2.14,2.24,2.34,2.44,2.55,6.72
+DSMC,3017250,Creatinine [Mass/volume] in Urine,66107,0,No matching concept,15857,0.0689,1.324,29.2,77.4,133.2,199.6,992
+DSMC,3017250,Creatinine [Mass/volume] in Urine,66107,8840,milligram per deciliter,249979,0.01,12.78,37.99,71.01,116.71,174.39,1390.8
+DSMC,3023368,Bacteria identified in Blood by Culture,61545,0,No matching concept,348166,,,,,,,
+DSMC,3008037,Lactate [Moles/volume] in Venous blood,60171,8753,millimole per liter,189585,-0.1,0.9,1.1,1.5,2.1,2.9,31
+DSMC,40763791,Oxygen content in Venous blood by calculation,58527,0,No matching concept,205184,0.2,7,9.5,12.4,15.9,19.6,36
+DSMC,3012544,pH of Venous blood,58527,0,No matching concept,205188,6.382,7.292,7.343,7.381,7.417,7.452,7375
+DSMC,3024928,Oxygen saturation in Venous blood,58527,8554,percent,205188,1.6,47.8,65,79.8,90.2,96.2,102
+DSMC,3024354,Oxygen [Partial pressure] in Venous blood,58527,8876,millimeter mercury column,205188,2.4,28.9,35.7,44.3,58.1,85.1,533
+DSMC,3021447,Carbon dioxide [Partial pressure] in Venous blood,58527,8876,millimeter mercury column,205188,9.4,31.7,36.6,41.8,47,52.2,182
+DSMC,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",58526,8753,millimole per liter,205184,2.3,19.2,22.8,25.8,28.4,31,70.2
+DSMC,3027273,Bicarbonate [Moles/volume] in Venous blood,58526,8753,millimole per liter,205184,2,18.2,21.7,24.5,27,29.5,68.4
+DSMC,3002032,Base excess in Venous blood by calculation,58526,8753,millimole per liter,205180,-37.6,-6.8,-2.8,-0.2,2,4.2,42.6
+DSMC,3004119,Hemoglobin [Mass/volume] in Venous blood,58234,8713,gram per deciliter,204437,0.53,8.5,9.9,12.1,14.3,16.8,29.4
+DSMC,3034976,Hematocrit [Volume Fraction] of Venous blood,58233,8554,percent,204433,1.6,26.2,30.6,37.2,43.9,51.4,85
+DSMC,3020149,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,50957,0,No matching concept,86921,0.09,15.86,22.57,32.68,45.83,59.52,1692
+DSMC,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,50570,0,No matching concept,35,2,3.18,3.87,6.18,10.8,19.1,25.5
+DSMC,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,50570,8763,unit per milliliter,115683,1.2,2,5.6,9.1,15.9,29.5,10000.0
+DSMC,3021879,Hepatitis B virus core Ab [Presence] in Serum,49595,0,No matching concept,71777,0.006,0.008,0.009,2.05,2.26,2.35,2.71
+DSMC,3021879,Hepatitis B virus core Ab [Presence] in Serum,49595,8779,signal to cutoff ratio,6916,0.007,0.07,0.11,0.23,3.72,8,8
+DSMC,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,49125,8842,nanogram per milliliter,133298,0.5,20.0,46,121,308,689,100000.0
+DSMC,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,49124,0,No matching concept,11920,0.02,0.88,1.23,1.96,3.51,8.13,3502.2
+DSMC,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,49124,8842,nanogram per milliliter,123483,0.3,0.7,1.2,1.9,3,4.8,3367
+DSMC,3016502,Oxygen saturation in Arterial blood,48422,8554,percent,394705,0.4,91.6,95.4,97.8,99.1,99.7,102
+DSMC,3023230,Hematocrit [Volume Fraction] of Arterial blood,48422,0,No matching concept,1885,9.5,22.3,25.2,29.9,36.1,41.8,65.6
+DSMC,3023230,Hematocrit [Volume Fraction] of Arterial blood,48422,8554,percent,392773,0,24,26.7,30.6,36.2,41.7,84
+DSMC,3027801,Oxygen [Partial pressure] in Arterial blood,48422,8876,millimeter mercury column,394705,-750063.8,64.4,79.3,105,150.0,208,658
+DSMC,3027946,Carbon dioxide [Partial pressure] in Arterial blood,48422,8876,millimeter mercury column,394705,6.6,28.5,33,37.6,42.6,49.2,245
+DSMC,3019977,pH of Arterial blood,48422,0,No matching concept,394705,4.421,7.289,7.368,7.423,7.466,7.504,10.3
+DSMC,3002173,Hemoglobin [Mass/volume] in Arterial blood,48422,0,No matching concept,1885,2.9,7.1,8.1,9.6,11.7,13.6,21.5
+DSMC,3002173,Hemoglobin [Mass/volume] in Arterial blood,48422,8713,gram per deciliter,392818,0.1,7.8,8.7,10.0,11.8,13.6,98.2
+DSMC,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",48421,8753,millimole per liter,394694,0.9,18.5,22.4,25.5,28.4,31.9,110.0
+DSMC,3003396,Base excess in Arterial blood by calculation,48421,8753,millimole per liter,394694,-43.1,-7.4,-2.9,0.2,3.1,6.2,48.7
+DSMC,3008152,Bicarbonate [Moles/volume] in Arterial blood,48421,8753,millimole per liter,394694,0.7,17.5,21.3,24.3,27.2,30.6,73.9
+DSMC,40762365,Oxygen content in Arterial blood by calculation,48407,0,No matching concept,394454,0,10.5,11.8,13.5,15.9,18.2,50.8
+DSMC,3002400,Iron [Mass/volume] in Serum or Plasma,48146,8837,microgram per deciliter,127962,2,26,48,80.0,116,153,858
+DSMC,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,47467,8837,microgram per deciliter,126291,0,179,234,292,341,388,2923
+DSMC,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,47467,8554,percent,126291,0,10.0,18,29,41,54,163
+DSMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,46318,8842,nanogram per milliliter,77366,0,0,0,0,5,39,1000.0
+DSMC,3032254,Tigecycline [Susceptibility],46094,0,No matching concept,470383,0.06,0.12,0.12,1,2,4,32
+DSMC,3023143,Ciprofloxacin [Susceptibility],45097,0,No matching concept,491150,0.023,0.125,0.5,2,4,8,50.0
+DSMC,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,44743,8837,microgram per deciliter,116735,-11,98,143,192,249,315,2913
+DSMC,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,44582,0,No matching concept,241,0.04,1.9,3.1,3.57,4.76,7.27,359.7
+DSMC,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,44582,8842,nanogram per milliliter,124124,0.9,1.3,1.9,2.7,4.1,7.2,60500.0
+DSMC,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,44538,8751,milligram per liter,81427,0.1,0.2,0.3,0.6,1.3,4,287.4
+DSMC,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,44538,8840,milligram per deciliter,3923,0.01,0.01,0.01,0.04,0.23,1.08,35.6
+DSMC,3021253,Trimethoprim+Sulfamethoxazole [Susceptibility],44336,0,No matching concept,435999,0.047,10.0,10.0,10.0,80.0,320.0,1010.0
+DSMC,3030366,Cystatin C [Mass/volume] in Serum or Plasma,43912,8751,milligram per liter,75844,-1,0.74,0.86,1.1,1.62,2.94,17.9
+DSMC,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,43624,0,No matching concept,23752,14,86,97,114,136,170.0,90131
+DSMC,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,43624,8840,milligram per deciliter,72113,16,88,95,107,126,155,949
+DSMC,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,42945,8842,nanogram per milliliter,99833,0.02,0.03,0.058,0.15,0.563,2.7,100.0
+DSMC,3035007,Gentamicin [Susceptibility],42941,0,No matching concept,413220,0.016,0.5,2,2,8,16,30.0
+DSMC,3002385,Erythrocyte distribution width [Ratio],41910,8554,percent,85725,10.5,11.9,12.2,12.7,13.4,15,35.2
+DSMC,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,41612,8985,international unit per milliliter,82001,6.3,10.0,10.0,10.0,10.3,25.2,1950.0
+DSMC,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,40610,8845,picogram per milliliter,81672,50.0,368,526,769,1172,1896,6731
+DSMC,3030942,Ammonia [Mass/volume] in Blood,40256,8859,microgram per milliliter,68200,0.015,0.272,0.361,0.485,0.655,0.96,313.5
+DSMC,3018405,Lactate [Moles/volume] in Arterial blood,39892,8753,millimole per liter,316923,-0.1,0.7,0.9,1.4,2.3,4.4,31
+DSMC,3023852,cefOXitin [Susceptibility],39344,0,No matching concept,324507,2,4,4,4,16,16,64
+DSMC,3003181,Sodium [Moles/volume] in Urine,39241,8753,millimole per liter,72648,0,20.0,40.0,72,109,144,586
+DSMC,3003985,Beta hydroxybutyrate [Moles/volume] in Serum or Plasma,39224,8753,millimole per liter,62254,0,0.1,0.1,0.1,0.3,0.8,8
+DSMC,3039417,Platelet distribution width [Ratio] in Blood,37944,8554,percent,69102,5.8,9.4,10.2,11.4,13.2,45.3,89.8
+DSMC,3038702,Sodium [Moles/volume] in Capillary blood,37225,8753,millimole per liter,55006,100.0,131,135,139,141,142,180.0
+DSMC,3035279,Calcium.ionized [Moles/volume] in Capillary blood,37225,9557,milliequivalent per liter,55006,0.5,1.9,2.1,2.3,2.4,2.5,5
+DSMC,3009293,"Carbon dioxide, total [Moles/volume] in Capillary blood",37225,8753,millimole per liter,55006,5,20.0,23,25,27,29,50.0
+DSMC,3028813,Hematocrit [Volume Fraction] of Capillary blood,37225,8554,percent,55006,15,27,32,38,43,47,75
+DSMC,3039964,Chloride [Moles/volume] in Capillary blood,37225,8753,millimole per liter,55006,65,97,100.0,103,106,109,140.0
+DSMC,3040893,Potassium [Moles/volume] in Capillary blood,37225,8753,millimole per liter,55006,2,3.3,3.6,3.9,4.3,4.8,9
+DSMC,3051714,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,36985,0,No matching concept,55326,0,0.18,0.35,0.88,2.31,6.43,139.93
+DSMC,3036987,Folate [Mass/volume] in Serum or Plasma,36286,8842,nanogram per milliliter,60313,0.35,3.8,5.9,10.0,18.6,20.0,45.7
+DSMC,3009401,levoFLOXacin [Susceptibility],35245,0,No matching concept,360049,0.016,0.5,1,4,4,8,60.0
+DSMC,3009403,Ampicillin [Susceptibility],34766,0,No matching concept,294015,0.024,2,8,16,32,32,256
+DSMC,3019445,Imipenem [Susceptibility],33858,0,No matching concept,360651,0.016,0.25,0.25,1,8,16,56
+DSMC,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,33753,8842,nanogram per milliliter,89016,0.01,0.02,0.38,0.86,2.17,6.21,1000.0
+DSMC,3004202,Nitrofurantoin [Susceptibility],33726,0,No matching concept,248764,16,16,16,32,64,128,512
+DSMC,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,33420,0,No matching concept,41391,,,,,,,
+DSMC,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,33374,8817,nanogram per deciliter,63503,31,100.0,105,111,121,142.7,466
+DSMC,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,33374,9579,millimole per mole,63503,2.2,32,34,37,40.0,48.6,172
+DSMC,40765040,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,32053,8842,nanogram per milliliter,56868,0.33,17.33,22.29,28.76,37,46.09,204.78
+DSMC,3023753,Tetracycline [Susceptibility],31116,0,No matching concept,245871,0.075,1,1,1,16,16,32
+DSMC,3024521,cefTAZidime [Susceptibility],31055,0,No matching concept,303247,0.12,0.5,0.5,8,16,16,64
+DSMC,3006072,Cefepime [Susceptibility],30821,0,No matching concept,291292,0.12,1,1,4,16,16,64
+DSMC,3014601,Aztreonam [Susceptibility],30778,0,No matching concept,289687,0.5,1,1,8,16,16,64
+DSMC,3022324,Piperacillin+Tazobactam [Susceptibility],30766,0,No matching concept,287755,0.016,4,4,8,128,128,256
+DSMC,3019137,Amikacin [Susceptibility],30646,0,No matching concept,281720,1,2,4,4,4,32,64
+DSMC,3026782,Osmolality of Urine,30475,8991,milliosmole per kilogram of H20,55205,0.1,219,328,445,596,742,2410.0
+DSMC,3016038,Potassium [Moles/volume] in Urine,30164,8753,millimole per liter,50205,0.4,11.9,18.7,30.2,46.9,66.8,235.9
+DSMC,3007733,Chloride [Moles/volume] in Urine,29868,8753,millimole per liter,49060,1,18,32,61,96,132,354
+DSMC,3007173,ceFAZolin [Susceptibility],29740,0,No matching concept,260549,1,2,4,16,16,16,64
+DSMC,3016650,Hepatitis A virus Ab [Presence] in Serum,29524,0,No matching concept,24510,0.00489,0.00609,0.00733,0.0145,0.809,1.17,1.36
+DSMC,3016650,Hepatitis A virus Ab [Presence] in Serum,29524,8923,international unit per liter,27770,,,,,,,
+DSMC,3027945,Reticulocytes/100 erythrocytes in Blood,28519,8554,percent,55002,0.01,0.96,1.37,1.89,2.7,4.07,43.51
+DSMC,3014271,Vancomycin [Susceptibility],28511,0,No matching concept,224895,0.12,0.5,0.5,1,2,32,256
+DSMC,3001388,Linezolid [Susceptibility],28508,0,No matching concept,221576,0.12,1,2,2,2,2,40.0
+DSMC,3000661,Erythromycin [Susceptibility],28501,0,No matching concept,221750,0.12,0.25,0.25,8,8,8,256
+DSMC,3024831,Penicillin G [Susceptibility],28501,0,No matching concept,232765,0.023,0.12,0.5,0.5,16,64,64
+DSMC,3013157,Ampicillin+Sulbactam [Susceptibility],27626,0,No matching concept,287377,2,2,2,32,32,32,32
+DSMC,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,27495,8763,unit per milliliter,71965,1.8,6.3,8.4,12.2,20.6,54.4,27446
+DSMC,3025361,cefTRIAXone [Susceptibility],27424,0,No matching concept,212943,0.016,0.5,0.5,4,4,4,256
+DSMC,3037064,Ertapenem [Susceptibility],27013,0,No matching concept,190039,0.025,0.25,0.25,0.25,0.5,1,32
+DSMC,3009196,Meropenem [Susceptibility],26749,0,No matching concept,255396,0.023,0.25,0.25,0.25,16,32,60.0
+DSMC,44786756,Neutrophil gelatinase-associated lipocalin [Mass/volume] in Urine by Rapid immunoassay,26693,8842,nanogram per milliliter,42228,0,4.4,10.8,30.9,136.9,588.3,1500.0
+DSMC,3003628,Teicoplanin [Susceptibility],26426,0,No matching concept,210854,0.5,0.5,0.5,0.5,4,32,32
+DSMC,3011520,Treponema pallidum Ab [Presence] in Serum by Immunoassay,26041,0,No matching concept,51104,,,,,,,
+DSMC,3047225,Influenza virus A Ag [Presence] in Nose by Immunoassay,25502,0,No matching concept,32588,,,,,,,
+DSMC,3046253,Influenza virus B Ag [Presence] in Nose by Immunoassay,25502,0,No matching concept,32588,,,,,,,
+DSMC,3026501,Reagin Ab [Titer] in Serum by RPR,24654,0,No matching concept,27935,,,,,,,
+DSMC,3027598,Mean blood pressure,24414,8876,millimeter mercury column,1661909,0,47,54,69,88,101,239
+DSMC,3003327,Ova and parasites identified in Stool by Light microscopy,24360,0,No matching concept,97526,,,,,,,
+DSMC,3049718,Homeostasis model assessment,24047,8523,ratio,41033,0.1,0.6,1,1.6,2.6,4.1,252.2
+DSMC,3009413,Insulin [Units/volume] in Serum or Plasma --fasting,24047,0,No matching concept,41033,0.01,2.55,4.01,6.15,8.99,13.6,776.88
+DSMC,43533628,cefTAZidime+Avibactam [Susceptibility],23936,0,No matching concept,194878,,,,,,,
+DSMC,3037121,Protein [Mass/volume] in Urine,23888,8840,milligram per deciliter,132710,0,5,9,26,91,250.0,12280.0
+DSMC,3032269,Mucus [Presence] in Stool by Light microscopy,23791,0,No matching concept,38792,,,,,,,
+DSMC,3043714,Erythrocytes [Presence] in Stool,23790,8786,per high power field,38791,,,,,,,
+DSMC,3039057,Leukocytes [#/area] in Stool by Microscopy high power field,23790,8786,per high power field,38791,,,,,,,
+DSMC,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,23748,0,No matching concept,15306,0.01,8.31,17.9,30.96,49.15,83.3,2462.68
+DSMC,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,23748,8845,picogram per milliliter,47694,1.2,22,34.3,67.3,200.0,426,5000.0
+DSMC,3019813,Clindamycin [Susceptibility],23409,0,No matching concept,146389,0.12,0.25,0.25,0.25,1,8,256
+DSMC,3001582,Protein/Creatinine [Mass Ratio] in Urine,23356,0,No matching concept,130858,0,0.06,0.11,0.33,1.23,3.32,10123.4
+DSMC,42529256,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Immunoassay,23314,8845,picogram per milliliter,49025,0.21,2.06,2.28,2.56,2.91,3.34,193
+DSMC,3005179,Beta lactamase.extended spectrum [Susceptibility],23159,0,No matching concept,151745,,,,,,,
+DSMC,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,22903,8840,milligram per deciliter,42383,14,56,69,87,107,127,332
+DSMC,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,22615,8859,microgram per milliliter,30563,0,0.5,1.3,3.8,10.0,24.1,120.0
+DSMC,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,22484,0,No matching concept,68993,,,,,,,
+DSMC,3042086,Cefuroxime [Susceptibility],21604,0,No matching concept,140142,0.25,4,4,16,16,16,16
+DSMC,3038176,Quinupristin+Dalfopristin [Susceptibility],21485,0,No matching concept,171399,0.25,0.25,0.25,0.5,0.5,4,16
+DSMC,3025941,Bacteria identified in Stool by Culture,20832,0,No matching concept,32308,,,,,,,
+DSMC,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,20613,8985,international unit per milliliter,28360,0.2,10.0,31.5,107,351,1022,18650.0
+DSMC,3013384,rifAMPin [Susceptibility],19956,0,No matching concept,122869,0.03,0.03,0.5,0.5,0.5,0.5,32
+DSMC,3004705,Oxacillin [Susceptibility],18744,0,No matching concept,120667,0.125,0.25,0.5,4,4,4,36
+DSMC,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,18353,0,No matching concept,40721,,,,,,,
+DSMC,3043706,Sodium [Moles/volume] in Arterial blood,18303,8753,millimole per liter,119007,95,134,137,140.0,144,147,206
+DSMC,3043409,Potassium [Moles/volume] in Arterial blood,18303,8753,millimole per liter,119007,1.5,3.1,3.4,3.7,4.1,4.6,105
+DSMC,3031248,Chloride [Moles/volume] in Arterial blood,18300,8753,millimole per liter,119003,70.0,99,102,106,109,112,160.0
+DSMC,3044331,Calcium.ionized [Moles/volume] in Arterial blood,17864,0,No matching concept,116517,0,1.94,2.08,2.21,2.34,2.5,6.8
+DSMC,3041706,Calcium.ionized [Moles/volume] adjusted to pH 7.4 in Arterial blood,17581,0,No matching concept,112490,0.48,1.94,2.09,2.23,2.38,2.54,20103007508
+DSMC,3000034,Microalbumin [Mass/volume] in Urine,17576,8751,milligram per liter,31623,0.01,3.44,6.23,12.71,41.94,145.06,6070.6
+DSMC,3000034,Microalbumin [Mass/volume] in Urine,17576,8840,milligram per deciliter,10764,0,0.3,0.7,2.2,10.6,63.2,4257
+DSMC,3051245,Myoglobin [Mass/volume] in Blood,16955,8842,nanogram per milliliter,39851,1,24,39,110.0,382,1303,40328
+DSMC,3027141,Cefotaxime [Susceptibility],16644,0,No matching concept,96385,0.032,0.12,1,8,64,64,64
+DSMC,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,16261,8840,milligram per deciliter,21878,3,100.0,116,133.7,153,171,318
+DSMC,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,16160,0,No matching concept,32054,0.3,4.08,6.37,13.23,45.32,164.38,9399.1
+DSMC,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,16160,8723,milligram per gram,7312,0,3.73,7.47,26.91,192.31,1150.79,281653.9
+DSMC,3000845,Glucose [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,15802,0,No matching concept,58268,0.379,96,116,148,199,261,836
+DSMC,3000845,Glucose [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,15802,8840,milligram per deciliter,30143,30.0,98,113,138,182,235,804
+DSMC,3034474,Fusidate [Susceptibility],15749,0,No matching concept,102911,0.5,0.5,0.5,16,32,32,32
+DSMC,3001116,Mupirocin [Susceptibility],15742,0,No matching concept,101465,2,2,2,4,512,512,512
+DSMC,3034582,Telithromycin [Susceptibility],15737,0,No matching concept,101125,0.25,0.25,0.25,0.25,4,4,4
+DSMC,3037842,Arbekacin [Susceptibility],15736,0,No matching concept,99688,1,1,1,1,1,1,16
+DSMC,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,15589,0,No matching concept,4761,,,,,,,
+DSMC,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,15589,8554,percent,43738,,,,,,,
+DSMC,3016724,Homocysteine [Moles/volume] in Serum or Plasma,15569,8749,micromole per liter,32420,1.78,6.4,7.8,9.8,12.3,15.54,250.0
+DSMC,1175360,ST2.soluble [Mass/volume] in Serum by Immunoassay,14927,8842,nanogram per milliliter,21017,0,12.5,13.806,21.13,36.997,81.717,250.0
+DSMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,14104,0,No matching concept,13768,0.212,0.281,0.295,0.319,0.35,0.411,17.4
+DSMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,14104,8779,signal to cutoff ratio,1586,0.06,0.13,0.15,0.19,0.24,0.386,7
+DSMC,3035366,Amoxicillin+Clavulanate [Susceptibility],14015,0,No matching concept,76374,1.5,2,4,16,32,32,32
+DSMC,3027206,Corticotropin [Mass/volume] in Plasma by Radioimmunoassay (RIA),13811,8845,picogram per milliliter,22330,0.11,8.77,17.2,29.61,51.3,78.78,4807.15
+DSMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,13736,0,No matching concept,17498,0.01,4.51,5.79,8.47,46.38,332.4,10044.6
+DSMC,3046856,Respiratory syncytial virus Ag [Presence] in Nose,13558,0,No matching concept,15820,,,,,,,
+DSMC,3005719,IgG [Mass/volume] in Serum or Plasma,13319,8840,milligram per deciliter,24610,40.0,786,1008,1245,1524,1875,11005
+DSMC,3023323,Follitropin [Units/volume] in Serum or Plasma,13052,0,No matching concept,26372,0.01,0.9,1.63,3.72,7.54,32.41,209.14
+DSMC,3051552,Clostridioides difficile toxin genes [Presence] in Stool by NAA with probe detection,13016,0,No matching concept,20533,,,,,,,
+DSMC,3017766,Complement C4 [Mass/volume] in Serum or Plasma,13010,8840,milligram per deciliter,24838,1.4,10.0,16,22.5,29.2,36.5,124
+DSMC,3025285,Estradiol (E2) [Mass/volume] in Serum or Plasma,12986,0,No matching concept,27935,2.54,22.27,28.01,36.22,52.79,103.96,3910.0
+DSMC,3000620,Complement C3 [Mass/volume] in Serum or Plasma,12383,8840,milligram per deciliter,24167,4,67.5,84.3,101.1,117.8,134.1,299
+DSMC,3032068,Clostridioides difficile toxin A+B [Presence] in Stool,12285,8779,signal to cutoff ratio,19506,0.157,0.235,0.272,0.33,0.433,0.89,164
+DSMC,42870568,Risk of ovarian malignancy algorithm score in Serum or Plasma --premenopausal,12000,8554,percent,17108,0,1.6,2.2,3.5,6,11.12,100.0
+DSMC,42870569,Risk of ovarian malignancy algorithm score in Serum or Plasma --postmenopausal,12000,8554,percent,17108,0.2,4.3,5.7,8,12.8,24.4,100.0
+DSMC,40758310,Human epididymis protein 4 [Moles/volume] in Serum or Plasma,12000,8729,picomole per liter,17108,1.5,25.3,29.4,35.6,45.3,60.2,13116.5
+DSMC,3013566,Clostridioides difficile [Presence] in Stool by Organism specific culture,11904,0,No matching concept,18230,,,,,,,
+DSMC,3004722,Prolactin [Mass/volume] in Serum or Plasma,11868,0,No matching concept,26865,0.01,3.56,4.96,7.18,11.31,19.94,770.2
+DSMC,3035364,C peptide [Mass/volume] in Serum or Plasma --fasting,11821,0,No matching concept,2498,0.01,0.53,1.19,1.73,2.66,4.37,21.1
+DSMC,3035364,C peptide [Mass/volume] in Serum or Plasma --fasting,11821,8842,nanogram per milliliter,17969,0,0.54,1.12,1.69,2.65,4.2,27.24
+DSMC,3009682,Cortisol [Mass/volume] in Serum or Plasma,11525,0,No matching concept,19266,0.11,2.52,6.75,12.63,18.69,24.55,335.6
+DSMC,3048220,Fractional excretion of sodium [Ratio] in Urine and Serum or Plasma,11513,8554,percent,14242,0,0.3,0.5,1,1.7,3.8,162.4
+DSMC,3019972,Gentamicin.high potency [Susceptibility],10866,0,No matching concept,93333,500.0,500.0,500.0,500.0,500.0,500.0,500.0
+DSMC,3010110,Streptomycin.high potency [Susceptibility],10862,0,No matching concept,93125,1000.0,1000.0,1000.0,1000.0,1000.0,1000.0,1000.0
+DSMC,3005216,Fosfomycin [Susceptibility],10823,0,No matching concept,33784,16,16,16,16,16,16,128
+DSMC,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,10651,8842,nanogram per milliliter,19442,0.01,0.078,0.157,0.287,0.497,0.836,6
+DSMC,3013115,Eosinophils [#/volume] in Blood,10605,8647,per microliter,15429,0,20.0,70.0,140.0,270.0,500.0,96630.0
+DSMC,42529564,Testosterone [Mass/volume] in Serum or Plasma by Immunoassay,10350,0,No matching concept,17918,0,0.08,0.17,0.38,2.46,4.24,234
+DSMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,10283,0,No matching concept,10820,0.036,0.058,0.064,0.073,0.083,0.103,43.9
+DSMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,10283,8779,signal to cutoff ratio,742,0.06,0.08,0.1,0.15,0.21,0.25,9
+DSMC,3009214,Lutropin [Units/volume] in Serum or Plasma,10168,0,No matching concept,21072,0.12,0.67,0.99,1.66,3.69,11.04,238.4
+DSMC,3009986,Bacteria identified in Catheter tip by Culture,10040,0,No matching concept,16707,,,,,,,
+DSMC,3002035,Myeloperoxidase Ab [Presence] in Serum by Immunoassay,10006,8763,unit per milliliter,11599,0.2,0.5,0.7,1,1.3,1.7,100.0
+DSMC,40766042,Proteinase 3 Ab [Presence] in Serum by Immunoassay,10000,8763,unit per milliliter,11531,0.1,1.1,1.2,1.4,1.7,2.2,100.0
+DSMC,40770973,Glomerular basement membrane Ab [Presence] in Serum,9990,8763,unit per milliliter,11520,0,0.3,1,2.1,3.6,6.1,200.0
+DSMC,3001145,Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,9960,8779,signal to cutoff ratio,11841,,,,,,,
+DSMC,3004512,Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,9958,0,No matching concept,12464,,,,,,,
+DSMC,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,9926,8840,milligram per deciliter,23349,0.06,5,6,11.2,23.1,47.8,296
+DSMC,3012471,Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay,9728,0,No matching concept,8223,0,0,0,0,0,0,6
+DSMC,3012471,Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay,9728,8842,nanogram per milliliter,3077,0,0,0,0,0,3,768
+DSMC,3003745,Microscopic observation [Identifier] in Urine by Gram stain,9384,0,No matching concept,14089,,,,,,,
+DSMC,3034717,Cyclic citrullinated peptide Ab [Units/volume] in Serum by Immunoassay,9266,8763,unit per milliliter,10249,0.5,8,8,8,8,10.9,500.0
+DSMC,3011180,Chloramphenicol [Susceptibility],9136,0,No matching concept,35369,1,2,2,2,4,4,36
+DSMC,3006899,Norfloxacin [Susceptibility],8995,0,No matching concept,70095,0.25,2,8,16,16,16,128
+DSMC,3016324,Minocycline [Susceptibility],8916,0,No matching concept,105843,0.38,1,1,1,16,16,32
+DSMC,3015884,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,8862,0,No matching concept,20539,0.01,18.99,43.11,82.83,152.32,239.2,964.9
+DSMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,8763,8842,nanogram per milliliter,22825,0.75,125.62,191.31,318.35,464.52,643.95,1483.4
+DSMC,3003736,Streptococcus agalactiae [Presence] in Cervix by Organism specific culture,8639,0,No matching concept,11883,,,,,,,
+DSMC,3040544,Streptococcus agalactiae [Presence] in Anal by Organism specific culture,8633,0,No matching concept,12064,,,,,,,
+DSMC,3006478,Mycoplasma sp and Ureaplasma sp [Identifier] in Specimen by Organism specific culture,8517,0,No matching concept,15888,,,,,,,
+DSMC,3010634,Colistin [Susceptibility],8461,0,No matching concept,95852,0.5,0.5,1,1,1,1,16
+DSMC,3024850,Microscopic observation [Identifier] in Urine by Acid fast stain,7614,0,No matching concept,9343,,,,,,,
+DSMC,3013750,Rubella virus IgG Ab [Presence] in Serum,7584,8985,international unit per milliliter,9602,,,,,,,
+DSMC,3021200,Thyroglobulin Ab [Units/volume] in Serum by Radioimmunoassay (RIA),7571,0,No matching concept,14136,0.01,7.02,11.26,16.03,24.49,96.41,87111
+DSMC,3037708,Moxifloxacin [Susceptibility],7527,0,No matching concept,27306,0.06,0.12,0.12,0.12,0.25,1,4
+DSMC,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,7319,8763,unit per milliliter,8358,10.0,10.0,10.0,10.0,10.0,13.8,160.0
+DSMC,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,7277,0,No matching concept,9005,,,,,,,
+DSMC,40760904,Newborn screening test results panel - DBS,7190,0,No matching concept,8592,,,,,,,
+DSMC,36660039,Respiratory pathogens DNA and RNA panel - Lower respiratory specimen by NAA with probe detection,7114,0,No matching concept,9584,,,,,,,
+DSMC,3041145,Herpes simplex virus IgM Ab [Presence] in Serum by Immunoassay,6989,8779,signal to cutoff ratio,7896,0.5,0.5,0.5,0.5,0.5,0.847,3.5
+DSMC,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,6909,0,No matching concept,4107,,,,,,,
+DSMC,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,6909,8985,international unit per milliliter,6922,,,,,,,
+DSMC,3016816,Cytomegalovirus IgG Ab [Presence] in Serum or Plasma,6855,0,No matching concept,7794,,,,,,,
+DSMC,3049714,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum,6813,8842,nanogram per milliliter,12509,5,13.8,22.3,38,63.1,111,1200.0
+DSMC,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,6763,8985,international unit per milliliter,7394,1,20.0,20.0,31,67,148,3660.0
+DSMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",6738,8753,millimole per liter,34981,5.3,18.4,21.4,24.6,27.2,29.1,25051255861
+DSMC,3027346,Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,6667,0,No matching concept,40155,,,,,,,
+DSMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,6546,0,No matching concept,15712,0.001,0.002,0.003,0.438,1.18,1.48,10.7
+DSMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,6546,8779,signal to cutoff ratio,1328,0,0.07,0.29,1.96,4.5,4.5,8.98
+DSMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,6472,0,No matching concept,15682,0.033,0.082,0.091,0.111,0.379,11.2,2019
+DSMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,6472,8779,signal to cutoff ratio,1313,0,0,0,0.19,1.18,202.02,1659
+DSMC,3007363,Cortisol [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,6362,0,No matching concept,8005,0.26,8.39,16.27,22.6,28.36,39.47,344.85
+DSMC,3046210,Cortisol [Mass/volume] in Serum or Plasma --baseline,6362,0,No matching concept,8005,0.15,2.42,6.45,12.83,19.27,25.22,248.91
+DSMC,3005713,Cortisol [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,6362,0,No matching concept,8005,0.29,10.64,18.67,25.21,33.97,46.43,326.45
+DSMC,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,6140,0,No matching concept,8826,0,0.01,0.01,0.07,1.24,8.94,6032
+DSMC,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,6140,8842,nanogram per milliliter,20894,0.04,0.04,0.04,0.68,9.1,22,500.0
+DSMC,3018876,Apolipoprotein A [Mass/volume] in Serum or Plasma,6032,8840,milligram per deciliter,19544,33,127,140.0,156,174,194,330.0
+DSMC,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,5944,8842,nanogram per milliliter,19437,0.1,0.6,0.9,1.2,1.7,2.3,22.8
+DSMC,3028531,Enolase.neuron specific [Mass/volume] in Serum or Plasma,5944,8842,nanogram per milliliter,19437,4.6,11.5,13.2,15.9,19.3,24.12,102
+DSMC,3021849,Epstein Barr virus nuclear IgG Ab [Presence] in Serum,5863,8763,unit per milliliter,6623,3,3,3,237,600.0,600.0,600.0
+DSMC,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,5638,0,No matching concept,7702,,,,,,,
+DSMC,3041354,Potassium [Moles/volume] in Venous blood,5635,8753,millimole per liter,56413,1.7,3.7,4.2,4.67,5.1,5.7,13.64
+DSMC,3041473,Sodium [Moles/volume] in Venous blood,5635,8753,millimole per liter,56413,59,133,136,138,141,143,203
+DSMC,3035285,Chloride [Moles/volume] in Venous blood,5635,8753,millimole per liter,56413,70.0,100.0,103,107,110.0,114,160.0
+DSMC,3017044,Thyrotropin receptor Ab [Units/volume] in Serum,5620,8923,international unit per liter,15554,0,0.01,0.16,0.99,4.13,11.59,930.4
+DSMC,3027144,Progesterone [Mass/volume] in Serum or Plasma,5611,0,No matching concept,13367,0.01,0.04,0.07,0.1,0.18,0.32,54.32
+DSMC,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,5604,0,No matching concept,6738,,,,,,,
+DSMC,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,5528,0,No matching concept,7560,,,,,,,
+DSMC,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,5491,8763,unit per milliliter,6641,0.1,1.6,2.7,4.5,7.8,13,27
+DSMC,3000515,Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,5461,8554,percent,7261,0.4,37.6,58,85,101.6,114.4,635
+DSMC,3012565,Volume of 24 hour Urine,5435,0,No matching concept,14244,1,700.0,1100.0,1650.0,2250.0,3000.0,8400.0
+DSMC,3033705,Calcium.ionized [Moles/volume] in Venous blood,5433,9557,milliequivalent per liter,49437,0.8,2.11,2.33,2.6,2.73,2.86,7.52
+DSMC,36660342,C peptide [Mass/volume] in Serum or Plasma --2 hours post meal,5382,0,No matching concept,723,0.01,0.65,1.63,3.11,5.42,7.97,22.74
+DSMC,36660342,C peptide [Mass/volume] in Serum or Plasma --2 hours post meal,5382,8842,nanogram per milliliter,5432,0.01,0.81,1.66,3.34,6.02,9.16,28.44
+DSMC,3041671,Calcium.ionized [Moles/volume] adjusted to pH 7.4 in Venous blood,5337,0,No matching concept,47367,0.98,2.08,2.31,2.57,2.71,2.8,7.88
+DSMC,3007164,IgA [Mass/volume] in Serum or Plasma,5209,8840,milligram per deciliter,7105,3,50.0,109,191,287,407,6479
+DSMC,3039355,Methicillin resistant Staphylococcus aureus [Presence] in Nose by Organism specific culture,5179,0,No matching concept,16024,,,,,,,
+DSMC,3036753,DAPTOmycin [Susceptibility],5168,0,No matching concept,19236,0.25,0.5,0.5,0.5,2,4,4
+DSMC,3002794,Doxycycline [Susceptibility],5161,0,No matching concept,19221,0.5,0.5,0.5,0.5,2,2,4
+DSMC,3032250,DNA double strand Ab [Units/volume] in Serum by Radioimmunoassay (RIA),5136,8985,international unit per milliliter,12392,0.02,1.15,1.53,2.54,7.42,47.13,2588.4
+DSMC,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,5118,8779,signal to cutoff ratio,5129,60.0,60.0,60.0,60.0,60.0,60.0,60.0
+DSMC,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,5053,0,No matching concept,5310,,,,,,,
+DSMC,3029581,Direct antiglobulin test.unspecified reagent [Presence] on Red Blood Cells,5034,0,No matching concept,7705,,,,,,,
+DSMC,3023709,Somatotropin [Mass/volume] in Serum or Plasma,4946,0,No matching concept,9607,0,0.07,0.23,0.94,2.56,5.43,159.9
+DSMC,3005473,Phosphate crystals amorphous [Presence] in Urine sediment by Light microscopy,4943,0,No matching concept,5806,,,,,,,
+DSMC,3014639,Mycobacterium sp DNA [Presence] in Bronchial specimen by NAA with probe detection,4866,0,No matching concept,5539,,,,,,,
+DSMC,3015154,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum,4818,8763,unit per milliliter,6968,0,0.5,1.1,2.5,12.1,200.0,200.0
+DSMC,3028026,IgM [Mass/volume] in Serum or Plasma,4790,8840,milligram per deciliter,6487,5,30.0,52,82,123,173,6122
+DSMC,3008914,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum,4786,8763,unit per milliliter,6918,0,0.1,0.1,1.7,3.8,11.5,200.0
+DSMC,3048689,Calprotectin [Mass/mass] in Stool,4750,8720,microgram per gram,8178,0,8.9,29,111.3,623.7,1000.0,1000.0
+DSMC,3006661,Calcium [Mass/volume] in Urine,4746,8840,milligram per deciliter,10188,-0.1,1.7,3.9,7.7,13.9,21.6,97.9
+DSMC,3039998,Platelet aggregation arachidonate induced [Units/volume] in Blood,4719,0,No matching concept,6082,229,368,390.0,424,512,569,674
+DSMC,3024212,Fungus identified in Bronchial specimen by Culture,4511,0,No matching concept,5419,,,,,,,
+DSMC,3011066,Myoglobin [Mass/volume] in Urine,4486,8842,nanogram per milliliter,6742,21,21,21,25,97,860.0,30000.0
+DSMC,21492668,Gastrointestinal pathogens identified in Stool by NAA with probe detection,4410,0,No matching concept,5932,,,,,,,
+DSMC,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,4345,0,No matching concept,4101,0.06,1.94,3.42,5.6,9.62,22.43,73
+DSMC,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,4345,8842,nanogram per milliliter,1851,0.6,8.79,11.88,17.03,26.87,90.6,292
+DSMC,3019711,Mycobacterium sp DNA [Presence] in Sputum by NAA with probe detection,4310,0,No matching concept,5091,,,,,,,
+DSMC,3042234,Platelet aggregation ADP induced [Units/volume] in Blood,4215,9388,peripheral vascular resistance unit,10884,1,124,181,230.0,268,297,416
+DSMC,3017055,Platelet aggregation ADP induced in Platelet rich plasma,4215,8554,percent,5442,0,0,10.0,25,43,61,100.0
+DSMC,3006588,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,4185,8763,unit per milliliter,19538,0.5,4,5.9,8.7,13.5,21.8,3000.0
+DSMC,3033526,Urate [Mass/volume] in Urine,4129,8840,milligram per deciliter,8823,1,11,20.1,35.6,58.5,83.8,208.2
+DSMC,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,4105,44777561,arbitrary unit per liter,17428,5.2,14.8,18.3,24.1,46.9,570.8,300000.0
+DSMC,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,4077,8647,per microliter,7205,0,0,0,2,14,116,150480.0
+DSMC,3023410,Appearance of Cerebral spinal fluid,4077,0,No matching concept,7205,,,,,,,
+DSMC,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,4077,0,No matching concept,7205,1,1.006,1.006,1.006,1.006,1.008,1007
+DSMC,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,4077,8647,per microliter,7205,0,0,0,18,522,7200.0,7875000.0
+DSMC,3042847,Granulocytes/100 leukocytes in Cerebral spinal fluid,4077,8554,percent,7205,0,5,5,50.0,85,95,98
+DSMC,3020951,Lymphocytes/100 leukocytes in Cerebral spinal fluid,4077,8554,percent,7205,0,5,15,50.0,95,95,98
+DSMC,3036172,Chloride [Moles/volume] in Cerebral spinal fluid,4065,8753,millimole per liter,7032,6,116,120.0,123,126,130.0,260.0
+DSMC,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,4065,8840,milligram per deciliter,7045,0,47,55,64,76,96,435
+DSMC,3019473,Protein [Mass/volume] in Cerebral spinal fluid,4065,8840,milligram per deciliter,7033,0,20.0,31,49,89.4,162,4960.0
+DSMC,3012096,Microscopic observation [Identifier] in Specimen by KOH preparation,3994,0,No matching concept,6199,,,,,,,
+DSMC,3013023,Jo-1 extractable nuclear Ab [Presence] in Serum,3962,8763,unit per milliliter,5821,0,0.1,0.3,1,2,3.6,200.0
+DSMC,3016251,Hemoglobin.gastrointestinal [Presence] in Stool,3940,0,No matching concept,4963,,,,,,,
+DSMC,3001122,Ferritin [Mass/volume] in Serum or Plasma,3878,0,No matching concept,6679,0.63,12.55,31.4,58.71,111.43,240.95,1221.1
+DSMC,3005715,Vancomycin [Mass/volume] in Serum or Plasma,3829,8859,microgram per milliliter,19540,0,7.6,11.8,16,20.6,26.6,111.6
+DSMC,3032493,dRVVT/dRVVT W excess phospholipid (screen to confirm ratio),3808,0,No matching concept,4301,,,,,,,
+DSMC,3020876,Protein [Mass/time] in 24 hour Urine,3759,8807,gram per 24 hours,5952,0,0.06,0.1,0.22,0.91,3.15,54.74
+DSMC,3023428,Smith extractable nuclear Ab [Presence] in Serum,3738,8763,unit per milliliter,5570,0,0.1,0.3,0.7,1.3,2.7,200.0
+DSMC,3004789,Transferrin [Mass/volume] in Serum or Plasma,3703,8840,milligram per deciliter,17722,18,188,223,257,290.0,323,501
+DSMC,37020243,Aldosterone [Mass/volume] in Serum or Plasma by Radioimmunoassay (RIA),3694,8817,nanogram per deciliter,6158,0.1,5.96,9.63,14.91,23.75,40.17,605.97
+DSMC,3007808,Renin [Enzymatic activity/volume] in Plasma,3693,9020,nanogram per milliliter and hour,6157,0.02,0.18,0.36,0.88,2.4,7.56,244.4
+DSMC,3011145,Aldosterone/Renin [Ratio] in Plasma,3693,8523,ratio,6157,0.1,2.4,6.3,15.9,37.6,86.1,987.8
+DSMC,3035109,Mycobacterium sp DNA [Presence] in Specimen by NAA with probe detection,3664,0,No matching concept,5497,,,,,,,
+DSMC,3014568,SCL-70 extractable nuclear Ab [Presence] in Serum,3623,8763,unit per milliliter,5459,0,1.6,2,2.3,2.7,3.8,200.0
+DSMC,3027013,Piperacillin [Susceptibility],3613,0,No matching concept,28662,4,4,8,128,128,128,128
+DSMC,3008025,Ribonucleoprotein extractable nuclear Ab [Presence] in Serum,3600,8763,unit per milliliter,5407,0,0.1,0.7,1.8,3.4,6.9,200.0
+DSMC,3014825,Centromere Ab [Presence] in Serum,3597,8763,unit per milliliter,5434,0,0.3,0.6,0.8,1.1,2.8,300.0
+DSMC,3006441,Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,3594,9158,IgM phospholipid unit per milliliter,4147,0.1,0.4,0.5,0.8,1.3,2.6,80.0
+DSMC,3003831,Ticarcillin+Clavulanate [Susceptibility],3584,0,No matching concept,28447,8,8,16,128,128,128,128
+DSMC,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,3574,9550,milli-international unit per milliliter,7206,0.2,0.2,0.2,2,335,5415,1000000.0
+DSMC,3007766,Cardiolipin IgG Ab [Presence] in Serum by Immunoassay,3563,9157,IgG phospholipid unit per milliliter,4121,0,0.8,1.1,1.6,2.4,4.3,120.0
+DSMC,40771492,Microscopic observation [Identifier] in Urine by KOH preparation,3479,0,No matching concept,3999,,,,,,,
+DSMC,3007654,Microscopic observation [Identifier] in Wound by Gram stain,3464,0,No matching concept,13754,,,,,,,
+DSMC,3008284,Rotavirus Ag [Presence] in Stool,3406,0,No matching concept,4516,,,,,,,
+DSMC,3036428,Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid,3395,8923,international unit per liter,5288,0,6,9,15,25,48,2500.0
+DSMC,3004448,Specific gravity of Pleural fluid by Refractometry,3381,0,No matching concept,5674,1.004,1.016,1.02,1.026,1.032,1.036,1024
+DSMC,3026051,Polymorphonuclear cells/100 leukocytes in Pleural fluid,3381,8554,percent,5674,2,5,10.0,25,70.0,95,98
+DSMC,3005532,Lymphocytes/100 leukocytes in Pleural fluid,3381,8554,percent,5673,2,5,30.0,75,90.0,95,98
+DSMC,3014891,Appearance of Pleural fluid,3381,0,No matching concept,5674,,,,,,,
+DSMC,3023199,Leukocytes [#/volume] in Pleural fluid,3381,8647,per microliter,5674,0,68,178,534,1602,4608,1611000.0
+DSMC,3028308,Erythrocytes [#/volume] in Pleural fluid,3381,8647,per microliter,5674,0,135,630.0,3150.0,15525,94950.0,6750000.0
+DSMC,3003434,Protein [Mass/volume] in Pleural fluid,3344,8713,gram per deciliter,5385,0.019,1.5,2.2,3.2,4.3,4.9,13
+DSMC,3015054,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid,3344,8645,unit per liter,5323,10.0,134,208,374,832,2142,37665
+DSMC,3003403,Glucose [Mass/volume] in Pleural fluid,3338,8840,milligram per deciliter,5370,0,56,95,121,152,196,490.0
+DSMC,3038308,Chloride [Moles/volume] in Pleural fluid,3336,8753,millimole per liter,5366,4,96,100.0,105,108,112,152
+DSMC,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,3320,0,No matching concept,5167,,,,,,,
+DSMC,42529122,Norovirus Ag [Presence] in Stool by Rapid immunoassay,3297,0,No matching concept,4283,,,,,,,
+DSMC,3035880,pH of Pleural fluid,3280,0,No matching concept,5123,5,7.39,7.53,7.65,7.79,7.91,9
+DSMC,3006338,Orientia tsutsugamushi Ab [Titer] in Serum,3234,0,No matching concept,3403,,,,,,,
+DSMC,3027391,Platelet function (closure time) collagen+ADP induced [Time] in Blood,3209,8555,second,4119,35,75,86,103,130.0,188,300.0
+DSMC,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,3195,8555,second,4098,47,88,105,130.0,172,255,300.0
+DSMC,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,3192,0,No matching concept,4719,,,,,,,
+DSMC,3015401,Amylase [Enzymatic activity/volume] in Pleural fluid,3164,8645,unit per liter,4815,0,11,17,27,44,69,11134
+DSMC,42529194,Beta-2-Microglobulin [Mass/volume] in Urine by Immunoassay,3150,8751,milligram per liter,5719,0.07,0.1,0.2,0.2,0.31,1.56,131.2
+DSMC,42529221,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma by Immunoassay,3142,8842,nanogram per milliliter,4190,0.02,0.02,0.04,1.01,4.52,9.38,24
+DSMC,3010300,Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,3138,0,No matching concept,1585,44,144,183,230.0,273,316,570.0
+DSMC,3010300,Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,3138,8840,milligram per deciliter,1984,76,138,168,211,262,306,592
+DSMC,3028247,Glucose [Mass/volume] in Serum or Plasma --30 minutes post dose glucose,3138,0,No matching concept,1585,76,135,155,185,216,252,599
+DSMC,3028247,Glucose [Mass/volume] in Serum or Plasma --30 minutes post dose glucose,3138,8840,milligram per deciliter,1984,79,136,153,177,210.0,246,555
+DSMC,3002666,Glucose [Mass/volume] in Serum or Plasma --baseline,3138,0,No matching concept,1585,46,85,94,108,126,145,418
+DSMC,3002666,Glucose [Mass/volume] in Serum or Plasma --baseline,3138,8840,milligram per deciliter,1984,37,90.0,97,107,123,147,391
+DSMC,3023306,Glucose [Mass/volume] in Serum or Plasma --1.5 hours post dose glucose,3138,0,No matching concept,1585,34,131,171,230.0,284,333,569
+DSMC,3023306,Glucose [Mass/volume] in Serum or Plasma --1.5 hours post dose glucose,3138,8840,milligram per deciliter,1984,29,123,152,207,272,330.0,633
+DSMC,3026300,Glucose [Mass/volume] in Serum or Plasma --2 hours post dose glucose,3138,0,No matching concept,1585,54,117,146,208,270.0,324,565
+DSMC,3026300,Glucose [Mass/volume] in Serum or Plasma --2 hours post dose glucose,3138,8840,milligram per deciliter,1984,27,110.0,133,180.0,252,325,599
+DSMC,3004198,Follitropin [Units/volume] in Serum or Plasma --baseline,3109,0,No matching concept,4162,0.2,0.81,1.14,1.79,3.17,4.04,66.92
+DSMC,3025119,Lutropin [Units/volume] in Serum or Plasma --baseline,3109,0,No matching concept,4162,0.01,0.43,0.55,0.8,1.14,1.62,17.47
+DSMC,3031391,Hantavirus Ab [Presence] in Serum,3104,0,No matching concept,3246,,,,,,,
+DSMC,3025866,Glucose [Mass/volume] in Serum or Plasma --post 50 g glucose,3075,0,No matching concept,3307,58,99,113,131,151,171,385
+DSMC,3006490,Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy,3059,0,No matching concept,3646,,,,,,,
+DSMC,3024194,Bacteria identified in Pleural fluid by Culture,3041,0,No matching concept,10030,,,,,,,
+DSMC,3011544,Albumin [Mass/volume] in Pleural fluid,3003,8713,gram per deciliter,4543,0,0.8,1.2,1.8,2.4,2.9,10.0
+DSMC,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,2985,0,No matching concept,4535,,,,,,,
+DSMC,3043181,Beta 2 glycoprotein 1 IgM Ab [Presence] in Serum,2957,8763,unit per milliliter,3470,0,0.4,0.5,0.8,1.3,2.3,100.0
+DSMC,3045355,Beta 2 glycoprotein 1 IgG Ab [Presence] in Serum,2939,8763,unit per milliliter,3454,0.3,0.8,1.1,1.5,2.2,3.6,109.4
+DSMC,3025789,Phospholipid IgM Ab [Presence] in Serum,2917,9158,IgM phospholipid unit per milliliter,3108,0.4,0.9,1.1,1.3,1.8,2.5,100.0
+DSMC,3021751,Phospholipid IgG Ab [Presence] in Serum,2879,9157,IgG phospholipid unit per milliliter,3069,0,0.9,1.2,1.6,2.1,3.1,100.0
+DSMC,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,2849,8554,percent,8484,0,12.79,14.6,17.2,20.5,24.8,202.88
+DSMC,40760490,C peptide [Mass/volume] in Serum or Plasma --baseline,2838,0,No matching concept,3320,0.01,0.9,1.26,1.67,2.45,3.57,15.65
+DSMC,3049164,Insulin [Units/volume] in Serum or Plasma --2 hours post dose glucose,2804,0,No matching concept,3276,0.01,7.2,16.43,33.44,62.82,107.65,685.11
+DSMC,40759603,Insulin [Units/volume] in Serum or Plasma --baseline,2804,0,No matching concept,3276,0.01,2.21,4.21,7.08,11.11,17.15,298.62
+DSMC,40761786,C peptide [Mass/volume] in Serum or Plasma --2 hours post dose glucose,2804,0,No matching concept,3276,0.02,3.44,5.15,7.04,9.46,12.59,30.96
+DSMC,3009804,Carcinoembryonic Ag [Mass/volume] in Pleural fluid,2701,0,No matching concept,3765,0.08,0.43,0.76,1.29,2.99,38.06,12588
+DSMC,3014720,Leptospira sp IgG Ab [Presence] in Serum,2686,0,No matching concept,2787,,,,,,,
+DSMC,3015869,Leptospira sp IgM Ab [Presence] in Serum,2686,0,No matching concept,2787,,,,,,,
+DSMC,3005770,Creatinine renal clearance in 24 hour Urine and Serum or Plasma,2636,8795,milliliter per minute,3920,0.25,18.9,39.68,64.05,88.64,114.45,387.15
+DSMC,1761722,Cytomegalovirus DNA [Units/volume] (viral load) in Blood by NAA with probe detection,2614,0,No matching concept,16747,,,,,,,
+DSMC,3034552,Adenosine deaminase [Enzymatic activity/volume] in Cerebral spinal fluid,2590,8923,international unit per liter,3045,0,1,2,2,3,5,128
+DSMC,3016920,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid,2481,8645,unit per liter,2870,4,19,27.3,40.0,56,82,3336
+DSMC,40763949,Clindamycin.induced [Susceptibility],2453,0,No matching concept,8223,,,,,,,
+DSMC,3029719,Indirect antiglobulin test.unspecified reagent [Presence] in Serum or Plasma,2398,0,No matching concept,2914,,,,,,,
+DSMC,3006585,Epstein Barr virus capsid IgG Ab [Presence] in Serum,2347,8763,unit per milliliter,2492,10.0,10.0,10.0,117,391,750.0,750.0
+DSMC,3000259,Yeast [Presence] in Urine sediment by Light microscopy,2346,0,No matching concept,5066,,,,,,,
+DSMC,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,2287,0,No matching concept,3900,,,,,,,
+DSMC,3046760,Galactomannan Ag [Presence] in Serum or Plasma by Immunoassay,2277,0,No matching concept,5241,0.04,0.08,0.13,0.2,0.41,0.85,5.87
+DSMC,3046760,Galactomannan Ag [Presence] in Serum or Plasma by Immunoassay,2277,8779,signal to cutoff ratio,1061,0.04,0.08,0.11,0.17,0.3,0.58,8.41
+DSMC,3005229,Alpha 2 globulin [Mass/volume] in Serum or Plasma by Electrophoresis,2223,8713,gram per deciliter,3051,0.23,0.49,0.56,0.64,0.73,0.86,2.81
+DSMC,3043747,Beta 2 globulin [Mass/volume] in Serum or Plasma by Electrophoresis,2223,8713,gram per deciliter,3051,0.14,0.28,0.33,0.38,0.44,0.52,4.73
+DSMC,3028286,Albumin [Mass/volume] in Serum or Plasma by Electrophoresis,2223,8713,gram per deciliter,3051,0.94,2.63,3.14,3.6,3.91,4.13,5.12
+DSMC,3043723,Beta 1 globulin [Mass/volume] in Serum or Plasma by Electrophoresis,2223,8713,gram per deciliter,3051,0.17,0.42,0.49,0.55,0.62,0.68,4.42
+DSMC,3024800,Alpha 1 globulin/Protein.total in Serum or Plasma by Electrophoresis,2223,8554,percent,3051,1.66,2.67,2.96,3.4,4.23,5.18,9.66
+DSMC,3030972,Beta 2 globulin/Protein.total in Serum or Plasma by Electrophoresis,2223,8554,percent,3051,2.06,4.47,5.03,5.74,6.69,8.22,48.46
+DSMC,3035797,Protein.monoclonal band 2 [Mass/volume] in Serum or Plasma by Electrophoresis,2223,0,No matching concept,3051,,,,,,,
+DSMC,3029713,Protein.monoclonal band 1 [Mass/volume] in Serum or Plasma by Electrophoresis,2223,0,No matching concept,3051,,,,,,,
+DSMC,3030947,Beta 1 globulin/Protein.total in Serum or Plasma by Electrophoresis,2223,8554,percent,3051,2.74,6.72,7.6,8.41,9.29,10.09,49.11
+DSMC,3007424,Albumin/Protein.total in Serum or Plasma by Electrophoresis,2223,8554,percent,3051,22.83,42.52,49.41,54.36,57.59,60.43,70.35
+DSMC,3015322,Alpha 1 globulin [Mass/volume] in Serum or Plasma by Electrophoresis,2223,8713,gram per deciliter,3051,0.12,0.18,0.2,0.23,0.26,0.32,0.57
+DSMC,3006330,Alpha 2 globulin/Protein.total in Serum or Plasma by Electrophoresis,2223,8554,percent,3051,3.25,7.35,8.32,9.48,11.5,13.97,31.56
+DSMC,3025180,Gamma globulin/Protein.total in Serum or Plasma by Electrophoresis,2222,8554,percent,3050,0.91,10.61,14.21,17.2,21.04,26.61,60.36
+DSMC,3023465,Gamma globulin [Mass/volume] in Serum or Plasma by Electrophoresis,2222,8713,gram per deciliter,3050,0.04,0.61,0.87,1.14,1.44,1.87,7.62
+DSMC,40762889,Bilirubin.total [Mass/volume] in Venous blood,2188,8840,milligram per deciliter,30577,-5848,0.3,2.1,5.4,8.5,11.3,40.4
+DSMC,40760251,CYP2C19 gene allele [Genotype] in Blood or Tissue by Molecular genetics method Nominal,2156,0,No matching concept,2166,,,,,,,
+DSMC,36303293,Microscopic observation [Identifier] in Wound by Acid fast stain,2106,0,No matching concept,5069,,,,,,,
+DSMC,3049082,CYP2C9 gene allele [Genotype] in Blood or Tissue by Molecular genetics method Nominal,2062,0,No matching concept,2068,,,,,,,
+DSMC,3011565,Microscopic observation [Identifier] in Tissue by Gram stain,2030,0,No matching concept,4820,,,,,,,
+DSMC,3017394,Zinc [Mass/volume] in Serum or Plasma,2029,0,No matching concept,2337,36.7291,89.33,110.08,138.94,175.2,217.51,435.5047
+DSMC,3025939,Karyotype [Identifier] in Blood or Tissue Nominal,2021,0,No matching concept,2046,,,,,,,
+DSMC,36660377,HLA-A+B+C (class I) Ab [Presence] in Serum or Plasma by Immunoassay,2018,0,No matching concept,9443,,,,,,,
+DSMC,3052599,HLA Ab [Presence] in Serum by Immunoassay,2018,0,No matching concept,9502,,,,,,,
+DSMC,3025037,Bacteria identified in Peritoneal fluid by Culture,2004,0,No matching concept,10761,,,,,,,
+DSMC,40759615,Lutropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1989,0,No matching concept,2581,0.36,1.13,1.6,3.03,4.88,9.52,68.8
+DSMC,3024825,Lutropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1989,0,No matching concept,2581,0.27,1.34,2.12,3.56,7.82,13.45,109.03
+DSMC,3013967,Follitropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1989,0,No matching concept,2581,0.37,4.27,6.26,9.62,12.14,14.8,67.4
+DSMC,3024957,Lutropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1989,0,No matching concept,2581,0.3,1.26,2,3.59,9.05,15.94,150.57
+DSMC,3017512,Follitropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,1989,0,No matching concept,2581,0.37,3.68,4.97,7.22,10.61,12.62,54.3
+DSMC,3041710,Follitropin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,1989,0,No matching concept,2581,0.36,4.41,6.32,9.8,12.35,14.91,71.77
+DSMC,3034494,Follitropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,1989,0,No matching concept,2581,0.36,4.21,6.03,9.1,11.86,14.47,58
+DSMC,3002780,Lutropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,1989,0,No matching concept,2581,0.35,1.21,1.82,3.27,6.02,11.34,81.19
+DSMC,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,1987,0,No matching concept,3566,,,,,,,
+DSMC,3000409,Cytomegalovirus DNA [Presence] in Urine by NAA with probe detection,1967,0,No matching concept,3176,,,,,,,
+DSMC,3015592,Fungus identified in Body fluid by Culture,1913,0,No matching concept,2923,,,,,,,
+DSMC,3019385,Microscopic observation [Identifier] in Ear by Gram stain,1910,0,No matching concept,2925,,,,,,,
+DSMC,3009613,Erythrocytes [#/volume] in Peritoneal fluid,1909,8647,per microliter,5608,0,45,162,750.0,3375,19300.0,82800000.0
+DSMC,3005543,Specific gravity of Peritoneal fluid by Refractometry,1909,0,No matching concept,5608,1,1.01,1.012,1.016,1.024,1.03,1.05
+DSMC,3008838,Polymorphonuclear cells/100 leukocytes in Peritoneal fluid,1909,8554,percent,5608,2,5,10.0,25,70.0,90.0,98
+DSMC,3015421,Appearance of Peritoneal fluid,1909,0,No matching concept,5608,,,,,,,
+DSMC,3004437,Lymphocytes/100 leukocytes in Peritoneal fluid,1909,8554,percent,5607,2,10.0,30.0,75,90.0,95,98
+DSMC,3023487,Leukocytes [#/volume] in Peritoneal fluid,1909,8647,per microliter,5608,0,20.0,48,138,540.0,2250.0,610200.0
+DSMC,3010047,Microscopic observation [Identifier] in Body fluid by Acid fast stain,1856,0,No matching concept,2749,,,,,,,
+DSMC,3002240,Glucose [Mass/volume] in Peritoneal fluid,1806,8840,milligram per deciliter,4106,0,78,101,126,157,213,1317
+DSMC,3002331,Protein [Mass/volume] in Peritoneal fluid,1805,8713,gram per deciliter,4105,0,0.6,0.9,1.5,2.8,4.1,9.6
+DSMC,3043156,Chloride [Moles/volume] in Peritoneal fluid,1804,8753,millimole per liter,4098,5,96,101,105,110.0,114,313
+DSMC,3026692,Albumin [Mass/volume] in Peritoneal fluid,1783,8713,gram per deciliter,4008,0,0.2,0.4,0.7,1.5,2.3,4.8
+DSMC,3032029,Measles virus IgG Ab [Presence] in Serum by Immunoassay,1769,8523,ratio,1769,,,,,,,
+DSMC,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,1754,0,No matching concept,3706,,,,,,,
+DSMC,3033252,Adenosine deaminase [Enzymatic activity/volume] in Peritoneal fluid,1752,8923,international unit per liter,3398,0,3,5,8,13,21,500.0
+DSMC,3051408,Cortisol [Mass/volume] in Serum or Plasma --post 1 mg dexamethasone PO overnight,1742,0,No matching concept,2329,0.25,0.64,0.89,1.45,2.23,3.96,56.09
+DSMC,3008581,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid,1741,8645,unit per liter,3604,6.8,57,88,164,374.6,928,24424.9
+DSMC,3023037,pH of Peritoneal fluid,1727,0,No matching concept,3567,5,7.43,7.53,7.65,7.78,7.89,9
+DSMC,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,1659,0,No matching concept,3047,,,,,,,
+DSMC,3028718,17-Hydroxyprogesterone [Mass/volume] in Serum or Plasma,1657,8842,nanogram per milliliter,1930,0.04,0.45,0.56,0.82,1.25,1.79,148.5
+DSMC,3013201,Beta-2-Microglobulin [Mass/volume] in Serum or Plasma,1646,8751,milligram per liter,3117,0.74,1.83,3.04,15.86,25.47,30.76,108
+DSMC,3028652,Viscosity of Blood,1643,0,No matching concept,4301,,,,,,,
+DSMC,3004372,Urate crystals amorphous [Presence] in Urine sediment by Light microscopy,1623,0,No matching concept,1717,,,,,,,
+DSMC,3035133,Fungus identified in Wound by Culture,1618,0,No matching concept,3532,,,,,,,
+DSMC,3012336,Haptoglobin [Mass/volume] in Serum or Plasma,1617,8840,milligram per deciliter,2622,7.5,10.0,10.0,50.0,127,216,761
+DSMC,37019482,Human papilloma virus genotype [Identifier] in Genital specimen by NAA with probe detection,1613,0,No matching concept,3994,,,,,,,
+DSMC,1617137,HLA-A and B and C (class I) and HLA-DP and DQ and DR (class II) Ab [Identifier] in Serum or Plasma,1578,0,No matching concept,4442,,,,,,,
+DSMC,1259807,Pepsinogen I/Pepsinogen II [Mass Ratio] in Serum,1561,0,No matching concept,1663,0.58,1.21,2.16,3.29,4.51,6.26,9.13
+DSMC,3008691,Amylase [Enzymatic activity/volume] in Peritoneal fluid,1558,8645,unit per liter,3987,2,30.0,64,158,400.0,996,114540.0
+DSMC,3004239,Creatinine [Mass/time] in 24 hour Urine,1548,8909,milligram per 24 hours,3031,0.52,262.73,529.2,814.8,1138.5,1518.48,4091.88
+DSMC,3012625,Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,1501,0,No matching concept,1733,,,,,,,
+DSMC,44786753,Tacrolimus [Mass/volume] in Blood by Immunoassay,1455,8842,nanogram per milliliter,76040,0,3.3,4.4,5.6,7.2,9.2,30.0
+DSMC,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,1450,0,No matching concept,11130,0.02,0.46,0.57,0.74,1.03,2.35,438.54
+DSMC,3012337,Microscopic observation [Identifier] in Tissue by Acid fast stain,1423,0,No matching concept,2736,,,,,,,
+DSMC,3048879,Bone marrow aspiration report,1402,0,No matching concept,2186,,,,,,,
+DSMC,3020738,Protein Fractions [Interpretation] in 24 hour Urine by Electrophoresis,1384,0,No matching concept,1738,,,,,,,
+DSMC,3021322,Cryoglobulin [Presence] in Serum,1383,0,No matching concept,1402,,,,,,,
+DSMC,3019439,Fungus identified in Tissue by Culture,1378,0,No matching concept,2395,,,,,,,
+DSMC,3024389,HLA-DQ [Type],1376,0,No matching concept,1444,,,,,,,
+DSMC,40760218,Follitropin [Units/volume] in Serum or Plasma --1 hour post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.49,3.71,5.16,7.94,10.72,13.07,104.64
+DSMC,40760217,Follitropin [Units/volume] in Serum or Plasma --1.5 hours post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.44,4,5.87,9.28,11.56,14.42,107.18
+DSMC,3035016,Follitropin [Units/volume] in Serum or Plasma --2 hours post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.45,4.66,6.92,10.43,12.79,15.81,130.93
+DSMC,40760224,Lutropin [Units/volume] in Serum or Plasma --30 minutes post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.51,1.24,1.98,3.68,9.39,15.78,95.23
+DSMC,40760223,Lutropin [Units/volume] in Serum or Plasma --1 hour post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.62,1.3,2.19,3.81,10.21,17.59,103.84
+DSMC,40760222,Lutropin [Units/volume] in Serum or Plasma --1.5 hours post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.57,1.33,2.21,3.83,10.32,17.86,119.08
+DSMC,40760221,Lutropin [Units/volume] in Serum or Plasma --2 hours post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.55,1.51,2.55,3.95,10.45,17.18,117.99
+DSMC,40760219,Follitropin [Units/volume] in Serum or Plasma --30 minutes post dose gonadotropin releasing hormone,1339,0,No matching concept,1581,0.49,3.29,4.38,6.09,9.3,11.24,89.43
+DSMC,3013058,Helicobacter pylori IgG Ab [Presence] in Serum,1313,8763,unit per milliliter,1353,,,,,,,
+DSMC,3036539,Specific gravity of Synovial fluid,1310,0,No matching concept,1848,1.007,1.022,1.028,1.032,1.036,1.038,1.05
+DSMC,3006571,Polymorphonuclear cells/100 leukocytes in Synovial fluid,1310,8554,percent,1848,3,50.0,85,95,95,95,98
+DSMC,3003329,Lymphocytes/100 leukocytes in Synovial fluid,1310,8554,percent,1848,2,5,5,5,15,50.0,97
+DSMC,3024263,Appearance of Synovial fluid,1310,0,No matching concept,1848,,,,,,,
+DSMC,3000475,Leukocytes [#/volume] in Synovial fluid,1310,8647,per microliter,1848,0,40.0,600.0,7690.0,24480.0,55260.0,806400.0
+DSMC,3010144,Erythrocytes [#/volume] in Synovial fluid,1310,8647,per microliter,1848,0,90.0,650.0,7100.0,63000.0,409500.0,7200000.0
+DSMC,3034844,Toxoplasma gondii IgM Ab [Presence] in Serum,1306,8779,signal to cutoff ratio,1427,,,,,,,
+DSMC,36304253,Microscopic observation [Presence] in Synovial fluid by Acid fast stain,1292,0,No matching concept,2857,,,,,,,
+DSMC,3002389,Microscopic observation [Identifier] in Synovial fluid by Gram stain,1289,0,No matching concept,2884,,,,,,,
+DSMC,1176003,Microscopic observation [Identifier] in Skin by Gram stain,1257,0,No matching concept,6213,,,,,,,
+DSMC,3022481,Fat [Presence] in Stool,1238,8786,per high power field,1595,,,,,,,
+DSMC,3017275,Cortisol [Mass/time] in 24 hour Urine,1223,8906,microgram per 24 hours,1647,0.09,1.68,3,5.44,8.42,12.36,265.1
+DSMC,3010989,Calcitonin [Mass/volume] in Serum or Plasma,1204,8845,picogram per milliliter,1532,0.8,2,2.1,3.5,5.6,10.0,333
+DSMC,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,1198,8748,microgram per liter,1405,2.8,6.7,8.5,11.4,15.8,23.2,360.0
+DSMC,3009726,Microscopic observation [Identifier] in Tissue by KOH preparation,1189,0,No matching concept,2023,,,,,,,
+DSMC,3010873,Bilirubin.total [Mass/volume] in Urine,1187,8840,milligram per deciliter,5178,0,0.34,0.65,1.15,2.31,7.48,227.58
+DSMC,3024995,Toxoplasma gondii IgG Ab [Presence] in Serum,1165,8985,international unit per milliliter,1204,,,,,,,
+DSMC,3964883,Cytomegalovirus DNA [Units/volume] (viral load) in Urine by NAA with probe detection,1158,0,No matching concept,1839,,,,,,,
+DSMC,3043425,Karyotype [Identifier] in Bone marrow Nominal,1097,0,No matching concept,1663,,,,,,,
+DSMC,3018517,Mitochondria Ab [Presence] in Serum,1059,0,No matching concept,1168,,,,,,,
+DSMC,3016201,Valproate [Mass/volume] in Serum or Plasma,1056,8859,microgram per milliliter,2634,0,15.7,33.6,54.6,75.2,94.1,150.0
+DSMC,1175359,Enterovirus RNA [Presence] in Stool by NAA with probe detection,1033,0,No matching concept,1250,,,,,,,
+DSMC,3034629,BK virus DNA [#/volume] (viral load) in Urine by NAA with probe detection,1032,0,No matching concept,7420,,,,,,,
+DSMC,3009308,Rubella virus IgM Ab [Presence] in Serum,990,8779,signal to cutoff ratio,1027,,,,,,,
+DSMC,3046044,N-acetyl-beta-glucosaminidase [Enzymatic activity/volume] in Urine,983,8923,international unit per liter,1108,0.05,3.34,6,10.53,18.72,34.12,521.09
+DSMC,3053310,N-acetyl-beta-glucosaminidase/Creatinine [Ratio] in Urine,983,0,No matching concept,1108,0.2,5.46,9.17,16.51,27.61,47.12,804.31
+DSMC,3029226,BK virus DNA [#/volume] (viral load) in Blood by NAA with probe detection,974,0,No matching concept,5622,,,,,,,
+DSMC,3025591,Vanillylmandelate [Mass/time] in 24 hour Urine,967,8909,milligram per 24 hours,1090,0.1,1.9,2.6,3.4,4.3,5.3,35.2
+DSMC,3019250,Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay,861,8554,percent,1330,0.1,11.6,72.2,114.8,171.7,150169.7,150490.9
+DSMC,3022543,Methylhippurate/Creatinine [Mass Ratio] in Urine,848,0,No matching concept,1563,0,0,0,0,0.032,0.079,1.893
+DSMC,3013742,Prealbumin [Mass/volume] in Serum or Plasma,784,8840,milligram per deciliter,2529,5,12,18,22,27,30.0,48
+DSMC,3027653,Mycophenolate [Mass/volume] in Serum or Plasma,755,8859,microgram per milliliter,6673,0.1,0.5,1.2,2.2,3.9,6.7,30.0
+DSMC,46236285,Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture,680,0,No matching concept,2273,,,,,,,
+DSMC,3036567,Thyroid stimulating immunoglobulins actual/normal in Serum,642,8554,percent,2614,15.2,47.7,92.2,194.1,343.8,456.2,935.6
+DSMC,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,613,8840,milligram per deciliter,767,49,99,116,151,197,264,607
+DSMC,3034827,Methyl formamide [Mass/volume] in Urine,581,0,No matching concept,1436,0,0,0,0.691,1.7471,4.561,211.442
+DSMC,3021125,Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection,578,8985,international unit per milliliter,1445,,,,,,,
+DSMC,3034860,Kappa light chains.free [Mass/volume] in Serum,561,8751,milligram per liter,1036,,,,,,,
+DSMC,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,560,8751,milligram per liter,1035,,,,,,,
+DSMC,3017315,Amylase [Enzymatic activity/volume] in Urine,544,8645,unit per liter,3383,1,19,59,405,3374,7500.0,254200.0
+DSMC,3002653,Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection,537,0,No matching concept,573,,,,,,,
+DSMC,3017457,Urea nitrogen [Mass/time] in 24 hour Urine,510,8909,milligram per 24 hours,1735,1.28,333,1150.0,3029,7961,12244.5,28614
+DSMC,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,505,0,No matching concept,222,14.9,22.4,31.2,38.3,65.4,134.3,280.0
+DSMC,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,505,9114,nanomole of bone collagen equivalent per millimole of creatinine,299,11,21,27,48,69,106,299
+DSMC,3016991,Thyroxine (T4) [Mass/volume] in Serum or Plasma,445,0,No matching concept,481,0.99,4.21,5.17,6.35,7.51,9.31,20.88
+DSMC,3016991,Thyroxine (T4) [Mass/volume] in Serum or Plasma,445,8837,microgram per deciliter,148,2.8,3,4.7,5.9,6.9,7.9,11.9
+DSMC,3001467,Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma,354,8645,unit per liter,367,1.35,8.1,11.48,16.01,23.42,33.13,134.48
+DSMC,3013480,cycloSPORINE [Mass/volume] in Blood by Immunoassay,312,8842,nanogram per milliliter,6361,0,49.4,74,109.6,162.1,224.6,1209.6
+DSMC,44786798,Granulocytes/100 leukocytes in Peritoneal dialysis fluid,287,8554,percent,5346,2,25,60.0,85,95,95,98
+DSMC,3037850,Specific gravity of Body fluid,287,0,No matching concept,5346,1,1.008,1.01,1.01,1.012,1.012,1012
+DSMC,3041920,Lymphocytes/100 leukocytes in Peritoneal dialysis fluid by Manual count,287,8554,percent,5346,2,5,5,15,40.0,75,98
+DSMC,3029856,Leukocytes [#/volume] in Peritoneal dialysis fluid,287,8647,per microliter,5346,0,0,4,24,210.0,1512,42300.0
+DSMC,21493866,Erythrocytes [#/volume] in Peritoneal dialysis fluid by Automated count,287,8647,per microliter,5346,0,0,0,4,27,198,4320000.0
+DSMC,3041209,Appearance of Peritoneal dialysis fluid,287,0,No matching concept,5346,,,,,,,
+DSMC,3033926,Protein [Mass/volume] in Peritoneal dialysis fluid,283,8840,milligram per deciliter,2378,0.1,34,47,65,90.0,132,3202.1
+DSMC,3048925,Creatinine [Mass/volume] in Peritoneal dialysis fluid,277,8840,milligram per deciliter,2417,0.05,2.15,3.9,6.07,8.25,10.61,88.28
+DSMC,3013067,Urea nitrogen [Mass/volume] in Peritoneal dialysis fluid,273,8840,milligram per deciliter,2412,0,22,32,42,55,69,318
+DSMC,40763091,Bacteria identified in Peritoneal dialysis fluid by Culture,219,0,No matching concept,2301,,,,,,,
+DSMC,36306114,Helicobacter pylori 23S rRNA clarithromycin resistance mutation [Identifier] by Molecular method,176,0,No matching concept,176,,,,,,,
+DSMC,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,147,8985,international unit per milliliter,151,,,,,,,
+DSMC,3029230,"t(9;22)(q34.1;q11)(ABL1,BCR) b2a2+b3a2 fusion transcript [#/volume] in Blood or Tissue by Molecular genetics method",126,0,No matching concept,1646,,,,,,,
+DSMC,3041239,Cefotaxime [Susceptibility] for meningitis,110,0,No matching concept,377,0.12,0.12,0.5,1,2,8,8
+DSMC,3029983,cefTRIAXone [Susceptibility] for meningitis,109,0,No matching concept,373,0.12,0.12,1,1,4,8,8
+DSMC,3035598,Amphotericin B [Susceptibility],91,0,No matching concept,223,0.25,0.25,0.25,0.25,0.5,0.5,1
+DSMC,40769783,Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,77,8842,nanogram per milliliter,122,0.003,0.006,0.007,0.009,0.012,0.017,0.163
+DSMC,3039354,Thyroxine (T4) free [Mass/volume] in DBS,55,8817,nanogram per deciliter,61,0.9,1.1,1.3,1.6,2.2,2.6,4.2
+DSMC,3016049,Testosterone Free [Mass/volume] in Serum or Plasma,52,8845,picogram per milliliter,69,0.13,1.12,2.17,4.45,9.41,14.38,33.5
+DSMC,3020035,C peptide [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,43,0,No matching concept,43,0.19,1.09,2.46,4.38,6.79,9.61,13.31
+DSMC,3008467,Voriconazole [Susceptibility],18,0,No matching concept,37,0.12,0.12,0.12,0.12,0.5,1,1
+DSMC,3001722,Fluconazole [Susceptibility],17,0,No matching concept,35,0.5,0.5,0.5,0.5,1,32,32
+DSMC,3015660,Caspofungin [Susceptibility],17,0,No matching concept,35,0.12,0.12,0.12,0.12,0.25,0.5,0.5
+DSMC,40768038,Micafungin [Susceptibility],17,0,No matching concept,35,0.06,0.06,0.06,0.06,0.5,0.5,0.5
+DSMC,3034179,5-Fluorocytosine [Susceptibility],13,0,No matching concept,25,1,1,1,1,1,1,1
+DSMC,3022338,Retinol [Mass/volume] in Serum or Plasma,8,8751,milligram per liter,8,,,,,,,

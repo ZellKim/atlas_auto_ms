@@ -1,0 +1,22 @@
+{
+  "site_code": "KWMC",
+  "collected_at": "2026-05-15T05:48:49.547468+00:00",
+  "cdm_name": "KWMC_5.3.1_09",
+  "group_id": 10,
+  "site_id": 213,
+  "source_key": "cdmpv53_250407",
+  "source_key_override": true,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\KWMC_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:38:13.277158+00:00",
+  "concepts_attempted": 1005,
+  "concepts_with_data": 942,
+  "concepts_no_data": 160,
+  "concepts_error": 0,
+  "rows_total": 1102,
+  "elapsed_seconds": 19885.7,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

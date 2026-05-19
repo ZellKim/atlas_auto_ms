@@ -1,0 +1,22 @@
+{
+  "site_code": "MJH",
+  "collected_at": "2026-05-15T06:25:26.737439+00:00",
+  "cdm_name": "MJH_5.3.1_06",
+  "group_id": 67,
+  "site_id": 204,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\MJH_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:38:46.746139+00:00",
+  "concepts_attempted": 115,
+  "concepts_with_data": 140,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 140,
+  "elapsed_seconds": 2161.5,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

@@ -1,0 +1,615 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+SCHGM,3027484,Hemoglobin [Mass/volume] in Blood by calculation,435144,8713,gram per deciliter,1549568,3.4,12.8,13.9,15.1,16,16.7,23.6
+SCHGM,3027484,Hemoglobin [Mass/volume] in Blood by calculation,435144,0,No matching concept,1118558,,,,,,,
+SCHGM,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,425631,0,No matching concept,1823406,,,,,,,
+SCHGM,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,425586,0,No matching concept,1822942,,,,,,,
+SCHGM,3000483,Glucose [Mass/volume] in Blood,417379,8840,milligram per deciliter,977815,1,81,87,95,106,129,1761
+SCHGM,3000483,Glucose [Mass/volume] in Blood,417379,0,No matching concept,620834,,,,,,,
+SCHGM,3027114,Cholesterol [Mass/volume] in Serum or Plasma,409289,8840,milligram per deciliter,796442,10.0,151,169,192,217,242,915
+SCHGM,3027114,Cholesterol [Mass/volume] in Serum or Plasma,409289,0,No matching concept,787313,,,,,,,
+SCHGM,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,392650,0,No matching concept,1380421,,,,,,,
+SCHGM,3016723,Creatinine [Mass/volume] in Serum or Plasma,388553,8840,milligram per deciliter,1011609,0,0.7,0.8,0.9,1.03,1.2,29.9
+SCHGM,3016723,Creatinine [Mass/volume] in Serum or Plasma,388553,0,No matching concept,620833,,,,,,,
+SCHGM,40771922,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",388527,0,No matching concept,1631255,,,,,,,
+SCHGM,3009542,Hematocrit [Volume Fraction] of Blood,335364,8554,percent,241533,9.1,38.6,41.6,44.6,46.9,48.6,77.4
+SCHGM,3009542,Hematocrit [Volume Fraction] of Blood,335364,0,No matching concept,1118520,,,,,,,
+SCHGM,3010813,Leukocytes [#/volume] in Blood,326876,0,No matching concept,1298105,,,,,,,
+SCHGM,3007461,Platelets [#/volume] in Blood,326843,0,No matching concept,1297824,,,,,,,
+SCHGM,3026361,Erythrocytes [#/volume] in Blood,326798,0,No matching concept,1297881,,,,,,,
+SCHGM,3022192,Triglyceride [Mass/volume] in Serum or Plasma,278089,8840,milligram per deciliter,740760,2,50.0,70.0,104,163,249,8297
+SCHGM,3022192,Triglyceride [Mass/volume] in Serum or Plasma,278089,0,No matching concept,204409,,,,,,,
+SCHGM,3019069,Monocytes/100 leukocytes in Blood,276999,8554,percent,69412,0,5.1,6,7.1,8.4,9.7,68.6
+SCHGM,3019069,Monocytes/100 leukocytes in Blood,276999,0,No matching concept,1116257,,,,,,,
+SCHGM,3018010,Neutrophils/100 leukocytes in Blood,276999,0,No matching concept,1185670,,,,,,,
+SCHGM,3002030,Lymphocytes/100 leukocytes in Blood,276999,0,No matching concept,1185670,,,,,,,
+SCHGM,3006504,Eosinophils/100 leukocytes in Blood,276998,0,No matching concept,1185649,,,,,,,
+SCHGM,3022096,Basophils/100 leukocytes in Blood,276997,8554,percent,69413,0,0.2,0.3,0.5,0.7,1,6
+SCHGM,3022096,Basophils/100 leukocytes in Blood,276997,0,No matching concept,1116218,,,,,,,
+SCHGM,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,274641,8840,milligram per deciliter,482703,-3.5,8.9,11.3,14.5,19.7,34.8,317.4
+SCHGM,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,274641,0,No matching concept,620834,,,,,,,
+SCHGM,3001604,Monocytes [#/volume] in Blood,271804,0,No matching concept,1163885,,,,,,,
+SCHGM,3019198,Lymphocytes [#/volume] in Blood,271804,0,No matching concept,1163884,,,,,,,
+SCHGM,3017732,Neutrophils [#/volume] in Blood,271804,0,No matching concept,1163883,,,,,,,
+SCHGM,3013115,Eosinophils [#/volume] in Blood,271802,0,No matching concept,1163858,,,,,,,
+SCHGM,3006315,Basophils [#/volume] in Blood,271794,0,No matching concept,1163813,,,,,,,
+SCHGM,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,268698,8840,milligram per deciliter,738807,3,40.0,46,53,62,71,190.0
+SCHGM,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,268698,0,No matching concept,152155,,,,,,,
+SCHGM,3003338,MCHC [Mass/volume],250105,8713,gram per deciliter,53214,23,32.7,33.3,33.9,34.5,35,42.9
+SCHGM,3003338,MCHC [Mass/volume],250105,0,No matching concept,1075772,,,,,,,
+SCHGM,3035941,MCH [Entitic mass],250105,8564,picogram,53214,12.6,28.8,29.8,30.7,31.6,32.5,51.8
+SCHGM,3035941,MCH [Entitic mass],250105,0,No matching concept,1075772,,,,,,,
+SCHGM,3024731,MCV [Entitic volume],250105,8583,femtoliter,53214,54.8,85.4,87.9,90.4,93,95.3,120.7
+SCHGM,3024731,MCV [Entitic volume],250105,0,No matching concept,1075771,,,,,,,
+SCHGM,3002385,Erythrocyte distribution width [Ratio],248760,8554,percent,49309,10.8,12.1,12.4,12.7,13.1,13.6,29.2
+SCHGM,3002385,Erythrocyte distribution width [Ratio],248760,0,No matching concept,1075771,,,,,,,
+SCHGM,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,248651,8840,milligram per deciliter,221677,-0.1,0.43,0.6,0.8,1.2,2.1,39.2
+SCHGM,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,248651,0,No matching concept,694028,,,,,,,
+SCHGM,3039417,Platelet distribution width [Ratio] in Blood,248243,8583,femtoliter,47866,7.8,10.2,10.9,11.8,12.8,13.9,25.3
+SCHGM,3039417,Platelet distribution width [Ratio] in Blood,248243,0,No matching concept,1075771,,,,,,,
+SCHGM,3001123,Platelet mean volume [Entitic volume] in Blood,248181,8583,femtoliter,47749,7.8,9.3,9.7,10.2,10.7,11.3,14.3
+SCHGM,3001123,Platelet mean volume [Entitic volume] in Blood,248181,0,No matching concept,1075771,,,,,,,
+SCHGM,40760845,Protein [Presence] in Urine by Automated test strip,246103,0,No matching concept,647347,,,,,,,
+SCHGM,3022621,pH of Urine by Test strip,245848,0,No matching concept,645862,,,,,,,
+SCHGM,3030260,Glucose [Presence] in Urine by Automated test strip,245792,0,No matching concept,645815,,,,,,,
+SCHGM,3018834,Bilirubin.total [Presence] in Urine by Test strip,245706,0,No matching concept,645649,,,,,,,
+SCHGM,3035350,Ketones [Presence] in Urine by Test strip,245648,0,No matching concept,645329,,,,,,,
+SCHGM,3000348,Leukocyte esterase [Presence] in Urine by Test strip,245608,0,No matching concept,645479,,,,,,,
+SCHGM,3011397,Hemoglobin [Presence] in Urine by Test strip,245079,0,No matching concept,644619,,,,,,,
+SCHGM,3024561,Albumin [Mass/volume] in Serum or Plasma,242824,8713,gram per deciliter,187292,0.2,2.8,3.6,4.3,4.5,4.8,7.6
+SCHGM,3024561,Albumin [Mass/volume] in Serum or Plasma,242824,0,No matching concept,699481,,,,,,,
+SCHGM,3020630,Protein [Mass/volume] in Serum or Plasma,242179,8713,gram per deciliter,215228,0.7,6.2,6.9,7.3,7.6,7.9,15.2
+SCHGM,3020630,Protein [Mass/volume] in Serum or Plasma,242179,0,No matching concept,635158,,,,,,,
+SCHGM,3021601,Nitrite [Presence] in Urine by Test strip,240764,0,No matching concept,628995,,,,,,,
+SCHGM,3037426,Urobilinogen [Presence] in Urine by Test strip,240763,0,No matching concept,628995,,,,,,,
+SCHGM,3000330,Specific gravity of Urine by Test strip,240761,0,No matching concept,629053,,,,,,,
+SCHGM,3019284,Hepatitis B virus surface Ag [Presence] in Serum,238575,0,No matching concept,646670,,,,,,,
+SCHGM,3039312,Plateletcrit [Volume Fraction] in Blood,236632,0,No matching concept,1075715,,,,,,,
+SCHGM,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,235810,0,No matching concept,808133,,,,,,,
+SCHGM,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,228582,8840,milligram per deciliter,155343,-0.4,0.1,0.2,0.2,0.4,0.7,32
+SCHGM,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,228582,0,No matching concept,624889,,,,,,,
+SCHGM,3025315,Body weight,227460,8504,gram,4723,3.3,2210.0,2690.0,3080.0,3420.0,3780.0,5280.0
+SCHGM,3025315,Body weight,227460,9529,kilogram,1571839,0,9.9,20.0,55.1,68,78.6,1077516
+SCHGM,3025315,Body weight,227460,0,No matching concept,362371,,,,,,,
+SCHGM,3029925,Color of Urine by Auto,225496,0,No matching concept,571883,,,,,,,
+SCHGM,3035355,Turbidity [Presence] of Urine Qualitative,225496,0,No matching concept,571883,,,,,,,
+SCHGM,3020509,Albumin/Globulin [Mass Ratio] in Serum or Plasma,224182,8713,gram per deciliter,151217,-1.3,1,1.3,1.5,1.7,1.8,14.7
+SCHGM,3020509,Albumin/Globulin [Mass Ratio] in Serum or Plasma,224182,0,No matching concept,634987,,,,,,,
+SCHGM,3020891,Body temperature,222110,586323,degree Celsius,4752397,0,36.5,36.6,36.8,37.1,37.5,36177.9
+SCHGM,3020891,Body temperature,222110,0,No matching concept,538338,,,,,,,
+SCHGM,3005456,Potassium [Moles/volume] in Blood,221594,0,No matching concept,928743,,,,,,,
+SCHGM,3000285,Sodium [Moles/volume] in Blood,221591,0,No matching concept,927681,,,,,,,
+SCHGM,3037556,Urate [Mass/volume] in Serum or Plasma,218328,8840,milligram per deciliter,139610,0.2,3.8,4.7,5.8,7,8.1,34.7
+SCHGM,3037556,Urate [Mass/volume] in Serum or Plasma,218328,0,No matching concept,582903,,,,,,,
+SCHGM,3012888,Diastolic blood pressure,217447,8876,millimeter mercury column,4834119,0,60.0,66,70.0,80.0,90.0,101100.0
+SCHGM,3012888,Diastolic blood pressure,217447,0,No matching concept,585473,,,,,,,
+SCHGM,3004249,Systolic blood pressure,217442,8876,millimeter mercury column,4839245,0,100.0,110.0,120.0,131,147,1351783877
+SCHGM,3004249,Systolic blood pressure,217442,0,No matching concept,586109,,,,,,,
+SCHGM,3027018,Heart rate,217056,0,No matching concept,5319830,,,,,,,
+SCHGM,3032503,Calcium [Mass/volume] in Blood,210925,8840,milligram per deciliter,86260,3.4,8.5,8.8,9.1,9.4,9.7,108
+SCHGM,3032503,Calcium [Mass/volume] in Blood,210925,0,No matching concept,623103,,,,,,,
+SCHGM,3024232,Phosphate [Mass/volume] in Blood,208601,8840,milligram per deciliter,74839,0.3,2.8,3.1,3.5,3.9,4.4,29.4
+SCHGM,3024232,Phosphate [Mass/volume] in Blood,208601,0,No matching concept,623104,,,,,,,
+SCHGM,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,208473,0,No matching concept,538349,,,,,,,
+SCHGM,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,208469,0,No matching concept,538291,,,,,,,
+SCHGM,3018572,Chloride [Moles/volume] in Blood,208225,0,No matching concept,887934,,,,,,,
+SCHGM,3017797,Hepatitis B virus surface Ab [Presence] in Serum,198810,0,No matching concept,315194,,,,,,,
+SCHGM,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,182454,0,No matching concept,442581,,,,,,,
+SCHGM,3015183,Erythrocyte sedimentation rate,180516,8752,millimeter per hour,485483,-2,2,5,13,30.0,58,195
+SCHGM,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,179093,8840,milligram per deciliter,527845,-0.015,0.03,0.066,0.26,1.53,5.78,319
+SCHGM,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,179093,0,No matching concept,15,,,,,,,
+SCHGM,3036277,Body height,174428,0,No matching concept,1311985,,,,,,,
+SCHGM,3036277,Body height,174428,8582,centimeter,326,,,,,,,
+SCHGM,3013731,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay,169810,8985,international unit per milliliter,63114,0,0.23,5.79,48.65,243.09,943.11,1000.0
+SCHGM,3013731,Hepatitis B virus surface Ab [Units/volume] in Serum or Plasma by Immunoassay,169810,0,No matching concept,242081,,,,,,,
+SCHGM,3024171,Respiratory rate,159822,0,No matching concept,4276176,,,,,,,
+SCHGM,3005424,Body surface area,157235,0,No matching concept,850794,,,,,,,
+SCHGM,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,153294,8840,milligram per deciliter,313002,7,79,98,121,145,168,521
+SCHGM,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,153294,0,No matching concept,141843,,,,,,,
+SCHGM,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,142972,8554,percent,1014845,0,96,98,99,100.0,100.0,10000.0
+SCHGM,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,142972,0,No matching concept,105232,,,,,,,
+SCHGM,3038553,Body mass index (BMI) [Ratio],137284,9531,kilogram per square meter,807566,0.01,18.38,21.23,23.99,26.67,29.49,680000.0
+SCHGM,3022217,INR in Platelet poor plasma by Coagulation assay,135996,0,No matching concept,325527,,,,,,,
+SCHGM,3033658,Prothrombin time (PT) actual/Normal,135996,0,No matching concept,325527,,,,,,,
+SCHGM,3034426,Prothrombin time (PT),135996,0,No matching concept,325528,,,,,,,
+SCHGM,3018677,aPTT in Platelet poor plasma by Coagulation assay,134497,8555,second,93622,0,25.6,27.6,30.3,34.5,40.6,180.0
+SCHGM,3018677,aPTT in Platelet poor plasma by Coagulation assay,134497,0,No matching concept,195379,,,,,,,
+SCHGM,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,126947,0,No matching concept,275605,,,,,,,
+SCHGM,3021461,Reagin Ab [Presence] in Serum by RPR,123512,0,No matching concept,185954,,,,,,,
+SCHGM,3003694,ABO and Rh group [Type] in Blood,123036,0,No matching concept,471031,,,,,,,
+SCHGM,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,121696,8779,signal to cutoff ratio,38092,0.05,0.05,0.05,0.05,0.05,0.08,0.99
+SCHGM,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,121696,0,No matching concept,289539,,,,,,,
+SCHGM,3017143,Hepatitis C virus Ab [Presence] in Serum,113706,8779,signal to cutoff ratio,54016,0.02,0.02,0.02,0.03,0.08,0.13,11
+SCHGM,3017143,Hepatitis C virus Ab [Presence] in Serum,113706,0,No matching concept,289810,,,,,,,
+SCHGM,3003310,Rh [Type] in Blood,106233,0,No matching concept,149773,,,,,,,
+SCHGM,3024277,Reverse ABO group [Type],106233,0,No matching concept,149773,,,,,,,
+SCHGM,3002529,ABO group [Type] in Blood,106233,0,No matching concept,149774,,,,,,,
+SCHGM,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,102962,0,No matching concept,232167,,,,,,,
+SCHGM,3023399,Thyrotropin [Units/volume] in Blood,99381,0,No matching concept,260427,,,,,,,
+SCHGM,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,91488,8554,percent,354042,-7,5.2,5.5,6,7,8.2,32.2
+SCHGM,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,81752,0,No matching concept,151421,,,,,,,
+SCHGM,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,81679,8817,nanogram per deciliter,204494,0.02,0.88,0.99,1.13,1.3,1.48,12
+SCHGM,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,71244,0,No matching concept,123702,,,,,,,
+SCHGM,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,70758,8840,milligram per deciliter,659322,0,105,124,160.0,213,277,457288
+SCHGM,757677,SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection,69239,0,No matching concept,95060,,,,,,,
+SCHGM,3001079,Blood group antibody screen [Presence] in Serum or Plasma,67931,0,No matching concept,92253,,,,,,,
+SCHGM,3026008,Bacteria identified in Urine by Culture,66232,0,No matching concept,262331,,,,,,,
+SCHGM,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,65824,8842,nanogram per milliliter,162882,0,0.74,0.88,1.04,1.23,1.47,8
+SCHGM,3033236,Creatine kinase.MB [Mass/volume] in Blood,62771,8842,nanogram per milliliter,129253,0,0.4,0.72,1.4,2.88,6.63,300.0
+SCHGM,3033745,Troponin I.cardiac [Mass/volume] in Blood,62494,8842,nanogram per milliliter,128223,0,0,0.003,0.01,0.039,0.464,50.0
+SCHGM,3014094,"Carbon dioxide, total [Moles/volume] in Blood",60860,0,No matching concept,224377,,,,,,,
+SCHGM,3027946,Carbon dioxide [Partial pressure] in Arterial blood,60860,0,No matching concept,224376,,,,,,,
+SCHGM,3019977,pH of Arterial blood,60859,0,No matching concept,224389,,,,,,,
+SCHGM,3006576,Bicarbonate [Moles/volume] in Blood,60859,0,No matching concept,224370,,,,,,,
+SCHGM,21490592,Base excess in Extracellular fluid by calculation,60859,0,No matching concept,224366,,,,,,,
+SCHGM,3027801,Oxygen [Partial pressure] in Arterial blood,60836,0,No matching concept,223782,,,,,,,
+SCHGM,3013502,Oxygen saturation in Blood,60627,0,No matching concept,223715,,,,,,,
+SCHGM,3012501,Base excess in Blood by calculation,59063,0,No matching concept,184397,,,,,,,
+SCHGM,42868453,Bicarbonate [Moles/volume] standard in Plasma,58862,0,No matching concept,183796,,,,,,,
+SCHGM,3025590,Crystals [type] in Urine sediment by Light microscopy,55314,0,No matching concept,100834,,,,,,,
+SCHGM,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,55077,8842,nanogram per milliliter,136681,0,1.1,2,2.7,3.9,5.76,324635
+SCHGM,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,55077,0,No matching concept,1178,,,,,,,
+SCHGM,3012471,Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay,53081,0,No matching concept,97463,,,,,,,
+SCHGM,3030405,Hyaline casts [Presence] in Urine by Automated,50313,0,No matching concept,93273,,,,,,,
+SCHGM,3032172,Bacteria [Presence] in Urine by Automated,50313,0,No matching concept,93273,,,,,,,
+SCHGM,3043138,Epithelial cells.renal [#/area] in Urine by Computer assisted method,50313,0,No matching concept,93272,,,,,,,
+SCHGM,3029162,Epithelial cells.squamous [#/area] in Urine sediment by Automated count,50313,0,No matching concept,93272,,,,,,,
+SCHGM,43055193,Pathologic casts [Presence] in Urine by Automated,50313,0,No matching concept,93273,,,,,,,
+SCHGM,3043681,Transitional cells [#/area] in Urine by Computer assisted method,50313,0,No matching concept,93273,,,,,,,
+SCHGM,43055192,Yeast [Presence] in Urine by Automated,50312,0,No matching concept,93269,,,,,,,
+SCHGM,36304079,Mucus [Presence] in Urine sediment,50312,0,No matching concept,93271,,,,,,,
+SCHGM,3029181,Spermatozoa [Presence] in Urine by Automated,50312,0,No matching concept,93269,,,,,,,
+SCHGM,21492827,Other elements in Urine,50312,0,No matching concept,93269,,,,,,,
+SCHGM,3002400,Iron [Mass/volume] in Serum or Plasma,47769,0,No matching concept,89850,,,,,,,
+SCHGM,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,47603,0,No matching concept,88803,,,,,,,
+SCHGM,3023368,Bacteria identified in Blood by Culture,46174,0,No matching concept,240444,,,,,,,
+SCHGM,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,45269,8763,unit per milliliter,97812,1.46,2,2.2,5,11.22,20.0,12000.0
+SCHGM,3002809,Reticulocytes/100 erythrocytes in Blood by Manual,41310,8554,percent,65919,0,0.79,1.08,1.43,1.84,2.31,45.5
+SCHGM,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,38601,8842,nanogram per milliliter,68409,0,0.14,0.67,1.44,2.05,3.16,15000.0
+SCHGM,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,38189,8985,international unit per milliliter,79691,-19.4,4.8,6.4,8,9.9,13,3540.0
+SCHGM,3031569,Natriuretic peptide B [Mass/volume] in Blood,37344,8845,picogram per milliliter,68683,0,6.87,11,33.62,133.95,536.07,5000.0
+SCHGM,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,36354,8842,nanogram per milliliter,201352,0,0.326,0.514,0.811,1.402,3.319,1000.0
+SCHGM,3003745,Microscopic observation [Identifier] in Urine by Gram stain,35996,0,No matching concept,69502,,,,,,,
+SCHGM,3017250,Creatinine [Mass/volume] in Urine,31022,8840,milligram per deciliter,67458,0,35.7,63,106.4,157.6,208.9,1117.5
+SCHGM,3017250,Creatinine [Mass/volume] in Urine,31022,0,No matching concept,39231,,,,,,,
+SCHGM,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,30359,0,No matching concept,50952,,,,,,,
+SCHGM,42870366,Fibrin D-dimer FEU [Mass/volume] in Blood by Immunoassay,30172,8859,microgram per milliliter,46848,0,0.38,2.13,214,797,2786,900009
+SCHGM,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,29815,0,No matching concept,50013,,,,,,,
+SCHGM,3051245,Myoglobin [Mass/volume] in Blood,29590,8842,nanogram per milliliter,48106,0,23.53,33.81,55.2,130.71,421.91,1200.0
+SCHGM,3043891,Influenza virus A Ag [Presence] in Nose,27141,0,No matching concept,33054,,,,,,,
+SCHGM,3045856,Influenza virus B Ag [Presence] in Nose,27141,0,No matching concept,33054,,,,,,,
+SCHGM,3026355,Reagin Ab [Units/volume] in Serum or Plasma by RPR,24867,0,No matching concept,30016,,,,,,,
+SCHGM,3011961,Ferritin [Mass/volume] in Blood,23524,8842,nanogram per milliliter,42076,0,8.46,25.6,66.64,167.66,377.77,40000.0
+SCHGM,3003327,Ova and parasites identified in Stool by Light microscopy,22502,0,No matching concept,36197,,,,,,,
+SCHGM,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,22256,0,No matching concept,28324,,,,,,,
+SCHGM,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,21429,8554,percent,33337,-16.9,0.36,7.53,13.5,60.0,100.0,100.0
+SCHGM,3043409,Potassium [Moles/volume] in Arterial blood,20859,0,No matching concept,64739,,,,,,,
+SCHGM,3043706,Sodium [Moles/volume] in Arterial blood,20756,0,No matching concept,64553,,,,,,,
+SCHGM,21492993,"HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",20476,0,No matching concept,23234,,,,,,,
+SCHGM,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,19299,8985,international unit per milliliter,37823,0.01,7.7,10.2,14,20.2,31.5,10000.0
+SCHGM,3031248,Chloride [Moles/volume] in Arterial blood,18023,0,No matching concept,24807,,,,,,,
+SCHGM,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,17531,0,No matching concept,27819,,,,,,,
+SCHGM,3013199,Leukocytes [#/volume] in Stool,17129,0,No matching concept,23379,,,,,,,
+SCHGM,3043714,Erythrocytes [Presence] in Stool,17129,0,No matching concept,23379,,,,,,,
+SCHGM,3024605,Mycoplasma pneumoniae IgM Ab [Units/volume] in Serum by Immunoassay,16531,0,No matching concept,22589,,,,,,,
+SCHGM,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,16530,0,No matching concept,22588,,,,,,,
+SCHGM,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,16024,8840,milligram per deciliter,114104,24,96,107,125,149,186,1240.0
+SCHGM,3016451,Thyroxine (T4) [Mass/volume] in Blood,15928,0,No matching concept,22728,,,,,,,
+SCHGM,3035407,Clostridium tetani toxoid Ab [Presence] in Serum,15739,0,No matching concept,16453,,,,,,,
+SCHGM,3005322,IgE [Units/volume] in Serum or Plasma,15499,8985,international unit per milliliter,4661,0,10.0,27.7,88.2,268.1,692.1,3000.0
+SCHGM,3005322,IgE [Units/volume] in Serum or Plasma,15499,0,No matching concept,13051,,,,,,,
+SCHGM,3012171,Mycoplasma sp Ab [Titer] in Serum,15483,0,No matching concept,21398,,,,,,,
+SCHGM,3030942,Ammonia [Mass/volume] in Blood,15187,0,No matching concept,26324,,,,,,,
+SCHGM,3023419,Bacteria identified in Sputum by Culture,15000,0,No matching concept,119305,,,,,,,
+SCHGM,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,14839,0,No matching concept,125009,,,,,,,
+SCHGM,40762125,Lactate [Mass/volume] in Blood,14718,8840,milligram per deciliter,72153,3.1,9.552636,12.4,17,25.4,42.4,322.7
+SCHGM,3025941,Bacteria identified in Stool by Culture,14086,0,No matching concept,35703,,,,,,,
+SCHGM,40760490,C peptide [Mass/volume] in Serum or Plasma --baseline,13428,8842,nanogram per milliliter,44611,0,0.69,1.1,1.75,2.8,4.5,30.0
+SCHGM,3049536,25-hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,13136,0,No matching concept,21996,,,,,,,
+SCHGM,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,13058,0,No matching concept,136280,,,,,,,
+SCHGM,3021119,Calcium.ionized [Moles/volume] in Blood,12631,0,No matching concept,19584,,,,,,,
+SCHGM,3048816,Calcium.ionized [Moles/volume] adjusted to pH 7.4 in Blood,12455,0,No matching concept,19253,,,,,,,
+SCHGM,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,10850,0,No matching concept,13889,,,,,,,
+SCHGM,3046279,Procalcitonin [Mass/volume] in Serum or Plasma,10572,8842,nanogram per milliliter,13945,0,0.02,0.04,0.13,0.54,3.91,100.0
+SCHGM,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,10028,0,No matching concept,21644,,,,,,,
+SCHGM,3004562,Bacteria [Presence] in Urine sediment by Light microscopy,9933,0,No matching concept,17847,,,,,,,
+SCHGM,3003306,Rotavirus Ag [Presence] in Stool by Agglutination,9888,0,No matching concept,15006,,,,,,,
+SCHGM,3018645,Cladosporium herbarum IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3046360,Aspergillus sp IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,10151,,,,,,,
+SCHGM,3023830,Crab IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3023646,Shrimp IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3033335,Egg white IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3028133,Total IgE [Units/volume] in Serum by Radioallergosorbent test (RAST),9810,0,No matching concept,10151,,,,,,,
+SCHGM,3002058,Cow milk IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3026915,Silver Birch IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3007490,White Oak IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3007980,Soybean IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3020825,European house dust mite IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3006594,Cockroach IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3009745,Common Ragweed IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3015942,Alternaria alternata IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3015704,Mugwort IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3016980,House dust IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3000131,Dog dander IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3010702,American house dust mite IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3001081,Peach IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3001539,Cat dander IgE Ab RAST class [Presence] in Serum,9810,0,No matching concept,18617,,,,,,,
+SCHGM,3016724,Homocysteine [Moles/volume] in Serum or Plasma,9792,0,No matching concept,18390,,,,,,,
+SCHGM,3023351,European house dust mite IgE Ab [Units/volume] in Serum,9766,0,No matching concept,15728,,,,,,,
+SCHGM,3037121,Protein [Mass/volume] in Urine,9239,0,No matching concept,27183,,,,,,,
+SCHGM,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,9093,9550,milli-international unit per milliliter,25656,0.05,1.16,1.92,4.4,11.16,18.35,254.37
+SCHGM,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,9093,0,No matching concept,7,,,,,,,
+SCHGM,40759603,Insulin [Units/volume] in Serum or Plasma --baseline,8902,0,No matching concept,17826,,,,,,,
+SCHGM,3010487,Treponema pallidum Ab [Units/volume] in Serum by Latex agglutination,8900,0,No matching concept,12815,,,,,,,
+SCHGM,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,8629,8985,international unit per milliliter,10095,-3,3.5,6.8,12,66.7,221.3,6790.1
+SCHGM,3008295,Osmolality of Serum or Plasma,8331,0,No matching concept,13445,,,,,,,
+SCHGM,3020695,Perennial rye grass IgE Ab RAST class [Presence] in Serum,8234,0,No matching concept,16932,,,,,,,
+SCHGM,3009537,Aspergillus fumigatus IgE Ab RAST class [Presence] in Serum,8234,0,No matching concept,8466,,,,,,,
+SCHGM,3034530,Glucose [Mass/volume] in Blood --2 hours post meal,8192,8840,milligram per deciliter,16700,10.0,109,138,193,270.0,356,1072
+SCHGM,3000034,Microalbumin [Mass/volume] in Urine,8140,8840,milligram per deciliter,606,0,0.3,0.6,1.1,3.9,13,505
+SCHGM,3000034,Microalbumin [Mass/volume] in Urine,8140,0,No matching concept,20117,,,,,,,
+SCHGM,3011363,Streptococcus pneumoniae Ag [Presence] in Urine,8001,0,No matching concept,10199,,,,,,,
+SCHGM,3003181,Sodium [Moles/volume] in Urine,7981,8753,millimole per liter,7355,2,16,31,57,93,130.0,409
+SCHGM,3003181,Sodium [Moles/volume] in Urine,7981,0,No matching concept,4196,,,,,,,
+SCHGM,3020035,C peptide [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,7898,8842,nanogram per milliliter,11483,0,1.51,2.68,4.4,6.73,9.29,27.02
+SCHGM,3005629,Inhaled oxygen flow rate,7730,0,No matching concept,473278,,,,,,,
+SCHGM,3012064,Insulin [Units/volume] in Serum or Plasma --2 hours post XXX challenge,7372,0,No matching concept,10195,,,,,,,
+SCHGM,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,7359,0,No matching concept,19420,,,,,,,
+SCHGM,3046806,Japanese hop IgE Ab RAST class [Presence] in Serum,7133,0,No matching concept,13027,,,,,,,
+SCHGM,3021644,Mackerel IgE Ab RAST class [Presence] in Serum,7133,0,No matching concept,13027,,,,,,,
+SCHGM,3004722,Prolactin [Mass/volume] in Serum or Plasma,7046,8842,nanogram per milliliter,9339,0.14,5.75,8.13,12.27,20.63,38.9,2000.0
+SCHGM,3027598,Mean blood pressure,6994,0,No matching concept,60804,,,,,,,
+SCHGM,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,6993,8845,picogram per milliliter,14507,7,10.0,10.0,15,17.32,60.0,17028
+SCHGM,3025547,Thyroglobulin Ab [Units/volume] in Serum or Plasma,6975,0,No matching concept,10719,,,,,,,
+SCHGM,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,6964,8845,picogram per milliliter,5309,34,285.5,418.69,625.19,998.29,1765.71,2442
+SCHGM,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,6964,0,No matching concept,3571,,,,,,,
+SCHGM,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,6886,9550,milli-international unit per milliliter,22861,0,0.12,0.21,1.34,6.12,16.25,213.02
+SCHGM,3006916,Magnesium [Mass/volume] in Blood,6844,8840,milligram per deciliter,8652,0.12,1.87,2.03,2.17,2.3,2.46,8.27
+SCHGM,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,6807,0,No matching concept,7965,,,,,,,
+SCHGM,3007498,Thyroid stimulating immunoglobulins [Units/volume] in Serum,6776,8985,international unit per milliliter,20846,0.1,0.3,0.55,1.14,4.18,13.34,405
+SCHGM,3044141,Influenza virus A Ag [Presence] in Nasopharynx,6740,0,No matching concept,7056,,,,,,,
+SCHGM,3045831,Influenza virus B Ag [Presence] in Nasopharynx,6740,0,No matching concept,7056,,,,,,,
+SCHGM,3002112,Folate [Mass/volume] in Blood,6714,8842,nanogram per milliliter,8780,0.6,2.83,4.37,7.01,11.4,18.8,40.0
+SCHGM,3046861,Legionella sp Ag [Presence] in Urine,6649,0,No matching concept,8559,,,,,,,
+SCHGM,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,6592,8985,international unit per milliliter,9682,0.1,0.5,7.19,28,328.4,1300.0,3000.0
+SCHGM,3016244,Insulin [Units/volume] in Serum or Plasma,6483,0,No matching concept,18266,,,,,,,
+SCHGM,3008893,Testosterone [Mass/volume] in Serum or Plasma,6388,8842,nanogram per milliliter,13454,0.02,0.03,0.1,0.11,0.39,5.45,1076.67
+SCHGM,3007922,Insulin-like growth factor-I [Mass/volume] in Blood,6202,8842,nanogram per milliliter,21503,3.54,154.02,218.35,353.94,2928.23,3744.02,6589.7
+SCHGM,3001582,Protein/Creatinine [Mass Ratio] in Urine,6056,0,No matching concept,19811,,,,,,,
+SCHGM,3026501,Reagin Ab [Titer] in Serum by RPR,5975,0,No matching concept,7027,,,,,,,
+SCHGM,3035637,Corticotropin [Mass/volume] in Plasma,5958,8845,picogram per milliliter,8669,1,2.29,7.83,13.54,21.28,32.86,2000.0
+SCHGM,3004809,Band form neutrophils/100 leukocytes in Blood,5603,0,No matching concept,12527,,,,,,,
+SCHGM,3001686,Cold agglutinin [Titer] in Serum or Plasma,5594,0,No matching concept,6732,,,,,,,
+SCHGM,3009682,Cortisol [Mass/volume] in Serum or Plasma,5524,0,No matching concept,9137,,,,,,,
+SCHGM,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,5495,8842,nanogram per milliliter,8651,0,0.53,0.82,1.31,2.16,4.08,190.8
+SCHGM,3025888,Pork IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3024395,Wheat IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3008259,Garlic IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3037289,Cheese cheddar type IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,5413,,,,,,,
+SCHGM,3001727,Rice IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3026242,Salmon IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3024097,Onion IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3023606,Baker's yeast IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3011919,Chicken meat IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3028745,Buckwheat IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3019452,Candida albicans IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3017688,Tomato IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3014200,Beef IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3020199,Cheese cheddar type IgE Ab [Units/volume] in Serum,5358,0,No matching concept,5413,,,,,,,
+SCHGM,3014525,Tuna IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3015411,Codfish IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3002720,Acarus siro IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3021304,Peanut IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,21492942,Citrus Allergen Mix (Orange+Lemon+Grapefruit+Clementine) IgE Ab RAST class [Presence] in Serum by Multidisk,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3012372,Barley IgE Ab RAST class [Presence] in Serum,5358,0,No matching concept,10826,,,,,,,
+SCHGM,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,5240,0,No matching concept,5795,,,,,,,
+SCHGM,3004592,Major crossmatch [Interpretation],5234,0,No matching concept,10324,,,,,,,
+SCHGM,3015884,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,4893,0,No matching concept,11215,,,,,,,
+SCHGM,3036780,American house dust mite IgE Ab [Units/volume] in Serum,4858,0,No matching concept,5402,,,,,,,
+SCHGM,3032068,Clostridioides difficile toxin A+B [Presence] in Stool,4757,0,No matching concept,7429,,,,,,,
+SCHGM,3020515,Wattle IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3017504,Pine IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,4738,,,,,,,
+SCHGM,3016835,Common Pigweed IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,4738,,,,,,,
+SCHGM,3020184,Dandelion IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3021354,Sweet Vernal grass IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3013043,Timothy IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3011177,Bermuda grass IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3024311,White Poplar IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3025005,Willow IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3010101,Cocksfoot IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3010020,Ox-eye daisy IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3027117,Goldenrod IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3002237,Japanese Cedar IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3033515,Saltwort IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3001357,Hazelnut IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3000740,Common Reed IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3038066,American Sycamore IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3037235,Penicillium notatum IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3036857,White Ash IgE Ab RAST class [Presence] in Serum,4603,0,No matching concept,7791,,,,,,,
+SCHGM,3041426,Ketones [Moles/volume] in Blood,4575,8753,millimole per liter,10130,0,0,0.1,0.1,0.2,0.9,19.6
+SCHGM,3003450,Orthocresol/Creatinine [Mass Ratio] in Urine,4440,0,No matching concept,6371,,,,,,,
+SCHGM,3028300,Cannabinoids [Presence] in Urine,4402,0,No matching concept,4787,,,,,,,
+SCHGM,3027974,Hepatitis B virus e Ag [Presence] in Serum,4325,0,No matching concept,30914,,,,,,,
+SCHGM,3026782,Osmolality of Urine,4322,0,No matching concept,5874,,,,,,,
+SCHGM,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,4055,0,No matching concept,4128,,,,,,,
+SCHGM,3004684,Galactose [Presence] in Blood,4052,0,No matching concept,4160,,,,,,,
+SCHGM,40761543,Other elements [Identifier] in Urine sediment by Light microscopy,4051,0,No matching concept,6665,,,,,,,
+SCHGM,3013945,Hepatitis B virus e Ab [Presence] in Serum,3962,8554,percent,14,0.002,0.002,0.006,1,1,22.97,100.01
+SCHGM,3013945,Hepatitis B virus e Ab [Presence] in Serum,3962,0,No matching concept,30667,,,,,,,
+SCHGM,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,3851,8845,picogram per milliliter,13016,1,22.63,41.1,135,353.7,587.9,3986
+SCHGM,40766194,Treponema pallidum Ab [Units/volume] in Serum by Immunoassay,3842,0,No matching concept,4120,,,,,,,
+SCHGM,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,3827,0,No matching concept,5056,,,,,,,
+SCHGM,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,3827,0,No matching concept,9867,,,,,,,
+SCHGM,3001145,Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,3695,0,No matching concept,3735,,,,,,,
+SCHGM,3015198,pH of Stool,3690,0,No matching concept,4337,,,,,,,
+SCHGM,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,3677,8840,milligram per deciliter,4765,0,42,51,60.0,69,80.0,425
+SCHGM,3050142,Erythrocytes.fresh/100 erythrocytes in Cerebral spinal fluid by Manual count,3657,0,No matching concept,4872,,,,,,,
+SCHGM,3017766,Complement C4 [Mass/volume] in Serum or Plasma,3657,8840,milligram per deciliter,3799,6,17,21,27,34,41,89
+SCHGM,3022356,Polymorphonuclear cells/100 leukocytes in Cerebral spinal fluid,3605,0,No matching concept,4811,,,,,,,
+SCHGM,3020951,Lymphocytes/100 leukocytes in Cerebral spinal fluid,3605,0,No matching concept,4811,,,,,,,
+SCHGM,43054906,Leukocytes [Presence] in Specimen by Gram stain,3595,0,No matching concept,5437,,,,,,,
+SCHGM,3041145,Herpes simplex virus IgM Ab [Presence] in Serum by Immunoassay,3539,0,No matching concept,3568,,,,,,,
+SCHGM,3038943,Toxoplasma gondii IgM Ab [Presence] in Serum or Plasma by Immunoassay,3539,0,No matching concept,3568,,,,,,,
+SCHGM,3004512,Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,3539,0,No matching concept,3568,,,,,,,
+SCHGM,3019473,Protein [Mass/volume] in Cerebral spinal fluid,3506,8840,milligram per deciliter,4421,1.5,19.3,27.3,42.6,69,127.5,7800.0
+SCHGM,3022840,Leukocytes other/100 leukocytes in Cerebral spinal fluid,3496,0,No matching concept,4673,,,,,,,
+SCHGM,3016914,Bacteria identified in Cerebral spinal fluid by Culture,3472,0,No matching concept,8482,,,,,,,
+SCHGM,3000620,Complement C3 [Mass/volume] in Serum or Plasma,3390,8840,milligram per deciliter,3529,5,94,108,124,142,161,255
+SCHGM,3046425,Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood,3384,0,No matching concept,4140,,,,,,,
+SCHGM,3025053,Alpha-1-Fetoprotein [Presence] in Serum or Plasma,3330,0,No matching concept,3364,,,,,,,
+SCHGM,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,3325,8554,percent,4271,0,10.0,10.0,10.0,20.0,20.0,60.0
+SCHGM,3031587,Crystals [Presence] in Urine sediment by Light microscopy,3299,0,No matching concept,3657,,,,,,,
+SCHGM,3007164,IgA [Mass/volume] in Serum or Plasma,3173,8840,milligram per deciliter,3289,22,113.2,166.6,236.1,323.4,423,3604.2
+SCHGM,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,3163,0,No matching concept,4125,,,,,,,
+SCHGM,3022560,Hepatitis B virus core IgM Ab [Presence] in Serum or Plasma by Immunoassay,3149,0,No matching concept,3336,,,,,,,
+SCHGM,3010229,Hepatitis B virus core IgM Ab [Units/volume] in Serum or Plasma by Immunoassay,3149,0,No matching concept,3336,,,,,,,
+SCHGM,3046322,Urease [Presence] in Tissue,3132,0,No matching concept,3437,,,,,,,
+SCHGM,21491763,Left pupil Pupillary response,3056,0,No matching concept,460937,,,,,,,
+SCHGM,21490963,Right pupil Pupillary response,3055,0,No matching concept,460911,,,,,,,
+SCHGM,3028531,Enolase.neuron specific [Mass/volume] in Serum or Plasma,3051,8842,nanogram per milliliter,5649,3.33,10.37,12.22,14.14,16.18,18.77,370.0
+SCHGM,3005719,IgG [Mass/volume] in Serum or Plasma,3050,8840,milligram per deciliter,3170,5.4,833.9,1008.5,1196.1,1402.6,1638.4,7531.8
+SCHGM,3010321,Right eye Pupil diameter Manual,3050,0,No matching concept,460754,,,,,,,
+SCHGM,3026611,Left eye Pupil diameter Manual,3046,0,No matching concept,460110,,,,,,,
+SCHGM,3007634,Eastern White Pine IgE Ab RAST class [Presence] in Serum,3006,0,No matching concept,3053,,,,,,,
+SCHGM,3025260,Common Pigweed IgE Ab [Units/volume] in Serum,3006,0,No matching concept,3053,,,,,,,
+SCHGM,3028026,IgM [Mass/volume] in Serum or Plasma,2941,8840,milligram per deciliter,3050,14.6,52.8,74.7,107.7,147.1,192.9,890.2
+SCHGM,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,2883,8763,unit per milliliter,3380,2,8.2,22.9,78.5,243,673,5000.0
+SCHGM,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,2850,0,No matching concept,4243,,,,,,,
+SCHGM,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,2829,0,No matching concept,4216,,,,,,,
+SCHGM,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,2684,8985,international unit per milliliter,16870,0,20.0,20.0,43,1316,795134,2700000000.0
+SCHGM,3007654,Microscopic observation [Identifier] in Wound by Gram stain,2654,0,No matching concept,4720,,,,,,,
+SCHGM,3001488,Cow milk IgE Ab [Units/volume] in Serum,2578,0,No matching concept,2821,,,,,,,
+SCHGM,3042802,17-Hydroxyprogesterone [Presence] in DBS,2573,0,No matching concept,2593,,,,,,,
+SCHGM,3014599,Egg white IgE Ab [Units/volume] in Serum,2561,0,No matching concept,2814,,,,,,,
+SCHGM,3009960,Adenosine deaminase [Enzymatic activity/volume] in Blood,2498,0,No matching concept,3867,,,,,,,
+SCHGM,21491756,Right eye Intraocular pressure,2480,0,No matching concept,4818,,,,,,,
+SCHGM,21491757,Left eye Intraocular pressure,2475,0,No matching concept,4812,,,,,,,
+SCHGM,3016401,Ureaplasma urealyticum [Presence] in Specimen by Organism specific culture,2431,0,No matching concept,2824,,,,,,,
+SCHGM,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,2375,0,No matching concept,2703,,,,,,,
+SCHGM,3004239,Creatinine [Mass/time] in 24 hour Urine,2369,8909,milligram per 24 hours,3028,1.5,27.8,39.22,56.3,85.67,122.8,561.1
+SCHGM,40763084,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid by Lactate to pyruvate reaction,2319,0,No matching concept,2435,,,,,,,
+SCHGM,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,2233,9550,milli-international unit per milliliter,4843,0,0.2,6.3,457.4,3591.5,13774.6,450275
+SCHGM,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,2233,0,No matching concept,35,,,,,,,
+SCHGM,3002619,Bacteria identified in Specimen by Culture,2160,0,No matching concept,2537,,,,,,,
+SCHGM,3003004,Salmonella paratyphi B Ab [Titer] in Serum,2079,0,No matching concept,2198,,,,,,,
+SCHGM,3000126,Salmonella paratyphi A Ab [Titer] in Serum,2079,0,No matching concept,2198,,,,,,,
+SCHGM,3037960,Salmonella typhi O Ab [Titer] in Serum,2079,0,No matching concept,2198,,,,,,,
+SCHGM,3037615,Salmonella typhi H Ab [Titer] in Serum,2079,0,No matching concept,2198,,,,,,,
+SCHGM,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,2064,0,No matching concept,3958,,,,,,,
+SCHGM,3052592,Norovirus Ag [Presence] in Stool,2034,0,No matching concept,2159,,,,,,,
+SCHGM,3048504,Influenza virus A and B RNA [Identifier] in Specimen by NAA with probe detection,2022,0,No matching concept,2060,,,,,,,
+SCHGM,3025673,Glucose [Mass/volume] in Serum or Plasma --2 hours post 75 g glucose PO,2022,8840,milligram per deciliter,2214,40.0,101,129,183,253,327,543
+SCHGM,3003435,Glucose [Mass/volume] in Serum or Plasma --pre 75 g glucose PO,2003,8840,milligram per deciliter,2195,47,94,103,115,132,162,375
+SCHGM,3015076,Soybean IgE Ab [Units/volume] in Serum,1936,0,No matching concept,2045,,,,,,,
+SCHGM,3006478,Mycoplasma sp and Ureaplasma sp [Identifier] in Specimen by Organism specific culture,1883,0,No matching concept,4459,,,,,,,
+SCHGM,3048865,Glucose [Mass/volume] in Blood --2 hours post dose glucose,1856,8840,milligram per deciliter,2182,37,101,126,168,230.0,304,655
+SCHGM,3049146,Mycoplasma sp identified in Urine by Organism specific culture,1830,0,No matching concept,2129,,,,,,,
+SCHGM,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,1826,0,No matching concept,7564,,,,,,,
+SCHGM,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,1803,8840,milligram per deciliter,3064,0.3,3,4.5,10.2,23.8,45.1,166.6
+SCHGM,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,1795,0,No matching concept,2337,,,,,,,
+SCHGM,3028308,Erythrocytes [#/volume] in Pleural fluid,1783,0,No matching concept,9094,,,,,,,
+SCHGM,3023199,Leukocytes [#/volume] in Pleural fluid,1782,0,No matching concept,3050,,,,,,,
+SCHGM,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,1749,0,No matching concept,2817,,,,,,,
+SCHGM,3003434,Protein [Mass/volume] in Pleural fluid,1748,8713,gram per deciliter,2802,0.1,1.5,2.2,3.3,4.5,5.3,10.1
+SCHGM,3003403,Glucose [Mass/volume] in Pleural fluid,1709,8840,milligram per deciliter,2680,0,51,97,125,153,197,688
+SCHGM,3002433,Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection,1693,0,No matching concept,1745,,,,,,,
+SCHGM,3012494,Peanut IgE Ab [Units/volume] in Serum,1681,0,No matching concept,1767,,,,,,,
+SCHGM,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,1677,0,No matching concept,2544,,,,,,,
+SCHGM,3011544,Albumin [Mass/volume] in Pleural fluid,1670,8713,gram per deciliter,2636,0.1,0.8,1.2,1.8,2.5,3,5.4
+SCHGM,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,1666,0,No matching concept,1855,,,,,,,
+SCHGM,3020876,Protein [Mass/time] in 24 hour Urine,1651,8909,milligram per 24 hours,1947,1.6,5.9,10.1,34.1,116.7,265.4,6710.0
+SCHGM,3035312,Rye IgE Ab RAST class [Presence] in Serum,1645,0,No matching concept,1685,,,,,,,
+SCHGM,3015532,Bacteria identified in Bronchial specimen by Aerobe culture,1642,0,No matching concept,3450,,,,,,,
+SCHGM,3024194,Bacteria identified in Pleural fluid by Culture,1642,0,No matching concept,4102,,,,,,,
+SCHGM,3006338,Orientia tsutsugamushi Ab [Titer] in Serum,1633,0,No matching concept,1753,,,,,,,
+SCHGM,3007488,Methionine [Presence] in Blood,1626,0,No matching concept,4890,,,,,,,
+SCHGM,3006715,Proline [Presence] in Serum or Plasma,1626,0,No matching concept,3260,,,,,,,
+SCHGM,3051633,Fatty acid oxidation defects newborn screen interpretation,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3008408,Leucine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3003477,Histidine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3027393,Isoleucine+Leucine [Presence] in Serum or Plasma,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3038657,Arginine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3030135,Phenylalanine [Presence] in Blood,1626,0,No matching concept,4890,,,,,,,
+SCHGM,3046449,Acylcarnitine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3042660,Argininosuccinate [Presence] in Serum or Plasma,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3016596,Glycine [Presence] in Serum or Plasma,1626,0,No matching concept,1630,,,,,,,
+SCHGM,44786939,3-Methylcrotonyl-CoA carboxylase deficiency newborn screen interpretation,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3039842,Ornithine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,44786941,Short-chain acyl-CoA dehydrogenase deficiency newborn screen interpretation,1626,0,No matching concept,3260,,,,,,,
+SCHGM,3033602,Tyrosine [Presence] in Blood,1626,0,No matching concept,3260,,,,,,,
+SCHGM,3003388,Carnitine [Presence] in Serum or Plasma,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3041574,Valine [Presence] in Blood,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3042831,Leucine+Isoleucine+Valine [Identifier] in Serum or Plasma,1626,0,No matching concept,1630,,,,,,,
+SCHGM,3035132,Ketones [Presence] in Serum or Plasma,1625,0,No matching concept,5352,,,,,,,
+SCHGM,3016759,Leptospira sp Ab [Presence] in Serum,1601,0,No matching concept,1685,,,,,,,
+SCHGM,3043814,Bacteria identified in Wound deep by Culture,1598,0,No matching concept,4513,,,,,,,
+SCHGM,3031391,Hantavirus Ab [Presence] in Serum,1587,0,No matching concept,1679,,,,,,,
+SCHGM,3030366,Cystatin C [Mass/volume] in Serum or Plasma,1579,0,No matching concept,1721,,,,,,,
+SCHGM,3015401,Amylase [Enzymatic activity/volume] in Pleural fluid,1575,0,No matching concept,2374,,,,,,,
+SCHGM,3027231,Wheat IgE Ab [Units/volume] in Serum,1572,0,No matching concept,1669,,,,,,,
+SCHGM,3036338,Phenylalanine [Moles/volume] in DBS,1566,0,No matching concept,1573,,,,,,,
+SCHGM,3052682,Leucine [Moles/volume] in DBS,1565,0,No matching concept,1572,,,,,,,
+SCHGM,3051702,Methionine [Moles/volume] in DBS,1565,0,No matching concept,1572,,,,,,,
+SCHGM,3048386,17-Hydroxyprogesterone [Mass/volume] in DBS,1565,0,No matching concept,1572,,,,,,,
+SCHGM,3028048,Mycobacterium tuberculosis DNA [Presence] in Bronchial specimen by NAA with probe detection,1506,0,No matching concept,1632,,,,,,,
+SCHGM,3020149,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,1505,8842,nanogram per milliliter,2257,4,8.48,12.7,18.78,25.28,30.75,63.3
+SCHGM,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,1483,0,No matching concept,1653,,,,,,,
+SCHGM,3009804,Carcinoembryonic Ag [Mass/volume] in Pleural fluid,1481,8842,nanogram per milliliter,2053,0,0.29,1,1.73,3.3,15.26,15000.0
+SCHGM,3016038,Potassium [Moles/volume] in Urine,1432,0,No matching concept,1831,,,,,,,
+SCHGM,3028269,Bacteria identified in Vaginal fluid by Aerobe culture,1411,0,No matching concept,2044,,,,,,,
+SCHGM,3025483,Cancer Ag 19-9 [Units/volume] in Pleural fluid,1382,8763,unit per milliliter,1880,2,2,2,2.31,9.2,31.73,12000.0
+SCHGM,3009944,Mycobacterium tuberculosis DNA [Presence] in Pleural fluid by NAA with probe detection,1372,0,No matching concept,1950,,,,,,,
+SCHGM,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,1351,8842,nanogram per milliliter,1750,0.92,6.99,9.69,13.34,18.5,26.1,300.0
+SCHGM,3002069,Alkaline phosphatase.bone/Alkaline phosphatase.total in Serum or Plasma,1349,8554,percent,2752,1.04,6.96,8.67,11.57,15.79,21.44,452.19
+SCHGM,3027744,Microscopic observation [Identifier] in Specimen by Acid fast stain,1346,0,No matching concept,2034,,,,,,,
+SCHGM,3007687,Calcium [Mass/time] in 24 hour Urine,1331,8909,milligram per 24 hours,1629,20.0,850.0,1200.0,1650.0,2100.0,2600.0,7400.0
+SCHGM,3014173,Calcitriol [Mass/volume] in Serum or Plasma,1329,8845,picogram per milliliter,1599,1.4,13.79,28.42,44.6,65.55,88.69,196.98
+SCHGM,36303293,Microscopic observation [Identifier] in Wound by Acid fast stain,1266,0,No matching concept,2640,,,,,,,
+SCHGM,3019027,Nicotine [Presence] in Urine,1246,0,No matching concept,2397,,,,,,,
+SCHGM,3028878,Tube cuff pressure Intubation tube,1224,0,No matching concept,41796,,,,,,,
+SCHGM,3036172,Chloride [Moles/volume] in Cerebral spinal fluid,1200,0,No matching concept,1940,,,,,,,
+SCHGM,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,1186,8842,nanogram per milliliter,3909,0.01,0.05,0.1,0.19,3.8,14.69,500.0
+SCHGM,3016258,Waist Circumference at umbilicus by Tape measure,1157,8582,centimeter,912,23,27,29,30.0,32,34,135
+SCHGM,3016258,Waist Circumference at umbilicus by Tape measure,1157,0,No matching concept,5699,,,,,,,
+SCHGM,3010084,C peptide [Mass/volume] in Serum or Plasma,1143,8842,nanogram per milliliter,1650,0,0.33,0.99,1.84,3.11,5.44,24.08
+SCHGM,3002179,Metamyelocytes/100 leukocytes in Blood,1133,0,No matching concept,2635,,,,,,,
+SCHGM,3035357,Carbon dioxide [Partial pressure] in Exhaled gas --at end expiration,1117,0,No matching concept,12289,,,,,,,
+SCHGM,3035357,Carbon dioxide [Partial pressure] in Exhaled gas --at end expiration,1117,8876,millimeter mercury column,19,,,,,,,
+SCHGM,3023436,Glucagon [Mass/volume] in Serum or Plasma,1109,8845,picogram per milliliter,2274,14.21,122.59,162.54,225.66,326.21,479.14,2163.42
+SCHGM,3000494,Fungus identified in Specimen by Culture,1079,0,No matching concept,1375,,,,,,,
+SCHGM,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,1047,0,No matching concept,1334,,,,,,,
+SCHGM,3014137,Bacteria identified in Wound shallow by Aerobe culture,1023,0,No matching concept,1553,,,,,,,
+SCHGM,3010936,Mycoplasma sp and Ureaplasma sp [Identifier] in Vaginal fluid by Organism specific culture,1017,0,No matching concept,1513,,,,,,,
+SCHGM,37020243,Aldosterone [Mass/volume] in Serum or Plasma by Radioimmunoassay (RIA),1005,8817,nanogram per deciliter,2152,0.14,4.97,9.19,16.32,48.74,133.79,5806.5
+SCHGM,3044331,Calcium.ionized [Moles/volume] in Arterial blood,1000,0,No matching concept,4982,,,,,,,
+SCHGM,3033621,Mycoplasma hominis [Presence] in Specimen by Organism specific culture,964,0,No matching concept,1433,,,,,,,
+SCHGM,3000053,Head Occipital-frontal circumference,891,8582,centimeter,1188,29,32,33.5,35,38,45.5,126.8
+SCHGM,3000053,Head Occipital-frontal circumference,891,0,No matching concept,596,,,,,,,
+SCHGM,3048752,Lipase [Enzymatic activity/volume] in Pleural fluid,744,0,No matching concept,1140,,,,,,,
+SCHGM,3018920,Vancomycin [Mass/volume] in Serum or Plasma --trough,730,0,ERROR,0,,,,,,,attempt 3: HTTPError: 500 Server Error:  for url: https://www.feedernet.com/api/
+SCHGM,3003535,Chest Circumference at nipple line,710,0,ERROR,0,,,,,,,attempt 3: HTTPError: 500 Server Error:  for url: https://www.feedernet.com/api/
+SCHGM,3005658,Casts [#/area] in Urine sediment by Microscopy low power field,695,0,ERROR,0,,,,,,,attempt 3: HTTPError: 500 Server Error:  for url: https://www.feedernet.com/api/
+SCHGM,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,665,0,ERROR,0,,,,,,,attempt 3: HTTPError: 500 Server Error:  for url: https://www.feedernet.com/api/
+SCHGM,3009613,Erythrocytes [#/volume] in Peritoneal fluid,643,0,No matching concept,6050,,,,,,,
+SCHGM,3023487,Leukocytes [#/volume] in Peritoneal fluid,643,0,No matching concept,2037,,,,,,,
+SCHGM,3008691,Amylase [Enzymatic activity/volume] in Peritoneal fluid,567,0,No matching concept,1357,,,,,,,
+SCHGM,3035133,Fungus identified in Wound by Culture,548,0,No matching concept,815,,,,,,,
+SCHGM,3012625,Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,519,0,No matching concept,645,,,,,,,
+SCHGM,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,467,0,No matching concept,740,,,,,,,
+SCHGM,21491183,Fluid output gastrointestinal drain [Volume] Measured,442,0,No matching concept,2703,,,,,,,
+SCHGM,3010989,Calcitonin [Mass/volume] in Serum or Plasma,394,8845,picogram per milliliter,470,0.8,1.29,1.84,2.64,4.11,6.29,480.0
+SCHGM,44817158,Bacteria identified in Genital specimen by Anaerobe+Aerobe culture,382,0,No matching concept,464,,,,,,,
+SCHGM,44816657,Yeast [Presence] in Specimen by Gram stain,364,0,No matching concept,559,,,,,,,
+SCHGM,3017181,Myelocytes/100 leukocytes in Blood,362,0,No matching concept,814,,,,,,,
+SCHGM,3011925,Deoxypyridinoline/Creatinine [Molar ratio] in Urine,361,0,No matching concept,363,,,,,,,
+SCHGM,36304253,Microscopic observation [Presence] in Synovial fluid by Acid fast stain,325,0,No matching concept,581,,,,,,,
+SCHGM,3020614,Blood group antibody screen.cell I [Presence] in Serum or Plasma,322,0,No matching concept,453,,,,,,,
+SCHGM,3045996,Lipase [Enzymatic activity/volume] in Peritoneal fluid,317,0,No matching concept,583,,,,,,,
+SCHGM,3004142,Amylase [Enzymatic activity/volume] in Synovial fluid,312,0,No matching concept,371,,,,,,,
+SCHGM,3037431,Blood group antibody screen.cell II [Presence] in Serum or Plasma,310,0,No matching concept,434,,,,,,,
+SCHGM,3001657,Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood,301,0,No matching concept,599,,,,,,,
+SCHGM,3003841,Heart rate Peripheral artery by palpation,210,0,No matching concept,1737,,,,,,,
+SCHGM,3025037,Bacteria identified in Peritoneal fluid by Culture,199,0,No matching concept,437,,,,,,,
+SCHGM,3026617,Urea nitrogen [Mass/volume] in Arterial blood,183,0,No matching concept,451,,,,,,,
+SCHGM,3024212,Fungus identified in Bronchial specimen by Culture,171,0,No matching concept,178,,,,,,,
+SCHGM,3002444,Fungus identified in Synovial fluid by Culture,164,0,No matching concept,202,,,,,,,
+SCHGM,36305467,Microscopic observation [Identifier] in Aspirate by Acid fast stain,151,0,No matching concept,203,,,,,,,
+SCHGM,42870364,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay,136,8845,picogram per milliliter,147,6.77,34.29,132.1,368.4,1357,3100.0,70000.0
+SCHGM,21490675,Central venous pressure (CVP),132,8876,millimeter mercury column,64,1,1,1,2,3,4,10.0
+SCHGM,21490675,Central venous pressure (CVP),132,0,No matching concept,12543,,,,,,,
+SCHGM,3006352,Retinol [Mass/volume] in Blood,131,0,No matching concept,132,,,,,,,
+SCHGM,3039448,Bacteria identified in Bile fluid by Culture,130,0,No matching concept,187,,,,,,,
+SCHGM,42529180,BRAF gene [VCF] in Cancer specimen by Sequencing,117,0,No matching concept,132,,,,,,,
+SCHGM,3010047,Microscopic observation [Identifier] in Body fluid by Acid fast stain,112,0,No matching concept,163,,,,,,,
+SCHGM,3048529,Troponin T.cardiac [Mass/volume] in Blood,101,8842,nanogram per milliliter,107,0,0.003,0.004,0.01,0.011,0.04,0.868
+SCHGM,21493955,Temperature of Extremity,95,0,No matching concept,440,,,,,,,
+SCHGM,3012337,Microscopic observation [Identifier] in Tissue by Acid fast stain,85,0,No matching concept,110,,,,,,,
+SCHGM,3022281,Body weight Measured --pre pregnancy,83,9529,kilogram,89,0,43,52,57,67,75,90.0
+SCHGM,3025159,Blasts/100 leukocytes in Blood,74,0,No matching concept,223,,,,,,,
+SCHGM,3033598,Amylase isoenzymes [Interpretation] in Serum or Plasma,71,0,No matching concept,75,,,,,,,
+SCHGM,3024850,Microscopic observation [Identifier] in Urine by Acid fast stain,62,0,No matching concept,97,,,,,,,
+SCHGM,3013635,Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),62,0,No matching concept,72,,,,,,,
+SCHGM,3000769,Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),60,0,No matching concept,71,,,,,,,
+SCHGM,3028089,Alkaline phosphatase isoenzyme [Units/volume] in Serum or Plasma,55,0,No matching concept,57,,,,,,,
+SCHGM,3010007,Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),49,0,No matching concept,58,,,,,,,
+SCHGM,3008912,Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),48,0,No matching concept,54,,,,,,,
+SCHGM,3011907,Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),47,0,No matching concept,51,,,,,,,
+SCHGM,3021440,Promyelocytes/100 leukocytes in Blood,46,0,No matching concept,82,,,,,,,
+SCHGM,3035643,Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),44,0,No matching concept,49,,,,,,,
+SCHGM,40758562,Immature cells/100 leukocytes in Blood,43,0,No matching concept,98,,,,,,,
+SCHGM,3010745,Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),43,0,No matching concept,48,,,,,,,
+SCHGM,3016774,Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),42,0,No matching concept,45,,,,,,,
+SCHGM,3002274,Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),41,0,No matching concept,44,,,,,,,
+SCHGM,3007662,Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),41,0,No matching concept,44,,,,,,,
+SCHGM,3000186,Fungus identified in Aspirate by Culture,40,0,No matching concept,45,,,,,,,
+SCHGM,3008504,Vancomycin [Susceptibility] by Disk diffusion (KB),39,0,No matching concept,241,,,,,,,
+SCHGM,3010031,Teicoplanin [Susceptibility] by Disk diffusion (KB),39,0,No matching concept,241,,,,,,,
+SCHGM,3019439,Fungus identified in Tissue by Culture,37,0,No matching concept,44,,,,,,,
+SCHGM,3030846,Volume of Peritoneal fluid,36,0,No matching concept,44,,,,,,,
+SCHGM,3037549,cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),34,0,No matching concept,39,,,,,,,
+SCHGM,3001355,Fungus identified in Sputum by Culture,32,0,No matching concept,42,,,,,,,
+SCHGM,36303313,Microscopic observation [Identifier] in Pericardial fluid by Acid fast stain,31,0,No matching concept,44,,,,,,,
+SCHGM,3002996,Fungus identified in Cerebral spinal fluid by Culture,31,0,No matching concept,31,,,,,,,
+SCHGM,46235752,Fungus identified in Nose by Culture,31,0,No matching concept,32,,,,,,,
+SCHGM,3022270,Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),30,0,No matching concept,34,,,,,,,
+SCHGM,3033490,Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),30,0,No matching concept,35,,,,,,,
+SCHGM,3000520,cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),29,0,No matching concept,31,,,,,,,
+SCHGM,3007224,Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),28,0,No matching concept,32,,,,,,,
+SCHGM,3030857,Volume of Pleural fluid,28,0,No matching concept,30,,,,,,,
+SCHGM,3043739,Amylase [Enzymatic activity/volume] in Pericardial fluid,27,0,No matching concept,28,,,,,,,
+SCHGM,3037971,Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),26,0,No matching concept,31,,,,,,,
+SCHGM,3035551,levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),25,0,No matching concept,29,,,,,,,
+SCHGM,3007022,Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,25,,,,,,,
+SCHGM,3018088,Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,25,,,,,,,
+SCHGM,3005535,ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,26,,,,,,,
+SCHGM,3005241,Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,25,,,,,,,
+SCHGM,3023633,Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,28,,,,,,,
+SCHGM,3000127,Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),24,0,No matching concept,39,,,,,,,
+SCHGM,3012607,Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),22,0,No matching concept,23,,,,,,,
+SCHGM,3034442,cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),22,0,No matching concept,24,,,,,,,
+SCHGM,3016893,Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),20,0,No matching concept,21,,,,,,,
+SCHGM,3001612,Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),20,0,No matching concept,22,,,,,,,
+SCHGM,3013498,Variant lymphocytes/100 leukocytes in Blood,19,0,No matching concept,27,,,,,,,
+SCHGM,3016288,Cephalothin [Susceptibility] by Minimum inhibitory concentration (MIC),19,0,No matching concept,20,,,,,,,
+SCHGM,3016417,Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma,19,0,No matching concept,19,,,,,,,
+SCHGM,43054904,Epithelial cells [Presence] in Specimen by Gram stain,19,0,No matching concept,19,,,,,,,
+SCHGM,3021331,Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),18,0,No matching concept,19,,,,,,,
+SCHGM,3026123,Microscopic observation [Identifier] in Stool by Acid fast stain,18,0,No matching concept,20,,,,,,,
+SCHGM,3036339,rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),16,0,No matching concept,17,,,,,,,
+SCHGM,3014197,Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),16,0,No matching concept,17,,,,,,,
+SCHGM,3050896,Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),16,0,No matching concept,17,,,,,,,
+SCHGM,3037558,Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),14,0,No matching concept,16,,,,,,,
+SCHGM,36305541,Fungus identified in Mouth by Culture,14,0,No matching concept,17,,,,,,,
+SCHGM,3033558,Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),14,0,No matching concept,15,,,,,,,
+SCHGM,3015274,Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),14,0,No matching concept,15,,,,,,,
+SCHGM,3015592,Fungus identified in Body fluid by Culture,14,0,No matching concept,19,,,,,,,
+SCHGM,3026286,Lipase [Enzymatic activity/volume] in Body fluid,13,0,No matching concept,14,,,,,,,
+SCHGM,3011724,Hepatitis B virus e Ag [Presence] in Serum by Radioimmunoassay (RIA),13,0,No matching concept,14,,,,,,,
+SCHGM,36303344,Fungus identified in Cornea or Conjunctiva by Culture,12,0,No matching concept,12,,,,,,,
+SCHGM,3012133,Amylase [Enzymatic activity/volume] in Body fluid,11,0,No matching concept,13,,,,,,,
+SCHGM,3035814,Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),10,0,No matching concept,11,,,,,,,
+SCHGM,3006761,Bacteria identified in Synovial fluid by Culture,10,0,No matching concept,10,,,,,,,
+SCHGM,3037501,Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),10,0,No matching concept,10,,,,,,,
+SCHGM,3045330,Bacteria identified in Cervix by Culture,9,0,No matching concept,9,,,,,,,
+SCHGM,3017315,Amylase [Enzymatic activity/volume] in Urine,8,0,No matching concept,8,,,,,,,
+SCHGM,3022094,Tobramycin [Susceptibility] by Disk diffusion (KB),8,0,No matching concept,8,,,,,,,
+SCHGM,3022747,cefTRIAXone [Susceptibility] by Disk diffusion (KB),8,0,No matching concept,8,,,,,,,
+SCHGM,3036405,Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),8,0,No matching concept,9,,,,,,,
+SCHGM,3020153,Ciprofloxacin [Susceptibility] by Disk diffusion (KB),8,0,No matching concept,8,,,,,,,
+SCHGM,3034592,Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),8,0,No matching concept,9,,,,,,,
+SCHGM,3042836,Microscopic observation [Identifier] in Blood by Acid fast stain,8,0,No matching concept,13,,,,,,,
+SCHGM,3011039,Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),8,0,No matching concept,9,,,,,,,
+SCHGM,46237025,Bacteria identified in Uterus by Culture,8,0,No matching concept,8,,,,,,,
+SCHGM,1176246,Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain,7,0,No matching concept,11,,,,,,,
+SCHGM,3012222,Trimethoprim+Sulfamethoxazole [Susceptibility] by Disk diffusion (KB),7,0,No matching concept,7,,,,,,,
+SCHGM,40763091,Bacteria identified in Peritoneal dialysis fluid by Culture,7,0,No matching concept,20,,,,,,,
+SCHGM,3001950,Amikacin [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,6,,,,,,,
+SCHGM,3017298,Amylase/Creatinine renal clearance [Ratio] in 24 hour Urine and Serum or Plasma,6,8554,percent,7,0.16,0.16,0.34,2.04,2.6,6.25,6.25
+SCHGM,3020388,Ticarcillin [Susceptibility] by Minimum inhibitory concentration (MIC),6,0,No matching concept,8,,,,,,,
+SCHGM,3005233,Cefotaxime [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,6,,,,,,,
+SCHGM,3036987,Folate [Mass/volume] in Serum or Plasma,6,8842,nanogram per milliliter,6,3.99,3.99,6.94,9.66,10.71,20.0,20.0
+SCHGM,3015055,Bacteria identified in Amniotic fluid by Culture,6,0,No matching concept,6,,,,,,,
+SCHGM,3038086,cefTAZidime [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,6,,,,,,,
+SCHGM,3009171,Fungus identified in Blood by Culture,6,0,No matching concept,14,,,,,,,
+SCHGM,3006122,Meropenem [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,6,,,,,,,
+SCHGM,3041748,Fungus identified in Urine by Culture,6,0,No matching concept,7,,,,,,,
+SCHGM,3001635,Moxifloxacin [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,6,,,,,,,

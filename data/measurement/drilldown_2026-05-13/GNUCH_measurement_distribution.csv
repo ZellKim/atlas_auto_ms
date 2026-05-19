@@ -1,0 +1,543 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+GNUCH,3025315,Body weight,226192,9529,kilogram,824560,0.25,14,43.9,57.5,68.6,79,7250.0
+GNUCH,3000963,Hemoglobin [Mass/volume] in Blood,205994,8713,gram per deciliter,1260367,-0.2,9,10.4,12.2,13.8,15.1,24.9
+GNUCH,3000963,Hemoglobin [Mass/volume] in Blood,205994,0,No matching concept,6855,,,,,,,
+GNUCH,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,204326,8645,unit per liter,1093268,-17,10.0,13,20.0,31,54,78120.0
+GNUCH,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,204317,8645,unit per liter,1093199,1,16,20.0,25,35,56,454240.0
+GNUCH,3016723,Creatinine [Mass/volume] in Serum or Plasma,203796,8840,milligram per deciliter,1110966,0,0.47,0.59,0.76,0.98,1.45,37.53
+GNUCH,3027114,Cholesterol [Mass/volume] in Serum or Plasma,202005,8840,milligram per deciliter,1061867,1,104,130.0,161,194,226,1045
+GNUCH,3000483,Glucose [Mass/volume] in Blood,201849,8840,milligram per deciliter,1104854,0,87,96,110.0,139,184,8107
+GNUCH,3007461,Platelets [#/volume] in Blood,199637,8848,thousand per microliter,953637,0,114,171,224,281,347,4300.0
+GNUCH,3007461,Platelets [#/volume] in Blood,199637,8961,thousand per cubic millimeter,171264,1,113,178,233,291,361,2632
+GNUCH,3009542,Hematocrit [Volume Fraction] of Blood,199312,8554,percent,1226879,0,27,31.4,37,41,45,83.3
+GNUCH,3010813,Leukocytes [#/volume] in Blood,199207,8848,thousand per microliter,952932,0.01,4.17,5.33,6.92,9.35,12.98,749.82
+GNUCH,3010813,Leukocytes [#/volume] in Blood,199207,8961,thousand per cubic millimeter,170468,0.05,4.27,5.52,7.22,9.82,13.51,636.38
+GNUCH,3026361,Erythrocytes [#/volume] in Blood,199207,8815,million per microliter,952911,0.01,2.94,3.42,4.02,4.53,4.94,9.48
+GNUCH,3026361,Erythrocytes [#/volume] in Blood,199207,8931,million per cubic millimeter,170489,0.63,3.04,3.51,4.08,4.59,5,8.03
+GNUCH,3020630,Protein [Mass/volume] in Serum or Plasma,196629,8713,gram per deciliter,1053401,0.6,5.5,6.3,6.9,7.4,7.7,15.8
+GNUCH,3024561,Albumin [Mass/volume] in Serum or Plasma,196624,8713,gram per deciliter,1059773,0.1,2.8,3.4,4,4.4,4.6,8.3
+GNUCH,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,196124,8840,milligram per deciliter,1075050,0.2,8.8,11.4,15,20.3,31.2,270.7
+GNUCH,3024731,MCV [Entitic volume],195949,8583,femtoliter,1041867,48,84,88,91,95,99,168
+GNUCH,3002385,Erythrocyte distribution width [Ratio],195949,8554,percent,1041875,10.3,11.9,12.3,13.1,14.6,16.5,39.2
+GNUCH,3003338,MCHC [Mass/volume],195949,8713,gram per deciliter,1041867,22,32,33,33,34,35,130.0
+GNUCH,3035941,MCH [Entitic mass],195949,8564,picogram,1041867,11,28,29,31,32,33,102
+GNUCH,3017354,Segmented neutrophils/100 leukocytes in Blood,195947,8554,percent,1040878,0,44.4,52.8,63,75,84.6,99.3
+GNUCH,3017354,Segmented neutrophils/100 leukocytes in Blood,195947,0,No matching concept,980,,,,,,,
+GNUCH,3022096,Basophils/100 leukocytes in Blood,195946,8554,percent,1040877,0,0.1,0.2,0.4,0.6,0.9,34
+GNUCH,3022096,Basophils/100 leukocytes in Blood,195946,0,No matching concept,980,,,,,,,
+GNUCH,3019069,Monocytes/100 leukocytes in Blood,195946,8554,percent,1041856,0,4.5,6,7.5,9.4,11.7,87
+GNUCH,3006504,Eosinophils/100 leukocytes in Blood,195946,8554,percent,1040877,0,0.1,0.7,1.7,3.1,5.1,85
+GNUCH,3006504,Eosinophils/100 leukocytes in Blood,195946,0,No matching concept,980,,,,,,,
+GNUCH,3002030,Lymphocytes/100 leukocytes in Blood,195946,8554,percent,1040877,0,8,14.9,25.1,34.9,42.9,99
+GNUCH,3002030,Lymphocytes/100 leukocytes in Blood,195946,0,No matching concept,980,,,,,,,
+GNUCH,3017732,Neutrophils [#/volume] in Blood,195946,8848,thousand per microliter,879539,0,2.07,2.88,4.18,6.57,10.3,207.11
+GNUCH,3017732,Neutrophils [#/volume] in Blood,195946,8961,thousand per cubic millimeter,161338,0,2.1,2.99,4.37,6.86,10.57,146.94
+GNUCH,3017732,Neutrophils [#/volume] in Blood,195946,0,No matching concept,980,,,,,,,
+GNUCH,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,195942,8840,milligram per deciliter,1028632,-0.17,0.39,0.49,0.66,0.92,1.37,58.33
+GNUCH,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,195765,8645,unit per liter,1003426,0.3,50.0,61,77,106,179,6020.0
+GNUCH,3037556,Urate [Mass/volume] in Serum or Plasma,194943,8840,milligram per deciliter,868446,0.1,2.9,3.9,4.9,6.2,7.6,29.4
+GNUCH,3032503,Calcium [Mass/volume] in Blood,194451,8840,milligram per deciliter,938871,0.2,8,8.6,9,9.4,9.8,21.1
+GNUCH,3024232,Phosphate [Mass/volume] in Blood,194389,8840,milligram per deciliter,938801,0.1,2.6,3.1,3.6,4.1,4.7,24.5
+GNUCH,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",193542,9117,milliliter per minute per 1.73 square meter,872702,1,43,74,94,107,123,778
+GNUCH,46236952,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",193160,9117,milliliter per minute per 1.73 square meter,871814,1,43,70.0,92,114,147,60118
+GNUCH,3000285,Sodium [Moles/volume] in Blood,179202,8753,millimole per liter,1092326,94.5,133,135.9,138.2,140.1,142,200.0
+GNUCH,3005456,Potassium [Moles/volume] in Blood,179201,8753,millimole per liter,1092367,1.1,3.4,3.8,4.1,4.5,4.8,24.6
+GNUCH,3018572,Chloride [Moles/volume] in Blood,178891,8753,millimole per liter,988823,44.7,98.8,101.9,104.3,106.6,109,167.9
+GNUCH,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,170240,8645,unit per liter,619726,1,11,15,24,50.0,119,5218
+GNUCH,3002736,Platelet distribution width [Entitic volume] in Blood by Automated count,169044,8583,femtoliter,901878,3,8.4,9.1,10.1,11.4,13,25.8
+GNUCH,3036277,Body height,165366,8582,centimeter,421587,1,66.6,134.1,156.9,166.7,173.2,999.9
+GNUCH,3038553,Body mass index (BMI) [Ratio],162983,9531,kilogram per square meter,469836,0.29,16.06,18.66,22.12,25.17,28.08,546000.0
+GNUCH,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,160352,8645,unit per liter,555764,24,140.0,160.0,189,233,309,41810.0
+GNUCH,40760845,Protein [Presence] in Urine by Automated test strip,150935,0,No matching concept,399638,,,,,,,
+GNUCH,3020460,C reactive protein [Mass/volume] in Serum or Plasma,148414,8751,milligram per liter,741578,0,0.4,0.9,4.7,28,100.4,770.0
+GNUCH,3030260,Glucose [Presence] in Urine by Automated test strip,143139,0,No matching concept,364714,,,,,,,
+GNUCH,3022621,pH of Urine by Test strip,142296,0,No matching concept,363583,,,,,,,
+GNUCH,3011397,Hemoglobin [Presence] in Urine by Test strip,142296,0,No matching concept,363583,,,,,,,
+GNUCH,3000330,Specific gravity of Urine by Test strip,140897,0,No matching concept,369483,,,,,,,
+GNUCH,3035350,Ketones [Presence] in Urine by Test strip,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3037426,Urobilinogen [Presence] in Urine by Test strip,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3029925,Color of Urine by Auto,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3021601,Nitrite [Presence] in Urine by Test strip,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3000348,Leukocyte esterase [Presence] in Urine by Test strip,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3018834,Bilirubin.total [Presence] in Urine by Test strip,140863,0,No matching concept,361743,,,,,,,
+GNUCH,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,137056,8786,per high power field,350724,1,1,1,1,1,100.0,5099
+GNUCH,3004562,Bacteria [Presence] in Urine sediment by Light microscopy,137056,8786,per high power field,350724,,,,,,,
+GNUCH,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,137056,8786,per high power field,350724,1,1,1,1,14,100.0,5099
+GNUCH,3022217,INR in Platelet poor plasma by Coagulation assay,136808,0,No matching concept,324981,0,0.92,0.96,1.03,1.14,1.43,33.29
+GNUCH,3033658,Prothrombin time (PT) actual/Normal,136808,8554,percent,324981,0,59,80.0,95,107,116,200.0
+GNUCH,3033658,Prothrombin time (PT) actual/Normal,136808,0,No matching concept,524,,,,,,,
+GNUCH,3034426,Prothrombin time (PT),136808,8555,second,324981,8,12,12.5,13.2,14.3,17.1,320.0
+GNUCH,3034426,Prothrombin time (PT),136808,0,No matching concept,524,,,,,,,
+GNUCH,3018677,aPTT in Platelet poor plasma by Coagulation assay,136494,8555,second,309389,0,29.8,32,35,39.1,45.7,400.0
+GNUCH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,135058,8779,signal to cutoff ratio,98407,0.1,0.1,0.1,0.1,0.11,0.26,1000.0
+GNUCH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,135058,0,No matching concept,83425,,,,,,,
+GNUCH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,134671,9550,milli-international unit per milliliter,148002,3.1,3.1,4.09,31.16,192.55,814.53,1000.0
+GNUCH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,134671,0,No matching concept,33091,,,,,,,
+GNUCH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",132541,8753,millimole per liter,656351,-6,19,22,26,29,37,150.0
+GNUCH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",132541,0,No matching concept,198382,,,,,,,
+GNUCH,3017143,Hepatitis C virus Ab [Presence] in Serum,131751,8779,signal to cutoff ratio,93474,0.02,0.02,0.03,0.06,0.08,0.12,11
+GNUCH,3017143,Hepatitis C virus Ab [Presence] in Serum,131751,0,No matching concept,81718,,,,,,,
+GNUCH,3006916,Magnesium [Mass/volume] in Blood,130318,8840,milligram per deciliter,560219,-0.08,1.7,1.9,2,2.2,2.4,15.6
+GNUCH,3021461,Reagin Ab [Presence] in Serum by RPR,126475,0,No matching concept,88464,,,,,,,
+GNUCH,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,122823,8786,per high power field,300513,1,1,1,1,1,14,5099
+GNUCH,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,122075,0,No matching concept,73211,,,,,,,
+GNUCH,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,122075,8779,signal to cutoff ratio,86083,,,,,,,
+GNUCH,3024277,Reverse ABO group [Type],118352,0,No matching concept,263124,,,,,,,
+GNUCH,3015183,Erythrocyte sedimentation rate,117412,8752,millimeter per hour,334228,1,2,7,17,36,63,120.0
+GNUCH,3002529,ABO group [Type] in Blood,116958,0,No matching concept,261496,,,,,,,
+GNUCH,3003310,Rh [Type] in Blood,116957,0,No matching concept,261495,,,,,,,
+GNUCH,3003694,ABO and Rh group [Type] in Blood,116930,0,No matching concept,261430,,,,,,,
+GNUCH,3023399,Thyrotropin [Units/volume] in Blood,112980,44777578,milliunit per liter,226501,0,0.34,1.01,1.85,3.14,5.19,150.0
+GNUCH,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,111684,8817,nanogram per deciliter,223129,0.02,0.99,1.13,1.27,1.45,1.66,7.77
+GNUCH,3027358,T wave axis,99429,0,No matching concept,309907,,,,,,,
+GNUCH,3028024,P wave duration,99429,9593,millisecond,309907,28,76,92,102,112,120.0,222
+GNUCH,3013078,R-R interval by EKG,99429,9593,millisecond,309907,212,592,702,826,948,1058,4462
+GNUCH,3006277,QRS axis,99429,0,No matching concept,309907,,,,,,,
+GNUCH,46235174,Q-T interval corrected based on Bazett formula,99429,9593,millisecond,309907,13,401,417,437,461,490.0,1111
+GNUCH,3004699,PP interval,99429,9593,millisecond,309907,0,530.0,681,821,952,1052,30000.0
+GNUCH,3004451,EKG impression Narrative,99429,0,No matching concept,309907,,,,,,,
+GNUCH,3025809,Q-T interval,99429,9593,millisecond,309907,72,344,370.0,398,426,458,940.0
+GNUCH,3006698,P wave axis,99429,0,No matching concept,309907,,,,,,,
+GNUCH,3022022,QRS duration,99429,9593,millisecond,309907,4,76,82,90.0,100.0,114,332
+GNUCH,3007794,P-R Interval,99429,9593,millisecond,309907,32,130.0,144,160.0,178,198,792
+GNUCH,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,94860,8645,unit per liter,198756,1,40.0,63,101,179,436,873600.0
+GNUCH,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,93921,8554,percent,256241,2.2,5.3,5.6,6.1,6.9,7.9,19.8
+GNUCH,3001079,Blood group antibody screen [Presence] in Serum or Plasma,93783,0,No matching concept,193670,,,,,,,
+GNUCH,3022192,Triglyceride [Mass/volume] in Serum or Plasma,92935,8840,milligram per deciliter,280476,6,63,84,117,169,244,4006
+GNUCH,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,91145,8840,milligram per deciliter,274707,1,35,42,50.0,59,70.0,183
+GNUCH,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,86836,8842,nanogram per milliliter,190109,0,0.7,1.2,2,4,9.9,300.0
+GNUCH,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,85201,8840,milligram per deciliter,260193,3,54,71,94,122,148,1097
+GNUCH,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,82606,8645,unit per liter,149471,0,28,38,51,70.0,100.0,4850.0
+GNUCH,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,82557,8845,picogram per milliliter,149652,0.1,17,41,140.0,785,3754,35000.0
+GNUCH,3008295,Osmolality of Serum or Plasma,81487,8862,milliosmole per kilogram,256606,204,280.0,287,294,301,312,2008
+GNUCH,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,80464,8645,unit per liter,140544,-2,8,13,23,38,72,15210.0
+GNUCH,42870366,Fibrin D-dimer FEU [Mass/volume] in Blood by Immunoassay,78762,8989,microgram of fibrinogen equivalent unit per milliliter,126085,0,0.27,0.29,0.62,2.06,5.41,180.0
+GNUCH,3013502,Oxygen saturation in Blood,78604,8554,percent,412301,0.7,55.8,86.8,96.3,98.4,99.2,120.0
+GNUCH,3027315,Oxygen [Partial pressure] in Blood,78581,8876,millimeter mercury column,406992,3,32,55,85,119,162,550.0
+GNUCH,3013290,Carbon dioxide [Partial pressure] in Blood,78581,8876,millimeter mercury column,406993,5,29,33,38,44,51,250.0
+GNUCH,3006576,Bicarbonate [Moles/volume] in Blood,78581,8753,millimole per liter,406992,0,18,21,24,27,29,224
+GNUCH,3010421,pH of Blood,78581,0,No matching concept,406992,,,,,,,
+GNUCH,3012501,Base excess in Blood by calculation,78565,9557,milliequivalent per liter,208541,-38,-7.3,-3.7,-0.8,1.6,3.9,44.5
+GNUCH,3012501,Base excess in Blood by calculation,78565,0,No matching concept,198381,,,,,,,
+GNUCH,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,71333,8840,milligram per deciliter,208870,-0.03,0.09,0.12,0.18,0.36,1.04,37.8
+GNUCH,42529256,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Immunoassay,63624,8845,picogram per milliliter,123809,0.1,2.04,2.49,2.88,3.26,3.7,32.55
+GNUCH,3047181,Lactate [Moles/volume] in Blood,63221,8753,millimole per liter,208475,-0.86,0.7,0.9,1.4,2.2,4.1,42.2
+GNUCH,3017250,Creatinine [Mass/volume] in Urine,63037,8840,milligram per deciliter,156720,0,25.9,45.12,78.68,130.17,194.46,868.29
+GNUCH,3036426,Calcium.ionized [Mass/volume] in Blood,62773,8840,milligram per deciliter,169531,0.4,3.4,4,4.4,4.7,5,14.5
+GNUCH,40769783,Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,58850,8725,nanogram per liter,122782,3,3,6,13,47,234,10000.0
+GNUCH,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,54782,8817,nanogram per deciliter,85421,1.95,72.68,88.64,105.9,128,155,800.0
+GNUCH,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,49969,8840,milligram per deciliter,76555,35,229,275,338,440.0,577,1377
+GNUCH,43054904,Epithelial cells [Presence] in Specimen by Gram stain,49189,0,No matching concept,142751,,,,,,,
+GNUCH,3030942,Ammonia [Mass/volume] in Blood,48861,8837,microgram per deciliter,74486,0,37,49,64,85,122,4982
+GNUCH,43054906,Leukocytes [Presence] in Specimen by Gram stain,48811,0,No matching concept,140746,,,,,,,
+GNUCH,3005745,Bacteria identified in Blood by Aerobe culture,47473,0,No matching concept,312936,,,,,,,
+GNUCH,3006673,Bacteria identified in Blood by Anaerobe culture,47402,0,No matching concept,307110,,,,,,,
+GNUCH,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,44644,8859,microgram per milliliter,61423,0.4,2.5,2.5,3.7,10.3,29.2,200.0
+GNUCH,3003181,Sodium [Moles/volume] in Urine,44027,8753,millimole per liter,118034,3.3,22.1,45,81.1,120.4,158.3,418.4
+GNUCH,3016038,Potassium [Moles/volume] in Urine,43960,8753,millimole per liter,117715,0.1,10.3,16,26.2,43.2,66.1,304.2
+GNUCH,3007733,Chloride [Moles/volume] in Urine,43951,8753,millimole per liter,117675,4,23.3,47.4,84.2,124.5,164.7,408.8
+GNUCH,3026782,Osmolality of Urine,41877,8862,milliosmole per kilogram,112192,22,270.0,364,487,620.0,759,1440.0
+GNUCH,706163,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection,41431,0,No matching concept,105768,,,,,,,
+GNUCH,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,40999,8842,nanogram per milliliter,68030,0.01,0.01,0.01,0.07,0.29,2.17,369.65
+GNUCH,3003745,Microscopic observation [Identifier] in Urine by Gram stain,38691,0,No matching concept,477331,,,,,,,
+GNUCH,3027018,Heart rate,36432,8483,counts per minute,1043261,1,58,64,74,84,95,9193
+GNUCH,3033745,Troponin I.cardiac [Mass/volume] in Blood,36353,8842,nanogram per milliliter,70427,0.1,0.1,0.1,0.1,0.14,1.56,1985
+GNUCH,3020891,Body temperature,35416,586323,degree Celsius,155233,3,36,36.1,36.3,36.5,36.8,3635
+GNUCH,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,35239,8763,unit per milliliter,71052,0,2.62,6.12,11.51,22.04,51.96,70000.0
+GNUCH,3004249,Systolic blood pressure,34329,8876,millimeter mercury column,1018803,1,107,120.0,135,152,166,1470.0
+GNUCH,3012888,Diastolic blood pressure,34329,8876,millimeter mercury column,1018788,1,59,65,74,83,91,216
+GNUCH,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,34033,8842,nanogram per milliliter,69145,0,0.44,0.96,1.78,3.14,6.44,5000.0
+GNUCH,3006175,Mucus [Presence] in Urine sediment by Light microscopy,32468,8786,per high power field,47349,,,,,,,
+GNUCH,44816657,Yeast [Presence] in Specimen by Gram stain,31854,0,No matching concept,86585,,,,,,,
+GNUCH,36305203,Microscopic observation [Identifier] in Blood by Gram stain,30604,0,No matching concept,266368,,,,,,,
+GNUCH,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,29452,8842,nanogram per milliliter,57252,0,0.5,1.4,2.6,4.4,8.1,100000.0
+GNUCH,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,27303,8751,milligram per liter,51086,0,0.2,0.3,0.7,1.7,4.7,281
+GNUCH,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,25292,8985,international unit per milliliter,30798,1,6.4,7.32,8.65,10.52,18.77,900.0
+GNUCH,586526,SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection,23318,0,No matching concept,16386,,,,,,,
+GNUCH,586526,SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection,23318,8859,microgram per milliliter,27375,,,,,,,
+GNUCH,3037121,Protein [Mass/volume] in Urine,22916,8840,milligram per deciliter,66221,0.1,5.5,10.0,21.1,74.9,231,9460.0
+GNUCH,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,22137,8842,nanogram per milliliter,48123,0,0.06,0.42,0.94,2.86,7.49,4914.28
+GNUCH,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,22137,0,No matching concept,289,,,,,,,
+GNUCH,3001582,Protein/Creatinine [Mass Ratio] in Urine,22051,0,No matching concept,62840,,,,,,,
+GNUCH,3013635,Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),21205,0,No matching concept,79388,,,,,,,
+GNUCH,3010007,Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),21135,0,No matching concept,87849,,,,,,,
+GNUCH,3037971,Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),20888,0,No matching concept,83878,,,,,,,
+GNUCH,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,20883,8842,nanogram per milliliter,34138,4.2,9.8,14.1,21,29.2,37.6,150.0
+GNUCH,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,20883,0,No matching concept,21,,,,,,,
+GNUCH,3000769,Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),20806,0,No matching concept,84672,,,,,,,
+GNUCH,3007124,Reticulocytes/100 erythrocytes in Blood by Automated count,20582,8554,percent,46685,0.02,0.98,1.32,1.78,2.57,4.34,48.46
+GNUCH,3022270,Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),19222,0,No matching concept,63738,,,,,,,
+GNUCH,3016774,Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),19185,0,No matching concept,61281,,,,,,,
+GNUCH,3035643,Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),19184,0,No matching concept,79613,,,,,,,
+GNUCH,3000520,cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),18887,0,No matching concept,64636,,,,,,,
+GNUCH,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,18765,8842,nanogram per milliliter,2808,0,0,0.5,3,8,15,1200.0
+GNUCH,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,18765,0,No matching concept,24354,,,,,,,
+GNUCH,36033659,SARS-CoV-2 (COVID-19) E gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection,18642,0,No matching concept,25194,,,,,,,
+GNUCH,706167,SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Specimen by NAA with probe detection,18642,0,No matching concept,25194,,,,,,,
+GNUCH,3037549,cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),18400,0,No matching concept,71504,,,,,,,
+GNUCH,3010745,Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),18225,0,No matching concept,70748,,,,,,,
+GNUCH,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,18149,8842,nanogram per milliliter,43073,0.1,11.9,32.4,103.6,272.7,585.8,16500.0
+GNUCH,3008912,Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),17908,0,No matching concept,67023,,,,,,,
+GNUCH,3023414,Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),16149,0,No matching concept,49060,,,,,,,
+GNUCH,3007662,Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),16106,0,No matching concept,59790,,,,,,,
+GNUCH,3035814,Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),15862,0,No matching concept,50738,,,,,,,
+GNUCH,3026008,Bacteria identified in Urine by Culture,15684,0,No matching concept,37619,,,,,,,
+GNUCH,3002274,Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),15568,0,No matching concept,54227,,,,,,,
+GNUCH,3002400,Iron [Mass/volume] in Serum or Plasma,15522,8837,microgram per deciliter,38648,1,22,43,72,108,148,1755
+GNUCH,3011152,Cobalamin (Vitamin B12) [Mass/volume] in Blood,15380,8845,picogram per milliliter,23458,37,380.0,513,725,1099,1934,2000.0
+GNUCH,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,15229,8840,milligram per deciliter,29459,27,92,99,113,137,173,800.0
+GNUCH,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,15072,8837,microgram per deciliter,37465,41,193,239,300.0,353,402,2160.0
+GNUCH,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,15072,0,No matching concept,5286,,,,,,,
+GNUCH,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,14908,8837,microgram per deciliter,37131,1,118,160.0,206,264,342,866
+GNUCH,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,14908,8554,percent,37131,0,7.8,16.1,25.9,36.9,49.5,100.0
+GNUCH,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,14835,0,No matching concept,239276,,,,,,,
+GNUCH,3010084,C peptide [Mass/volume] in Serum or Plasma,14715,8842,nanogram per milliliter,21938,0.01,0.57,0.94,1.57,2.52,4.2,30.0
+GNUCH,3005535,ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),14456,0,No matching concept,41820,,,,,,,
+GNUCH,3000034,Microalbumin [Mass/volume] in Urine,14390,8840,milligram per deciliter,31551,0.01,0.3,0.5,1.2,3.4,13.4,6660.0
+GNUCH,3003985,Beta hydroxybutyrate [Moles/volume] in Serum or Plasma,14339,8753,millimole per liter,17453,0,0.03,0.05,0.13,0.39,1.11,17.23
+GNUCH,3034485,Albumin/Creatinine [Mass Ratio] in Urine,13854,9017,milligram per gram of creatinine,29239,0,3.7,5.9,11.5,34.4,136.7,52347.3
+GNUCH,3005179,Beta lactamase.extended spectrum [Susceptibility],13783,0,No matching concept,40877,,,,,,,
+GNUCH,3002112,Folate [Mass/volume] in Blood,12272,8842,nanogram per milliliter,17208,0.01,4.02,6.06,9.59,16.1,24,24
+GNUCH,3005473,Phosphate crystals amorphous [Presence] in Urine sediment by Light microscopy,11276,8786,per high power field,15260,,,,,,,
+GNUCH,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,11184,8763,unit per milliliter,15048,0.1,4,5.9,9.5,18.7,52.2,7533.9
+GNUCH,3046561,Hyaline casts [#/area] in Urine sediment by Microscopy high power field,11093,8786,per high power field,19913,0,1,1,1,12,12,1120.0
+GNUCH,3038328,Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain,10684,0,No matching concept,17111,,,,,,,
+GNUCH,3018088,Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),10400,0,No matching concept,32872,,,,,,,
+GNUCH,3004372,Urate crystals amorphous [Presence] in Urine sediment by Light microscopy,10396,8786,per high power field,13976,,,,,,,
+GNUCH,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,10366,8985,international unit per milliliter,24711,0.01,10.0,10.4,14.61,48.42,368.4,4000.0
+GNUCH,3016893,Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),10343,0,No matching concept,29507,,,,,,,
+GNUCH,3007022,Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC),10275,0,No matching concept,30201,,,,,,,
+GNUCH,3005241,Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),10246,0,No matching concept,29288,,,,,,,
+GNUCH,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,9918,8985,international unit per milliliter,6764,0.1,7.9,23.9,78.8,280.8,849,15000.0
+GNUCH,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,9918,0,No matching concept,4206,,,,,,,
+GNUCH,3035132,Ketones [Presence] in Serum or Plasma,9633,0,No matching concept,11191,,,,,,,
+GNUCH,3020389,Ova and parasites identified in Stool by Concentration,9349,0,No matching concept,113729,,,,,,,
+GNUCH,3033281,Carbapenem resistance blaKPC gene [Presence] by Molecular method,9260,0,No matching concept,10811,,,,,,,
+GNUCH,36203347,Carbapenem resistance blaOXA-48 gene [Presence] by Molecular method,9260,0,No matching concept,10811,,,,,,,
+GNUCH,36203345,Carbapenem resistance blaVIM gene [Presence] by Molecular method,9260,0,No matching concept,10811,,,,,,,
+GNUCH,36203342,Carbapenem resistance blaIMP gene [Presence] by Molecular method,9260,0,No matching concept,10811,,,,,,,
+GNUCH,44786640,Carbapenem resistance blaNDM gene [Presence] by Molecular method,9260,0,No matching concept,10811,,,,,,,
+GNUCH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,9204,8985,international unit per milliliter,14124,5,7.38,9.38,14.21,115.9,344.8,600.0
+GNUCH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,9204,0,No matching concept,115,,,,,,,
+GNUCH,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,9125,0,No matching concept,43830,,,,,,,
+GNUCH,3034717,Cyclic citrullinated peptide Ab [Units/volume] in Serum by Immunoassay,8559,8763,unit per milliliter,9990,0,7,7,7,7,39.2,500.0
+GNUCH,3012607,Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),8026,0,No matching concept,24892,,,,,,,
+GNUCH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,7761,9550,milli-international unit per milliliter,4424,0.01,2.34,4.91,8.12,30.08,80.37,200.0
+GNUCH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,7761,0,No matching concept,10407,,,,,,,
+GNUCH,3021331,Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),7655,0,No matching concept,20697,,,,,,,
+GNUCH,3000127,Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),7646,0,No matching concept,20711,,,,,,,
+GNUCH,43054990,Influenza virus A and B Ag [Identifier] in Specimen by Rapid immunoassay,7622,0,No matching concept,8492,,,,,,,
+GNUCH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,7405,9550,milli-international unit per milliliter,3853,0,0.34,3.19,7.01,19.97,37.94,195.91
+GNUCH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,7405,0,No matching concept,10533,,,,,,,
+GNUCH,3005719,IgG [Mass/volume] in Serum or Plasma,7140,8840,milligram per deciliter,10331,0.4,710.0,977.1,1239,1557.1,1982.1,9691.1
+GNUCH,3005719,IgG [Mass/volume] in Serum or Plasma,7140,0,No matching concept,2176,,,,,,,
+GNUCH,3023091,Interleukin 6 [Mass/volume] in Serum or Plasma,6916,8845,picogram per milliliter,9401,1.5,1.5,1.5,4.8,30.8,149.1,5000.0
+GNUCH,3033558,Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),6787,0,No matching concept,20297,,,,,,,
+GNUCH,3023419,Bacteria identified in Sputum by Culture,6785,0,No matching concept,23520,,,,,,,
+GNUCH,3006490,Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy,6730,8786,per high power field,8453,,,,,,,
+GNUCH,3042736,Bacteria [Presence] in Specimen,6612,0,No matching concept,12587,,,,,,,
+GNUCH,3008893,Testosterone [Mass/volume] in Serum or Plasma,6609,8842,nanogram per milliliter,8846,0.025,0.025,0.706,3.46,4.91,6.39,15
+GNUCH,3008893,Testosterone [Mass/volume] in Serum or Plasma,6609,0,No matching concept,4366,,,,,,,
+GNUCH,3017766,Complement C4 [Mass/volume] in Serum or Plasma,6606,8840,milligram per deciliter,16846,0.5,11.1,16.2,21.5,27.4,33.4,102.5
+GNUCH,3011907,Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),6593,0,No matching concept,26426,,,,,,,
+GNUCH,3000620,Complement C3 [Mass/volume] in Serum or Plasma,6580,8840,milligram per deciliter,16816,4,74.1,87.7,102.6,118.7,134.2,251.7
+GNUCH,42529223,Myoglobin [Mass/volume] in Serum or Plasma by Immunoassay,6504,8842,nanogram per milliliter,12102,2.2,21,29.6,81.1,296.3,994.9,11840.0
+GNUCH,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,6248,8845,picogram per milliliter,17882,5,11.8,11.8,15.37,23.8,44.53,3000.0
+GNUCH,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,6237,8845,picogram per milliliter,16270,1.2,17.29,28.67,47.48,126.7,281.5,5000.0
+GNUCH,3035637,Corticotropin [Mass/volume] in Plasma,6179,8845,picogram per milliliter,8857,1,2.14,8.05,18.15,32.03,53.54,2000.0
+GNUCH,40760528,Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,6112,8923,international unit per liter,16714,0.3,0.3,0.8,1.36,4.07,13.54,40.0
+GNUCH,3041952,Clot initiation [Time] in Blood by Thromboelastography,5721,8550,minute,8509,0.2,4.7,5.4,6.2,7.2,8.6,88.7
+GNUCH,40769413,Clot formation [Time] in Blood by Thromboelastography --after addition of heparinase,5721,8550,minute,8509,0.5,0.9,1.1,1.3,1.8,2.3,16.5
+GNUCH,40769416,Clot initiation [Time] in Blood by Thromboelastography --after addition of heparinase,5721,8550,minute,8509,0.2,4.7,5.4,6.2,7.2,8.2,48.7
+GNUCH,40769415,Maximum clot firmness [Length] in Blood by Thromboelastography --after addition of heparinase,5721,8588,millimeter,8509,2.2,52.9,57.6,61.1,64.5,67.4,80.2
+GNUCH,3040808,Maximum clot firmness [Length] in Blood by Thromboelastography,5721,8588,millimeter,8509,1.4,51.6,56.9,60.7,64.3,67.2,80.1
+GNUCH,40769405,Clot Lysis [Length fraction] in Blood by Thromboelastography --30 minutes post maximum clot amplitude,5721,8554,percent,8509,0,0,0,0.1,0.8,1.7,95.9
+GNUCH,3041078,Clot formation [Time] in Blood by Thromboelastography,5721,8550,minute,8509,0.6,0.9,1.2,1.4,1.8,2.4,25.3
+GNUCH,40769408,Clot angle in Blood by Thromboelastography,5721,9484,degree,8509,36.9,61.3,67,71.4,74.4,76.6,83.6
+GNUCH,40769410,Clot angle in Blood by Thromboelastography --after addition of heparinase,5721,9484,degree,8509,36.9,63.2,67.9,71.9,74.7,76.8,84.2
+GNUCH,1617367,Activated clotting time.kaolin+tissue factor induced of Blood by calculation,5691,8555,second,8472,69.2,69.2,78.5,87.9,97.3,116,7038.8
+GNUCH,3035456,Hepatitis A virus Ab [Presence] in Serum by Immunoassay,5551,9550,milli-international unit per milliliter,5825,20.0,73.1,100.0,100.0,100.0,100.0,100.0
+GNUCH,3046000,Immature reticulocytes/Reticulocytes.total in Blood,5532,8554,percent,9902,0,3.5,5.2,8,12.5,20.1,55.9
+GNUCH,3000012,Reticulocyte production index,5397,8554,percent,9675,0.05,0.6,0.82,1.12,1.48,1.93,8.29
+GNUCH,3000012,Reticulocyte production index,5397,0,No matching concept,9676,,,,,,,
+GNUCH,3007224,Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),5328,0,No matching concept,23070,,,,,,,
+GNUCH,3036339,rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),5260,0,No matching concept,16262,,,,,,,
+GNUCH,3014197,Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),5191,0,No matching concept,16150,,,,,,,
+GNUCH,3035551,levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),5152,0,No matching concept,13673,,,,,,,
+GNUCH,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,5027,8554,percent,6838,10.0,10.0,15,15,15,1030.0,8090.0
+GNUCH,3023633,Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),5000,0,No matching concept,22332,,,,,,,
+GNUCH,3000855,Microscopic observation [Identifier] in Vaginal fluid by Gram stain,4992,0,No matching concept,53749,,,,,,,
+GNUCH,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,4955,8554,percent,5309,-2,0.2,0.5,0.9,1.4,2.5,77.9
+GNUCH,3014646,Fractional oxyhemoglobin in Blood,4955,8554,percent,5309,1.3,63.1,86.1,92.4,95.2,96.5,98.7
+GNUCH,3007930,Methemoglobin/Hemoglobin.total in Blood,4955,0,No matching concept,5309,-2,0.6,0.8,1,1.3,1.6,48
+GNUCH,3046210,Cortisol [Mass/volume] in Serum or Plasma --baseline,4943,8837,microgram per deciliter,6967,0.05,1.98,6.05,10.12,14.94,21.2,75
+GNUCH,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,4640,0,No matching concept,6018,,,,,,,
+GNUCH,3030365,Mycobacterium tuberculosis rifAMPin resistance gene [Identifier] in Sputum by NAA with probe detection,4640,0,No matching concept,6018,,,,,,,
+GNUCH,3005713,Cortisol [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,4598,8837,microgram per deciliter,5978,0.05,8,15.01,21.19,27.08,34.63,75
+GNUCH,3036405,Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),4443,0,No matching concept,13235,,,,,,,
+GNUCH,3011039,Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),4443,0,No matching concept,13236,,,,,,,
+GNUCH,3050896,Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),4443,0,No matching concept,13236,,,,,,,
+GNUCH,3034592,Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),4440,0,No matching concept,13227,,,,,,,
+GNUCH,3007164,IgA [Mass/volume] in Serum or Plasma,4368,8840,milligram per deciliter,5248,0.1,43.7,111.5,198.2,301,444.2,8492
+GNUCH,3007164,IgA [Mass/volume] in Serum or Plasma,4368,0,No matching concept,1488,,,,,,,
+GNUCH,3020316,Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,4350,8779,signal to cutoff ratio,4550,0.8,0.84,0.99,2.48,7,7,7
+GNUCH,3007363,Cortisol [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,4346,8837,microgram per deciliter,5645,0.05,7.51,13.95,18.65,23.98,31.51,75
+GNUCH,3006577,Aldosterone [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,4298,8817,nanogram per deciliter,2781,0.6,3.29,7.74,15.3,26.64,41.5,1153
+GNUCH,3006577,Aldosterone [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,4298,0,No matching concept,2682,,,,,,,
+GNUCH,3007730,Aldosterone [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,4293,8817,nanogram per deciliter,2779,0.6,3.71,8.17,16.4,27.64,43.4,1415.77
+GNUCH,3007730,Aldosterone [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,4293,0,No matching concept,2679,,,,,,,
+GNUCH,3016585,Aldosterone [Mass/volume] in Serum or Plasma --baseline,4292,8817,nanogram per deciliter,2817,0.6,1.48,3.18,6.76,13.08,23.49,1193
+GNUCH,3016585,Aldosterone [Mass/volume] in Serum or Plasma --baseline,4292,0,No matching concept,2673,,,,,,,
+GNUCH,3037558,Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),4235,0,No matching concept,18419,,,,,,,
+GNUCH,3001612,Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),4206,0,No matching concept,18294,,,,,,,
+GNUCH,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,4091,0,No matching concept,4646,,,,,,,
+GNUCH,3028026,IgM [Mass/volume] in Serum or Plasma,3997,8840,milligram per deciliter,4800,0,22.6,41.7,77.1,125.9,195.2,11579
+GNUCH,3028026,IgM [Mass/volume] in Serum or Plasma,3997,0,No matching concept,1417,,,,,,,
+GNUCH,40761566,DNA double strand IgG Ab [Presence] in Serum by Immunoassay,3971,8985,international unit per milliliter,6889,0.1,1,2.2,4.6,12,36.4,600.0
+GNUCH,3051269,Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain,3950,0,No matching concept,4746,,,,,,,
+GNUCH,3001952,Microscopic observation [Identifier] in Stool by Wet preparation,3876,0,No matching concept,4759,,,,,,,
+GNUCH,42868607,Erythrocytes [Presence] in Specimen by Wet preparation,3863,0,No matching concept,4745,,,,,,,
+GNUCH,3041120,Leukocytes [#/area] in Specimen by Wet preparation,3863,0,No matching concept,4745,,,,,,,
+GNUCH,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,3862,0,No matching concept,13929,,,,,,,
+GNUCH,3007922,Insulin-like growth factor-I [Mass/volume] in Blood,3729,0,No matching concept,6301,,,,,,,
+GNUCH,3022284,Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3647,0,No matching concept,8737,,,,,,,
+GNUCH,3013644,Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3631,0,No matching concept,8695,,,,,,,
+GNUCH,3019029,Microscopic observation [Identifier] in Pus by Gram stain,3608,0,No matching concept,84572,,,,,,,
+GNUCH,3044936,Clostridioides difficile toxin A+B [Presence] in Stool by Immunoassay,3607,0,No matching concept,4807,,,,,,,
+GNUCH,3034972,Bordetella parapertussis DNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46236738,Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46236737,Influenza virus A H3 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46236736,Influenza virus A H1 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46236734,Human metapneumovirus RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235794,Respiratory syncytial virus RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235766,Parainfluenza virus 4 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235765,Parainfluenza virus 3 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235764,Parainfluenza virus 2 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235763,Parainfluenza virus 1 RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235759,Influenza virus B RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235757,Influenza virus A RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,46235749,Adenovirus DNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36305676,Human coronavirus HKU1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36305584,Mycoplasma pneumoniae DNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36304601,Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36304548,Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36304464,Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,3047117,Bordetella pertussis DNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36304423,Rhinovirus+Enterovirus RNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36303621,Chlamydophila pneumoniae DNA [Presence] in Nasopharynx by NAA with probe detection,3597,0,No matching concept,3812,,,,,,,
+GNUCH,36032101,Erythrocytes [#/area] in Prostatic fluid by Light microscopy,3545,8786,per high power field,3834,1,1,1,14,14,100.0,5099
+GNUCH,36032273,Leukocytes [#/area] in Prostatic fluid by Light microscopy,3545,8786,per high power field,3834,1,1,14,14,59,1019,5099
+GNUCH,3047065,Granular casts [#/area] in Urine sediment by Microscopy high power field,3464,8786,per high power field,5644,0,1,1,1,1,12,1120.0
+GNUCH,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,3451,0,No matching concept,24991,,,,,,,
+GNUCH,3051552,Clostridioides difficile toxin genes [Presence] in Stool by NAA with probe detection,3363,0,No matching concept,9328,,,,,,,
+GNUCH,36304170,Clostridioides difficile BI-NAP1-027 strain DNA [Presence] in Stool by NAA with probe detection,3363,0,No matching concept,4664,,,,,,,
+GNUCH,3006006,Tricyclic antidepressants [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3013184,Phencyclidine [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3028707,Methadone [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3005058,Barbiturates [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3015208,Opiates [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3018060,Cocaine [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3007682,Benzodiazepines [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3023596,Amphetamines [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3011402,Methamphetamine [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,3000201,Tetrahydrocannabinol [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,40762475,Acetaminophen [Presence] in Urine by Screen method,3311,0,No matching concept,3456,,,,,,,
+GNUCH,46234833,Bacteria identified in Abscess by Anaerobe+Aerobe culture,3271,0,No matching concept,11715,,,,,,,
+GNUCH,3021940,Eosinophils/100 leukocytes in Sputum,3258,8554,percent,3454,0,0,0,0,0,5,98
+GNUCH,3021940,Eosinophils/100 leukocytes in Sputum,3258,0,No matching concept,1719,,,,,,,
+GNUCH,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,3169,8842,nanogram per milliliter,4943,0.08,4.26,6.61,9.72,16.37,37.13,200.0
+GNUCH,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,3138,8837,microgram per deciliter,5009,0.05,0.65,1.26,5.49,10.76,16.66,634
+GNUCH,3004809,Band form neutrophils/100 leukocytes in Blood,3050,8554,percent,10611,0,1,2,5,10.0,18,66
+GNUCH,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,3038,0,No matching concept,4268,,,,,,,
+GNUCH,3015154,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum,3036,8763,unit per milliliter,3775,0,0.5,1.1,2.2,9.1,200.0,200.0
+GNUCH,3000259,Yeast [Presence] in Urine sediment by Light microscopy,3032,8786,per high power field,6592,,,,,,,
+GNUCH,3008914,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum,3023,8763,unit per milliliter,3727,0,0.1,0.1,1.1,3.2,11,200.0
+GNUCH,3037437,Adenosine deaminase [Enzymatic activity/volume] in Body fluid,3014,8923,international unit per liter,4433,1,5.2,7.9,14,26.5,57.2,200.0
+GNUCH,3027974,Hepatitis B virus e Ag [Presence] in Serum,3000,0,No matching concept,3360,,,,,,,
+GNUCH,3027974,Hepatitis B virus e Ag [Presence] in Serum,3000,8779,signal to cutoff ratio,4940,,,,,,,
+GNUCH,3024957,Lutropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,2873,9550,milli-international unit per milliliter,4382,0.01,0.67,1.6,3.21,6.88,15.89,176.83
+GNUCH,3024825,Lutropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,2872,9550,milli-international unit per milliliter,4380,0.01,0.75,1.91,3.61,7.29,16.33,177.38
+GNUCH,3017512,Follitropin [Units/volume] in Serum or Plasma --30 minutes post XXX challenge,2872,9550,milli-international unit per milliliter,4381,0.37,2.73,6.47,9.79,13.36,17.05,115.17
+GNUCH,3034494,Follitropin [Units/volume] in Serum or Plasma --1 hour post XXX challenge,2871,9550,milli-international unit per milliliter,4379,0.25,3.18,8.74,13.49,18.34,23.45,145.99
+GNUCH,3002780,Lutropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,2870,9550,milli-international unit per milliliter,4377,0.01,0.72,1.81,3.29,6.39,13.5,186.7
+GNUCH,3013967,Follitropin [Units/volume] in Serum or Plasma --1.5 hours post XXX challenge,2869,9550,milli-international unit per milliliter,4376,0.3,3.36,9.88,14.63,19.69,24.82,154.03
+GNUCH,3032493,dRVVT/dRVVT W excess phospholipid (screen to confirm ratio),2867,0,No matching concept,3889,,,,,,,
+GNUCH,40766042,Proteinase 3 Ab [Presence] in Serum by Immunoassay,2855,8763,unit per milliliter,3089,0.2,1,1.2,1.4,1.7,2.3,100.0
+GNUCH,3002035,Myeloperoxidase Ab [Presence] in Serum by Immunoassay,2855,8763,unit per milliliter,3089,0.3,0.6,0.9,1.1,1.3,1.6,100.0
+GNUCH,3013945,Hepatitis B virus e Ab [Presence] in Serum,2843,0,No matching concept,3279,,,,,,,
+GNUCH,3013945,Hepatitis B virus e Ab [Presence] in Serum,2843,8779,signal to cutoff ratio,4824,,,,,,,
+GNUCH,3015274,Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),2814,0,No matching concept,10421,,,,,,,
+GNUCH,3034442,cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),2751,0,No matching concept,4411,,,,,,,
+GNUCH,3026051,Polymorphonuclear cells/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,2,5,19,58,85,100.0
+GNUCH,3030571,Basophils/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,0,0,0,0,0,22
+GNUCH,3004448,Specific gravity of Pleural fluid by Refractometry,2666,0,No matching concept,4114,,,,,,,
+GNUCH,3028029,Mesothelial cells/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,0,0,1,3,6,56
+GNUCH,3028308,Erythrocytes [#/volume] in Pleural fluid,2666,8785,per cubic millimeter,4114,0,178,604,2000.0,2000.0,2000.0,3630000.0
+GNUCH,3014891,Appearance of Pleural fluid,2666,0,No matching concept,4114,,,,,,,
+GNUCH,3001893,Eosinophils/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,0,0,0,0,2,84
+GNUCH,3031199,Monocytes+Macrophages/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,2,5,12,28,49,98
+GNUCH,3023199,Leukocytes [#/volume] in Pleural fluid,2666,8785,per cubic millimeter,4114,1,99,267,742,1000.0,1000.0,158400.0
+GNUCH,3005532,Lymphocytes/100 leukocytes in Pleural fluid,2666,8554,percent,4114,0,5,14,39,68,85,99
+GNUCH,3037960,Salmonella typhi O Ab [Titer] in Serum,2598,0,No matching concept,2715,,,,,,,
+GNUCH,3037615,Salmonella typhi H Ab [Titer] in Serum,2598,0,No matching concept,2715,,,,,,,
+GNUCH,3004198,Follitropin [Units/volume] in Serum or Plasma --baseline,2568,0,No matching concept,3894,,,,,,,
+GNUCH,3025119,Lutropin [Units/volume] in Serum or Plasma --baseline,2564,0,No matching concept,3890,,,,,,,
+GNUCH,3013735,Carcinoembryonic Ag [Mass/volume] in Body fluid,2541,8842,nanogram per milliliter,3419,0,0.26,0.77,1.66,4.69,72.97,5000.0
+GNUCH,3003434,Protein [Mass/volume] in Pleural fluid,2512,8713,gram per deciliter,3842,0,1.6,2.1,3.1,4.2,5,16.3
+GNUCH,3003403,Glucose [Mass/volume] in Pleural fluid,2512,8840,milligram per deciliter,3842,0,42,93,119,149,194,2082
+GNUCH,3038308,Chloride [Moles/volume] in Pleural fluid,2512,8753,millimole per liter,3842,5,98,103,106,110.0,114,14700.0
+GNUCH,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,2512,8645,unit per liter,3842,1,76,106,185,458,1405,137700.0
+GNUCH,3011544,Albumin [Mass/volume] in Pleural fluid,2512,8713,gram per deciliter,3842,0,0.8,1.1,1.6,2.2,2.8,8.5
+GNUCH,3015401,Amylase [Enzymatic activity/volume] in Pleural fluid,2512,8645,unit per liter,3842,0,9,14,21,32,51,123350.0
+GNUCH,3015094,Leukocytes other/100 leukocytes in Pleural fluid,2459,8554,percent,3813,0,0,0,0,0,0,68
+GNUCH,3042923,Malignant cells/100 cells in Pleural fluid,2459,8554,percent,3813,0,0,0,0,0,0,92
+GNUCH,3046289,Variant lymphocytes/100 leukocytes in Pleural fluid,2459,8554,percent,3813,0,0,0,0,0,0,12
+GNUCH,3002179,Metamyelocytes/100 leukocytes in Blood,2458,8554,percent,8574,0,1,1,2,4,7,56
+GNUCH,40765969,DNA double strand IgM Ab [Units/volume] in Serum by Immunoassay,2428,8763,unit per milliliter,2493,0.7,2.3,3.3,5.6,11.8,30.7,200.0
+GNUCH,40765969,DNA double strand IgM Ab [Units/volume] in Serum by Immunoassay,2428,8985,international unit per milliliter,1460,0.7,2.5,3.9,7.2,15.5,33.5,200.0
+GNUCH,3026796,Spermatozoa [Presence] in Urine sediment by Light microscopy,2359,8786,per high power field,3036,,,,,,,
+GNUCH,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,2320,9032,per 100 white blood cells,7526,0,1,2,5,10.0,23,1167
+GNUCH,3023428,Smith extractable nuclear Ab [Presence] in Serum,2267,8763,unit per milliliter,2717,0,0.1,0.4,0.7,1.2,2.2,200.0
+GNUCH,3035880,pH of Pleural fluid,2261,0,No matching concept,3496,,,,,,,
+GNUCH,3006441,Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,2256,9158,IgM phospholipid unit per milliliter,2833,0.1,0.4,0.6,1,1.6,3,80.0
+GNUCH,3007766,Cardiolipin IgG Ab [Presence] in Serum by Immunoassay,2246,9157,IgG phospholipid unit per milliliter,2824,0,0.8,1.3,2,3,5.1,120.0
+GNUCH,3016699,Glucose [Mass/volume] in Serum or Plasma --1 hour post 50 g glucose PO,2244,8840,milligram per deciliter,2469,51,92,106,124,143,163,495
+GNUCH,3039496,Microscopic observation [Identifier] in Pleural fluid by Rhodamine-auramine fluorochrome stain,2243,0,No matching concept,3072,,,,,,,
+GNUCH,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,2160,0,No matching concept,8880,,,,,,,
+GNUCH,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,2095,0,No matching concept,21941,,,,,,,
+GNUCH,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,2089,8842,nanogram per milliliter,1411,0.012,0.074,0.14,0.26,0.446,0.739,6
+GNUCH,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,2089,0,No matching concept,3289,,,,,,,
+GNUCH,40763949,Clindamycin.induced [Susceptibility],2086,0,No matching concept,4655,,,,,,,
+GNUCH,3028269,Bacteria identified in Vaginal fluid by Aerobe culture,2052,0,No matching concept,3218,,,,,,,
+GNUCH,3016244,Insulin [Units/volume] in Serum or Plasma,2040,8860,microunit per milliliter,2957,0.2,1.6,3.9,8.9,23.3,50.8,29084
+GNUCH,3016244,Insulin [Units/volume] in Serum or Plasma,2040,0,No matching concept,6,,,,,,,
+GNUCH,1176221,Bacteria identified in Catheter tip by Aerobe culture,2014,0,No matching concept,6554,,,,,,,
+GNUCH,1175370,Bacteria identified in Catheter tip by Anaerobe culture,2009,0,No matching concept,6546,,,,,,,
+GNUCH,3034530,Glucose [Mass/volume] in Blood --2 hours post meal,1927,8840,milligram per deciliter,2224,53,89,98,113,142,205,603
+GNUCH,3048689,Calprotectin [Mass/mass] in Stool,1898,9562,milligram per kilogram,5995,3.8,16,47,176,786,2224,6000.0
+GNUCH,3014352,Rotavirus Ag [Presence] in Stool by Immunoassay,1890,0,No matching concept,5817,,,,,,,
+GNUCH,3039998,Platelet aggregation arachidonate induced [Units/volume] in Blood,1870,0,No matching concept,2348,,,,,,,
+GNUCH,3036882,Urate crystals [Presence] in Urine sediment by Light microscopy,1864,8786,per high power field,2408,,,,,,,
+GNUCH,3022640,Eosinophils/100 leukocytes in Cerebral spinal fluid,1830,8554,percent,3211,0,0,0,0,0,1,53
+GNUCH,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,1830,8785,per cubic millimeter,3211,0,0,2,40.0,2772,64152,5113600.0
+GNUCH,3020829,Basophils/100 leukocytes in Cerebral spinal fluid,1830,8554,percent,3211,0,0,0,0,0,0,5
+GNUCH,3022356,Polymorphonuclear cells/100 leukocytes in Cerebral spinal fluid,1830,8554,percent,3211,0,0,0,0,35,80.0,100.0
+GNUCH,3020951,Lymphocytes/100 leukocytes in Cerebral spinal fluid,1830,8554,percent,3211,0,0,0,0,35,88,100.0
+GNUCH,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,1830,0,No matching concept,3211,,,,,,,
+GNUCH,3026397,Monocytes+Macrophages/100 leukocytes in Cerebral spinal fluid,1828,8554,percent,3209,0,0,0,0,4,11,96
+GNUCH,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,1824,8840,milligram per deciliter,3190,0,42,54,64,78,98,1407
+GNUCH,3019473,Protein [Mass/volume] in Cerebral spinal fluid,1824,8840,milligram per deciliter,3190,0.8,26.6,38.4,64.3,146.9,356.2,6640.0
+GNUCH,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,1822,8785,per cubic millimeter,3203,0,0,1,6,56,380.0,142500.0
+GNUCH,3017181,Myelocytes/100 leukocytes in Blood,1808,8554,percent,5988,0,1,1,2,3,6,71
+GNUCH,3036172,Chloride [Moles/volume] in Cerebral spinal fluid,1744,8753,millimole per liter,3073,5,120.0,125,128,131,135,172
+GNUCH,3044355,Beta 2 glycoprotein 1 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,1739,8763,unit per milliliter,2301,0.3,1.2,1.5,1.9,2.7,5.8,100.0
+GNUCH,3023876,Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC),1723,0,No matching concept,2664,,,,,,,
+GNUCH,3036282,Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay,1697,0,No matching concept,1792,,,,,,,
+GNUCH,3002733,Renin [Enzymatic activity/volume] in Plasma --baseline,1688,9020,nanogram per milliliter and hour,2104,0.1,0.25,0.62,1.36,3.92,11.58,112.51
+GNUCH,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,1675,44777561,arbitrary unit per liter,5645,5,15,20.0,28,88,1283,300000.0
+GNUCH,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,1648,8842,nanogram per milliliter,11762,0.04,0.04,0.04,0.11,1.6,10.99,500.0
+GNUCH,1176187,Microscopic observation [Identifier] in Bile fluid by Gram stain,1618,0,No matching concept,16997,,,,,,,
+GNUCH,3008266,Variant lymphocytes/100 leukocytes in Cerebral spinal fluid,1616,8554,percent,2861,0,0,0,0,0,0,10.0
+GNUCH,3022840,Leukocytes other/100 leukocytes in Cerebral spinal fluid,1616,8554,percent,2861,0,0,0,0,0,0,86
+GNUCH,3043381,Malignant cells/100 cells in Cerebral spinal fluid,1616,8554,percent,2861,0,0,0,0,0,0,71
+GNUCH,46236075,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum or Plasma by Immunoassay,1610,8842,nanogram per milliliter,3240,5,11,16.6,31.9,57.3,95,1200.0
+GNUCH,46236075,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum or Plasma by Immunoassay,1610,0,No matching concept,403,,,,,,,
+GNUCH,3014157,Somatotropin [Mass/volume] in Serum or Plasma --baseline,1599,0,No matching concept,3445,,,,,,,
+GNUCH,3013221,ABO and Rh group [Type] in Blood from Newborn,1586,0,No matching concept,1629,,,,,,,
+GNUCH,3017403,Rh [Type] in Blood from Newborn,1586,0,No matching concept,1629,,,,,,,
+GNUCH,3010652,ABO group [Type] in Blood from Newborn,1586,0,No matching concept,1629,,,,,,,
+GNUCH,3015232,Cholesterol [Mass/volume] in Body fluid,1543,8840,milligram per deciliter,1997,0,14,25,44,69,99,655
+GNUCH,3012133,Amylase [Enzymatic activity/volume] in Body fluid,1538,8645,unit per liter,5216,0,13,24,57,226,2000.0,361950.0
+GNUCH,3036947,Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),1485,0,No matching concept,2279,,,,,,,
+GNUCH,3000637,Triglyceride [Mass/volume] in Body fluid,1478,8840,milligram per deciliter,2017,0,9,13,21,40.0,85,3334
+GNUCH,3029023,Hepatitis E virus IgG Ab [Presence] in Serum by Immunoassay,1433,0,No matching concept,1704,,,,,,,
+GNUCH,3005543,Specific gravity of Peritoneal fluid by Refractometry,1428,0,No matching concept,4100,,,,,,,
+GNUCH,3031189,Monocytes+Macrophages/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,1,3,9,30.0,54,96
+GNUCH,3032363,Basophils/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,0,0,0,0,0,13
+GNUCH,3024271,Mesothelial cells/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,0,0,0,2,4,68
+GNUCH,3023487,Leukocytes [#/volume] in Peritoneal fluid,1428,8785,per cubic millimeter,4100,0,60.0,168,554,2623,17325,887040.0
+GNUCH,3019298,Eosinophils/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,0,0,0,0,3,85
+GNUCH,3015421,Appearance of Peritoneal fluid,1428,0,No matching concept,4100,,,,,,,
+GNUCH,3009613,Erythrocytes [#/volume] in Peritoneal fluid,1428,8785,per cubic millimeter,4100,0,66,297,1772,2000.0,3802,1061280.0
+GNUCH,3008838,Polymorphonuclear cells/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,1,5,26,76,91,100.0
+GNUCH,3004437,Lymphocytes/100 leukocytes in Peritoneal fluid,1428,8554,percent,4100,0,3,9,28,56,77,99
+GNUCH,3017758,pH of Cerebral spinal fluid,1410,0,No matching concept,2501,,,,,,,
+GNUCH,3023410,Appearance of Cerebral spinal fluid,1409,0,No matching concept,2500,,,,,,,
+GNUCH,3006595,Microscopic observation [Identifier] in Genital specimen by Wet preparation,1362,0,No matching concept,1407,,,,,,,
+GNUCH,3028193,Bilirubin.total [Mass/volume] in Body fluid,1301,8840,milligram per deciliter,4555,-0.1,0.3,0.59,0.99,1.71,3.45,352.5
+GNUCH,3042713,Malignant cells/100 cells in Peritoneal fluid,1258,8554,percent,3350,0,0,0,0,0,0,78
+GNUCH,3008855,Leukocytes other/100 leukocytes in Peritoneal fluid,1258,8554,percent,3350,0,0,0,0,0,0,85
+GNUCH,3043989,Variant lymphocytes/100 leukocytes in Peritoneal fluid,1258,8554,percent,3350,0,0,0,0,0,0,30.0
+GNUCH,3004239,Creatinine [Mass/time] in 24 hour Urine,1252,8909,milligram per 24 hours,1777,23.11,493.77,760.9,1013.43,1378.45,1799.01,10506.85
+GNUCH,42529200,Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,1242,8763,unit per milliliter,4481,1,4.8,6.3,8.8,13,19.67,3000.0
+GNUCH,1175677,Microscopic observation [Identifier] in Catheter tip by Gram stain,1238,0,No matching concept,6743,,,,,,,
+GNUCH,3039448,Bacteria identified in Bile fluid by Culture,1226,0,No matching concept,3923,,,,,,,
+GNUCH,3037501,Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),1225,0,No matching concept,1868,,,,,,,
+GNUCH,3006661,Calcium [Mass/volume] in Urine,1201,8840,milligram per deciliter,2678,-0.4,0.7,2.5,7.7,16,25.5,79.3
+GNUCH,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,1158,0,No matching concept,1177,,,,,,,
+GNUCH,40765038,"1,25-Dihydroxyvitamin D [Mass/volume] in Serum or Plasma",1137,0,No matching concept,1215,,,,,,,
+GNUCH,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,1114,0,No matching concept,1133,,,,,,,
+GNUCH,3023037,pH of Peritoneal fluid,1102,0,No matching concept,2858,,,,,,,
+GNUCH,21491660,Streptococcus pyogenes Ag [Presence] in Throat by Rapid immunoassay,1089,0,No matching concept,1119,,,,,,,
+GNUCH,36304196,Carbapenemase [Presence] in Isolate,1072,0,No matching concept,10667,,,,,,,
+GNUCH,36303261,Leukocytes [Presence] in Cerebral spinal fluid by Gram stain,1012,0,No matching concept,2005,,,,,,,
+GNUCH,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,1012,0,No matching concept,14123,,,,,,,
+GNUCH,3026692,Albumin [Mass/volume] in Peritoneal fluid,1005,8713,gram per deciliter,2243,0,0.2,0.4,0.7,1.4,2.1,4.6
+GNUCH,3043156,Chloride [Moles/volume] in Peritoneal fluid,1005,8753,millimole per liter,2243,3.9,97.6,102.2,106.5,111,115,141.8
+GNUCH,3002240,Glucose [Mass/volume] in Peritoneal fluid,1005,8840,milligram per deciliter,2243,0,78,104,127,156,204,1426
+GNUCH,3002331,Protein [Mass/volume] in Peritoneal fluid,1005,8713,gram per deciliter,2243,0,0.6,1,1.7,2.8,4,7.1
+GNUCH,40770975,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid by Lactate to pyruvate reaction,1005,8645,unit per liter,2243,1,33,49,84,203,549,26760.0
+GNUCH,3008691,Amylase [Enzymatic activity/volume] in Peritoneal fluid,1005,8645,unit per liter,2243,1,7,11,18,29,47,29650.0
+GNUCH,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,1001,8985,international unit per milliliter,1023,0.1,1.91,12.08,54.03,177.31,398.89,1000.0
+GNUCH,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,995,9550,milli-international unit per milliliter,2382,0,0.1,0.2,7,741.3,1000.0,621900.0
+GNUCH,46236285,Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture,923,0,No matching concept,7239,,,,,,,
+GNUCH,3033490,Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),903,0,No matching concept,3983,,,,,,,
+GNUCH,3033526,Urate [Mass/volume] in Urine,849,8840,milligram per deciliter,2176,0.6,24,41.9,68.7,96.3,119.6,206.2
+GNUCH,40760485,Enolase.neuron specific [Mass/volume] in Serum or Plasma by Immunoassay,822,8842,nanogram per milliliter,1906,0.9,9.63,12.4,19.2,41.9,107,300.0
+GNUCH,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,819,0,No matching concept,14929,,,,,,,
+GNUCH,3016724,Homocysteine [Moles/volume] in Serum or Plasma,741,8749,micromole per liter,830,0.8,6.3,8.3,10.6,13.8,17.9,65
+GNUCH,3016724,Homocysteine [Moles/volume] in Serum or Plasma,741,0,No matching concept,19,,,,,,,
+GNUCH,3016201,Valproate [Mass/volume] in Serum or Plasma,739,8859,microgram per milliliter,1808,2.8,16.5,36,55.8,73.3,88.4,195
+GNUCH,3026286,Lipase [Enzymatic activity/volume] in Body fluid,725,8645,unit per liter,3095,1,10.0,23,95,565,1200.0,287950.0
+GNUCH,3037167,Microscopic observation [Identifier] in Specimen by Gram stain,710,0,No matching concept,17890,,,,,,,
+GNUCH,3021440,Promyelocytes/100 leukocytes in Blood,701,8554,percent,2098,0,1,1,1,2,3,68
+GNUCH,1175485,Acinetobacter sp identified in Specimen by Organism specific culture,693,0,No matching concept,2203,,,,,,,
+GNUCH,3035250,Fasting glucose [Mass/volume] in Capillary blood by Glucometer,690,8840,milligram per deciliter,1326,59,95,104,119,141,176,575
+GNUCH,3005715,Vancomycin [Mass/volume] in Serum or Plasma,683,8859,microgram per milliliter,1972,0,6.6,9.4,14.5,19.3,24.7,81.9
+GNUCH,3026729,Phosphate [Mass/volume] in Urine,606,8840,milligram per deciliter,1186,0,16.1,41.8,76.5,124,164.5,433.2
+GNUCH,3024171,Respiratory rate,521,8483,counts per minute,5687,8,16,18,20.0,20.0,20.0,160.0
+GNUCH,3025037,Bacteria identified in Peritoneal fluid by Culture,480,0,No matching concept,1815,,,,,,,
+GNUCH,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,439,8842,nanogram per milliliter,539,1.98,6.3,9.1,12.57,17.81,25.5,189.3
+GNUCH,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,439,0,No matching concept,101,,,,,,,
+GNUCH,3034860,Kappa light chains.free [Mass/volume] in Serum,417,8751,milligram per liter,1922,0,2.46,7.89,22.44,89.21,476.94,49152.27
+GNUCH,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,417,8748,microgram per liter,509,4.7,7.2,9.4,12.4,17.4,27,360.0
+GNUCH,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,415,8751,milligram per liter,1919,0.01,0.07,0.67,1.29,2.68,18.35,168700.0
+GNUCH,3000197,Beta lactamase.usual [Susceptibility],407,0,No matching concept,469,,,,,,,
+GNUCH,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,365,0,No matching concept,3242,,,,,,,
+GNUCH,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,342,8842,nanogram per milliliter,1460,0.1,0.5,0.7,1,1.5,4.7,700.0
+GNUCH,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,330,8840,milligram per deciliter,340,30.0,57,70.0,87.7,114,132,219
+GNUCH,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,283,8840,milligram per deciliter,290,72,108,122,136,159,178,270.0
+GNUCH,44816574,Carbapenemase [Type] in Isolate by Carba NP,273,0,No matching concept,418,,,,,,,
+GNUCH,3012451,5-Fluorocytosine [Susceptibility] by Minimum inhibitory concentration (MIC),251,0,No matching concept,764,,,,,,,
+GNUCH,3021541,Amphotericin B [Susceptibility] by Minimum inhibitory concentration (MIC),247,0,No matching concept,751,,,,,,,
+GNUCH,3036155,Voriconazole [Susceptibility] by Minimum inhibitory concentration (MIC),245,0,No matching concept,749,,,,,,,
+GNUCH,40757307,Caspofungin [Susceptibility] by Minimum inhibitory concentration (MIC),243,0,No matching concept,745,,,,,,,
+GNUCH,3038339,Micafungin [Susceptibility] by Minimum inhibitory concentration (MIC),243,0,No matching concept,745,,,,,,,
+GNUCH,3007552,Cefotaxime [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),212,0,No matching concept,319,,,,,,,
+GNUCH,3008974,cefTRIAXone [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),212,0,No matching concept,319,,,,,,,
+GNUCH,3012295,Fluconazole [Susceptibility] by Minimum inhibitory concentration (MIC),211,0,No matching concept,662,,,,,,,
+GNUCH,3022767,Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC),208,0,No matching concept,274,,,,,,,
+GNUCH,40758562,Immature cells/100 leukocytes in Blood,195,8554,percent,552,0,1,1,1,2,7,85
+GNUCH,3025159,Blasts/100 leukocytes in Blood,192,8554,percent,1758,0,1,1,4,17,55,97
+GNUCH,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,169,8840,milligram per deciliter,172,6,6,6,11,27,54,164
+GNUCH,44786753,Tacrolimus [Mass/volume] in Blood by Immunoassay,158,8842,nanogram per milliliter,3848,0.5,3.7,5.3,7.9,11.1,15,40.0
+GNUCH,3039413,Cefuroxime [Susceptibility] by Minimum inhibitory concentration (MIC),132,0,No matching concept,144,,,,,,,
+GNUCH,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,109,0,No matching concept,111,,,,,,,
+GNUCH,3036475,Plasminogen activator inhibitor 1 Ag [Mass/volume] in Platelet poor plasma by Immunoassay,105,8842,nanogram per milliliter,103,5.2,8.6,10.0,14.3,26.8,36.8,74.3
+GNUCH,3013498,Variant lymphocytes/100 leukocytes in Blood,98,8554,percent,245,0,1,2,8,25,48,87
+GNUCH,3010989,Calcitonin [Mass/volume] in Serum or Plasma,90,8845,picogram per milliliter,142,2,2,2,2,22.5,98.6,718
+GNUCH,3017429,Ofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),48,0,No matching concept,62,,,,,,,
+GNUCH,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,46,8837,microgram per deciliter,22,5.1,6.42,6.95,7.58,8.67,9.84,10.2
+GNUCH,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,46,0,No matching concept,25,,,,,,,
+GNUCH,3025381,Methicillin [Susceptibility] by Minimum inhibitory concentration (MIC),14,0,No matching concept,14,,,,,,,
+GNUCH,3015406,Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),9,0,No matching concept,9,,,,,,,

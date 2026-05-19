@@ -1,0 +1,593 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+WKUH,3000963,Hemoglobin [Mass/volume] in Blood,588521,8713,gram per deciliter,4894986,0,8.7,10.0,11.7,13.4,14.8,555
+WKUH,3000963,Hemoglobin [Mass/volume] in Blood,588521,8840,milligram per deciliter,31,1.4,4.2,9,20.3,79.8,163.3,428.4
+WKUH,3024731,MCV [Entitic volume],583838,0,No matching concept,4234834,,,,,,,
+WKUH,3003338,MCHC [Mass/volume],583838,8713,gram per deciliter,4234834,0,32.3,33.1,34,34.8,35.5,950.0
+WKUH,3035941,MCH [Entitic mass],583838,8564,picogram,4234834,-25.6,27.5,29.2,30.5,31.7,33,876.9
+WKUH,3002385,Erythrocyte distribution width [Ratio],583829,8554,percent,4234748,-10.9,12.3,12.7,13.5,14.8,16.6,990.0
+WKUH,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,574258,8923,international unit per liter,2796462,-7,16,20.0,26,38,65,33802960.0
+WKUH,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,574254,8923,international unit per liter,2797374,-46,10.0,14,21,34,62,44700.0
+WKUH,3016723,Creatinine [Mass/volume] in Serum or Plasma,571292,8751,milligram per liter,182,0.22,0.45,0.58,0.75,1,1.71,7.17
+WKUH,3016723,Creatinine [Mass/volume] in Serum or Plasma,571292,8840,milligram per deciliter,3676504,-0.1,0.5,0.65,0.83,1.09,1.75,135
+WKUH,3010813,Leukocytes [#/volume] in Blood,555226,0,No matching concept,4012643,,,,,,,
+WKUH,3007461,Platelets [#/volume] in Blood,554610,0,No matching concept,4011142,,,,,,,
+WKUH,3013115,Eosinophils [#/volume] in Blood,553377,0,No matching concept,3905810,,,,,,,
+WKUH,3009542,Hematocrit [Volume Fraction] of Blood,553257,8554,percent,3894958,0,26.5,30.4,35.1,39.3,42.9,850.0
+WKUH,3026361,Erythrocytes [#/volume] in Blood,553256,0,No matching concept,3894928,,,,,,,
+WKUH,3019198,Lymphocytes [#/volume] in Blood,553247,0,No matching concept,3894994,,,,,,,
+WKUH,3017732,Neutrophils [#/volume] in Blood,553247,0,No matching concept,3894993,,,,,,,
+WKUH,3006315,Basophils [#/volume] in Blood,553054,0,No matching concept,3893793,,,,,,,
+WKUH,3001604,Monocytes [#/volume] in Blood,553054,0,No matching concept,3893794,,,,,,,
+WKUH,3002030,Lymphocytes/100 leukocytes in Blood,552643,8554,percent,3894230,0,8.8,15,25,35.3,44.5,632
+WKUH,3018010,Neutrophils/100 leukocytes in Blood,552643,8554,percent,3893930,-72,42.7,52.5,63.6,75.2,84.1,6735
+WKUH,3006504,Eosinophils/100 leukocytes in Blood,552449,8554,percent,3893305,0,0.2,0.7,1.7,3.3,5.6,235
+WKUH,3022096,Basophils/100 leukocytes in Blood,552447,8554,percent,3893291,0,0.1,0.2,0.3,0.5,0.8,311
+WKUH,3019069,Monocytes/100 leukocytes in Blood,552447,8554,percent,3893300,-0.9,4.1,5.6,7.3,9.4,12.1,581
+WKUH,3011397,Hemoglobin [Presence] in Urine by Test strip,544433,8840,milligram per deciliter,1919521,0,10.0,10.0,25,50.0,250.0,250.0
+WKUH,3030260,Glucose [Presence] in Urine by Automated test strip,544433,8840,milligram per deciliter,1919521,0,0,50.0,100.0,500.0,1000.0,2000.0
+WKUH,40760845,Protein [Presence] in Urine by Automated test strip,544433,8840,milligram per deciliter,1919521,0,1,10.0,25,75,150.0,1000.0
+WKUH,3022621,pH of Urine by Test strip,544433,0,No matching concept,1919520,,,,,,,
+WKUH,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,538365,8840,milligram per deciliter,3420405,-9.2,8.1,11,14.9,21,34.7,540.0
+WKUH,3005456,Potassium [Moles/volume] in Blood,512713,9557,milliequivalent per liter,3431865,0,3.5,3.81,4.2,4.6,5,508281319
+WKUH,3005456,Potassium [Moles/volume] in Blood,512713,0,No matching concept,827802,,,,,,,
+WKUH,3000285,Sodium [Moles/volume] in Blood,512664,9557,milliequivalent per liter,3383277,0.5,135,138,141,143,146,139128
+WKUH,3000285,Sodium [Moles/volume] in Blood,512664,0,No matching concept,827502,,,,,,,
+WKUH,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,497718,0,No matching concept,2304001,,,,,,,
+WKUH,3024561,Albumin [Mass/volume] in Serum or Plasma,497116,8713,gram per deciliter,2729185,0,2.8,3.3,3.9,4.3,4.6,88
+WKUH,3020630,Protein [Mass/volume] in Serum or Plasma,472714,8713,gram per deciliter,2004921,-0.01,5.5,6.2,6.8,7.3,7.7,735023
+WKUH,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,472100,8840,milligram per deciliter,1994470,-6.5,0.29,0.4,0.6,0.91,1.68,76.5
+WKUH,3000348,Leukocyte esterase [Presence] in Urine by Test strip,459409,0,No matching concept,1600596,,,,,,,
+WKUH,3035350,Ketones [Presence] in Urine by Test strip,459409,8840,milligram per deciliter,1600596,0,0,2,10.0,50.0,50.0,150.0
+WKUH,3018834,Bilirubin.total [Presence] in Urine by Test strip,459409,8840,milligram per deciliter,1600596,0,0,0.5,1,1,3,14
+WKUH,3000330,Specific gravity of Urine by Test strip,458579,0,No matching concept,1599391,,,,,,,
+WKUH,3037426,Urobilinogen [Presence] in Urine by Test strip,458578,8840,milligram per deciliter,1599391,0,0,0,1,1,4,12
+WKUH,3021601,Nitrite [Presence] in Urine by Test strip,458578,0,No matching concept,1599391,,,,,,,
+WKUH,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,458267,8786,per high power field,1584560,-1,0,0,1,3,20.0,22205301857
+WKUH,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,458267,8786,per high power field,1584559,0,0,0,2,6,20.0,3550.0
+WKUH,3051205,Crystals [#/area] in Urine sediment by Microscopy high power field,458240,8786,per high power field,1584442,0,0,0,0,0,0,3
+WKUH,3005658,Casts [#/area] in Urine sediment by Microscopy low power field,457862,0,No matching concept,1569373,,,,,,,
+WKUH,3033658,Prothrombin time (PT) actual/Normal,441495,8554,percent,1962807,0,42.7,73.1,92.9,107,119.1,502108194
+WKUH,3034426,Prothrombin time (PT),441495,8555,second,1962809,0.4,10.2,10.8,11.6,13.2,18.4,502108113
+WKUH,3022217,INR in Platelet poor plasma by Coagulation assay,439924,0,No matching concept,1884990,,,,,,,
+WKUH,3018677,aPTT in Platelet poor plasma by Coagulation assay,434746,8555,second,1536956,0,23.5,26,29.2,33.2,39.1,21009290255
+WKUH,3015183,Erythrocyte sedimentation rate,411862,8752,millimeter per hour,1471845,0,2,3,12,30.0,56,443130.0
+WKUH,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,402227,8923,international unit per liter,1271471,-3.6,11.8,17,29,67,176,504016370.0
+WKUH,3020460,C reactive protein [Mass/volume] in Serum or Plasma,383403,8751,milligram per liter,1892002,-16.6,0.52,1.38,7.06,36.64,97.95,2569
+WKUH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,377231,0,No matching concept,632977,,,,,,,
+WKUH,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,375250,8923,international unit per liter,1072582,-20.0,32,44,61,83,121,277245
+WKUH,3020509,Albumin/Globulin [Mass Ratio] in Serum or Plasma,375100,0,No matching concept,1568067,,,,,,,
+WKUH,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,373682,8786,per high power field,1141299,0,0,0,0,3,7,240.0
+WKUH,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,371432,8923,international unit per liter,1061964,-0.4,17,24,34,56,110.0,507126250.0
+WKUH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,371429,9550,milli-international unit per milliliter,611149,0,5.23,14.63,48.56,182.7,446.02,7362
+WKUH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,371429,0,No matching concept,13981,,,,,,,
+WKUH,3003310,Rh [Type] in Blood,368856,0,No matching concept,766518,,,,,,,
+WKUH,3002529,ABO group [Type] in Blood,368851,0,No matching concept,766511,,,,,,,
+WKUH,3004501,Glucose [Mass/volume] in Serum or Plasma,367515,8840,milligram per deciliter,1099189,0,79,88,101,122,168,254256
+WKUH,3019428,Reagin Ab [Presence] in Serum by VDRL,363769,0,No matching concept,653028,,,,,,,
+WKUH,3024277,Reverse ABO group [Type],359735,0,No matching concept,755323,,,,,,,
+WKUH,3004249,Systolic blood pressure,320458,8876,millimeter mercury column,18980646,-11,100.0,110.0,120.0,134,147,123457
+WKUH,3004249,Systolic blood pressure,320458,0,No matching concept,1950574,,,,,,,
+WKUH,3012888,Diastolic blood pressure,320430,8876,millimeter mercury column,18976403,-1,58,61,70.0,80.0,89,4531
+WKUH,3012888,Diastolic blood pressure,320430,0,No matching concept,1949894,,,,,,,
+WKUH,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,311193,0,No matching concept,569665,,,,,,,
+WKUH,3027018,Heart rate,293317,0,No matching concept,22262089,,,,,,,
+WKUH,3020891,Body temperature,281225,0,No matching concept,16420802,,,,,,,
+WKUH,3025255,Bacteria [#/area] in Urine sediment by Microscopy high power field,275480,8786,per high power field,854238,0,0,181,212,779,820.0,34017
+WKUH,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,269857,8840,milligram per deciliter,957970,-0.03,0.1,0.13,0.21,0.44,1.14,507291249
+WKUH,3037556,Urate [Mass/volume] in Serum or Plasma,250156,8840,milligram per deciliter,787705,0,3.1,3.9,5,6.5,8,404300265
+WKUH,3024171,Respiratory rate,247203,0,No matching concept,20399267,,,,,,,
+WKUH,3006906,Calcium [Mass/volume] in Serum or Plasma,235952,8840,milligram per deciliter,825576,-5.6,7.9,8.5,9.1,9.6,10.0,127
+WKUH,3022192,Triglyceride [Mass/volume] in Serum or Plasma,234247,8840,milligram per deciliter,686002,-97,55,76,110.0,166,238,11310.0
+WKUH,3017143,Hepatitis C virus Ab [Presence] in Serum,231486,0,No matching concept,402219,,,,,,,
+WKUH,40758561,Immature cells [#/volume] in Blood,223575,0,No matching concept,1364707,,,,,,,
+WKUH,40758562,Immature cells/100 leukocytes in Blood,223575,8554,percent,1353047,0,1,3,7,22,59,98
+WKUH,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,217087,8923,international unit per liter,530622,0,174,223,328,443,644,133700.0
+WKUH,3018572,Chloride [Moles/volume] in Blood,207843,9557,milliequivalent per liter,766763,1.2,95,99,103,106,110.0,21603071378
+WKUH,3027114,Cholesterol [Mass/volume] in Serum or Plasma,200236,8840,milligram per deciliter,441262,0.1,124,146,173,203,232,1237
+WKUH,3010421,pH of Blood,198075,0,No matching concept,1249259,,,,,,,
+WKUH,3013290,Carbon dioxide [Partial pressure] in Blood,198068,8876,millimeter mercury column,1249152,0.6,27,32,37.2,43,51.2,410.7
+WKUH,3027315,Oxygen [Partial pressure] in Blood,198060,8876,millimeter mercury column,1249128,0,39.2,60.9,80.0,103.7,140.0,778.5
+WKUH,3008152,Bicarbonate [Moles/volume] in Arterial blood,197996,0,No matching concept,1248200,,,,,,,
+WKUH,21490592,Base excess in Extracellular fluid by calculation,197993,0,No matching concept,1248008,,,,,,,
+WKUH,3012501,Base excess in Blood by calculation,197979,0,No matching concept,1223311,,,,,,,
+WKUH,3014218,Bicarbonate [Moles/volume] standard in Arterial blood,197963,0,No matching concept,1223037,,,,,,,
+WKUH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",196932,0,No matching concept,1051523,,,,,,,
+WKUH,3016502,Oxygen saturation in Arterial blood,196912,8554,percent,1050712,0,70.4,91,96,98,99,50807190296
+WKUH,40760909,Oxygen content in Blood by calculation,196629,9570,milliliter per deciliter,1048423,0,9,11.8,14.3,17,19.5,51704290044
+WKUH,3008295,Osmolality of Serum or Plasma,193730,8862,milliosmole per kilogram,739170,2,280.0,287,294,303,316,51606090707
+WKUH,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,178209,8923,international unit per liter,469846,0,42,64,102,193,532,915640.0
+WKUH,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,173610,8554,percent,14055426,-97,94,96,98,99,100.0,100100.0
+WKUH,3011904,Phosphate [Mass/volume] in Serum or Plasma,170753,8840,milligram per deciliter,533660,0,2.7,3.2,3.8,4.7,6.2,603
+WKUH,3021119,Calcium.ionized [Moles/volume] in Blood,166867,0,No matching concept,827457,,,,,,,
+WKUH,3035355,Turbidity [Presence] of Urine Qualitative,159562,0,No matching concept,424627,,,,,,,
+WKUH,3029925,Color of Urine by Auto,159562,0,No matching concept,424627,,,,,,,
+WKUH,3037244,Yeast [#/area] in Urine sediment by Microscopy high power field,155263,8786,per high power field,421963,0,0,0,0,0,0,4465
+WKUH,3022509,Hyaline casts [#/area] in Urine sediment by Microscopy low power field,155263,0,No matching concept,421963,,,,,,,
+WKUH,21491345,Pathologic casts [#/area] in Urine by Automated count,155263,0,No matching concept,421963,,,,,,,
+WKUH,3001008,Epithelial cells.squamous [#/area] in Urine sediment by Microscopy high power field,154427,8786,per high power field,406895,0,0,0,0,2,6,203
+WKUH,3035851,Transitional cells [#/area] in Urine sediment by Microscopy high power field,154427,8786,per high power field,406895,0,0,0,0,0,0,20.0
+WKUH,3015023,Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field,154427,8786,per high power field,406895,0,0,0,0,0,0,52.2
+WKUH,3001079,Blood group antibody screen [Presence] in Serum or Plasma,146838,0,No matching concept,290435,,,,,,,
+WKUH,3009201,Thyrotropin [Units/volume] in Serum or Plasma,145018,0,No matching concept,358401,,,,,,,
+WKUH,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,142205,8840,milligram per deciliter,348137,1,33,39,47,56,66,2240.0
+WKUH,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,141139,8840,milligram per deciliter,347346,-59,55,72,96,123,149,1210.0
+WKUH,3023368,Bacteria identified in Blood by Culture,140225,0,No matching concept,583326,,,,,,,
+WKUH,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,139349,0,No matching concept,330386,,,,,,,
+WKUH,46236952,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",139215,8795,milliliter per minute,407778,0.92,29.9,58.5,85.3,109.6,138.3,15241.1
+WKUH,3004592,Major crossmatch [Interpretation],138991,0,No matching concept,305661,,,,,,,
+WKUH,3011689,Deoxyhemoglobin/Hemoglobin.total in Blood,135385,8554,percent,463094,-2,1,1.8,3.3,6.1,13.5,20806010289
+WKUH,42869645,Carboxyhemoglobin/Hemoglobin.total [Pure mass fraction] in Blood,135385,8554,percent,463094,-1.4,0.1,0.3,0.8,1.4,2,83.7
+WKUH,42869638,Methemoglobin/Hemoglobin.total [Pure mass fraction] in Blood,135385,8554,percent,463093,-2,0,0.2,0.3,0.6,0.9,143.6
+WKUH,42869595,Oxyhemoglobin/Hemoglobin.total [Pure mass fraction] in Blood,135385,8554,percent,463093,1.1,84.7,92.2,95.3,96.8,97.7,101.6
+WKUH,3039000,Anion gap in Blood,135080,8554,percent,461575,-17,7,9.8,13.5,18.1,23.1,31711100078
+WKUH,3025315,Body weight,130518,0,No matching concept,458105,,,,,,,
+WKUH,3003745,Microscopic observation [Identifier] in Urine by Gram stain,130073,0,No matching concept,392197,,,,,,,
+WKUH,3026008,Bacteria identified in Urine by Culture,129988,0,No matching concept,391906,,,,,,,
+WKUH,3036277,Body height,124304,0,No matching concept,346260,,,,,,,
+WKUH,3038553,Body mass index (BMI) [Ratio],124173,0,No matching concept,345838,,,,,,,
+WKUH,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,122119,8817,nanogram per deciliter,279393,0,0.86,0.95,1.07,1.22,1.41,137
+WKUH,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,118021,0,No matching concept,268726,,,,,,,
+WKUH,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,117289,8554,percent,335788,0,5.2,5.6,6.3,7.6,9.2,78.08
+WKUH,3001123,Platelet mean volume [Entitic volume] in Blood,112231,0,No matching concept,256081,,,,,,,
+WKUH,3039417,Platelet distribution width [Ratio] in Blood,111959,0,No matching concept,255200,,,,,,,
+WKUH,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,105742,8840,milligram per deciliter,3989341,-1,97,116,147,199,265,42010191218
+WKUH,3001420,Magnesium [Mass/volume] in Serum or Plasma,104167,8840,milligram per deciliter,298723,0.01,1.7,1.92,2.18,2.4,2.9,404128202
+WKUH,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,97139,8985,international unit per milliliter,173209,0,3,5.8,8.3,11.1,23.8,3649
+WKUH,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,96233,9579,millimole per mole,282941,-23.7,33.2,37.6,45.3,58.4,76,1072.7
+WKUH,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,96233,8840,milligram per deciliter,282941,-46,103,114,134,169,215,2823
+WKUH,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,92409,8751,milligram per liter,185472,0,0.37,0.59,1.21,3.69,16.3,632.55
+WKUH,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,91342,8985,international unit per milliliter,130051,0,11.32,30.95,98.37,297.5,775.2,506075088
+WKUH,3043714,Erythrocytes [Presence] in Stool,87270,8786,per high power field,175942,0,0,0,0,0,0,0
+WKUH,3014441,Leukocytes [Presence] in Stool by Light microscopy,87270,8786,per high power field,175942,0,0,0,0,0,0,0
+WKUH,3027694,Calcium.ionized [Mass/volume] in Serum or Plasma,82237,8840,milligram per deciliter,184823,0.47,3.8,4.1,4.4,4.62,4.84,51006060389
+WKUH,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,80033,8840,milligram per deciliter,143464,0,4.6,9.6,20.4,41.4,72.4,3846.5
+WKUH,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,77907,0,No matching concept,149310,,,,,,,
+WKUH,3002173,Hemoglobin [Mass/volume] in Arterial blood,74599,8713,gram per deciliter,341610,0,7.6,9.2,11.2,13.8,16,26.1
+WKUH,3025941,Bacteria identified in Stool by Culture,67014,0,No matching concept,116809,,,,,,,
+WKUH,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,66736,8840,milligram per deciliter,128230,0,157.1,211.3,267,354.2,471.8,406308068
+WKUH,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,66736,0,No matching concept,3999,,,,,,,
+WKUH,3027945,Reticulocytes/100 erythrocytes in Blood,65001,8554,percent,134874,0,0.62,1,1.36,2.25,4.25,140.0
+WKUH,3011960,Natriuretic peptide B [Mass/volume] in Serum or Plasma,63238,8845,picogram per milliliter,108359,0,16.2,28.9,74.9,247.2,963.7,24921.9
+WKUH,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,62084,0,No matching concept,106438,,,,,,,
+WKUH,3017250,Creatinine [Mass/volume] in Urine,60759,8840,milligram per deciliter,172380,0,26.17,44.48,74.6,119.64,176.92,404128107
+WKUH,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,59381,8842,nanogram per milliliter,106791,0,0.984,1.52,2.47,4.13,7.71,12303300265
+WKUH,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,58444,0,No matching concept,79737,,,,,,,
+WKUH,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,53178,0,No matching concept,263610,,,,,,,
+WKUH,3023419,Bacteria identified in Sputum by Culture,53053,0,No matching concept,262753,,,,,,,
+WKUH,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,51276,8985,international unit per milliliter,75004,-2.2,1.2,4.9,28.3,75.5,235.8,106097472
+WKUH,40761543,Other elements [Identifier] in Urine sediment by Light microscopy,50164,0,No matching concept,112180,,,,,,,
+WKUH,3016244,Insulin [Units/volume] in Serum or Plasma,49902,9093,micro-international unit per milliliter,944,0.229,3.11,4.69,7.58,12.9,22.69,174.3
+WKUH,3016244,Insulin [Units/volume] in Serum or Plasma,49902,0,No matching concept,89276,,,,,,,
+WKUH,3011625,Bleeding time,49731,0,No matching concept,62416,,,,,,,
+WKUH,3000515,Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,49110,8554,percent,91615,0,24,56,87,104,119,503247657
+WKUH,3023520,Reticulocytes [#/volume] in Blood,48347,0,No matching concept,104964,,,,,,,
+WKUH,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,47927,0,No matching concept,319930,,,,,,,
+WKUH,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,46118,8842,nanogram per milliliter,88826,0.205,1.13,1.57,2.35,3.82,7.5,2310300.0
+WKUH,3030366,Cystatin C [Mass/volume] in Serum or Plasma,45355,8751,milligram per liter,115740,0.1,0.7,0.87,1.22,2.06,3.3,11.7
+WKUH,3029859,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin-based formula",45355,0,No matching concept,115740,,,,,,,
+WKUH,3020316,Hepatitis A virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,45239,0,No matching concept,51725,,,,,,,
+WKUH,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,45065,8840,milligram per deciliter,79997,0,49,60.7,77.1,96.82,117,839
+WKUH,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,44197,8842,nanogram per milliliter,81960,0.02,0.06,0.11,0.32,1.6,8.83,457
+WKUH,3046000,Immature reticulocytes/Reticulocytes.total in Blood,43026,8554,percent,93686,0,0.02,0.05,0.12,0.32,1.03,49.6
+WKUH,3029080,Hemoglobin [Entitic mass] in Reticulocytes,43026,0,No matching concept,93686,,,,,,,
+WKUH,3035561,Lactate [Mass/volume] in Arterial blood,42625,8840,milligram per deciliter,158931,-1,1.5,6,10.0,16,29,279
+WKUH,3031266,Glucose [Mass/volume] in Arterial blood,42621,8840,milligram per deciliter,158992,1,94,109,134,178,246,845
+WKUH,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,42389,8840,milligram per deciliter,66435,1,91,108,126,147,168,444.12
+WKUH,42869450,Platelets reticulated/100 platelets in Blood by Automated count,41657,8554,percent,90853,0,1,1.4,2.3,3.8,6.7,76.9
+WKUH,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,41608,0,No matching concept,92335,,,,,,,
+WKUH,3001490,Nucleated erythrocytes [#/volume] in Blood,41608,0,No matching concept,92335,,,,,,,
+WKUH,3016724,Homocysteine [Moles/volume] in Serum or Plasma,40801,0,No matching concept,53727,,,,,,,
+WKUH,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,40385,8837,microgram per deciliter,87993,21,159,199,253,322,374,2319
+WKUH,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,40258,8817,nanogram per deciliter,89878,0.01,63.76,79.33,96.21,119.21,149.51,1230.1
+WKUH,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,40232,8748,microgram per liter,89716,0.503,11.03,40.59,137.7,394.9,984,330100.0
+WKUH,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,39738,8837,microgram per deciliter,86234,0,79,120.0,161,231,322,1700.0
+WKUH,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,37802,8837,microgram per deciliter,58224,0.029,3.05,6.57,11,18.1,29.4,41008160692
+WKUH,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,37003,0,No matching concept,57327,,,,,,,
+WKUH,3010084,C peptide [Mass/volume] in Serum or Plasma,36989,8842,nanogram per milliliter,73672,0.01,1.11,1.74,2.68,4.43,7.36,310.0
+WKUH,3010084,C peptide [Mass/volume] in Serum or Plasma,36989,0,No matching concept,2549,,,,,,,
+WKUH,3011958,Ammonia [Moles/volume] in Plasma,36012,0,No matching concept,120373,,,,,,,
+WKUH,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,36004,8842,nanogram per milliliter,88087,0,0.02,0.377,1.02,2.94,8,32306120084
+WKUH,3002400,Iron [Mass/volume] in Serum or Plasma,35224,8837,microgram per deciliter,70346,-3,15,27,52,83,125,1168
+WKUH,3037121,Protein [Mass/volume] in Urine,33853,8840,milligram per deciliter,80434,0,5.7,10.2,24.9,85.3,276.4,64739
+WKUH,3035637,Corticotropin [Mass/volume] in Plasma,32936,8845,picogram per milliliter,49489,1,5,10.0,18.19,32.77,68.95,1990.0
+WKUH,42529223,Myoglobin [Mass/volume] in Serum or Plasma by Immunoassay,31861,8842,nanogram per milliliter,54961,0.051,25.08,36.88,79.01,242.7,711,77313
+WKUH,3045462,Protein/Creatinine [Ratio] in Urine,31559,0,No matching concept,74066,,,,,,,
+WKUH,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,31274,0,No matching concept,40639,,,,,,,
+WKUH,3037615,Salmonella typhi H Ab [Titer] in Serum,30542,0,No matching concept,47210,,,,,,,
+WKUH,3037960,Salmonella typhi O Ab [Titer] in Serum,30542,0,No matching concept,47210,,,,,,,
+WKUH,3034485,Albumin/Creatinine [Mass Ratio] in Urine,30224,0,No matching concept,62381,,,,,,,
+WKUH,3012516,Albumin [Mass/volume] in Urine,30224,8840,milligram per deciliter,62381,0,0.7,1.3,5.52,35,154,41210.0
+WKUH,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,28981,8555,second,34809,24,92,109,132,169,224,300.0
+WKUH,3026782,Osmolality of Urine,28495,0,No matching concept,60349,,,,,,,
+WKUH,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,25839,0,No matching concept,41155,,,,,,,
+WKUH,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,24882,8845,picogram per milliliter,54544,0.1,17.59,28.04,48.2,113.7,270.9,41412260288
+WKUH,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,24786,8842,nanogram per milliliter,38424,0.047,6.35,10.62,20.46,47.48,100.6,7150.0
+WKUH,3003181,Sodium [Moles/volume] in Urine,24728,9557,milliequivalent per liter,45027,-7,20.0,40.0,73.9,109.8,141.6,856
+WKUH,3007164,IgA [Mass/volume] in Serum or Plasma,24453,8840,milligram per deciliter,32003,0,29.9,65,149,263,401,13000.0
+WKUH,3044936,Clostridioides difficile toxin A+B [Presence] in Stool by Immunoassay,24293,0,No matching concept,48735,,,,,,,
+WKUH,3000620,Complement C3 [Mass/volume] in Serum or Plasma,23630,8840,milligram per deciliter,32817,2,70.4,87,104,122,143,51801050240.0
+WKUH,3017766,Complement C4 [Mass/volume] in Serum or Plasma,23446,8840,milligram per deciliter,32566,0.2,14.9,20.0,26,33,41,202
+WKUH,3001145,Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,22954,0,No matching concept,25627,,,,,,,
+WKUH,3016038,Potassium [Moles/volume] in Urine,21944,9557,milliequivalent per liter,36663,0.2,11.5,17.46,27.5,41.87,60.0,657.6
+WKUH,3041145,Herpes simplex virus IgM Ab [Presence] in Serum by Immunoassay,21430,0,No matching concept,22894,,,,,,,
+WKUH,36304283,Amoeba identified in Stool by Wet preparation,21366,0,No matching concept,27965,,,,,,,
+WKUH,3016251,Hemoglobin.gastrointestinal [Presence] in Stool,21153,0,No matching concept,39130,,,,,,,
+WKUH,3049178,Platelets Large/Platelets in Blood by Automated count,21050,8554,percent,49033,0,15.5,19,23.4,28.4,33.8,63
+WKUH,3020389,Ova and parasites identified in Stool by Concentration,20479,0,No matching concept,39318,,,,,,,
+WKUH,3020138,Lactate [Mass/volume] in Serum or Plasma,20202,8840,milligram per deciliter,39619,2,10.3,13.4,18.8,29.4,52.3,22109301563
+WKUH,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,19746,8840,milligram per deciliter,33430,0.001,5.42,6.56,7.87,9.66,12.1,143
+WKUH,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,19692,0,No matching concept,36537,,,,,,,
+WKUH,3000053,Head Occipital-frontal circumference,18666,0,No matching concept,34093,,,,,,,
+WKUH,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,18602,8842,nanogram per milliliter,2949,1.87,1.87,2.68,3.41,5.77,9.38,9.38
+WKUH,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,18602,0,No matching concept,38947,,,,,,,
+WKUH,3012544,pH of Venous blood,18599,0,No matching concept,62348,,,,,,,
+WKUH,3021447,Carbon dioxide [Partial pressure] in Venous blood,18597,8876,millimeter mercury column,62344,7.37,33,38,44,49,54,122
+WKUH,3027273,Bicarbonate [Moles/volume] in Venous blood,18595,0,No matching concept,62338,,,,,,,
+WKUH,3002032,Base excess in Venous blood by calculation,18595,0,No matching concept,62336,,,,,,,
+WKUH,3027215,Base excess standard in Venous blood by calculation,18595,0,No matching concept,62338,,,,,,,
+WKUH,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",18593,0,No matching concept,62332,,,,,,,
+WKUH,3007628,Bicarbonate [Moles/volume] standard in Venous blood,18591,0,No matching concept,62323,,,,,,,
+WKUH,3024928,Oxygen saturation in Venous blood,18571,8554,percent,62159,4.5,31.6,46,69.1,89.5,97.5,103.7
+WKUH,3024354,Oxygen [Partial pressure] in Venous blood,18566,8876,millimeter mercury column,62272,6,23,29,40.7,58,91,365
+WKUH,3011648,Oxygen content in Venous blood,18546,9570,milliliter per deciliter,62162,0.6,4.9,7.2,10.5,13.4,16,30.9
+WKUH,3013502,Oxygen saturation in Blood,18526,8554,percent,196375,0.1,84.9,93.8,96.9,98.3,99,150.4
+WKUH,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",18525,0,No matching concept,195604,,,,,,,
+WKUH,3017569,Oxygen content in Arterial blood,18516,9570,milliliter per deciliter,196290,0,7.9,11,13.5,15.9,18.5,137
+WKUH,3038841,Hepatitis B virus surface Ab [Presence] in Serum by Radioimmunoassay (RIA),18450,9550,milli-international unit per milliliter,39156,,,,,,,
+WKUH,3004563,Hepatitis B virus surface Ag [Presence] in Serum by Radioimmunoassay (RIA),18391,0,No matching concept,39044,,,,,,,
+WKUH,3008598,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,17792,0,No matching concept,41049,,,,,,,
+WKUH,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,17286,8845,picogram per milliliter,23379,20.0,370.6,516.1,743.8,1083,1508,50903150005
+WKUH,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,17002,8842,nanogram per milliliter,40578,0.1,0.8,1.2,2.1,3.8,5.5,662.4
+WKUH,3002924,Fatty acids.nonesterified [Mass/volume] in Serum or Plasma,16968,0,No matching concept,20768,,,,,,,
+WKUH,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,16940,0,No matching concept,46501,,,,,,,
+WKUH,3000126,Salmonella paratyphi A Ab [Titer] in Serum,16901,0,No matching concept,26772,,,,,,,
+WKUH,3003004,Salmonella paratyphi B Ab [Titer] in Serum,16901,0,No matching concept,26772,,,,,,,
+WKUH,40762125,Lactate [Mass/volume] in Blood,15915,8840,milligram per deciliter,23590,0.3,7.4,10.5,15.9,26.5,48.4,41004210611
+WKUH,42529204,Clostridioides difficile glutamate dehydrogenase [Presence] in Stool by Immunoassay,15552,0,No matching concept,27320,,,,,,,
+WKUH,3004119,Hemoglobin [Mass/volume] in Venous blood,15301,8713,gram per deciliter,56321,2,8.6,9.7,11.2,12.9,14.5,23.3
+WKUH,3029458,Influenza virus A+B Ag [Presence] in Nasopharynx,15061,0,No matching concept,18938,,,,,,,
+WKUH,3005719,IgG [Mass/volume] in Serum or Plasma,14982,8840,milligram per deciliter,22263,6,720.0,953,1199,1524,2017,14937
+WKUH,3019029,Microscopic observation [Identifier] in Pus by Gram stain,14919,0,No matching concept,24309,,,,,,,
+WKUH,3043614,Bacteria identified in Aspirate by Culture,14879,0,No matching concept,24094,,,,,,,
+WKUH,3043706,Sodium [Moles/volume] in Arterial blood,14765,0,No matching concept,153598,,,,,,,
+WKUH,3043409,Potassium [Moles/volume] in Arterial blood,14764,0,No matching concept,153630,,,,,,,
+WKUH,40762532,Calcium.ionized [Mass/volume] in Arterial blood,14764,0,No matching concept,153620,,,,,,,
+WKUH,3036282,Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay,14041,0,No matching concept,15462,,,,,,,
+WKUH,3028026,IgM [Mass/volume] in Serum or Plasma,13962,8840,milligram per deciliter,17692,1,35,61,98,149,219,38937
+WKUH,1175677,Microscopic observation [Identifier] in Catheter tip by Gram stain,13890,0,No matching concept,20285,,,,,,,
+WKUH,3009986,Bacteria identified in Catheter tip by Culture,13868,0,No matching concept,20044,,,,,,,
+WKUH,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,13691,0,No matching concept,15443,,,,,,,
+WKUH,36305614,Microscopic observation [Identifier] in Lower respiratory specimen by Gram stain,13239,0,No matching concept,19582,,,,,,,
+WKUH,3012475,Bacteria identified in Throat by Culture,13236,0,No matching concept,19566,,,,,,,
+WKUH,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,13195,8842,nanogram per milliliter,21000,1.2,9.3,14,21.9,32,42,42312220539
+WKUH,3011066,Myoglobin [Mass/volume] in Urine,12928,8842,nanogram per milliliter,18716,1.88,22,27,66.13,361.3,1388,41405090713
+WKUH,3042234,Platelet aggregation ADP induced [Units/volume] in Blood,12919,8510,unit,11885,0,15.7,26.9,51.7,80.1,102.5,221.8
+WKUH,3042234,Platelet aggregation ADP induced [Units/volume] in Blood,12919,0,No matching concept,8808,,,,,,,
+WKUH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,12880,9550,milli-international unit per milliliter,31247,0.1,1.13,1.82,3.11,6.72,41.2,266.8
+WKUH,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,12679,8845,picogram per milliliter,16336,5.01,22.8,47.78,121,535.6,2656,193200.0
+WKUH,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,12163,8554,percent,15704,0,5,30.0,50.0,70.0,80.0,90.0
+WKUH,3020876,Protein [Mass/time] in 24 hour Urine,12155,0,No matching concept,24380,,,,,,,
+WKUH,3036987,Folate [Mass/volume] in Serum or Plasma,11858,8748,microgram per liter,14347,0.601,3.37,5.16,7.89,12,16.8,183.2
+WKUH,3036987,Folate [Mass/volume] in Serum or Plasma,11858,8842,nanogram per milliliter,12,2.3,2.3,4.2,6.5,6.8,12.7,12.7
+WKUH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,11823,9550,milli-international unit per milliliter,29302,0.1,0.384,0.781,1.96,8.01,24.79,178.1
+WKUH,3011965,Urea nitrogen [Mass/volume] in Urine,11727,8840,milligram per deciliter,15430,0.1,130.7,219.58,359.6,569.4,822,3510.0
+WKUH,3001349,Creatinine [Mass/volume] in 24 hour Urine,11357,0,No matching concept,14064,,,,,,,
+WKUH,3001962,Phenylalanine [Presence] in DBS,11331,8840,milligram per deciliter,11107,0.1,0.6,0.9,1.2,1.8,2.2,18
+WKUH,3001962,Phenylalanine [Presence] in DBS,11331,0,No matching concept,14172,,,,,,,
+WKUH,1176246,Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain,11118,0,No matching concept,28534,,,,,,,
+WKUH,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,11111,8845,picogram per milliliter,27627,0.027,7.06,10.73,22.92,54.59,140.4,6522
+WKUH,3004512,Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,11087,0,No matching concept,11708,,,,,,,
+WKUH,3016991,Thyroxine (T4) [Mass/volume] in Serum or Plasma,11085,0,No matching concept,23942,,,,,,,
+WKUH,21492710,Hepatitis A virus IgG+IgM Ab [Units/volume] in Serum or Plasma by Immunoassay,11064,0,No matching concept,11818,,,,,,,
+WKUH,3004684,Galactose [Presence] in Blood,10989,8840,milligram per deciliter,11107,0.1,0.3,1,2.2,3.6,5.5,27.2
+WKUH,3037152,Thyrotropin [Presence] in DBS,10989,0,No matching concept,11107,,,,,,,
+WKUH,3008408,Leucine [Presence] in Blood,10989,0,No matching concept,11107,,,,,,,
+WKUH,40766111,Methionine [Presence] in DBS,10989,0,No matching concept,11107,,,,,,,
+WKUH,3027974,Hepatitis B virus e Ag [Presence] in Serum,10879,0,No matching concept,31526,,,,,,,
+WKUH,3004839,Deoxyhemoglobin/Hemoglobin.total in Arterial blood,10743,8554,percent,106239,-157.5,1.1,2,3.2,6.4,16.3,94.5
+WKUH,3031248,Chloride [Moles/volume] in Arterial blood,10743,9557,milliequivalent per liter,106253,9.6,81,94,100.0,106,119,160.0
+WKUH,3028653,Carboxyhemoglobin/Hemoglobin.total in Arterial blood,10743,8554,percent,106239,-30.2,0.1,0.3,0.5,2.5,10.6,89
+WKUH,3006217,Methemoglobin/Hemoglobin.total in Arterial blood,10743,8554,percent,106239,-24,0.2,0.3,0.8,2.2,10.0,30.6
+WKUH,3014007,Fractional oxyhemoglobin in Arterial blood,10743,8554,percent,106239,4.8,60.9,84.8,93.6,96.7,97.8,160.4
+WKUH,43533606,Anion gap 4 in Arterial blood,10742,8554,percent,106239,-7,6.7,10.4,14.5,18.7,22.7,1300.0
+WKUH,3036806,Hepatitis B virus e Ab [Presence] in Serum or Plasma by Immunoassay,10712,0,No matching concept,31090,,,,,,,
+WKUH,46236738,Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with probe detection,10481,0,No matching concept,10824,,,,,,,
+WKUH,3027391,Platelet function (closure time) collagen+ADP induced [Time] in Blood,10397,8555,second,11549,35,72,82,95,112,138,1109
+WKUH,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,10316,8842,nanogram per milliliter,22296,0.001,0.002,0.002,0.005,1.07,12.1,511115372
+WKUH,3023150,Myeloperoxidase Ab [Units/volume] in Serum,10140,0,No matching concept,11511,,,,,,,
+WKUH,3009445,Proteinase 3 Ab [Units/volume] in Serum,10140,0,No matching concept,11511,,,,,,,
+WKUH,3007733,Chloride [Moles/volume] in Urine,10103,9557,milliequivalent per liter,12949,-5,16,33,65,101,136,396
+WKUH,3007654,Microscopic observation [Identifier] in Wound by Gram stain,10099,0,No matching concept,31332,,,,,,,
+WKUH,3003714,Bacteria identified in Wound by Culture,10075,0,No matching concept,31141,,,,,,,
+WKUH,3022560,Hepatitis B virus core IgM Ab [Presence] in Serum or Plasma by Immunoassay,10036,0,No matching concept,11157,,,,,,,
+WKUH,3039998,Platelet aggregation arachidonate induced [Units/volume] in Blood,9997,8510,unit,9361,0,13.2,31.8,89.1,111,127.7,251.4
+WKUH,3039998,Platelet aggregation arachidonate induced [Units/volume] in Blood,9997,0,No matching concept,2108,,,,,,,
+WKUH,3035880,pH of Pleural fluid,9955,0,No matching concept,20599,,,,,,,
+WKUH,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,9818,0,No matching concept,14738,,,,,,,
+WKUH,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,9818,0,No matching concept,14738,,,,,,,
+WKUH,3033306,Mononuclear cells/100 leukocytes in Cerebral spinal fluid,9817,8554,percent,14734,0,10.0,20.0,70.0,90.0,95,350.0
+WKUH,3022356,Polymorphonuclear cells/100 leukocytes in Cerebral spinal fluid,9816,8554,percent,14733,0,0,10.0,20.0,70.0,83.6,660.0
+WKUH,3038943,Toxoplasma gondii IgM Ab [Presence] in Serum or Plasma by Immunoassay,9767,0,No matching concept,9979,,,,,,,
+WKUH,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,9746,0,No matching concept,20073,,,,,,,
+WKUH,3024194,Bacteria identified in Pleural fluid by Culture,9737,0,No matching concept,19984,,,,,,,
+WKUH,3034717,Cyclic citrullinated peptide Ab [Units/volume] in Serum by Immunoassay,9702,8763,unit per milliliter,10980,0.01,0.5,0.7,1.15,2.3,19.9,507
+WKUH,3003434,Protein [Mass/volume] in Pleural fluid,9690,8713,gram per deciliter,18960,0.01,1.4,2,3,4.3,5.2,47
+WKUH,3029483,DNA double strand Ab [Units/volume] in Serum by Immunoassay,9674,8985,international unit per milliliter,5950,0.1,2.1,2.96,5.24,13.59,39.7,499.3
+WKUH,3029483,DNA double strand Ab [Units/volume] in Serum by Immunoassay,9674,0,No matching concept,7723,,,,,,,
+WKUH,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,9664,8840,milligram per deciliter,12980,0,46,56,66,80.0,99,559
+WKUH,3019473,Protein [Mass/volume] in Cerebral spinal fluid,9663,8840,milligram per deciliter,12982,0.1,21,30.1,47.9,84,164,12481
+WKUH,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,9598,8923,international unit per liter,18869,-36,100.0,153,279,685,1751,525000.0
+WKUH,3014352,Rotavirus Ag [Presence] in Stool by Immunoassay,9351,0,No matching concept,13699,,,,,,,
+WKUH,3003403,Glucose [Mass/volume] in Pleural fluid,9249,8840,milligram per deciliter,17291,0,52,95,122.1,156,212,1892
+WKUH,42529562,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay,9197,8842,nanogram per milliliter,11416,0,0.102,0.176,0.331,0.755,1.92,3096
+WKUH,40763084,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid by Lactate to pyruvate reaction,9161,8923,international unit per liter,12092,0.1,20.0,31,52,107,271,97840.0
+WKUH,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,9049,8554,percent,16142,0.43,12.51,14.82,18,23.21,31,108.37
+WKUH,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,9049,0,No matching concept,10357,,,,,,,
+WKUH,3036428,Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid,9037,8645,unit per liter,16879,-6.5,3.9,7.3,13.7,29,71.6,12200.0
+WKUH,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,9011,0,No matching concept,32932,,,,,,,
+WKUH,44816714,Clostridioides difficile toxin B tcdB gene [Presence] in Stool by NAA with probe detection,8978,0,No matching concept,14445,,,,,,,
+WKUH,3026051,Polymorphonuclear cells/100 leukocytes in Pleural fluid,8873,8554,percent,17259,0,6.4,10.0,20.0,70.0,90.0,25250.0
+WKUH,3034459,Mononuclear cells/100 leukocytes in Pleural fluid,8873,8554,percent,17259,0,10.0,30.0,79.7,90.0,92.9,3040.0
+WKUH,3028308,Erythrocytes [#/volume] in Pleural fluid,8873,0,No matching concept,17259,,,,,,,
+WKUH,3023199,Leukocytes [#/volume] in Pleural fluid,8873,0,No matching concept,17259,,,,,,,
+WKUH,3002683,Fibrin degradation products [Presence] in Blood by Agglutination,8846,0,No matching concept,16888,,,,,,,
+WKUH,3022826,Microalbumin/Creatinine [Ratio] in Urine,8610,0,No matching concept,13262,,,,,,,
+WKUH,3000034,Microalbumin [Mass/volume] in Urine,8610,8840,milligram per deciliter,13260,0,0.3,0.6,1.7,6.2,26.6,1239.3
+WKUH,3017758,pH of Cerebral spinal fluid,8573,0,No matching concept,12923,,,,,,,
+WKUH,3050142,Erythrocytes.fresh/100 erythrocytes in Cerebral spinal fluid by Manual count,8572,8554,percent,12921,0,10.0,60.0,80.0,90.0,90.0,520000.0
+WKUH,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,8372,0,No matching concept,18033,,,,,,,
+WKUH,3006338,Orientia tsutsugamushi Ab [Titer] in Serum,8360,0,No matching concept,9953,,,,,,,
+WKUH,3010340,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,8198,8817,nanogram per deciliter,18293,0.1,80.0,101,118,138.2,169,1606
+WKUH,3005356,Cytomegalovirus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,8131,0,No matching concept,8656,,,,,,,
+WKUH,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,8018,8842,nanogram per milliliter,19964,0.166,1.11,1.74,5.45,26.1,55.3,507.8
+WKUH,3031391,Hantavirus Ab [Presence] in Serum,8008,0,No matching concept,8991,,,,,,,
+WKUH,3049718,Homeostasis model assessment,7977,0,No matching concept,14159,,,,,,,
+WKUH,3016759,Leptospira sp Ab [Presence] in Serum,7948,0,No matching concept,8974,,,,,,,
+WKUH,3009944,Mycobacterium tuberculosis DNA [Presence] in Pleural fluid by NAA with probe detection,7936,0,No matching concept,13556,,,,,,,
+WKUH,42529200,Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,7816,0,No matching concept,19168,,,,,,,
+WKUH,3015399,Transferrin receptor.soluble [Mass/volume] in Serum or Plasma,7532,8840,milligram per deciliter,10074,0,0.16,0.23,0.35,0.65,1.2,78196
+WKUH,3009041,Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay,7516,0,No matching concept,8978,,,,,,,
+WKUH,3012336,Haptoglobin [Mass/volume] in Serum or Plasma,7474,8840,milligram per deciliter,11309,0,5,16,89,173,267,429812
+WKUH,3015401,Amylase [Enzymatic activity/volume] in Pleural fluid,7448,8923,international unit per liter,12264,-31,10.0,16,25,39,64,102000.0
+WKUH,3026395,Mycoplasma pneumoniae Ab [Titer] in Serum,7287,0,No matching concept,9871,,,,,,,
+WKUH,3015813,Cardiolipin IgM Ab [Units/volume] in Serum by Immunoassay,7236,0,No matching concept,8216,,,,,,,
+WKUH,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,7159,0,No matching concept,10736,,,,,,,
+WKUH,3016914,Bacteria identified in Cerebral spinal fluid by Culture,7156,0,No matching concept,10484,,,,,,,
+WKUH,3033526,Urate [Mass/volume] in Urine,7105,8840,milligram per deciliter,8922,-0.2,8.5,15.8,29,49.9,79.4,224.5
+WKUH,3039842,Ornithine [Presence] in Blood,7095,0,No matching concept,28363,,,,,,,
+WKUH,43533726,Multiple carboxylase deficiency (MCD) newborn screen interpretation,7077,0,No matching concept,7086,,,,,,,
+WKUH,44786941,Short-chain acyl-CoA dehydrogenase deficiency newborn screen interpretation,7077,0,No matching concept,7086,,,,,,,
+WKUH,3033874,Glutamate [Presence] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3003388,Carnitine [Presence] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3042660,Argininosuccinate [Presence] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3045821,Arginine [Presence] in DBS,7077,0,No matching concept,7086,,,,,,,
+WKUH,40757432,Homocysteine [Moles/volume] in DBS,7077,0,No matching concept,7086,,,,,,,
+WKUH,3023211,Isovalerylcarnitine+Methylbutyrylcarnitine (C5) [Moles/volume] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3034087,Citrulline [Presence] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3041574,Valine [Presence] in Blood,7077,0,No matching concept,7086,,,,,,,
+WKUH,44786937,Isovaleric acidemia newborn screen interpretation,7077,0,No matching concept,7086,,,,,,,
+WKUH,3033602,Tyrosine [Presence] in Blood,7077,0,No matching concept,28344,,,,,,,
+WKUH,3051633,Fatty acid oxidation defects newborn screen interpretation,7077,0,No matching concept,7086,,,,,,,
+WKUH,44786939,3-Methylcrotonyl-CoA carboxylase deficiency newborn screen interpretation,7077,0,No matching concept,7086,,,,,,,
+WKUH,3016596,Glycine [Presence] in Serum or Plasma,7077,0,No matching concept,14172,,,,,,,
+WKUH,3020980,Lysine [Presence] in Serum or Plasma,7077,0,No matching concept,7086,,,,,,,
+WKUH,3006661,Calcium [Mass/volume] in Urine,7067,8840,milligram per deciliter,9227,-0.2,0.8,1.78,3.9,8.53,16.1,73.4
+WKUH,3046425,Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood,6998,8763,unit per milliliter,9366,,,,,,,
+WKUH,3031354,Microscopic observation [Identifier] in Cerebral spinal fluid by Cyto stain,6911,0,No matching concept,9298,,,,,,,
+WKUH,3012625,Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,6810,0,No matching concept,18831,,,,,,,
+WKUH,1176187,Microscopic observation [Identifier] in Bile fluid by Gram stain,6803,0,No matching concept,19759,,,,,,,
+WKUH,3039448,Bacteria identified in Bile fluid by Culture,6797,0,No matching concept,19653,,,,,,,
+WKUH,3025450,Polymorphonuclear cells/100 leukocytes in Body fluid,6754,8554,percent,18308,0,60.0,70.0,80.0,90.0,90.0,902
+WKUH,3022174,Leukocytes [#/volume] in Body fluid,6754,0,No matching concept,18308,,,,,,,
+WKUH,3010910,Erythrocytes [#/volume] in Body fluid,6754,0,No matching concept,18309,,,,,,,
+WKUH,3033861,Mononuclear cells/100 leukocytes in Body fluid,6696,8554,percent,18197,0,10.0,10.0,20.0,30.0,40.0,95
+WKUH,3034207,Triglyceride [Mass/volume] in Pleural fluid,6598,8840,milligram per deciliter,10746,0,4,7,15,28.3,48,1974
+WKUH,3021322,Cryoglobulin [Presence] in Serum,6574,0,No matching concept,6902,,,,,,,
+WKUH,3011564,Rubella virus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,6491,8985,international unit per milliliter,7250,0,7,16.1,37,75,144,12111080052
+WKUH,3026692,Albumin [Mass/volume] in Peritoneal fluid,6376,8713,gram per deciliter,11483,0,0.3,0.6,1.1,1.8,2.4,88.92
+WKUH,3007687,Calcium [Mass/time] in 24 hour Urine,6308,8909,milligram per 24 hours,15331,-6.7,3.2,17.55,82.44,189.81,323.7,49261833.15
+WKUH,3009804,Carcinoembryonic Ag [Mass/volume] in Pleural fluid,6247,8842,nanogram per milliliter,9839,0,0.532,0.92,1.68,3.44,16.87,86220.0
+WKUH,3005715,Vancomycin [Mass/volume] in Serum or Plasma,6209,0,No matching concept,45953,,,,,,,
+WKUH,40771479,Cytokeratin 19 [Mass/volume] in Pleural fluid,6158,8842,nanogram per milliliter,9556,0.113,3.98,7.37,16.7,42.6,105.5,19934
+WKUH,40758731,Microscopic observation [Identifier] in Pleural fluid by Cyto stain,6087,0,No matching concept,11897,,,,,,,
+WKUH,36303793,Bacteria identified in Pleural fluid by Anaerobe culture,5935,0,No matching concept,10307,,,,,,,
+WKUH,3009678,Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay,5932,0,No matching concept,6230,,,,,,,
+WKUH,3021940,Eosinophils/100 leukocytes in Sputum,5862,8554,percent,6645,0,1,1,1,1,1,80.0
+WKUH,36305217,Fungus identified in Pleural fluid by Culture,5854,0,No matching concept,9835,,,,,,,
+WKUH,3020287,Protein C actual/normal in Platelet poor plasma by Coagulation assay,5821,8554,percent,6603,0,45,70.0,96,116,134.7,706
+WKUH,3041426,Ketones [Moles/volume] in Blood,5816,8749,micromole per liter,10027,6,43,87,301,1211,4431,18680.0
+WKUH,42529564,Testosterone [Mass/volume] in Serum or Plasma by Immunoassay,5755,8842,nanogram per milliliter,16852,0,0,0.07,0.336,3.27,4.89,123.6
+WKUH,3013566,Clostridioides difficile [Presence] in Stool by Organism specific culture,5709,0,No matching concept,7419,,,,,,,
+WKUH,3017457,Urea nitrogen [Mass/time] in 24 hour Urine,5467,0,No matching concept,6003,,,,,,,
+WKUH,3005643,Cytomegalovirus Ag [Presence] in Serum or Plasma by Immunoassay,5456,0,No matching concept,8233,,,,,,,
+WKUH,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,5445,0,No matching concept,13786,,,,,,,
+WKUH,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,5412,0,No matching concept,12411,,,,,,,
+WKUH,3025037,Bacteria identified in Peritoneal fluid by Culture,5412,0,No matching concept,13638,,,,,,,
+WKUH,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,5399,9550,milli-international unit per milliliter,11765,0.09,0.926,20.97,613.5,5831,31944,968230.0
+WKUH,3033364,Cholesterol [Mass/volume] in Pleural fluid,5300,8840,milligram per deciliter,8330,1,14,20.0,35,64,91,785
+WKUH,3008838,Polymorphonuclear cells/100 leukocytes in Peritoneal fluid,5273,8554,percent,11272,0,5,10.0,25.4,76.5,90.0,7030.0
+WKUH,3009613,Erythrocytes [#/volume] in Peritoneal fluid,5273,0,No matching concept,11273,,,,,,,
+WKUH,3023487,Leukocytes [#/volume] in Peritoneal fluid,5273,0,No matching concept,11273,,,,,,,
+WKUH,3023037,pH of Peritoneal fluid,5273,0,No matching concept,11273,,,,,,,
+WKUH,3022764,Mononuclear cells/100 leukocytes in Peritoneal fluid,5273,8554,percent,11272,0,10.0,20.0,70.0,90.0,93.6,9590.0
+WKUH,3044620,Acarboxyprothrombin [Mass/volume] in Serum or Plasma,5122,44777561,arbitrary unit per liter,21400,5,11,13,17,26,81,549480.0
+WKUH,3022543,Methylhippurate/Creatinine [Mass Ratio] in Urine,4958,0,No matching concept,18802,,,,,,,
+WKUH,3015823,Fibrin D-dimer [Presence] in Platelet poor plasma,4859,0,No matching concept,9669,,,,,,,
+WKUH,3051267,pH of Bile fluid,4776,0,No matching concept,14453,,,,,,,
+WKUH,3027160,Cancer Ag 125 [Units/volume] in Pleural fluid,4732,8985,international unit per milliliter,7236,1.01,186.4,458,1111.9,1858,2799.6,391312
+WKUH,3026849,Neisseria meningitidis serogroup B+Escherichia coli K1 Ag [Presence] in Cerebral spinal fluid,4693,0,No matching concept,5807,,,,,,,
+WKUH,3018157,Haemophilus influenzae B Ag [Presence] in Cerebral spinal fluid,4693,0,No matching concept,5807,,,,,,,
+WKUH,3011359,Neisseria meningitidis serogroup w135 Ag [Presence] in Cerebral spinal fluid,4693,0,No matching concept,5807,,,,,,,
+WKUH,3018642,Streptococcus agalactiae Ag [Presence] in Cerebral spinal fluid,4693,0,No matching concept,5807,,,,,,,
+WKUH,3014286,Streptococcus pneumoniae Ag [Presence] in Cerebral spinal fluid,4693,0,No matching concept,5807,,,,,,,
+WKUH,3039312,Plateletcrit [Volume Fraction] in Blood,4581,8554,percent,7137,0,0.14,0.18,0.21,0.26,0.3,0.76
+WKUH,3010475,Direct antiglobulin test.complement specific reagent [Presence] on Red Blood Cells,4540,0,No matching concept,5165,,,,,,,
+WKUH,3010231,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,4540,0,No matching concept,5165,,,,,,,
+WKUH,3008007,Sodium [Mass/time] in 24 hour Urine,4524,0,No matching concept,4957,,,,,,,
+WKUH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,4514,8985,international unit per milliliter,6711,6.03,8.72,12.13,26.75,124,338,5410.0
+WKUH,3016201,Valproate [Mass/volume] in Serum or Plasma,4501,0,No matching concept,18586,,,,,,,
+WKUH,3002022,Protein C Ag actual/normal in Platelet poor plasma by Immunoassay,4490,8554,percent,4945,6.3,64.8,78.8,94.1,110.0,124.4,198.7
+WKUH,3037201,Protein S Ag actual/normal in Platelet poor plasma by Immunoassay,4428,8554,percent,4865,1.3,51.4,69.3,85,99.4,116.8,200.0
+WKUH,3001426,Microscopic observation [Identifier] in Stool by Gram stain,4390,0,No matching concept,5802,,,,,,,
+WKUH,3008691,Amylase [Enzymatic activity/volume] in Peritoneal fluid,4217,8923,international unit per liter,10084,0,9,17,35,191,3216.8,632500.0
+WKUH,3019738,Magnesium [Mass/volume] in Urine,4204,8840,milligram per deciliter,4927,0,1.7,2.9,4.7,7.6,12,82.8
+WKUH,3039355,Methicillin resistant Staphylococcus aureus [Presence] in Nose by Organism specific culture,4154,0,No matching concept,10866,,,,,,,
+WKUH,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,4142,0,No matching concept,26753,,,,,,,
+WKUH,40760528,Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,4106,0,No matching concept,13572,,,,,,,
+WKUH,3021835,Urate [Mass/time] in 24 hour Urine,4094,8909,milligram per 24 hours,4418,0.1,171.35,330.0,486.4,648,828.2,182310886.8
+WKUH,3044417,C reactive protein [Mass/volume] in Cerebral spinal fluid,3930,8751,milligram per liter,5228,0,0.01,0.09,0.2,0.58,3.3,102.01
+WKUH,3052649,Adenosine deaminase [Enzymatic activity/volume] in Serum or Plasma,3907,8645,unit per liter,4354,0.1,10.0,15,25.1,45.6,76.6,468.7
+WKUH,3020629,Protein S Free Ag actual/normal in Platelet poor plasma by Immunoassay,3873,8554,percent,4236,0.151,49.3,63,78.5,95.6,113,221
+WKUH,3019965,Metanephrine [Mass/time] in 24 hour Urine,3731,8909,milligram per 24 hours,4163,0.007,0.141,0.221,0.334,0.494,0.752,99
+WKUH,3032077,Neutrophil cytoplasmic Ab [Presence] in Serum by Immunofluorescence,3729,0,No matching concept,3936,,,,,,,
+WKUH,3030446,Lutropin [Units/volume] in Serum or Plasma --2nd specimen,3684,9550,milli-international unit per milliliter,4972,0.117,2.04,3.13,5.15,10.3,22.02,181.3
+WKUH,3029359,Follitropin [Units/volume] in Serum or Plasma --2nd specimen,3682,9550,milli-international unit per milliliter,4970,0.229,5.21,7.08,9.54,12.48,15.7,156.2
+WKUH,3036182,Leukocytes [#/volume] in Gastric fluid,3681,0,No matching concept,5372,,,,,,,
+WKUH,3019139,Erythrocytes [#/volume] in Gastric fluid,3681,0,No matching concept,5372,,,,,,,
+WKUH,3029975,Lutropin [Units/volume] in Serum or Plasma --3rd specimen,3678,9550,milli-international unit per milliliter,4950,0.115,2.26,3.38,5.4,10.23,21.39,191.5
+WKUH,3030705,Follitropin [Units/volume] in Serum or Plasma --3rd specimen,3676,9550,milli-international unit per milliliter,4948,0.317,6.27,8.48,11.34,14.65,18.39,162
+WKUH,3030475,Lutropin [Units/volume] in Serum or Plasma --4th specimen,3676,9550,milli-international unit per milliliter,4952,0.118,2.25,3.32,5.15,9.47,19.24,177
+WKUH,3029999,Follitropin [Units/volume] in Serum or Plasma --4th specimen,3675,9550,milli-international unit per milliliter,4951,0.477,6.9,9.28,12.22,15.75,19.7,167.1
+WKUH,3040170,Potassium [Mass/time] in 24 hour Urine,3672,0,No matching concept,4006,,,,,,,
+WKUH,3021641,Microscopic observation [Identifier] in Cerebral spinal fluid by India ink prep,3614,0,No matching concept,4523,,,,,,,
+WKUH,3009682,Cortisol [Mass/volume] in Serum or Plasma,3562,8837,microgram per deciliter,7569,0.02,4.6,7.2,10.7,15.7,23.3,307
+WKUH,3044495,Bacteria identified in Tissue by Culture,3559,0,No matching concept,5207,,,,,,,
+WKUH,36305203,Microscopic observation [Identifier] in Blood by Gram stain,3549,0,No matching concept,6130,,,,,,,
+WKUH,3029641,Lutropin [Units/volume] in Serum or Plasma --5th specimen,3508,9550,milli-international unit per milliliter,4265,0.12,2.05,3.01,4.66,8.28,15.6,184.6
+WKUH,40770975,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid by Lactate to pyruvate reaction,3507,8923,international unit per liter,6080,0,35,62,119,264,720.0,171800.0
+WKUH,3029896,Follitropin [Units/volume] in Serum or Plasma --5th specimen,3507,9550,milli-international unit per milliliter,4264,0.133,7.53,10.1,13.03,16.56,20.47,51.15
+WKUH,3025591,Vanillylmandelate [Mass/time] in 24 hour Urine,3500,0,No matching concept,3909,,,,,,,
+WKUH,3005932,Smooth muscle Ab [Presence] in Serum,3497,0,No matching concept,3724,,,,,,,
+WKUH,3045996,Lipase [Enzymatic activity/volume] in Peritoneal fluid,3492,8923,international unit per liter,8893,-2.3,7,16,46,421,6710.0,1328000000.0
+WKUH,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,3488,8842,nanogram per milliliter,5068,0.01,0.081,0.145,0.261,0.456,0.724,1762
+WKUH,3019385,Microscopic observation [Identifier] in Ear by Gram stain,3487,0,No matching concept,5205,,,,,,,
+WKUH,3007234,Bacteria identified in Ear by Aerobe culture,3486,0,No matching concept,5203,,,,,,,
+WKUH,3011692,Calculus analysis [Interpretation] in Stone,3475,0,No matching concept,4163,,,,,,,
+WKUH,3002331,Protein [Mass/volume] in Peritoneal fluid,3468,8713,gram per deciliter,6376,0,0.58,0.9,1.6,2.8,4.2,25.8
+WKUH,3025518,Hippurate/Creatinine [Mass Ratio] in Urine,3463,0,No matching concept,11048,,,,,,,
+WKUH,3002240,Glucose [Mass/volume] in Peritoneal fluid,3458,8840,milligram per deciliter,5972,0,69,103,127,163,232.8,6269
+WKUH,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,3431,8842,nanogram per milliliter,8123,0.01,0.35,0.59,0.96,1.65,4.4,167.79
+WKUH,3018517,Mitochondria Ab [Presence] in Serum,3277,0,No matching concept,3508,,,,,,,
+WKUH,3011565,Microscopic observation [Identifier] in Tissue by Gram stain,3250,0,No matching concept,4672,,,,,,,
+WKUH,3002389,Microscopic observation [Identifier] in Synovial fluid by Gram stain,3209,0,No matching concept,5026,,,,,,,
+WKUH,3006761,Bacteria identified in Synovial fluid by Culture,3179,0,No matching concept,4925,,,,,,,
+WKUH,40771500,Respiratory syncytial virus Ag [Presence] in Nasopharynx by Immunoassay,3176,0,No matching concept,3702,,,,,,,
+WKUH,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,3153,0,No matching concept,5430,,,,,,,
+WKUH,3002666,Glucose [Mass/volume] in Serum or Plasma --baseline,3091,8840,milligram per deciliter,3265,49.2,92.3,101,113,131,159,423
+WKUH,3026300,Glucose [Mass/volume] in Serum or Plasma --2 hours post dose glucose,3090,8840,milligram per deciliter,3257,32,108,137,193,264,341,655
+WKUH,3034552,Adenosine deaminase [Enzymatic activity/volume] in Cerebral spinal fluid,3046,8645,unit per liter,3383,-0.3,0.3,0.6,1.4,3,5.1,243
+WKUH,3000475,Leukocytes [#/volume] in Synovial fluid,3015,0,No matching concept,4661,,,,,,,
+WKUH,3006571,Polymorphonuclear cells/100 leukocytes in Synovial fluid,3015,8554,percent,4661,0,20.0,60.0,80.0,90.0,90.0,8000.0
+WKUH,3010144,Erythrocytes [#/volume] in Synovial fluid,3015,0,No matching concept,4660,,,,,,,
+WKUH,3012215,Mononuclear cells/100 leukocytes in Synovial fluid,3015,8554,percent,4661,0,10.0,10.0,20.0,40.0,80.0,100.0
+WKUH,3040554,Leukocytes [#/area] in Urethra by Wet preparation,2998,8786,per high power field,8958,0,0,0,0,0,1,5
+WKUH,3012220,Varicella zoster virus IgM Ab [Presence] in Serum by Immunoassay,2918,0,No matching concept,3032,,,,,,,
+WKUH,3028639,carBAMazepine [Mass/volume] in Serum or Plasma,2902,0,No matching concept,9258,,,,,,,
+WKUH,3037533,von Willebrand factor (vWf) ristocetin cofactor actual/normal in Platelet poor plasma by Platelet aggregation,2856,8554,percent,3376,7,63.9,84.7,107,130.0,154,1874.4
+WKUH,3027346,Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,2793,8799,copies per milliliter,9087,0,58,132,324,578,814,998
+WKUH,3011004,Bilirubin.total [Mass/volume] in Peritoneal fluid,2776,8840,milligram per deciliter,5531,-0.8,0.17,0.33,0.72,1.81,4.9,196.5
+WKUH,3007256,Osmolality of Stool,2760,0,No matching concept,3142,,,,,,,
+WKUH,3036779,HLA-B27 [Presence] by NAA with probe detection,2753,0,No matching concept,2880,,,,,,,
+WKUH,3004789,Transferrin [Mass/volume] in Serum or Plasma,2750,8840,milligram per deciliter,3173,10.0,117,155,208.7,277,332,430675
+WKUH,3012636,Phosphate [Mass/time] in 24 hour Urine,2745,0,No matching concept,2969,,,,,,,
+WKUH,3038371,Herpes simplex virus IgG Ab [Presence] in Serum by Immunoassay,2741,0,No matching concept,2891,,,,,,,
+WKUH,3004313,Fibronectin [Mass/volume] in Plasma,2656,8751,milligram per liter,4766,5.1,20.7,27.4,36.6,49.4,70.5,846209
+WKUH,36303545,Bacteria identified in Cerebral spinal fluid by Anaerobe culture,2649,0,No matching concept,4246,,,,,,,
+WKUH,3009731,Liver kidney microsomal Ab [Presence] in Serum,2647,0,No matching concept,2785,,,,,,,
+WKUH,3001467,Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma,2623,8923,international unit per liter,3117,1.6,7.2,8.9,11.6,15.4,21.2,3054288
+WKUH,3021876,Lymphocytes/100 cells in Bone marrow by Manual count,2604,8554,percent,4020,0,10.0,18.2,30.1,45.4,64.3,100.0
+WKUH,40758902,Hematocrit [Volume Fraction] of Bone marrow,2604,8554,percent,4020,8.4,21.6,25,29.5,35.1,40.2,65.4
+WKUH,42528762,Erythrocytes [#/volume] in Bone marrow by Automated count,2604,0,No matching concept,4020,,,,,,,
+WKUH,3023570,Neutrophils/100 cells in Bone marrow by Manual count,2604,8554,percent,4020,0,15.5,35.7,52.8,65.9,76.2,96.6
+WKUH,42528761,Leukocytes [#/volume] in Bone marrow by Automated count,2603,0,No matching concept,4019,,,,,,,
+WKUH,3009923,Basophils/100 cells in Bone marrow by Manual count,2603,8554,percent,4018,0,0,0.1,0.4,0.8,1.8,38.2
+WKUH,3011429,Monocytes/100 cells in Bone marrow by Manual count,2603,8554,percent,4018,0,2.3,5,8,12.1,19.1,85.2
+WKUH,3018705,Eosinophils/100 cells in Bone marrow,2603,8554,percent,4018,0,0,0.4,1.3,3.1,5.9,88.7
+WKUH,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,2581,0,No matching concept,10485,,,,,,,
+WKUH,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,2553,8842,nanogram per milliliter,3597,0.076,6.32,8.83,12.45,17.77,24.99,293.1
+WKUH,3036669,Protein S actual/normal in Platelet poor plasma by Coagulation assay,2541,8554,percent,2944,1,26,40.0,58,76,95,296252
+WKUH,3011335,Digoxin [Mass/volume] in Serum or Plasma,2540,8842,nanogram per milliliter,5615,0,0.38,0.59,0.914,1.37,1.98,142
+WKUH,3002996,Fungus identified in Cerebral spinal fluid by Culture,2533,0,No matching concept,3912,,,,,,,
+WKUH,3034860,Kappa light chains.free [Mass/volume] in Serum,2529,8751,milligram per liter,5768,0.18,13.02,20.74,40.26,98.3,277.1,37876
+WKUH,3053209,Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum,2506,0,No matching concept,5586,,,,,,,
+WKUH,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,2506,8751,milligram per liter,5586,0.93,10.43,15.4,25.97,53.84,120.96,37807
+WKUH,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),2503,8985,international unit per milliliter,729,2,6,9,29,234,382,600.0
+WKUH,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),2503,0,No matching concept,4789,,,,,,,
+WKUH,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,2383,8763,unit per milliliter,6011,3.1,8,10.7,16,26.4,71.1,816.7
+WKUH,3008652,Hepatitis B virus DNA [Mass/volume] (viral load) in Serum by Probe,2369,8845,picogram per milliliter,5372,0.002,0.09,0.8,13.4,374,1979,10560.0
+WKUH,3039354,Thyroxine (T4) free [Mass/volume] in DBS,2348,8817,nanogram per deciliter,2350,0.5,1.4,1.9,2.4,2.9,3.6,6
+WKUH,40771461,dRVVT W excess phospholipid actual/normal (normalized LA confirm),2341,0,No matching concept,2511,,,,,,,
+WKUH,3008914,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3008025,Ribonucleoprotein extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3023428,Smith extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3014825,Centromere Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3014568,SCL-70 extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3018333,Ribosomal P Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3015154,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,3013023,Jo-1 extractable nuclear Ab [Presence] in Serum,2321,0,No matching concept,2664,,,,,,,
+WKUH,40758729,Microscopic observation [Identifier] in Peritoneal fluid by Cyto stain,2310,0,No matching concept,4291,,,,,,,
+WKUH,3037167,Microscopic observation [Identifier] in Unspecified specimen by Gram stain,2293,0,No matching concept,3186,,,,,,,
+WKUH,3002619,Bacteria identified in Unspecified specimen by Culture,2282,0,No matching concept,3172,,,,,,,
+WKUH,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,2239,0,No matching concept,3446,,,,,,,
+WKUH,3007822,Protein Fractions [Interpretation] in Urine by Electrophoresis,2239,0,No matching concept,3515,,,,,,,
+WKUH,3033252,Adenosine deaminase [Enzymatic activity/volume] in Peritoneal fluid,2204,8645,unit per liter,4123,-5.7,2.4,4.4,7.6,12.8,23.5,779
+WKUH,3022616,Phenytoin [Mass/volume] in Serum or Plasma,2203,0,No matching concept,6114,,,,,,,
+WKUH,3043425,Karyotype [Identifier] in Bone marrow Nominal,2134,0,No matching concept,3031,,,,,,,
+WKUH,3029681,Lutropin [Units/volume] in Serum or Plasma --1st specimen,2050,9550,milli-international unit per milliliter,2756,0.1,1.33,2.19,4.12,9.26,20.4,182.7
+WKUH,3031028,Follitropin [Units/volume] in Serum or Plasma --1st specimen,2047,9550,milli-international unit per milliliter,2753,0.306,3.62,4.89,6.6,8.77,11.59,127.8
+WKUH,3010300,Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,2040,8840,milligram per deciliter,2111,60.0,138,175.2,228,280.0,333,657
+WKUH,3048285,Microscopic observation [Identifier] in Genital specimen by Gram stain,2002,0,No matching concept,2249,,,,,,,
+WKUH,3016437,Bacteria identified in Aspirate by Anaerobe culture,1983,0,No matching concept,4428,,,,,,,
+WKUH,3017044,Thyrotropin receptor Ab [Units/volume] in Serum,1977,0,No matching concept,4643,,,,,,,
+WKUH,3001978,Glucose [Mass/volume] in Synovial fluid,1961,8840,milligram per deciliter,2280,0,32,74,108,157,252,544.4
+WKUH,3016072,Theophylline [Mass/volume] in Serum or Plasma,1935,0,No matching concept,4671,,,,,,,
+WKUH,3026123,Microscopic observation [Identifier] in Stool by Acid fast stain,1815,0,No matching concept,2360,,,,,,,
+WKUH,3027791,Respiratory syncytial virus Ag [Presence] in Nose by Immunofluorescence,1792,0,No matching concept,2111,,,,,,,
+WKUH,3011925,Deoxypyridinoline/Creatinine [Molar ratio] in Urine,1783,0,No matching concept,1917,,,,,,,
+WKUH,3021200,Thyroglobulin Ab [Units/volume] in Serum by Radioimmunoassay (RIA),1777,8763,unit per milliliter,3729,0.1,0.1,0.4,4.5,16.6,53.4,133.4
+WKUH,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,1688,0,No matching concept,12363,,,,,,,
+WKUH,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,1674,8985,international unit per milliliter,5496,0,2,10.0,71,296,516,164000.0
+WKUH,3008733,Herpes simplex virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,1638,0,No matching concept,2056,,,,,,,
+WKUH,3002433,Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection,1619,0,No matching concept,2024,,,,,,,
+WKUH,3034212,Protein Fractions [Interpretation] in Urine by Immunofixation,1611,0,No matching concept,2604,,,,,,,
+WKUH,3025411,PHENobarbital [Mass/volume] in Serum or Plasma,1588,0,No matching concept,3696,,,,,,,
+WKUH,3008065,pH of Synovial fluid,1576,0,No matching concept,2416,,,,,,,
+WKUH,3024850,Microscopic observation [Identifier] in Urine by Acid fast stain,1415,0,No matching concept,4100,,,,,,,
+WKUH,3011724,Hepatitis B virus e Ag [Presence] in Serum by Radioimmunoassay (RIA),1350,0,No matching concept,2764,,,,,,,
+WKUH,3012570,Epstein Barr virus DNA [Presence] in Blood by NAA with probe detection,1328,0,No matching concept,1492,,,,,,,
+WKUH,3013945,Hepatitis B virus e Ab [Presence] in Serum,1306,0,No matching concept,2668,,,,,,,
+WKUH,3005013,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,1297,8842,nanogram per milliliter,3409,0.01,0.05,0.18,0.38,0.87,2.41,30.5
+WKUH,40766283,Hepatitis B virus surface Ag [Units/volume] in Serum or Plasma by Immunoassay,1291,8985,international unit per milliliter,4807,20.15,228.5,719.1,2050.0,5111,11145,137350.0
+WKUH,3032846,Bacteria [Presence] in Peritoneal fluid by Light microscopy,1290,0,No matching concept,2295,,,,,,,
+WKUH,3025696,Lithium [Mass/volume] in Serum or Plasma,1260,9557,milliequivalent per liter,9254,0.01,0.32,0.53,0.74,0.93,1.12,402126055
+WKUH,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1201,0,No matching concept,2291,,,,,,,
+WKUH,3042811,Magnesium Ionized [Mass/volume] in Serum or Plasma,1178,8840,milligram per deciliter,4915,0.69,1.12,1.24,1.42,1.66,2.18,5.45
+WKUH,3021884,Cytomegalovirus DNA [Presence] in Blood by NAA with probe detection,1178,0,No matching concept,3088,,,,,,,
+WKUH,3007327,Amylase [Enzymatic activity/volume] in Cerebral spinal fluid,1124,8923,international unit per liter,1985,0,0.5,1,2,4,9.2,71230.0
+WKUH,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,1088,0,No matching concept,12,,,,,,,
+WKUH,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,1088,8554,percent,1241,,,,,,,
+WKUH,3001355,Fungus identified in Sputum by Culture,1013,0,No matching concept,2148,,,,,,,
+WKUH,3026925,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma,983,0,No matching concept,2203,,,,,,,
+WKUH,3002069,Alkaline phosphatase.bone/Alkaline phosphatase.total in Serum or Plasma,983,8554,percent,1121,0,17.1,27.8,43.5,70.4,89.6,100.0
+WKUH,3044171,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine by Immunoassay,729,0,No matching concept,861,,,,,,,
+WKUH,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,674,8842,nanogram per milliliter,3741,0.1,0.5,0.7,0.9,1.3,3,67
+WKUH,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,674,0,No matching concept,768,,,,,,,
+WKUH,3033745,Troponin I.cardiac [Mass/volume] in Blood,593,8842,nanogram per milliliter,892,0,0.152,1.37,5.22,23.5,52.1,145
+WKUH,3015081,Mycobacterium tuberculosis DNA [Presence] in Blood by NAA with probe detection,501,0,No matching concept,546,,,,,,,
+WKUH,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,323,0,No matching concept,665,,,,,,,
+WKUH,3009224,EGFR gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,293,0,No matching concept,576,,,,,,,
+WKUH,40760950,Erythrocytes [#/volume] in Dialysis fluid by Automated count,284,0,No matching concept,2467,,,,,,,
+WKUH,3051232,Leukocytes [#/volume] in Dialysis fluid,284,0,No matching concept,2467,,,,,,,
+WKUH,40761896,Mononuclear cells/100 leukocytes in Peritoneal dialysis fluid,284,8554,percent,2467,0,10.0,10.0,30.0,72.8,90.0,100.0
+WKUH,40761895,Polymorphonuclear cells/100 leukocytes in Peritoneal dialysis fluid,284,8554,percent,2467,0,10.0,20.0,68.7,80.0,90.0,99
+WKUH,3039180,pH of Dialysis fluid,250,0,No matching concept,2270,,,,,,,
+WKUH,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,221,0,No matching concept,427,,,,,,,
+WKUH,3046310,Tacrolimus [Mass/volume] in Serum or Plasma,200,8842,nanogram per milliliter,12530,0,2,3.3,5.4,7.9,10.9,69.3
+WKUH,3023709,Somatotropin [Mass/volume] in Serum or Plasma,62,0,No matching concept,134,,,,,,,
+WKUH,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,23,8554,percent,28,,,,,,,
+WKUH,3022338,Retinol [Mass/volume] in Serum or Plasma,23,0,No matching concept,24,,,,,,,
+WKUH,3036475,Plasminogen activator inhibitor 1 Ag [Mass/volume] in Platelet poor plasma by Immunoassay,14,8842,nanogram per milliliter,14,21,29.6,35.5,44.2,78.7,169.3,200.0
+WKUH,3027206,Corticotropin [Mass/volume] in Plasma by Radioimmunoassay (RIA),9,8845,picogram per milliliter,9,19.9,19.9,39.8,62.1,71.2,159.6,159.6
+WKUH,3010375,cycloSPORINE [Mass/volume] in Blood,8,0,No matching concept,13,,,,,,,
+WKUH,3005577,Microalbumin [Mass/time] in 24 hour Urine,7,0,No matching concept,7,,,,,,,
+WKUH,3023323,Follitropin [Units/volume] in Serum or Plasma,7,0,No matching concept,14,,,,,,,

@@ -1,0 +1,964 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+EUMC,3016723,Creatinine [Mass/volume] in Serum or Plasma,922662,0,No matching concept,10828,0.16,0.58,0.67,0.78,0.92,1.08,14.38
+EUMC,3016723,Creatinine [Mass/volume] in Serum or Plasma,922662,8840,milligram per deciliter,42340695,0,0.6,0.7,0.9,1.1,1.81,132.96
+EUMC,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,921573,8923,international unit per liter,41684679,0,16,19,25,38,71,77000.0
+EUMC,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,921554,8923,international unit per liter,41693082,-6,10.0,14,21,35,68,55555555
+EUMC,3009542,Hematocrit [Volume Fraction] of Blood,914617,8554,percent,12719637,0,25.9,30.2,35.6,39.9,43.6,999
+EUMC,3007461,Platelets [#/volume] in Blood,913987,0,No matching concept,9299820,0,100.0,165,221,278,344,5000.0
+EUMC,3007461,Platelets [#/volume] in Blood,913987,8848,thousand per microliter,31385,1,99,164,224,285,362,1403
+EUMC,3010813,Leukocytes [#/volume] in Blood,913973,0,No matching concept,9263943,-7,3.85,5.07,6.66,9.08,12.72,20102315791
+EUMC,3010813,Leukocytes [#/volume] in Blood,913973,8848,thousand per microliter,31396,0.02,3.72,5.12,6.88,9.5,13.5,789
+EUMC,3026361,Erythrocytes [#/volume] in Blood,913944,0,No matching concept,9245826,0,2.7,3.23,3.96,4.48,4.89,80000.0
+EUMC,3002030,Lymphocytes/100 leukocytes in Blood,910164,8554,percent,12724751,0,7.9,14.9,26.1,36.4,45.4,999
+EUMC,3019069,Monocytes/100 leukocytes in Blood,910113,8554,percent,12703289,0,4.1,5.7,7.3,9.4,12.3,999
+EUMC,3018010,Neutrophils/100 leukocytes in Blood,909616,8554,percent,12712327,0,41.4,51.2,61.8,74.3,84.2,999
+EUMC,3006504,Eosinophils/100 leukocytes in Blood,909137,8554,percent,12498569,0,0.1,0.7,1.8,3.3,5.6,999
+EUMC,3004501,Glucose [Mass/volume] in Serum or Plasma,908393,8840,milligram per deciliter,31156380,0,83,92,105,132,174,7750.0
+EUMC,3001123,Platelet mean volume [Entitic volume] in Blood,907821,8583,femtoliter,12511159,0,8.6,9.2,9.8,10.5,11.2,98.4
+EUMC,3022096,Basophils/100 leukocytes in Blood,907525,8554,percent,12337426,0,0.1,0.2,0.4,0.6,1,999
+EUMC,3003338,MCHC [Mass/volume],906855,8713,gram per deciliter,12495283,0,32.4,33.1,33.9,34.6,35.3,999
+EUMC,3035941,MCH [Entitic mass],906855,8564,picogram,12495301,0,27.7,29.3,30.5,31.7,32.9,999
+EUMC,3024731,MCV [Entitic volume],906855,8583,femtoliter,12495323,0,82.6,86.5,89.9,93.2,96.8,999
+EUMC,3002385,Erythrocyte distribution width [Ratio],906841,8554,percent,12492248,0,12.2,12.7,13.4,14.8,16.8,999
+EUMC,3002736,Platelet distribution width [Entitic volume] in Blood by Automated count,906099,8583,femtoliter,12468603,0,8.7,9.7,11,12.8,16.5,600.2
+EUMC,3039312,Plateletcrit [Volume Fraction] in Blood,905981,8554,percent,12468218,0,0.1,0.16,0.21,0.27,0.33,30.0
+EUMC,3025315,Body weight,893675,9529,kilogram,3763399,0,27,50.4,60.0,70.0,79.9,7135
+EUMC,3025315,Body weight,893675,0,No matching concept,1487689,,,,,,,
+EUMC,3004249,Systolic blood pressure,888713,8876,millimeter mercury column,27923450,0,100.0,110.0,124,140.0,153,300.0
+EUMC,3004249,Systolic blood pressure,888713,0,No matching concept,7545892,,,,,,,
+EUMC,3012888,Diastolic blood pressure,888678,8876,millimeter mercury column,27920466,0,57,64,72,81,90.0,272
+EUMC,3012888,Diastolic blood pressure,888678,0,No matching concept,7545162,,,,,,,
+EUMC,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,887614,8840,milligram per deciliter,41418610,-3,8,11,14,21,37,560.0
+EUMC,3020891,Body temperature,850916,586323,degree Celsius,19393991,0,36.2,36.5,36.8,37.2,37.5,84.7
+EUMC,3020891,Body temperature,850916,0,No matching concept,7160891,,,,,,,
+EUMC,3036277,Body height,839417,8582,centimeter,1559760,5,133.2,153,160.7,168,174,250.0
+EUMC,3036277,Body height,839417,0,No matching concept,1642364,,,,,,,
+EUMC,3005456,Potassium [Moles/volume] in Blood,812110,0,No matching concept,13595,0,2.48,2.55,2.64,7.46,7.62,11
+EUMC,3005456,Potassium [Moles/volume] in Blood,812110,8753,millimole per liter,2835545,0,3.4,3.8,4.1,4.5,4.9,115
+EUMC,3005456,Potassium [Moles/volume] in Blood,812110,9557,milliequivalent per liter,36155700,0,3.4,3.8,4.1,4.4,4.8,67.4
+EUMC,3000285,Sodium [Moles/volume] in Blood,812078,0,No matching concept,13595,0,112,114.1,117.9,156.5,157.8,291.6
+EUMC,3000285,Sodium [Moles/volume] in Blood,812078,8753,millimole per liter,2832122,0,133,136,139,141,143,1115
+EUMC,3000285,Sodium [Moles/volume] in Blood,812078,9557,milliequivalent per liter,36142794,0,134,137,140.0,142,144,224
+EUMC,3018572,Chloride [Moles/volume] in Blood,811412,0,No matching concept,13595,0,74.2,75.7,79.1,118.5,120.1,296.2
+EUMC,3018572,Chloride [Moles/volume] in Blood,811412,8753,millimole per liter,2829784,0,98,102,104,107,109,289.7
+EUMC,3018572,Chloride [Moles/volume] in Blood,811412,9557,milliequivalent per liter,35818650,0,97,101,104,106,109,187
+EUMC,40760845,Protein [Presence] in Urine by Automated test strip,787800,0,No matching concept,3812523,0,10.0,10.0,10.0,40.0,40.0,70.0
+EUMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",786808,8753,millimole per liter,4186736,0,18.4,21.4,24.4,27,30.0,120.0
+EUMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",786808,9557,milliequivalent per liter,35423586,-2,18,21,23,26,28,125
+EUMC,46236952,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",776605,0,No matching concept,18718740,0,34.2,58.4,75,89.4,105,518.7
+EUMC,46236952,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)",776605,9117,milliliter per minute per 1.73 square meter,3243449,0,40.0,67,87,107,131,177920.0
+EUMC,3024561,Albumin [Mass/volume] in Serum or Plasma,766842,8713,gram per deciliter,29809299,0,2.5,3,3.6,4.2,4.5,555555
+EUMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,766124,8840,milligram per deciliter,26677029,-1.4,0.3,0.45,0.7,1,2.1,105.2
+EUMC,3030260,Glucose [Presence] in Urine by Automated test strip,765837,0,No matching concept,3762273,0,10.0,10.0,10.0,40.0,40.0,60.0
+EUMC,3011397,Hemoglobin [Presence] in Urine by Test strip,765737,0,No matching concept,3762282,0,10.0,10.0,10.0,50.0,50.0,50.0
+EUMC,3020630,Protein [Mass/volume] in Serum or Plasma,763912,0,No matching concept,42,1,1,1,1,1,6.7,7.1
+EUMC,3020630,Protein [Mass/volume] in Serum or Plasma,763912,8713,gram per deciliter,27679348,0,5.1,5.8,6.5,7.1,7.4,19.2
+EUMC,3024171,Respiratory rate,763677,0,No matching concept,8273350,0,13,16,19,20.0,25,32769
+EUMC,3017732,Neutrophils [#/volume] in Blood,763542,0,No matching concept,5043381,0,1.85,2.73,4.05,6.49,10.32,18274056750.04
+EUMC,3000330,Specific gravity of Urine by Test strip,760026,0,No matching concept,3741627,0,1.009,1.013,1.018,1.024,1.031,1010.0
+EUMC,3035350,Ketones [Presence] in Urine by Test strip,759401,0,No matching concept,3687189,0,10.0,10.0,10.0,30.0,40.0,60.0
+EUMC,3018834,Bilirubin.total [Presence] in Urine by Test strip,759401,0,No matching concept,3687195,0,10.0,10.0,10.0,50.0,50.0,50.0
+EUMC,3000348,Leukocyte esterase [Presence] in Urine by Test strip,759401,0,No matching concept,3687189,0,10.0,10.0,10.0,50.0,50.0,5010.0
+EUMC,3037426,Urobilinogen [Presence] in Urine by Test strip,759401,0,No matching concept,3687198,0,10.0,20.0,20.0,40.0,50.0,101
+EUMC,3021601,Nitrite [Presence] in Urine by Test strip,759401,0,No matching concept,3687189,0,10.0,10.0,10.0,30.0,30.0,1010.0
+EUMC,3027114,Cholesterol [Mass/volume] in Serum or Plasma,758794,8840,milligram per deciliter,18839432,-2,106,136,167,196,224,1293
+EUMC,3022192,Triglyceride [Mass/volume] in Serum or Plasma,755930,8840,milligram per deciliter,18348269,0,48,67,98,147,216,999999
+EUMC,3011904,Phosphate [Mass/volume] in Serum or Plasma,754982,8840,milligram per deciliter,28474613,-1.5,2.4,3,3.5,4,4.7,32.1
+EUMC,3006906,Calcium [Mass/volume] in Serum or Plasma,752566,8840,milligram per deciliter,22461382,-4.6,7.7,8.1,8.6,9,9.4,730331
+EUMC,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,751442,8923,international unit per liter,25537749,-6,114,165,226,333,587,35580.0
+EUMC,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",671260,0,No matching concept,9469527,0,35,61,81,95,108,223
+EUMC,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",671260,9117,milliliter per minute per 1.73 square meter,3243449,0,41,70.0,91,105,121,938
+EUMC,3029925,Color of Urine by Auto,665425,0,No matching concept,2272395,0,0,7,44,912,1055,1055
+EUMC,3035355,Turbidity [Presence] of Urine Qualitative,661510,0,No matching concept,2272212,,,,,,,
+EUMC,3027018,Heart rate,650456,0,No matching concept,5951,0,62,70.0,80.0,93,110.0,32769
+EUMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,647304,8786,per high power field,1144274,0,0.8,1,1,1.2,251.6,1600.0
+EUMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,647304,0,No matching concept,2379438,,,,,,,
+EUMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,647241,8647,per microliter,1157884,0,1.8,3,5.6,23.5,125.4,88539.7
+EUMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,647241,8786,per high power field,1144070,0,0,0.8,1,12.8,80.9,80.9
+EUMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,647241,0,No matching concept,2379300,,,,,,,
+EUMC,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,647239,8786,per high power field,1144070,0,0,0.7,1,2.7,14.3,14.3
+EUMC,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,647239,0,No matching concept,2379495,,,,,,,
+EUMC,3020460,C reactive protein [Mass/volume] in Serum or Plasma,646894,8840,milligram per deciliter,15916009,0,0.04,0.1,0.65,3.98,10.63,555
+EUMC,3002582,Erythrocytes [#/volume] in Urine,615932,0,No matching concept,2062116,0,0.6,2.2,4,6,18.08,13145.5
+EUMC,3002582,Erythrocytes [#/volume] in Urine,615932,8647,per microliter,1157733,0,1.9,4,5.6,18.5,137.9,5136090.0
+EUMC,3022621,pH of Urine by Test strip,608895,0,No matching concept,1777263,0,5,5.5,6,7,7.5,705
+EUMC,36303442,Epithelial cells [#/volume] in Urine by Automated,588777,8647,per microliter,1146428,0,0,0.7,3.5,8.6,24.7,26319.3
+EUMC,36303442,Epithelial cells [#/volume] in Urine by Automated,588777,0,No matching concept,1759782,,,,,,,
+EUMC,3000963,Hemoglobin [Mass/volume] in Blood,557093,8713,gram per deciliter,3439574,0,8.3,9.9,12.1,13.7,14.9,999
+EUMC,3038553,Body mass index (BMI) [Ratio],552806,0,No matching concept,1427705,0,17.13,20.17,22.94,25.7,28.56,7400.0
+EUMC,3038553,Body mass index (BMI) [Ratio],552806,9531,kilogram per square meter,1239383,-30.1394140242273,15.625,19.1111111111111,22.2222222222222,25,27.7144154675793,187755102.040816
+EUMC,3022217,INR in Platelet poor plasma by Coagulation assay,545602,0,No matching concept,4935861,0.58,0.95,0.99,1.05,1.17,1.42,9999
+EUMC,3034426,Prothrombin time (PT),545327,8555,second,5919317,0,10.6,11.2,12.1,13.6,16.8,999999
+EUMC,3033658,Prothrombin time (PT) actual/Normal,545310,8554,percent,5911378,0,48.5,69.2,86.5,99,109,281.1
+EUMC,3018677,aPTT in Platelet poor plasma by Coagulation assay,530359,8555,second,5507871,0,22.8,24.7,26.9,30.2,37.5,6999999
+EUMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,510718,0,No matching concept,6278412,-0.4,0.2,0.3,0.3,0.37,0.42,10035
+EUMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,509251,0,No matching concept,6260958,3,13,25,57,149,318,500.0
+EUMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,509251,8923,international unit per liter,436842,0,2,2,46,251,975,100000.0
+EUMC,3027484,Hemoglobin [Mass/volume] in Blood by calculation,498898,8713,gram per deciliter,9490857,0,8.9,10.2,12,13.5,15,600.8
+EUMC,3017143,Hepatitis C virus Ab [Presence] in Serum,461457,0,No matching concept,5726688,0,0,0,0,0,0,412
+EUMC,3002529,ABO group [Type] in Blood,449517,0,No matching concept,2304744,,,,,,,
+EUMC,3003310,Rh [Type] in Blood,449498,0,No matching concept,2302863,,,,,,,
+EUMC,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,435884,8840,milligram per deciliter,15758931,-1.9,0.1,0.2,0.3,0.5,1.75,64.6
+EUMC,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,430712,8923,international unit per liter,15098906,0,13,18,32,74,194,150224.8
+EUMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,428980,0,No matching concept,6578355,0.01,0.2,0.91,1.73,2.97,4.94,624
+EUMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,428980,9093,micro-international unit per milliliter,335304,0,0.62,1.17,1.9,3.02,4.71,690.0
+EUMC,3037556,Urate [Mass/volume] in Serum or Plasma,418836,8840,milligram per deciliter,8391673,0,3.1,3.9,4.9,6.2,7.4,93
+EUMC,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,404321,8923,international unit per liter,10222923,0,149,172,217,328,532,86100.0
+EUMC,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,401841,8923,international unit per liter,9778317,-20.0,36,58,92,167,450.0,688300.0
+EUMC,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,391708,8840,milligram per deciliter,8622291,0,35,42,51,62,72,237
+EUMC,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,388777,8840,milligram per deciliter,8617301,0,64,82,105,129,152,11111
+EUMC,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,380761,8645,unit per liter,9906868,-5,36,48,64,85,128,937000.0
+EUMC,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,380761,8923,international unit per liter,344175,0,32,43,60.0,85,141,108700.0
+EUMC,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,373602,8554,percent,19282088,0,96,98,100.0,100.0,100.0,100201
+EUMC,3015183,Erythrocyte sedimentation rate,362283,8752,millimeter per hour,3101635,0,0,0,3,16,38,120.0
+EUMC,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,362041,8817,nanogram per deciliter,6267564,0,70.4,88,103.4,119,136.7,8412.6
+EUMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,344258,8817,nanogram per deciliter,5101878,0,0.99,1.14,1.3,1.5,1.8,111
+EUMC,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,325125,0,No matching concept,319,4.1,5.4,5.8,6.7,7.6,8.8,14.2
+EUMC,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,325125,8554,percent,1777831,0,5.3,5.6,6.3,7.2,8.4,19.9
+EUMC,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,313993,0,No matching concept,309057,21,35,40.0,49,60.0,74,132
+EUMC,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,313993,9579,millimole per mole,1266970,-24,33,36.6,41.4,51,63,203.2
+EUMC,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,313993,0,No matching concept,316,71,108,120.0,146,171,209,361
+EUMC,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,313993,8840,milligram per deciliter,1576027,-47,103.1,113,130.1,157,189,548.5
+EUMC,3010224,Large unstained cells/100 leukocytes in Blood,298443,8554,percent,2011500,0,1,1.4,1.8,2.4,3.3,89.1
+EUMC,3039417,Platelet distribution width [Ratio] in Blood,297847,8554,percent,1918910,0,37.9,40.7,44.6,49.3,54.4,95.4
+EUMC,3039417,Platelet distribution width [Ratio] in Blood,297847,0,No matching concept,101076,,,,,,,
+EUMC,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,292143,8842,nanogram per milliliter,6484320,0,0,0,0,1.6,4.1,11111
+EUMC,3001420,Magnesium [Mass/volume] in Serum or Plasma,277416,8840,milligram per deciliter,16469739,-0.2,1.8,2,2.2,2.4,2.7,31
+EUMC,3015736,pH of Urine,274872,0,No matching concept,1985019,,,,,,,
+EUMC,3018095,Leukocytes [#/volume] in Urine,267254,0,No matching concept,2059983,,,,,,,
+EUMC,3001079,Blood group antibody screen [Presence] in Serum or Plasma,266418,0,No matching concept,942540,,,,,,,
+EUMC,3021461,Reagin Ab [Presence] in Serum by RPR,263621,0,No matching concept,404812,-1.15,0,0.1,0.1,0.3,1.89,1111
+EUMC,3027694,Calcium.ionized [Mass/volume] in Serum or Plasma,258226,8840,milligram per deciliter,13666548,0,4,4.3,4.6,4.8,5.1,47
+EUMC,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,241748,8842,nanogram per milliliter,4869860,0,0.6,1,1.6,2.6,4.1,119255.9
+EUMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,231564,0,No matching concept,343301,0,0.1,0.1,0.2,0.2,0.2,2014
+EUMC,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,220363,8645,unit per liter,5022970,-11,14,22,35,67,166,555555555
+EUMC,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,212882,8763,unit per milliliter,3984045,0,0.8,4.5,7.8,14,24.2,7941500.0
+EUMC,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,198716,8842,nanogram per milliliter,3803213,0,1.3,1.8,2.5,3.6,5.2,1589410.0
+EUMC,3011325,HIV 1+2 Ab [Presence] in Serum,190836,0,No matching concept,4925310,,,,,,,
+EUMC,40769783,Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,189904,8842,nanogram per milliliter,507524,0,0.004,0.006,0.016,0.055,0.299,65530.0
+EUMC,3019428,Reagin Ab [Presence] in Serum by VDRL,187397,0,No matching concept,5069376,,,,,,,
+EUMC,757677,SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection,181352,0,No matching concept,290978,,,,,,,
+EUMC,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,173798,8985,international unit per milliliter,3421351,0,0,0,5.2,7.7,12.6,3180.0
+EUMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,173135,0,No matching concept,42,48.7,153,572,3113,13095,23555,35000.0
+EUMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,173135,8845,picogram per milliliter,2139784,0,0,0,0,250.0,2742,73740.0
+EUMC,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,163755,8840,milligram per deciliter,8528114,0,97,118,150.0,198,260.0,600.0
+EUMC,3004562,Bacteria [Presence] in Urine sediment by Light microscopy,159632,8786,per high power field,468897,0,174.6,188.7,212.2,784.9,810.9,80185.4
+EUMC,3021879,Hepatitis B virus core Ab [Presence] in Serum,147450,0,No matching concept,3455385,0,0.009,0.029,1.89,2.26,2.41,3.01
+EUMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,139639,0,No matching concept,308925,4,50.0,50.0,50.0,50.0,93,1000.0
+EUMC,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,137233,8840,milligram per deciliter,1767332,0,170.8,248,347,461.3,596,9999999
+EUMC,3010084,C peptide [Mass/volume] in Serum or Plasma,134672,8842,nanogram per milliliter,1050869,0,1.05,1.67,2.47,3.83,6.22,128.1
+EUMC,3026008,Bacteria identified in Urine by Culture,133369,0,No matching concept,413996,,,,,,,
+EUMC,3019977,pH of Arterial blood,132835,0,No matching concept,388323,0,7.276,7.357,7.423,7.472,7.519,7480.0
+EUMC,3003396,Base excess in Arterial blood by calculation,132832,8753,millimole per liter,1475161,-42.4,-6.7,-3.1,0,3.7,7.7,183
+EUMC,3027801,Oxygen [Partial pressure] in Arterial blood,132816,8876,millimeter mercury column,1631111,0,45,66,89,120.0,163.6,772.5
+EUMC,3027946,Carbon dioxide [Partial pressure] in Arterial blood,132814,8876,millimeter mercury column,1630868,0,28.6,33.7,39,45.8,58.4,246.3
+EUMC,3016502,Oxygen saturation in Arterial blood,132544,0,No matching concept,2047,16.1,92.8,95.7,97.6,98.6,99,99.9
+EUMC,3016502,Oxygen saturation in Arterial blood,132544,8554,percent,1456251,0,76,91.8,96.3,98,98.9,102.5
+EUMC,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",132543,8753,millimole per liter,1458308,0,19.9,22.8,25.8,29.1,33.6,93.4
+EUMC,3008152,Bicarbonate [Moles/volume] in Arterial blood,132543,8753,millimole per liter,1458300,-13.9,18.8,21.7,24.5,27.9,32,89.1
+EUMC,3051714,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,127071,44777663,milligram of fibrinogen equivalent unit per liter,349313,0,0.21,0.44,1.36,3.95,9.51,9999
+EUMC,3019800,Troponin T.cardiac [Mass/volume] in Serum or Plasma,123140,8842,nanogram per milliliter,5494714,0,0,0,0,0.01,0.042,141
+EUMC,3023230,Hematocrit [Volume Fraction] of Arterial blood,121220,8554,percent,868821,0,24,27,32,38,43,75
+EUMC,3002173,Hemoglobin [Mass/volume] in Arterial blood,121220,8713,gram per deciliter,961884,0,8,9.1,11,13.3,15,97.9
+EUMC,3043706,Sodium [Moles/volume] in Arterial blood,120030,8753,millimole per liter,520306,1,129.4,134,137,140.0,144,197.2
+EUMC,3043706,Sodium [Moles/volume] in Arterial blood,120030,9557,milliequivalent per liter,206673,0,128.5,133.5,137,140.0,144,187.8
+EUMC,3031266,Glucose [Mass/volume] in Arterial blood,119091,0,No matching concept,125186,20.0,79,95,116,154,221,700.0
+EUMC,3031266,Glucose [Mass/volume] in Arterial blood,119091,8840,milligram per deciliter,574369,0,80.0,101,129,170.0,203,750.0
+EUMC,40762532,Calcium.ionized [Mass/volume] in Arterial blood,119074,8840,milligram per deciliter,699769,0,3.8,4.2,4.5,4.8,5.1,57
+EUMC,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,118822,8837,microgram per deciliter,66536,0,5.6,6.5,7.5,8.8,10.5,23.55
+EUMC,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,118822,0,No matching concept,1626447,,,,,,,
+EUMC,3005658,Casts [#/area] in Urine sediment by Microscopy low power field,116930,0,No matching concept,695010,,,,,,,
+EUMC,3008295,Osmolality of Serum or Plasma,116785,8862,milliosmole per kilogram,3569892,0,280.0,287,296,310.0,330.0,2935
+EUMC,3030467,Casts [#/volume] in Urine by Automated count,116435,0,No matching concept,693501,,,,,,,
+EUMC,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,110933,8763,unit per milliliter,1894983,0,6.6,9,12.7,18.8,30.6,34072
+EUMC,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,108436,0,No matching concept,4624,0.001,0.32,0.56,0.96,1.76,3.7,4750.0
+EUMC,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,108436,8842,nanogram per milliliter,1730682,0,0.3,0.53,0.84,1.4,2.79,9500.0
+EUMC,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,106889,0,No matching concept,677325,,,,,,,
+EUMC,3017250,Creatinine [Mass/volume] in Urine,102115,8840,milligram per deciliter,1258073,-0.12,27.3,48.99,83.8,134.2,195.75,992.2
+EUMC,3016724,Homocysteine [Moles/volume] in Serum or Plasma,101315,8749,micromole per liter,1939519,0,6.6,7.9,9.8,12.1,14.8,250.0
+EUMC,3043409,Potassium [Moles/volume] in Arterial blood,99625,8753,millimole per liter,142900,1.84,3.2,3.6,4,4.5,5.3,138.4
+EUMC,3043409,Potassium [Moles/volume] in Arterial blood,99625,9557,milliequivalent per liter,274872,0,3.03,3.43,3.8,4.49,5.4,14.2
+EUMC,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,93080,8842,nanogram per milliliter,568446,0,13.4,50.3,164.8,503.6,1490.0,239543.7
+EUMC,3006576,Bicarbonate [Moles/volume] in Blood,90401,8753,millimole per liter,1559168,-9.8,17.2,20.8,24,27.1,31.2,94.1
+EUMC,3013502,Oxygen saturation in Blood,90399,8554,percent,1559155,0,86.4,93.5,96.6,98.3,99.2,207
+EUMC,3023368,Bacteria identified in Blood by Culture,88666,0,No matching concept,506056,,,,,,,
+EUMC,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,86494,8842,nanogram per milliliter,315986,0,0.03,0.05,0.11,0.51,4.28,311
+EUMC,3013290,Carbon dioxide [Partial pressure] in Blood,85400,8876,millimeter mercury column,1542306,0,28.4,32.9,37.8,43.5,52.8,357.6
+EUMC,3010421,pH of Blood,85400,8876,millimeter mercury column,1542306,0,7.295,7.37,7.42,7.459,7.494,7.879
+EUMC,3027315,Oxygen [Partial pressure] in Blood,85400,8876,millimeter mercury column,1542306,-71,53.9,68.4,85.4,109.7,144,584
+EUMC,3012501,Base excess in Blood by calculation,85400,8753,millimole per liter,1542306,-40.5,-7.3,-3,0.3,3.2,6.6,46.3
+EUMC,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,84746,8845,picogram per milliliter,414078,0,0,390.0,599,886.1,1270.0,19432
+EUMC,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,84537,0,No matching concept,259722,0,1,1,1,1,1,1
+EUMC,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,80039,8859,microgram per milliliter,198916,0,2.5,2.5,5.1,12.9,30.4,9999
+EUMC,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,79937,8842,nanogram per milliliter,449985,0,11.2,15.4,21.6,29.9,38.8,210.0
+EUMC,3002400,Iron [Mass/volume] in Serum or Plasma,78215,8837,microgram per deciliter,124856,-32,24,48,76,122,234,5555555
+EUMC,3002400,Iron [Mass/volume] in Serum or Plasma,78215,0,No matching concept,696243,,,,,,,
+EUMC,3036987,Folate [Mass/volume] in Serum or Plasma,77474,8842,nanogram per milliliter,369668,0,0,4.3,7.5,11.5,16.1,748.4
+EUMC,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,75207,8837,microgram per deciliter,744347,-198,99,135,178,232,309,3000.0
+EUMC,3003745,Microscopic observation [Identifier] in Urine by Gram stain,71539,0,No matching concept,174284,,,,,,,
+EUMC,3037121,Protein [Mass/volume] in Urine,69770,8840,milligram per deciliter,1003859,0,4,8,25,88,246,14450.0
+EUMC,40762125,Lactate [Mass/volume] in Blood,65701,8840,milligram per deciliter,1002938,0,7,8.7,12.4,20.8,44,270.2
+EUMC,3020716,Inhaled oxygen concentration,65041,0,No matching concept,10092,18,30.0,30.0,40.0,50.0,80.0,100.0
+EUMC,3020716,Inhaled oxygen concentration,65041,8554,percent,881816,0,28,35,40.0,50.0,80.0,100.0
+EUMC,3027945,Reticulocytes/100 erythrocytes in Blood,63224,8554,percent,459284,0,0.51,0.9,1.4,2.15,3.4,999
+EUMC,3016650,Hepatitis A virus Ab [Presence] in Serum,61173,0,No matching concept,93385,0,3.6,9.3,50.0,60.0,60.0,1111
+EUMC,3046000,Immature reticulocytes/Reticulocytes.total in Blood,60574,8523,ratio,26956,0,0.3,0.36,0.43,0.5,0.58,32.1
+EUMC,3046000,Immature reticulocytes/Reticulocytes.total in Blood,60574,8554,percent,394568,0,2.8,5.8,10.6,17.1,25.5,96.2
+EUMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,56459,0,No matching concept,445101,0,0.2,0.2,0.3,0.33,0.5,19.9
+EUMC,3003181,Sodium [Moles/volume] in Urine,55009,9557,milliequivalent per liter,759797,0,25,50.0,83,119,156,1092
+EUMC,3000850,Epithelial cells [#/volume] in Urine,54215,0,No matching concept,324522,,,,,,,
+EUMC,3037202,Fibrin+Fibrinogen fragments [Mass/volume] in Serum,52554,8859,microgram per milliliter,1563300,0,0,1.7,5.7,13.5,27.6,710.6
+EUMC,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,51483,8842,nanogram per milliliter,429620,0,0.5,0.7,0.9,1.2,1.6,1224
+EUMC,3000034,Microalbumin [Mass/volume] in Urine,51035,8840,milligram per deciliter,304915,0,0.3,0.8,1.8,5.6,19.5,1924
+EUMC,3030942,Ammonia [Mass/volume] in Blood,49987,8837,microgram per deciliter,187581,0,23,36,53,85,141,999
+EUMC,3030942,Ammonia [Mass/volume] in Blood,49987,8840,milligram per deciliter,42381,0,33,46.1,67.1,101,178,3000.0
+EUMC,3026782,Osmolality of Urine,49057,8862,milliosmole per kilogram,445234,0,290.0,394,515,647,778,5032
+EUMC,3023143,Ciprofloxacin [Susceptibility],48951,0,No matching concept,268477,0.06,0.25,0.25,0.5,4,4,8
+EUMC,3035007,Gentamicin [Susceptibility],47975,0,No matching concept,256517,0.25,0.5,1,1,16,16,64
+EUMC,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,47496,8840,milligram per deciliter,186409,0,56.9,70.8,87.1,106,125,674
+EUMC,3021253,Trimethoprim+Sulfamethoxazole [Susceptibility],47226,0,No matching concept,240833,0.5,10.0,20.0,20.0,320.0,320.0,320.0
+EUMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,46102,8985,international unit per milliliter,631820,0,0,5.9,14,75.6,288,9530.0
+EUMC,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,45842,0,No matching concept,28255,0.1,2.1,4.9,13.2,47.5,78.7,200.0
+EUMC,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,45842,9550,milli-international unit per milliliter,574567,0,1.4,3.5,11,41.9,68.7,268.06
+EUMC,3011625,Bleeding time,45796,8550,minute,159807,0,2,2,2,2,2.5,23
+EUMC,3034400,Hepatitis A virus Ab [Units/volume] in Serum,45763,8923,international unit per liter,1699788,0,0,0,0,0,5.58,59.97
+EUMC,3016038,Potassium [Moles/volume] in Urine,44942,9557,milliequivalent per liter,683226,0,13.1,20.1,31.2,47.5,68.1,2544.7
+EUMC,3016244,Insulin [Units/volume] in Serum or Plasma,44822,9093,micro-international unit per milliliter,384211,0,1.4,3.8,6.7,11.7,21.4,1000.0
+EUMC,3009403,Ampicillin [Susceptibility],43626,0,No matching concept,218915,-2,2,2,32,32,32,32
+EUMC,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,43400,8985,international unit per milliliter,890802,0,0,0,16.1,69.1,403.9,19485
+EUMC,3035561,Lactate [Mass/volume] in Arterial blood,43349,8840,milligram per deciliter,116434,0,8,11,21,39,105,555555
+EUMC,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,43180,8840,milligram per deciliter,154779,0,103,118.7,137,157,179,555
+EUMC,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",42664,0,No matching concept,67433,2.2,19.1,22.3,25.3,28,30.6,77.2
+EUMC,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",42664,8753,millimole per liter,45848,1.5,16.9,20.5,24,27.6,32.1,97.4
+EUMC,3002032,Base excess in Venous blood by calculation,42664,8753,millimole per liter,113281,-34.9,-8.5,-4.6,-1.5,1.5,4.8,66.4
+EUMC,3012544,pH of Venous blood,42664,0,No matching concept,9933,6.52,7.283,7.334,7.379,7.42,7.457,66.9
+EUMC,3024928,Oxygen saturation in Venous blood,42664,0,No matching concept,67429,15,37.4,55.9,70.0,81.4,89.7,100.0
+EUMC,3024928,Oxygen saturation in Venous blood,42664,8554,percent,45848,6.1,38.3,60.8,76.6,88.9,95,100.5
+EUMC,3024354,Oxygen [Partial pressure] in Venous blood,42664,8876,millimeter mercury column,113282,7.7,23.4,31.1,39.1,50.1,65.1,612.8
+EUMC,3021447,Carbon dioxide [Partial pressure] in Venous blood,42664,8876,millimeter mercury column,113281,5.3,30.3,35.2,40.7,46.7,53.1,209.5
+EUMC,3027273,Bicarbonate [Moles/volume] in Venous blood,42655,0,No matching concept,67387,-5.5,18.1,21.2,24,26.6,29.1,74.3
+EUMC,3027273,Bicarbonate [Moles/volume] in Venous blood,42655,8753,millimole per liter,45848,1.3,16,19.4,22.7,26.2,30.5,92.1
+EUMC,3000620,Complement C3 [Mass/volume] in Serum or Plasma,42650,8840,milligram per deciliter,285856,0,70.5,86.6,104,123,142,1265
+EUMC,3007733,Chloride [Moles/volume] in Urine,42549,9557,milliequivalent per liter,664543,0,22,47,82,121,165,8073
+EUMC,3025099,Bacteria identified in Sputum by Respiratory culture,42157,0,No matching concept,110600,,,,,,,
+EUMC,3041426,Ketones [Moles/volume] in Blood,41269,8749,micromole per liter,76327,0,43.9,80.1,179.6,422.7,1162.4,53780.0
+EUMC,3027141,Cefotaxime [Susceptibility],40792,0,No matching concept,190828,0.1,0.25,1,1,64,64,64
+EUMC,3024521,cefTAZidime [Susceptibility],39972,0,No matching concept,218969,0.1,0.25,1,2,32,64,64
+EUMC,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,39957,0,No matching concept,79944,,,,,,,
+EUMC,3017766,Complement C4 [Mass/volume] in Serum or Plasma,39950,8840,milligram per deciliter,276489,0,12.4,17.2,23.1,29.9,37.8,167.6
+EUMC,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,39728,0,No matching concept,26733,0,0.3,3.4,10.2,27.1,42.7,170.0
+EUMC,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,39728,9550,milli-international unit per milliliter,549131,0,0,1.7,7.4,19.3,30.7,758
+EUMC,3019445,Imipenem [Susceptibility],39597,0,No matching concept,213169,-0.25,0.25,0.25,0.25,2,16,16
+EUMC,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,39202,8845,picogram per milliliter,518946,0,0,0,11,48,191,25747
+EUMC,3022324,Piperacillin+Tazobactam [Susceptibility],38188,0,No matching concept,189357,4,4,4,4,32,128,128
+EUMC,3006072,Cefepime [Susceptibility],38109,0,No matching concept,192299,0.12,0.12,1,1,16,64,64
+EUMC,43054997,Influenza virus A and B Ag [Identifier] in Nose by Rapid immunoassay,37377,0,No matching concept,44869,1,1,10.0,10.0,30.0,30.0,30.0
+EUMC,3005719,IgG [Mass/volume] in Serum or Plasma,36122,8840,milligram per deciliter,292610,0,720.0,962,1210.0,1492,1920.0,12910.1
+EUMC,3052716,Fibrin D-dimer DDU [Mass/volume] in Platelet poor plasma by Immunoassay,36091,8751,milligram per liter,1156770,0,0.48,1.26,3.91,21,430.0,89000.0
+EUMC,3007164,IgA [Mass/volume] in Serum or Plasma,35540,8840,milligram per deciliter,296933,0,70.6,128,198,284.4,389,7889.1
+EUMC,46236285,Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture,35217,0,No matching concept,69778,,,,,,,
+EUMC,3023852,cefOXitin [Susceptibility],34459,0,No matching concept,148450,4,4,4,4,16,64,64
+EUMC,3035366,Amoxicillin+Clavulanate [Susceptibility],34457,0,No matching concept,150356,2,2,4,8,32,32,32
+EUMC,3037064,Ertapenem [Susceptibility],34381,0,No matching concept,142422,0.12,0.12,0.12,0.5,0.5,0.5,8
+EUMC,3013498,Variant lymphocytes/100 leukocytes in Blood,33431,8554,percent,167735,0,1,1,1,2,4,91
+EUMC,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,33209,0,No matching concept,35298,,,,,,,
+EUMC,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,33199,8840,milligram per deciliter,859562,0,0,0.02,0.05,0.11,0.25,36.5
+EUMC,3028026,IgM [Mass/volume] in Serum or Plasma,32857,8840,milligram per deciliter,279370,0,34.8,57.8,89.1,130.0,182,9880.0
+EUMC,3009682,Cortisol [Mass/volume] in Serum or Plasma,32502,8837,microgram per deciliter,214256,0,0.4,3.8,9.9,15.9,24.8,1111
+EUMC,3004809,Band form neutrophils/100 leukocytes in Blood,31009,8554,percent,226063,0,1,1,2,5,9,97
+EUMC,36659824,Bacteria.carbapenem resistant identified in Specimen by Organism specific culture,30961,0,No matching concept,61834,,,,,,,
+EUMC,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,30899,0,No matching concept,123,,,,,,,
+EUMC,3038328,Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain,30353,0,No matching concept,61337,,,,,,,
+EUMC,42869590,Oxygen/Gas total [Pure volume fraction] Inhaled gas,30005,0,No matching concept,67434,15,21,21,21,36,50.0,100.0
+EUMC,3002106,Lactate [Mass/volume] in Venous blood,30005,8840,milligram per deciliter,67432,0.4,8.2,10.6,14.6,21.6,35,268.8
+EUMC,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,29968,8837,microgram per deciliter,57161,28,177,222,273,332,387,31401
+EUMC,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,29965,8554,percent,56746,0.1,8,15,23.3,34,47.5,110.0
+EUMC,3019137,Amikacin [Susceptibility],29874,0,No matching concept,151161,1,2,2,2,4,64,64
+EUMC,3013115,Eosinophils [#/volume] in Blood,29870,8647,per microliter,22181,0,30.0,80.0,170.0,360.0,732,101690.0
+EUMC,3013115,Eosinophils [#/volume] in Blood,29870,0,No matching concept,97146,,,,,,,
+EUMC,3005013,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,29747,8842,nanogram per milliliter,77595,0,0.01,0.134,0.36,0.91,2.6,205
+EUMC,3014271,Vancomycin [Susceptibility],29650,0,No matching concept,133061,0.12,0.5,0.5,1,2,32,32
+EUMC,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,29649,0,No matching concept,34985,,,,,,,
+EUMC,3024831,Penicillin G [Susceptibility],29572,0,No matching concept,134998,0.03,0.06,0.5,0.5,16,64,64
+EUMC,3005179,Beta lactamase.extended spectrum [Susceptibility],29380,0,No matching concept,113133,,,,,,,
+EUMC,3007173,ceFAZolin [Susceptibility],29060,0,No matching concept,118945,2,4,4,64,64,64,64
+EUMC,3001388,Linezolid [Susceptibility],28904,0,No matching concept,128644,0.25,1,2,2,2,2,8
+EUMC,3008893,Testosterone [Mass/volume] in Serum or Plasma,28880,8842,nanogram per milliliter,218947,0,0.14,0.81,4.65,8.09,374.36,3628.92
+EUMC,3004119,Hemoglobin [Mass/volume] in Venous blood,28449,0,No matching concept,56382,2,8.2,9.6,12.1,13.9,15.2,23.4
+EUMC,3034976,Hematocrit [Volume Fraction] of Venous blood,28335,0,No matching concept,56218,6,24,28,36,41,45,69
+EUMC,3014601,Aztreonam [Susceptibility],28310,0,No matching concept,133105,1,1,1,2,16,64,64
+EUMC,3001784,Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma,28294,0,No matching concept,67084,0.5,9.5,15.1,23.1,33.3,44.9,164.7
+EUMC,3025255,Bacteria [#/area] in Urine sediment by Microscopy high power field,28109,0,No matching concept,130692,,,,,,,
+EUMC,42870366,Fibrin D-dimer FEU [Mass/volume] in Blood by Immunoassay,27961,44777663,milligram of fibrinogen equivalent unit per liter,545289,0,1.11,80.0,236,553,1021,88340.0
+EUMC,3034485,Albumin/Creatinine [Mass Ratio] in Urine,27510,0,No matching concept,82794,0,4,6.7,13,38.5,145.3,17413
+EUMC,3035637,Corticotropin [Mass/volume] in Plasma,27496,8845,picogram per milliliter,92672,0,0,1,12.5,30.1,54,2000.0
+EUMC,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,26940,8840,milligram per deciliter,99944,9,81,93,108,129,156,1310.0
+EUMC,3041473,Sodium [Moles/volume] in Venous blood,26860,0,No matching concept,43080,100.5,130.4,134,137,139.6,142,197.4
+EUMC,40762533,Calcium.ionized [Mass/volume] in Venous blood,26860,0,No matching concept,43080,0.9,4.2,4.4,4.6,4.8,4.9,13.4
+EUMC,3041354,Potassium [Moles/volume] in Venous blood,26860,0,No matching concept,43080,1.35,3.24,3.56,3.88,4.23,4.69,14.08
+EUMC,3033408,Glucose [Mass/volume] in Venous blood,26860,0,No matching concept,43080,20.0,89,102,123,162,225,750.0
+EUMC,3028531,Enolase.neuron specific [Mass/volume] in Serum or Plasma,26473,8842,nanogram per milliliter,41890,0,10.8,12.5,15.8,22.2,60.9,740.0
+EUMC,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,26335,0,No matching concept,38838,,,,,,,
+EUMC,3003628,Teicoplanin [Susceptibility],25081,0,No matching concept,115558,0.5,0.5,0.5,0.5,4,32,32
+EUMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,24750,0,No matching concept,434316,0,0,0,0.1,1.81,16.6,2541
+EUMC,3017181,Myelocytes/100 leukocytes in Blood,24655,8554,percent,151268,0,1,1,2,4,8,74
+EUMC,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,24308,8985,international unit per milliliter,38380,0,16.1,56.7,128,311.1,744,50000.0
+EUMC,3002179,Metamyelocytes/100 leukocytes in Blood,23505,8554,percent,143514,0,1,1,2,4,7,100.0
+EUMC,3012718,DNA double strand Ab [Presence] in Serum,23423,8985,international unit per milliliter,22448,0,0.3,0.6,1.1,3.1,33,628
+EUMC,3012718,DNA double strand Ab [Presence] in Serum,23423,0,No matching concept,107859,,,,,,,
+EUMC,3002035,Myeloperoxidase Ab [Presence] in Serum by Immunoassay,22816,8985,international unit per milliliter,27046,0,0.01,0.1,0.2,0.3,0.6,189
+EUMC,40766042,Proteinase 3 Ab [Presence] in Serum by Immunoassay,22816,8985,international unit per milliliter,27046,0,0.01,0.1,0.2,0.4,0.7,178
+EUMC,3028717,Thiamine [Mass/volume] in Blood,22740,8842,nanogram per milliliter,44826,0,64.88,100.2,136.34,189.67,276.66,20938.5
+EUMC,3029080,Hemoglobin [Entitic mass] in Reticulocytes,22619,0,No matching concept,121192,11,28.4,31.7,33.8,35.7,37.6,47.7
+EUMC,3032254,Tigecycline [Susceptibility],22275,0,No matching concept,89405,0.06,0.5,0.5,0.5,1,4,8
+EUMC,3000661,Erythromycin [Susceptibility],22114,0,No matching concept,73674,0.12,0.12,0.25,0.5,8,8,8
+EUMC,3019813,Clindamycin [Susceptibility],21993,0,No matching concept,72997,0.12,0.25,0.25,0.25,0.25,8,8
+EUMC,3029458,Influenza virus A+B Ag [Presence] in Nasopharynx,21225,0,No matching concept,77901,,,,,,,
+EUMC,3001355,Fungus identified in Sputum by Culture,21020,0,No matching concept,38730,,,,,,,
+EUMC,3035132,Ketones [Presence] in Serum or Plasma,21016,8749,micromole per liter,1194792,0,0,0,0,0,158.5,50000.0
+EUMC,3015890,Microscopic observation [Identifier] in Sputum by KOH preparation,20947,0,No matching concept,34099,,,,,,,
+EUMC,3028461,Complement total hemolytic CH50 [Units/volume] in Serum or Plasma,20833,8763,unit per milliliter,136066,-12.9,29.5,41.8,52.4,60.0,66.4,206.5
+EUMC,46236738,Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with probe detection,20475,0,No matching concept,69843,,,,,,,
+EUMC,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,20313,8985,international unit per milliliter,140152,-1,0,13,39,101,222,4950.0
+EUMC,3025941,Bacteria identified in Stool by Culture,20301,0,No matching concept,28524,,,,,,,
+EUMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,20243,0,No matching concept,357564,0,0.003,0.451,0.615,1.49,1.59,91.64
+EUMC,3004616,Nuclear Ab [Presence] in Serum,20120,0,No matching concept,202614,,,,,,,
+EUMC,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,19746,0,No matching concept,25851,4.25,14,15.5,18.3,22.9,33,80.2
+EUMC,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,19746,8554,percent,134230,0.627,14,15.7,18.5,22.7,29.8,292.4
+EUMC,3013566,Clostridioides difficile [Presence] in Stool by Organism specific culture,19174,0,No matching concept,30235,,,,,,,
+EUMC,3000489,Polymorphonuclear cells/100 leukocytes in Stool,18983,8554,percent,92460,0,0,0,0,0,0,5.617
+EUMC,40763949,Clindamycin.induced [Susceptibility],18923,0,No matching concept,61237,,,,,,,
+EUMC,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,18697,8840,milligram per deciliter,84291,0,3.6,8.5,16.9,33.8,53.5,1370.0
+EUMC,40764128,Clostridioides difficile DNA [Presence] in Specimen by NAA with probe detection,18635,0,No matching concept,29807,,,,,,,
+EUMC,3017044,Thyrotropin receptor Ab [Units/volume] in Serum,18343,8923,international unit per liter,650370,0,0,0,0.74,3.13,11.5,875
+EUMC,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,18263,8845,picogram per milliliter,130600,0,16.35,31.4,63.1,199,400.0,5000.0
+EUMC,3004722,Prolactin [Mass/volume] in Serum or Plasma,18131,8842,nanogram per milliliter,37548,0,5.4,10.2,16.6,36.4,61.9,4130.0
+EUMC,3023753,Tetracycline [Susceptibility],17879,0,No matching concept,59451,0.25,1,1,1,2,16,16
+EUMC,3011965,Urea nitrogen [Mass/volume] in Urine,17563,8840,milligram per deciliter,97816,0,218,335,462,696,831,3146
+EUMC,3014197,Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),17039,0,No matching concept,56715,0.25,0.25,0.5,4,4,4,4
+EUMC,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,17035,0,No matching concept,11745,,,,,,,
+EUMC,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,17035,8554,percent,16162,,,,,,,
+EUMC,3013384,rifAMPin [Susceptibility],16937,0,No matching concept,56195,0.03,0.03,0.03,0.5,0.5,0.5,32
+EUMC,3014352,Rotavirus Ag [Presence] in Stool by Immunoassay,16908,0,No matching concept,45417,0,0,0,0.02,0.09,0.23,84.4
+EUMC,3014441,Leukocytes [Presence] in Stool by Light microscopy,16649,8786,per high power field,23278,,,,,,,
+EUMC,3018562,Neutrophils/100 leukocytes in Cerebral spinal fluid,16340,8554,percent,75009,0,0,0,0,0,60.0,999
+EUMC,3022640,Eosinophils/100 leukocytes in Cerebral spinal fluid,16340,8554,percent,75009,0,0,0,0,0,0,999
+EUMC,3020951,Lymphocytes/100 leukocytes in Cerebral spinal fluid,16340,8554,percent,75009,0,0,0,0,3,46,999
+EUMC,3037577,Monocytes/100 leukocytes in Cerebral spinal fluid,16340,8554,percent,75009,0,0,0,0,0,15,999
+EUMC,3019473,Protein [Mass/volume] in Cerebral spinal fluid,16302,8840,milligram per deciliter,109332,0,17,29,60.0,124,232,8100.0
+EUMC,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,16291,8840,milligram per deciliter,109227,0,39,50.0,61,74,91,1255
+EUMC,3021082,Mycoplasma pneumoniae IgM Ab [Presence] in Serum,16256,0,No matching concept,58623,,,,,,,
+EUMC,3020138,Lactate [Mass/volume] in Serum or Plasma,16196,8840,milligram per deciliter,137622,0,7,10.0,16,30.0,81,341
+EUMC,3003771,Antithrombin Ag actual/normal in Platelet poor plasma by Immunoassay,16045,8554,percent,30316,0,54.4,76.1,91.7,104.5,117.8,99999
+EUMC,3001426,Microscopic observation [Identifier] in Stool by Gram stain,15994,0,No matching concept,21522,,,,,,,
+EUMC,3046697,Human papilloma virus DNA [Presence] in Specimen by Probe with signal amplification,15977,8845,picogram per milliliter,80484,0,0,0,0,4.205,4.604,6.056
+EUMC,3028652,Viscosity of Blood,15887,0,No matching concept,74452,0,3.2,3.7,5.7,12.3,19.1,41.3
+EUMC,3037522,Nuclear Ab [Titer] in Serum,15800,0,No matching concept,155721,,,,,,,
+EUMC,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,15794,0,No matching concept,6108,0,0.1,0.2,0.28,0.4,0.57,6.44
+EUMC,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,15794,8779,signal to cutoff ratio,12956,0.04,0.22,0.25,0.31,0.43,0.75,6.28
+EUMC,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,15287,8554,percent,5727,0,1,1,2,4,12,190.0
+EUMC,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,15287,9032,per 100 white blood cells,87844,0,1,1,2,5,13,1730.0
+EUMC,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,15106,8842,nanogram per milliliter,898973,0,0,0,0.1,1.4,12.3,101718
+EUMC,3018171,Choriogonadotropin [Units/volume] in Serum or Plasma,15044,9550,milli-international unit per milliliter,121572,0,0,0,0.1,5,807.4,1311680.0
+EUMC,3016727,Bacteria identified in Body fluid by Culture,14811,0,No matching concept,50170,,,,,,,
+EUMC,3020399,Glucose [Mass/volume] in Urine,14633,8840,milligram per deciliter,95967,0,3,5,13,47,296,7350.0
+EUMC,3029634,Reagin Ab [Titer] in Serum by VDRL,14622,0,No matching concept,244743,,,,,,,
+EUMC,3051257,Erythrocyte morphology [Interpretation] in Urine sediment by Light microscopy Narrative,14516,0,No matching concept,26538,,,,,,,
+EUMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,14367,0,No matching concept,663,7,64.7,101,162,253,421,929
+EUMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,14367,8842,nanogram per milliliter,59439,0,82.32,150.0,229.74,339.06,480.57,3925
+EUMC,3046425,Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood,14270,0,No matching concept,20803,-1.81,0,0,0.03,0.19,1.31,162.05
+EUMC,3025856,Turbidity [Presence] of Body fluid Qualitative,13953,0,No matching concept,36198,,,,,,,
+EUMC,3039962,Ureaplasma urealyticum DNA [Presence] in Specimen by NAA with probe detection,13853,0,No matching concept,93,,,,,,,
+EUMC,42870504,Mycoplasma hominis DNA [Presence] in Specimen by NAA with probe detection,13853,0,No matching concept,93,,,,,,,
+EUMC,3044936,Clostridioides difficile toxin A+B [Presence] in Stool by Immunoassay,13735,0,No matching concept,21508,,,,,,,
+EUMC,3004239,Creatinine [Mass/time] in 24 hour Urine,13581,8909,milligram per 24 hours,187888,0,370.3,610.0,868,1162.5,1533,13363.665
+EUMC,44816681,Malignant cells [Presence] in Body fluid by Light microscopy,13483,0,No matching concept,30265,0,0,0,0,0,0,97
+EUMC,42868423,Ureaplasma parvum DNA [Presence] in Specimen by NAA with probe detection,13379,0,No matching concept,16894,,,,,,,
+EUMC,44786760,Neutrophil gelatinase-associated lipocalin [Mass/volume] in Serum or Plasma by Rapid immunoassay,13364,8842,nanogram per milliliter,44893,0,43.3,69,171.57,355,532,6270.0
+EUMC,3002619,Bacteria identified in Specimen by Culture,13343,0,No matching concept,34498,,,,,,,
+EUMC,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,13240,8985,international unit per milliliter,141037,0,0,0,0,4.042,15,953269017
+EUMC,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,12929,8647,per microliter,10316,0,0,0,3,35,250.0,453970.0
+EUMC,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,12929,0,No matching concept,39924,,,,,,,
+EUMC,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,12928,8647,per microliter,10315,0,0,0,30.0,1150.0,23000.0,9000000.0
+EUMC,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,12928,0,No matching concept,39924,,,,,,,
+EUMC,3022386,Varicella zoster virus IgG Ab [Presence] in Serum,12774,8779,signal to cutoff ratio,6968,-0.01,0.5,1.26,1.86,2.47,3.02,7.38
+EUMC,3022386,Varicella zoster virus IgG Ab [Presence] in Serum,12774,0,No matching concept,41550,,,,,,,
+EUMC,3040713,Treponema pallidum DNA [Presence] in Specimen by NAA with probe detection,12696,0,No matching concept,15947,,,,,,,
+EUMC,3019978,Herpes simplex virus 2 DNA [Presence] in Specimen by NAA with probe detection,12696,0,No matching concept,15947,,,,,,,
+EUMC,3035069,Herpes simplex virus 1 DNA [Presence] in Specimen by NAA with probe detection,12696,0,No matching concept,15947,,,,,,,
+EUMC,42868426,Gardnerella vaginalis DNA [Presence] in Specimen by NAA with probe detection,12696,0,No matching concept,15947,,,,,,,
+EUMC,3038369,Thyrotropin binding inhibitory immunoglobulins [Units/volume] in Serum,12667,8923,international unit per liter,49711,0,0.8,1,2.44,6.77,16.7,1735
+EUMC,3006588,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,12545,8763,unit per milliliter,77858,0,5,6.7,9.9,17,31.5,8632
+EUMC,42529221,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma by Immunoassay,12468,8842,nanogram per milliliter,19842,0,0.01,0.36,1.35,4.58,5.79,141.2
+EUMC,3005322,IgE [Units/volume] in Serum or Plasma,12455,8985,international unit per milliliter,67305,0,0,20.1,96.9,309.4,781.6,42007
+EUMC,3007766,Cardiolipin IgG Ab [Presence] in Serum by Immunoassay,11924,0,No matching concept,16149,0,0.5,0.9,1.5,3.2,9.2,419
+EUMC,3006441,Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,11840,0,No matching concept,16049,0,0.4,0.9,1.8,3.9,8.5,473
+EUMC,3020876,Protein [Mass/time] in 24 hour Urine,11840,8909,milligram per 24 hours,150953,0,40.0,100.0,460.0,2352,5811.5,92808.1
+EUMC,3037167,Microscopic observation [Identifier] in Specimen by Gram stain,11786,0,No matching concept,23967,,,,,,,
+EUMC,3045355,Beta 2 glycoprotein 1 IgG Ab [Presence] in Serum,11686,8763,unit per milliliter,14290,0,0.4,0.7,1.1,2,29.3,533
+EUMC,3045355,Beta 2 glycoprotein 1 IgG Ab [Presence] in Serum,11686,0,No matching concept,7911,,,,,,,
+EUMC,3043181,Beta 2 glycoprotein 1 IgM Ab [Presence] in Serum,11662,8763,unit per milliliter,14250,0,0.3,0.6,1.1,2,6.7,577
+EUMC,3043181,Beta 2 glycoprotein 1 IgM Ab [Presence] in Serum,11662,0,No matching concept,7908,,,,,,,
+EUMC,37020093,Adenovirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,37020057,Human metapneumovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,36203321,Influenza virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,36203322,Influenza virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,37019976,Parainfluenza virus 3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,37021346,Parainfluenza virus 2 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,37020881,Parainfluenza virus 1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11624,0,No matching concept,366,,,,,,,
+EUMC,3019972,Gentamicin.high potency [Susceptibility],11503,0,No matching concept,58912,,,,,,,
+EUMC,36304548,Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11502,0,No matching concept,14550,,,,,,,
+EUMC,36304464,Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11502,0,No matching concept,14550,,,,,,,
+EUMC,36304601,Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11502,0,No matching concept,14550,,,,,,,
+EUMC,3010110,Streptomycin.high potency [Susceptibility],11477,0,No matching concept,58509,,,,,,,
+EUMC,40758035,Norovirus genogroup I RNA [Presence] in Stool by NAA with probe detection,11413,0,No matching concept,57,,,,,,,
+EUMC,40758036,Norovirus genogroup II RNA [Presence] in Stool by NAA with probe detection,11413,0,No matching concept,57,,,,,,,
+EUMC,37020445,Astrovirus RNA [Presence] in Stool by NAA with probe detection,11413,0,No matching concept,57,,,,,,,
+EUMC,37020058,Rotavirus A RNA [Presence] in Stool by NAA with probe detection,11413,0,No matching concept,57,,,,,,,
+EUMC,37021247,Adenovirus 40+41 DNA [Presence] in Stool by NAA with probe detection,11398,0,No matching concept,12917,,,,,,,
+EUMC,46236341,Streptococcus pneumoniae Ag [Presence] in Urine by Rapid immunoassay,11369,0,No matching concept,13581,,,,,,,
+EUMC,36305676,Human coronavirus HKU1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37019984,Parainfluenza virus 4 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37020392,Chlamydophila pneumoniae DNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37020197,Influenza virus A H1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37019690,Mycoplasma pneumoniae DNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37020862,Bordetella pertussis DNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,36203323,Respiratory syncytial virus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37019683,Rhinovirus+Enterovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,40758594,Influenza virus A H1 2009 pandemic RNA [Presence] in Specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,37021392,Influenza virus A H3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,11363,0,No matching concept,13011,,,,,,,
+EUMC,3039448,Bacteria identified in Bile fluid by Culture,11216,0,No matching concept,22782,,,,,,,
+EUMC,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,11207,8842,nanogram per milliliter,167211,0,5.04,8.2,13.8,26.2,59.4,4150.0
+EUMC,3000515,Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,11039,8554,percent,151752,0,36.4,61.8,81.9,96.5,111,601
+EUMC,1176187,Microscopic observation [Identifier] in Bile fluid by Gram stain,10995,0,No matching concept,13182,,,,,,,
+EUMC,3041391,Cyclic citrullinated peptide Ab [Presence] in Serum,10901,8763,unit per milliliter,13556,0,0.5,0.8,1.2,2.2,46.7,387
+EUMC,3009196,Meropenem [Susceptibility],10852,0,No matching concept,67812,0.25,0.25,0.25,8,16,16,16
+EUMC,40770971,Microscopic observation [Identifier] in Body fluid by KOH preparation,10850,0,No matching concept,21482,,,,,,,
+EUMC,3014814,Methamphetamine [Presence] in Urine,10716,0,No matching concept,8664,1,1,1,1,1,1,1
+EUMC,3028064,Tetrahydrocannabinol [Presence] in Urine,10698,0,No matching concept,7245,1,1,1,1,1,1,11
+EUMC,3016879,Cocaine [Presence] in Urine,10698,0,No matching concept,7245,1,1,1,1,1,1,1
+EUMC,3027944,Amphetamines [Presence] in Urine,10698,0,No matching concept,7245,1,1,1,1,1,1,1
+EUMC,3017394,Zinc [Mass/volume] in Serum or Plasma,10678,8837,microgram per deciliter,15410,9.96,59.71,70.36,80.28,90.51,100.68,593.71
+EUMC,3003327,Ova and parasites identified in Stool by Light microscopy,10653,0,No matching concept,81936,,,,,,,
+EUMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,10581,0,No matching concept,104967,0,0,0,0.0695,1.07,2.61,62
+EUMC,40757501,Chloride [Mass/volume] in Body fluid,10565,8840,milligram per deciliter,63615,0,99,105,119,124,128,231
+EUMC,3027013,Piperacillin [Susceptibility],10520,0,No matching concept,66376,4,4,8,128,128,128,128
+EUMC,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,10471,8840,milligram per deciliter,35788,30.0,94,109,133,185,257,731
+EUMC,42869450,Platelets reticulated/100 platelets in Blood by Automated count,10363,0,No matching concept,11259,0,1.7,2.9,5.6,11.8,21.1,83.6
+EUMC,42869450,Platelets reticulated/100 platelets in Blood by Automated count,10363,8554,percent,84582,0,0.9,1.3,2.2,4,7.4,62
+EUMC,3043614,Bacteria identified in Aspirate by Culture,10343,0,No matching concept,43972,,,,,,,
+EUMC,42869451,Hemoglobin [Entitic mass] in Reticulocytes by Automated count,10280,8564,picogram,109890,0,24.4,29.7,33,35.3,37.3,51.5
+EUMC,36305614,Microscopic observation [Identifier] in Lower respiratory specimen by Gram stain,10222,0,No matching concept,29637,,,,,,,
+EUMC,3030365,Mycobacterium tuberculosis rifAMPin resistance gene [Identifier] in Sputum by NAA with probe detection,10142,0,No matching concept,27,,,,,,,
+EUMC,42529562,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay,9925,8842,nanogram per milliliter,136884,0,0.07,0.19,0.38,0.89,1.85,471
+EUMC,36306047,Chlamydophila pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,9827,0,No matching concept,153,,,,,,,
+EUMC,36303340,Legionella pneumophila DNA [Presence] in Lower respiratory specimen by NAA with probe detection,9827,0,No matching concept,153,,,,,,,
+EUMC,36304237,Mycoplasma pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,9823,0,No matching concept,138,,,,,,,
+EUMC,3014162,Mycobacterium tuberculosis DNA [Presence] in Specimen by NAA with probe detection,9816,0,No matching concept,38958,,,,,,,
+EUMC,42869862,Sapovirus RNA [Presence] in Specimen by NAA with probe detection,9798,0,No matching concept,11060,,,,,,,
+EUMC,36659767,Bordetella pertussis DNA [Presence] in Lower respiratory specimen by NAA with probe detection,9777,0,No matching concept,11696,,,,,,,
+EUMC,36305836,Bacteria identified in Bile fluid by Anaerobe culture,9679,0,No matching concept,9689,,,,,,,
+EUMC,3029058,Nuclear matrix protein 22 [Presence] in Urine,9677,0,No matching concept,8361,1,1,1,1,1,1,10790730.0
+EUMC,3005920,Turbidity [Presence] of Cerebral spinal fluid Qualitative,9584,0,No matching concept,24771,,,,,,,
+EUMC,3038077,Color of Cerebral spinal fluid,9584,0,No matching concept,24771,,,,,,,
+EUMC,3000764,Benzodiazepines [Presence] in Urine,9568,0,No matching concept,13197,,,,,,,
+EUMC,3002020,Barbiturates [Presence] in Urine,9562,0,No matching concept,13176,,,,,,,
+EUMC,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,9392,8555,second,31330,0,0,10.0,119,156,201,300.0
+EUMC,3036489,Thrombin time,9382,8555,second,17113,0,0,15.3,16.5,17.6,18.9,209.3
+EUMC,3027008,Opiates [Presence] in Urine,9109,0,No matching concept,11718,,,,,,,
+EUMC,3015154,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum,9093,8763,unit per milliliter,12410,0,0.1,0.3,0.4,1.2,74.2,2568
+EUMC,3008914,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum,9067,8763,unit per milliliter,12344,0,0.01,0.1,0.3,0.5,29.8,671
+EUMC,3005156,Respiratory syncytial virus A RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3000108,Respiratory syncytial virus B RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3038546,Human coronavirus OC43 RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3006262,Parainfluenza virus 3 RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3041623,Adenovirus DNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3012158,Parainfluenza virus 2 RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3041642,Human coronavirus 229E RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,40765161,Human bocavirus DNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3038288,Influenza virus B RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3042194,Human metapneumovirus RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3025023,Rhinovirus RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3025634,Parainfluenza virus 1 RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3044938,Influenza virus A RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,3040359,Human coronavirus NL63 RNA [Presence] in Specimen by NAA with probe detection,8895,0,No matching concept,10742,,,,,,,
+EUMC,44786756,Neutrophil gelatinase-associated lipocalin [Mass/volume] in Urine by Rapid immunoassay,8748,8842,nanogram per milliliter,18873,3.9,25,25,38,196,1017,4051
+EUMC,44786756,Neutrophil gelatinase-associated lipocalin [Mass/volume] in Urine by Rapid immunoassay,8748,0,No matching concept,3618,,,,,,,
+EUMC,3002733,Renin [Enzymatic activity/volume] in Plasma --baseline,8693,9020,nanogram per milliliter and hour,8462,0.07,0.16,0.33,0.78,2.27,7.42,119.47
+EUMC,3002733,Renin [Enzymatic activity/volume] in Plasma --baseline,8693,0,No matching concept,9288,,,,,,,
+EUMC,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,8607,0,No matching concept,4882,-0.03,0,0,0.01,0.04,0.36,4.36
+EUMC,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,8607,8779,signal to cutoff ratio,51659,-0.01,0,0,0,0.02,0.09,5.617
+EUMC,3046684,Mycoplasma pneumoniae IgG Ab [Presence] in Serum,8509,8980,arbitrary unit per milliliter,8071,0,10.0,10.0,10.0,10.0,31.12,100.0
+EUMC,3046684,Mycoplasma pneumoniae IgG Ab [Presence] in Serum,8509,0,No matching concept,7947,,,,,,,
+EUMC,42868425,Mycoplasma genitalium DNA [Presence] in Specimen by NAA with probe detection,8375,0,No matching concept,11382,,,,,,,
+EUMC,42868427,Trichomonas vaginalis DNA [Presence] in Specimen by NAA with probe detection,8375,0,No matching concept,11382,,,,,,,
+EUMC,3006093,Chlamydia trachomatis DNA [Presence] in Specimen by NAA with probe detection,8375,0,No matching concept,11382,,,,,,,
+EUMC,3011371,Neisseria gonorrhoeae DNA [Presence] in Specimen by NAA with probe detection,8375,0,No matching concept,11382,,,,,,,
+EUMC,3025812,Tricyclic antidepressants [Presence] in Urine by Immunoassay,8372,0,No matching concept,9000,,,,,,,
+EUMC,3046760,Galactomannan Ag [Presence] in Serum or Plasma by Immunoassay,8297,8779,signal to cutoff ratio,82180,0,0,0,0.5,0.9,4.174,11
+EUMC,3003434,Protein [Mass/volume] in Pleural fluid,8262,8713,gram per deciliter,97886,0,1.5,2.4,3.4,4.4,5.1,21.4
+EUMC,3000809,Color of Pleural fluid,8234,0,No matching concept,18267,,,,,,,
+EUMC,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,8216,8645,unit per liter,98015,0,96,146,304,694,1581,71600.0
+EUMC,3003403,Glucose [Mass/volume] in Pleural fluid,8201,0,No matching concept,9385,0,51,95,123,156,201,1853
+EUMC,3003403,Glucose [Mass/volume] in Pleural fluid,8201,8840,milligram per deciliter,87468,0,39,84,113,143,186,1740.0
+EUMC,40760485,Enolase.neuron specific [Mass/volume] in Serum or Plasma by Immunoassay,8191,8842,nanogram per milliliter,124860,0,6.7,10.6,14.9,22.8,37,2792
+EUMC,3028029,Mesothelial cells/100 leukocytes in Pleural fluid,8166,8554,percent,27210,0,0,0,0,3,7,86
+EUMC,3001893,Eosinophils/100 leukocytes in Pleural fluid,8166,8554,percent,27210,0,0,0,0,0,3,97
+EUMC,3005532,Lymphocytes/100 leukocytes in Pleural fluid,8166,8554,percent,27210,0,0,4,21,55,80.0,100.0
+EUMC,3000919,Neutrophils/100 leukocytes in Pleural fluid,8166,8554,percent,27210,0,0,1,8,40.0,79,401
+EUMC,3018920,Vancomycin [Mass/volume] in Serum or Plasma --trough,8153,8859,microgram per milliliter,51327,0,5.3,9.3,15.2,20.84,30.48,200.0
+EUMC,3036428,Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid,8144,8645,unit per liter,97100,-0.5,0,9.9,20.3,40.1,94.3,3010.0
+EUMC,3007822,Protein Fractions [Interpretation] in Urine by Electrophoresis,8097,0,No matching concept,1980,,,,,,,
+EUMC,3024172,Erythropoietin (EPO) [Units/volume] in Serum or Plasma,8034,9550,milli-international unit per milliliter,14599,0,3.8,10.9,24.7,85.83,349,65206
+EUMC,3014502,Neutrophils/100 leukocytes in Body fluid,8005,8554,percent,67700,0,0,1,20.0,73,90.0,999
+EUMC,3021453,Eosinophils/100 leukocytes in Body fluid,8002,8554,percent,67697,0,0,0,0,0,2,999
+EUMC,3028079,Lymphocytes/100 leukocytes in Body fluid,8002,8554,percent,67697,0,0,0,8,27,56,999
+EUMC,3003831,Ticarcillin+Clavulanate [Susceptibility],7938,0,No matching concept,51270,8,8,16,128,128,128,128
+EUMC,3007666,Histiocytes/100 cells in Cerebral spinal fluid,7937,8554,percent,44400,0,0,0,0,0,0,999
+EUMC,3006661,Calcium [Mass/volume] in Urine,7876,8840,milligram per deciliter,88851,0,0.8,2.1,6.1,10.6,16.4,185
+EUMC,3035880,pH of Pleural fluid,7762,0,No matching concept,16164,5.286,7.323,7.494,7.647,7.782,7.897,70799
+EUMC,3016201,Valproate [Mass/volume] in Serum or Plasma,7745,8859,microgram per milliliter,72514,0,21.9,35.9,51.7,66.93,84.89,628.9
+EUMC,3005791,Eosinophil cationic protein (ECP) [Mass/volume] in Serum,7741,8748,microgram per liter,21024,0,0,0,3.951,3.951,12.1,200.0
+EUMC,3021322,Cryoglobulin [Presence] in Serum,7728,0,No matching concept,24684,,,,,,,
+EUMC,3022174,Leukocytes [#/volume] in Body fluid,7652,8647,per microliter,3174,0,9,20.0,60.0,417,2766,854790.0
+EUMC,3022174,Leukocytes [#/volume] in Body fluid,7652,0,No matching concept,59748,,,,,,,
+EUMC,3010910,Erythrocytes [#/volume] in Body fluid,7652,8647,per microliter,3174,0,55,1000.0,1000.0,2000.0,12000.0,26620000.0
+EUMC,3010910,Erythrocytes [#/volume] in Body fluid,7652,0,No matching concept,59748,,,,,,,
+EUMC,3036353,Mesothelial cells/100 leukocytes in Body fluid,7647,8554,percent,62915,0,0,0,0,0,3,999
+EUMC,3038308,Chloride [Moles/volume] in Pleural fluid,7569,9557,milliequivalent per liter,91966,1,97,101,105,109,113,150.0
+EUMC,3033526,Urate [Mass/volume] in Urine,7530,8840,milligram per deciliter,76282,0,10.5,18.89,37.5,71.2,101.2,300.6
+EUMC,46235770,Candida albicans its gene [Presence] in Swab specimen by NAA with probe detection,7438,0,No matching concept,10171,,,,,,,
+EUMC,42529200,Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,7426,8763,unit per milliliter,531363,0,5.2,6.7,9.1,13.2,19,6544
+EUMC,40758428,Human papilloma virus 6+11+42+43+44 DNA [Presence] in Specimen by Probe with signal amplification,7419,0,No matching concept,9067,6,6,6,6,6,11,11
+EUMC,3032431,Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA [Presence] in Specimen by NAA with probe detection,7419,0,No matching concept,9067,16,18,51,53,68,68,82
+EUMC,3011544,Albumin [Mass/volume] in Pleural fluid,7345,8713,gram per deciliter,79276,0,0.9,1.3,1.9,2.4,2.9,8.8
+EUMC,3010634,Colistin [Susceptibility],7311,0,No matching concept,45178,0.25,0.5,0.5,0.5,0.5,2,16
+EUMC,37021179,Bordetella parapertussis DNA [Presence] in Respiratory system specimen by NAA with probe detection,6939,0,No matching concept,8039,,,,,,,
+EUMC,3016881,Enterovirus RNA [Presence] in Specimen by NAA with probe detection,6833,0,No matching concept,8025,,,,,,,
+EUMC,3041086,Calcium oxalate crystals [#/area] in Urine sediment by Microscopy low power field,6788,0,No matching concept,23916,,,,,,,
+EUMC,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,6705,8842,nanogram per milliliter,22847,0.01,0.098,0.174,0.333,0.586,0.912,5.81
+EUMC,3025361,cefTRIAXone [Susceptibility],6418,0,No matching concept,17185,0.12,0.12,0.12,0.12,0.5,1,8
+EUMC,3016324,Minocycline [Susceptibility],6355,0,No matching concept,36752,0.5,0.5,1,1,2,8,32
+EUMC,3010528,dRVVT actual/normal (normalized LA screen),6327,0,No matching concept,6792,,,,,,,
+EUMC,3004248,Sex hormone binding globulin [Moles/volume] in Serum or Plasma,6301,8736,nanomole per liter,12683,0,18.16,26.8,40.64,60.1,84.7,198.6
+EUMC,40758310,Human epididymis protein 4 [Moles/volume] in Serum or Plasma,6254,8729,picomole per liter,21310,0,38.2,44.1,50.3,76.4,352,6132
+EUMC,3030366,Cystatin C [Mass/volume] in Serum or Plasma,6208,8751,milligram per liter,10476,0.39,0.76,0.88,1.1,1.51,2.21,9.71
+EUMC,36660503,MTHFR gene c.677C>T and c.1298A>C [Genotype] in Blood or Tissue by Molecular genetics method Nominal,6200,0,No matching concept,6614,,,,,,,
+EUMC,3029859,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin C-based formula",6189,0,No matching concept,10408,3.03,24,41.99,65.45,92,110.0,180.0
+EUMC,3027370,Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,6179,8842,nanogram per milliliter,25692,0,1913.27,2304.01,2838,3509.07,4165.44,8180.8
+EUMC,3015884,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,6146,8837,microgram per deciliter,14642,0,16.72,31.64,60.74,118.7,215.02,815.94
+EUMC,3027391,Platelet function (closure time) collagen+ADP induced [Time] in Blood,6094,8555,second,20930,0,10.0,74,90.0,111,138,300.0
+EUMC,3037142,Thyrotropin [Units/volume] in DBS,6063,9093,micro-international unit per milliliter,19788,0,0,0,2.7,5.1,7.6,75.2
+EUMC,3020644,Phenylalanine [Mass/volume] in DBS,6062,8840,milligram per deciliter,19788,0,0,0,0.7,1.1,1.6,5.33
+EUMC,3050955,Galactose [Mass/volume] in DBS,6062,8840,milligram per deciliter,19788,0,0,0,0.8,2.6,4.3,28
+EUMC,3048386,17-Hydroxyprogesterone [Mass/volume] in DBS,6061,8842,nanogram per milliliter,19785,0,0,0,2.3,4.3,8.1,193.5
+EUMC,3010105,Interferon gamma [Mass/volume] in Serum or Plasma,6027,8845,picogram per milliliter,10481,40.1,94.5,220.2,565.4,1095.8,1587.8,1999.5
+EUMC,3013735,Carcinoembryonic Ag [Mass/volume] in Body fluid,6002,8842,nanogram per milliliter,31681,0,0,0.5,1.1,3.3,108,51423
+EUMC,3028718,17-Hydroxyprogesterone [Mass/volume] in Serum or Plasma,5997,8842,nanogram per milliliter,12496,0,0.25,0.47,0.78,1.33,2.49,917.48
+EUMC,3029759,Cold agglutinin [Presence] in Serum or Plasma,5949,0,No matching concept,27369,,,,,,,
+EUMC,3015592,Fungus identified in Body fluid by Culture,5689,0,No matching concept,10926,,,,,,,
+EUMC,3024950,Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection,5569,0,No matching concept,93,,,,,,,
+EUMC,3003510,Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection,5555,0,No matching concept,48,,,,,,,
+EUMC,36306032,Mycoplasma genitalium DNA [Presence] in Urine by NAA with probe detection,5555,0,No matching concept,48,,,,,,,
+EUMC,37020981,Trichomonas vaginalis DNA [Presence] in Urine by NAA with probe detection,5555,0,No matching concept,48,,,,,,,
+EUMC,3020629,Protein S Free Ag actual/normal in Platelet poor plasma by Immunoassay,5542,8554,percent,5810,13,57,66,78,91,104,185
+EUMC,42870569,Risk of ovarian malignancy algorithm score in Serum or Plasma --postmenopausal,5519,8554,percent,7486,1.9,6.23,8.08,11.44,18.8,33.8,99.77
+EUMC,42870568,Risk of ovarian malignancy algorithm score in Serum or Plasma --premenopausal,5519,8554,percent,7486,0.5,3.79,5,6.9,10.7,22.07,100.0
+EUMC,3036172,Chloride [Moles/volume] in Cerebral spinal fluid,5473,9557,milliequivalent per liter,53367,11,116,120.0,123,126,131,238
+EUMC,3030588,Histiocytes/100 leukocytes in Body fluid,5395,8554,percent,59748,0,0,3,15,42,69,999
+EUMC,3019029,Microscopic observation [Identifier] in Pus by Gram stain,5391,0,No matching concept,10247,,,,,,,
+EUMC,3010989,Calcitonin [Mass/volume] in Serum or Plasma,5348,8845,picogram per milliliter,12407,0,1.3,1.84,2.75,4.02,5.9,2119.5
+EUMC,3027003,Microscopic observation [Identifier] in Body fluid by Gram stain,5312,0,No matching concept,13365,,,,,,,
+EUMC,3002022,Protein C Ag actual/normal in Platelet poor plasma by Immunoassay,5308,8554,percent,5538,24.34,70.77,84.31,100.06,118.93,135.51,203
+EUMC,3030558,Cytomegalovirus DNA [Units/volume] (viral load) in Specimen by NAA with probe detection,5259,0,No matching concept,43793,30.0,30.0,30.0,31,142,598,1833711
+EUMC,3044904,Oxygen content in Blood,5196,8753,millimole per liter,16958,5.4,19.2,21,22.7,24.4,26.1,54.8
+EUMC,3036426,Calcium.ionized [Mass/volume] in Blood,5187,8840,milligram per deciliter,23877,0.54,4.04,4.29,4.57,4.89,6.36,12.58
+EUMC,3036180,Methadone [Presence] in Urine,5169,0,No matching concept,5514,,,,,,,
+EUMC,3017509,Phencyclidine [Presence] in Urine,5169,0,No matching concept,5514,,,,,,,
+EUMC,3001526,Acetaminophen [Presence] in Urine,5166,0,No matching concept,5498,,,,,,,
+EUMC,3028502,Macrophages/100 leukocytes in Cerebral spinal fluid,5122,8554,percent,10314,0,0,0,0,0,6,100.0
+EUMC,46234850,Other cells/100 leukocytes in Cerebral spinal fluid by Manual count,5122,8554,percent,10315,0,0,0,0,0,0,74
+EUMC,3053157,Plasma cells/100 leukocytes in Cerebral spinal fluid,5122,8554,percent,10314,0,0,0,0,0,0,22
+EUMC,3013157,Ampicillin+Sulbactam [Susceptibility],5056,0,No matching concept,27673,2,2,16,32,32,32,64
+EUMC,36303547,Microscopic observation [Identifier] in Lower respiratory specimen by KOH preparation,5022,0,No matching concept,8353,,,,,,,
+EUMC,3024194,Bacteria identified in Pleural fluid by Culture,5016,0,No matching concept,11118,,,,,,,
+EUMC,3019174,dRVVT (LA screen),5009,8555,second,31404,0,32.6,35,38.3,43.7,52.2,181.5
+EUMC,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,5007,0,No matching concept,10075,,,,,,,
+EUMC,3042585,Pyridoxine [Moles/volume] in Serum or Plasma,4813,8736,nanomole per liter,5275,2.79,14.48,26.65,54.26,118.14,261.02,944.7
+EUMC,3032029,Measles virus IgG Ab [Presence] in Serum by Immunoassay,4762,0,No matching concept,2362,0.14,1.82,3.37,27.6,151,300.0,300.0
+EUMC,3032029,Measles virus IgG Ab [Presence] in Serum by Immunoassay,4762,8980,arbitrary unit per milliliter,2944,5,22.7,59.7,167,300.0,300.0,300.0
+EUMC,3040900,Plasma cells/100 leukocytes in Pleural fluid by Manual count,4741,8554,percent,8943,0,0,0,0,0,1,100.0
+EUMC,46234832,Other cells/100 leukocytes in Pleural fluid by Manual count,4741,8554,percent,8944,0,0,0,0,0,0,73
+EUMC,3028308,Erythrocytes [#/volume] in Pleural fluid,4741,8647,per microliter,8945,0,1000.0,1000.0,3000.0,14000.0,75000.0,23000000.0
+EUMC,3023199,Leukocytes [#/volume] in Pleural fluid,4741,8647,per microliter,8945,0,140.0,311,757,2100.0,6577,2519500.0
+EUMC,3039528,Macrophages/100 leukocytes in Pleural fluid by Manual count,4741,8554,percent,8943,0,5,12,27,48,66,288
+EUMC,3016080,Myeloperoxidase Ab [Presence] in Serum,4706,0,No matching concept,46992,,,,,,,
+EUMC,3009401,levoFLOXacin [Susceptibility],4676,0,No matching concept,25272,0.12,0.25,0.5,2,8,8,16
+EUMC,3021940,Eosinophils/100 leukocytes in Sputum,4605,8554,percent,9413,0,0,0,0,0,0,99
+EUMC,3001145,Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,4582,0,No matching concept,51177,,,,,,,
+EUMC,3012096,Microscopic observation [Identifier] in Specimen by KOH preparation,4564,0,No matching concept,7724,,,,,,,
+EUMC,3016585,Aldosterone [Mass/volume] in Serum or Plasma --baseline,4548,8845,picogram per milliliter,12511,0,0,24.58,62.33,131.9,242.36,57330.0
+EUMC,3045330,Bacteria identified in Cervix by Culture,4463,0,No matching concept,6407,,,,,,,
+EUMC,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,4431,44777561,arbitrary unit per liter,11726,0.66,15,18.15,23.47,33,171.17,30000.0
+EUMC,3040326,Microscopic observation [Identifier] in Body fluid by Rhodamine-auramine fluorochrome stain,4387,0,No matching concept,7359,,,,,,,
+EUMC,3002125,Leukocytes [#/volume] in Cerebral spinal fluid by Automated count,4373,0,No matching concept,24771,,,,,,,
+EUMC,3012986,Erythrocytes [#/volume] in Cerebral spinal fluid by Automated count,4373,0,No matching concept,24771,,,,,,,
+EUMC,3019965,Metanephrine [Mass/time] in 24 hour Urine,4364,8909,milligram per 24 hours,12293,0,0.15,0.23,0.32,0.46,0.64,17.88
+EUMC,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,4343,0,No matching concept,8803,,,,,,,
+EUMC,3010475,Direct antiglobulin test.complement specific reagent [Presence] on Red Blood Cells,4309,0,No matching concept,18633,,,,,,,
+EUMC,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,4304,0,No matching concept,14202,,,,,,,
+EUMC,1001830,"1,3 beta glucan [Presence] in Serum",4284,8845,picogram per milliliter,36390,10.0,10.0,10.0,10.0,10.0,198.4,15000.0
+EUMC,36305217,Fungus identified in Pleural fluid by Culture,4261,0,No matching concept,7616,,,,,,,
+EUMC,3023428,Smith extractable nuclear Ab [Presence] in Serum,4255,8763,unit per milliliter,7144,0,0.5,1.3,2.2,3.9,47.2,481
+EUMC,3025591,Vanillylmandelate [Mass/time] in 24 hour Urine,4251,8909,milligram per 24 hours,12827,0,1.83,2.56,3.47,4.57,5.96,72.93
+EUMC,3038176,Quinupristin+Dalfopristin [Susceptibility],4190,0,No matching concept,21756,0.25,0.5,0.5,0.5,1,2,16
+EUMC,3008025,Ribonucleoprotein extractable nuclear Ab [Presence] in Serum,4185,8763,unit per milliliter,7064,0,0.6,1,1.7,3,52.7,241
+EUMC,3002661,Tobramycin [Susceptibility],4115,0,No matching concept,21461,1,1,1,1,16,16,16
+EUMC,3040868,Escherichia coli O157:H7 DNA [Presence] in Specimen by NAA with probe detection,4102,0,No matching concept,45,,,,,,,
+EUMC,42870368,Campylobacter sp DNA.diarrheagenic [Presence] in Stool by NAA with probe detection,4102,0,No matching concept,45,,,,,,,
+EUMC,3048762,Shigella sp DNA [Presence] in Specimen by NAA with probe detection,4102,0,No matching concept,45,,,,,,,
+EUMC,37020818,Yersinia enterocolitica DNA [Presence] in Stool by NAA with probe detection,4102,0,No matching concept,45,,,,,,,
+EUMC,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,4094,8842,nanogram per milliliter,12129,0,5.9,9.41,14.5,21.8,38.6,1314.2
+EUMC,3029521,Vibrio sp DNA [Identifier] in Specimen by NAA with probe detection,4091,0,No matching concept,4544,,,,,,,
+EUMC,21493560,Escherichia coli Stx1 and Stx2 toxin stx1+stx2 genes [Presence] in Stool by NAA with probe detection,4091,0,No matching concept,4544,,,,,,,
+EUMC,3018167,Smooth muscle Ab [Presence] in Serum by Immunofluorescence,4067,0,No matching concept,6864,,,,,,,
+EUMC,3009804,Carcinoembryonic Ag [Mass/volume] in Pleural fluid,4036,8842,nanogram per milliliter,6816,0.2,0.6,0.9,1.8,3.9,27.8,37163
+EUMC,3023150,Myeloperoxidase Ab [Units/volume] in Serum,3989,8985,international unit per milliliter,59736,0,0,0,0,0,0,100.0
+EUMC,3009445,Proteinase 3 Ab [Units/volume] in Serum,3989,8985,international unit per milliliter,59736,0,0,0,0,0,0,22
+EUMC,3021660,Color of Peritoneal fluid,3989,0,No matching concept,13149,,,,,,,
+EUMC,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,3957,0,No matching concept,17069,,,,,,,
+EUMC,3024271,Mesothelial cells/100 leukocytes in Peritoneal fluid,3955,8554,percent,20438,0,0,0,1,3,6,81
+EUMC,3004437,Lymphocytes/100 leukocytes in Peritoneal fluid,3955,8554,percent,20438,0,0,7,21,41,62,100.0
+EUMC,3004995,Neutrophils/100 leukocytes in Peritoneal fluid,3955,8554,percent,20438,0,0,1,6,25,68,100.0
+EUMC,3019298,Eosinophils/100 leukocytes in Peritoneal fluid,3955,8554,percent,20438,0,0,0,0,0,1,60.0
+EUMC,3039496,Microscopic observation [Identifier] in Pleural fluid by Rhodamine-auramine fluorochrome stain,3953,0,No matching concept,7325,,,,,,,
+EUMC,3004512,Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,3911,0,No matching concept,20724,,,,,,,
+EUMC,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,3908,0,No matching concept,21560,,,,,,,
+EUMC,40769539,Bacteria identified based on 16S rRNA gene [Identifier] in Specimen by Sequencing,3902,0,No matching concept,3959,,,,,,,
+EUMC,3051552,Clostridioides difficile toxin genes [Presence] in Stool by NAA with probe detection,3895,0,No matching concept,18891,,,,,,,
+EUMC,3013201,Beta-2-Microglobulin [Mass/volume] in Serum or Plasma,3840,8751,milligram per liter,9212,0,1,1.5,2.18,3.34,5.64,1111
+EUMC,3013201,Beta-2-Microglobulin [Mass/volume] in Serum or Plasma,3840,8842,nanogram per milliliter,63157,0,1530.0,1860.0,2450.0,3770.0,6790.0,112000.0
+EUMC,3026071,Glucose [Mass/volume] in Serum or Plasma --1 hour post meal,3782,8840,milligram per deciliter,10002,39,92,106,123,145,171,586
+EUMC,3028269,Bacteria identified in Vaginal fluid by Aerobe culture,3759,0,No matching concept,6555,,,,,,,
+EUMC,3008075,Hepatitis C virus RNA [Presence] in Blood by NAA with probe detection,3754,0,No matching concept,17058,,,,,,,
+EUMC,40758731,Microscopic observation [Identifier] in Pleural fluid by Cyto stain,3743,0,No matching concept,6995,,,,,,,
+EUMC,3002331,Protein [Mass/volume] in Peritoneal fluid,3724,8713,gram per deciliter,54282,0,0.7,1.5,504,1700.0,3300.0,9000.0
+EUMC,40770975,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid by Lactate to pyruvate reaction,3698,8645,unit per liter,53878,1,39,57,102,234,587,81800.0
+EUMC,3002240,Glucose [Mass/volume] in Peritoneal fluid,3689,0,No matching concept,4492,1,83,109,131,160.0,203,832
+EUMC,3002240,Glucose [Mass/volume] in Peritoneal fluid,3689,8840,milligram per deciliter,49401,1,78,104,127,153,196,1116
+EUMC,40765038,"1,25-Dihydroxyvitamin D [Mass/volume] in Serum or Plasma",3627,8845,picogram per milliliter,5539,1.45,18.03,28.2,41.73,59.89,85.25,302.88
+EUMC,3009944,Mycobacterium tuberculosis DNA [Presence] in Pleural fluid by NAA with probe detection,3611,0,No matching concept,5876,,,,,,,
+EUMC,3033252,Adenosine deaminase [Enzymatic activity/volume] in Peritoneal fluid,3606,8645,unit per liter,53398,0,0,3.1,8,15,27.9,910.0
+EUMC,3049714,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum,3563,8842,nanogram per milliliter,5493,5.15,13.5,23.5,44.5,80.1,156,1185
+EUMC,3019210,Glucose [Mass/volume] in Body fluid,3540,8840,milligram per deciliter,36081,0,28,72,102,144,289,3500.0
+EUMC,3048689,Calprotectin [Mass/mass] in Stool,3514,9562,milligram per kilogram,7028,0.28,7.34,20.23,77.94,385.53,1515.21,6000.0
+EUMC,3011564,Rubella virus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,3496,0,No matching concept,19356,,,,,,,
+EUMC,3041942,Cyclic citrullinated peptide Ab [Units/volume] in Serum,3439,8763,unit per milliliter,12636,0,0,0,0.6,1.9,7,1000.0
+EUMC,3037296,Leukocytes [#/volume] in Pleural fluid by Automated count,3430,0,No matching concept,18267,,,,,,,
+EUMC,3020775,Erythrocytes [#/volume] in Pleural fluid by Automated count,3430,0,No matching concept,18267,,,,,,,
+EUMC,3041613,Histiocytes/100 cells in Pleural fluid by Manual count,3430,8554,percent,18267,0,0,0,10.0,31,58,98
+EUMC,1176112,Fungus identified in Lower respiratory specimen by Culture,3427,0,No matching concept,6514,,,,,,,
+EUMC,3000494,Fungus identified in Specimen by Culture,3423,0,No matching concept,5547,,,,,,,
+EUMC,3021440,Promyelocytes/100 leukocytes in Blood,3350,8554,percent,14646,0,1,1,1,2,5,96
+EUMC,3021440,Promyelocytes/100 leukocytes in Blood,3350,0,No matching concept,78,,,,,,,
+EUMC,3015532,Bacteria identified in Bronchial specimen by Aerobe culture,3335,0,No matching concept,6011,,,,,,,
+EUMC,3009678,Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay,3322,0,No matching concept,2084,0.06,1.38,2.01,2.55,2.85,3.06,4.22
+EUMC,3009678,Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay,3322,8779,signal to cutoff ratio,1311,0.07,1.25,2.01,2.55,2.89,3.1,4.68
+EUMC,3039355,Methicillin resistant Staphylococcus aureus [Presence] in Nose by Organism specific culture,3320,0,No matching concept,9893,,,,,,,
+EUMC,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,3315,0,No matching concept,4721,,,,,,,
+EUMC,3005277,Mitochondria Ab [Presence] in Serum by Immunofluorescence,3281,0,No matching concept,3421,,,,,,,
+EUMC,3009471,Fatty acids.nonesterified [Moles/volume] in Serum or Plasma,3265,8875,microequivalent per liter,23024,0,224,376,564,790.0,1062,3925
+EUMC,3023709,Somatotropin [Mass/volume] in Serum or Plasma,3261,8842,nanogram per milliliter,21691,0,0,0.06,0.56,2.38,9.92,1837
+EUMC,3016948,Activated clotting time (ACT) of Blood by Coagulation assay,3207,0,No matching concept,25054,0,135,152,177,355,491,1000.0
+EUMC,3004198,Follitropin [Units/volume] in Serum or Plasma --baseline,3205,9550,milli-international unit per milliliter,5533,0.3,0.9,1.5,2.4,3.9,5.5,69.7
+EUMC,3026692,Albumin [Mass/volume] in Peritoneal fluid,3203,8713,gram per deciliter,41325,0,0.3,0.4,0.7,1.5,2.1,4.3
+EUMC,3025119,Lutropin [Units/volume] in Serum or Plasma --baseline,3202,9550,milli-international unit per milliliter,5528,0.3,0.3,0.3,0.3,2,4.5,117
+EUMC,3052592,Norovirus Ag [Presence] in Stool,3199,0,No matching concept,3939,0,0.14,0.23,0.32,0.48,1,45.86
+EUMC,1176246,Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain,3195,0,No matching concept,17179,,,,,,,
+EUMC,40758351,Microscopic observation [Identifier] in Aspirate by Rhodamine-auramine fluorochrome stain,3171,0,No matching concept,5722,,,,,,,
+EUMC,3016914,Bacteria identified in Cerebral spinal fluid by Culture,3114,0,No matching concept,7422,,,,,,,
+EUMC,3002079,Sodium [Moles/time] in 24 hour Urine,3111,0,No matching concept,49062,,,,,,,
+EUMC,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,3095,0,No matching concept,30,,,,,,,
+EUMC,3011461,Vancomycin [Mass/volume] in Serum or Plasma --peak,3092,8859,microgram per milliliter,7534,0.2,16.5,20.2,24.9,31.4,40.1,200.0
+EUMC,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,3085,0,No matching concept,27735,,,,,,,
+EUMC,42529212,Epstein Barr virus capsid+early IgG Ab [Presence] in Serum by Immunoassay,3083,8779,signal to cutoff ratio,45819,0,0,0.08,1.85,3.89,5.08,7.57
+EUMC,40760874,Microscopic exam [Interpretation] of Bone marrow by Cytology,3083,0,No matching concept,5154,,,,,,,
+EUMC,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,3052,8842,nanogram per milliliter,3538,0.19,0.72,1.05,1.58,2.34,3.27,292.5
+EUMC,3003714,Bacteria identified in Wound by Culture,3035,0,No matching concept,11066,,,,,,,
+EUMC,3033230,Cytomegalovirus DNA [#/volume] (viral load) in Specimen by NAA with probe detection,3030,0,No matching concept,21796,20.0,20.0,20.0,22,84,266,1175455
+EUMC,3033104,Yeast.pseudohyphae [Presence] in Urine sediment by Light microscopy,2937,0,No matching concept,13215,,,,,,,
+EUMC,3000855,Microscopic observation [Identifier] in Vaginal fluid by Gram stain,2909,0,No matching concept,51,,,,,,,
+EUMC,3026355,Reagin Ab [Units/volume] in Serum or Plasma by RPR,2885,0,No matching concept,3340,,,,,,,
+EUMC,3023871,Helicobacter pylori IgG Ab [Presence] in Serum or Plasma by Immunoassay,2881,0,No matching concept,3085,0.4,0.4,0.49,0.75,2.66,6.23,8
+EUMC,3026501,Reagin Ab [Titer] in Serum by RPR,2875,0,No matching concept,3052,,,,,,,
+EUMC,3007654,Microscopic observation [Identifier] in Wound by Gram stain,2861,0,No matching concept,4939,,,,,,,
+EUMC,3010047,Microscopic observation [Identifier] in Body fluid by Acid fast stain,2826,0,No matching concept,15006,,,,,,,
+EUMC,36304562,Pneumocystis jiroveci DNA [Presence] in Lower respiratory specimen by NAA with probe detection,2781,0,No matching concept,3690,,,,,,,
+EUMC,40758562,Immature cells/100 leukocytes in Blood,2756,8554,percent,38786,0,1,1,5,33,78,100.0
+EUMC,3034165,Alpha-1-Fetoprotein [Mass/volume] in Body fluid,2729,8842,nanogram per milliliter,19840,0,0,0.6,1.2,3.6,1155,914276
+EUMC,3015579,Color of Body fluid,2703,0,No matching concept,4782,,,,,,,
+EUMC,3038943,Toxoplasma gondii IgM Ab [Presence] in Serum or Plasma by Immunoassay,2702,0,No matching concept,29466,,,,,,,
+EUMC,3042476,Urate crystals amorphous [#/area] in Urine sediment by Microscopy low power field,2653,0,No matching concept,8571,,,,,,,
+EUMC,3010761,Herpes simplex virus IgM Ab [Presence] in Serum,2635,0,No matching concept,19011,,,,,,,
+EUMC,3047826,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma,2606,8842,nanogram per milliliter,8532,0,0,0.1,2.06,4.72,8.27,21
+EUMC,3005356,Cytomegalovirus IgG Ab [Units/volume] in Serum or Plasma by Immunoassay,2593,0,No matching concept,37557,,,,,,,
+EUMC,3017612,Epstein Barr virus nuclear IgG Ab [Presence] in Serum by Immunoassay,2579,8779,signal to cutoff ratio,38118,-0.01,0,0,4.74,8.62,10.25,13.29
+EUMC,3043425,Karyotype [Identifier] in Bone marrow Nominal,2564,0,No matching concept,4019,,,,,,,
+EUMC,3051269,Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain,2503,0,No matching concept,2974,,,,,,,
+EUMC,3026729,Phosphate [Mass/volume] in Urine,2481,8840,milligram per deciliter,26849,0,12.9,25.5,35.3,52.66,72.5,280.4
+EUMC,3016330,Potassium [Moles/time] in 24 hour Urine,2438,0,No matching concept,39648,,,,,,,
+EUMC,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,2427,0,No matching concept,8765,,,,,,,
+EUMC,3037615,Salmonella typhi H Ab [Titer] in Serum,2405,0,No matching concept,21552,,,,,,,
+EUMC,3037960,Salmonella typhi O Ab [Titer] in Serum,2405,0,No matching concept,21552,,,,,,,
+EUMC,3012336,Haptoglobin [Mass/volume] in Serum or Plasma,2403,8840,milligram per deciliter,5814,0,0,23,74,127,187,526
+EUMC,3051427,Turbidity [Presence] of Synovial fluid Qualitative,2385,0,No matching concept,4467,,,,,,,
+EUMC,3001729,Color of Synovial fluid,2384,0,No matching concept,4467,,,,,,,
+EUMC,3001529,Microscopic observation [Identifier] in Cervix by Gram stain,2381,0,No matching concept,2736,,,,,,,
+EUMC,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,2364,8748,microgram per liter,13389,0,7.5,9.8,14,22.6,37.2,207.6
+EUMC,3010144,Erythrocytes [#/volume] in Synovial fluid,2353,8647,per microliter,5260,0,12.137,1000.0,3730.0,10000.0,130000.0,12131321
+EUMC,3010144,Erythrocytes [#/volume] in Synovial fluid,2353,0,No matching concept,4467,,,,,,,
+EUMC,3000475,Leukocytes [#/volume] in Synovial fluid,2337,8647,per microliter,5223,1.463,106,444,1640.0,53801,66972,54545323
+EUMC,3000475,Leukocytes [#/volume] in Synovial fluid,2337,0,No matching concept,4467,,,,,,,
+EUMC,3035611,Eosinophils/100 leukocytes in Synovial fluid,2332,8554,percent,6833,0,0,0,0,0,0,52
+EUMC,3003329,Lymphocytes/100 leukocytes in Synovial fluid,2332,8554,percent,6833,0,0,0,5,20.0,44,95
+EUMC,3013166,Neutrophils/100 leukocytes in Synovial fluid,2332,8554,percent,6833,0,0,1,46,84,92,112
+EUMC,3044495,Bacteria identified in Tissue by Culture,2329,0,No matching concept,8576,,,,,,,
+EUMC,3006257,Acetylcholine receptor Ab [Moles/volume] in Serum,2305,8736,nanomole per liter,2691,0.01,0.07,0.07,0.08,2.45,8.45,21.43
+EUMC,3016662,Creatinine [Mass/volume] in Body fluid,2304,8840,milligram per deciliter,6728,0.1,0.6,0.75,0.98,1.91,18.82,171.66
+EUMC,3034552,Adenosine deaminase [Enzymatic activity/volume] in Cerebral spinal fluid,2258,8645,unit per liter,8273,-0.8,0,0.1,1.2,3.5,8.1,241.5
+EUMC,46235833,Other cells/100 leukocytes in Body fluid,2256,8554,percent,3168,0,0,0,0,0,0,100.0
+EUMC,3011681,Plasma cells/100 leukocytes in Body fluid,2255,8554,percent,3167,0,0,0,0,0,0,18
+EUMC,3024126,Macrophages/100 leukocytes in Body fluid,2255,8554,percent,3167,0,0,0,5,24,54,100.0
+EUMC,3038104,Monocytes/100 leukocytes in Body fluid,2255,8554,percent,3167,0,0,0,0,2,13,90.0
+EUMC,3021043,Morphine [Presence] in Urine,2246,0,No matching concept,7236,,,,,,,
+EUMC,3003450,Orthocresol/Creatinine [Mass Ratio] in Urine,2245,0,No matching concept,3717,0.002,0.004,0.005,0.005,0.006,0.083,0.376
+EUMC,3022551,Methylenedioxymethamphetamine [Presence] in Urine,2244,0,No matching concept,7230,,,,,,,
+EUMC,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,2232,0,No matching concept,1659,22,232,18700.0,428000.0,2530000.0,11700000.0,16900000.0
+EUMC,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,2232,8985,international unit per milliliter,11160,0,0,0,0,0,218000.0,31800000.0
+EUMC,3045068,Mycoplasma pneumoniae IgG Ab [Presence] in Serum by Immunoassay,2202,0,No matching concept,2537,0.04,0.28,0.49,0.8,1.43,1.84,4.27
+EUMC,3028048,Mycobacterium tuberculosis DNA [Presence] in Bronchial specimen by NAA with probe detection,2199,0,No matching concept,2456,,,,,,,
+EUMC,3004448,Specific gravity of Pleural fluid by Refractometry,2169,0,No matching concept,10791,,,,,,,
+EUMC,3011565,Microscopic observation [Identifier] in Tissue by Gram stain,2168,0,No matching concept,4679,,,,,,,
+EUMC,3022506,Estradiol (E2) [Mass/volume] in Serum or Plasma --baseline,2148,8845,picogram per milliliter,2595,5,5,5,5,9,20.0,164
+EUMC,3006567,Chloride [Moles/time] in 24 hour Urine,2147,0,No matching concept,35856,,,,,,,
+EUMC,40764133,Human papilloma virus 16 DNA [Presence] in Specimen by NAA with probe detection,2132,0,No matching concept,15,,,,,,,
+EUMC,40764134,Human papilloma virus 18 DNA [Presence] in Specimen by NAA with probe detection,2132,0,No matching concept,15,,,,,,,
+EUMC,46236080,Human papilloma virus 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Presence] in Specimen by NAA with probe detection,2127,0,No matching concept,4852,,,,,,,
+EUMC,3017055,Platelet aggregation ADP induced in Platelet rich plasma,2111,8554,percent,6969,0,0,0,0,0,4.223,9
+EUMC,3019439,Fungus identified in Tissue by Culture,2091,0,No matching concept,4667,,,,,,,
+EUMC,3029455,Calcium oxalate crystals [Presence] in Urine by Computer assisted method,2082,0,No matching concept,2306,,,,,,,
+EUMC,3009613,Erythrocytes [#/volume] in Peritoneal fluid,2064,8647,per microliter,7290,0,1000.0,1000.0,1000.0,3941,24000.0,27000000.0
+EUMC,3041137,Plasma cells/100 leukocytes in Peritoneal fluid by Manual count,2064,8554,percent,7289,0,0,0,0,0,1,30.0
+EUMC,3041635,Macrophages/100 leukocytes in Peritoneal fluid by Manual count,2064,8554,percent,7289,0,12,27,48,66,79,100.0
+EUMC,46234826,Other cells/100 leukocytes in Peritoneal fluid by Manual count,2064,8554,percent,7289,0,0,0,0,0,0,91
+EUMC,3023487,Leukocytes [#/volume] in Peritoneal fluid,2064,8647,per microliter,7290,0,63,113,247,725,2560.0,2400000.0
+EUMC,3032493,dRVVT/dRVVT W excess phospholipid (screen to confirm ratio),2061,0,No matching concept,2607,0.63,0.92,0.95,1.01,1.09,1.25,3.32
+EUMC,3012220,Varicella zoster virus IgM Ab [Presence] in Serum by Immunoassay,2051,0,No matching concept,17193,,,,,,,
+EUMC,42529210,Digoxin [Mass/volume] in Serum or Plasma by Immunoassay,2038,8842,nanogram per milliliter,16235,0,0.19,0.47,0.78,1.22,1.8,44
+EUMC,3009726,Microscopic observation [Identifier] in Tissue by KOH preparation,2032,0,No matching concept,4461,,,,,,,
+EUMC,3002433,Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection,2027,0,No matching concept,6486,,,,,,,
+EUMC,40758965,Cortisol Free [Mass/time] in 24 hour Urine by Radioimmunoassay (RIA),2007,8906,microgram per 24 hours,3330,0.49,19.51,29.75,49.25,105.19,394.33,10562.22
+EUMC,3007930,Methemoglobin/Hemoglobin.total in Blood,1992,8554,percent,13992,-0.1,0.6,0.9,1.2,1.6,2,27
+EUMC,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,1987,0,No matching concept,4946,,,,,,,
+EUMC,3024212,Fungus identified in Bronchial specimen by Culture,1946,0,No matching concept,2314,,,,,,,
+EUMC,3017381,Microscopic observation [Identifier] in Specimen by Rhodamine-auramine fluorochrome stain,1940,0,No matching concept,3887,,,,,,,
+EUMC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,1938,8554,percent,13548,-7.9,0,0.6,1.1,1.8,5,84.9
+EUMC,3007853,Bacteria identified in Skin by Aerobe culture,1938,0,No matching concept,3241,,,,,,,
+EUMC,3025037,Bacteria identified in Peritoneal fluid by Culture,1919,0,No matching concept,5484,,,,,,,
+EUMC,40760952,Erythrocytes [#/volume] in Peritoneal fluid by Automated count,1891,0,No matching concept,13149,,,,,,,
+EUMC,3033822,Leukocytes [#/volume] in Peritoneal fluid by Automated count,1891,0,No matching concept,13149,,,,,,,
+EUMC,3041062,Histiocytes/100 cells in Peritoneal fluid by Manual count,1891,8554,percent,13149,0,0,5,31,60.0,76,100.0
+EUMC,3017457,Urea nitrogen [Mass/time] in 24 hour Urine,1880,8909,milligram per 24 hours,61412,12,1496,3186,5162,7462,9744,55838
+EUMC,3020149,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,1860,8842,nanogram per milliliter,10716,0,7.51,14.5,24.42,36.31,48.58,130.0
+EUMC,36305203,Microscopic observation [Identifier] in Blood by Gram stain,1796,0,No matching concept,2473,,,,,,,
+EUMC,40758729,Microscopic observation [Identifier] in Peritoneal fluid by Cyto stain,1791,0,No matching concept,4187,,,,,,,
+EUMC,3011520,Treponema pallidum Ab [Presence] in Serum by Immunoassay,1768,0,No matching concept,1811,,,,,,,
+EUMC,3019385,Microscopic observation [Identifier] in Ear by Gram stain,1717,0,No matching concept,2185,,,,,,,
+EUMC,3019001,Bacteria identified in Body fluid by Anaerobe culture,1685,0,No matching concept,2137,,,,,,,
+EUMC,3035133,Fungus identified in Wound by Culture,1656,0,No matching concept,2883,,,,,,,
+EUMC,3000835,Fungus identified in Peritoneal fluid by Culture,1612,0,No matching concept,3446,,,,,,,
+EUMC,3018517,Mitochondria Ab [Presence] in Serum,1602,0,No matching concept,8721,,,,,,,
+EUMC,3036581,Mucus [#/area] in Urine sediment by Microscopy low power field,1598,0,No matching concept,5001,,,,,,,
+EUMC,3009361,Monocytes/100 leukocytes in Synovial fluid,1586,8554,percent,2366,0,0,2,9,22,47,97
+EUMC,46234831,Other cells/100 leukocytes in Synovial fluid by Manual count,1586,8554,percent,2366,0,0,0,0,0,0,8
+EUMC,3034891,Synovial lining cells/100 cells in Synovial fluid,1586,8554,percent,2366,0,0,0,0,1,4,64
+EUMC,3029170,Macrophages/100 leukocytes in Synovial fluid,1586,8554,percent,2366,0,0,0,3,13,39,95
+EUMC,36303955,Microscopic observation [Identifier] in Bile fluid by Acid fast stain,1578,0,No matching concept,4275,,,,,,,
+EUMC,3038536,Toxoplasma gondii IgG Ab [Presence] in Serum by Immunoassay,1521,0,No matching concept,19185,,,,,,,
+EUMC,40761553,Hepatitis B virus surface Ag [Units/volume] in Serum,1495,8985,international unit per milliliter,2309,0.05,0.05,0.05,517.2,2637.78,7154.89,87881.73
+EUMC,3039493,Microscopic observation [Identifier] in Peritoneal fluid by Rhodamine-auramine fluorochrome stain,1487,0,No matching concept,3134,,,,,,,
+EUMC,3012133,Amylase [Enzymatic activity/volume] in Body fluid,1486,8923,international unit per liter,7418,1.8,13,30.0,127,855,5207,1987000.0
+EUMC,3019250,Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay,1482,0,No matching concept,1579,6,46,60.0,83,112,138,367
+EUMC,3020472,Cancer Ag 19-9 [Units/volume] in Body fluid,1482,8763,unit per milliliter,2700,0.6,2,3,5.9,20.5,688,10000.0
+EUMC,3012337,Microscopic observation [Identifier] in Tissue by Acid fast stain,1462,0,No matching concept,4603,,,,,,,
+EUMC,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,1461,0,No matching concept,9258,,,,,,,
+EUMC,3021835,Urate [Mass/time] in 24 hour Urine,1431,8909,milligram per 24 hours,18219,4.86,179,288,440.0,627,827.28,2130.0
+EUMC,3023571,Fungi.yeastlike [Presence] in Urine sediment by Light microscopy,1399,8786,per high power field,1990,,,,,,,
+EUMC,3053209,Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum,1388,0,No matching concept,2568,0,0.1,0.73,1.17,1.93,8.69,5121.14
+EUMC,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,1388,8751,milligram per liter,8064,0,0,0,12.03,29.43,93.83,34309
+EUMC,3034860,Kappa light chains.free [Mass/volume] in Serum,1388,8751,milligram per liter,8064,0,0,0,14.76,33.6,99.42,78763.1
+EUMC,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,1381,0,No matching concept,6198,1.42,16.84,26.17,43.75,72.09,117.06,789.53
+EUMC,3007687,Calcium [Mass/time] in 24 hour Urine,1380,8909,milligram per 24 hours,20778,0.1,10.4,28.86,80.62,161,252.56,1039.5
+EUMC,3002446,Reagin Ab [Presence] in Cerebral spinal fluid by VDRL,1380,0,No matching concept,8022,,,,,,,
+EUMC,3048529,Troponin T.cardiac [Mass/volume] in Blood,1374,8842,nanogram per milliliter,4269,0,0,0,0,0,0,0.893
+EUMC,3008560,Mumps virus IgM Ab [Presence] in Serum by Immunoassay,1345,0,No matching concept,6462,,,,,,,
+EUMC,3038989,Phosphate crystals amorphous [#/area] in Urine sediment by Microscopy low power field,1325,0,No matching concept,4668,,,,,,,
+EUMC,3006761,Bacteria identified in Synovial fluid by Culture,1302,0,No matching concept,2012,,,,,,,
+EUMC,3018291,Platelet Ab [Presence] in Serum,1291,0,No matching concept,4083,,,,,,,
+EUMC,3028333,Cardiolipin IgG Ab [Presence] in Serum,1290,0,No matching concept,12756,,,,,,,
+EUMC,3005543,Specific gravity of Peritoneal fluid by Refractometry,1269,0,No matching concept,7872,,,,,,,
+EUMC,3007778,Kappa light chains/Lambda light chains [Mass Ratio] in Serum,1269,0,No matching concept,5496,-16344.5,-55.91,-3.34,3,17.18,94.29,18161.86
+EUMC,3023037,pH of Peritoneal fluid,1269,0,No matching concept,7872,,,,,,,
+EUMC,3031354,Microscopic observation [Identifier] in Cerebral spinal fluid by Cyto stain,1263,0,No matching concept,2763,,,,,,,
+EUMC,3010300,Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,1255,8840,milligram per deciliter,1725,34,97,111,131,157,192,395
+EUMC,3005029,Protein [Mass/volume] in Body fluid,1246,8713,gram per deciliter,10548,0,1700.0,3600.0,4500.0,5200.0,6000.0,16600.0
+EUMC,3027144,Progesterone [Mass/volume] in Serum or Plasma,1231,8842,nanogram per milliliter,6714,0,0,0.16,3.07,15.49,24.97,273.19
+EUMC,706163,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection,1228,0,No matching concept,1444,,,,,,,
+EUMC,3006157,Reagin Ab [Titer] in Cerebral spinal fluid by VDRL,1203,0,No matching concept,7434,,,,,,,
+EUMC,3040849,Epstein Barr virus early IgG Ab [Presence] in Serum by Immunoassay,1195,8763,unit per milliliter,8886,0,0,0,0,0,0,4.792
+EUMC,3026286,Lipase [Enzymatic activity/volume] in Body fluid,1187,8645,unit per liter,6917,2,9,30.0,281,2967,14900.0,196000.0
+EUMC,3011781,Mumps virus IgG Ab [Presence] in Serum by Immunoassay,1174,0,No matching concept,6294,,,,,,,
+EUMC,3011483,Granular casts [#/area] in Urine sediment by Microscopy low power field,1166,0,No matching concept,4032,,,,,,,
+EUMC,3004806,Helicobacter pylori IgG Ab [Units/volume] in Serum,1163,8763,unit per milliliter,5580,0,0,0,0,0,0,7.7
+EUMC,3016759,Leptospira sp Ab [Presence] in Serum,1152,0,No matching concept,9447,,,,,,,
+EUMC,3031391,Hantavirus Ab [Presence] in Serum,1134,0,No matching concept,9342,,,,,,,
+EUMC,3034827,Methyl formamide [Mass/volume] in Urine,1126,0,No matching concept,2187,0.046,0.265,0.393,0.562,0.833,1.024,42.912
+EUMC,3039971,Herpes simplex virus 1 IgG Ab [Presence] in Serum or Plasma by Immunoassay,1105,0,No matching concept,10542,,,,,,,
+EUMC,36303293,Microscopic observation [Identifier] in Wound by Acid fast stain,1065,0,No matching concept,4879,,,,,,,
+EUMC,3014389,HTLV I+II Ab [Presence] in Serum,1064,0,No matching concept,5673,,,,,,,
+EUMC,42868421,Varicella zoster virus IgM Ab [Presence] in Cerebral spinal fluid by Immunoassay,1059,0,No matching concept,11616,,,,,,,
+EUMC,3021466,Microscopic observation [Identifier] in Vaginal fluid by Wet preparation,1056,0,No matching concept,51,,,,,,,
+EUMC,3045041,Herpes simplex virus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay,1048,0,No matching concept,9852,,,,,,,
+EUMC,3035300,Varicella zoster virus IgG Ab [Presence] in Cerebral spinal fluid,1043,0,No matching concept,11532,,,,,,,
+EUMC,42869595,Oxyhemoglobin/Hemoglobin.total [Pure mass fraction] in Blood,1039,8554,percent,7173,0,92.8,95.6,96.7,97.4,97.8,101
+EUMC,3026300,Glucose [Mass/volume] in Serum or Plasma --2 hours post dose glucose,1035,8840,milligram per deciliter,1429,49,92,114,138,178,234,532
+EUMC,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,1031,0,No matching concept,4476,,,,,,,
+EUMC,3017758,pH of Cerebral spinal fluid,1031,0,No matching concept,4476,,,,,,,
+EUMC,3045707,Microscopic observation [Identifier] in Blood by Malaria smear,1029,0,No matching concept,5736,,,,,,,
+EUMC,3017018,EPINEPHrine [Mass/time] in 24 hour Urine,1025,8906,microgram per 24 hours,6054,0,2.43,4.39,8.61,15.57,24.8,181.64
+EUMC,3011657,Norepinephrine [Mass/time] in 24 hour Urine,1025,8906,microgram per 24 hours,6054,0,14.08,24.23,36.67,55.7,77.54,2856.36
+EUMC,3022509,Hyaline casts [#/area] in Urine sediment by Microscopy low power field,1022,0,No matching concept,3837,,,,,,,
+EUMC,3036779,HLA-B27 [Presence] by NAA with probe detection,1019,0,No matching concept,3099,,,,,,,
+EUMC,3023939,Sjogrens syndrome-A extractable nuclear Ab [Units/volume] in Serum,1014,0,No matching concept,7707,,,,,,,
+EUMC,3027450,Sjogrens syndrome-B extractable nuclear Ab [Units/volume] in Serum,1014,0,No matching concept,7707,,,,,,,
+EUMC,42869529,Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood,1004,0,No matching concept,1036,0,8.57,29.07,34.97,47.2,64.71,223.08
+EUMC,42869531,Gamma interferon background [Units/volume] in Blood by Immunoassay,1004,0,No matching concept,1036,0.01,0.03,0.04,0.07,0.13,0.32,32.53
+EUMC,3012625,Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,944,0,No matching concept,2214,,,,,,,
+EUMC,40760692,Aldosterone [Mass/volume] in Serum or Plasma --post XXX challenge,921,8845,picogram per milliliter,4542,0,0,9.14,58.2,126.2,253.3,73481
+EUMC,3036961,Cytomegalovirus Ag [Presence] in Blood,915,0,No matching concept,12276,,,,,,,
+EUMC,3027744,Microscopic observation [Identifier] in Specimen by Acid fast stain,903,0,No matching concept,6582,,,,,,,
+EUMC,3028639,carBAMazepine [Mass/volume] in Serum or Plasma,894,8859,microgram per milliliter,9521,0,2.4,4.4,6.1,8.05,10.2,20.0
+EUMC,3011925,Deoxypyridinoline/Creatinine [Molar ratio] in Urine,881,0,No matching concept,2301,2.3,3.4,4.7,6.3,8.2,11.4,34.4
+EUMC,3022616,Phenytoin [Mass/volume] in Serum or Plasma,876,8859,microgram per milliliter,10049,0,1.64,3.91,8.57,14.57,22.46,77.5
+EUMC,44817158,Bacteria identified in Genital specimen by Anaerobe+Aerobe culture,870,0,No matching concept,1372,,,,,,,
+EUMC,3021125,Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection,852,0,No matching concept,1168,,,,,,,
+EUMC,3024974,Cytomegalovirus DNA [#/volume] (viral load) in Blood by NAA with probe detection,852,8799,copies per milliliter,8997,0,0,0,3.947,4.175,4.744,5.971
+EUMC,3043953,Rubella virus IgG Ab [Presence] in Serum or Plasma by Immunoassay,850,8985,international unit per milliliter,871,5,5,14.7,23.9,41.7,72.2,2401.4
+EUMC,3016072,Theophylline [Mass/volume] in Serum or Plasma,850,8859,microgram per milliliter,4587,0,1.48,4,6.32,9.8,13.61,25.5
+EUMC,3019231,Epstein Barr virus capsid IgG Ab [Presence] in Serum by Immunoassay,835,8779,signal to cutoff ratio,894,0.04,0.22,1.4,2.13,2.77,3.41,5.23
+EUMC,3023671,Herpes simplex virus 1 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,834,0,No matching concept,3138,,,,,,,
+EUMC,3033564,Herpes simplex virus 2 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,832,0,No matching concept,3132,,,,,,,
+EUMC,3013480,cycloSPORINE [Mass/volume] in Blood by Immunoassay,815,8842,nanogram per milliliter,47863,0,57.1,85.6,131.62,261.3,456.9,4620.9
+EUMC,3018771,Cytomegalovirus [Presence] in Urine by Organism specific culture,792,0,No matching concept,3747,,,,,,,
+EUMC,3010231,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,782,0,No matching concept,6384,,,,,,,
+EUMC,3040633,Chlamydia trachomatis IgM Ab [Presence] in Serum by Immunoassay,776,0,No matching concept,2877,,,,,,,
+EUMC,3015923,Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence,766,0,No matching concept,4182,,,,,,,
+EUMC,3040382,Histiocytes/100 cells in Synovial fluid by Manual count,747,8554,percent,4467,0,0,0,7,23,55,97
+EUMC,3043694,Mesothelial cells/100 leukocytes in Synovial fluid,747,8554,percent,4467,0,0,0,0,0,0,55
+EUMC,3036539,Specific gravity of Synovial fluid,747,0,No matching concept,4467,,,,,,,
+EUMC,3008065,pH of Synovial fluid,747,0,No matching concept,4467,,,,,,,
+EUMC,3017013,Tricyclic antidepressants [Presence] in Urine,745,0,No matching concept,11766,,,,,,,
+EUMC,3043156,Chloride [Moles/volume] in Peritoneal fluid,727,9557,milliequivalent per liter,16290,18,96,101,105,110.0,115,155
+EUMC,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,692,8554,percent,311,,,,,,,
+EUMC,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,692,0,No matching concept,1704,,,,,,,
+EUMC,3041981,Lutropin [Units/volume] in Serum or Plasma --45 minutes post XXX challenge,664,9550,milli-international unit per milliliter,898,0.3,0.5,1.1,4.6,10.7,19.4,71
+EUMC,3041698,Follitropin [Units/volume] in Serum or Plasma --45 minutes post XXX challenge,664,9550,milli-international unit per milliliter,898,0.3,1.1,2.3,9.3,13.3,16.6,31.2
+EUMC,3037756,Immunofixation for Serum or Plasma,662,0,No matching concept,6339,,,,,,,
+EUMC,3006999,Ribonucleoprotein extractable nuclear Ab [Units/volume] in Serum,661,0,No matching concept,5259,,,,,,,
+EUMC,3016921,Smith extractable nuclear Ab [Units/volume] in Serum,661,0,No matching concept,5259,,,,,,,
+EUMC,36305286,Cytomegalovirus [Presence] in Cerebral spinal fluid by Organism specific culture,611,0,No matching concept,7839,,,,,,,
+EUMC,3031072,Herpes simplex virus 1 IgG Ab [Presence] in Cerebral spinal fluid,609,0,No matching concept,7755,,,,,,,
+EUMC,3052922,Fibronectin.fetal [Presence] in Specimen,601,0,No matching concept,1947,,,,,,,
+EUMC,3037329,Epstein Barr virus DNA [#/volume] (viral load) in Blood by NAA with probe detection,595,0,No matching concept,1696,,,,,,,
+EUMC,37021073,Hepatitis C virus genotype in Serum or Plasma by Sequencing,592,0,No matching concept,649,,,,,,,
+EUMC,44786753,Tacrolimus [Mass/volume] in Blood by Immunoassay,587,8842,nanogram per milliliter,35436,1.95,2.9,4.3,5.9,8.7,14.1,60.0
+EUMC,44817128,Albumin.ischemia modified [Units/volume] in Serum,581,8763,unit per milliliter,15543,15,56,69,84,100.0,115,2000.0
+EUMC,3034179,5-Fluorocytosine [Susceptibility],561,0,No matching concept,2240,1,1,1,1,1,1,64
+EUMC,3035598,Amphotericin B [Susceptibility],559,0,No matching concept,2249,0.25,0.25,0.25,0.5,0.5,1,8
+EUMC,3008467,Voriconazole [Susceptibility],556,0,No matching concept,2242,0.12,0.12,0.12,0.12,0.12,0.25,8
+EUMC,3007695,Herpes simplex virus 2 IgG Ab [Presence] in Cerebral spinal fluid,550,0,No matching concept,7023,,,,,,,
+EUMC,3015660,Caspofungin [Susceptibility],538,0,No matching concept,2212,0.12,0.12,0.12,0.12,0.25,0.5,8
+EUMC,40768038,Micafungin [Susceptibility],534,0,No matching concept,2172,0.06,0.06,0.06,0.06,0.06,0.5,8
+EUMC,3034104,Urea nitrogen [Mass/volume] in Serum or Plasma --post dialysis,470,0,No matching concept,4602,2.25,10.0,14,18,23,28,110.0
+EUMC,3001722,Fluconazole [Susceptibility],455,0,No matching concept,1874,0.5,0.5,0.5,0.5,1,2,64
+EUMC,3023764,Bacteria identified in Specimen by Respiratory culture,436,0,No matching concept,1349,,,,,,,
+EUMC,44816708,Bacteria identified in Eye by Anaerobe+Aerobe culture,434,0,No matching concept,877,,,,,,,
+EUMC,40760954,Leukocytes [#/volume] in Body fluid by Automated count,427,0,No matching concept,4782,,,,,,,
+EUMC,3003159,Erythrocytes [#/volume] in Body fluid by Automated count,427,0,No matching concept,4782,,,,,,,
+EUMC,3025411,PHENobarbital [Mass/volume] in Serum or Plasma,423,8859,microgram per milliliter,3591,0,5.06,10.95,16.66,23.03,30.91,144.96
+EUMC,3032319,Macrophages [#/volume] in Body fluid,407,0,No matching concept,4320,,,,,,,
+EUMC,3031141,Monocytes [#/volume] in Body fluid,407,0,No matching concept,4320,,,,,,,
+EUMC,3003955,Hepatitis B virus DNA [Presence] in Blood by NAA with probe detection,402,0,No matching concept,1737,,,,,,,
+EUMC,46234833,Bacteria identified in Abscess by Anaerobe+Aerobe culture,361,0,No matching concept,1000,,,,,,,
+EUMC,3020180,Aluminum [Mass/volume] in Serum or Plasma,342,8748,microgram per liter,2712,0,7.76,19.7,34.21,51.26,76.11,227.63
+EUMC,3038371,Herpes simplex virus IgG Ab [Presence] in Serum by Immunoassay,333,0,No matching concept,4974,,,,,,,
+EUMC,3037708,Moxifloxacin [Susceptibility],324,0,No matching concept,833,0.12,0.12,0.12,0.12,0.25,4,4
+EUMC,3034360,"1,3 beta glucan [Mass/volume] in Serum",317,8845,picogram per milliliter,3819,0,0,0,0,0,100.6,978.2
+EUMC,3014320,Bacteria identified in Urethra by Culture,315,0,No matching concept,403,,,,,,,
+EUMC,3004840,Cytomegalovirus [Presence] in Specimen by Organism specific culture,273,0,No matching concept,5055,,,,,,,
+EUMC,37019752,Respiratory syncytial virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,266,0,No matching concept,366,,,,,,,
+EUMC,37019510,Respiratory syncytial virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,266,0,No matching concept,366,,,,,,,
+EUMC,37019747,Rhinovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,266,0,No matching concept,366,,,,,,,
+EUMC,3026250,Tacrolimus [Mass/volume] in Blood,260,8842,nanogram per milliliter,37110,0,2.9,4.3,6,8.4,12.6,105.2
+EUMC,3041239,Cefotaxime [Susceptibility] for meningitis,249,0,No matching concept,648,0.12,0.12,1,2,4,8,8
+EUMC,3029983,cefTRIAXone [Susceptibility] for meningitis,249,0,No matching concept,648,0.12,0.25,1,1,4,8,8
+EUMC,36305655,Human bocavirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,240,0,No matching concept,288,,,,,,,
+EUMC,3000197,Beta lactamase.usual [Susceptibility],213,0,No matching concept,488,,,,,,,
+EUMC,3020738,Protein Fractions [Interpretation] in 24 hour Urine by Electrophoresis,191,0,No matching concept,1149,,,,,,,
+EUMC,40764167,XXX blood group Ab [Titer] in Serum or Plasma,187,0,No matching concept,2327,,,,,,,
+EUMC,3047189,Immunofixation for 24 hour Urine,173,0,No matching concept,1233,,,,,,,
+EUMC,3036475,Plasminogen activator inhibitor 1 Ag [Mass/volume] in Platelet poor plasma by Immunoassay,147,0,No matching concept,80,5.11,8.63,14.68,21.96,35.05,56,104.42
+EUMC,3036475,Plasminogen activator inhibitor 1 Ag [Mass/volume] in Platelet poor plasma by Immunoassay,147,8842,nanogram per milliliter,351,0,0,13.7,24.8,33.8,50.1,99.53
+EUMC,3011180,Chloramphenicol [Susceptibility],147,0,No matching concept,340,,,,,,,
+EUMC,3042086,Cefuroxime [Susceptibility],140,0,No matching concept,328,,,,,,,
+EUMC,3009224,EGFR gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,138,0,No matching concept,446,,,,,,,
+EUMC,21493148,Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with non-probe detection,122,0,No matching concept,366,,,,,,,
+EUMC,21493147,Human coronavirus 229E RNA [Presence] in Nasopharynx by NAA with non-probe detection,122,0,No matching concept,366,,,,,,,
+EUMC,44786754,Tacrolimus [Mass/volume] in Blood by LC/MS/MS,121,8842,nanogram per milliliter,2576,0.13,2.37,2.83,7.13,12.7,15.59,43.5
+EUMC,3002666,Glucose [Mass/volume] in Serum or Plasma --baseline,117,8840,milligram per deciliter,298,66,87,93,99,108,121,190.0
+EUMC,3028247,Glucose [Mass/volume] in Serum or Plasma --30 minutes post dose glucose,114,8840,milligram per deciliter,300,72,128,144,162,192,213,305
+EUMC,3025159,Blasts/100 leukocytes in Blood,111,8554,percent,927,0,1,2,28,78,90.0,99
+EUMC,3017315,Amylase [Enzymatic activity/volume] in Urine,111,8645,unit per liter,6747,0,36,47.8,94,160.1,171.5,2909
+EUMC,43055120,Cytomegalovirus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,106,8985,international unit per milliliter,348,0,0,0,0,0,0,0
+EUMC,3018718,Plasma cells/100 leukocytes in Blood,101,8554,percent,1003,0,1,1,3,6,17,80.0
+EUMC,21493331,Human coronavirus NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection,96,0,No matching concept,288,,,,,,,
+EUMC,3008183,Lipoprotein fractions [Interpretation] in Serum or Plasma by Electrophoresis,87,0,No matching concept,89,,,,,,,
+EUMC,3052649,Adenosine deaminase [Enzymatic activity/volume] in Serum or Plasma,79,8645,unit per liter,10643,0,33.1,40.2,47.7,85.4,95,445
+EUMC,36306114,Helicobacter pylori 23S rRNA clarithromycin resistance mutation [Identifier] by Molecular method,79,0,No matching concept,21,,,,,,,
+EUMC,3037043,Lambda light chains.free [Mass/volume] in Urine,77,8751,milligram per liter,402,0,0,0,1.92,14.56,72.09,18169
+EUMC,3034597,Kappa light chains.free [Mass/volume] in Urine,77,8751,milligram per liter,402,0,0,0,25.3,115.17,605,62868
+EUMC,3031501,Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Urine,77,0,No matching concept,402,,,,,,,
+EUMC,3024141,Cephalothin [Susceptibility],71,0,No matching concept,216,2,2,8,16,64,64,64
+EUMC,3044586,Immunoelectrophoresis for Urine,59,0,No matching concept,237,,,,,,,
+EUMC,3030703,Everolimus [Mass/volume] in Blood,53,8842,nanogram per milliliter,2441,0.02,2.37,2.73,4.6,7.72,9.32,22.92
+EUMC,3000265,Immunoelectrophoresis for Serum or Plasma,49,0,No matching concept,309,,,,,,,
+EUMC,37020160,Bordetella pertussis DNA [Presence] in Respiratory system specimen by NAA with probe detection,46,0,No matching concept,138,,,,,,,
+EUMC,3027198,Glucose [Mass/volume] in Serum or Plasma --3 hours post dose glucose,31,8840,milligram per deciliter,31,65,95,100.0,119,145,164,181
+EUMC,3043381,Malignant cells/100 cells in Cerebral spinal fluid,26,8554,percent,102,0,0,0,0,0,0,0
+EUMC,3001444,Plasminogen activator tissue type Ag [Mass/volume] in Platelet poor plasma by Immunoassay,25,8842,nanogram per milliliter,204,0,0,4.3,8.7,15.7,24.7,36.8
+EUMC,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,20,0,No matching concept,20,,,,,,,
+EUMC,43054906,Leukocytes [Presence] in Specimen by Gram stain,17,0,No matching concept,51,,,,,,,
+EUMC,43054904,Epithelial cells [Presence] in Specimen by Gram stain,17,0,No matching concept,51,,,,,,,
+EUMC,36304745,Adenovirus DNA [Presence] in Stool by NAA with probe detection,15,0,No matching concept,57,,,,,,,
+EUMC,3025242,Penicillin [Susceptibility],12,0,No matching concept,28,0.2,0.2,0.25,0.25,0.25,0.38,0.38
+EUMC,3023921,Ofloxacin [Susceptibility],11,0,No matching concept,15,,,,,,,
+EUMC,21493467,Salmonella enterica+bongori DNA [Presence] in Stool by NAA with non-probe detection,11,0,No matching concept,45,,,,,,,
+EUMC,21493469,Vibrio cholerae DNA [Presence] in Stool by NAA with non-probe detection,11,0,No matching concept,45,,,,,,,
+EUMC,3000928,Josamycine [Susceptibility],10,0,No matching concept,12,,,,,,,
+EUMC,3019587,Clarithromycin [Susceptibility],10,0,No matching concept,12,,,,,,,
+EUMC,3002794,Doxycycline [Susceptibility],10,0,No matching concept,12,,,,,,,
+EUMC,3018112,Azithromycin [Susceptibility],10,0,No matching concept,12,,,,,,,
+EUMC,3013670,Pristinamycin [Susceptibility],10,0,No matching concept,12,,,,,,,
+EUMC,40758433,Fungus [Presence] in Sputum by KOH preparation,9,0,No matching concept,39,,,,,,,
+EUMC,3022338,Retinol [Mass/volume] in Serum or Plasma,7,0,No matching concept,7,0.05,0.05,0.12,0.45,0.56,0.8,0.8
+EUMC,3008598,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,7,8817,nanogram per deciliter,49,0.99,1.12,1.72,2.08,2.38,3.16,4.78

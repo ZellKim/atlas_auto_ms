@@ -1,0 +1,1103 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+KWMC,3000963,Hemoglobin [Mass/volume] in Blood,335760,8713,gram per deciliter,2243924,0,9,10.6,12.4,13.9,15.2,27.6
+KWMC,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,333213,8645,unit per liter,2019605,0,11,15,21,31,52,10720.0
+KWMC,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,333137,8645,unit per liter,2019780,1,18,21,26,35,54,30430.0
+KWMC,3004501,Glucose [Mass/volume] in Serum or Plasma,329340,8840,milligram per deciliter,1963775,0,87,95,108,135,184,2513
+KWMC,3016723,Creatinine [Mass/volume] in Serum or Plasma,320076,8840,milligram per deciliter,2223745,0,0.5,0.6,0.8,1,1.6,120.0
+KWMC,3009542,Hematocrit [Volume Fraction] of Blood by calculation,318752,8554,percent,2111454,0,27.1,31.6,36.8,41,44.7,81.2
+KWMC,3010813,Leukocytes [#/volume] in Blood,316573,8848,thousand per microliter,2080243,0,4.4,5.6,7.2,9.6,13,643.9
+KWMC,3007461,Platelets [#/volume] in Blood,316543,8848,thousand per microliter,2068917,0,117,171,222,278,343,3274
+KWMC,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,315547,8840,milligram per deciliter,2116744,0,8.2,11,14.7,20.5,33.1,428.5
+KWMC,3026361,Erythrocytes [#/volume] in Blood,307242,8815,million per microliter,2037791,0,2.92,3.43,4.04,4.55,4.95,2280.0
+KWMC,3026361,Erythrocytes [#/volume] in Blood,307242,0,No matching concept,20531,,,,,,,
+KWMC,3035941,MCH [Entitic mass],306972,8564,picogram,140929,13.3,27.8,29.4,30.7,32,33.3,92
+KWMC,3035941,MCH [Entitic mass],306972,0,No matching concept,1919126,,,,,,,
+KWMC,3024731,MCV [Entitic mean volume] in Red Blood Cells,306972,8583,femtoliter,140929,53.5,84.7,88.7,92.2,95.7,99.5,167.5
+KWMC,3024731,MCV [Entitic mean volume] in Red Blood Cells,306972,0,No matching concept,1919126,,,,,,,
+KWMC,3003338,MCHC [Entitic Mass/volume] in Red Blood Cells,306972,8713,gram per deciliter,140929,23,31.8,32.5,33.3,34,34.6,89.1
+KWMC,3003338,MCHC [Entitic Mass/volume] in Red Blood Cells,306972,0,No matching concept,1919126,,,,,,,
+KWMC,3002030,Lymphocytes/Leukocytes in Blood,304094,8554,percent,1953065,0,8.9,15,25,35,43,220.0
+KWMC,3018010,Neutrophils/Leukocytes in Blood,304071,8554,percent,1953039,0,44.2,53,63,75,84,5655
+KWMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,303589,8840,milligram per deciliter,1780091,0,0.33,0.5,0.7,0.98,1.5,91
+KWMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,303589,0,No matching concept,580,,,,,,,
+KWMC,3000285,Sodium [Moles/volume] in Blood,302106,8753,millimole per liter,624105,61,132,136,139,141,143,1413
+KWMC,3000285,Sodium [Moles/volume] in Blood,302106,9557,milliequivalent per liter,1580736,0.3,135,138,141,142,144,200.0
+KWMC,3005456,Potassium [Moles/volume] in Blood,302103,8753,millimole per liter,624081,0.9,3.3,3.7,4,4.4,4.8,101
+KWMC,3005456,Potassium [Moles/volume] in Blood,302103,9557,milliequivalent per liter,1580776,1.2,3.6,3.9,4.2,4.5,4.9,10.0
+KWMC,3018572,Chloride [Moles/volume] in Blood,300338,8753,millimole per liter,622712,1,98,102,105,107,110.0,919.7
+KWMC,3018572,Chloride [Moles/volume] in Blood,300338,9557,milliequivalent per liter,1565197,39,100.0,103,105,108,110.0,200.0
+KWMC,3006906,Calcium [Mass/volume] in Serum or Plasma,299045,8840,milligram per deciliter,1657094,0.3,8,8.6,9.1,9.4,9.7,32
+KWMC,3027114,Cholesterol [Mass/volume] in Serum or Plasma,295766,8840,milligram per deciliter,1652248,0,109,133,162,194,223,1315
+KWMC,3006504,Eosinophils/Leukocytes in Blood,294124,8554,percent,1850723,0,0,1,1.9,3,5,100.0
+KWMC,3022096,Basophils/Leukocytes in Blood,294124,8554,percent,1850722,0,0,0,0.4,1,1,32
+KWMC,3019069,Monocytes/Leukocytes in Blood,294124,8554,percent,1850723,0,4.6,6,7.4,9.1,11.6,96.3
+KWMC,3024561,Albumin [Mass/volume] in Serum or Plasma,290438,8713,gram per deciliter,1708621,0.1,2.8,3.5,4.1,4.4,4.6,12
+KWMC,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,289241,8645,unit per liter,1685363,2,50.0,61,79,111,193,14426
+KWMC,3020630,Protein [Mass/volume] in Serum or Plasma,288765,8713,gram per deciliter,1632197,0.1,5.6,6.4,6.9,7.3,7.7,31
+KWMC,3037556,Urate [Mass/volume] in Serum or Plasma,284244,8840,milligram per deciliter,1562837,0.1,2.8,3.8,4.8,6.1,7.5,39.3
+KWMC,3014051,Protein [Presence] in Urine by Test strip,284038,0,No matching concept,916134,,,,,,,
+KWMC,3014051,Protein [Presence] in Urine by Test strip,284038,8840,milligram per deciliter,51223,,,,,,,
+KWMC,3011904,Phosphate [Mass/volume] in Serum or Plasma,283885,8840,milligram per deciliter,1575988,0.1,2.6,3.1,3.5,4,4.6,105
+KWMC,3027018,Heart rate,272670,0,No matching concept,787831,,,,,,,
+KWMC,3027018,Heart rate,272670,8483,counts per minute,1461026,,,,,,,
+KWMC,3011397,Hemoglobin [Presence] in Urine by Test strip,269154,0,No matching concept,809802,,,,,,,
+KWMC,3011397,Hemoglobin [Presence] in Urine by Test strip,269154,8647,per microliter,51223,,,,,,,
+KWMC,3009261,Glucose [Presence] in Urine by Test strip,268898,0,No matching concept,808825,,,,,,,
+KWMC,3009261,Glucose [Presence] in Urine by Test strip,268898,8840,milligram per deciliter,51223,,,,,,,
+KWMC,3022621,pH of Urine by Test strip,268898,0,No matching concept,860048,,,,,,,
+KWMC,3004249,Systolic blood pressure,264457,0,No matching concept,692892,,,,,,,
+KWMC,3004249,Systolic blood pressure,264457,8876,millimeter mercury column,1340382,,,,,,,
+KWMC,3012888,Diastolic blood pressure,264447,0,No matching concept,692837,,,,,,,
+KWMC,3012888,Diastolic blood pressure,264447,8876,millimeter mercury column,1340424,,,,,,,
+KWMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,262945,8786,per high power field,835984,-1,0,0,1,14,510.0,2030.0
+KWMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,262945,0,No matching concept,15,,,,,,,
+KWMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,262941,8786,per high power field,835954,-4,-1,-1,0,0,20.3,46
+KWMC,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,262941,8786,per high power field,835954,-14,-1,0,1,8,14,33
+KWMC,40761543,Other elements [Identifier] in Urine sediment by Light microscopy,262941,8786,per high power field,803519,-5,-1,0,1,25,52,70.0
+KWMC,40761543,Other elements [Identifier] in Urine sediment by Light microscopy,262941,0,No matching concept,32435,,,,,,,
+KWMC,3000330,Specific gravity of Urine by Test strip,262926,0,No matching concept,836033,,,,,,,
+KWMC,3021601,Nitrite [Presence] in Urine by Test strip,262926,0,No matching concept,784811,,,,,,,
+KWMC,3021601,Nitrite [Presence] in Urine by Test strip,262926,8840,milligram per deciliter,51222,,,,,,,
+KWMC,3037426,Urobilinogen [Presence] in Urine by Test strip,262926,0,No matching concept,784811,,,,,,,
+KWMC,3037426,Urobilinogen [Presence] in Urine by Test strip,262926,8840,milligram per deciliter,51222,,,,,,,
+KWMC,3018834,Bilirubin.total [Presence] in Urine by Test strip,262926,0,No matching concept,784811,,,,,,,
+KWMC,3018834,Bilirubin.total [Presence] in Urine by Test strip,262926,8840,milligram per deciliter,51222,,,,,,,
+KWMC,3035350,Ketones [Presence] in Urine by Test strip,262926,0,No matching concept,784811,,,,,,,
+KWMC,3035350,Ketones [Presence] in Urine by Test strip,262926,8840,milligram per deciliter,51222,,,,,,,
+KWMC,3000348,Leukocyte esterase [Presence] in Urine by Test strip,262921,0,No matching concept,784750,,,,,,,
+KWMC,3000348,Leukocyte esterase [Presence] in Urine by Test strip,262921,8647,per microliter,51222,,,,,,,
+KWMC,3027162,Color of Urine,260554,0,No matching concept,828702,,,,,,,
+KWMC,3020460,C reactive protein [Mass/volume] in Serum or Plasma,249843,8840,milligram per deciliter,1120182,0,0.023,0.077,0.49,3.085,9.441,98.7
+KWMC,3051205,Crystals [#/area] in Urine sediment by Microscopy high power field,249133,8786,per high power field,784751,1,1,1,1,1,2,3
+KWMC,3025255,Bacteria [#/area] in Urine sediment by Microscopy high power field,249133,8786,per high power field,784751,1,1,1,1,2,3,11
+KWMC,3005658,Casts [#/area] in Urine sediment by Microscopy low power field,249133,8765,per low powered field,784751,1,1,1,1,3,4,4
+KWMC,3020891,Body temperature,247410,0,No matching concept,681107,,,,,,,
+KWMC,3020891,Body temperature,247410,586323,degree Celsius,903841,,,,,,,
+KWMC,3017732,Neutrophils [#/volume] in Blood,223309,8848,thousand per microliter,1234417,0,2.18,2.99,4.25,6.44,9.72,2010.0
+KWMC,3024171,Respiratory rate,219165,0,No matching concept,586962,,,,,,,
+KWMC,3024171,Respiratory rate,219165,8483,counts per minute,976989,,,,,,,
+KWMC,40771922,"Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by based on 1.73 sq M",212427,0,No matching concept,1264621,,,,,,,
+KWMC,3022217,INR in Platelet poor plasma by Coagulation assay,204954,0,No matching concept,631785,,,,,,,
+KWMC,3033658,Prothrombin time (PT) actual/Normal,204942,8554,percent,630371,0,42.8,76,96.4,110.0,120.0,1120.0
+KWMC,3033658,Prothrombin time (PT) actual/Normal,204942,0,No matching concept,1414,,,,,,,
+KWMC,3034426,Prothrombin time (PT),204942,8555,second,631786,0,11.1,11.8,12.7,14.4,20.4,164.9
+KWMC,3018677,aPTT in Platelet poor plasma by Coagulation assay,200762,8555,second,489661,0,24.3,26.4,30.2,35.4,41.2,241.2
+KWMC,3025315,Body weight,185268,0,No matching concept,459372,,,,,,,
+KWMC,3025315,Body weight,185268,9529,kilogram,187423,,,,,,,
+KWMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,182224,0,No matching concept,115667,,,,,,,
+KWMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,182224,8779,signal to cutoff ratio,228132,,,,,,,
+KWMC,3023421,Hepatitis B virus surface Ab [Units/volume] in Serum,177567,8923,international unit per liter,99582,0,2,2.6,38.8,258,1000.0,1000.0
+KWMC,3023421,Hepatitis B virus surface Ab [Units/volume] in Serum,177567,9550,milli-international unit per milliliter,228265,0,2.3,3.2,25.1,156.8,672.9,1000.0
+KWMC,3023421,Hepatitis B virus surface Ab [Units/volume] in Serum,177567,0,No matching concept,29,,,,,,,
+KWMC,3021461,Reagin Ab [Presence] in Serum by RPR,170091,0,No matching concept,305223,,,,,,,
+KWMC,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,168997,8645,unit per liter,347585,1,34,45,61,83,116,66440.0
+KWMC,3036277,Body height,168742,0,No matching concept,347733,,,,,,,
+KWMC,3036277,Body height,168742,8582,centimeter,127202,,,,,,,
+KWMC,3038553,Body mass index (BMI) [Ratio],163172,0,No matching concept,373740,,,,,,,
+KWMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",158898,8753,millimole per liter,330420,0.2,19.2,21.8,24.7,27.2,29.2,150.0
+KWMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",158898,9557,milliequivalent per liter,251397,7,20.9,23.9,26.9,29.6,31.7,40.6
+KWMC,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,158638,8645,unit per liter,572214,0,11,15,25,54,139,5950.0
+KWMC,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,157862,8645,unit per liter,382789,0,42,63,96,166,384,799400.0
+KWMC,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,154965,8645,unit per liter,276507,10.0,192,249,348,442,574,61230.0
+KWMC,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,154965,8923,international unit per liter,51046,29,133,164,319,497,723,222720.0
+KWMC,3022192,Triglyceride [Mass/volume] in Serum or Plasma,153182,8840,milligram per deciliter,558407,0,59,81,117,174,259,10210.0
+KWMC,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,152575,8840,milligram per deciliter,547544,1,33,39,48,58,68,204
+KWMC,3017143,Hepatitis C virus Ab [Presence] in Serum,135919,0,No matching concept,56530,,,,,,,
+KWMC,3017143,Hepatitis C virus Ab [Presence] in Serum,135919,8779,signal to cutoff ratio,186631,,,,,,,
+KWMC,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,133096,8840,milligram per deciliter,471944,0,53,69,93,121,147,607
+KWMC,3015023,Epithelial cells.renal [#/area] in Urine sediment by Microscopy high power field,129830,8786,per high power field,331463,,,,,,,
+KWMC,3035851,Transitional cells [#/area] in Urine sediment by Microscopy high power field,129830,8786,per high power field,331463,,,,,,,
+KWMC,3003310,Rh [Type] in Blood,128364,0,No matching concept,277731,,,,,,,
+KWMC,3002529,ABO group [Type] in Blood,128360,0,No matching concept,261099,,,,,,,
+KWMC,3049137,Spermatozoa [#/area] in Urine sediment by Microscopy high power field,128062,8786,per high power field,320151,1,1,2,3,3,3,3
+KWMC,3037244,Yeast [#/area] in Urine sediment by Microscopy high power field,128062,8786,per high power field,320151,1,1,1,1,2,3,3
+KWMC,3051303,Mucus [#/area] in Urine sediment by Microscopy high power field,128062,8786,per high power field,320151,1,1,1,1,1,2,3
+KWMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,124693,0,No matching concept,31165,,,,,,,
+KWMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,124693,8779,signal to cutoff ratio,185254,,,,,,,
+KWMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,119952,8985,international unit per milliliter,1578,0.003,0.067,0.605,1.186,2.057,3.372,100.0
+KWMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,119952,9093,micro-international unit per milliliter,264291,0.001,0.36,0.87,1.48,2.372,3.82,500.0
+KWMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,119952,0,No matching concept,15935,,,,,,,
+KWMC,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,115098,8840,milligram per deciliter,374936,0,0.08,0.12,0.18,0.32,0.93,43.7
+KWMC,3015183,Erythrocyte sedimentation rate [Velocity] in Red Blood Cells,114459,8752,millimeter per hour,464294,-4,2,6,16,34,58,706
+KWMC,3015183,Erythrocyte sedimentation rate [Velocity] in Red Blood Cells,114459,0,No matching concept,27,,,,,,,
+KWMC,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,106387,8842,nanogram per milliliter,136213,-0.04,0.006,0.006,0.01,0.04,0.292,3440.0
+KWMC,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,106387,8845,picogram per milliliter,83735,1,10.0,10.0,10.0,17.1,163.3,50000.0
+KWMC,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,103436,8842,nanogram per milliliter,211616,0,0.37,0.7,1.4,3.1,7.99,1272
+KWMC,3019977,pH of Arterial blood,101396,0,No matching concept,579132,,,,,,,
+KWMC,3027801,Oxygen [Partial pressure] in Arterial blood,101395,8876,millimeter mercury column,576861,-7.1,49.6,64.3,82.2,104.8,147.2,777.7
+KWMC,3027801,Oxygen [Partial pressure] in Arterial blood,101395,0,No matching concept,2267,,,,,,,
+KWMC,3027946,Carbon dioxide [Partial pressure] in Arterial blood,101394,8876,millimeter mercury column,576861,3.9,24.9,28.8,33.9,40.3,50.0,899.2
+KWMC,3027946,Carbon dioxide [Partial pressure] in Arterial blood,101394,0,No matching concept,2267,,,,,,,
+KWMC,3016502,Oxygen saturation in Arterial blood,101328,8554,percent,575819,-1.8,83.4,92.1,96.3,98.2,99.4,120.4
+KWMC,3016502,Oxygen saturation in Arterial blood,101328,0,No matching concept,2265,,,,,,,
+KWMC,3003396,Base excess in Arterial blood by calculation,101318,8753,millimole per liter,574601,-208,-8.3,-4.3,-1.3,1.6,4.9,14235.9
+KWMC,3003396,Base excess in Arterial blood by calculation,101318,0,No matching concept,2267,,,,,,,
+KWMC,3008152,Bicarbonate [Moles/volume] in Arterial blood,101318,8753,millimole per liter,574601,0.2,15.7,19,22.1,25.3,29.2,17236.7
+KWMC,3008152,Bicarbonate [Moles/volume] in Arterial blood,101318,0,No matching concept,2267,,,,,,,
+KWMC,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,97434,8842,nanogram per milliliter,206689,0.1,0.69,0.83,0.97,1.14,1.39,8.2
+KWMC,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,92236,8554,percent,434006,0,5.5,5.9,6.6,7.4,8.6,133
+KWMC,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",92081,8753,millimole per liter,37957,2.7,18.3,21.3,24.5,27.3,30.6,79.7
+KWMC,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",92081,0,No matching concept,527746,,,,,,,
+KWMC,40762365,Oxygen content in Arterial blood by calculation,91674,9570,milliliter per deciliter,540468,-2.5,10.5,12.7,14.8,17,19.1,98.8
+KWMC,706163,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection,84886,0,No matching concept,163644,,,,,,,
+KWMC,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,82701,9579,millimole per mole,380344,-23.5,36.6,42.1,48.6,57.4,69.4,210.4
+KWMC,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,82701,8840,milligram per deciliter,380344,-46.7,111.1,125.5,142.7,165.7,197.2,567.5
+KWMC,3026008,Bacteria identified in Urine by Culture,80154,0,No matching concept,175318,,,,,,,
+KWMC,3026008,Bacteria identified in Urine by Culture,80154,9423,colony forming unit per milliliter,4611,,,,,,,
+KWMC,3003745,Microscopic observation [Identifier] in Urine by Gram stain,76670,0,No matching concept,154633,,,,,,,
+KWMC,3052851,Hemolysis interference index of Serum or Plasma,75748,0,No matching concept,246521,,,,,,,
+KWMC,3051611,Lipemic interference index of Serum or Plasma,75748,0,No matching concept,246521,,,,,,,
+KWMC,3051651,Icteric interference index of Serum or Plasma,75748,0,No matching concept,246521,,,,,,,
+KWMC,723471,SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Respiratory system specimen by NAA with probe detection,74265,0,No matching concept,141111,,,,,,,
+KWMC,40764999,"Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)/1.73 sq M",73807,0,No matching concept,157905,,,,,,,
+KWMC,3021197,Magnesium Ionized [Moles/volume] in Serum or Plasma,73311,8753,millimole per liter,187914,0,0.33,0.4,0.47,0.54,0.62,2.5
+KWMC,3001079,Blood group antibody screen [Presence] in Serum or Plasma,73167,0,No matching concept,178876,,,,,,,
+KWMC,42529232,Thyroxine (T4) free [Moles/volume] in Serum or Plasma by Immunoassay,72649,8729,picomole per liter,141185,0.3,10.2,12.2,14.6,16.8,19.4,154.8
+KWMC,3044331,Calcium.ionized [Moles/volume] in Arterial blood,68733,8753,millimole per liter,227238,0.01,0.9,1.05,1.15,1.21,1.27,5
+KWMC,586523,SARS-related coronavirus E gene [Presence] in Respiratory system specimen by NAA with probe detection,68071,0,No matching concept,125902,,,,,,,
+KWMC,706161,SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory system specimen by NAA with probe detection,67941,0,No matching concept,125697,,,,,,,
+KWMC,36305203,Microscopic observation [Identifier] in Blood by Gram stain,65916,0,No matching concept,247594,,,,,,,
+KWMC,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,57657,8840,milligram per deciliter,210965,5,95,114,143,191,255,749
+KWMC,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,57657,0,No matching concept,1580507,,,,,,,
+KWMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,54841,8729,picomole per liter,84043,0.42,0.83,0.9,0.99,1.09,1.27,77.2
+KWMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,54841,8817,nanogram per deciliter,17968,0.42,0.81,0.89,0.98,1.08,1.2,5
+KWMC,3018405,Lactate [Moles/volume] in Arterial blood,54538,8753,millimole per liter,217670,-0.2,0.7,0.9,1.3,2.2,4.2,31
+KWMC,3018405,Lactate [Moles/volume] in Arterial blood,54538,0,No matching concept,2165,,,,,,,
+KWMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,54092,8842,nanogram per milliliter,101271,1,7,7,7,10.0,32.1,5018
+KWMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,54092,0,No matching concept,5532,,,,,,,
+KWMC,3031266,Glucose [Mass/volume] in Arterial blood,53438,8840,milligram per deciliter,215779,4,79,96,122,165,238,845
+KWMC,3043706,Sodium [Moles/volume] in Arterial blood,53437,8753,millimole per liter,215779,82,131.8,135,138,140.6,143.4,200.0
+KWMC,3031248,Chloride [Moles/volume] in Arterial blood,53436,8753,millimole per liter,215778,40.0,101.2,105,108,111,114,200.0
+KWMC,3043409,Potassium [Moles/volume] in Arterial blood,53434,8753,millimole per liter,215772,1,3.19,3.5,3.9,4.51,5.2,20.0
+KWMC,36303326,Yeast [Presence] in Urine,51306,8786,per high power field,62515,1,1,1,1,2,3,3
+KWMC,36304079,Mucus [Presence] in Urine sediment,51306,8786,per high power field,62515,1,1,1,1,1,2,3
+KWMC,3026796,Spermatozoa [Presence] in Urine sediment by Light microscopy,51306,8786,per high power field,62515,1,1,1,1,3,3,3
+KWMC,3023230,Hematocrit [Volume Fraction] of Arterial blood by calculation,50508,8554,percent,204155,-12,26,30.0,35,40.0,46,79
+KWMC,3002173,Hemoglobin [Mass/volume] in Arterial blood,50489,8713,gram per deciliter,203855,0.2,8.7,10.1,11.7,13.4,15.3,26.3
+KWMC,3023368,Bacteria identified in Blood by Culture,48071,0,No matching concept,308897,,,,,,,
+KWMC,3001490,Nucleated erythrocytes [#/volume] in Blood,47799,0,NO_DATA,0,,,,,,,
+KWMC,3034708,Nucleated erythrocytes/Leukocytes [Ratio] in Blood,47799,0,NO_DATA,0,,,,,,,
+KWMC,3010909,Ascorbate [Presence] in Urine,46940,8840,milligram per deciliter,51222,,,,,,,
+KWMC,36304419,Bacteria [Presence] in Urine,46904,8647,per microliter,51203,1,1,1,3,3,3,3
+KWMC,3025590,Crystals [type] in Urine sediment by Light microscopy,46904,8765,per low powered field,18768,1,1,1,1,1,3,3
+KWMC,3025590,Crystals [type] in Urine sediment by Light microscopy,46904,8786,per high power field,32435,1,1,1,1,1,1,2
+KWMC,40761537,Casts [Type] in Urine sediment by Light microscopy,46904,8765,per low powered field,51203,2,3,3,3,3,3,4
+KWMC,3017250,Creatinine [Mass/volume] in Urine,46141,8840,milligram per deciliter,118424,0.05,29.5,49.4,81.8,129.5,190.57,4579
+KWMC,3011960,Natriuretic peptide B [Mass/volume] in Serum or Plasma,45486,8845,picogram per milliliter,69890,0.5,8.3,15.7,60.6,240.6,763,5065
+KWMC,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,43738,8645,unit per liter,80723,1,17,23,34,79,294,428000.0
+KWMC,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,40714,8842,nanogram per milliliter,97877,0.5,8.2,16.9,40.1,117.3,360.3,33511.2
+KWMC,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,39483,8554,percent,889696,,,,,,,
+KWMC,3052648,Fibrin D-dimer [Mass/volume] in Platelet poor plasma by Immunoassay.FEU,38410,0,No matching concept,56424,,,,,,,
+KWMC,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,34821,8842,nanogram per milliliter,48976,0.008,0.1,0.44,0.9,2.17,5.93,135717
+KWMC,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,34684,0,NO_DATA,0,,,,,,,
+KWMC,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,32672,8555,second,40404,12,87,102,126,182,300.0,531
+KWMC,3013727,Leukocytes other/Leukocytes in Blood,31987,8554,percent,101029,0,3,5,7,10.0,14,98
+KWMC,3018954,Choriogonadotropin [Presence] in Urine,31760,0,No matching concept,43579,,,,,,,
+KWMC,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,28097,8842,nanogram per milliliter,11247,0.1,0.9,1.4,2.3,4.22,10.4,1123
+KWMC,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,27996,8845,picogram per milliliter,34591,50.0,296,419,598,900.0,1500.0,6000.0
+KWMC,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,27996,0,No matching concept,4980,,,,,,,
+KWMC,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,27918,8763,unit per milliliter,8085,0.8,0.8,4.2,8.4,19,63.5,2085
+KWMC,40765040,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,27319,0,NO_DATA,0,,,,,,,
+KWMC,3036987,Folate [Mass/volume] in Serum or Plasma,26816,8842,nanogram per milliliter,32639,1,4.12,5.92,8.88,13.56,18.4,52.7
+KWMC,3036987,Folate [Mass/volume] in Serum or Plasma,26816,0,No matching concept,4801,,,,,,,
+KWMC,3004592,Major crossmatch [Interpretation],26160,0,No matching concept,57692,,,,,,,
+KWMC,3007760,Creatinine [Mass/volume] in Arterial blood,26127,8840,milligram per deciliter,67737,0.1,0.6,0.7,0.8,1.03,1.9,20.0
+KWMC,3005745,Bacteria identified in Blood by Aerobe culture,24711,0,No matching concept,93557,,,,,,,
+KWMC,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,24601,0,No matching concept,35242,,,,,,,
+KWMC,3047181,Lactate [Moles/volume] in Blood,24457,8753,millimole per liter,59251,-0.2,0.7,1,1.5,2.5,5.1,37.6
+KWMC,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,23086,0,No matching concept,52101,,,,,,,
+KWMC,3023419,Bacteria identified in Sputum by Culture,22872,0,No matching concept,83781,,,,,,,
+KWMC,3045831,Influenza virus B Ag [Presence] in Nasopharynx,22473,0,No matching concept,26798,,,,,,,
+KWMC,3044141,Influenza virus A Ag [Presence] in Nasopharynx,22473,0,No matching concept,26798,,,,,,,
+KWMC,3005785,Creatine kinase.MB [Mass/volume] in Serum or Plasma,22126,8842,nanogram per milliliter,28514,1,1,1,1,2,4.4,80.0
+KWMC,3046279,Procalcitonin [Mass/volume] in Serum or Plasma,22006,8842,nanogram per milliliter,35580,0.01,0.02,0.04,0.12,0.51,3.29,1000.0
+KWMC,3002400,Iron [Mass/volume] in Serum or Plasma,21585,8837,microgram per deciliter,26754,3,14,26,51,81,114,1680.0
+KWMC,3002400,Iron [Mass/volume] in Serum or Plasma,21585,0,No matching concept,9554,,,,,,,
+KWMC,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,21366,8837,microgram per deciliter,26442,23,155,204,272,350.0,408,1687
+KWMC,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,21366,0,No matching concept,9586,,,,,,,
+KWMC,3027391,Platelet function (closure time) collagen+ADP induced [Time] in Blood,20842,8555,second,24875,17,60.0,69,80.0,97,123,300.0
+KWMC,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,20446,0,No matching concept,24317,,,,,,,
+KWMC,3001426,Microscopic observation [Identifier] in Stool by Gram stain,20315,0,No matching concept,33523,,,,,,,
+KWMC,3003181,Sodium [Moles/volume] in Urine,19863,8753,millimole per liter,13759,1,15,34,67,105,139,390.0
+KWMC,3003181,Sodium [Moles/volume] in Urine,19863,9557,milliequivalent per liter,21922,1,15,31,59,97,134,342
+KWMC,3016038,Potassium [Moles/volume] in Urine,19493,8753,millimole per liter,13393,1.2,13.1,20.3,31.9,48.7,68,252.1
+KWMC,3016038,Potassium [Moles/volume] in Urine,19493,9557,milliequivalent per liter,21369,0.1,11.1,18.1,29.6,46,64.6,217.2
+KWMC,3007733,Chloride [Moles/volume] in Urine,19454,8753,millimole per liter,13353,1,20.0,41,75,114,147,400.0
+KWMC,3007733,Chloride [Moles/volume] in Urine,19454,9557,milliequivalent per liter,21339,1,14,28,59,100.0,138,379
+KWMC,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,19046,8985,international unit per milliliter,8792,0.9,0.9,0.9,0.9,3.8,35.7,1000.0
+KWMC,3020389,Ova and parasites identified in Stool by Concentration,18891,0,No matching concept,33840,,,,,,,
+KWMC,3020389,Ova and parasites identified in Stool by Concentration,18891,8786,per high power field,4056,,,,,,,
+KWMC,3034485,Albumin/Creatinine [Mass Ratio] in Urine,18783,0,No matching concept,51328,,,,,,,
+KWMC,3037121,Protein [Mass/volume] in Urine,18418,8840,milligram per deciliter,40163,0.04,4,8,23.25,93.87,260.6,78400.0
+KWMC,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,18179,0,No matching concept,49756,,,,,,,
+KWMC,3003327,Ova and parasites identified in Stool by Light microscopy,17259,0,No matching concept,48808,,,,,,,
+KWMC,586525,SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory system specimen by Nucleic acid amplification using CDC primer-probe set N2,16673,0,No matching concept,19948,,,,,,,
+KWMC,36033658,SARS-CoV-2 (COVID-19) E gene [Presence] in Respiratory system specimen by NAA with probe detection,16673,0,No matching concept,19948,,,,,,,
+KWMC,40758594,Influenza virus A H1 2009 pandemic RNA [Presence] in Specimen by NAA with probe detection,16417,0,No matching concept,29470,,,,,,,
+KWMC,3027945,Reticulocytes/Erythrocytes in Blood,16303,8554,percent,1703,0.07,0.85,1.31,1.9,2.76,3.85,37.88
+KWMC,3012516,Albumin [Mass/volume] in Urine,16137,8840,milligram per deciliter,44072,0,0.34,0.7,1.6,5.3,23.54,6470.0
+KWMC,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,15993,8837,microgram per deciliter,26442,4,96,144,203,284,371,690.0
+KWMC,3001420,Magnesium [Mass/volume] in Serum or Plasma,15968,8840,milligram per deciliter,30535,0.04,1.72,1.94,2.14,2.42,3.45,14
+KWMC,3001420,Magnesium [Mass/volume] in Serum or Plasma,15968,0,No matching concept,1244,,,,,,,
+KWMC,3021119,Calcium.ionized [Moles/volume] in Blood,15964,8753,millimole per liter,29900,0.03,1.01,1.08,1.15,1.21,1.3,2.73
+KWMC,3038315,Erythrocytes.dysmorphic/Erythrocytes in Urine sediment by Light microscopy,15907,8554,percent,24648,0,5,13,31,60.0,80.0,100.0
+KWMC,3039057,Leukocytes [#/area] in Stool by Microscopy high power field,15605,8786,per high power field,21177,,,,,,,
+KWMC,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,15579,8763,unit per milliliter,3907,2,5.7,7.9,12.4,25.9,78.7,5230.0
+KWMC,3011043,Birth weight Measured,15434,0,No matching concept,25398,,,,,,,
+KWMC,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,15403,8840,milligram per deciliter,22755,2.9,114.9,193.6,288,405,549,1791
+KWMC,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,15178,8554,percent,22330,0,4.5,10.4,20.6,31.1,44.5,105.6
+KWMC,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,15178,0,No matching concept,2472,,,,,,,
+KWMC,3025941,Bacteria identified in Stool by Culture,14990,0,No matching concept,28265,,,,,,,
+KWMC,3034776,A Ag [Presence] on Red Blood Cells,14971,0,No matching concept,16617,,,,,,,
+KWMC,3005724,B Ag [Presence] on Red Blood Cells,14971,0,No matching concept,16617,,,,,,,
+KWMC,3013055,A Ab [Presence] in Serum or Plasma,14971,0,No matching concept,16617,,,,,,,
+KWMC,3016608,B Ab [Presence] in Serum or Plasma,14971,0,No matching concept,16617,,,,,,,
+KWMC,40760909,Oxygen content in Blood by calculation,14753,9570,milliliter per deciliter,31074,0.4,10.3,12.7,15.1,17.4,19.5,34.4
+KWMC,3015632,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",14610,8753,millimole per liter,13,21.4,25.7,26.8,27.8,29,29.6,32.3
+KWMC,3015632,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",14610,9557,milliequivalent per liter,45504,7,18.8,21.5,24.7,27.8,30.3,40.0
+KWMC,3035962,HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay,14192,0,No matching concept,17060,,,,,,,
+KWMC,3038328,Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain,14157,0,No matching concept,28229,,,,,,,
+KWMC,3016244,Insulin [Units/volume] in Serum or Plasma,14010,8860,microunit per milliliter,13714,1.6,2.8,4.6,8.6,19.6,60.7,600.0
+KWMC,3016244,Insulin [Units/volume] in Serum or Plasma,14010,9093,micro-international unit per milliliter,14394,0.2,1.74,4.21,9.34,18.75,36.2,600.0
+KWMC,3016244,Insulin [Units/volume] in Serum or Plasma,14010,0,No matching concept,3767,,,,,,,
+KWMC,3010084,C peptide [Mass/volume] in Serum or Plasma,13635,8842,nanogram per milliliter,26728,0.01,0.76,1.35,2.15,3.64,6,60.0
+KWMC,3010084,C peptide [Mass/volume] in Serum or Plasma,13635,0,No matching concept,7575,,,,,,,
+KWMC,3016724,Homocysteine [Moles/volume] in Serum or Plasma,13601,8749,micromole per liter,13448,2.07,7.19,8.79,11.12,14.71,20.07,227.45
+KWMC,3016724,Homocysteine [Moles/volume] in Serum or Plasma,13601,0,No matching concept,4496,,,,,,,
+KWMC,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,13340,8840,milligram per deciliter,4409,27,104,127,174,241,315,753
+KWMC,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,13340,0,No matching concept,88589,,,,,,,
+KWMC,723477,SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory system specimen by Rapid immunoassay,12835,0,No matching concept,14913,,,,,,,
+KWMC,3008295,Osmolality of Serum or Plasma,12792,0,No matching concept,66573,,,,,,,
+KWMC,3006884,Penicillin [Susceptibility] by Disk diffusion (KB),12474,0,No matching concept,41055,,,,,,,
+KWMC,3008504,Vancomycin [Susceptibility] by Disk diffusion (KB),12471,0,No matching concept,41028,,,,,,,
+KWMC,3001582,Protein/Creatinine [Mass Ratio] in Urine,12368,0,No matching concept,26882,,,,,,,
+KWMC,42529223,Myoglobin [Mass/volume] in Serum or Plasma by Immunoassay,12297,8842,nanogram per milliliter,18925,2.4,34.3,57.3,120.8,353.4,1000.0,14493.4
+KWMC,3013115,Eosinophils [#/volume] in Blood,12250,8647,per microliter,13419,0,50.0,100.0,200.0,400.0,730.0,88880.0
+KWMC,3002850,Tetracycline [Susceptibility] by Disk diffusion (KB),12035,0,No matching concept,40015,,,,,,,
+KWMC,36033659,SARS-CoV-2 (COVID-19) E gene [Cycle Threshold #] in Respiratory system specimen by NAA with probe detection,11963,0,No matching concept,15209,,,,,,,
+KWMC,3017595,Ampicillin [Susceptibility] by Disk diffusion (KB),11895,0,No matching concept,42204,,,,,,,
+KWMC,3027598,Mean blood pressure,11713,8876,millimeter mercury column,451044,,,,,,,
+KWMC,3029458,Influenza virus A+B Ag [Presence] in Nasopharynx,11713,0,No matching concept,14090,,,,,,,
+KWMC,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,11084,0,No matching concept,12549,,,,,,,
+KWMC,3023323,Follitropin [Units/volume] in Serum or Plasma,11057,9550,milli-international unit per milliliter,4055,0.3,1.46,2.75,6.99,15.18,41.68,222.85
+KWMC,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,10841,8842,nanogram per milliliter,11057,0.02,0.02,0.03,0.08,0.28,1.5,1000.0
+KWMC,3012222,Trimethoprim+Sulfamethoxazole [Susceptibility] by Disk diffusion (KB),10736,0,No matching concept,34147,,,,,,,
+KWMC,3020153,Ciprofloxacin [Susceptibility] by Disk diffusion (KB),10623,0,No matching concept,38744,,,,,,,
+KWMC,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,10589,8840,milligram per deciliter,11021,0.4,2.2,4.7,11.1,24.8,47.1,221.5
+KWMC,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,10589,0,No matching concept,10567,,,,,,,
+KWMC,3005158,Clindamycin [Susceptibility] by Disk diffusion (KB),10451,0,No matching concept,30923,,,,,,,
+KWMC,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,10419,8840,milligram per deciliter,10780,16,48,55,65,78,96,305
+KWMC,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,10419,0,No matching concept,12355,,,,,,,
+KWMC,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,10294,8840,milligram per deciliter,10799,27,112,123,136,150.0,163,268
+KWMC,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,10294,0,No matching concept,12182,,,,,,,
+KWMC,3026782,Osmolality of Urine,10286,0,No matching concept,17420,,,,,,,
+KWMC,3008308,Erythromycin [Susceptibility] by Disk diffusion (KB),10277,0,No matching concept,34902,,,,,,,
+KWMC,3000034,Microalbumin [Mass/volume] in Urine,10256,8840,milligram per deciliter,7225,0.1,0.4,0.7,1.5,4.1,15.3,2083
+KWMC,3000034,Microalbumin [Mass/volume] in Urine,10256,0,No matching concept,3613,,,,,,,
+KWMC,3965395,Human coronavirus NL63 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,3965970,Human coronavirus 229E RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37020335,Parainfluenza virus 4 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,36032114,Adenovirus DNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37021465,Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37020635,Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,19276,,,,,,,
+KWMC,37021252,Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37019613,Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37019589,Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,3966673,Human coronavirus OC43 RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,37020808,Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection,10188,0,No matching concept,12866,,,,,,,
+KWMC,46236341,Streptococcus pneumoniae Ag [Presence] in Urine by Rapid immunoassay,10076,0,No matching concept,13302,,,,,,,
+KWMC,3016251,Hemoglobin.gastrointestinal [Presence] in Stool,10067,0,No matching concept,13195,,,,,,,
+KWMC,46236285,Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture,9994,0,No matching concept,18267,,,,,,,
+KWMC,3025285,Estradiol (E2) [Mass/volume] in Serum or Plasma,9974,8845,picogram per milliliter,3041,7,7,11.8,22.63,54.62,139.59,5060.0
+KWMC,40762636,Body mass index (BMI) [Percentile],9826,0,No matching concept,12676,,,,,,,
+KWMC,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,9822,8837,microgram per deciliter,2479,1,3.3,7.8,13.2,19.3,25.1,119.6
+KWMC,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,9822,8840,milligram per deciliter,22186,0.16,2.6,6.1,13.12,22.72,35.04,119.6
+KWMC,3015862,levoFLOXacin [Susceptibility] by Disk diffusion (KB),9771,0,No matching concept,34162,,,,,,,
+KWMC,44786640,Carbapenem resistance blaNDM gene [Presence] by Molecular method,9710,0,No matching concept,10929,,,,,,,
+KWMC,36203345,Carbapenem resistance blaVIM gene [Presence] by Molecular method,9710,0,No matching concept,10929,,,,,,,
+KWMC,36203347,Carbapenem resistance blaOXA-48 gene [Presence] by Molecular method,9710,0,No matching concept,10929,,,,,,,
+KWMC,3033281,Carbapenem resistance blaKPC gene [Presence] by Molecular method,9710,0,No matching concept,10929,,,,,,,
+KWMC,36203342,Carbapenem resistance blaIMP gene [Presence] by Molecular method,9710,0,No matching concept,10929,,,,,,,
+KWMC,3032068,Clostridioides difficile toxin A+B [Presence] in Stool,9697,0,No matching concept,14462,,,,,,,
+KWMC,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,9671,8779,signal to cutoff ratio,20799,,,,,,,
+KWMC,3010031,Teicoplanin [Susceptibility] by Disk diffusion (KB),9419,0,No matching concept,32509,,,,,,,
+KWMC,3037153,rifAMPin [Susceptibility] by Disk diffusion (KB),9412,0,No matching concept,32504,,,,,,,
+KWMC,3036704,Quinupristin+Dalfopristin [Susceptibility] by Disk diffusion (KB),9411,0,No matching concept,32504,,,,,,,
+KWMC,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,9295,0,No matching concept,13117,,,,,,,
+KWMC,3011625,Bleeding time,8908,0,No matching concept,10610,,,,,,,
+KWMC,3003105,Gentamicin [Susceptibility] by Disk diffusion (KB),8900,0,No matching concept,30431,,,,,,,
+KWMC,3003793,Imipenem [Susceptibility] by Disk diffusion (KB),8865,0,No matching concept,30110,,,,,,,
+KWMC,3003906,Oxacillin [Susceptibility] by Disk diffusion (KB),8864,0,No matching concept,25812,,,,,,,
+KWMC,3014660,Fusidate [Susceptibility] by Disk diffusion (KB),8853,0,No matching concept,25798,,,,,,,
+KWMC,3009214,Lutropin [Units/volume] in Serum or Plasma,8750,9550,milli-international unit per milliliter,3819,0,0.07,0.54,3.42,9.75,23.76,237.48
+KWMC,3037262,Amoxicillin+Clavulanate [Susceptibility] by Disk diffusion (KB),8498,0,No matching concept,26126,,,,,,,
+KWMC,3012544,pH of Venous blood,8439,0,No matching concept,17642,,,,,,,
+KWMC,3024928,Oxygen saturation in Venous blood,8438,8554,percent,17636,7.7,59.7,69.8,78.6,87.3,94.1,100.0
+KWMC,3024354,Oxygen [Partial pressure] in Venous blood,8438,8876,millimeter mercury column,17641,10.0,33.6,39,46,55.7,70.5,394.6
+KWMC,3021447,Carbon dioxide [Partial pressure] in Venous blood,8438,8876,millimeter mercury column,17641,9.4,28.4,32.6,38,45.8,54,194.9
+KWMC,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",8436,8753,millimole per liter,2288,7.8,16.8,18.7,21.1,24,26.1,46.5
+KWMC,3010140,"Carbon dioxide, total [Moles/volume] in Venous blood",8436,0,No matching concept,15285,,,,,,,
+KWMC,3027273,Bicarbonate [Moles/volume] in Venous blood,8430,8753,millimole per liter,17563,2.4,16.2,18.9,21.8,24.9,28,62.1
+KWMC,3002032,Base excess in Venous blood by calculation,8430,8753,millimole per liter,17563,-28.9,-8.6,-5.4,-2.6,-0.1,2.5,32.5
+KWMC,40763791,Oxygen content in Venous blood by calculation,8400,9570,milliliter per deciliter,17398,1.4,7.7,9.8,12.9,15.7,18.1,30.9
+KWMC,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,8337,8840,milligram per deciliter,26337,18,93,105,124,151,189,839
+KWMC,43055007,"Hepatitis C virus Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",8306,0,No matching concept,8651,,,,,,,
+KWMC,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,8289,8842,nanogram per milliliter,722,0.202,6.63,9.12,13.86,22.79,33.91,285.3
+KWMC,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,8289,0,No matching concept,15494,,,,,,,
+KWMC,3021879,Hepatitis B virus core Ab [Presence] in Serum,8143,0,No matching concept,5332,,,,,,,
+KWMC,3021879,Hepatitis B virus core Ab [Presence] in Serum,8143,8779,signal to cutoff ratio,3329,,,,,,,
+KWMC,21492993,"HIV 1+2 Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay",8065,0,No matching concept,8394,,,,,,,
+KWMC,3030942,Ammonia [Mass/volume] in Blood,8005,8837,microgram per deciliter,6759,10.0,31.9,45.4,74.6,141.9,295.3,1424.2
+KWMC,3030942,Ammonia [Mass/volume] in Blood,8005,8840,milligram per deciliter,5991,1,20.0,35,59,96,182,20340.0
+KWMC,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,7928,0,No matching concept,6306,,,,,,,
+KWMC,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,7928,8779,signal to cutoff ratio,3574,,,,,,,
+KWMC,3019800,Troponin T.cardiac [Mass/volume] in Serum or Plasma,7812,8842,nanogram per milliliter,13581,0.001,0.01,0.01,0.01,0.051,0.429,25
+KWMC,3016650,Hepatitis A virus Ab [Presence] in Serum,7772,0,No matching concept,1622,,,,,,,
+KWMC,3016650,Hepatitis A virus Ab [Presence] in Serum,7772,8779,signal to cutoff ratio,7122,,,,,,,
+KWMC,3019711,Mycobacterium sp DNA [Presence] in Sputum by NAA with probe detection,7742,0,No matching concept,9257,,,,,,,
+KWMC,3023520,Reticulocytes [#/volume] in Blood,7544,8815,million per microliter,1703,0,0.026,0.0426,0.0629,0.0902,0.1167,0.4827
+KWMC,3005233,Cefotaxime [Susceptibility] by Disk diffusion (KB),7467,0,No matching concept,20708,,,,,,,
+KWMC,42870366,Fibrin D-dimer [Mass/volume] in Blood by Rapid immunoassay,7362,0,No matching concept,11451,,,,,,,
+KWMC,3017766,Complement C4 [Mass/volume] in Serum or Plasma,7322,8840,milligram per deciliter,9048,2,15,20.0,26,33,41,124
+KWMC,36031759,Carbapenem resistance genes [Presence] by Molecular method,7265,0,No matching concept,8853,,,,,,,
+KWMC,3012471,Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay,7040,0,No matching concept,9225,,,,,,,
+KWMC,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,7018,8845,picogram per milliliter,27248,1,30.3,63.9,160.1,288.3,415.4,3230.0
+KWMC,40761010,Clostridioides difficile glutamate dehydrogenase [Presence] in Stool,6894,0,No matching concept,9538,,,,,,,
+KWMC,3035637,Corticotropin [Mass/volume] in Plasma,6890,8845,picogram per milliliter,5826,1.5,3.04,7.83,14.06,24.6,44.28,1687
+KWMC,3035637,Corticotropin [Mass/volume] in Plasma,6890,0,No matching concept,2598,,,,,,,
+KWMC,3009986,Bacteria identified in Catheter tip by Culture,6858,0,No matching concept,12453,,,,,,,
+KWMC,3009986,Bacteria identified in Catheter tip by Culture,6858,9423,colony forming unit per milliliter,144,,,,,,,
+KWMC,3008893,Testosterone [Mass/volume] in Serum or Plasma,6735,8817,nanogram per deciliter,2016,0.08,5.94,38.68,248.01,397.93,529.22,2433.6
+KWMC,3008893,Testosterone [Mass/volume] in Serum or Plasma,6735,8842,nanogram per milliliter,8227,0.1,0.28,1.58,3.16,4.19,5.13,13.54
+KWMC,3000941,Linezolid [Susceptibility] by Disk diffusion (KB),6556,0,No matching concept,22732,,,,,,,
+KWMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,6535,8845,picogram per milliliter,3501,8.3,27.5,62.3,200.3,1113.8,4480.9,70000.0
+KWMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,6535,0,No matching concept,185,,,,,,,
+KWMC,3034593,DAPTOmycin [Susceptibility] by Disk diffusion (KB),6531,0,No matching concept,22544,,,,,,,
+KWMC,1175677,Microscopic observation [Identifier] in Catheter tip by Gram stain,6485,0,No matching concept,12007,,,,,,,
+KWMC,3023143,Ciprofloxacin [Susceptibility],6454,0,No matching concept,8995,,,,,,,
+KWMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,6413,8842,nanogram per milliliter,263,7,67.9,137.2,215.2,364.7,562.1,840.6
+KWMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,6413,0,No matching concept,13589,,,,,,,
+KWMC,3009314,Cefepime [Susceptibility] by Disk diffusion (KB),6353,0,No matching concept,18005,,,,,,,
+KWMC,3004936,Azithromycin [Susceptibility] by Disk diffusion (KB),6128,0,No matching concept,18705,,,,,,,
+KWMC,3003775,cefOXitin [Susceptibility] by Disk diffusion (KB),6087,0,No matching concept,18961,,,,,,,
+KWMC,3035250,Fasting glucose [Mass/volume] in Capillary blood by Glucometer,6085,0,No matching concept,34066,,,,,,,
+KWMC,3004512,Rubella virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,6054,0,No matching concept,6823,,,,,,,
+KWMC,3032018,Cyclic citrullinated peptide IgG Ab [Presence] in Serum,6044,8763,unit per milliliter,6509,,,,,,,
+KWMC,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,5947,0,No matching concept,12103,,,,,,,
+KWMC,3010633,Mycoplasma sp Ab [Presence] in Serum,5932,0,No matching concept,7796,,,,,,,
+KWMC,3002385,Erythrocyte [DistWidth] in Red Blood Cells,5929,8554,percent,7999,0,12,12.3,12.8,14.2,17.3,31.2
+KWMC,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,5889,9550,milli-international unit per milliliter,10164,0.1,0.5,1.95,5,578.01,7315.04,276400.0
+KWMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,5858,0,No matching concept,6168,,,,,,,
+KWMC,3043745,Rheumatoid factor [Presence] in Serum,5837,0,No matching concept,7384,,,,,,,
+KWMC,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,5826,0,No matching concept,12240,,,,,,,
+KWMC,3005719,IgG [Mass/volume] in Serum or Plasma,5755,0,No matching concept,6930,,,,,,,
+KWMC,3006122,Meropenem [Susceptibility] by Disk diffusion (KB),5660,0,No matching concept,16185,,,,,,,
+KWMC,3036150,Fosfomycin [Susceptibility] by Disk diffusion (KB),5643,0,No matching concept,17621,,,,,,,
+KWMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,5630,8763,unit per milliliter,2670,0.1,0.1,6.22,18.71,378.08,2652.96,3000.0
+KWMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,5630,8985,international unit per milliliter,4003,0.25,0.7,3,3,140.0,864.5,1171
+KWMC,3022281,Body weight Measured --pre pregnancy,5510,0,No matching concept,8232,,,,,,,
+KWMC,3001635,Moxifloxacin [Susceptibility] by Disk diffusion (KB),5487,0,No matching concept,16763,,,,,,,
+KWMC,3028269,Bacteria identified in Vaginal fluid by Aerobe culture,5431,0,No matching concept,6406,,,,,,,
+KWMC,3034252,Mupirocin [Susceptibility] by Disk diffusion (KB),5383,0,No matching concept,16163,,,,,,,
+KWMC,3007654,Microscopic observation [Identifier] in Wound by Gram stain,5366,0,No matching concept,14442,,,,,,,
+KWMC,37019853,Mycoplasma pneumoniae DNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,37020160,Bordetella pertussis DNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,3966116,Influenza virus A H1 RNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,37020101,Chlamydophila pneumoniae DNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,37021152,Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,3964787,Human coronavirus HKU1 RNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,3040684,Rhinovirus+Enterovirus RNA [Presence] in Specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,3964727,Influenza virus A H3 RNA [Presence] in Respiratory system specimen by NAA with probe detection,5323,0,No matching concept,6410,,,,,,,
+KWMC,3000855,Microscopic observation [Identifier] in Vaginal fluid by Gram stain,5315,0,No matching concept,6232,,,,,,,
+KWMC,42869862,Sapovirus RNA [Presence] in Specimen by NAA with probe detection,5307,0,No matching concept,5204,,,,,,,
+KWMC,37019702,Norovirus genogroup I+II RNA [Presence] in Stool by NAA with probe detection,5307,0,No matching concept,5204,,,,,,,
+KWMC,37020445,Astrovirus RNA [Presence] in Stool by NAA with probe detection,5307,0,No matching concept,5204,,,,,,,
+KWMC,3003714,Bacteria identified in Wound by Culture,5281,0,No matching concept,29253,,,,,,,
+KWMC,42868767,Plesiomonas shigelloides DNA [Presence] in Stool by NAA with probe detection,5271,0,No matching concept,5124,,,,,,,
+KWMC,1616933,Salmonella sp DNA [Presence] in Stool by NAA with probe detection,5271,0,No matching concept,5124,,,,,,,
+KWMC,3029521,Vibrio sp DNA [Identifier] in Specimen by NAA with probe detection,5271,0,No matching concept,5124,,,,,,,
+KWMC,21493560,Escherichia coli Stx1 and Stx2 toxin stx1+stx2 genes [Presence] in Stool by NAA with probe detection,5271,0,No matching concept,5124,,,,,,,
+KWMC,37020818,Yersinia enterocolitica DNA [Presence] in Stool by NAA with probe detection,5271,0,No matching concept,5124,,,,,,,
+KWMC,3016881,Enterovirus RNA [Presence] in Specimen by NAA with probe detection,5137,0,No matching concept,6456,,,,,,,
+KWMC,3965617,Respiratory syncytial virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection,5137,0,No matching concept,6456,,,,,,,
+KWMC,40765161,Human bocavirus DNA [Presence] in Specimen by NAA with probe detection,5137,0,No matching concept,6456,,,,,,,
+KWMC,37020003,Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection,5137,0,No matching concept,6456,,,,,,,
+KWMC,3966646,Respiratory syncytial virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection,5137,0,No matching concept,6456,,,,,,,
+KWMC,3005225,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction,5133,8645,unit per liter,6139,118,326,373,441,551,751,52089
+KWMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,5062,0,No matching concept,1737,,,,,,,
+KWMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,5062,8779,signal to cutoff ratio,3730,,,,,,,
+KWMC,44816597,Cefuroxime [Susceptibility] by Disk diffusion (KB),4869,0,No matching concept,12375,,,,,,,
+KWMC,3021082,Mycoplasma pneumoniae IgM Ab [Presence] in Serum,4867,8779,signal to cutoff ratio,5649,,,,,,,
+KWMC,42529564,Testosterone [Mass/volume] in Serum or Plasma by Immunoassay,4863,8842,nanogram per milliliter,10397,0.02,0.13,0.48,3.94,5.6,7.19,21.06
+KWMC,3000620,Complement C3 [Mass/volume] in Serum or Plasma,4852,8840,milligram per deciliter,6571,15,74,92,109,127,145,264
+KWMC,3006499,Thyrotropin binding inhibitory immunoglobulins [Presence] in Serum,4837,0,No matching concept,12699,,,,,,,
+KWMC,37020058,Rotavirus A RNA [Presence] in Stool by NAA with probe detection,4832,0,No matching concept,4893,,,,,,,
+KWMC,3011371,Neisseria gonorrhoeae DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,3006093,Chlamydia trachomatis DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,3039962,Ureaplasma urealyticum DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,42870504,Mycoplasma hominis DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,42868427,Trichomonas vaginalis DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,42868423,Ureaplasma parvum DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,42868425,Mycoplasma genitalium DNA [Presence] in Specimen by NAA with probe detection,4809,0,No matching concept,5564,,,,,,,
+KWMC,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,4807,8842,nanogram per milliliter,1735,0.03,0.087,0.163,0.352,0.554,0.772,4.66
+KWMC,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,4807,0,No matching concept,5586,,,,,,,
+KWMC,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,4773,0,No matching concept,7634,,,,,,,
+KWMC,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,4544,8985,international unit per milliliter,10382,0.1,0.9,1.2,3,14.97,93.82,4000.0
+KWMC,3024716,Chloramphenicol [Susceptibility] by Disk diffusion (KB),4530,0,No matching concept,12320,,,,,,,
+KWMC,3016699,Glucose [Mass/volume] in Serum or Plasma --1 hour post 50 g glucose PO,4498,8840,milligram per deciliter,4936,49,91,102,118,135,153,336
+KWMC,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,4479,0,No matching concept,6801,,,,,,,
+KWMC,3002388,Ova and parasites identified in Stool by Parasite sedimentation,4449,0,No matching concept,5459,,,,,,,
+KWMC,3021253,Trimethoprim+Sulfamethoxazole [Susceptibility],4425,0,No matching concept,6138,,,,,,,
+KWMC,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,4390,0,No matching concept,6176,,,,,,,
+KWMC,586526,SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection,4388,0,No matching concept,4036,,,,,,,
+KWMC,3009403,Ampicillin [Susceptibility],4303,0,No matching concept,5952,,,,,,,
+KWMC,3004354,ceFAZolin [Susceptibility] by Disk diffusion (KB),4303,0,No matching concept,11309,,,,,,,
+KWMC,3035007,Gentamicin [Susceptibility],4251,0,No matching concept,5915,,,,,,,
+KWMC,3023753,Tetracycline [Susceptibility],4063,0,No matching concept,4626,,,,,,,
+KWMC,37021247,Adenovirus 40+41 DNA [Presence] in Stool by NAA with probe detection,4057,0,No matching concept,4338,,,,,,,
+KWMC,3019064,Ticarcillin+Clavulanate [Susceptibility] by Disk diffusion (KB),4005,0,No matching concept,11571,,,,,,,
+KWMC,1617228,Escherichia coli enterotoxigenic DNA [Presence] in Stool by NAA with probe detection,4001,0,No matching concept,4258,,,,,,,
+KWMC,3966163,Shigella sp DNA [Presence] in Stool by NAA with probe detection,4001,0,No matching concept,4258,,,,,,,
+KWMC,21493882,Campylobacter coli+jejuni tuf gene [Presence] in Stool by NAA with probe detection,4001,0,No matching concept,4258,,,,,,,
+KWMC,3030365,Mycobacterium tuberculosis rifAMPin resistance gene [Identifier] in Sputum by NAA with probe detection,3991,0,No matching concept,3860,,,,,,,
+KWMC,3043953,Rubella virus IgG Ab [Presence] in Serum or Plasma by Immunoassay,3983,0,No matching concept,4885,,,,,,,
+KWMC,36033641,SARS-CoV-2 (COVID-19) Ag [Presence] in Upper respiratory specimen by Rapid immunoassay,3965,0,No matching concept,3262,,,,,,,
+KWMC,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,3952,8647,per microliter,6589,0,0,0,10.0,850.0,29250.0,4320000.0
+KWMC,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,3952,0,No matching concept,6589,,,,,,,
+KWMC,3017758,pH of Cerebral spinal fluid,3952,0,No matching concept,6589,,,,,,,
+KWMC,3005322,IgE [Units/volume] in Serum or Plasma,3902,8985,international unit per milliliter,2196,0.37,13.36,38.08,112.02,312.42,787.51,3000.0
+KWMC,3005322,IgE [Units/volume] in Serum or Plasma,3902,0,No matching concept,1023,,,,,,,
+KWMC,3027141,Cefotaxime [Susceptibility],3888,0,No matching concept,5387,,,,,,,
+KWMC,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,3790,8647,per microliter,6269,0,0,0,6,100.0,520.0,236700.0
+KWMC,3022840,Leukocytes other/Leukocytes in Cerebral spinal fluid,3790,8554,percent,6269,0,0,0,0,0,10.0,100.0
+KWMC,3008235,Cephalothin [Susceptibility] by Disk diffusion (KB),3705,0,No matching concept,9570,,,,,,,
+KWMC,3019473,Protein [Mass/volume] in Cerebral spinal fluid,3705,8840,milligram per deciliter,5747,0.12,22.33,32,50.5,100.08,243,713000.0
+KWMC,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,3698,8840,milligram per deciliter,5740,0,44,54,64,78,100.0,1000.0
+KWMC,3045068,Mycoplasma pneumoniae IgG Ab [Presence] in Serum by Immunoassay,3690,0,No matching concept,2120,,,,,,,
+KWMC,3045068,Mycoplasma pneumoniae IgG Ab [Presence] in Serum by Immunoassay,3690,8980,arbitrary unit per milliliter,2042,,,,,,,
+KWMC,46234833,Bacteria identified in Abscess by Anaerobe+Aerobe culture,3647,0,No matching concept,8225,,,,,,,
+KWMC,3042847,Granulocytes/Leukocytes in Cerebral spinal fluid,3623,0,NO_DATA,0,,,,,,,
+KWMC,3023410,Appearance of Cerebral spinal fluid,3623,0,No matching concept,6269,,,,,,,
+KWMC,3033306,Mononuclear cells/Leukocytes in Cerebral spinal fluid,3623,8554,percent,6269,0,0,0,33,77,96,100.0
+KWMC,3019029,Microscopic observation [Identifier] in Pus by Gram stain,3618,0,No matching concept,5537,,,,,,,
+KWMC,3042837,Troponin T.cardiac [Presence] in Serum or Plasma,3571,0,No matching concept,5163,,,,,,,
+KWMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,3546,0,No matching concept,3688,,,,,,,
+KWMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,3546,8779,signal to cutoff ratio,5311,,,,,,,
+KWMC,3009196,Meropenem [Susceptibility],3523,0,No matching concept,4978,,,,,,,
+KWMC,3028652,Viscosity of Blood,3498,0,No matching concept,3764,,,,,,,
+KWMC,3024521,cefTAZidime [Susceptibility],3465,0,No matching concept,5181,,,,,,,
+KWMC,3019445,Imipenem [Susceptibility],3465,0,No matching concept,5189,,,,,,,
+KWMC,3020149,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma,3462,0,No matching concept,3411,,,,,,,
+KWMC,3002661,Tobramycin [Susceptibility],3458,0,No matching concept,4976,,,,,,,
+KWMC,3022324,Piperacillin+Tazobactam [Susceptibility],3443,0,No matching concept,4988,,,,,,,
+KWMC,3047117,Bordetella pertussis DNA [Presence] in Nasopharynx by NAA with probe detection,3425,0,No matching concept,2955,,,,,,,
+KWMC,36303621,Chlamydophila pneumoniae DNA [Presence] in Nasopharynx by NAA with probe detection,3425,0,No matching concept,2955,,,,,,,
+KWMC,3034972,Bordetella parapertussis DNA [Presence] in Nasopharynx by NAA with probe detection,3425,0,No matching concept,2955,,,,,,,
+KWMC,36305584,Mycoplasma pneumoniae DNA [Presence] in Nasopharynx by NAA with probe detection,3425,0,No matching concept,2955,,,,,,,
+KWMC,46235757,Influenza virus A RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,5910,,,,,,,
+KWMC,46236738,Influenza virus A H1 2009 pandemic RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46236737,Influenza virus A H3 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46236736,Influenza virus A H1 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46236734,Human metapneumovirus RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235749,Adenovirus DNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235759,Influenza virus B RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,36304601,Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235766,Parainfluenza virus 4 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235765,Parainfluenza virus 3 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235764,Parainfluenza virus 2 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,46235763,Parainfluenza virus 1 RNA [Presence] in Nasopharynx by NAA with probe detection,3421,0,No matching concept,2955,,,,,,,
+KWMC,36304170,Clostridioides difficile BI-NAP1-027 strain DNA [Presence] in Stool by NAA with probe detection,3393,0,No matching concept,8422,,,,,,,
+KWMC,44816714,Clostridioides difficile toxin B tcdB gene [Presence] in Stool by NAA with probe detection,3393,0,No matching concept,4211,,,,,,,
+KWMC,3001145,Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay,3382,0,No matching concept,3308,,,,,,,
+KWMC,36305676,Human coronavirus HKU1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,36303657,Middle East respiratory syndrome coronavirus (MERS-CoV) RNA [Presence] in Nasopharynx by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,36304423,Rhinovirus+Enterovirus RNA [Presence] in Nasopharynx by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,46235794,Respiratory syncytial virus RNA [Presence] in Nasopharynx by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,36304464,Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,36304548,Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,3375,0,No matching concept,2955,,,,,,,
+KWMC,3019137,Amikacin [Susceptibility],3312,0,No matching concept,4688,,,,,,,
+KWMC,3028026,IgM [Mass/volume] in Serum or Plasma,3270,0,No matching concept,3086,,,,,,,
+KWMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,3244,0,No matching concept,3138,,,,,,,
+KWMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,3244,8779,signal to cutoff ratio,5199,,,,,,,
+KWMC,3016585,Aldosterone [Mass/volume] in Serum or Plasma --baseline,3244,8817,nanogram per deciliter,3800,0.14,2.98,7.07,13.97,43.65,105.43,9620.5
+KWMC,3006072,Cefepime [Susceptibility],3224,0,No matching concept,4288,,,,,,,
+KWMC,3037064,Ertapenem [Susceptibility],3219,0,No matching concept,4158,,,,,,,
+KWMC,3007173,ceFAZolin [Susceptibility],3217,0,No matching concept,4321,,,,,,,
+KWMC,3035366,Amoxicillin+Clavulanate [Susceptibility],3216,0,No matching concept,4390,,,,,,,
+KWMC,3028308,Erythrocytes [#/volume] in Pleural fluid,3192,8647,per microliter,5008,0,150.0,800.0,3900.0,20000.0,110000.0,4691000.0
+KWMC,3035880,pH of Pleural fluid,3192,0,No matching concept,5008,,,,,,,
+KWMC,3004448,Specific gravity of Pleural fluid by Refractometry,3192,0,No matching concept,5008,,,,,,,
+KWMC,3036887,Ammonia [Mass/volume] in Plasma,3178,8837,microgram per deciliter,2417,12,23.7,31.3,42.9,64,133.1,1000.0
+KWMC,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,3177,0,No matching concept,4163,,,,,,,
+KWMC,3004202,Nitrofurantoin [Susceptibility],3145,0,No matching concept,3439,,,,,,,
+KWMC,3965766,Hazelnut Pollen IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964588,Baker's yeast IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964601,Scallop IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964657,Kiwifruit IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964737,European house dust mite IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964744,Cultivated Rye IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964779,Mealworm IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964831,Egg white IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964837,Japanese cypress IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964879,American house dust mite IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964885,Saltwort IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964898,Sweet Vernal grass IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964912,Willow IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964953,Coconut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964963,Timothy IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3964987,Alternaria alternata IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965000,Cucumber IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965045,Japanese hop IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965050,Sheep epithelium IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965058,Orange IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965068,Cocklebur IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965101,Dandelion IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965114,Penicillium notatum IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965140,Potato IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965151,Chestnut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965156,Yellow Jacket IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965165,Banana IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965174,Candida albicans IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965180,Horse dander IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965211,White Elm IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965215,Dog dander+Dog epithelium IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965298,Cocoa IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965307,Soybean IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965311,Rhizopus nigricans IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965314,Rice IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965343,Apple IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965362,White Oak IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965367,London Plane IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965375,Barley IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965417,Grey Alder IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965419,Bromelin IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965433,Pine IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965467,Aspergillus fumigatus IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965475,Silver Birch IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965498,Mucor racemosus IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965502,Macadamia IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965522,Red top grass IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965523,Bermuda grass IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965533,Cheese cheddar type IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965539,Common Reed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965597,Wattle IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965610,Peach IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965627,Guinea pig epithelium IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965628,House dust IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965635,Cladosporium herbarum IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965646,Egg yolk IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965649,Onion IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965661,Cat dander IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965729,Salmon IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965737,Garlic IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965775,Common Ragweed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965779,Goldenrod IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965791,False ragweed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965835,Crab IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965844,Rabbit epithelium IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965857,Walnut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965920,Peanut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965957,Codfish IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965969,Celery IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965972,Mushroom IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3965982,Mackerel IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966028,White Bean IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966554,Sesame Seed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3028133,Total IgE [Units/volume] in Serum by Radioallergosorbent test (RAST),3140,8985,international unit per milliliter,1691,,,,,,,
+KWMC,3966075,Tyrophagus putrescentiae IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966538,Chicken meat IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966696,Acarus siro IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966225,Common pigweed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966068,Hazelnut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966508,Cow milk IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966460,Shrimp IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966452,Blue mussel IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966408,Brazil Nut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966710,White Ash IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966720,Mango IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966153,Ox-eye daisy IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966185,Honey bee IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966628,Pork IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966592,English plantain IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966587,Wheat IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966689,Squid IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966754,Buckwheat IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966766,Beef IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966767,Mugwort IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966292,Goosefoot IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966047,Cottonwood IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,NO_DATA,0,,,,,,,
+KWMC,3966284,Latex IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966776,Clam IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966777,Japanese Cedar IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966212,Anchovy IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966272,Tomato IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966035,Hamster epithelium IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966246,Carrot IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966205,Cockroach IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966340,Cocksfoot IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966731,Cashew nut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966325,Tuna IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3966732,Corn IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3140,0,No matching concept,1691,,,,,,,
+KWMC,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,3129,0,No matching concept,5908,,,,,,,
+KWMC,3000661,Erythromycin [Susceptibility],3120,0,No matching concept,3576,,,,,,,
+KWMC,3026617,Urea nitrogen [Mass/volume] in Arterial blood,3046,8840,milligram per deciliter,29981,3,6,7,9,12,17,79
+KWMC,43054917,Rotavirus Ag [Presence] in Stool by Rapid immunoassay,3032,0,No matching concept,3323,,,,,,,
+KWMC,3017394,Zinc [Mass/volume] in Serum or Plasma,3012,0,No matching concept,4271,,,,,,,
+KWMC,3019022,Gentamicin.high potency [Susceptibility] by Disk diffusion (KB),2995,0,No matching concept,8373,,,,,,,
+KWMC,3036428,Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid,2989,0,No matching concept,3785,,,,,,,
+KWMC,3008434,Streptomycin.high potency [Susceptibility] by Disk diffusion (KB),2989,0,No matching concept,8320,,,,,,,
+KWMC,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,2981,8985,international unit per milliliter,18165,10.0,10.0,16,20.0,486.3,12800.0,1988000000.0
+KWMC,37021179,Bordetella parapertussis DNA [Presence] in Respiratory system specimen by NAA with probe detection,2980,0,No matching concept,3666,,,,,,,
+KWMC,706164,Middle East respiratory syndrome coronavirus (MERS-CoV) RNA [Presence] in Respiratory system specimen by NAA with probe detection,2980,0,No matching concept,3666,,,,,,,
+KWMC,3015094,Leukocytes other/Leukocytes in Pleural fluid,2953,8554,percent,4605,0,0,0,0,8,25,98
+KWMC,3023199,Leukocytes [#/volume] in Pleural fluid,2953,8647,per microliter,4605,0,160.0,390.0,1000.0,2740.0,7280.0,943710.0
+KWMC,3009401,levoFLOXacin [Susceptibility],2932,0,No matching concept,3700,,,,,,,
+KWMC,3007766,Cardiolipin IgG Ab [Presence] in Serum by Immunoassay,2928,0,No matching concept,2886,,,,,,,
+KWMC,3003434,Protein [Mass/volume] in Pleural fluid,2927,8713,gram per deciliter,833,0.1,1.4,2.3,3.5,4.7,5.3,4790.0
+KWMC,3003434,Protein [Mass/volume] in Pleural fluid,2927,8840,milligram per deciliter,3357,1,1161.21,1805.34,2579,3256,4503.5,33000.0
+KWMC,3027370,Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,2926,0,No matching concept,5886,,,,,,,
+KWMC,3022747,cefTRIAXone [Susceptibility] by Disk diffusion (KB),2914,0,No matching concept,5674,,,,,,,
+KWMC,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,2881,0,No matching concept,8645,,,,,,,
+KWMC,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,2875,8859,microgram per milliliter,4390,2.5,2.5,2.5,4.8,17.1,67.4,200.0
+KWMC,3007164,IgA [Mass/volume] in Serum or Plasma,2870,0,No matching concept,3061,,,,,,,
+KWMC,43055039,Microscopic observation [Identifier] in Anal by Gram stain,2869,0,No matching concept,3771,,,,,,,
+KWMC,3038086,cefTAZidime [Susceptibility] by Disk diffusion (KB),2863,0,No matching concept,6455,,,,,,,
+KWMC,3022094,Tobramycin [Susceptibility] by Disk diffusion (KB),2853,0,No matching concept,6375,,,,,,,
+KWMC,3016573,Ampicillin+Sulbactam [Susceptibility] by Disk diffusion (KB),2832,0,No matching concept,5300,,,,,,,
+KWMC,3001950,Amikacin [Susceptibility] by Disk diffusion (KB),2828,0,No matching concept,6297,,,,,,,
+KWMC,40766100,Carbapenem resistance genes [Identifier] by NAA with probe detection,2793,0,No matching concept,2076,,,,,,,
+KWMC,3015532,Bacteria identified in Bronchial specimen by Aerobe culture,2774,0,No matching concept,5742,,,,,,,
+KWMC,3018209,Ofloxacin [Susceptibility] by Disk diffusion (KB),2760,0,No matching concept,7859,,,,,,,
+KWMC,1175950,Herpes simplex virus 1+2 IgM Ab [Presence] in Serum by Immunoassay,2755,0,No matching concept,2918,,,,,,,
+KWMC,3006588,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,2753,8763,unit per milliliter,3257,0.64,3.68,4.96,6.95,11.05,18.03,1000.0
+KWMC,3003403,Glucose [Mass/volume] in Pleural fluid,2742,8840,milligram per deciliter,2522,0,55,94,119,146,190.0,1245.1
+KWMC,3003403,Glucose [Mass/volume] in Pleural fluid,2742,0,No matching concept,1093,,,,,,,
+KWMC,3016914,Bacteria identified in Cerebral spinal fluid by Culture,2736,0,No matching concept,9858,,,,,,,
+KWMC,3041473,Sodium [Moles/volume] in Venous blood,2724,8753,millimole per liter,2185,126,134,136,138,140.0,142,154
+KWMC,3041354,Potassium [Moles/volume] in Venous blood,2724,8753,millimole per liter,2185,2.1,3.2,3.5,3.8,4.2,4.7,12.5
+KWMC,3035285,Chloride [Moles/volume] in Venous blood,2724,8753,millimole per liter,2185,96,103,105,107,109,112,126
+KWMC,3025242,Penicillin [Susceptibility],2708,0,No matching concept,3095,,,,,,,
+KWMC,3014891,Appearance of Pleural fluid,2702,0,No matching concept,4343,,,,,,,
+KWMC,3026051,Granulocytes/Leukocytes in Pleural fluid,2702,8554,percent,4343,0,3,6,18,53,82,99
+KWMC,3034459,Mononuclear cells/Leukocytes in Pleural fluid,2702,8554,percent,4343,0,14,35,70.0,89,95,100.0
+KWMC,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,2702,8645,unit per liter,2798,0,97,161,308,824,2005,123452
+KWMC,40763082,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid by Lactate to pyruvate reaction,2702,8923,international unit per liter,1145,1,95,186,386,1030.0,2537,80200.0
+KWMC,3014271,Vancomycin [Susceptibility],2694,0,No matching concept,3132,,,,,,,
+KWMC,3001388,Linezolid [Susceptibility],2684,0,No matching concept,3042,,,,,,,
+KWMC,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,2683,0,No matching concept,3637,,,,,,,
+KWMC,3006441,Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,2683,0,No matching concept,2589,,,,,,,
+KWMC,3023764,Bacteria identified in Specimen by Respiratory culture,2641,0,No matching concept,5862,,,,,,,
+KWMC,3023764,Bacteria identified in Specimen by Respiratory culture,2641,9423,colony forming unit per milliliter,1842,,,,,,,
+KWMC,3032077,Neutrophil cytoplasmic Ab [Presence] in Serum by Immunofluorescence,2621,0,No matching concept,2453,,,,,,,
+KWMC,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,2596,0,No matching concept,3309,,,,,,,
+KWMC,3023871,Helicobacter pylori IgG Ab [Presence] in Serum or Plasma by Immunoassay,2535,0,No matching concept,2501,,,,,,,
+KWMC,3015884,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,2521,0,No matching concept,5749,,,,,,,
+KWMC,3045355,Beta 2 glycoprotein 1 IgG Ab [Presence] in Serum,2486,0,No matching concept,2372,,,,,,,
+KWMC,3043181,Beta 2 glycoprotein 1 IgM Ab [Presence] in Serum,2483,0,No matching concept,2370,,,,,,,
+KWMC,3038047,Nitrofurantoin [Susceptibility] by Disk diffusion (KB),2482,0,No matching concept,4273,,,,,,,
+KWMC,3051269,Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain,2478,0,No matching concept,3202,,,,,,,
+KWMC,3007822,Protein Fractions [Interpretation] in Urine by Electrophoresis,2472,0,No matching concept,2447,,,,,,,
+KWMC,3028048,Mycobacterium tuberculosis DNA [Presence] in Bronchial specimen by NAA with probe detection,2413,0,No matching concept,3078,,,,,,,
+KWMC,3014639,Mycobacterium sp DNA [Presence] in Bronchial specimen by NAA with probe detection,2402,0,No matching concept,3078,,,,,,,
+KWMC,3046684,Mycoplasma pneumoniae IgG Ab [Presence] in Serum,2401,0,No matching concept,2299,,,,,,,
+KWMC,3038943,Toxoplasma gondii IgM Ab [Presence] in Serum or Plasma by Immunoassay,2400,0,No matching concept,2538,,,,,,,
+KWMC,3016242,Piperacillin+Tazobactam [Susceptibility] by Disk diffusion (KB),2357,0,No matching concept,4785,,,,,,,
+KWMC,42529122,Norovirus Ag [Presence] in Stool by Rapid immunoassay,2330,0,No matching concept,2603,,,,,,,
+KWMC,42529221,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma by Immunoassay,2322,0,No matching concept,2973,,,,,,,
+KWMC,3023037,pH of Peritoneal fluid,2285,0,No matching concept,10134,,,,,,,
+KWMC,3009613,Erythrocytes [#/volume] in Peritoneal fluid,2285,8647,per microliter,10133,0,40.0,120.0,550.0,3000.0,19000.0,10000000.0
+KWMC,3005543,Specific gravity of Peritoneal fluid by Refractometry,2285,0,No matching concept,10134,,,,,,,
+KWMC,3023487,Leukocytes [#/volume] in Peritoneal fluid,2275,8647,per microliter,10053,0,50.0,90.0,200.0,510.0,1880.0,1382040.0
+KWMC,3044495,Bacteria identified in Tissue by Culture,2258,0,No matching concept,7676,,,,,,,
+KWMC,3021988,Piperacillin [Susceptibility] by Disk diffusion (KB),2227,0,No matching concept,4790,,,,,,,
+KWMC,3005715,Vancomycin [Mass/volume] in Serum or Plasma,2203,8859,microgram per milliliter,8212,2.5,6.48,9.75,15.6,22.41,33.22,118.72
+KWMC,3008855,Leukocytes other/Leukocytes in Peritoneal fluid,2182,8554,percent,9554,0,0,0,0,10.0,31,100.0
+KWMC,3011565,Microscopic observation [Identifier] in Tissue by Gram stain,2157,0,No matching concept,4542,,,,,,,
+KWMC,3029139,APOE gene alleles e2 and e3 and e4 [Identifier] in Blood or Tissue by Molecular genetics method Nominal,2147,0,No matching concept,2067,,,,,,,
+KWMC,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,2136,0,No matching concept,1245,,,,,,,
+KWMC,3015421,Appearance of Peritoneal fluid,2128,0,No matching concept,9725,,,,,,,
+KWMC,3022764,Mononuclear cells/Leukocytes in Peritoneal fluid,2128,8554,percent,9724,0,18,43,74,90.0,95,100.0
+KWMC,3008838,Granulocytes/Leukocytes in Peritoneal fluid,2128,8554,percent,9724,0,3,7,15,36,72,100.0
+KWMC,3003628,Teicoplanin [Susceptibility],2111,0,No matching concept,2375,,,,,,,
+KWMC,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,2065,0,No matching concept,3112,,,,,,,
+KWMC,36303261,Leukocytes [Presence] in Cerebral spinal fluid by Gram stain,2049,0,No matching concept,2283,,,,,,,
+KWMC,3039496,Microscopic observation [Identifier] in Pleural fluid by Rhodamine-auramine fluorochrome stain,2019,0,No matching concept,2501,,,,,,,
+KWMC,3018337,Streptolysin O Ab [Presence] in Serum,2010,0,No matching concept,2137,,,,,,,
+KWMC,3050758,Platelet aggregation arachidonate induced [Units/volume] in Platelet rich plasma,1953,0,No matching concept,2209,,,,,,,
+KWMC,3014599,Egg white IgE Ab [Units/volume] in Serum,1936,0,No matching concept,2197,,,,,,,
+KWMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1928,0,No matching concept,801,,,,,,,
+KWMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1928,8779,signal to cutoff ratio,1381,,,,,,,
+KWMC,3001488,Cow milk IgE Ab [Units/volume] in Serum,1922,0,No matching concept,2163,,,,,,,
+KWMC,3023351,European house dust mite IgE Ab [Units/volume] in Serum,1902,0,No matching concept,2049,,,,,,,
+KWMC,3036780,American house dust mite IgE Ab [Units/volume] in Serum,1900,0,No matching concept,2048,,,,,,,
+KWMC,42529226,Progesterone [Mass/volume] in Serum or Plasma by Immunoassay,1897,0,No matching concept,2450,,,,,,,
+KWMC,3019633,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum by Immunoassay,1888,0,No matching concept,2288,,,,,,,
+KWMC,3005307,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum by Immunoassay,1879,0,No matching concept,2268,,,,,,,
+KWMC,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,1864,0,No matching concept,22970,,,,,,,
+KWMC,3006577,Aldosterone [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,1857,8817,nanogram per deciliter,2389,0.14,6.76,12.83,29,111.95,224.06,12856
+KWMC,3006653,Thiamine [Moles/volume] in Blood,1847,0,No matching concept,2114,,,,,,,
+KWMC,3027346,Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,1846,0,No matching concept,10678,,,,,,,
+KWMC,1616807,Leukocytes [#/volume] in Lower respiratory specimen by Manual count,1845,0,No matching concept,2325,,,,,,,
+KWMC,3021940,Eosinophils/Leukocytes in Sputum,1830,0,No matching concept,2307,,,,,,,
+KWMC,36031367,Epithelial cells.squamous [#/volume] in Sputum by Manual count,1830,0,No matching concept,2307,,,,,,,
+KWMC,3026514,Neutrophils/Leukocytes in Sputum,1830,0,No matching concept,2307,,,,,,,
+KWMC,3024595,Lymphocytes/Leukocytes in Sputum,1830,0,No matching concept,2307,,,,,,,
+KWMC,36031603,Monocytes+Macrophages/Leukocytes in Sputum by Manual count,1830,0,No matching concept,4614,,,,,,,
+KWMC,3006507,Aztreonam [Susceptibility] by Disk diffusion (KB),1825,0,No matching concept,3644,,,,,,,
+KWMC,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,1806,0,No matching concept,2102,,,,,,,
+KWMC,3006217,Methemoglobin/Hemoglobin.total in Arterial blood,1805,8554,percent,2364,0,0.2,0.4,0.7,1,1.2,41.6
+KWMC,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,1803,0,No matching concept,4499,,,,,,,
+KWMC,3011544,Albumin [Mass/volume] in Pleural fluid,1801,8840,milligram per deciliter,2243,0.21,564.3,888.78,1059,1468.7,1991.2,3679
+KWMC,3005013,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,1782,0,NO_DATA,0,,,,,,,
+KWMC,3000965,C reactive protein [Presence] in Serum or Plasma,1757,0,No matching concept,2578,,,,,,,
+KWMC,40761566,DNA double strand IgG Ab [Presence] in Serum by Immunoassay,1711,0,No matching concept,2501,,,,,,,
+KWMC,706167,SARS-CoV-2 (COVID-19) N gene [Cycle Threshold #] in Specimen by NAA with probe detection,1709,0,No matching concept,2743,,,,,,,
+KWMC,3039417,Platelet distribution width [Ratio] in Blood,1708,8554,percent,2810,0,9.7,10.4,11.2,12.3,13.4,21.2
+KWMC,3024194,Bacteria identified in Pleural fluid by Culture,1703,0,No matching concept,5228,,,,,,,
+KWMC,40763949,Clindamycin.induced [Susceptibility],1629,0,No matching concept,1603,,,,,,,
+KWMC,3052716,Fibrin D-dimer [Mass/volume] in Platelet poor plasma by Immunoassay.DDU,1628,8842,nanogram per milliliter,2969,0.3,115.756,198.476,486,1357.906,3602,5225.729
+KWMC,3009004,Clostridioides difficile toxin A [Presence] in Stool by Immunoassay,1622,0,No matching concept,2246,,,,,,,
+KWMC,3041391,Cyclic citrullinated peptide Ab [Presence] in Serum,1611,8763,unit per milliliter,876,,,,,,,
+KWMC,3016201,Valproate [Mass/volume] in Serum or Plasma,1584,0,No matching concept,5303,,,,,,,
+KWMC,3018112,Azithromycin [Susceptibility],1582,0,No matching concept,1697,,,,,,,
+KWMC,3000928,Josamycine [Susceptibility],1582,0,No matching concept,1697,,,,,,,
+KWMC,3023921,Ofloxacin [Susceptibility],1582,0,No matching concept,1697,,,,,,,
+KWMC,3002794,Doxycycline [Susceptibility],1582,0,No matching concept,1697,,,,,,,
+KWMC,3033621,Mycoplasma hominis [Presence] in Specimen by Organism specific culture,1582,9423,colony forming unit per milliliter,1697,,,,,,,
+KWMC,3031074,Clindamycin.induced [Susceptibility] by Disk diffusion (KB),1574,0,No matching concept,3178,,,,,,,
+KWMC,3028300,Cannabinoids [Presence] in Urine,1537,0,No matching concept,1602,,,,,,,
+KWMC,3011066,Myoglobin [Mass/volume] in Urine,1499,8842,nanogram per milliliter,2516,0,2.7,5,20.2,632.4,1000.0,1000.0
+KWMC,3021043,Morphine [Presence] in Urine,1490,0,No matching concept,1547,,,,,,,
+KWMC,3019813,Clindamycin [Susceptibility],1474,0,No matching concept,1659,,,,,,,
+KWMC,3032565,Tigecycline [Susceptibility] by Disk diffusion (KB),1465,0,No matching concept,2530,,,,,,,
+KWMC,3013384,rifAMPin [Susceptibility],1453,0,No matching concept,1484,,,,,,,
+KWMC,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,1399,0,No matching concept,3345,,,,,,,
+KWMC,3001775,Smith extractable nuclear Ab [Presence] in Serum by Immunoassay,1395,0,No matching concept,1417,,,,,,,
+KWMC,3004705,Oxacillin [Susceptibility],1392,0,No matching concept,1393,,,,,,,
+KWMC,3019587,Clarithromycin [Susceptibility],1387,0,No matching concept,1697,,,,,,,
+KWMC,3013670,Pristinamycin [Susceptibility],1387,0,No matching concept,1697,,,,,,,
+KWMC,3023852,cefOXitin [Susceptibility],1378,0,No matching concept,1368,,,,,,,
+KWMC,37020937,Giardia lamblia DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,36305771,Cryptosporidium sp DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,21493555,Adenovirus 40+41 fiber protein gene [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,37020300,Entamoeba histolytica DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,21493558,Escherichia coli enterotoxigenic eltA+estB genes [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,21493566,Clostridioides difficile toxin A+B tcdA+tcdB genes [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,42870368,Campylobacter sp DNA.diarrheagenic [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,1617673,Vibrio cholerae DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,1616645,Escherichia coli enteroaggregative DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,42868716,Shigella species+EIEC invasion plasmid antigen H ipaH gene [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,1616599,Cyclospora cayetanensis DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,1616308,Escherichia coli enteropathogenic DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,1617150,Escherichia coli O157 DNA [Presence] in Stool by NAA with probe detection,1363,0,No matching concept,866,,,,,,,
+KWMC,3019942,Ribonucleoprotein extractable nuclear Ab [Presence] in Serum by Immunoassay,1359,0,No matching concept,1299,,,,,,,
+KWMC,37019482,Human papilloma virus genotype [Identifier] in Genital specimen by NAA with probe detection,1345,0,No matching concept,2134,,,,,,,
+KWMC,3005770,Creatinine renal clearance in 24 hour Urine and Serum or Plasma,1325,8795,milliliter per minute,1769,0.05,2.1,29.2,61.9,92.1,118.7,524.8
+KWMC,3006661,Calcium [Mass/volume] in Urine,1314,8840,milligram per deciliter,2271,0.1,1,2.6,6.6,13.4,21.9,87.2
+KWMC,3025053,Alpha-1-Fetoprotein [Presence] in Serum or Plasma,1198,0,No matching concept,546,,,,,,,
+KWMC,3022058,Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection,1180,0,No matching concept,981,,,,,,,
+KWMC,3022058,Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection,1180,8845,picogram per milliliter,634,,,,,,,
+KWMC,3008486,Thyroxine (T4) free [Moles/volume] in Serum or Plasma,1168,8729,picomole per liter,3010,0.9,13.2,14.6,16,17.4,19,29.6
+KWMC,3025037,Bacteria identified in Peritoneal fluid by Culture,1156,0,No matching concept,5261,,,,,,,
+KWMC,3034918,Ertapenem [Susceptibility] by Disk diffusion (KB),1123,0,No matching concept,2266,,,,,,,
+KWMC,3033252,Adenosine deaminase [Enzymatic activity/volume] in Peritoneal fluid,1111,0,No matching concept,1405,,,,,,,
+KWMC,43534067,Doripenem [Susceptibility] by Disk diffusion (KB),1107,0,No matching concept,2110,,,,,,,
+KWMC,3010350,SCL-70 extractable nuclear Ab [Presence] in Serum by Immunofluorescence,1074,0,No matching concept,1244,,,,,,,
+KWMC,3046210,Cortisol [Mass/volume] in Serum or Plasma --baseline,1047,8840,milligram per deciliter,1231,0.2,2,6.6,11.85,17.17,23.4,105.68
+KWMC,3003379,Centromere Ab [Presence] in Serum by Immunofluorescence,1033,0,No matching concept,930,,,,,,,
+KWMC,3049714,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum,1027,8842,nanogram per milliliter,670,8.6,13.2,17.42,30.6,55.1,90.7,1076
+KWMC,3049714,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum,1027,0,No matching concept,1100,,,,,,,
+KWMC,3004239,Creatinine [Mass/time] in 24 hour Urine,1016,0,No matching concept,1068,,,,,,,
+KWMC,3002331,Protein [Mass/volume] in Peritoneal fluid,1013,8713,gram per deciliter,601,0.05,0.8,1,1.2,2,3.5,2550.0
+KWMC,3002331,Protein [Mass/volume] in Peritoneal fluid,1013,8840,milligram per deciliter,716,0,332.45,578,937,1693.51,2628,5545.8
+KWMC,3042234,Platelet aggregation ADP induced [Units/volume] in Blood,977,9388,peripheral vascular resistance unit,450,6,97,143,191,227,255,338
+KWMC,3028461,Complement total hemolytic CH50 [Units/volume] in Serum or Plasma,974,0,No matching concept,1112,,,,,,,
+KWMC,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,945,8842,nanogram per milliliter,4704,0,0.1,0.14,0.32,4.87,13.62,500.0
+KWMC,3023709,Somatotropin [Mass/volume] in Serum or Plasma,933,0,No matching concept,3738,,,,,,,
+KWMC,40764153,Human papilloma virus 82 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,3049514,Human papilloma virus genotype [Identifier] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764133,Human papilloma virus 16 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764134,Human papilloma virus 18 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764135,Human papilloma virus 26 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764136,Human papilloma virus 31 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764137,Human papilloma virus 33 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764138,Human papilloma virus 35 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764139,Human papilloma virus 39 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764140,Human papilloma virus 44 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764141,Human papilloma virus 45 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764142,Human papilloma virus 51 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764143,Human papilloma virus 52 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764144,Human papilloma virus 53 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764145,Human papilloma virus 58 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764146,Human papilloma virus 59 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764147,Human papilloma virus 66 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764149,Human papilloma virus 68 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764150,Human papilloma virus 69 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764151,Human papilloma virus 70 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764152,Human papilloma virus 73 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764154,Human papilloma virus 6 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764155,Human papilloma virus 11 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764156,Human papilloma virus 42 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,40764157,Human papilloma virus 56 DNA [Presence] in Specimen by NAA with probe detection,879,0,No matching concept,771,,,,,,,
+KWMC,3026692,Albumin [Mass/volume] in Peritoneal fluid,859,8713,gram per deciliter,1266,0.1,0.3,0.8,1,1,1.7,5
+KWMC,3008695,Norfloxacin [Susceptibility] by Disk diffusion (KB),855,0,No matching concept,1290,,,,,,,
+KWMC,3025361,cefTRIAXone [Susceptibility],852,0,No matching concept,874,,,,,,,
+KWMC,3010110,Streptomycin.high potency [Susceptibility],826,0,No matching concept,885,,,,,,,
+KWMC,3019972,Gentamicin.high potency [Susceptibility],826,0,No matching concept,887,,,,,,,
+KWMC,3009944,Mycobacterium tuberculosis DNA [Presence] in Pleural fluid by NAA with probe detection,818,0,No matching concept,975,,,,,,,
+KWMC,3027954,Mezlocillin [Susceptibility] by Disk diffusion (KB),810,0,No matching concept,1808,,,,,,,
+KWMC,3001525,Mycobacterium sp DNA [Presence] in Tissue by NAA with probe detection,797,0,No matching concept,900,,,,,,,
+KWMC,3012887,Cytomegalovirus IgG Ab [Presence] in Serum or Plasma by Immunoassay,775,0,No matching concept,948,,,,,,,
+KWMC,3002240,Glucose [Mass/volume] in Peritoneal fluid,770,8840,milligram per deciliter,468,5,86,111,133,172,219,637
+KWMC,3002240,Glucose [Mass/volume] in Peritoneal fluid,770,0,No matching concept,679,,,,,,,
+KWMC,3009682,Cortisol [Mass/volume] in Serum or Plasma,754,8840,milligram per deciliter,1421,0.2,0.91,4.34,10.28,16.63,22.49,75
+KWMC,3016049,Testosterone Free [Mass/volume] in Serum or Plasma,751,0,NO_DATA,0,,,,,,,
+KWMC,3002781,Herpes simplex virus 1+2 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,680,0,No matching concept,757,,,,,,,
+KWMC,3007363,Cortisol [Mass/volume] in Serum or Plasma --30 minutes post XXX challenge,679,8840,milligram per deciliter,740,0.37,7.77,14.92,20.72,25.7,32.85,127.87
+KWMC,3048689,Calprotectin [Mass/mass] in Stool,672,0,No matching concept,568,,,,,,,
+KWMC,3005713,Cortisol [Mass/volume] in Serum or Plasma --1 hour post XXX challenge,669,8840,milligram per deciliter,725,1,10.16,17.26,23.19,29.32,36.77,122.94
+KWMC,3001874,Cefaclor [Susceptibility] by Disk diffusion (KB),640,0,No matching concept,929,,,,,,,
+KWMC,3012718,DNA double strand Ab [Presence] in Serum,639,8985,international unit per milliliter,876,1.1,1.43,2.29,2.87,3.76,7.44,126
+KWMC,3032493,dRVVT/dRVVT W excess phospholipid (screen to confirm ratio),601,0,NO_DATA,0,,,,,,,
+KWMC,40760528,Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,592,8923,international unit per liter,955,0.8,0.869,1.28,2.43,5.56,12.85,40.0
+KWMC,3022386,Varicella zoster virus IgG Ab [Presence] in Serum,560,0,No matching concept,312,,,,,,,
+KWMC,3027013,Piperacillin [Susceptibility],551,0,No matching concept,873,,,,,,,
+KWMC,40765591,Rotavirus RNA [Presence] in Specimen by NAA with probe detection,541,0,No matching concept,311,,,,,,,
+KWMC,3039998,Platelet aggregation arachidonate induced [Units/volume] in Blood,535,0,No matching concept,308,,,,,,,
+KWMC,1176132,Herpes simplex virus 1+2 IgG Ab [Presence] in Serum by Immunoassay,522,0,No matching concept,597,,,,,,,
+KWMC,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,514,8985,international unit per milliliter,368,2.9,10.0,18,33,58,103,439
+KWMC,3034552,Adenosine deaminase [Enzymatic activity/volume] in Cerebral spinal fluid,503,0,No matching concept,636,,,,,,,
+KWMC,3008293,Thyroxine (T4) [Mass/volume] in DBS,501,0,No matching concept,448,,,,,,,
+KWMC,3039493,Microscopic observation [Identifier] in Peritoneal fluid by Rhodamine-auramine fluorochrome stain,495,0,No matching concept,604,,,,,,,
+KWMC,3019978,Herpes simplex virus 2 DNA [Presence] in Specimen by NAA with probe detection,494,0,No matching concept,317,,,,,,,
+KWMC,42868426,Gardnerella vaginalis DNA [Presence] in Specimen by NAA with probe detection,494,0,No matching concept,317,,,,,,,
+KWMC,3964675,Candida albicans DNA [Presence] in Specimen by NAA with probe detection,494,0,No matching concept,317,,,,,,,
+KWMC,3040713,Treponema pallidum DNA [Presence] in Specimen by NAA with probe detection,494,0,No matching concept,317,,,,,,,
+KWMC,3035069,Herpes simplex virus 1 DNA [Presence] in Specimen by NAA with probe detection,494,0,No matching concept,317,,,,,,,
+KWMC,3008065,pH of Synovial fluid,493,0,No matching concept,518,,,,,,,
+KWMC,3010144,Erythrocytes [#/volume] in Synovial fluid,491,8647,per microliter,515,0,100.0,500.0,5000.0,38000.0,179000.0,4564000.0
+KWMC,3021863,cefoTEtan [Susceptibility] by Disk diffusion (KB),490,0,No matching concept,877,,,,,,,
+KWMC,3020876,Protein [Mass/time] in 24 hour Urine,485,8909,milligram per 24 hours,640,0.2,97,194,472,1482,4076.5,19856
+KWMC,3024370,Alpha-1-Fetoprotein [Multiple of the median] in Serum or Plasma,483,0,NO_DATA,0,,,,,,,
+KWMC,3000475,Leukocytes [#/volume] in Synovial fluid,462,8647,per microliter,481,0,140.0,700.0,6720.0,32000.0,61800.0,256230.0
+KWMC,3014601,Aztreonam [Susceptibility],462,0,No matching concept,693,,,,,,,
+KWMC,3033548,Colistin [Susceptibility] by Disk diffusion (KB),453,0,No matching concept,780,,,,,,,
+KWMC,3012337,Microscopic observation [Identifier] in Tissue by Acid fast stain,448,0,No matching concept,551,,,,,,,
+KWMC,40770975,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid by Lactate to pyruvate reaction,442,8645,unit per liter,551,0,44,64,111,249,595,40331
+KWMC,3010703,Specific gravity of Synovial fluid by Refractometry,431,0,No matching concept,518,,,,,,,
+KWMC,3025856,Turbidity [Presence] of Body fluid Qualitative,404,0,No matching concept,591,,,,,,,
+KWMC,3024263,Appearance of Synovial fluid,401,0,No matching concept,484,,,,,,,
+KWMC,3016324,Minocycline [Susceptibility],400,0,No matching concept,275,,,,,,,
+KWMC,3006571,Granulocytes/Leukocytes in Synovial fluid,399,8554,percent,481,0,12,43,84,94,97,100.0
+KWMC,3012215,Mononuclear cells/Leukocytes in Synovial fluid,399,8554,percent,481,0,1,3,10.0,31,75,100.0
+KWMC,3013339,Measles virus IgG Ab [Presence] in Serum,397,0,NO_DATA,0,,,,,,,
+KWMC,3034844,Toxoplasma gondii IgM Ab [Presence] in Serum,393,0,NO_DATA,0,,,,,,,
+KWMC,3015154,Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum,392,0,NO_DATA,0,,,,,,,
+KWMC,3008914,Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum,390,0,NO_DATA,0,,,,,,,
+KWMC,3006338,Orientia tsutsugamushi Ab [Titer] in Serum,382,0,NO_DATA,0,,,,,,,
+KWMC,3036429,Epithelial cells/cells in Body fluid,380,0,NO_DATA,0,,,,,,,
+KWMC,3027123,Macrophages/Leukocytes in Bronchial specimen,380,0,NO_DATA,0,,,,,,,
+KWMC,3007144,Neutrophils/Leukocytes in Bronchial specimen,380,0,NO_DATA,0,,,,,,,
+KWMC,3040100,Monocytes/Leukocytes in Bronchial specimen by Manual count,380,0,NO_DATA,0,,,,,,,
+KWMC,3017197,Lymphocytes/Leukocytes in Bronchial specimen,380,0,NO_DATA,0,,,,,,,
+KWMC,1989222,Leukocytes [#/volume] in Bronchoalveolar lavage by Automated count,380,0,NO_DATA,0,,,,,,,
+KWMC,3000121,Eosinophils/Leukocytes in Bronchial specimen,380,0,NO_DATA,0,,,,,,,
+KWMC,3016759,Leptospira sp Ab [Presence] in Serum,377,0,NO_DATA,0,,,,,,,
+KWMC,3031391,Hantavirus Ab [Presence] in Serum,377,0,NO_DATA,0,,,,,,,
+KWMC,40769111,Beta hydroxybutyrate [Moles/volume] in Blood by Test strip,369,0,NO_DATA,0,,,,,,,
+KWMC,1092251,Bacteria identified in Bronchoalveolar lavage by Culture,364,0,NO_DATA,0,,,,,,,
+KWMC,3002389,Microscopic observation [Identifier] in Synovial fluid by Gram stain,361,0,No matching concept,376,,,,,,,
+KWMC,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,360,0,No matching concept,522,,,,,,,
+KWMC,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,354,0,NO_DATA,0,,,,,,,
+KWMC,3034860,Kappa light chains.free [Mass/volume] in Serum,350,0,NO_DATA,0,,,,,,,
+KWMC,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,341,0,No matching concept,379,,,,,,,
+KWMC,3024980,IgG subclass 4 [Mass/volume] in Serum,334,0,NO_DATA,0,,,,,,,
+KWMC,3000515,Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,333,0,NO_DATA,0,,,,,,,
+KWMC,3011797,Bacteria identified in Abscess by Aerobe culture,332,0,No matching concept,632,,,,,,,
+KWMC,3010761,Herpes simplex virus IgM Ab [Presence] in Serum,331,0,NO_DATA,0,,,,,,,
+KWMC,3011180,Chloramphenicol [Susceptibility],328,0,No matching concept,355,,,,,,,
+KWMC,3014716,Glucose [Mass/volume] in Serum or Plasma --1 hour post 100 g glucose PO,315,8840,milligram per deciliter,257,76,99,130.0,151,178,202,293
+KWMC,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,314,0,NO_DATA,0,,,,,,,
+KWMC,42869039,Plasmodium sp Ag [Identifier] in Blood by Rapid immunoassay,306,0,NO_DATA,0,,,,,,,
+KWMC,37021073,Hepatitis C virus genotype in Serum or Plasma by Sequencing,306,0,No matching concept,357,,,,,,,
+KWMC,3021322,Cryoglobulin [Presence] in Serum,299,0,NO_DATA,0,,,,,,,
+KWMC,1176246,Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain,297,0,No matching concept,358,,,,,,,
+KWMC,3020058,Glucose [Mass/volume] in Serum or Plasma --pre 100 g glucose PO,295,0,NO_DATA,0,,,,,,,
+KWMC,3006717,Glucose [Mass/volume] in Serum or Plasma --2 hours post 100 g glucose PO,295,0,NO_DATA,0,,,,,,,
+KWMC,3014568,SCL-70 extractable nuclear Ab [Presence] in Serum,289,0,NO_DATA,0,,,,,,,
+KWMC,3027457,Glucose [Mass/volume] in Serum or Plasma --3 hours post 100 g glucose PO,289,0,NO_DATA,0,,,,,,,
+KWMC,3029058,Nuclear matrix protein 22 [Presence] in Urine,288,0,NO_DATA,0,,,,,,,
+KWMC,3020287,Protein C actual/normal in Platelet poor plasma by Coagulation assay,274,0,NO_DATA,0,,,,,,,
+KWMC,3030988,Plasmodium sp Ag [Presence] in Blood,268,0,NO_DATA,0,,,,,,,
+KWMC,3028029,Mesothelial cells/Leukocytes in Pleural fluid,260,8554,percent,262,0,0,0,0,2,6,66
+KWMC,3031199,Monocytes+Macrophages/Leukocytes in Pleural fluid,260,8554,percent,262,0,4,10.0,19,34,48,85
+KWMC,3005532,Lymphocytes/Leukocytes in Pleural fluid,260,8554,percent,262,0,7,22,46,72,85,97
+KWMC,3000809,Color of Pleural fluid,260,0,No matching concept,262,,,,,,,
+KWMC,3000919,Neutrophils/Leukocytes in Pleural fluid,260,8554,percent,262,0,2,4,11,44,80.0,98
+KWMC,3001893,Eosinophils/Leukocytes in Pleural fluid,260,8554,percent,262,0,0,0,0,1,2,70.0
+KWMC,3036669,Protein S actual/normal in Platelet poor plasma by Coagulation assay,252,0,NO_DATA,0,,,,,,,
+KWMC,3019385,Microscopic observation [Identifier] in Ear by Gram stain,252,0,NO_DATA,0,,,,,,,
+KWMC,3007234,Bacteria identified in Ear by Aerobe culture,250,0,NO_DATA,0,,,,,,,
+KWMC,3029581,Direct antiglobulin test.unspecified reagent [Presence] on Red Blood Cells,247,0,NO_DATA,0,,,,,,,
+KWMC,3043156,Chloride [Moles/volume] in Peritoneal fluid,242,8753,millimole per liter,468,81,96,100.0,106,111,114,146
+KWMC,3015592,Fungus identified in Body fluid by Culture,240,0,NO_DATA,0,,,,,,,
+KWMC,40760887,Myeloperoxidase Ab and Proteinase 3 panel - Serum,232,0,NO_DATA,0,,,,,,,
+KWMC,3013023,Jo-1 extractable nuclear Ab [Presence] in Serum,231,0,NO_DATA,0,,,,,,,
+KWMC,3012565,Volume of 24 hour Urine,229,0,NO_DATA,0,,,,,,,
+KWMC,3015054,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid,228,0,NO_DATA,0,,,,,,,
+KWMC,3019681,Minocycline [Susceptibility] by Disk diffusion (KB),221,0,No matching concept,389,,,,,,,
+KWMC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,212,0,NO_DATA,0,,,,,,,
+KWMC,3007930,Methemoglobin/Hemoglobin.total in Blood,205,0,NO_DATA,0,,,,,,,
+KWMC,3014646,Fractional oxyhemoglobin in Blood,205,0,NO_DATA,0,,,,,,,
+KWMC,3016401,Ureaplasma urealyticum [Presence] in Specimen by Organism specific culture,202,0,NO_DATA,0,,,,,,,
+KWMC,3018123,Lincomycin [Susceptibility],202,0,NO_DATA,0,,,,,,,
+KWMC,3014998,Roxithromycin [Susceptibility],202,0,NO_DATA,0,,,,,,,
+KWMC,3037201,Protein S Ag actual/normal in Platelet poor plasma by Immunoassay,201,0,NO_DATA,0,,,,,,,
+KWMC,3005277,Mitochondria Ab [Presence] in Serum by Immunofluorescence,193,0,NO_DATA,0,,,,,,,
+KWMC,21491660,Streptococcus pyogenes Ag [Presence] in Throat by Rapid immunoassay,190,0,NO_DATA,0,,,,,,,
+KWMC,3011927,Cytomegalovirus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,36204305,Parechovirus A RNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3033564,Herpes simplex virus 2 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988730,Neisseria meningitidis DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988720,Haemophilus influenzae DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3016894,Varicella zoster virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988744,Listeria monocytogenes DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3023671,Herpes simplex virus 1 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3002433,Enterovirus RNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3046896,Herpes virus 6 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988894,Streptococcus agalactiae DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988643,Escherichia coli K1 DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988899,Streptococcus pneumoniae DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,1988916,Cryptococcus gattii+neoformans DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,188,0,NO_DATA,0,,,,,,,
+KWMC,3034104,Urea nitrogen [Mass/volume] in Serum or Plasma --post dialysis,187,8840,milligram per deciliter,721,1.3,7.3,9.8,13.6,18.4,23.3,36.5
+KWMC,3034167,Trimethoprim [Susceptibility] by Disk diffusion (KB),183,0,No matching concept,249,,,,,,,
+KWMC,37020243,Aldosterone [Mass/volume] in Serum or Plasma by Radioimmunoassay (RIA),182,0,NO_DATA,0,,,,,,,
+KWMC,42870589,Drugs of abuse panel - Urine by Screen method,181,0,NO_DATA,0,,,,,,,
+KWMC,3036779,HLA-B27 [Presence] by NAA with probe detection,179,0,NO_DATA,0,,,,,,,
+KWMC,46235760,Methicillin resistant Staphylococcus aureus [Presence] in Pharynx by Organism specific culture,177,0,NO_DATA,0,,,,,,,
+KWMC,3005920,Turbidity [Presence] of Cerebral spinal fluid Qualitative,175,0,NO_DATA,0,,,,,,,
+KWMC,3018562,Neutrophils/Leukocytes in Cerebral spinal fluid,175,0,NO_DATA,0,,,,,,,
+KWMC,3040400,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunofluorescence,175,0,NO_DATA,0,,,,,,,
+KWMC,3038077,Color of Cerebral spinal fluid,175,0,NO_DATA,0,,,,,,,
+KWMC,3037577,Monocytes/Leukocytes in Cerebral spinal fluid,175,0,NO_DATA,0,,,,,,,
+KWMC,3022640,Eosinophils/Leukocytes in Cerebral spinal fluid,175,0,NO_DATA,0,,,,,,,
+KWMC,3020951,Lymphocytes/Leukocytes in Cerebral spinal fluid,175,0,NO_DATA,0,,,,,,,
+KWMC,1091253,Methicillin resistant Staphylococcus aureus [Presence] in Axilla by Organism specific culture,174,0,NO_DATA,0,,,,,,,
+KWMC,3016065,Varicella zoster virus IgM Ab [Presence] in Serum,170,0,NO_DATA,0,,,,,,,
+KWMC,3038554,Epstein Barr virus capsid IgG Ab [Presence] in Serum by Immunofluorescence,163,0,NO_DATA,0,,,,,,,
+KWMC,3004437,Lymphocytes/Leukocytes in Peritoneal fluid,163,8554,percent,329,0,10.0,20.0,37,53,70.0,85
+KWMC,3004995,Neutrophils/Leukocytes in Peritoneal fluid,163,8554,percent,329,0,3,4,10.0,23,70.0,90.0
+KWMC,3021660,Color of Peritoneal fluid,163,0,No matching concept,329,,,,,,,
+KWMC,3019298,Eosinophils/Leukocytes in Peritoneal fluid,163,8554,percent,329,0,0,0,0,0,0,55
+KWMC,3031189,Monocytes+Macrophages/Leukocytes in Peritoneal fluid,163,8554,percent,329,2,10.0,22,40.0,55,67,89
+KWMC,3010989,Calcitonin [Mass/volume] in Serum or Plasma,163,0,No matching concept,178,,,,,,,
+KWMC,3024271,Mesothelial cells/Leukocytes in Peritoneal fluid,163,8554,percent,329,0,0,0,0,1,4,54
+KWMC,3002733,Renin [Enzymatic activity/volume] in Plasma --baseline,158,0,NO_DATA,0,,,,,,,
+KWMC,3008467,Voriconazole [Susceptibility],157,0,No matching concept,109,,,,,,,
+KWMC,3035598,Amphotericin B [Susceptibility],157,0,No matching concept,109,,,,,,,
+KWMC,3034179,5-Fluorocytosine [Susceptibility],156,0,No matching concept,108,,,,,,,
+KWMC,3001722,Fluconazole [Susceptibility],156,0,No matching concept,108,,,,,,,
+KWMC,40768038,Micafungin [Susceptibility],155,0,No matching concept,107,,,,,,,
+KWMC,3015660,Caspofungin [Susceptibility],155,0,No matching concept,107,,,,,,,
+KWMC,3009171,Fungus identified in Blood by Culture,146,0,No matching concept,265,,,,,,,
+KWMC,1091945,Legionella pneumophila DNA [Presence] in Nasopharynx by NAA with probe detection,146,0,NO_DATA,0,,,,,,,
+KWMC,1091086,Streptococcus pneumoniae DNA [Presence] in Nasopharynx by NAA with probe detection,146,0,NO_DATA,0,,,,,,,
+KWMC,1091209,Haemophilus influenzae DNA [Presence] in Nasopharynx by NAA with probe detection,146,0,NO_DATA,0,,,,,,,
+KWMC,3013157,Ampicillin+Sulbactam [Susceptibility],143,0,No matching concept,197,,,,,,,
+KWMC,3002996,Fungus identified in Cerebral spinal fluid by Culture,140,0,No matching concept,155,,,,,,,
+KWMC,3006761,Bacteria identified in Synovial fluid by Culture,139,0,No matching concept,121,,,,,,,
+KWMC,36304237,Mycoplasma pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,36660466,Haemophilus influenzae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,36306047,Chlamydophila pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,36303340,Legionella pneumophila DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,36659904,Streptococcus pneumoniae DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,36659767,Bordetella pertussis DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,1091764,Bordetella parapertussis DNA [Presence] in Lower respiratory specimen by NAA with probe detection,132,0,NO_DATA,0,,,,,,,
+KWMC,40760904,Newborn screening test results panel - DBS,128,0,NO_DATA,0,,,,,,,
+KWMC,3002946,Microscopic observation [Identifier] in Throat by Gram stain,127,0,NO_DATA,0,,,,,,,
+KWMC,3037908,Alkaline phosphatase isoenzymes [Interpretation] in Serum or Plasma,117,0,No matching concept,139,,,,,,,
+KWMC,3024172,Erythropoietin (EPO) [Units/volume] in Serum or Plasma,116,0,NO_DATA,0,,,,,,,
+KWMC,3000409,Cytomegalovirus DNA [Presence] in Urine by NAA with probe detection,114,0,NO_DATA,0,,,,,,,
+KWMC,3004786,Treponema pallidum Ab [Presence] in Serum by Agglutination,110,0,NO_DATA,0,,,,,,,
+KWMC,3026501,Reagin Ab [Titer] in Serum by RPR,109,0,NO_DATA,0,,,,,,,
+KWMC,21491431,HLA-B*58:01 [Presence] in Blood or Tissue,108,0,NO_DATA,0,,,,,,,
+KWMC,3043425,Karyotype [Identifier] in Bone marrow Nominal,105,0,NO_DATA,0,,,,,,,
+KWMC,3011692,Calculus analysis [Interpretation] in Stone,101,0,NO_DATA,0,,,,,,,
+KWMC,3002619,Bacteria identified in Specimen by Culture,100,0,NO_DATA,0,,,,,,,
+KWMC,3037167,Microscopic observation [Identifier] in Specimen by Gram stain,100,0,NO_DATA,0,,,,,,,
+KWMC,3001355,Fungus identified in Sputum by Culture,99,0,No matching concept,135,,,,,,,
+KWMC,3006257,Acetylcholine receptor Ab [Moles/volume] in Serum,99,0,NO_DATA,0,,,,,,,
+KWMC,3027003,Microscopic observation [Identifier] in Body fluid by Gram stain,99,0,NO_DATA,0,,,,,,,
+KWMC,3003245,Complement C1 esterase inhibitor [Mass/volume] in Serum or Plasma,97,0,NO_DATA,0,,,,,,,
+KWMC,3036472,Blood group antibodies identified in Serum or Plasma,96,0,NO_DATA,0,,,,,,,
+KWMC,3038192,Epstein Barr virus nuclear IgG Ab [Titer] in Serum,95,0,NO_DATA,0,,,,,,,
+KWMC,3015923,Treponema pallidum IgG Ab [Presence] in Serum by Immunofluorescence,93,0,NO_DATA,0,,,,,,,
+KWMC,3005900,Treponema pallidum IgM Ab [Presence] in Serum by Immunofluorescence,91,0,NO_DATA,0,,,,,,,
+KWMC,36304562,Pneumocystis jirovecii DNA [Presence] in Lower respiratory specimen by NAA with probe detection,88,0,NO_DATA,0,,,,,,,
+KWMC,3024995,Toxoplasma gondii IgG Ab [Presence] in Serum,87,0,NO_DATA,0,,,,,,,
+KWMC,3024212,Fungus identified in Bronchial specimen by Culture,86,0,No matching concept,104,,,,,,,
+KWMC,3011965,Urea nitrogen [Mass/volume] in Urine,85,0,NO_DATA,0,,,,,,,
+KWMC,3043236,Bacteria identified in Bronchial brush by Aerobe culture,85,0,No matching concept,151,,,,,,,
+KWMC,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,85,0,NO_DATA,0,,,,,,,
+KWMC,3046750,Metanephrine and Normetanephrine [Interpretation] in Serum or Plasma,83,0,NO_DATA,0,,,,,,,
+KWMC,3046654,HLA-B51 [Presence],80,0,NO_DATA,0,,,,,,,
+KWMC,3036300,Epstein Barr virus DNA [Presence] in Cerebral spinal fluid by NAA with probe detection,79,0,NO_DATA,0,,,,,,,
+KWMC,36304328,Hepatitis E virus IgM Ab [Presence] in Serum or Plasma by Immunoassay,76,0,NO_DATA,0,,,,,,,
+KWMC,40765994,Glomerular basement membrane Ab [Presence] in Serum by Immunoassay,72,0,NO_DATA,0,,,,,,,
+KWMC,3014162,Mycobacterium tuberculosis DNA [Presence] in Specimen by NAA with probe detection,68,0,NO_DATA,0,,,,,,,
+KWMC,36303710,Microscopic observation [Identifier] in Pericardial fluid by Gram stain,68,0,No matching concept,76,,,,,,,
+KWMC,43533989,Noninvasive prenatal fetal aneuploidy panel - Plasma cell-free DNA,68,0,NO_DATA,0,,,,,,,
+KWMC,3037708,Moxifloxacin [Susceptibility],68,0,No matching concept,97,,,,,,,
+KWMC,3046760,Galactomannan Ag [Presence] in Serum or Plasma by Immunoassay,65,0,NO_DATA,0,,,,,,,
+KWMC,3013166,Neutrophils/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3035611,Eosinophils/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3036539,Specific gravity of Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3013794,Leukocytes other/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3010095,Monocytes+Macrophages/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,63,0,NO_DATA,0,,,,,,,
+KWMC,3003329,Lymphocytes/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3051427,Turbidity [Presence] of Synovial fluid Qualitative,63,0,NO_DATA,0,,,,,,,
+KWMC,3043694,Mesothelial cells/Leukocytes in Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3001729,Color of Synovial fluid,63,0,NO_DATA,0,,,,,,,
+KWMC,3017925,Prealbumin [Mass/volume] in Serum or Plasma by Immunoassay,62,0,NO_DATA,0,,,,,,,
+KWMC,42529256,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Immunoassay,60,0,No matching concept,91,,,,,,,
+KWMC,46236374,Legionella pneumophila 1 Ag [Presence] in Urine by Rapid immunoassay,60,0,NO_DATA,0,,,,,,,
+KWMC,3024666,Lithium [Moles/volume] in Serum or Plasma,59,0,NO_DATA,0,,,,,,,
+KWMC,3041748,Fungus identified in Urine by Culture,59,0,No matching concept,69,,,,,,,
+KWMC,1091866,Human coronavirus NL63 RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,46234982,Respiratory syncytial virus A RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,46234983,Respiratory syncytial virus B RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,1091933,Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,46236735,Rhinovirus RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,36305655,Human bocavirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,46235753,Enterovirus RNA [Presence] in Nasopharynx by NAA with probe detection,57,0,NO_DATA,0,,,,,,,
+KWMC,1091049,Amphetamine [Presence] in Urine,55,0,NO_DATA,0,,,,,,,
+KWMC,3019439,Fungus identified in Tissue by Culture,55,0,No matching concept,82,,,,,,,
+KWMC,1175149,Estradiol (E2) [Mass/volume] in Serum or Plasma --2 hours post XXX challenge,55,8845,picogram per milliliter,84,7,7,7,15.2,23.76,34.38,81.11
+KWMC,43533761,Phospholipase A2 receptor IgG Ab [Units/volume] in Serum by Immunoassay,54,0,NO_DATA,0,,,,,,,
+KWMC,3021125,Hepatitis C virus RNA [Presence] in Serum or Plasma by NAA with probe detection,51,0,No matching concept,39,,,,,,,
+KWMC,3008581,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid,48,0,NO_DATA,0,,,,,,,
+KWMC,3016727,Bacteria identified in Body fluid by Culture,47,0,NO_DATA,0,,,,,,,
+KWMC,3037142,Thyrotropin [Units/volume] in DBS,44,0,No matching concept,30,,,,,,,
+KWMC,3000819,Albumin/Creatinine [Mass Ratio] in 24 hour Urine,43,8909,milligram per 24 hours,45,0.3,3.9,7.9,32.9,220.0,1583,2590.0
+KWMC,3030366,Cystatin C [Mass/volume] in Serum or Plasma,41,0,NO_DATA,0,,,,,,,
+KWMC,1001830,"1,3 beta glucan [Presence] in Serum",37,0,NO_DATA,0,,,,,,,
+KWMC,3032254,Tigecycline [Susceptibility],37,0,No matching concept,58,,,,,,,
+KWMC,3000197,Beta lactamase.usual [Susceptibility],36,0,No matching concept,41,,,,,,,
+KWMC,3001123,Platelet [Entitic mean volume] in Blood,28,0,No matching concept,27,,,,,,,
+KWMC,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,26,0,No matching concept,39,,,,,,,
+KWMC,3029859,"Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin C-based formula/1.73 sq M",26,0,NO_DATA,0,,,,,,,
+KWMC,42529517,Hepatitis C virus genotype 1 NS5a gene mutations detected [Identifier],24,0,No matching concept,25,,,,,,,
+KWMC,43533628,cefTAZidime+Avibactam [Susceptibility],24,0,NO_DATA,0,,,,,,,
+KWMC,43533627,Ceftolozane+Tazobactam [Susceptibility],24,0,NO_DATA,0,,,,,,,
+KWMC,3017354,Segmented neutrophils/Leukocytes in Blood,21,0,NO_DATA,0,,,,,,,
+KWMC,3006873,Creatinine renal clearance in 12 hour Urine and Serum or Plasma,13,8795,milliliter per minute,15,29.7,36.8,43.7,52,71,81,84.8
+KWMC,3010634,Colistin [Susceptibility],12,0,NO_DATA,0,,,,,,,
+KWMC,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,10,0,No matching concept,10,,,,,,,
+KWMC,43533649,Ceftolozane+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),9,0,No matching concept,15,,,,,,,
+KWMC,36305194,Meropenem+Vaborbactam [Susceptibility],8,0,NO_DATA,0,,,,,,,
+KWMC,3014576,Chloride [Moles/volume] in Serum or Plasma,7,8753,millimole per liter,13,100.0,100.0,102,104,105,107,109
+KWMC,3002887,C peptide [Mass/volume] in Serum or Plasma --2nd specimen post XXX challenge,7,8842,nanogram per milliliter,12,4.1,4.1,4.17,8.63,10.3,14.4,17.2
+KWMC,3005179,Beta lactamase.extended spectrum [Susceptibility],7,0,No matching concept,14,,,,,,,
+KWMC,3023103,Potassium [Moles/volume] in Serum or Plasma,7,8753,millimole per liter,13,3.7,3.9,4,4.1,4.2,4.6,4.9
+KWMC,3019550,Sodium [Moles/volume] in Serum or Plasma,7,8753,millimole per liter,13,139,140.0,140.0,141,143,144,144

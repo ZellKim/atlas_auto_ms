@@ -1,0 +1,22 @@
+{
+  "site_code": "KCCH",
+  "collected_at": "2026-05-14T15:09:40.795330+00:00",
+  "cdm_name": "KCCH_5.3.1_05",
+  "group_id": 91,
+  "site_id": 225,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\KCCH_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:37:11.934445+00:00",
+  "concepts_attempted": 447,
+  "concepts_with_data": 485,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 485,
+  "elapsed_seconds": 2170.8,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

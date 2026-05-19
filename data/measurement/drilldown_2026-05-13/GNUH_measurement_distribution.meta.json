@@ -1,0 +1,22 @@
+{
+  "site_code": "GNUH",
+  "collected_at": "2026-05-13T10:23:33.300660+00:00",
+  "cdm_name": "GNUH_5.3.1_07",
+  "group_id": 88,
+  "site_id": 198,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\GNUH_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:33:04.535088+00:00",
+  "concepts_attempted": 477,
+  "concepts_with_data": 482,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 482,
+  "elapsed_seconds": 5137.3,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

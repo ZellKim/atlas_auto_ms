@@ -1,0 +1,22 @@
+{
+  "site_code": "HUMC",
+  "collected_at": "2026-05-13T12:13:28.999851+00:00",
+  "cdm_name": "HUMC_DONGTAN_5.3.1_04",
+  "group_id": 117,
+  "site_id": 256,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\HUMC_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:34:01.318259+00:00",
+  "concepts_attempted": 672,
+  "concepts_with_data": 725,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 725,
+  "elapsed_seconds": 6563.6,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

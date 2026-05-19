@@ -1,0 +1,22 @@
+{
+  "site_code": "WKUH",
+  "collected_at": "2026-05-17T09:03:20.545480+00:00",
+  "cdm_name": "WKUH_5.3.1_07",
+  "group_id": 13,
+  "site_id": 188,
+  "source_key": "cdmpv53_251126",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\WKUH_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:41:15.132271+00:00",
+  "concepts_attempted": 573,
+  "concepts_with_data": 592,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 592,
+  "elapsed_seconds": 12681.5,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

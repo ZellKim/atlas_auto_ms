@@ -1,0 +1,141 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+MJH,3000963,Hemoglobin [Mass/volume] in Blood,575848,8713,gram per deciliter,3255287,0.3,9.2,10.7,12.7,14.3,15.5,25.1
+MJH,3010813,Leukocytes [#/volume] in Blood,575842,8848,thousand per microliter,3255235,0.1,4.4,5.5,7,9.2,12.6,538
+MJH,3007461,Platelets [#/volume] in Blood,575842,8848,thousand per microliter,3255236,1,128,181,231,284,344,7850.0
+MJH,3023314,Hematocrit [Volume Fraction] of Blood by Automated count,575842,8554,percent,3255233,0,27.9,32.2,38,42.6,46,97
+MJH,3019897,Erythrocyte distribution width [Ratio] by Automated count,575842,8554,percent,3255236,0,12.1,12.6,13.2,14.4,16.4,1203
+MJH,3003338,MCHC [Mass/volume],575842,8713,gram per deciliter,3255234,16.9,32.1,32.8,33.5,34.1,34.7,195.7
+MJH,3026361,Erythrocytes [#/volume] in Blood,575842,8815,million per microliter,3255234,0,3,3.5,4.2,4.7,5.1,9
+MJH,3035941,MCH [Entitic mass],575842,8564,picogram,3255233,9.7,28.1,29.5,30.7,31.9,33.1,239.7
+MJH,3001123,Platelet mean volume [Entitic volume] in Blood,575842,8583,femtoliter,3255235,1,7.2,7.9,9,10.0,10.8,95
+MJH,3024731,MCV [Entitic volume],575842,8583,femtoliter,3255236,8.7,84.9,88.6,91.8,95,98.3,176.8
+MJH,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,562924,8645,unit per liter,1630814,2.5,11,14,21,34,59,10291
+MJH,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,562924,8923,international unit per liter,1078451,-11,9,12,18,29,53,14516
+MJH,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,562844,8645,unit per liter,1631805,3.7,17,20.0,25,34,56,20000.0
+MJH,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,562844,8923,international unit per liter,1077670,-11,15,18,23,33,55,41600.0
+MJH,3004501,Glucose [Mass/volume] in Serum or Plasma,530284,8840,milligram per deciliter,2249711,0,83,90.0,100.0,121,160.0,5075
+MJH,3016723,Creatinine [Mass/volume] in Serum or Plasma,502515,8840,milligram per deciliter,2827732,-1,0.56,0.7,0.9,1.1,1.6,34.9
+MJH,3027114,Cholesterol [Mass/volume] in Serum or Plasma,496970,8840,milligram per deciliter,1807159,1,118,144,172,201,228,1481
+MJH,3039417,Platelet distribution width [Ratio] in Blood,426435,8554,percent,1742353,0,15.9,16.1,16.5,16.9,17.5,1638
+MJH,3019069,Monocytes/100 leukocytes in Blood,408576,8554,percent,2155606,0,4.1,5.7,7.2,9,11.1,97
+MJH,3019069,Monocytes/100 leukocytes in Blood,408576,0,No matching concept,25393,,,,,,,
+MJH,3006504,Eosinophils/100 leukocytes in Blood,408576,8554,percent,2084744,0,0.2,0.8,1.8,3.3,5.4,80.0
+MJH,3006504,Eosinophils/100 leukocytes in Blood,408576,0,No matching concept,19181,,,,,,,
+MJH,3002030,Lymphocytes/100 leukocytes in Blood,408576,8554,percent,2158170,0,8,15.2,26.2,35.6,43.2,100.0
+MJH,3002030,Lymphocytes/100 leukocytes in Blood,408576,0,No matching concept,25629,,,,,,,
+MJH,3022096,Basophils/100 leukocytes in Blood,408576,8554,percent,2033720,0,0.1,0.3,0.4,0.6,0.9,20100.0
+MJH,3022096,Basophils/100 leukocytes in Blood,408576,0,No matching concept,14811,,,,,,,
+MJH,3017354,Segmented neutrophils/100 leukocytes in Blood,408576,8554,percent,2159062,0,44.7,52.7,62.4,74.7,84.8,4746
+MJH,3017354,Segmented neutrophils/100 leukocytes in Blood,408576,0,No matching concept,25649,,,,,,,
+MJH,3013650,Neutrophils [#/volume] in Blood by Automated count,408532,0,No matching concept,2009667,,,,,,,
+MJH,3004327,Lymphocytes [#/volume] in Blood by Automated count,408532,0,No matching concept,2009543,,,,,,,
+MJH,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,405822,8840,milligram per deciliter,2369418,-1.2,8.5,11.2,14.9,21,35,1100.0
+MJH,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,394573,9032,per 100 white blood cells,1022076,0,0,0,0,0,0.1,2100.0
+MJH,3004809,Band form neutrophils/100 leukocytes in Blood,375320,8554,percent,43855,0,1,1,2,4,8,72
+MJH,3004809,Band form neutrophils/100 leukocytes in Blood,375320,0,No matching concept,11862,,,,,,,
+MJH,3013498,Variant lymphocytes/100 leukocytes in Blood,374845,8554,percent,19347,0,1,1,1,2,3,100.0
+MJH,3013498,Variant lymphocytes/100 leukocytes in Blood,374845,0,No matching concept,8668,,,,,,,
+MJH,3002179,Metamyelocytes/100 leukocytes in Blood,374162,8554,percent,20479,0,1,1,1,2,5,60.0
+MJH,3002179,Metamyelocytes/100 leukocytes in Blood,374162,0,No matching concept,198,,,,,,,
+MJH,3017181,Myelocytes/100 leukocytes in Blood,374009,8554,percent,12590,0,1,1,1,2,5,84
+MJH,3017181,Myelocytes/100 leukocytes in Blood,374009,0,No matching concept,83,,,,,,,
+MJH,3021440,Promyelocytes/100 leukocytes in Blood,373948,8554,percent,953,0,0,1,1,3,6,61
+MJH,3021440,Promyelocytes/100 leukocytes in Blood,373948,0,No matching concept,66,,,,,,,
+MJH,3025159,Blasts/100 leukocytes in Blood,373948,8554,percent,1449,0,1,2,11,38,71,99
+MJH,3025159,Blasts/100 leukocytes in Blood,373948,0,No matching concept,90,,,,,,,
+MJH,3019550,Sodium [Moles/volume] in Serum or Plasma,360245,8753,millimole per liter,2276476,80.0,134,137,140.0,142,144,227
+MJH,3023103,Potassium [Moles/volume] in Serum or Plasma,360200,8753,millimole per liter,2279931,0.9,3.4,3.7,4.1,4.4,4.8,15.8
+MJH,3014576,Chloride [Moles/volume] in Serum or Plasma,356236,8753,millimole per liter,2234219,15,97,101,104,107,109,200.0
+MJH,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,351769,8840,milligram per deciliter,1612641,-1.3,0.3,0.45,0.67,1,1.6,64.62
+MJH,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,347143,8645,unit per liter,928218,10.0,54,68,94,185,298,12658
+MJH,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,347143,8923,international unit per liter,577899,3,44,58,107,206,326,19819
+MJH,3024561,Albumin [Mass/volume] in Serum or Plasma,329329,8713,gram per deciliter,1784223,0.3,2.7,3.2,3.9,4.3,4.6,10.9
+MJH,3024561,Albumin [Mass/volume] in Serum or Plasma,329329,0,No matching concept,868,,,,,,,
+MJH,3020630,Protein [Mass/volume] in Serum or Plasma,326033,8713,gram per deciliter,1428751,0.6,5.5,6.2,6.9,7.3,7.7,19.1
+MJH,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,324528,8645,unit per liter,773458,6,13,17,28,56,129,7200.0
+MJH,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,324528,8923,international unit per liter,443294,-10.0,12,16,27,58,149,7163
+MJH,3030260,Glucose [Presence] in Urine by Automated test strip,322271,0,No matching concept,1087227,,,,,,,
+MJH,40760845,Protein [Presence] in Urine by Automated test strip,322271,0,No matching concept,1087227,,,,,,,
+MJH,3029305,pH of Urine by Automated test strip,322271,0,No matching concept,1087226,,,,,,,
+MJH,3041096,Erythrocytes [Presence] in Urine by Automated,322271,0,No matching concept,1087225,,,,,,,
+MJH,40760844,Ketones [Presence] in Urine by Automated test strip,322268,0,No matching concept,1087224,,,,,,,
+MJH,3000348,Leukocyte esterase [Presence] in Urine by Test strip,322268,0,No matching concept,1087222,,,,,,,
+MJH,3030477,Bilirubin.total [Presence] in Urine by Automated test strip,322268,0,No matching concept,1087223,,,,,,,
+MJH,3021601,Nitrite [Presence] in Urine by Test strip,322268,0,No matching concept,1087224,,,,,,,
+MJH,40765224,Urobilinogen [Presence] in Urine by Automated test strip,322268,0,No matching concept,1087224,,,,,,,
+MJH,3035355,Turbidity [Presence] of Urine Qualitative,322268,0,No matching concept,1087228,,,,,,,
+MJH,3029925,Color of Urine by Auto,322268,0,No matching concept,1087218,,,,,,,
+MJH,3039919,Specific gravity of Urine by Automated test strip,322268,0,No matching concept,1087200,,,,,,,
+MJH,3037556,Urate [Mass/volume] in Serum or Plasma,315131,8840,milligram per deciliter,1268368,-1.8,2.9,3.8,4.9,6.2,7.6,105
+MJH,3006906,Calcium [Mass/volume] in Serum or Plasma,308082,8840,milligram per deciliter,1419478,-0.3,7.7,8.3,8.9,9.4,9.8,3344
+MJH,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,306671,8840,milligram per deciliter,1452534,0,0.02,0.07,0.53,2.99,9,70.3
+MJH,3011904,Phosphate [Mass/volume] in Serum or Plasma,303418,8840,milligram per deciliter,1388368,0,2.4,3,3.5,4.1,4.9,55
+MJH,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",303073,9117,milliliter per minute per 1.73 square meter,1707776,0,36.5,67.6,90.5,106.7,122.2,896.2
+MJH,3022192,Triglyceride [Mass/volume] in Serum or Plasma,299918,8840,milligram per deciliter,1095219,-34,54,74,106,158,231,10000.0
+MJH,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,291310,8840,milligram per deciliter,1056427,1,36,42,51,62,73,249
+MJH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,286718,8779,signal to cutoff ratio,340772,0,0.09,0.1,0.1,0.14,0.26,1001
+MJH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,286718,0,No matching concept,154899,,,,,,,
+MJH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,279640,8923,international unit per liter,224338,0.1,2.1,3.09,38.27,227.9,952.8,1001
+MJH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,279640,9550,milli-international unit per milliliter,222380,0,1.14,3.93,38.32,238.96,1000.0,26557.38
+MJH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,279640,0,No matching concept,37719,,,,,,,
+MJH,3022217,INR in Platelet poor plasma by Coagulation assay,228101,0,No matching concept,977042,,,,,,,
+MJH,3034426,Prothrombin time (PT),228101,8555,second,977406,0,11.7,12.5,13.4,14.9,18.6,120.0
+MJH,3033658,Prothrombin time (PT) actual/Normal,228101,8554,percent,977022,0,48,72,90.0,102,113,365
+MJH,3033658,Prothrombin time (PT) actual/Normal,228101,0,No matching concept,41,,,,,,,
+MJH,3018677,aPTT in Platelet poor plasma by Coagulation assay,222595,8555,second,873611,1,28.1,32,36,42,56.5,180.0
+MJH,3015632,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",220385,8753,millimole per liter,1045310,0,19,21,24,27,29,78
+MJH,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,170469,8840,milligram per deciliter,580027,-128,54,72,97,126,152,1071
+MJH,3009201,Thyrotropin [Units/volume] in Serum or Plasma,166246,9093,micro-international unit per milliliter,443843,0,0.38,0.94,1.63,2.65,4.28,1257.3
+MJH,3017143,Hepatitis C virus Ab [Presence] in Serum,165032,8779,signal to cutoff ratio,103504,0.01,0.01,0.02,0.06,0.08,0.12,11.01
+MJH,3017143,Hepatitis C virus Ab [Presence] in Serum,165032,0,No matching concept,207816,,,,,,,
+MJH,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,160983,8817,nanogram per deciliter,421866,0.03,0.96,1.08,1.22,1.37,1.54,23.4
+MJH,3015183,Erythrocyte sedimentation rate,160107,8752,millimeter per hour,546539,-4,3,8,20.0,41,67,175
+MJH,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,131681,8842,nanogram per milliliter,326004,0,0.72,0.89,1.05,1.23,1.43,150.0
+MJH,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,126047,8554,percent,385579,0,5.2,5.5,6,6.9,8.1,48.5
+MJH,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,80433,8842,nanogram per milliliter,207003,0,1.3,1.7,2.7,4.1,6.5,997000.0
+MJH,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,80433,0,No matching concept,235,,,,,,,
+MJH,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,78580,8845,picogram per milliliter,195124,4.99,35,45,160.0,951.5,4504,793150.0
+MJH,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,74817,8842,nanogram per milliliter,162725,0,0.5,0.8,1.5,2,3.1,53430.0
+MJH,3002400,Iron [Mass/volume] in Serum or Plasma,66302,8840,milligram per deciliter,160718,1,23,48,85,124,160.0,745
+MJH,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,63257,8840,milligram per deciliter,153104,36,206,262,314,353,392,861
+MJH,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,58006,8763,unit per milliliter,123618,0.04,1.42,4.5,7.9,14,24.02,208540.0
+MJH,3028288,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation,53997,8840,milligram per deciliter,60954,-81,66,86,108,132,155,463
+MJH,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,52461,8985,international unit per milliliter,114334,0,6.9,8.4,10.0,10.0,13.9,4080.0
+MJH,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,49007,8842,nanogram per milliliter,126662,0,0.35,0.56,0.917,1.73,4.37,10000.0
+MJH,3017250,Creatinine [Mass/volume] in Urine,42991,8840,milligram per deciliter,138358,-1,29.8,49.9,82.91,130.4,188.2,2372.62
+MJH,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,39125,8842,nanogram per milliliter,97855,0,17,46,124,291,622.9,18669.5
+MJH,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,33166,8840,milligram per deciliter,61775,25,230.0,282,350.0,446,576,1650.0
+MJH,3010084,C peptide [Mass/volume] in Serum or Plasma,33094,8842,nanogram per milliliter,97479,0,0.66,1.02,1.6,2.55,4.19,300.0
+MJH,3016244,Insulin [Units/volume] in Serum or Plasma,32318,9093,micro-international unit per milliliter,781,1,4.36,6.3,9.1,13.4,21.3,240.6
+MJH,3016244,Insulin [Units/volume] in Serum or Plasma,32318,44777578,milliunit per liter,86584,0,3.2,5.1,8.9,16.2,31.5,9778
+MJH,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,31217,8842,nanogram per milliliter,67517,1,9.4,13.5,20.5,29.5,37.7,144
+MJH,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,31052,8845,picogram per milliliter,59570,20.0,351,483.7,705.5,1117,1926,1036000.0
+MJH,3036987,Folate [Mass/volume] in Serum or Plasma,30205,8842,nanogram per milliliter,57687,0.35,3.5,5.2,8.03,12.77,20.1,910.0
+MJH,3016724,Homocysteine [Moles/volume] in Serum or Plasma,29798,8749,micromole per liter,46065,0,8,9.75,12.12,15.23,19.41,128.5
+MJH,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,29323,8763,unit per milliliter,56737,0.7,5.5,8,11.6,17.1,27.1,38831
+MJH,3000034,Microalbumin [Mass/volume] in Urine,27265,8840,milligram per deciliter,74825,0.024,0.3,0.8,1.7,6.6,32.5,3210.0
+MJH,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,16233,8840,milligram per deciliter,22169,4.91,108,123,139,158,175,384
+MJH,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,16085,8840,milligram per deciliter,23335,20.0,57.9,71.5,88.7,107,124,270.0
+MJH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,11563,8985,international unit per milliliter,17336,1,8,9,11.3,125,452,80500.0
+MJH,3008893,Testosterone [Mass/volume] in Serum or Plasma,11038,8842,nanogram per milliliter,17470,0.025,0.1,1.55,3.89,5.4,6.8,16
+MJH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,10874,9550,milli-international unit per milliliter,20444,0.1,1.4,2.3,4.4,8.98,51.55,248.4
+MJH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,8310,9550,milli-international unit per milliliter,16709,0.07,0.1,0.4,2.1,7.2,22.1,273.78
+MJH,3001420,Magnesium [Mass/volume] in Serum or Plasma,6439,8840,milligram per deciliter,12453,0.1,1.8,1.91,2.1,2.2,2.4,8
+MJH,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,5665,8842,nanogram per milliliter,11588,2,107,150.0,215,317,469,1728
+MJH,3027974,Hepatitis B virus e Ag [Presence] in Serum,5582,8779,signal to cutoff ratio,1696,0,0,0,0.06,1,784.67,82450.56
+MJH,3027974,Hepatitis B virus e Ag [Presence] in Serum,5582,0,No matching concept,9097,,,,,,,
+MJH,3013945,Hepatitis B virus e Ab [Presence] in Serum,4889,8779,signal to cutoff ratio,1428,0,0.06,0.25,2.2,4.51,4.51,4.51
+MJH,3013945,Hepatitis B virus e Ab [Presence] in Serum,4889,0,No matching concept,7794,,,,,,,
+MJH,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,4578,9550,milli-international unit per milliliter,7944,0.099,2,2,2,6.3,1457.22,740655
+MJH,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,4078,8840,milligram per deciliter,7210,24,88,97,111,135,187,716
+MJH,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,3918,8842,nanogram per milliliter,5569,0.82,7.59,10.4,14.78,20.7,28.8,300.0
+MJH,3036277,Body height,2844,0,No matching concept,4393,,,,,,,
+MJH,3025315,Body weight,2844,0,No matching concept,4393,,,,,,,
+MJH,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,2625,0,No matching concept,2699,,,,,,,
+MJH,3010989,Calcitonin [Mass/volume] in Serum or Plasma,1889,8845,picogram per milliliter,2632,1,2,2,2,2,3.9,8940.0
+MJH,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,1867,8840,milligram per deciliter,2108,0.3,6.6,7.7,9,10.7,12.8,47
+MJH,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,1688,8840,milligram per deciliter,1903,6,6,7,14,31,57,302
+MJH,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,522,0,No matching concept,589,,,,,,,
+MJH,3036475,Plasminogen activator inhibitor 1 Ag [Mass/volume] in Platelet poor plasma by Immunoassay,295,8842,nanogram per milliliter,317,4,11,21,34,53,88,238
+MJH,3029859,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin C-based formula",182,9117,milliliter per minute per 1.73 square meter,266,12.31,16.54,27.57,50.71,102.73,131.04,330.36
+MJH,3053006,Lipoprotein fractions [Interpretation] in Serum or Plasma by Electrophoresis Narrative,17,0,No matching concept,18,,,,,,,

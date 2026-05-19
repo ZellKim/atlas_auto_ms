@@ -1,0 +1,22 @@
+{
+  "site_code": "CHNUH",
+  "collected_at": "2026-05-12T21:59:32.947380+00:00",
+  "cdm_name": "CHNUH_5.3.1_01",
+  "group_id": 95,
+  "site_id": 227,
+  "source_key": "cdmpv53m",
+  "source_key_override": true,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\CHNUH_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:31:41.662412+00:00",
+  "concepts_attempted": 440,
+  "concepts_with_data": 440,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 440,
+  "elapsed_seconds": 2735.2,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

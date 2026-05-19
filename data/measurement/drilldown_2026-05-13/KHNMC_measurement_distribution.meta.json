@@ -1,0 +1,22 @@
+{
+  "site_code": "KHNMC",
+  "collected_at": "2026-05-12T14:00:49.746062+00:00",
+  "cdm_name": "KHNMC_5.3.1_08",
+  "group_id": 7,
+  "site_id": 203,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\KHNMC_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:30:57.146719+00:00",
+  "concepts_attempted": 882,
+  "concepts_with_data": 974,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 974,
+  "elapsed_seconds": 4337.7,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

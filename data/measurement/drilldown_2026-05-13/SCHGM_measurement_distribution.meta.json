@@ -1,0 +1,22 @@
+{
+  "site_code": "SCHGM",
+  "collected_at": "2026-05-16T18:39:21.512981+00:00",
+  "cdm_name": "SCHGM_5.3.3_03",
+  "group_id": 30,
+  "site_id": 208,
+  "source_key": "cdmpv533",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\SCHGM_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:40:39.863975+00:00",
+  "concepts_attempted": 564,
+  "concepts_with_data": 610,
+  "concepts_no_data": 0,
+  "concepts_error": 4,
+  "rows_total": 614,
+  "elapsed_seconds": 11268.2,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

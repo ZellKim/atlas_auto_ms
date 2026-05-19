@@ -1,0 +1,726 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+HUMC,3020891,Body temperature,711213,586323,degree Celsius,11063436,0.1,36.3,36.5,36.8,37.2,37.8,6939
+HUMC,3027018,Heart rate,706764,8541,per minute,9573903,0.106,64,71,80.0,91,110.0,200081
+HUMC,3024171,Respiratory rate,640212,8541,per minute,1271229,0.2,18,18,20.0,20.0,24,20128
+HUMC,3004249,Systolic blood pressure,624832,8876,millimeter mercury column,8814105,0.11,100.0,110.0,120.0,130.0,140.0,70347
+HUMC,3012888,Diastolic blood pressure,624775,8876,millimeter mercury column,8811870,0.75,60.0,69,72,80.0,90.0,96100.0
+HUMC,3000963,Hemoglobin [Mass/volume] in Blood,509827,8713,gram per deciliter,2484091,0,9.2,10.9,12.8,14.2,15.4,145
+HUMC,3009542,Hematocrit [Volume Fraction] of Blood,501259,8554,percent,2869298,-2,27,31.6,37.2,41.7,45.3,85
+HUMC,3026361,Erythrocytes [#/volume] in Blood,497932,8815,million per microliter,377654,0.54,3.2,3.73,4.28,4.71,5.06,7.94
+HUMC,3026361,Erythrocytes [#/volume] in Blood,497932,0,No matching concept,1994761,,,,,,,
+HUMC,3010813,Leukocytes [#/volume] in Blood,497927,8848,thousand per microliter,377654,0.1,4.3,5.4,7.1,9.6,13.1,372.4
+HUMC,3010813,Leukocytes [#/volume] in Blood,497927,0,No matching concept,1994744,,,,,,,
+HUMC,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,497888,8923,international unit per liter,2333890,0,9,13,18,30.0,52,28889
+HUMC,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,497875,8923,international unit per liter,2334984,0.2,14,17,22,31,50.0,48849
+HUMC,3016723,Creatinine [Mass/volume] in Serum or Plasma,496672,8840,milligram per deciliter,2385739,0.04,0.52,0.64,0.8,0.99,1.32,209.75
+HUMC,3007461,Platelets [#/volume] in Blood,496218,8848,thousand per microliter,429679,1,148,194,241,297,368,2415
+HUMC,3007461,Platelets [#/volume] in Blood,496218,0,No matching concept,1991887,,,,,,,
+HUMC,3022096,Basophils/100 leukocytes in Blood,495851,8554,percent,2367485,0,0.1,0.2,0.4,0.6,0.8,69.1
+HUMC,3002030,Lymphocytes/100 leukocytes in Blood,495851,8554,percent,2367485,0,8.6,15.8,26.3,35.3,42.9,891
+HUMC,3018010,Neutrophils/100 leukocytes in Blood,495851,8554,percent,2367485,0,44.8,52.8,62.3,74.1,84,841
+HUMC,3006504,Eosinophils/100 leukocytes in Blood,495851,8554,percent,2367485,0,0.3,0.9,1.9,3.3,5.2,84
+HUMC,3019069,Monocytes/100 leukocytes in Blood,495851,8554,percent,2367485,0,3.7,4.7,6.1,7.9,10.0,89
+HUMC,3002385,Erythrocyte distribution width [Ratio],495841,8554,percent,2367466,0,12,12.5,13.1,14.2,16.1,55.3
+HUMC,3019198,Lymphocytes [#/volume] in Blood,495784,8848,thousand per microliter,377179,0,0.78,1.2,1.72,2.33,3.15,63.26
+HUMC,3019198,Lymphocytes [#/volume] in Blood,495784,0,No matching concept,1989847,,,,,,,
+HUMC,3017732,Neutrophils [#/volume] in Blood,495783,8848,thousand per microliter,377177,0,2.05,2.87,4.18,6.57,10.05,104.58
+HUMC,3017732,Neutrophils [#/volume] in Blood,495783,0,No matching concept,1989834,,,,,,,
+HUMC,3001604,Monocytes [#/volume] in Blood,495767,8848,thousand per microliter,377125,0,0.24,0.32,0.43,0.58,0.79,44.17
+HUMC,3001604,Monocytes [#/volume] in Blood,495767,0,No matching concept,1989699,,,,,,,
+HUMC,3035941,MCH [Entitic mass],495698,8564,picogram,2366925,10.9,27.7,29.3,30.5,31.7,32.8,276.2
+HUMC,3024731,MCV [Entitic volume],495698,8583,femtoliter,2366925,6.5,83.7,87.7,91.1,94.5,98,453.2
+HUMC,3003338,MCHC [Mass/volume],495698,8713,gram per deciliter,2366923,14.9,32,32.7,33.4,34.1,34.8,373.6
+HUMC,3039417,Platelet distribution width [Ratio] in Blood,494850,8523,ratio,7,11.3,11.3,13,13.8,59,62.2,62.2
+HUMC,3039417,Platelet distribution width [Ratio] in Blood,494850,8554,percent,2364218,0,9.5,11.2,42,53.7,60.4,129.8
+HUMC,3013115,Eosinophils [#/volume] in Blood,494481,8848,thousand per microliter,371969,0,0.05,0.08,0.15,0.24,0.38,31.67
+HUMC,3013115,Eosinophils [#/volume] in Blood,494481,0,No matching concept,1976999,,,,,,,
+HUMC,3006315,Basophils [#/volume] in Blood,493039,8848,thousand per microliter,367828,0,0.01,0.01,0.02,0.04,0.06,12
+HUMC,3006315,Basophils [#/volume] in Blood,493039,0,No matching concept,1958094,,,,,,,
+HUMC,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,485916,8840,milligram per deciliter,2330584,0.9,7.9,10.4,13.4,17.8,25.9,600.2
+HUMC,3001123,Platelet mean volume [Entitic volume] in Blood,485378,8554,percent,443702,4,6.1,6.6,7.4,8.2,9,27.6
+HUMC,3001123,Platelet mean volume [Entitic volume] in Blood,485378,8583,femtoliter,1887713,0,7.2,7.9,8.9,9.9,10.7,33.9
+HUMC,3039312,Plateletcrit [Volume Fraction] in Blood,485165,8554,percent,2330513,0,0.12,0.16,0.2,0.25,0.3,6.8
+HUMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,483369,8840,milligram per deciliter,2173960,0,0.3,0.4,0.5,0.8,1.1,192.9
+HUMC,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,483369,0,No matching concept,4642,,,,,,,
+HUMC,3024561,Albumin [Mass/volume] in Serum or Plasma,483284,8713,gram per deciliter,2208368,0.2,3,3.7,4.3,4.6,4.9,7.8
+HUMC,3024561,Albumin [Mass/volume] in Serum or Plasma,483284,8840,milligram per deciliter,276,20.0,800.0,1200.0,1800.0,2690.0,3130.0,4500.0
+HUMC,3020630,Protein [Mass/volume] in Serum or Plasma,483223,8713,gram per deciliter,2200586,0.7,5.5,6.2,6.9,7.3,7.7,18.4
+HUMC,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,477820,8645,unit per liter,2053570,11,142,161,188,230.0,299,111530.0
+HUMC,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,477820,8923,international unit per liter,44440,57,139,157,183,224,297,11138
+HUMC,3005456,Potassium [Moles/volume] in Blood,476194,8753,millimole per liter,2892096,0,3.4,3.7,4.1,4.4,4.8,83.9
+HUMC,3000285,Sodium [Moles/volume] in Blood,476180,8753,millimole per liter,2398937,70.0,135,137,140.0,141,143,234
+HUMC,3000285,Sodium [Moles/volume] in Blood,476180,0,No matching concept,493337,,,,,,,
+HUMC,3018572,Chloride [Moles/volume] in Blood,475357,8753,millimole per liter,2829862,1.18,98,101,104,106,109,276
+HUMC,3027114,Cholesterol [Mass/volume] in Serum or Plasma,475252,8840,milligram per deciliter,2157257,2,103,128,158,189,218,1682
+HUMC,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,467472,8840,milligram per deciliter,2099455,-1.1,0.1,0.2,0.2,0.3,0.5,156.9
+HUMC,3014094,"Carbon dioxide, total [Moles/volume] in Blood",467125,8753,millimole per liter,2316928,0,20.0,22,25,27,29,107
+HUMC,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,465094,8923,international unit per liter,2066636,1,47,57,72,97,167,13160.0
+HUMC,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,459483,8923,international unit per liter,1908585,2,10.0,14,25,50.0,112,6614
+HUMC,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,458719,8923,international unit per liter,2022068,1,32,52,82,130.0,227,660226
+HUMC,3006906,Calcium [Mass/volume] in Serum or Plasma,455260,8840,milligram per deciliter,1950528,0.4,8.1,8.8,9.3,9.6,9.9,37
+HUMC,3011904,Phosphate [Mass/volume] in Serum or Plasma,455145,8840,milligram per deciliter,1986314,0.1,2.6,3.1,3.5,4,4.6,25
+HUMC,3037556,Urate [Mass/volume] in Serum or Plasma,454849,8840,milligram per deciliter,1961132,0.1,2.6,3.6,4.6,5.9,7.1,44.4
+HUMC,3022192,Triglyceride [Mass/volume] in Serum or Plasma,446019,8840,milligram per deciliter,1720816,0,56,76,109,160.0,234,17264
+HUMC,3025315,Body weight,423003,9529,kilogram,1879933,0.2,12,40.0,57,69,80.0,95175
+HUMC,3037110,Fasting glucose [Mass/volume] in Serum or Plasma,415317,8840,milligram per deciliter,1767660,0.2,89,96,108,131,168,2069
+HUMC,40762499,Oxygen saturation in Arterial blood by Pulse oximetry,405767,8554,percent,647406,2,98,98,99,99,99,10012
+HUMC,40771922,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",404462,9117,milliliter per minute per 1.73 square meter,1540535,0,46,72,88,105,126,1279
+HUMC,40771922,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",404462,0,No matching concept,601105,,,,,,,
+HUMC,3015183,Erythrocyte sedimentation rate,400470,8752,millimeter per hour,1260945,0,2,6,15,35,63,170.0
+HUMC,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,393261,8923,international unit per liter,1123299,0,33,46,61,81,109,514270.0
+HUMC,3014051,Protein [Presence] in Urine by Test strip,392252,8840,milligram per deciliter,1016861,,,,,,,
+HUMC,3014051,Protein [Presence] in Urine by Test strip,392252,0,No matching concept,1192,,,,,,,
+HUMC,3020509,Albumin/Globulin [Mass Ratio] in Serum or Plasma,388448,0,No matching concept,1739718,,,,,,,
+HUMC,3009261,Glucose [Presence] in Urine by Test strip,380046,8840,milligram per deciliter,966748,,,,,,,
+HUMC,3009261,Glucose [Presence] in Urine by Test strip,380046,0,No matching concept,447,,,,,,,
+HUMC,3011397,Hemoglobin [Presence] in Urine by Test strip,380046,9428,red blood cells per microliter,966748,,,,,,,
+HUMC,3011397,Hemoglobin [Presence] in Urine by Test strip,380046,0,No matching concept,447,,,,,,,
+HUMC,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,375091,0,No matching concept,959513,,,,,,,
+HUMC,3000348,Leukocyte esterase [Presence] in Urine by Test strip,375091,8647,per microliter,959513,,,,,,,
+HUMC,3035350,Ketones [Presence] in Urine by Test strip,375091,8840,milligram per deciliter,959513,,,,,,,
+HUMC,3027162,Color of Urine,375091,0,No matching concept,959513,,,,,,,
+HUMC,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,375091,0,No matching concept,959513,,,,,,,
+HUMC,3022621,pH of Urine by Test strip,375091,8482,pH,959513,1.005,5,5.5,6.5,7,7.5,9
+HUMC,3000330,Specific gravity of Urine by Test strip,375091,0,No matching concept,959513,,,,,,,
+HUMC,3018834,Bilirubin.total [Presence] in Urine by Test strip,375091,8840,milligram per deciliter,959513,,,,,,,
+HUMC,3021601,Nitrite [Presence] in Urine by Test strip,375091,0,No matching concept,959513,,,,,,,
+HUMC,3037426,Urobilinogen [Presence] in Urine by Test strip,375091,8840,milligram per deciliter,959513,,,,,,,
+HUMC,3020460,C reactive protein [Mass/volume] in Serum or Plasma,369402,8751,milligram per liter,1374227,-0.1,1,1,4.8,31.7,92.5,813.9
+HUMC,3010224,Large unstained cells/100 leukocytes in Blood,364722,8554,percent,1245765,0,0.8,1.3,1.8,2.4,3.1,24.9
+HUMC,3023993,Large unstained cells [#/volume] in Blood,361401,8848,thousand per microliter,211807,0,0.07,0.1,0.14,0.19,0.28,4.3
+HUMC,3023993,Large unstained cells [#/volume] in Blood,361401,0,No matching concept,1005739,,,,,,,
+HUMC,3022217,INR in Platelet poor plasma by Coagulation assay,340663,0,No matching concept,874615,,,,,,,
+HUMC,3034426,Prothrombin time (PT),340622,8555,second,866038,8.1,10.7,11.2,11.9,12.9,14.9,198
+HUMC,3034426,Prothrombin time (PT),340622,0,No matching concept,85,,,,,,,
+HUMC,3018677,aPTT in Platelet poor plasma by Coagulation assay,339632,8555,second,876058,11.2,23.4,25.2,27.3,30.5,37.9,249.1
+HUMC,3018677,aPTT in Platelet poor plasma by Coagulation assay,339632,0,No matching concept,68,,,,,,,
+HUMC,3036277,Body height,325250,8582,centimeter,1340112,0.11,118.3,153.2,162,170.0,175.2,47702
+HUMC,3038553,Body mass index (BMI) [Ratio],324837,9531,kilogram per square meter,1351945,0.000322569190084893,16.8018116736065,19.909972299169,22.9723916193696,25.9009339145378,28.9340689016627,25757337.7925185
+HUMC,3050479,Immature granulocytes/100 leukocytes in Blood,305016,8554,percent,1023041,-18.1,0,0,0,0,1.4,94.7
+HUMC,3010189,Epithelial cells [#/area] in Urine sediment by Microscopy high power field,300119,0,No matching concept,723033,,,,,,,
+HUMC,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",275363,9117,milliliter per minute per 1.73 square meter,1351126,1,44,74,90.0,94,109,261
+HUMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,254303,8779,signal to cutoff ratio,377188,0,0.16,0.19,0.26,0.36,0.46,8300.66
+HUMC,3019284,Hepatitis B virus surface Ag [Presence] in Serum,254303,0,No matching concept,377188,,,,,,,
+HUMC,3017797,Hepatitis B virus surface Ab [Presence] in Serum,254214,0,No matching concept,377279,,,,,,,
+HUMC,3023421,Hepatitis B virus surface Ab [Units/volume] in Serum,254214,9550,milli-international unit per milliliter,377279,0,0.43,3,27.44,147.79,577.83,1000.0
+HUMC,3022509,Hyaline casts [#/area] in Urine sediment by Microscopy low power field,242146,0,No matching concept,540298,,,,,,,
+HUMC,3026355,Reagin Ab [Units/volume] in Serum or Plasma by RPR,222914,0,No matching concept,323308,,,,,,,
+HUMC,3036639,Reagin Ab [Presence] in Serum,222913,0,No matching concept,323307,,,,,,,
+HUMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,210743,8779,signal to cutoff ratio,277498,0,0.05,0.06,0.08,0.16,0.25,914.11
+HUMC,40760007,HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay,210743,0,No matching concept,306149,,,,,,,
+HUMC,3009201,Thyrotropin [Units/volume] in Serum or Plasma,205481,9093,micro-international unit per milliliter,468828,0,0.37,0.98,1.73,2.82,4.49,100.0
+HUMC,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,200565,8817,nanogram per deciliter,452055,0,0.99,1.11,1.25,1.4,1.58,651
+HUMC,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,184874,8817,nanogram per deciliter,411610,0,72,87,101,117,137,651
+HUMC,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,178125,8840,milligram per deciliter,640552,-1,35,42,51,62,73,1100.0
+HUMC,3004501,Glucose [Mass/volume] in Serum or Plasma,177655,8840,milligram per deciliter,501417,5,86,93,101,117,148,2100.0
+HUMC,3004501,Glucose [Mass/volume] in Serum or Plasma,177655,0,No matching concept,15844,,,,,,,
+HUMC,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,176093,8840,milligram per deciliter,612413,0,54,73,98,126,152,889
+HUMC,3003310,Rh [Type] in Blood,171499,0,No matching concept,245317,,,,,,,
+HUMC,3002529,ABO group [Type] in Blood,171497,0,No matching concept,245315,,,,,,,
+HUMC,36304419,Bacteria [Presence] in Urine,169769,8786,per high power field,328282,,,,,,,
+HUMC,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,169598,9579,millimole per mole,488964,3,32.3,35.5,40.8,49.4,60.9,202.8
+HUMC,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,169598,8840,milligram per deciliter,488963,11.2,100.0,108.3,122.1,144.7,174.9,547.4
+HUMC,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,169598,8554,percent,488964,2.4,5.1,5.4,5.9,6.7,7.7,20.7
+HUMC,3024277,Reverse ABO group [Type],167754,0,No matching concept,237633,,,,,,,
+HUMC,3003396,Base excess in Arterial blood by calculation,150500,8753,millimole per liter,639225,-55.9,-4.9,-1.8,0.9,3.4,6.2,189.5
+HUMC,3008152,Bicarbonate [Moles/volume] in Arterial blood,150499,8753,millimole per liter,639259,-5.3,19,21.9,24.7,27.5,30.5,240.9
+HUMC,3016502,Oxygen saturation in Arterial blood,150436,8554,percent,638948,-1.4,73.5,91,97.1,99,99.8,104.1
+HUMC,3006175,Mucus [Presence] in Urine sediment by Light microscopy,149754,0,No matching concept,229303,,,,,,,
+HUMC,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,145728,8840,milligram per deciliter,3352084,0,97,118,150.0,199,259,1310.0
+HUMC,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,140177,8645,unit per liter,313619,0.2,15,22,32,50.0,107,3319983
+HUMC,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,134428,8842,nanogram per milliliter,297278,0.3,0.7,1.1,1.8,3.5,8.2,62100.0
+HUMC,3001079,Blood group antibody screen [Presence] in Serum or Plasma,132392,0,No matching concept,250714,,,,,,,
+HUMC,3004592,Major crossmatch [Interpretation],127448,0,No matching concept,222289,,,,,,,
+HUMC,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,124058,8842,nanogram per milliliter,270901,0.1,0.16,0.16,0.16,0.16,0.63,21310.0
+HUMC,3033308,Hyaline casts [Presence] in Urine sediment by Light microscopy,121706,8786,per high power field,240977,1,1,1,2,3,3,3
+HUMC,3040311,Epithelial cells.non-squamous [Presence] in Urine sediment by Light microscopy,119923,8786,per high power field,204580,,,,,,,
+HUMC,3040311,Epithelial cells.non-squamous [Presence] in Urine sediment by Light microscopy,119923,0,No matching concept,31998,,,,,,,
+HUMC,3008325,Epithelial cells.squamous [Presence] in Urine sediment by Light microscopy,119898,8786,per high power field,236531,1,1,1,1,2,2,4
+HUMC,3021119,Calcium.ionized [Moles/volume] in Blood,119499,8753,millimole per liter,77814,0.1,1.13,1.2,1.26,1.31,1.36,98
+HUMC,3021119,Calcium.ionized [Moles/volume] in Blood,119499,0,No matching concept,493622,,,,,,,
+HUMC,3026008,Bacteria identified in Urine by Culture,119308,0,No matching concept,231732,,,,,,,
+HUMC,3047181,Lactate [Moles/volume] in Blood,107147,8753,millimole per liter,24147,-0.5,0.9,1.2,1.8,2.8,4.4,35.7
+HUMC,3047181,Lactate [Moles/volume] in Blood,107147,0,No matching concept,490170,,,,,,,
+HUMC,36033658,SARS-CoV-2 (COVID-19) E gene [Presence] in Respiratory system specimen by NAA with probe detection,106432,0,No matching concept,146513,,,,,,,
+HUMC,3021421,Base excess standard in Arterial blood by calculation,105193,8753,millimole per liter,493307,-40.9,-6.3,-2.6,0.4,3.2,6.4,227.4
+HUMC,3021421,Base excess standard in Arterial blood by calculation,105193,0,No matching concept,12478,,,,,,,
+HUMC,3027801,Oxygen [Partial pressure] in Arterial blood,103086,8876,millimeter mercury column,495602,-2,43.8,70.5,97.6,146.7,227.2,765
+HUMC,3019977,pH of Arterial blood,103082,0,No matching concept,495597,,,,,,,
+HUMC,3027946,Carbon dioxide [Partial pressure] in Arterial blood,102949,8876,millimeter mercury column,495330,-1,28.8,32.8,37.4,43,49.7,469
+HUMC,3021197,Magnesium Ionized [Moles/volume] in Serum or Plasma,102532,8753,millimole per liter,501711,-1,0.45,0.5,0.56,0.63,0.7,24.55
+HUMC,3023368,Bacteria identified in Blood by Culture,102442,0,No matching concept,321815,,,,,,,
+HUMC,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",102412,8753,millimole per liter,493135,-1,20.1,23.2,26,29,32.1,243.2
+HUMC,3011173,Microscopic observation [Identifier] in Tissue by Hematoxylin and eosin stain,93404,0,No matching concept,147889,,,,,,,
+HUMC,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,74995,8845,picogram per milliliter,124944,5,14.8,39.1,137,779,3385,137017
+HUMC,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,72172,8763,unit per milliliter,143158,0,2,5.2,8.6,15.4,28,200000.0
+HUMC,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,71251,8985,international unit per milliliter,108035,0,3.4,5.3,7.1,9,13.2,7108
+HUMC,42870366,Fibrin D-dimer FEU [Mass/volume] in Blood by Immunoassay,69902,44777663,milligram of fibrinogen equivalent unit per liter,125796,0.077,0.19,0.33,1.13,3.68,8.62,83.6
+HUMC,42870366,Fibrin D-dimer FEU [Mass/volume] in Blood by Immunoassay,69902,0,No matching concept,13972,,,,,,,
+HUMC,706173,SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Specimen by NAA with probe detection,69135,0,No matching concept,98858,,,,,,,
+HUMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,68656,8842,nanogram per milliliter,109085,0,0,0,0,11,110.0,11945
+HUMC,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,68656,0,No matching concept,109084,,,,,,,
+HUMC,3010421,pH of Blood,66809,0,No matching concept,152664,,,,,,,
+HUMC,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,65715,8842,nanogram per milliliter,144127,0,1.2,2,2,3,5,50000.0
+HUMC,3027315,Oxygen [Partial pressure] in Blood,63921,8876,millimeter mercury column,144078,3,35.2,46,64.7,92.2,134.6,588
+HUMC,3013290,Carbon dioxide [Partial pressure] in Blood,63921,8876,millimeter mercury column,144078,5.6,29,33.4,38.3,44,50.3,292.5
+HUMC,3017250,Creatinine [Mass/volume] in Urine,62575,8840,milligram per deciliter,236813,0.05,31.64,55.35,93.99,148.14,212.16,3991.04
+HUMC,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,59908,8751,milligram per liter,103357,0,0.2,0.3,0.6,1.4,4.2,550.0
+HUMC,3003745,Microscopic observation [Identifier] in Urine by Gram stain,56719,0,No matching concept,113632,,,,,,,
+HUMC,3043891,Influenza virus A Ag [Presence] in Nose,54468,0,No matching concept,71092,,,,,,,
+HUMC,3045856,Influenza virus B Ag [Presence] in Nose,54450,0,No matching concept,64951,,,,,,,
+HUMC,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,54013,8817,nanogram per deciliter,381,0.6,1.3,1.8,2.9,5.8,17.2,68380.0
+HUMC,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,54013,8842,nanogram per milliliter,117490,0,1.4,1.9,2.7,4,6.2,121000.0
+HUMC,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,51435,8842,nanogram per milliliter,106027,0,0.24,0.49,0.87,1.85,5.07,7885
+HUMC,40765040,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,48003,8842,nanogram per milliliter,84700,3,9.1,13.9,22.33,32.3,41.7,155.9
+HUMC,3000034,Microalbumin [Mass/volume] in Urine,47536,8840,milligram per deciliter,128651,0,0.4,0.8,2.1,6.2,31.7,6481.2
+HUMC,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,47524,9017,milligram per gram of creatinine,128633,0,3.9,7.3,19.58,72.78,377.61,353600.0
+HUMC,706163,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection,38616,0,No matching concept,44293,,,,,,,
+HUMC,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,37596,8842,nanogram per milliliter,71168,0.01,0.03,0.06,0.17,0.76,4.42,200.0
+HUMC,3017143,Hepatitis C virus Ab [Presence] in Serum,37251,8779,signal to cutoff ratio,66016,0.01,0.04,0.05,0.06,0.09,0.14,18.31
+HUMC,3017143,Hepatitis C virus Ab [Presence] in Serum,37251,0,No matching concept,65832,,,,,,,
+HUMC,723477,SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory system specimen by Rapid immunoassay,35740,0,No matching concept,43682,,,,,,,
+HUMC,3008295,Osmolality of Serum or Plasma,35166,8862,milliosmole per kilogram,148401,154,277,285,293,303,318,1061
+HUMC,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,34733,8842,nanogram per milliliter,58348,0,14,43,113,304,679,3633
+HUMC,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,34614,8845,picogram per milliliter,45102,30.0,343,465,654,983,1680.0,5800.0
+HUMC,3036987,Folate [Mass/volume] in Serum or Plasma,33087,8842,nanogram per milliliter,42510,0,3.6,5.3,8.3,12.5,16.5,51
+HUMC,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,31853,8840,milligram per deciliter,77818,16.3,168.2,227.6,305,428,549.8,1472.4
+HUMC,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,31675,8555,second,35551,31,95,111,135,179,300.0,300.0
+HUMC,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,31294,8763,unit per milliliter,52804,0,6.9,9.2,13.3,21.7,47.1,44766
+HUMC,3002400,Iron [Mass/volume] in Serum or Plasma,30541,8837,microgram per deciliter,55768,2,23,41,70.0,109,151,762
+HUMC,3021082,Mycoplasma pneumoniae IgM Ab [Presence] in Serum,29896,8763,unit per milliliter,4715,0,8,12,19,34,67,1000.0
+HUMC,3021082,Mycoplasma pneumoniae IgM Ab [Presence] in Serum,29896,8779,signal to cutoff ratio,9228,0,0.6,1.7,3.7,6.9,11.3,37.6
+HUMC,3021082,Mycoplasma pneumoniae IgM Ab [Presence] in Serum,29896,0,No matching concept,61203,,,,,,,
+HUMC,3005168,Iron binding capacity.unsaturated [Mass/volume] in Serum or Plasma,29766,8837,microgram per deciliter,54907,0,93,137,185,244,328,636
+HUMC,3037121,Protein [Mass/volume] in Urine,29635,8840,milligram per deciliter,93147,-0.1,4.7,8.5,22.8,81.5,231.3,29226.1
+HUMC,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,29252,0,No matching concept,37979,,,,,,,
+HUMC,3003327,Ova and parasites identified in Stool by Light microscopy,27920,0,No matching concept,66727,,,,,,,
+HUMC,36031453,SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Upper respiratory specimen by NAA with probe detection,27204,0,No matching concept,29937,,,,,,,
+HUMC,706175,SARS-CoV-2 (COVID-19) N gene [Presence] in Specimen by NAA with probe detection,26395,0,No matching concept,37206,,,,,,,
+HUMC,3021886,Globulin [Mass/volume] in Serum,26309,8713,gram per deciliter,47965,1.2,2.2,2.4,2.6,2.9,3.1,5.5
+HUMC,40769783,Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,25862,8845,picogram per milliliter,41918,2.36,15,22,47,193,812,18543
+HUMC,3026782,Osmolality of Urine,25757,8862,milliosmole per kilogram,112235,20.0,278,367,485,619,757,1365
+HUMC,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,25735,8840,milligram per deciliter,53427,4.5,57.8,70.5,87,106.4,126.6,383.7
+HUMC,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,25683,8840,milligram per deciliter,53329,0.5,101.9,117.7,134.8,153.2,171.9,443
+HUMC,3016724,Homocysteine [Moles/volume] in Serum or Plasma,24755,8749,micromole per liter,33154,1,5.81,7.13,8.88,11.12,14.26,50.0
+HUMC,3025233,Bacteria identified in Sputum by Aerobe culture,24502,0,No matching concept,91579,,,,,,,
+HUMC,3002173,Hemoglobin [Mass/volume] in Arterial blood,23539,8713,gram per deciliter,49111,3.3,8.8,10.2,12.2,14.3,15.6,96
+HUMC,3014218,Bicarbonate [Moles/volume] standard in Arterial blood,23509,8753,millimole per liter,48002,3,19.7,22.7,24.7,26.4,27.9,48.3
+HUMC,42529219,IgE [Units/volume] in Serum or Plasma by Immunoassay,23265,8985,international unit per milliliter,27133,0,13,39,122,344,857,2500.0
+HUMC,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,23149,8837,microgram per deciliter,43065,14,158,204,259,326,388,864
+HUMC,3030942,Ammonia [Mass/volume] in Blood,23132,8837,microgram per deciliter,44378,1,36,50.0,71,108,180.0,2000.0
+HUMC,3000185,Iron saturation [Mass Fraction] in Serum or Plasma,22608,8554,percent,42428,0.5,7,14,24,35,49,100.0
+HUMC,3051971,Cytology report of Cervical or vaginal smear or scraping Cyto stain.thin prep,22489,0,No matching concept,39985,,,,,,,
+HUMC,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,20903,0,No matching concept,27765,,,,,,,
+HUMC,3025941,Bacteria identified in Stool by Culture,20692,0,No matching concept,25221,,,,,,,
+HUMC,3008934,Reagin Ab [Titer] in Serum,20399,0,No matching concept,22479,,,,,,,
+HUMC,3014441,Leukocytes [Presence] in Stool by Light microscopy,20372,0,No matching concept,24776,,,,,,,
+HUMC,3007733,Chloride [Moles/volume] in Urine,20372,8753,millimole per liter,41474,4.6,20.0,40.0,73,113,154,400.0
+HUMC,3007733,Chloride [Moles/volume] in Urine,20372,9557,milliequivalent per liter,3851,4,17,39,75,118,157,378
+HUMC,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,20056,0,No matching concept,21303,,,,,,,
+HUMC,3000401,Fibrin+Fibrinogen fragments [Mass/volume] in Platelet poor plasma,19790,8859,microgram per milliliter,59277,0,2.5,3.8,8.2,17.4,35.6,640.0
+HUMC,3027945,Reticulocytes/100 erythrocytes in Blood,19645,8554,percent,31954,0,0.9,1.3,1.8,2.51,3.76,37.75
+HUMC,3029080,Hemoglobin [Entitic mass] in Reticulocytes,19645,8564,picogram,31954,0,24.8,29.3,32,34,36.1,49.4
+HUMC,3023520,Reticulocytes [#/volume] in Blood,19645,0,No matching concept,31954,,,,,,,
+HUMC,3046000,Immature reticulocytes/Reticulocytes.total in Blood,19645,8554,percent,31954,0,6.6,9.8,14.6,21.7,29.6,85.8
+HUMC,3013635,Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),19184,0,No matching concept,55145,,,,,,,
+HUMC,723478,SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory system specimen by NAA with probe detection,19007,0,No matching concept,20944,,,,,,,
+HUMC,3025590,Crystals [type] in Urine sediment by Light microscopy,18815,0,No matching concept,23433,,,,,,,
+HUMC,3010007,Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),18768,0,No matching concept,53096,,,,,,,
+HUMC,3023323,Follitropin [Units/volume] in Serum or Plasma,18752,9550,milli-international unit per milliliter,38650,0.05,0.7,1.25,2.63,6.51,34.5,156.2
+HUMC,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,18525,8985,international unit per milliliter,20533,0,7,20.0,29,73,167,4608
+HUMC,3000515,Antithrombin actual/normal in Platelet poor plasma by Chromogenic method,18323,8554,percent,57211,0,51,68.8,83.7,96.9,108.7,434.8
+HUMC,3025285,Estradiol (E2) [Mass/volume] in Serum or Plasma,18317,8845,picogram per milliliter,43677,0.1,10.0,10.0,11,30.0,93,1000.0
+HUMC,46236285,Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture,17786,0,No matching concept,41280,,,,,,,
+HUMC,3011912,Apolipoprotein B/Apolipoprotein A-I [Mass Ratio] in Serum or Plasma,17771,0,No matching concept,25623,,,,,,,
+HUMC,3000769,Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),17355,0,No matching concept,47974,,,,,,,
+HUMC,3038328,Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain,17130,0,No matching concept,47256,,,,,,,
+HUMC,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,16753,8763,unit per milliliter,6820,0.1,9.3,15,18.1,47.8,165.7,4000.0
+HUMC,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,16753,8985,international unit per milliliter,25466,0,10.0,11.9,14.8,34.9,318,4000.0
+HUMC,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,16566,8779,signal to cutoff ratio,22164,0.02,0.08,0.21,7.87,10.85,12.32,25.33
+HUMC,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,16566,0,No matching concept,22177,,,,,,,
+HUMC,3009214,Lutropin [Units/volume] in Serum or Plasma,16522,9550,milli-international unit per milliliter,32417,0,0.09,0.1,0.41,4.27,15.48,250.0
+HUMC,43055410,Prostate Specific Ag Free/Prostate specific Ag.total [Pure mass fraction] in Serum or Plasma,16208,0,No matching concept,28699,,,,,,,
+HUMC,3005013,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,16208,8842,nanogram per milliliter,28699,0,0.06,0.2,0.38,0.82,1.77,954
+HUMC,3016774,Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),16119,0,No matching concept,37300,,,,,,,
+HUMC,42529223,Myoglobin [Mass/volume] in Serum or Plasma by Immunoassay,15791,8842,nanogram per milliliter,24218,21,21,24,55,188,720.0,8192
+HUMC,3022270,Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),15722,0,No matching concept,40512,,,,,,,
+HUMC,3027391,Platelet function (closure time) collagen+ADP induced [Time] in Blood,15593,8555,second,16591,31,68,78,90.0,106,128,300.0
+HUMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,15545,8763,unit per milliliter,18890,9,9,9,28,70.3,501,1300.0
+HUMC,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,15545,8985,international unit per milliliter,148,15,15,15,15,99.6,297,600.0
+HUMC,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,15297,8837,microgram per deciliter,32977,0,3,6.8,11,16.7,23.7,1270.0
+HUMC,3029521,Vibrio sp DNA [Identifier] in Specimen by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,1616933,Salmonella sp DNA [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,42870368,Campylobacter sp DNA.diarrheagenic [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,1617150,Escherichia coli O157 DNA [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,21493560,Escherichia coli Stx1 and Stx2 toxin stx1+stx2 genes [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,37020818,Yersinia enterocolitica DNA [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,44816714,Clostridioides difficile toxin B tcdB gene [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,3966163,Shigella sp DNA [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,3966671,Aeromonas sp DNA [Presence] in Stool by NAA with probe detection,15162,0,No matching concept,18488,,,,,,,
+HUMC,3035643,Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),14690,0,No matching concept,42734,,,,,,,
+HUMC,3016244,Insulin [Units/volume] in Serum or Plasma,14643,8860,microunit per milliliter,22593,0,2.7,4.2,6.9,12.8,31.8,300.0
+HUMC,1176221,Bacteria identified in Catheter tip by Aerobe culture,14404,0,No matching concept,24878,,,,,,,
+HUMC,3037549,cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),14012,0,No matching concept,39137,,,,,,,
+HUMC,40760528,Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,13990,8923,international unit per liter,35312,0,0.6,0.8,1.34,4.7,14.1,114.1
+HUMC,3010745,Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),13843,0,No matching concept,38555,,,,,,,
+HUMC,42869527,Mitogen stimulated gamma interferon [Units/volume] in Blood,13710,0,No matching concept,19223,,,,,,,
+HUMC,42869528,Mycobacterium tuberculosis stimulated gamma interferon [Interpretation] in Blood Qualitative,13710,0,No matching concept,19223,,,,,,,
+HUMC,3016038,Potassium [Moles/volume] in Urine,13610,8753,millimole per liter,21632,0.3,11.7,18.8,30.9,48.6,70.4,249.7
+HUMC,3016038,Potassium [Moles/volume] in Urine,13610,9557,milliequivalent per liter,3851,0.4,11.2,17.9,28.3,44.7,65.1,203.1
+HUMC,3003181,Sodium [Moles/volume] in Urine,13610,8753,millimole per liter,21632,4,21,41,74,111,146,367
+HUMC,3003181,Sodium [Moles/volume] in Urine,13610,9557,milliequivalent per liter,3851,2,20.0,42,77,118,153,333
+HUMC,3008912,Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),13429,0,No matching concept,35639,,,,,,,
+HUMC,3002274,Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),13294,0,No matching concept,31609,,,,,,,
+HUMC,3037971,Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),13289,0,No matching concept,37870,,,,,,,
+HUMC,36659824,Bacteria.carbapenem resistant identified in Specimen by Organism specific culture,13244,0,No matching concept,46285,,,,,,,
+HUMC,3001420,Magnesium [Mass/volume] in Serum or Plasma,13192,8840,milligram per deciliter,21141,0,1.7,1.9,2.1,2.2,2.4,40.6
+HUMC,3964879,American house dust mite IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),13080,0,No matching concept,15653,,,,,,,
+HUMC,43533857,Bacteria.carbapenem resistant identified in Anal by Organism specific culture,12892,0,No matching concept,44915,,,,,,,
+HUMC,3011960,Natriuretic peptide B [Mass/volume] in Serum or Plasma,12753,8845,picogram per milliliter,42662,0.1,23.5,77.7,250.0,763,1837.3,61236
+HUMC,3035004,Microscopic observation [Identifier] in Urine by Cyto stain,12611,0,No matching concept,18700,,,,,,,
+HUMC,3035637,Corticotropin [Mass/volume] in Plasma,12576,8845,picogram per milliliter,22056,0,2.7,9.5,18.9,32.7,54.7,2000.0
+HUMC,3008893,Testosterone [Mass/volume] in Serum or Plasma,12514,8842,nanogram per milliliter,23647,0.01,0.12,0.16,1.1,4.27,6.2,22.01
+HUMC,3005535,ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),12509,0,No matching concept,27402,,,,,,,
+HUMC,3023414,Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),12490,0,No matching concept,27310,,,,,,,
+HUMC,3035814,Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),12488,0,No matching concept,27261,,,,,,,
+HUMC,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,12437,8845,picogram per milliliter,44172,0,24,44.3,93.4,293.3,515.7,5000.0
+HUMC,3036780,American house dust mite IgE Ab [Units/volume] in Serum,12211,0,No matching concept,14621,,,,,,,
+HUMC,46236341,Streptococcus pneumoniae Ag [Presence] in Urine by Rapid immunoassay,12150,0,No matching concept,14536,,,,,,,
+HUMC,46236374,Legionella pneumophila 1 Ag [Presence] in Urine by Rapid immunoassay,11900,0,No matching concept,14240,,,,,,,
+HUMC,3010084,C peptide [Mass/volume] in Serum or Plasma,11761,8842,nanogram per milliliter,19520,0.01,0.71,1.2,1.81,2.65,3.85,40.0
+HUMC,3000620,Complement C3 [Mass/volume] in Serum or Plasma,11710,8840,milligram per deciliter,13536,4.75,77.3,91.11,107.13,124.11,143,281.88
+HUMC,3017766,Complement C4 [Mass/volume] in Serum or Plasma,11695,8840,milligram per deciliter,13511,1.13,14.6,19.53,25.22,32.39,40.1,87.25
+HUMC,3011552,Clostridioides difficile toxin A+B [Units/volume] in Stool by Immunoassay,11566,0,No matching concept,16309,,,,,,,
+HUMC,3044936,Clostridioides difficile toxin A+B [Presence] in Stool by Immunoassay,11566,0,No matching concept,16309,,,,,,,
+HUMC,3025156,Microscopic observation [Identifier] in Cervical or vaginal smear or scraping by Cyto stain,11416,0,No matching concept,16620,,,,,,,
+HUMC,40758433,Fungus [Presence] in Sputum by KOH preparation,10999,0,No matching concept,14449,,,,,,,
+HUMC,40758035,Norovirus genogroup I RNA [Presence] in Stool by NAA with probe detection,10928,0,No matching concept,13343,,,,,,,
+HUMC,40758036,Norovirus genogroup II RNA [Presence] in Stool by NAA with probe detection,10928,0,No matching concept,13343,,,,,,,
+HUMC,37021247,Adenovirus 40+41 DNA [Presence] in Stool by NAA with probe detection,10928,0,No matching concept,13343,,,,,,,
+HUMC,37020058,Rotavirus A RNA [Presence] in Stool by NAA with probe detection,10928,0,No matching concept,13343,,,,,,,
+HUMC,37020445,Astrovirus RNA [Presence] in Stool by NAA with probe detection,10928,0,No matching concept,13343,,,,,,,
+HUMC,3001582,Protein/Creatinine [Mass Ratio] in Urine,10602,0,No matching concept,16295,,,,,,,
+HUMC,3000494,Fungus identified in Specimen by Culture,10591,0,No matching concept,19208,,,,,,,
+HUMC,42870569,Risk of ovarian malignancy algorithm score in Serum or Plasma --postmenopausal,10557,8554,percent,15398,2.48,6.51,8.62,12.44,21.22,42.3,99.96
+HUMC,40758310,Human epididymis protein 4 [Moles/volume] in Serum or Plasma,10557,8729,picomole per liter,15401,0,37.3,42,49.4,61.7,97.1,4244
+HUMC,42870568,Risk of ovarian malignancy algorithm score in Serum or Plasma --premenopausal,10557,8554,percent,15398,0.48,3.85,5.11,7.4,12.25,31.46,99.97
+HUMC,3964737,European house dust mite IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),10473,0,No matching concept,12170,,,,,,,
+HUMC,3004809,Band form neutrophils/100 leukocytes in Blood,10192,8554,percent,25902,0,1,2,4,9,16,70.0
+HUMC,3018088,Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),10188,0,No matching concept,20092,,,,,,,
+HUMC,3005241,Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),10145,0,No matching concept,20011,,,,,,,
+HUMC,46234767,Apolipoprotein B [Moles/volume] in Serum or Plasma,10125,0,No matching concept,26261,,,,,,,
+HUMC,36304997,Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells [Units/volume] in Blood,10075,0,No matching concept,14146,,,,,,,
+HUMC,3050388,Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] in Blood,10075,0,No matching concept,14146,,,,,,,
+HUMC,3007022,Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC),10056,0,No matching concept,19837,,,,,,,
+HUMC,3000127,Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),9969,0,No matching concept,17228,,,,,,,
+HUMC,3008284,Rotavirus Ag [Presence] in Stool,9964,0,No matching concept,23132,,,,,,,
+HUMC,3008853,Microscopic observation [Identifier] in Thyroid fine needle aspirate by Cyto stain,9944,0,No matching concept,18769,,,,,,,
+HUMC,3017558,Chlamydophila pneumoniae IgM Ab [Presence] in Serum,9916,8523,ratio,1706,0.02,0.04,0.06,0.09,0.15,0.25,3.46
+HUMC,3017558,Chlamydophila pneumoniae IgM Ab [Presence] in Serum,9916,0,No matching concept,18427,,,,,,,
+HUMC,3023351,European house dust mite IgE Ab [Units/volume] in Serum,9881,0,No matching concept,11496,,,,,,,
+HUMC,3007662,Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),9753,0,No matching concept,26834,,,,,,,
+HUMC,42869862,Sapovirus RNA [Presence] in Specimen by NAA with probe detection,9431,0,No matching concept,11642,,,,,,,
+HUMC,1092454,Clostridium perfringens DNA [Presence] in Specimen by NAA with probe detection,9428,0,No matching concept,11157,,,,,,,
+HUMC,3040868,Escherichia coli O157:H7 DNA [Presence] in Specimen by NAA with probe detection,9428,0,No matching concept,11157,,,,,,,
+HUMC,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,9360,8554,percent,10952,0,10.0,10.0,20.0,40.0,60.0,90.0
+HUMC,3016881,Enterovirus RNA [Presence] in Specimen by NAA with probe detection,9359,0,No matching concept,11028,,,,,,,
+HUMC,3029058,Nuclear matrix protein 22 [Presence] in Urine,9205,0,No matching concept,11991,,,,,,,
+HUMC,3000423,Neutrophil cytoplasmic Ab.perinuclear [Presence] in Serum by Immunofluorescence,9174,0,No matching concept,9585,,,,,,,
+HUMC,3016193,Neutrophil cytoplasmic Ab.classic [Presence] in Serum by Immunofluorescence,9174,0,No matching concept,9585,,,,,,,
+HUMC,3052592,Norovirus Ag [Presence] in Stool,9171,0,No matching concept,20438,,,,,,,
+HUMC,3015481,Prolactin [Mass/volume] in Serum or Plasma by Immunoassay,9169,8842,nanogram per milliliter,15220,0.1,5.37,8.37,13.32,23.47,48.57,20000.0
+HUMC,3034826,Albumin.glycated/Albumin.total in Serum or Plasma,8988,8554,percent,15387,1.5,13.3,15,18,22.9,28.8,80.9
+HUMC,3965996,Dog dander IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),8984,0,No matching concept,10271,,,,,,,
+HUMC,3020393,Adenovirus Ag [Presence] in Stool,8599,0,No matching concept,19172,,,,,,,
+HUMC,3014133,Dog dander IgE Ab [Units/volume] in Serum,8558,0,No matching concept,9810,,,,,,,
+HUMC,40758594,Influenza virus A H1 2009 pandemic RNA [Presence] in Specimen by NAA with probe detection,8357,0,No matching concept,9932,,,,,,,
+HUMC,37020881,Parainfluenza virus 1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37021346,Parainfluenza virus 2 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37019976,Parainfluenza virus 3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37019984,Parainfluenza virus 4 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37020057,Human metapneumovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37019752,Respiratory syncytial virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37020093,Adenovirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,3038098,Enterovirus RNA [Presence] in Nose by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,36304601,Human coronavirus 229E RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,36304548,Human coronavirus NL63 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,37019510,Respiratory syncytial virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,36203322,Influenza virus B RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,36203321,Influenza virus A RNA [Presence] in Upper respiratory specimen by NAA with probe detection,8303,0,No matching concept,9805,,,,,,,
+HUMC,3012607,Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),8265,0,No matching concept,17070,,,,,,,
+HUMC,3000520,cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),8132,0,No matching concept,16632,,,,,,,
+HUMC,3015884,Dehydroepiandrosterone sulfate (DHEA-S) [Mass/volume] in Serum or Plasma,8131,8837,microgram per deciliter,9820,0.2,30.5,57,110.1,198,305,1083.1
+HUMC,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,8027,8842,nanogram per milliliter,16471,7,88.6,134,208,365,531,1439
+HUMC,3016893,Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),7982,0,No matching concept,16119,,,,,,,
+HUMC,3007224,Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),7961,0,No matching concept,23046,,,,,,,
+HUMC,3024536,Nuclear Ab pattern [Interpretation] in Serum by Immunofluorescence,7918,0,No matching concept,9219,,,,,,,
+HUMC,3007164,IgA [Mass/volume] in Serum or Plasma,7875,8840,milligram per deciliter,8935,10.0,87.8,145.7,216.2,302.9,406.7,5909.8
+HUMC,1175825,Sexually transmitted pathogens panel - Specimen by NAA with probe detection,7863,0,No matching concept,10264,,,,,,,
+HUMC,3041391,Cyclic citrullinated peptide Ab [Presence] in Serum,7792,0,No matching concept,8133,,,,,,,
+HUMC,3001686,Cold agglutinin [Titer] in Serum or Plasma,7755,0,No matching concept,8643,,,,,,,
+HUMC,3015532,Bacteria identified in Bronchial specimen by Aerobe culture,7595,0,No matching concept,10605,,,,,,,
+HUMC,3021331,Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),7575,0,No matching concept,14705,,,,,,,
+HUMC,3964987,Alternaria alternata IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),7547,0,No matching concept,8657,,,,,,,
+HUMC,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,7536,0,No matching concept,10266,,,,,,,
+HUMC,706170,SARS-CoV-2 (COVID-19) RNA [Presence] in Specimen by NAA with probe detection,7495,0,No matching concept,8929,,,,,,,
+HUMC,3005719,IgG [Mass/volume] in Serum or Plasma,7469,8840,milligram per deciliter,8888,50.0,760.0,950.6,1154.6,1387.1,1734.4,11983
+HUMC,3036779,HLA-B27 [Presence] by NAA with probe detection,7402,0,No matching concept,7918,,,,,,,
+HUMC,3007808,Renin [Enzymatic activity/volume] in Plasma,7399,9020,nanogram per milliliter and hour,9093,0,0.14,0.38,1.03,2.66,6.57,195.94
+HUMC,3965395,Human coronavirus NL63 RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37019613,Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37019589,Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,40765161,Human bocavirus DNA [Presence] in Specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37020003,Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37020335,Parainfluenza virus 4 RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37020635,Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37020808,Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,3966646,Respiratory syncytial virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,36032114,Adenovirus DNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37021252,Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,37021465,Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,3965617,Respiratory syncytial virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection,7393,0,No matching concept,8303,,,,,,,
+HUMC,40758447,Fungus [Presence] in Bronchial specimen by KOH preparation,7381,0,No matching concept,9808,,,,,,,
+HUMC,36303326,Yeast [Presence] in Urine,7375,0,No matching concept,18459,,,,,,,
+HUMC,3051269,Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain,7326,0,No matching concept,9873,,,,,,,
+HUMC,3038205,Alternaria alternata IgE Ab [Units/volume] in Serum,7325,0,No matching concept,8421,,,,,,,
+HUMC,3000855,Microscopic observation [Identifier] in Vaginal fluid by Gram stain,7247,0,No matching concept,8568,,,,,,,
+HUMC,37019957,Aldosterone [Mass/volume] in Serum or Plasma by Immunoassay,7008,8817,nanogram per deciliter,8791,0.1,3.3,6.2,10.3,17,28.2,28000.0
+HUMC,3965475,Silver Birch IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),6945,0,No matching concept,8087,,,,,,,
+HUMC,3046684,Mycoplasma pneumoniae IgG Ab [Presence] in Serum,6945,0,No matching concept,7617,,,,,,,
+HUMC,1175359,Enterovirus RNA [Presence] in Stool by NAA with probe detection,6922,0,No matching concept,7591,,,,,,,
+HUMC,3005179,Beta lactamase.extended spectrum [Susceptibility],6835,0,No matching concept,13131,,,,,,,
+HUMC,3035551,levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),6796,0,No matching concept,12942,,,,,,,
+HUMC,3027300,Silver Birch IgE Ab [Units/volume] in Serum,6690,0,No matching concept,7815,,,,,,,
+HUMC,3018624,Bacteria identified in Nose by Aerobe culture,6622,0,No matching concept,9519,,,,,,,
+HUMC,37019747,Rhinovirus RNA [Presence] in Upper respiratory specimen by NAA with probe detection,6580,0,No matching concept,7823,,,,,,,
+HUMC,37020197,Influenza virus A H1 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,6580,0,No matching concept,7823,,,,,,,
+HUMC,36305655,Human bocavirus DNA [Presence] in Upper respiratory specimen by NAA with probe detection,6580,0,No matching concept,7823,,,,,,,
+HUMC,36304464,Human coronavirus OC43 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,6580,0,No matching concept,7823,,,,,,,
+HUMC,37021392,Influenza virus A H3 RNA [Presence] in Upper respiratory specimen by NAA with probe detection,6580,0,No matching concept,7823,,,,,,,
+HUMC,3022087,Bacteria identified in Cervix by Aerobe culture,6552,0,No matching concept,7948,,,,,,,
+HUMC,3965775,Common Ragweed IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),6524,0,No matching concept,7449,,,,,,,
+HUMC,3965970,Human coronavirus 229E RNA [Presence] in Respiratory system specimen by NAA with probe detection,6483,0,No matching concept,7191,,,,,,,
+HUMC,3013058,Helicobacter pylori IgG Ab [Presence] in Serum,6377,0,No matching concept,6934,,,,,,,
+HUMC,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,6376,0,No matching concept,7473,,,,,,,
+HUMC,3004806,Helicobacter pylori IgG Ab [Units/volume] in Serum,6370,0,No matching concept,6927,,,,,,,
+HUMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,6356,8779,signal to cutoff ratio,6862,0.03,0.11,0.14,0.18,0.27,0.56,23.59
+HUMC,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,6356,0,No matching concept,6864,,,,,,,
+HUMC,1175335,Human papilloma virus genotype [Identifier] in Tissue by NAA with probe detection,6334,0,No matching concept,13662,,,,,,,
+HUMC,3001247,Common Ragweed IgE Ab [Units/volume] in Serum,6277,0,No matching concept,7185,,,,,,,
+HUMC,3028048,Mycobacterium tuberculosis DNA [Presence] in Bronchial specimen by NAA with probe detection,6271,0,No matching concept,11453,,,,,,,
+HUMC,3014639,Mycobacterium sp DNA [Presence] in Bronchial specimen by NAA with probe detection,6241,0,No matching concept,7596,,,,,,,
+HUMC,3036339,rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),6167,0,No matching concept,10984,,,,,,,
+HUMC,3018387,Mycoplasma pneumoniae IgG Ab [Units/volume] in Serum,6159,8980,arbitrary unit per milliliter,6746,10.0,10.0,10.0,21.4,49.6,100.0,184.8
+HUMC,3014197,Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),6123,0,No matching concept,10898,,,,,,,
+HUMC,21492842,Escherichia coli enteropathogenic eae gene [Presence] in Stool by NAA with non-probe detection,6041,0,No matching concept,7331,,,,,,,
+HUMC,21493558,Escherichia coli enterotoxigenic eltA+estB genes [Presence] in Stool by NAA with probe detection,6041,0,No matching concept,7331,,,,,,,
+HUMC,1616645,Escherichia coli enteroaggregative DNA [Presence] in Stool by NAA with probe detection,6041,0,No matching concept,7331,,,,,,,
+HUMC,36304170,Clostridioides difficile BI-NAP1-027 strain DNA [Presence] in Stool by NAA with probe detection,6041,0,No matching concept,7331,,,,,,,
+HUMC,3028026,IgM [Mass/volume] in Serum or Plasma,6015,8840,milligram per deciliter,6943,10.0,37.2,57.41,87.28,126.6,176.27,5850.0
+HUMC,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,5986,9550,milli-international unit per milliliter,11064,1.2,1.2,1.2,45.98,2035.21,30656.58,665903.6
+HUMC,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,5986,0,No matching concept,125,,,,,,,
+HUMC,3046210,Cortisol [Mass/volume] in Serum or Plasma --baseline,5978,8837,microgram per deciliter,16689,0,1.8,8.3,14.3,20.1,25.6,173.8
+HUMC,3010761,Herpes simplex virus IgM Ab [Presence] in Serum,5961,8779,signal to cutoff ratio,6075,0,0.1,0.1,0.2,0.3,0.6,10.0
+HUMC,3010761,Herpes simplex virus IgM Ab [Presence] in Serum,5961,0,No matching concept,6075,,,,,,,
+HUMC,42869531,Gamma interferon background [Units/volume] in Blood by Immunoassay,5923,0,No matching concept,8376,,,,,,,
+HUMC,3045607,Chlamydophila pneumoniae IgG Ab [Presence] in Serum,5901,0,No matching concept,6504,,,,,,,
+HUMC,40759603,Insulin [Units/volume] in Serum or Plasma --baseline,5835,8860,microunit per milliliter,12764,0,3.6,6.7,15.3,37.8,82.8,300.0
+HUMC,3965661,Cat dander IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),5734,0,No matching concept,6621,,,,,,,
+HUMC,40758434,Fungus [Presence] in Specimen by KOH preparation,5661,0,No matching concept,8753,,,,,,,
+HUMC,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,5608,0,No matching concept,7797,,,,,,,
+HUMC,3023430,Cat dander IgE Ab [Units/volume] in Serum,5592,0,No matching concept,6470,,,,,,,
+HUMC,3004198,Follitropin [Units/volume] in Serum or Plasma --baseline,5574,9550,milli-international unit per milliliter,19025,0.05,1.7,3.8,7.79,12.11,17.29,150.0
+HUMC,3033490,Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),5568,0,No matching concept,13944,,,,,,,
+HUMC,37019802,Human coronavirus HKU1+OC43 RNA [Presence] in Respiratory system specimen by NAA with probe detection,5558,0,No matching concept,6194,,,,,,,
+HUMC,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,5514,44777561,arbitrary unit per liter,12048,4,14,17.86,23.77,38.52,216.76,750000.0
+HUMC,3033558,Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),5500,0,No matching concept,11165,,,,,,,
+HUMC,3031677,Microscopic observation [Identifier] in Bronchial specimen by Cyto stain,5403,0,No matching concept,6672,,,,,,,
+HUMC,3006237,Chlamydophila pneumoniae IgG Ab [Units/volume] in Serum,5340,8510,unit,5882,10.0,10.0,12.67,40.03,66.11,87.91,100.0
+HUMC,3025119,Lutropin [Units/volume] in Serum or Plasma --baseline,5330,9550,milli-international unit per milliliter,18708,0.01,0.09,1.34,3.62,8.95,18.83,241.3
+HUMC,3013867,Bacteria identified in Specimen by Aerobe culture,5278,0,No matching concept,20442,,,,,,,
+HUMC,3012512,Microscopic observation [Identifier] in Sputum by Cyto stain,5245,0,No matching concept,7035,,,,,,,
+HUMC,40760490,C peptide [Mass/volume] in Serum or Plasma --baseline,5223,8842,nanogram per milliliter,12058,0.01,0.63,1.27,2.25,4.04,6.91,30.52
+HUMC,3020876,Protein [Mass/time] in 24 hour Urine,5137,0,No matching concept,5469,,,,,,,
+HUMC,3037501,Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),5124,0,No matching concept,7135,,,,,,,
+HUMC,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,5072,0,No matching concept,14480,,,,,,,
+HUMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,5034,8779,signal to cutoff ratio,7159,0,0.343,0.385,0.607,7.164,298.408,2117.763
+HUMC,3027974,Hepatitis B virus e Ag [Presence] in Serum,5034,0,No matching concept,18901,,,,,,,
+HUMC,3011797,Bacteria identified in Abscess by Aerobe culture,5031,0,No matching concept,7775,,,,,,,
+HUMC,3005932,Smooth muscle Ab [Presence] in Serum,5028,0,No matching concept,5203,,,,,,,
+HUMC,3018517,Mitochondria Ab [Presence] in Serum,5028,0,No matching concept,5203,,,,,,,
+HUMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,4935,8779,signal to cutoff ratio,7086,0,0.01,0.02,1.28,1.9,15.12,74.65
+HUMC,3013945,Hepatitis B virus e Ab [Presence] in Serum,4935,0,No matching concept,18629,,,,,,,
+HUMC,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,4911,0,No matching concept,5873,,,,,,,
+HUMC,3000483,Glucose [Mass/volume] in Blood,4892,8840,milligram per deciliter,23059,10.0,68,79,94,112,147,1108
+HUMC,3032567,Hepatitis B virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,4858,8985,international unit per milliliter,20975,4.978,10.0,10.0,10.0,63,309,77034
+HUMC,3027346,Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,4858,8799,copies per milliliter,20975,1.839,34,34,34,99,379,161247
+HUMC,42529226,Progesterone [Mass/volume] in Serum or Plasma by Immunoassay,4787,8842,nanogram per milliliter,5860,0.05,0.05,0.11,0.25,0.51,3.08,58.5
+HUMC,3013498,Variant lymphocytes/100 leukocytes in Blood,4771,8554,percent,6769,0,1,2,3,5,9,90.0
+HUMC,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,4521,0,No matching concept,7075,,,,,,,
+HUMC,3035740,Bacteria identified in Throat by Aerobe culture,4483,0,No matching concept,4915,,,,,,,
+HUMC,3013146,Bacteria identified in Wound by Aerobe culture,4467,0,No matching concept,9872,,,,,,,
+HUMC,3964831,Egg white IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4407,0,No matching concept,5209,,,,,,,
+HUMC,3965045,Japanese hop IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4379,0,No matching concept,5085,,,,,,,
+HUMC,3039546,Japanese hop IgE Ab [Units/volume] in Serum,4379,0,No matching concept,5085,,,,,,,
+HUMC,586526,SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection,4338,0,No matching concept,5717,,,,,,,
+HUMC,3010528,dRVVT actual/normal (normalized LA screen),4332,0,No matching concept,4510,,,,,,,
+HUMC,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,4305,8842,nanogram per milliliter,8697,0.1,0.5,0.7,1,1.5,3.1,70.0
+HUMC,3029581,Direct antiglobulin test.unspecified reagent [Presence] on Red Blood Cells,4279,0,No matching concept,4568,,,,,,,
+HUMC,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,4271,8840,milligram per deciliter,6651,0,42,54,64,75,91,1112
+HUMC,3020963,Microscopic observation [Identifier] in Specimen by Giemsa stain,4267,0,No matching concept,5477,,,,,,,
+HUMC,3028531,Enolase.neuron specific [Mass/volume] in Serum or Plasma,4221,8842,nanogram per milliliter,6025,1.7,10.4,12.9,17.4,25.2,47.3,370.0
+HUMC,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,4212,8840,milligram per deciliter,5670,32,95,108,134,191,272,739
+HUMC,3966508,Cow milk IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4189,0,No matching concept,4707,,,,,,,
+HUMC,3965920,Peanut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4164,0,No matching concept,4741,,,,,,,
+HUMC,3030365,Mycobacterium tuberculosis rifAMPin resistance gene [Identifier] in Sputum by NAA with probe detection,4161,0,No matching concept,5659,,,,,,,
+HUMC,3000049,SCL-70 extractable nuclear Ab [Presence] in Serum by Immunoassay,4092,0,No matching concept,4269,,,,,,,
+HUMC,3966767,Mugwort IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4041,0,No matching concept,4633,,,,,,,
+HUMC,3966587,Wheat IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),4039,0,No matching concept,4436,,,,,,,
+HUMC,3011039,Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),4036,0,No matching concept,7098,,,,,,,
+HUMC,3036405,Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),4032,0,No matching concept,7091,,,,,,,
+HUMC,3008401,Mugwort IgE Ab [Units/volume] in Serum,4017,0,No matching concept,4607,,,,,,,
+HUMC,3050896,Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),4010,0,No matching concept,7064,,,,,,,
+HUMC,3001529,Microscopic observation [Identifier] in Cervix by Gram stain,4009,0,No matching concept,6020,,,,,,,
+HUMC,3025986,Microscopic observation [Identifier] in Specimen by Cyto stain,3998,0,No matching concept,5544,,,,,,,
+HUMC,3011907,Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),3971,0,No matching concept,13423,,,,,,,
+HUMC,3002179,Metamyelocytes/100 leukocytes in Blood,3953,8554,percent,12104,0,0,1,2,4,8,33
+HUMC,3003985,Beta hydroxybutyrate [Moles/volume] in Serum or Plasma,3894,8749,micromole per liter,1898,3.8,26.4,50.0,98,252.5,1324.3,48510.3
+HUMC,3003985,Beta hydroxybutyrate [Moles/volume] in Serum or Plasma,3894,0,No matching concept,5929,,,,,,,
+HUMC,3014599,Egg white IgE Ab [Units/volume] in Serum,3835,0,No matching concept,4566,,,,,,,
+HUMC,3027969,Bacteria identified in Wound by Anaerobe culture,3797,0,No matching concept,7132,,,,,,,
+HUMC,3965362,White Oak IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3781,0,No matching concept,4399,,,,,,,
+HUMC,3006734,White Oak IgE Ab [Units/volume] in Serum,3780,0,No matching concept,4398,,,,,,,
+HUMC,3009308,Rubella virus IgM Ab [Presence] in Serum,3765,8779,signal to cutoff ratio,3883,0,0,0.07,0.1,0.14,0.2,7.4
+HUMC,3009308,Rubella virus IgM Ab [Presence] in Serum,3765,0,No matching concept,3883,,,,,,,
+HUMC,3012494,Peanut IgE Ab [Units/volume] in Serum,3754,0,No matching concept,4286,,,,,,,
+HUMC,3006588,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,3753,8763,unit per milliliter,14614,0,4.9,6.4,9.1,13.6,20.8,5630.0
+HUMC,3029719,Indirect antiglobulin test.unspecified reagent [Presence] in Serum or Plasma,3743,0,No matching concept,3948,,,,,,,
+HUMC,3001355,Fungus identified in Sputum by Culture,3722,0,No matching concept,4646,,,,,,,
+HUMC,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,3709,0,No matching concept,5874,,,,,,,
+HUMC,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,3709,0,No matching concept,5874,,,,,,,
+HUMC,3015592,Fungus identified in Body fluid by Culture,3700,0,No matching concept,6285,,,,,,,
+HUMC,3019473,Protein [Mass/volume] in Cerebral spinal fluid,3688,8840,milligram per deciliter,5739,0.3,18.5,27.1,43.1,78.5,158.6,5431.4
+HUMC,3004239,Creatinine [Mass/time] in 24 hour Urine,3655,8807,gram per 24 hours,4511,0.01,0.52,0.77,1.07,1.46,1.86,5.75
+HUMC,3001488,Cow milk IgE Ab [Units/volume] in Serum,3640,0,No matching concept,4089,,,,,,,
+HUMC,3028269,Bacteria identified in Vaginal fluid by Aerobe culture,3629,0,No matching concept,4575,,,,,,,
+HUMC,3027231,Wheat IgE Ab [Units/volume] in Serum,3624,0,No matching concept,3990,,,,,,,
+HUMC,3029139,APOE gene alleles e2 and e3 and e4 [Identifier] in Blood or Tissue by Molecular genetics method Nominal,3603,0,No matching concept,3708,,,,,,,
+HUMC,3026796,Spermatozoa [Presence] in Urine sediment by Light microscopy,3549,0,No matching concept,4200,,,,,,,
+HUMC,3030104,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (Schwartz)",3540,8840,milligram per deciliter,6305,1,88,98,109,120.0,132,1435
+HUMC,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,3524,8554,percent,9414,0,1,1,2,8,26,795
+HUMC,3028136,Grey Alder IgE Ab [Units/volume] in Serum,3516,0,No matching concept,4059,,,,,,,
+HUMC,3965417,Grey Alder IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),3516,0,No matching concept,4059,,,,,,,
+HUMC,3023230,Hematocrit [Volume Fraction] of Arterial blood,3483,8554,percent,2170,15,24,27,31,36,40.0,65
+HUMC,3023230,Hematocrit [Volume Fraction] of Arterial blood,3483,0,No matching concept,12478,,,,,,,
+HUMC,3034844,Toxoplasma gondii IgM Ab [Presence] in Serum,3462,8779,signal to cutoff ratio,3511,0,0,0.02,0.08,0.13,0.21,5.9
+HUMC,3034844,Toxoplasma gondii IgM Ab [Presence] in Serum,3462,0,No matching concept,3517,,,,,,,
+HUMC,3034592,Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),3387,0,No matching concept,6285,,,,,,,
+HUMC,715272,SARS-CoV-2 (COVID-19) N gene [Presence] in Nasopharynx by NAA with probe detection,3313,0,No matching concept,3551,,,,,,,
+HUMC,3031076,Corticotropin [Mass/volume] in Plasma --baseline,3282,8845,picogram per milliliter,4275,1,4,9,17.9,31.9,53.5,1250.0
+HUMC,36304372,Mycobacterium tuberculosis complex rpoB gene rifAMPin resistance mutation [Presence] by Molecular method,3236,0,No matching concept,3857,,,,,,,
+HUMC,3002035,Myeloperoxidase Ab [Presence] in Serum by Immunoassay,3198,0,No matching concept,3406,,,,,,,
+HUMC,3049398,Myeloperoxidase Ab [Units/volume] in Serum by Immunoassay,3198,8985,international unit per milliliter,3406,0.2,0.2,0.2,0.2,0.3,0.6,134
+HUMC,3051669,Proteinase 3 Ab [Units/volume] in Serum by Immunoassay,3198,8985,international unit per milliliter,3406,0.2,0.2,0.2,0.3,0.5,0.7,62
+HUMC,40766042,Proteinase 3 Ab [Presence] in Serum by Immunoassay,3198,0,No matching concept,3406,,,,,,,
+HUMC,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,3146,0,No matching concept,8333,,,,,,,
+HUMC,3023633,Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),3118,0,No matching concept,11427,,,,,,,
+HUMC,37020981,Trichomonas vaginalis DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,1091234,Mycoplasma hominis DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,1092379,Ureaplasma urealyticum DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,3003510,Neisseria gonorrhoeae DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,36306032,Mycoplasma genitalium DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,3964587,Herpes simplex virus 1 DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,3024950,Chlamydia trachomatis DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,3966472,Herpes simplex virus 2 DNA [Presence] in Urine by NAA with probe detection,3117,0,No matching concept,3627,,,,,,,
+HUMC,42529221,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma by Immunoassay,3102,8842,nanogram per milliliter,3780,0.04,0.46,1,2.78,7.03,12.3,14.1
+HUMC,3016816,Cytomegalovirus IgG Ab [Presence] in Serum or Plasma,3079,0,No matching concept,3261,,,,,,,
+HUMC,3005715,Vancomycin [Mass/volume] in Serum or Plasma,3046,8859,microgram per milliliter,16255,0,6.98,10.97,15.21,19.46,24.62,100.0
+HUMC,3022284,Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3014,0,No matching concept,6173,,,,,,,
+HUMC,3013644,Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3010,0,No matching concept,6151,,,,,,,
+HUMC,3028333,Cardiolipin IgG Ab [Presence] in Serum,2959,0,No matching concept,3273,,,,,,,
+HUMC,3001982,Cardiolipin IgA Ab [Presence] in Serum,2959,0,No matching concept,3273,,,,,,,
+HUMC,3006441,Cardiolipin IgM Ab [Presence] in Serum by Immunoassay,2959,0,No matching concept,3273,,,,,,,
+HUMC,3011692,Calculus analysis [Interpretation] in Stone,2938,0,No matching concept,3642,,,,,,,
+HUMC,3016010,Epstein Barr virus early Ab [Presence] in Serum by Immunoassay,2935,0,No matching concept,3011,,,,,,,
+HUMC,3039496,Microscopic observation [Identifier] in Pleural fluid by Rhodamine-auramine fluorochrome stain,2927,0,No matching concept,4336,,,,,,,
+HUMC,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,2902,0,No matching concept,4796,,,,,,,
+HUMC,3003434,Protein [Mass/volume] in Pleural fluid,2843,8840,milligram per deciliter,4282,5.2,1440.0,1990.0,2890.0,4120.0,5040.0,4900000.0
+HUMC,3011544,Albumin [Mass/volume] in Pleural fluid,2831,8840,milligram per deciliter,4192,3.1,850.0,1210.0,1700.0,2370.0,3000.0,3010000.0
+HUMC,3003403,Glucose [Mass/volume] in Pleural fluid,2823,8840,milligram per deciliter,4167,0,65,95,118,146,190.0,826
+HUMC,3015054,Lactate dehydrogenase [Enzymatic activity/volume] in Pleural fluid,2819,8923,international unit per liter,4198,5,77,104,177,412,1039,92360.0
+HUMC,3027126,Copper [Mass/volume] in Serum or Plasma,2817,8837,microgram per deciliter,2877,6,71,80.0,91,103,117,283
+HUMC,1616707,BRAF gene V600 mutations [Identifier] in Tissue by Molecular genetics method Nominal,2810,0,No matching concept,3409,,,,,,,
+HUMC,3001886,Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain,2809,0,No matching concept,4715,,,,,,,
+HUMC,3014173,Calcitriol [Mass/volume] in Serum or Plasma,2805,8845,picogram per milliliter,3400,1.4,8.6,24.4,39.9,57.1,73.6,277.7
+HUMC,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,2792,8779,signal to cutoff ratio,60,0.05,0.21,5.76,10.19,12.13,12.51,15.6
+HUMC,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,2792,0,No matching concept,5752,,,,,,,
+HUMC,3015274,Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),2785,0,No matching concept,10340,,,,,,,
+HUMC,3003888,Timothy IgE Ab [Units/volume] in Serum,2762,0,No matching concept,3151,,,,,,,
+HUMC,3964963,Timothy IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),2762,0,No matching concept,3152,,,,,,,
+HUMC,3017181,Myelocytes/100 leukocytes in Blood,2752,8554,percent,8014,0,1,1,2,4,8,40.0
+HUMC,3017275,Cortisol [Mass/time] in 24 hour Urine,2727,8906,microgram per 24 hours,3586,0,7.8,17.5,29.4,48,86.4,6298.5
+HUMC,3007234,Bacteria identified in Ear by Aerobe culture,2725,0,No matching concept,3821,,,,,,,
+HUMC,3013861,Lipoprotein a [Mass/volume] in Serum or Plasma,2708,8840,milligram per deciliter,3307,0.29,2.89,5.38,9.99,22,45.59,233.89
+HUMC,3005532,Lymphocytes/100 leukocytes in Pleural fluid,2694,8554,percent,4028,0,5,13,33,63,82,99
+HUMC,3000919,Neutrophils/100 leukocytes in Pleural fluid,2692,8554,percent,4025,0,1,4,15,51,81,100.0
+HUMC,3020134,Herpes simplex virus IgG Ab [Presence] in Serum,2671,8779,signal to cutoff ratio,2749,0,0.1,0.4,6.3,8.5,10.0,23.4
+HUMC,3020134,Herpes simplex virus IgG Ab [Presence] in Serum,2671,0,No matching concept,2750,,,,,,,
+HUMC,3034780,Angiotensin converting enzyme [Enzymatic activity/volume] in Serum or Plasma,2667,8645,unit per liter,2840,5,13.3,19.2,27.7,39.2,54.2,150.0
+HUMC,3046856,Respiratory syncytial virus Ag [Presence] in Nose,2664,0,No matching concept,2900,,,,,,,
+HUMC,3039528,Macrophages/100 leukocytes in Pleural fluid by Manual count,2659,8554,percent,3964,0,2,7,21,47,69,99
+HUMC,3043387,Monocytes/100 leukocytes in Pleural fluid,2647,8554,percent,3941,0,0,0,0,0,4,82
+HUMC,3965307,Soybean IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),2624,0,No matching concept,2768,,,,,,,
+HUMC,3006451,Walnut IgE Ab [Units/volume] in Serum,2622,8810,kilounit per liter,3032,0,0,0,0.01,0.13,4.33,100.0
+HUMC,3965857,Walnut IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),2622,0,No matching concept,3032,,,,,,,
+HUMC,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,2605,8842,nanogram per milliliter,15548,0,0.1,0.1,0.24,4.7,14.3,1000.0
+HUMC,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,2604,8842,nanogram per milliliter,3791,0.027,0.08,0.17,0.31,0.51,0.76,2.81
+HUMC,3001893,Eosinophils/100 leukocytes in Pleural fluid,2599,8554,percent,3862,0,0,0,0,1,3,82
+HUMC,3023709,Somatotropin [Mass/volume] in Serum or Plasma,2590,8842,nanogram per milliliter,5559,0.03,0.06,0.135,0.49,1.88,5.45,50.0
+HUMC,3006636,Metanephrines [Mass/time] in 24 hour Urine,2579,8909,milligram per 24 hours,3359,0.01,0.2,0.2,0.3,0.4,0.6,76.7
+HUMC,3025419,Thyroid stimulating immunoglobulins [Presence] in Serum,2558,8554,percent,2921,,,,,,,
+HUMC,3023876,Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC),2542,0,No matching concept,3163,,,,,,,
+HUMC,3039592,Liver kidney microsomal Ab [Presence] in Serum by Immunofluorescence,2505,0,No matching concept,2594,,,,,,,
+HUMC,3004448,Specific gravity of Pleural fluid by Refractometry,2456,0,No matching concept,3766,,,,,,,
+HUMC,3026051,Polymorphonuclear cells/100 leukocytes in Pleural fluid,2444,8554,percent,3731,0,5,10.0,20.0,55,80.0,97
+HUMC,3026179,Normetanephrine [Moles/volume] in Serum or Plasma,2444,8736,nanomole per liter,3138,0.01,0.24,0.33,0.46,0.64,0.89,2281.3
+HUMC,3034459,Mononuclear cells/100 leukocytes in Pleural fluid,2443,8554,percent,3729,3,20.0,45,80.0,90.0,95,100.0
+HUMC,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,2425,8842,nanogram per milliliter,3066,0.2,0.96,1.38,2.1,3.43,6.58,378
+HUMC,3019209,Epstein Barr virus capsid IgM Ab [Presence] in Serum by Immunoassay,2423,0,No matching concept,2487,,,,,,,
+HUMC,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),2419,8763,unit per milliliter,2603,0.1,1.5,3.5,11.8,286.6,3075.3,4752
+HUMC,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,2328,0,No matching concept,2686,,,,,,,
+HUMC,3034442,cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),2307,0,No matching concept,2898,,,,,,,
+HUMC,3006653,Thiamine [Moles/volume] in Blood,2304,8736,nanomole per liter,2383,22.1,116.6,140.8,174.3,223.7,302.7,682.9
+HUMC,3034860,Kappa light chains.free [Mass/volume] in Serum,2288,8751,milligram per liter,3117,0.1,11.6,18.1,34.5,95.3,211,54700.0
+HUMC,3053209,Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum,2288,0,No matching concept,3117,,,,,,,
+HUMC,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,2288,8751,milligram per liter,3117,0.1,11.5,17.1,29.8,64.4,146,20100.0
+HUMC,3020287,Protein C actual/normal in Platelet poor plasma by Coagulation assay,2258,8554,percent,2354,8,71,91,107,124,137,200.0
+HUMC,3045355,Beta 2 glycoprotein 1 IgG Ab [Presence] in Serum,2248,8763,unit per milliliter,2493,,,,,,,
+HUMC,3015076,Soybean IgE Ab [Units/volume] in Serum,2222,0,No matching concept,2346,,,,,,,
+HUMC,3048689,Calprotectin [Mass/mass] in Stool,2210,9562,milligram per kilogram,4430,0,12,36,156,772,2720.0,6000.0
+HUMC,3014357,Grass Allergen Mix 2 (Bermuda grass+Perennial rye grass+Timothy+Kentucky blue grass+Johnson grass+Bahia grass) IgE Ab RAST class [Presence] in Serum by Multidisk,2210,0,No matching concept,2293,,,,,,,
+HUMC,3036669,Protein S actual/normal in Platelet poor plasma by Coagulation assay,2194,8554,percent,2298,6,45,61,77,95,113,200.0
+HUMC,3015350,Toxocara sp Ab [Presence] in Serum,2185,0,No matching concept,2370,,,,,,,
+HUMC,3004789,Transferrin [Mass/volume] in Serum or Plasma,2170,8840,milligram per deciliter,2590,19,110.58,150.01,203,251,295.24,500.0
+HUMC,3965467,Aspergillus fumigatus IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),2147,0,No matching concept,2169,,,,,,,
+HUMC,3025037,Bacteria identified in Peritoneal fluid by Culture,2139,0,No matching concept,6139,,,,,,,
+HUMC,3037558,Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),2129,0,No matching concept,8289,,,,,,,
+HUMC,3001612,Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),2111,0,No matching concept,8252,,,,,,,
+HUMC,3000796,Bacteria identified in Pleural fluid by Aerobe culture,2111,0,No matching concept,3632,,,,,,,
+HUMC,3006661,Calcium [Mass/volume] in Urine,2089,8840,milligram per deciliter,3316,0.1,1.4,3,6.9,12.7,20.1,90.9
+HUMC,3027370,Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,2077,8859,microgram per milliliter,2612,1.13,2.91,3.68,4.43,5.15,5.83,8.65
+HUMC,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,2076,8748,microgram per liter,3266,1.2,6.7,8.3,10.9,14.8,19.7,120.0
+HUMC,21491660,Streptococcus pyogenes Ag [Presence] in Throat by Rapid immunoassay,2040,0,No matching concept,2154,,,,,,,
+HUMC,3038636,Microscopic observation [Identifier] in Cerebral spinal fluid by Rhodamine-auramine fluorochrome stain,2030,0,No matching concept,2230,,,,,,,
+HUMC,3002222,Hepatitis E virus IgM Ab [Presence] in Serum,2022,0,No matching concept,2109,,,,,,,
+HUMC,3046760,Galactomannan Ag [Presence] in Serum or Plasma by Immunoassay,2012,0,No matching concept,3571,,,,,,,
+HUMC,3019711,Mycobacterium sp DNA [Presence] in Sputum by NAA with probe detection,2009,0,No matching concept,2138,,,,,,,
+HUMC,1175952,Bacteria identified in Bile fluid by Aerobe culture,1997,0,No matching concept,2721,,,,,,,
+HUMC,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,1989,8985,international unit per milliliter,3796,12,15,15,15,15,15,880.0
+HUMC,723475,SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum or Plasma by Immunoassay,1980,0,No matching concept,2186,,,,,,,
+HUMC,723474,SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay,1980,0,No matching concept,2186,,,,,,,
+HUMC,3000162,Prolactin [Mass/volume] in Serum or Plasma --baseline,1979,8842,nanogram per milliliter,3487,0.6,6.6,9.4,14.45,28.09,71.6,526.08
+HUMC,3966673,Human coronavirus OC43 RNA [Presence] in Respiratory system specimen by NAA with probe detection,1976,0,No matching concept,2109,,,,,,,
+HUMC,3966116,Influenza virus A H1 RNA [Presence] in Respiratory system specimen by NAA with probe detection,1976,0,No matching concept,2109,,,,,,,
+HUMC,3964727,Influenza virus A H3 RNA [Presence] in Respiratory system specimen by NAA with probe detection,1976,0,No matching concept,2109,,,,,,,
+HUMC,3043181,Beta 2 glycoprotein 1 IgM Ab [Presence] in Serum,1943,8510,unit,2163,,,,,,,
+HUMC,3011951,Aspergillus fumigatus IgE Ab [Units/volume] in Serum,1930,0,No matching concept,1949,,,,,,,
+HUMC,3000126,Salmonella paratyphi A Ab [Titer] in Serum,1889,8525,titer,2048,,,,,,,
+HUMC,3037615,Salmonella typhi H Ab [Titer] in Serum,1889,8525,titer,2048,,,,,,,
+HUMC,3037960,Salmonella typhi O Ab [Titer] in Serum,1889,8525,titer,2048,,,,,,,
+HUMC,3003004,Salmonella paratyphi B Ab [Titer] in Serum,1889,8525,titer,2048,,,,,,,
+HUMC,3024212,Fungus identified in Bronchial specimen by Culture,1863,0,No matching concept,2359,,,,,,,
+HUMC,21494940,Weed Allergen Mix 5 (Common ragweed+Mugwort+Ox-eye daisy+Dandelion+Goldenrod) IgE Ab RAST class [Presence] in Serum by Multidisk,1856,0,No matching concept,1945,,,,,,,
+HUMC,42529195,Beta-2-Microglobulin [Mass/volume] in Serum or Plasma by Immunoassay,1838,8751,milligram per liter,4805,0.5,1.7,2.7,13.5,22.4,27.9,60.6
+HUMC,3013502,Oxygen saturation in Blood,1831,8554,percent,2245,8.6,67.5,94.1,99,99.2,99.3,100.0
+HUMC,3014646,Fractional oxyhemoglobin in Blood,1831,8554,percent,2245,6.1,58.3,79.1,95.8,98,98.4,99.9
+HUMC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,1831,8554,percent,2245,0,0.2,0.5,0.8,4.2,20.3,86.8
+HUMC,3007930,Methemoglobin/Hemoglobin.total in Blood,1831,8554,percent,2245,0,0.2,0.3,0.5,0.7,1,58.1
+HUMC,3019231,Epstein Barr virus capsid IgG Ab [Presence] in Serum by Immunoassay,1824,0,No matching concept,1860,,,,,,,
+HUMC,21493287,Tree Allergen Mix 9 (Grey alder+Silver birch+Hazelnut+White oak+Willow) IgE Ab RAST class [Presence] in Serum by Multidisk,1803,0,No matching concept,1885,,,,,,,
+HUMC,3016049,Testosterone Free [Mass/volume] in Serum or Plasma,1767,8845,picogram per milliliter,2885,0.01,0.32,0.56,1.15,5.14,10.5,79.6
+HUMC,3009678,Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay,1762,0,No matching concept,1795,,,,,,,
+HUMC,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,1755,0,No matching concept,4287,,,,,,,
+HUMC,3047826,Mullerian inhibiting substance [Mass/volume] in Serum or Plasma,1752,0,No matching concept,2203,,,,,,,
+HUMC,3966460,Shrimp IgE Ab [Presence] in Serum by Radioallergosorbent test (RAST),1692,0,No matching concept,1819,,,,,,,
+HUMC,3017612,Epstein Barr virus nuclear IgG Ab [Presence] in Serum by Immunoassay,1688,8779,signal to cutoff ratio,1711,,,,,,,
+HUMC,37019853,Mycoplasma pneumoniae DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,37020998,Streptococcus pneumoniae DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,37020902,Legionella pneumophila DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,37020338,Haemophilus influenzae DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,37020160,Bordetella pertussis DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,37020101,Chlamydophila pneumoniae DNA [Presence] in Respiratory system specimen by NAA with probe detection,1681,0,No matching concept,1836,,,,,,,
+HUMC,3017925,Prealbumin [Mass/volume] in Serum or Plasma by Immunoassay,1669,8840,milligram per deciliter,5672,1.1,13.6,18.83,22.94,26.34,29.63,340.0
+HUMC,3035526,Acetoacetate [Moles/volume] in Serum or Plasma,1627,8749,micromole per liter,1898,0.5,9.3,18.4,39.2,111.2,383.2,28680.3
+HUMC,3041426,Ketones [Moles/volume] in Blood,1627,8749,micromole per liter,1898,5.6,41.8,72,144.7,391.5,1916.3,65393.3
+HUMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1609,8779,signal to cutoff ratio,1329,0,0.07,0.09,0.11,0.16,0.28,47.3
+HUMC,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1609,0,No matching concept,1931,,,,,,,
+HUMC,3032029,Measles virus IgG Ab [Presence] in Serum by Immunoassay,1606,0,No matching concept,1636,,,,,,,
+HUMC,3011965,Urea nitrogen [Mass/volume] in Urine,1600,8840,milligram per deciliter,2962,2.1,104.4,255.8,452.1,679.1,900.9,2075.1
+HUMC,3036947,Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),1587,0,No matching concept,1938,,,,,,,
+HUMC,40763949,Clindamycin.induced [Susceptibility],1585,0,No matching concept,2057,,,,,,,
+HUMC,3049714,Procollagen type I.N-terminal propeptide [Mass/volume] in Serum,1582,8842,nanogram per milliliter,1763,5.8,16.7,28.1,42.7,63.3,91.5,926
+HUMC,3005543,Specific gravity of Peritoneal fluid by Refractometry,1569,0,No matching concept,4427,,,,,,,
+HUMC,3022764,Mononuclear cells/100 leukocytes in Peritoneal fluid,1546,8554,percent,4308,5,30.0,70.0,85,90.0,95,98
+HUMC,44786798,Granulocytes/100 leukocytes in Peritoneal dialysis fluid,1546,8554,percent,4308,2,5,10.0,15,30.0,70.0,95
+HUMC,3046279,Procalcitonin [Mass/volume] in Serum or Plasma,1531,8842,nanogram per milliliter,1851,0.05,0.05,0.08,0.29,1.85,14.4,200.0
+HUMC,3042847,Granulocytes/100 leukocytes in Cerebral spinal fluid,1522,8554,percent,2937,0,5,10.0,40.0,75,90.0,97
+HUMC,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,1520,0,No matching concept,2235,,,,,,,
+HUMC,3033306,Mononuclear cells/100 leukocytes in Cerebral spinal fluid,1518,8554,percent,2931,0,10.0,25,60.0,90.0,90.0,100.0
+HUMC,3002331,Protein [Mass/volume] in Peritoneal fluid,1493,8840,milligram per deciliter,3471,1.1,640.0,980.0,1580.0,2630.0,3790.0,11500.0
+HUMC,3026692,Albumin [Mass/volume] in Peritoneal fluid,1492,8840,milligram per deciliter,3538,0,300.0,520.0,840.0,1390.0,2110.0,4380.0
+HUMC,3008691,Amylase [Enzymatic activity/volume] in Peritoneal fluid,1478,8923,international unit per liter,3232,0,8,13,22,38,72,142556
+HUMC,3008581,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid,1466,8923,international unit per liter,3354,4,36,48,74,151,421,26169
+HUMC,3011066,Myoglobin [Mass/volume] in Urine,1462,8842,nanogram per milliliter,1956,0.5,1,3,21,234.5,2282,24471
+HUMC,3026514,Neutrophils/100 leukocytes in Sputum,1457,8554,percent,1526,0,40.0,64,81,90.0,94,930.0
+HUMC,3024595,Lymphocytes/100 leukocytes in Sputum,1455,8554,percent,1524,0,1,3,5,10.0,19,94
+HUMC,3023199,Leukocytes [#/volume] in Pleural fluid,1408,0,No matching concept,1945,,,,,,,
+HUMC,3028308,Erythrocytes [#/volume] in Pleural fluid,1408,0,No matching concept,1945,,,,,,,
+HUMC,3016914,Bacteria identified in Cerebral spinal fluid by Culture,1378,0,No matching concept,3637,,,,,,,
+HUMC,3039493,Microscopic observation [Identifier] in Peritoneal fluid by Rhodamine-auramine fluorochrome stain,1358,0,No matching concept,2949,,,,,,,
+HUMC,3015406,Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),1353,0,No matching concept,1787,,,,,,,
+HUMC,3016920,Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid,1329,8923,international unit per liter,2986,0,15,26,57,175,410.0,8991
+HUMC,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,1316,0,No matching concept,1671,,,,,,,
+HUMC,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,1291,0,No matching concept,1787,,,,,,,
+HUMC,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,1137,8842,nanogram per milliliter,1349,1.5,4.6,6.6,10.6,17.4,25.1,300.0
+HUMC,3039448,Bacteria identified in Bile fluid by Culture,1118,0,No matching concept,1896,,,,,,,
+HUMC,3004995,Neutrophils/100 leukocytes in Peritoneal fluid,1109,8554,percent,2462,0,1,2,6,22,64,98
+HUMC,3004437,Lymphocytes/100 leukocytes in Peritoneal fluid,1108,8554,percent,2464,0,7,14,27,45,65,448
+HUMC,3041635,Macrophages/100 leukocytes in Peritoneal fluid by Manual count,1107,8554,percent,2461,0,9,26,51,71,83,99
+HUMC,3009613,Erythrocytes [#/volume] in Peritoneal fluid,1105,0,No matching concept,2999,,,,,,,
+HUMC,3023487,Leukocytes [#/volume] in Peritoneal fluid,1105,0,No matching concept,2999,,,,,,,
+HUMC,42529256,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma by Immunoassay,1073,8845,picogram per milliliter,3092,0.8,2.8,3.4,4,4.4,5,32.5
+HUMC,3016201,Valproate [Mass/volume] in Serum or Plasma,1050,8859,microgram per milliliter,2594,0,6.48,26.84,47.52,68.99,88.19,150.0
+HUMC,1175816,Bacteria identified in Peritoneal fluid by Aerobe culture,959,0,No matching concept,3248,,,,,,,
+HUMC,3010989,Calcitonin [Mass/volume] in Serum or Plasma,906,8845,picogram per milliliter,1046,0.5,1,1,1,2.5,6.1,2000.0
+HUMC,3012625,Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain,745,0,No matching concept,815,,,,,,,
+HUMC,3014157,Somatotropin [Mass/volume] in Serum or Plasma --baseline,722,8842,nanogram per milliliter,4511,0.03,0.177,0.48,1.57,4.57,10.7,50.0
+HUMC,3031266,Glucose [Mass/volume] in Arterial blood,691,8840,milligram per deciliter,2166,5,87,99,118,148,182,500.0
+HUMC,3043409,Potassium [Moles/volume] in Arterial blood,691,8753,millimole per liter,2178,0.4,3,3.3,3.6,3.9,4.3,6.8
+HUMC,3044331,Calcium.ionized [Moles/volume] in Arterial blood,691,8753,millimole per liter,2177,0.1,0.94,1.01,1.06,1.11,1.14,3.86
+HUMC,3043706,Sodium [Moles/volume] in Arterial blood,690,8753,millimole per liter,2161,103,134,136,139,141,143,186
+HUMC,3007654,Microscopic observation [Identifier] in Wound by Gram stain,685,0,No matching concept,1167,,,,,,,
+HUMC,3019029,Microscopic observation [Identifier] in Pus by Gram stain,684,0,No matching concept,836,,,,,,,
+HUMC,42529210,Digoxin [Mass/volume] in Serum or Plasma by Immunoassay,668,8842,nanogram per milliliter,2556,0,0.3,0.34,0.63,0.97,1.46,4
+HUMC,36303760,Microscopic observation [Presence] in Pleural fluid by Acid fast stain,377,0,No matching concept,485,,,,,,,
+HUMC,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,345,8837,microgram per deciliter,396,0.9,5.6,6.7,7.9,9.4,11.5,30.0
+HUMC,3025159,Blasts/100 leukocytes in Blood,278,8554,percent,2111,0,1,3,9,32,68,99
+HUMC,44786753,Tacrolimus [Mass/volume] in Blood by Immunoassay,226,8842,nanogram per milliliter,6358,0,3.7,5.2,7,9,11.5,30.0
+HUMC,3012451,5-Fluorocytosine [Susceptibility] by Minimum inhibitory concentration (MIC),197,0,No matching concept,686,,,,,,,
+HUMC,3021541,Amphotericin B [Susceptibility] by Minimum inhibitory concentration (MIC),196,0,No matching concept,682,,,,,,,
+HUMC,3038339,Micafungin [Susceptibility] by Minimum inhibitory concentration (MIC),195,0,No matching concept,684,,,,,,,
+HUMC,40757307,Caspofungin [Susceptibility] by Minimum inhibitory concentration (MIC),195,0,No matching concept,684,,,,,,,
+HUMC,3036155,Voriconazole [Susceptibility] by Minimum inhibitory concentration (MIC),194,0,No matching concept,679,,,,,,,
+HUMC,3007822,Protein Fractions [Interpretation] in Urine by Electrophoresis,190,0,No matching concept,193,,,,,,,
+HUMC,40758562,Immature cells/100 leukocytes in Blood,159,8554,percent,895,0,1,2,5,10.0,22,90.0
+HUMC,3012295,Fluconazole [Susceptibility] by Minimum inhibitory concentration (MIC),142,0,No matching concept,549,,,,,,,
+HUMC,3008974,cefTRIAXone [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),99,0,No matching concept,133,,,,,,,
+HUMC,3007552,Cefotaxime [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),99,0,No matching concept,133,,,,,,,
+HUMC,40758266,Penicillin Parenteral [Susceptibility] by Minimum inhibitory concentration (MIC),95,0,No matching concept,128,,,,,,,
+HUMC,3022767,Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC),95,0,No matching concept,128,,,,,,,
+HUMC,36203280,Penicillin [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),95,0,No matching concept,128,,,,,,,
+HUMC,40759910,Entecavir [Susceptibility] by Genotype method,63,0,No matching concept,67,,,,,,,
+HUMC,3031936,Galectin 3 Ag [Presence] in Tissue by Immune stain,52,0,No matching concept,52,,,,,,,
+HUMC,36305563,Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain,9,0,No matching concept,14,,,,,,,
+HUMC,1259807,Pepsinogen I/Pepsinogen II [Mass Ratio] in Serum,7,0,No matching concept,7,,,,,,,
+HUMC,3033888,Pepsinogen I [Mass/volume] in Serum or Plasma,7,8842,nanogram per milliliter,7,11.1,11.1,19.7,30.6,184,1581.8,1581.8
+HUMC,3022426,Pepsinogen II [Mass/volume] in Serum or Plasma,7,8842,nanogram per milliliter,7,6.5,6.5,7.8,21.4,36.1,149.3,149.3

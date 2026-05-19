@@ -1,0 +1,22 @@
+{
+  "site_code": "DCMC",
+  "collected_at": "2026-05-13T00:35:26.238258+00:00",
+  "cdm_name": "DCMC_5.3.1_06",
+  "group_id": 16,
+  "site_id": 196,
+  "source_key": "cdmpv53_251128",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\DCMC_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:31:49.779745+00:00",
+  "concepts_attempted": 558,
+  "concepts_with_data": 576,
+  "concepts_no_data": 1,
+  "concepts_error": 0,
+  "rows_total": 577,
+  "elapsed_seconds": 9321.2,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

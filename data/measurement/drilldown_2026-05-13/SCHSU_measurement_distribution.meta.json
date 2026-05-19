@@ -1,0 +1,22 @@
+{
+  "site_code": "SCHSU",
+  "collected_at": "2026-05-17T01:11:24.205449+00:00",
+  "cdm_name": "SCHSU_5.3.3_03",
+  "group_id": 27,
+  "site_id": 209,
+  "source_key": "cdmpv533",
+  "source_key_override": false,
+  "concept_inventory_source": "data\\concept_frequency\\by_site\\SCHSU_measurement.csv",
+  "concept_inventory_collected_at": "2026-05-12T08:40:50.264954+00:00",
+  "concepts_attempted": 1039,
+  "concepts_with_data": 1126,
+  "concepts_no_data": 0,
+  "concepts_error": 0,
+  "rows_total": 1126,
+  "elapsed_seconds": 23490.9,
+  "collector_script": "collect_measurement_drilldown.py",
+  "collector_version": "1.0.0",
+  "collector_commit": "97acc88c1a21",
+  "sleep_seconds": 2.0,
+  "max_retries": 3
+}

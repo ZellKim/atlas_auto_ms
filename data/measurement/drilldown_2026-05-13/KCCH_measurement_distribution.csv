@@ -1,0 +1,486 @@
+site,concept_id,concept_name,numPersons_achilles,unit_concept_id,unit_name,count,min,p10,p25,median,p75,p90,max
+KCCH,3006923,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,300207,8645,unit per liter,2728213,-7,10.0,14,20.0,32,52,17280.0
+KCCH,3013721,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,300083,8645,unit per liter,2727525,1,14,18,22,31,52,34260.0
+KCCH,3004501,Glucose [Mass/volume] in Serum or Plasma,299408,8840,milligram per deciliter,2736292,3,84,92,102,123,159,2167
+KCCH,3000963,Hemoglobin [Mass/volume] in Blood,296211,8713,gram per deciliter,2981310,0,9.3,10.6,12.1,13.4,14.6,23.7
+KCCH,3016723,Creatinine [Mass/volume] in Serum or Plasma,292380,8840,milligram per deciliter,2610932,-0.2,0.5,0.6,0.7,0.9,1.1,1300.0
+KCCH,3027114,Cholesterol [Mass/volume] in Serum or Plasma,287673,0,No matching concept,15181,14,140.0,157,179,204,230.0,971
+KCCH,3027114,Cholesterol [Mass/volume] in Serum or Plasma,287673,8840,milligram per deciliter,2433755,3,115,141,169,197,225,1426
+KCCH,3009542,Hematocrit [Volume Fraction] of Blood,272803,8554,percent,2870409,0,27.6,31.3,35.7,39.5,42.8,67.5
+KCCH,3035941,MCH [Entitic mass],272803,8564,picogram,2870383,3,28.1,29.5,30.8,32,33.4,8527
+KCCH,3026361,Erythrocytes [#/volume] in Blood,272803,0,No matching concept,2870393,0,2.99,3.43,3.94,4.38,4.76,12250.0
+KCCH,3024731,MCV [Entitic volume],272803,8583,femtoliter,2870384,0,83.9,87.4,90.9,94.5,98.4,152.8
+KCCH,3007461,Platelets [#/volume] in Blood,272803,0,No matching concept,2873159,0,102,170.0,229,291,366,4845
+KCCH,3003338,MCHC [Mass/volume],272802,8713,gram per deciliter,2870370,0,32.2,33,33.7,34.5,35.3,10632
+KCCH,3010813,Leukocytes [#/volume] in Blood,272801,0,No matching concept,2870351,0,2.98,4.34,5.87,7.87,10.9,888.2
+KCCH,3017732,Neutrophils [#/volume] in Blood,272779,0,No matching concept,2869938,0,1.49,2.35,3.46,5.29,8.49,599.91
+KCCH,3002030,Lymphocytes/100 leukocytes in Blood,272779,8554,percent,2869508,0,8.5,15.6,26.2,35.6,43.6,100.0
+KCCH,3019198,Lymphocytes [#/volume] in Blood,272778,0,No matching concept,2869498,0,0.53,0.89,1.41,1.97,2.51,502.99
+KCCH,3019069,Monocytes/100 leukocytes in Blood,272768,8554,percent,2867224,0,3.3,4.5,5.8,7.7,10.4,2804
+KCCH,3018010,Neutrophils/100 leukocytes in Blood,272763,8554,percent,2869904,0,42.8,51.7,61.5,73.4,83.6,100.0
+KCCH,3001604,Monocytes [#/volume] in Blood,272750,0,No matching concept,2867197,0,0.17,0.25,0.35,0.48,0.67,434.42
+KCCH,3002385,Erythrocyte distribution width [Ratio],272718,8554,percent,2868996,0,12.2,12.8,13.7,15.4,17.3,171
+KCCH,3001123,Platelet mean volume [Entitic volume] in Blood,272709,8583,femtoliter,2866428,0,6.9,7.3,7.8,8.5,9.3,30.3
+KCCH,3039312,Plateletcrit [Volume Fraction] in Blood,272680,8554,percent,2866295,0,0.09,0.14,0.18,0.23,0.28,8817
+KCCH,3006504,Eosinophils/100 leukocytes in Blood,272338,8554,percent,2819591,0,0.4,1,2,3.4,5.5,90.3
+KCCH,3013115,Eosinophils [#/volume] in Blood,272320,0,No matching concept,2819569,0,0.02,0.05,0.11,0.2,0.33,41.8
+KCCH,3022096,Basophils/100 leukocytes in Blood,271945,8554,percent,2796909,0,0.1,0.2,0.4,0.7,1,77.2
+KCCH,3006315,Basophils [#/volume] in Blood,271927,0,No matching concept,2796872,0,0.01,0.01,0.02,0.04,0.06,298.35
+KCCH,3039417,Platelet distribution width [Ratio] in Blood,269326,8554,percent,2802300,0,18,44.2,49.9,55.6,61.5,159
+KCCH,3024128,Bilirubin.total [Mass/volume] in Serum or Plasma,260539,8840,milligram per deciliter,2528412,0,0.3,0.4,0.5,0.8,1.2,98.7
+KCCH,3024561,Albumin [Mass/volume] in Serum or Plasma,260324,8713,gram per deciliter,2562739,0.1,3,3.6,4.2,4.5,4.7,7.2
+KCCH,3020630,Protein [Mass/volume] in Serum or Plasma,260311,8713,gram per deciliter,2555209,0.3,5.6,6.3,6.9,7.3,7.7,367.2
+KCCH,3035995,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,259668,8645,unit per liter,2517474,1,47,57,73,97,151,21100.0
+KCCH,3013682,Urea nitrogen [Mass/volume] in Serum or Plasma,256693,8840,milligram per deciliter,2442403,0,8,10.5,13.5,17.3,22.9,369.5
+KCCH,3032503,Calcium [Mass/volume] in Blood,251360,8840,milligram per deciliter,2362479,0.4,8.1,8.7,9.1,9.5,9.8,27.5
+KCCH,40760845,Protein [Presence] in Urine by Automated test strip,251236,0,No matching concept,1027994,,,,,,,
+KCCH,3037556,Urate [Mass/volume] in Serum or Plasma,250826,0,No matching concept,12,3.7359,4.341029,5.453012,359,359,359,41029
+KCCH,3037556,Urate [Mass/volume] in Serum or Plasma,250826,8840,milligram per deciliter,2288418,0.1,2.4,3.3,4.3,5.3,6.5,5200.0
+KCCH,3024232,Phosphate [Mass/volume] in Blood,250782,8840,milligram per deciliter,2320740,0.1,2.7,3.1,3.6,4,4.5,41.4
+KCCH,3010224,Large unstained cells/100 leukocytes in Blood,235506,8554,percent,2395191,0,0.8,1.3,1.9,2.5,3.5,88.1
+KCCH,3023993,Large unstained cells [#/volume] in Blood,235489,0,No matching concept,2395125,0,0.05,0.08,0.11,0.15,0.19,200.5
+KCCH,3022621,pH of Urine by Test strip,225778,0,No matching concept,915137,0,5,5,6,7,8,5500.0
+KCCH,3018834,Bilirubin.total [Presence] in Urine by Test strip,225744,0,No matching concept,915044,,,,,,,
+KCCH,3035350,Ketones [Presence] in Urine by Test strip,225744,0,No matching concept,915049,,,,,,,
+KCCH,3037426,Urobilinogen [Presence] in Urine by Test strip,225743,0,No matching concept,915041,,,,,,,
+KCCH,3030260,Glucose [Presence] in Urine by Automated test strip,225743,0,No matching concept,915047,49,49,49,49,49,49,49
+KCCH,3021601,Nitrite [Presence] in Urine by Test strip,225743,0,No matching concept,915046,,,,,,,
+KCCH,3011397,Hemoglobin [Presence] in Urine by Test strip,225743,0,No matching concept,915043,,,,,,,
+KCCH,3000348,Leukocyte esterase [Presence] in Urine by Test strip,225742,0,No matching concept,915040,,,,,,,
+KCCH,3029925,Color of Urine by Auto,225730,0,No matching concept,914951,,,,,,,
+KCCH,3035355,Turbidity [Presence] of Urine Qualitative,225671,0,No matching concept,914601,,,,,,,
+KCCH,3000330,Specific gravity of Urine by Test strip,225613,0,No matching concept,914656,0.01,1.008,1.011,1.016,1.025,1.03,1015
+KCCH,3005456,Potassium [Moles/volume] in Blood,211288,8753,millimole per liter,1532049,0.9,3.6,3.9,4.2,4.5,4.9,55.8
+KCCH,3005456,Potassium [Moles/volume] in Blood,211288,9557,milliequivalent per liter,475612,1,3.5,3.8,4.1,4.5,4.8,33.1
+KCCH,3000285,Sodium [Moles/volume] in Blood,211219,8753,millimole per liter,1528059,28,134,137,140.0,141.4,143,189
+KCCH,3000285,Sodium [Moles/volume] in Blood,211219,9557,milliequivalent per liter,475672,43,133,137,141,144,146,312
+KCCH,3018572,Chloride [Moles/volume] in Blood,211195,8753,millimole per liter,1527598,21,97,101,103,105,107,245
+KCCH,3018572,Chloride [Moles/volume] in Blood,211195,9557,milliequivalent per liter,475394,10.0,97,101,105,108,111,207
+KCCH,3035583,Leukocytes [#/area] in Urine sediment by Microscopy high power field,199219,0,No matching concept,709806,1,11,11,11,214,359,610012400.0
+KCCH,3035124,Erythrocytes [#/area] in Urine sediment by Microscopy high power field,199210,0,No matching concept,709755,0,11,11,11,214,430.0,610012400.0
+KCCH,3022250,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,180579,8645,unit per liter,1232817,4,148,172,221,398,594,275500.0
+KCCH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,173130,0,No matching concept,110052,-1,2,3.7,42.3,299.4,1000.0,1000.0
+KCCH,3017797,Hepatitis B virus surface Ab [Presence] in Serum,173130,8923,international unit per liter,147894,2,2,3.89,54.1,305,1000.0,1412
+KCCH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",169234,0,No matching concept,7,22.3,22.3,24.8,26.1,34.5,37.5,37.5
+KCCH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",169234,8753,millimole per liter,1035925,0.2,20.1,22.8,25.3,27.5,29.4,305
+KCCH,3014094,"Carbon dioxide, total [Moles/volume] in Blood",169234,9557,milliequivalent per liter,463446,3,20.0,22,24,26,28,85
+KCCH,3019284,Hepatitis B virus surface Ag [Presence] in Serum,163245,0,No matching concept,240052,-1,-1,-1,0.363,0.521,0.725,9547
+KCCH,3017143,Hepatitis C virus Ab [Presence] in Serum,162670,0,No matching concept,238926,0.01,0.02,0.03,0.06,0.11,0.17,11
+KCCH,3022217,INR in Platelet poor plasma by Coagulation assay,154581,0,No matching concept,527233,0,0.94,0.99,1.06,1.19,1.45,78
+KCCH,3033658,Prothrombin time (PT) actual/Normal,154581,8554,percent,527234,1,58,76,91,102,112,541
+KCCH,3034426,Prothrombin time (PT),154580,8555,second,527238,0,12.3,12.8,13.6,14.9,17.3,169
+KCCH,3018677,aPTT in Platelet poor plasma by Coagulation assay,152812,8555,second,422959,0,31,33.4,36.7,41,47.3,578
+KCCH,3019428,Reagin Ab [Presence] in Serum by VDRL,146123,0,No matching concept,212558,,,,,,,
+KCCH,3026910,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,142477,8645,unit per liter,539206,0,12,17,27,59,156,5264
+KCCH,3008325,Epithelial cells.squamous [Presence] in Urine sediment by Light microscopy,141305,0,No matching concept,420314,2,11,11,11,11,359,53012
+KCCH,3009201,Thyrotropin [Units/volume] in Serum or Plasma,130748,0,No matching concept,278642,0,0.06,0.1,0.69,2.25,6.57,100120.0
+KCCH,3009201,Thyrotropin [Units/volume] in Serum or Plasma,130748,9093,micro-international unit per milliliter,268067,0.005,0.161,0.914,1.79,3.1,5.14,330.7
+KCCH,3016407,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay,118242,8840,milligram per deciliter,348248,0,239,289,359,471,608,1580.0
+KCCH,3024277,Reverse ABO group [Type],112396,0,No matching concept,584014,0,1,2,2,2,23,101
+KCCH,3003310,Rh [Type] in Blood,112313,0,No matching concept,583496,,,,,,,
+KCCH,3022192,Triglyceride [Mass/volume] in Serum or Plasma,111939,8840,milligram per deciliter,426670,4,61,80.0,112,159,223,7917
+KCCH,3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,111681,8840,milligram per deciliter,424422,0,38,45,54.1,65.3,77,341
+KCCH,3002529,ABO group [Type] in Blood,109461,0,No matching concept,579460,0,1,2,2,2,23,101
+KCCH,42529233,Thyroxine (T4) free [Mass/volume] in Serum or Plasma by Immunoassay,107006,8817,nanogram per deciliter,347247,0.01,0.975,1.11,1.26,1.45,1.72,30.79
+KCCH,42529202,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma by Immunoassay,106651,8842,nanogram per milliliter,516616,0.01,0.9,1.35,2.07,3.32,6.48,201300.0
+KCCH,3025315,Body weight,106497,9529,kilogram,7983664,1,45,51.3,58.4,66.7,74.95,57050.0
+KCCH,3035962,HIV 1+2 Ab [Presence] in Serum or Plasma by Immunoassay,106172,0,No matching concept,144506,0.05,0.05,0.05,0.05,0.05,0.09,1
+KCCH,3036277,Body height,103263,8582,centimeter,7717789,1,148.5,154,160.5,167,172.4,17609
+KCCH,3038553,Body mass index (BMI) [Ratio],103110,9531,kilogram per square meter,7689502,0.00163743130663906,18.0488227146814,20.2958808358304,22.8063542210509,25.4451287072586,28.1471646355807,945000.0
+KCCH,3015183,Erythrocyte sedimentation rate,101665,8588,millimeter,57515,1,5,10.0,20.0,48,88,349
+KCCH,3015183,Erythrocyte sedimentation rate,101665,8752,millimeter per hour,320523,-4,2,6,16,35,66,120.0
+KCCH,3020891,Body temperature,94590,586323,degree Celsius,7157513,0.3,36.3,36.5,36.8,37.2,37.5,36151
+KCCH,3004249,Systolic blood pressure,93371,8876,millimeter mercury column,6722978,0.1,60.0,60.0,70.0,80.0,80.0,12181
+KCCH,3012888,Diastolic blood pressure,93329,8876,millimeter mercury column,6724558,1,100.0,100.0,110.0,120.0,130.0,81154
+KCCH,3020460,C reactive protein [Mass/volume] in Serum or Plasma,90319,0,No matching concept,21471,0.01,0.31,0.41,2.32,7.83,14.8,9384
+KCCH,3020460,C reactive protein [Mass/volume] in Serum or Plasma,90319,8840,milligram per deciliter,627046,0,0.1,0.19,1.24,5.37,11.55,69.89
+KCCH,3001079,Blood group antibody screen [Presence] in Serum or Plasma,88862,0,No matching concept,176422,,,,,,,
+KCCH,3027018,Heart rate,88464,8541,per minute,7124282,1,66,72,80.0,90.0,102,999
+KCCH,42529201,Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay,80309,8763,unit per milliliter,297116,0.02,2,5,9.35,19.04,51.02,2539500.0
+KCCH,3020509,Albumin/Globulin [Mass Ratio] in Serum or Plasma,80176,0,No matching concept,622664,-8,1.2,1.5,1.7,1.9,2.1,14.3
+KCCH,3004410,Hemoglobin A1c/Hemoglobin.total in Blood,74880,8554,percent,275383,2.1,5.2,5.6,6.1,6.9,7.9,74
+KCCH,3045115,Hepatitis B virus core IgG Ab [Presence] in Serum,72200,0,No matching concept,89407,-1,-1,-1,1,1,1.64,11
+KCCH,42529253,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma by Immunoassay,68209,8842,nanogram per milliliter,228627,0.01,0.791,0.909,1.05,1.23,1.48,629
+KCCH,3011625,Bleeding time,65632,0,No matching concept,42897,0,130.0,200.0,200.0,200.0,230.0,3400.0
+KCCH,3011625,Bleeding time,65632,8550,minute,43414,0,100.0,100.0,100.0,200.0,230.0,2601
+KCCH,3028437,Cholesterol in LDL [Mass/volume] in Serum or Plasma,58852,8840,milligram per deciliter,287729,-210.0,61.3,77.1,98,123,147.1,876.1
+KCCH,36304419,Bacteria [Presence] in Urine,57452,0,No matching concept,119256,2,65,359,41029,53012,53012,53012
+KCCH,3036426,Calcium.ionized [Mass/volume] in Blood,55717,8840,milligram per deciliter,225617,0.33,4,4.26,4.49,4.69,4.88,29
+KCCH,3034708,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood,54649,0,No matching concept,259224,0,0,0,0,0,0,488
+KCCH,3027597,Bilirubin.direct [Mass/volume] in Serum or Plasma,54134,8840,milligram per deciliter,215368,-0.1,0.07,0.2,0.3,0.6,3.4,68.9
+KCCH,3001490,Nucleated erythrocytes [#/volume] in Blood,50529,0,No matching concept,243016,0,0,0,0,0,0,124
+KCCH,40762352,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,50274,9579,millimole per mole,191286,2,33,37,43,51,60.661,187
+KCCH,3005131,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin,50274,8840,milligram per deciliter,191286,19,103,111,128,148,174,507
+KCCH,3019977,pH of Arterial blood,47716,0,No matching concept,229618,0,7.343,7.393,7.43,7.465,7.499,73.42
+KCCH,3027801,Oxygen [Partial pressure] in Arterial blood,47716,8876,millimeter mercury column,229615,0,61.2,74.9,91.7,122.2,187.1,615
+KCCH,3027946,Carbon dioxide [Partial pressure] in Arterial blood,47716,8876,millimeter mercury column,229615,1.7,25.4,29.3,33.9,38.9,45.2,427
+KCCH,3016502,Oxygen saturation in Arterial blood,47716,8554,percent,229614,0,91.3,95.2,97.4,99,99.8,118
+KCCH,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",47715,0,No matching concept,64178,0,18.6,22.6,26.3,30.0,34,270.0
+KCCH,3009609,"Carbon dioxide, total [Moles/volume] in Arterial blood",47715,8753,millimole per liter,165440,2.2,18.1,20.6,22.9,25.3,28.1,85.5
+KCCH,3008152,Bicarbonate [Moles/volume] in Arterial blood,47525,0,No matching concept,64174,-3.9,17.7,21.6,25.2,28.8,32.6,260.0
+KCCH,3008152,Bicarbonate [Moles/volume] in Arterial blood,47525,9557,milliequivalent per liter,164645,1.9,17.2,19.7,21.9,24.2,26.8,75.1
+KCCH,3003396,Base excess in Arterial blood by calculation,47525,0,No matching concept,64173,-57.7,-5.6,-1.3,2,5.2,8.5,202
+KCCH,3003396,Base excess in Arterial blood by calculation,47525,9557,milliequivalent per liter,164645,-36.8,-5.7,-3.2,-1.3,0.6,3,96.7
+KCCH,3027945,Reticulocytes/100 erythrocytes in Blood,43954,8554,percent,172576,0,0.78,1.1,1.5,1.95,2.6,45.34
+KCCH,3046000,Immature reticulocytes/Reticulocytes.total in Blood,43953,0,No matching concept,131042,0,0.173,0.361,9.52,15.19,21.48,82.28
+KCCH,3046000,Immature reticulocytes/Reticulocytes.total in Blood,43953,8554,percent,41517,0,5.505,9.417,14.01,19.71,25.87,100.0
+KCCH,3016771,Amylase [Enzymatic activity/volume] in Serum or Plasma,42789,8645,unit per liter,82893,3,30.0,42,57,80.0,124,119864
+KCCH,3006916,Magnesium [Mass/volume] in Blood,38986,8840,milligram per deciliter,182148,0.2,1.41,1.73,1.99,2.17,2.32,10.13
+KCCH,3004905,Lipase [Enzymatic activity/volume] in Serum or Plasma,38685,8645,unit per liter,79462,1,17,23.5,34,62.3,184,229720.0
+KCCH,3002173,Hemoglobin [Mass/volume] in Arterial blood,35963,0,No matching concept,165434,0.1,9.3,10.4,11.7,13,14.4,44
+KCCH,3023230,Hematocrit [Volume Fraction] of Arterial blood,35963,0,No matching concept,165432,0,28,31,35,39,43,82
+KCCH,42529187,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma by Immunoassay,35870,8842,nanogram per milliliter,119093,1,12.5,19.8,29.5,38.4,47.7,155.9
+KCCH,42529190,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma by Immunoassay,35258,8842,nanogram per milliliter,103216,0.5,1.56,2.07,2.93,4.46,8.25,1480960.0
+KCCH,42529189,Alpha-1-Fetoprotein [Units/volume] in Serum or Plasma by Immunoassay,35143,8985,international unit per milliliter,82776,0.2,1.1,1.6,2.5,5.8,166.4,7314000.0
+KCCH,3005411,Squamous cell carcinoma Ag [Mass/volume] in Serum or Plasma,34639,8842,nanogram per milliliter,111331,0,0.49,0.53,0.74,1.05,1.6,924.43
+KCCH,42529229,Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay,32564,8842,nanogram per milliliter,98687,0,0.02,0.39,0.91,2.5,7.69,17757
+KCCH,3026008,Bacteria identified in Urine by Culture,31972,0,No matching concept,97713,,,,,,,
+KCCH,3036535,Thyroglobulin [Mass/volume] in Serum or Plasma,31948,8842,nanogram per milliliter,237651,0,0.25,0.7,0.7,8.25,30.45,736680.0
+KCCH,3039804,Immature granulocytes [Presence] in Blood,31626,0,No matching concept,130622,0,0.52,0.56,0.64,0.75,0.88,39.08
+KCCH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,31599,0,No matching concept,23085,0.3,72.25,138.48,340.65,898.25,2152.3,6000.0
+KCCH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,31599,8763,unit per milliliter,18906,5,5,6.78,10.38,18.95,179.3,7681.5
+KCCH,40759598,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Immunoassay,31599,8985,international unit per milliliter,5656,5,6.26,9.05,14.95,105.8,355.3,600.0
+KCCH,3008598,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,29963,8817,nanogram per deciliter,132527,0.03,1.11,1.26,1.46,1.7,1.93,5.8275
+KCCH,42529199,Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay,29594,8763,unit per milliliter,87461,0.632,6,8.44,13,25.63,93.06,500814
+KCCH,3021614,Rheumatoid factor [Units/volume] in Serum or Plasma,29457,8985,international unit per milliliter,47559,0.3,7.4,9.7,10.0,10.3,15.5,2982.9
+KCCH,43054906,Leukocytes [Presence] in Specimen by Gram stain,27889,0,No matching concept,157574,0,10.0,10.0,25,25,25,25
+KCCH,3024857,Thyroglobulin Ab [Presence] in Serum,27763,8985,international unit per milliliter,168848,1,72.66,100.4,167.54,464.33,1820.2,16456
+KCCH,43054904,Epithelial cells [Presence] in Specimen by Gram stain,27097,0,No matching concept,151675,10.0,10.0,10.0,25,25,25,25
+KCCH,3017250,Creatinine [Mass/volume] in Urine,27086,8748,microgram per liter,3402,0.1,10.6,31.1,100.6,309.7,1002.4,8678.2
+KCCH,3017250,Creatinine [Mass/volume] in Urine,27086,8840,milligram per deciliter,92050,0.1,29.1,48.9,81.45,127.8,183.6,3290.0
+KCCH,42529200,Cancer Ag 15-3 [Units/volume] in Serum or Plasma by Immunoassay,26212,8763,unit per milliliter,149099,1,4.93,6.42,8.95,13.1,19.8,29720.0
+KCCH,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,24928,8748,microgram per liter,34723,0.01,0.01,0.01,0.01,0.01,0.019,25
+KCCH,3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,24928,8842,nanogram per milliliter,7308,0,0.05,0.05,0.05,0.05,0.2,50.0
+KCCH,3023520,Reticulocytes [#/volume] in Blood,24696,0,No matching concept,95489,0,39,52.3,68.1,86.8,109.1,770.5
+KCCH,3023368,Bacteria identified in Blood by Culture,24294,0,No matching concept,130313,,,,,,,
+KCCH,44816657,Yeast [Presence] in Specimen by Gram stain,23519,0,No matching concept,123815,,,,,,,
+KCCH,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,23251,8748,microgram per liter,34719,0.01,2,2,2,3.2,6.1,500.0
+KCCH,42529209,Creatine kinase.MB [Mass/volume] in Serum or Plasma by Immunoassay,23251,8842,nanogram per milliliter,4591,0,1,1,1.1,2.6,7,125
+KCCH,40759656,Thyroglobulin Ab [Units/volume] in Serum or Plasma by Immunoassay,22611,8985,international unit per milliliter,69503,10.0,10.0,11.78,15.9,55.2,314.2,4000.0
+KCCH,3015242,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,22416,8842,nanogram per milliliter,42642,0.5,8.69,26.82,99.69,278,652,122000.0
+KCCH,3041154,Reticulocytes [#/volume] in Blood by Manual count,22304,0,No matching concept,77081,0,24,36.6,52.3,70.7,91.4,995.4
+KCCH,46235279,Trichomonas vaginalis [Presence] in Specimen by Gram stain,21985,0,No matching concept,106814,,,,,,,
+KCCH,3021236,Streptolysin O Ab [Units/volume] in Serum or Plasma,21658,8985,international unit per milliliter,25907,0,20.0,27.1,51.3,87.1,157,2778
+KCCH,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,21017,8725,nanogram per liter,34574,12,70.0,75,182,692,2920.0,35000.0
+KCCH,3029187,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma,21017,8845,picogram per milliliter,4018,5,60.0,108,434,1673,3000.0,3000.0
+KCCH,3000067,Parathyrin.intact [Mass/volume] in Serum or Plasma,21011,8845,picogram per milliliter,86713,0.25,5.9,19.8,36.2,55.5,87.1,2000.0
+KCCH,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,19533,0,No matching concept,685,0.1,4.7,10.9,15.3,94.2,97.9,100.0
+KCCH,3006631,Hepatitis A virus IgG Ab [Presence] in Serum,19533,8923,international unit per liter,26722,0.2,3,58.67,60.0,60.0,60.0,100.0
+KCCH,706163,SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory system specimen by NAA with probe detection,19086,0,No matching concept,33361,,,,,,,
+KCCH,3003745,Microscopic observation [Identifier] in Urine by Gram stain,18394,0,No matching concept,214582,1,10.0,10.0,10.0,10.0,25,25
+KCCH,3002516,Microscopic observation [Identifier] in Sputum by Gram stain,17825,0,No matching concept,341063,10.0,10.0,10.0,10.0,25,25,25
+KCCH,3002113,Variant lymphocytes [Presence] in Blood by Light microscopy,17024,0,No matching concept,66108,,,,,,,
+KCCH,3003181,Sodium [Moles/volume] in Urine,16502,8753,millimole per liter,38054,1,20.0,43,77,112,144,1126
+KCCH,3042811,Magnesium Ionized [Mass/volume] in Serum or Plasma,16345,8840,milligram per deciliter,33370,0.3,0.96,1.08,1.21,1.34,1.46,10.7
+KCCH,3007220,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,16056,8645,unit per liter,38705,4,52,70.0,96,141,222,338040.0
+KCCH,3035551,levoFLOXacin [Susceptibility] by Minimum inhibitory concentration (MIC),15414,0,No matching concept,264310,0.12,1,2,2,4,4,16
+KCCH,3010007,Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),15246,0,No matching concept,261699,0.06,1,1,1,2,2,8
+KCCH,3013498,Variant lymphocytes/100 leukocytes in Blood,15168,0,No matching concept,22459,0,0,0,0,0,0,1
+KCCH,3013498,Variant lymphocytes/100 leukocytes in Blood,15168,8554,percent,29997,0,1,1,1,2,6,99
+KCCH,3005807,Platelet function (closure time) collagen+EPINEPHrine induced [Time] in Blood,15166,8555,second,18387,25,95,111,135,174,244,301
+KCCH,3023419,Bacteria identified in Sputum by Culture,15058,0,No matching concept,55747,,,,,,,
+KCCH,3016774,Ampicillin [Susceptibility] by Minimum inhibitory concentration (MIC),14832,0,No matching concept,224174,0.25,4,8,8,16,16,32
+KCCH,40771922,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood",14605,8795,milliliter per minute,57797,0,38,58,81,100.0,119,846
+KCCH,3002400,Iron [Mass/volume] in Serum or Plasma,14278,8837,microgram per deciliter,29543,1,20.0,37,69,105,144,489
+KCCH,3021044,Iron binding capacity [Mass/volume] in Serum or Plasma,14254,8837,microgram per deciliter,29517,10.0,188,240.0,303,364,416,1580.0
+KCCH,3006588,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,13754,8763,unit per milliliter,54323,0.34,3.96,5.2,7.73,13.5,22.04,327600.0
+KCCH,3000769,Gentamicin [Susceptibility] by Minimum inhibitory concentration (MIC),13634,0,No matching concept,223201,0.5,1,4,4,8,8,16
+KCCH,3013635,Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC),13535,0,No matching concept,217795,10.0,238,238,238,238,238,476
+KCCH,3035643,Imipenem [Susceptibility] by Minimum inhibitory concentration (MIC),13515,0,No matching concept,219878,0.25,1,1,4,4,8,35
+KCCH,3017181,Myelocytes/100 leukocytes in Blood,12900,8554,percent,42220,0,1,1,2,5,10.0,88
+KCCH,3021120,Myelocytes [#/volume] in Blood,12888,0,No matching concept,42193,0,0.02,0.07,0.2,0.54,1.45,254.4
+KCCH,3031549,HER2 [Mass/volume] in Serum by Immunoassay,12283,8842,nanogram per milliliter,53847,0.75,7.9,9.1,10.8,13,15.5,350.0
+KCCH,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,12038,0,No matching concept,7042,0,0,0,5,26,112,36697
+KCCH,40761554,Hemoglobin.gastrointestinal.lower [Mass/volume] in Stool by Immunoassay,12038,8842,nanogram per milliliter,6360,0,0,0,13,44,744,3462
+KCCH,3000520,cefOXitin [Susceptibility] by Minimum inhibitory concentration (MIC),11913,0,No matching concept,169528,4,4,4,8,8,16,64
+KCCH,3003137,Variant lymphocytes [#/volume] in Blood,11845,0,No matching concept,30055,0,0,0.03,0.07,0.16,0.5,346.66
+KCCH,3011588,Microscopic observation [Identifier] in Sputum by Acid fast stain,11604,0,No matching concept,77267,2,30.0,30.0,30.0,30.0,30.0,2252501
+KCCH,3045436,Fungus identified in Body fluid by Fungus stain,11489,0,No matching concept,93255,,,,,,,
+KCCH,3010989,Calcitonin [Mass/volume] in Serum or Plasma,11089,8845,picogram per milliliter,13212,0.1,1,1,2,2.04,5.61,2145
+KCCH,3015823,Fibrin D-dimer [Presence] in Platelet poor plasma,11068,8859,microgram per milliliter,27825,0.1,0.27,0.5,1.37,3.41,8.19,21
+KCCH,3016038,Potassium [Moles/volume] in Urine,11035,8753,millimole per liter,19018,0.5,12.86,20.0,31.11,47.5,67.1,37900.0
+KCCH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,10603,0,No matching concept,4453,0.06,3.6,8.406,35.6,68.6,96.8,100120.0
+KCCH,42529215,Follitropin [Units/volume] in Serum or Plasma by Immunoassay,10603,9550,milli-international unit per milliliter,22764,0.1,3.05,6.66,19.2,54.66,83.42,200.0
+KCCH,3008912,Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC),10584,0,No matching concept,157614,0.12,2,2,8,16,16,64
+KCCH,3037549,cefTAZidime [Susceptibility] by Minimum inhibitory concentration (MIC),10554,0,No matching concept,162950,0.12,1,1,4,16,16,64
+KCCH,3018760,Blood smear finding [Identifier] in Blood by Light microscopy,10476,0,No matching concept,21499,,,,,,,
+KCCH,42529213,Estradiol (E2) [Mass/volume] in Serum or Plasma by Immunoassay,10455,8845,picogram per milliliter,29099,0.01,5,5,12.8,64.53,194.2,6681
+KCCH,3000127,Tetracycline [Susceptibility] by Minimum inhibitory concentration (MIC),10434,0,No matching concept,148513,0.25,4,4,4,8,8,16
+KCCH,3022270,Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC),10416,0,No matching concept,146569,0.12,1,1,2,32,32,64
+KCCH,3002274,Amikacin [Susceptibility] by Minimum inhibitory concentration (MIC),10260,0,No matching concept,151639,1,16,16,16,16,32,64
+KCCH,3033490,Tobramycin [Susceptibility] by Minimum inhibitory concentration (MIC),10136,0,No matching concept,147593,1,4,4,4,4,8,16
+KCCH,42529230,Thyroxine (T4) [Mass/volume] in Serum or Plasma by Immunoassay,10127,8837,microgram per deciliter,27240,0.04,6.35,8.22,10.61,13.23,15.39,629
+KCCH,3037121,Protein [Mass/volume] in Urine,10087,8840,milligram per deciliter,44149,0.5,5.1,8.5,17.9,52.4,139.3,6100.0
+KCCH,3008295,Osmolality of Serum or Plasma,10043,0,No matching concept,16194,3,264,277,289,300.0,313,830.0
+KCCH,3008295,Osmolality of Serum or Plasma,10043,8862,milliosmole per kilogram,2621,207,264,278,291,304,321,985
+KCCH,3011152,Cobalamin (Vitamin B12) [Mass/volume] in Blood,10005,8845,picogram per milliliter,21425,30.0,224,341,514,784,1276,8000.0
+KCCH,3010745,Piperacillin+Tazobactam [Susceptibility] by Minimum inhibitory concentration (MIC),9882,0,No matching concept,135982,4,16,16,16,16,64,128
+KCCH,3007662,Aztreonam [Susceptibility] by Minimum inhibitory concentration (MIC),9869,0,No matching concept,135789,1,4,4,8,16,16,64
+KCCH,3011325,HIV 1+2 Ab [Presence] in Serum,9727,0,No matching concept,10460,,,,,,,
+KCCH,44817130,Procalcitonin [Mass/volume] in Serum or Plasma by Immunoassay,9542,8842,nanogram per milliliter,23959,0.01,0.01,0.03,0.09,0.3,1.23,100.0
+KCCH,3023633,Piperacillin [Susceptibility] by Minimum inhibitory concentration (MIC),9374,0,No matching concept,137148,4,16,16,64,64,64,128
+KCCH,3007224,Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC),9350,0,No matching concept,144970,0.25,1,1,1,4,8,16
+KCCH,3011907,Ampicillin+Sulbactam [Susceptibility] by Minimum inhibitory concentration (MIC),9306,0,No matching concept,122295,2,84,84,168,168,168,168
+KCCH,3007733,Chloride [Moles/volume] in Urine,8990,8753,millimole per liter,14608,5,19.8,35,66,106,146.2,13380.0
+KCCH,3005535,ceFAZolin [Susceptibility] by Minimum inhibitory concentration (MIC),8989,0,No matching concept,109109,2,2,2,4,8,16,64
+KCCH,3039413,Cefuroxime [Susceptibility] by Minimum inhibitory concentration (MIC),8981,0,No matching concept,108852,4,4,4,4,16,16,16
+KCCH,3007022,Penicillin G [Susceptibility] by Minimum inhibitory concentration (MIC),8949,0,No matching concept,113569,0.03,1,8,8,8,8,64
+KCCH,3018088,Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC),8948,0,No matching concept,112464,0.12,1,1,2,2,4,32
+KCCH,3008893,Testosterone [Mass/volume] in Serum or Plasma,8921,0,No matching concept,7,0.226,0.226,0.313,2.17,3.75,4.51,4.51
+KCCH,3008893,Testosterone [Mass/volume] in Serum or Plasma,8921,8842,nanogram per milliliter,18227,0.01,0.09,0.31,3.25,4.64,6,31.6
+KCCH,3037971,Tigecycline [Susceptibility] by Minimum inhibitory concentration (MIC),8596,0,No matching concept,106730,0.06,2,2,2,2,2,8
+KCCH,3033558,Quinupristin+Dalfopristin [Susceptibility] by Minimum inhibitory concentration (MIC),8506,0,No matching concept,109019,0.25,1,1,1,1,2,16
+KCCH,3004775,Volume in Urine collected for unspecified duration,8473,8587,milliliter,39878,6,510.0,840.0,1440.0,2210.0,3000.0,24610.0
+KCCH,3012607,Teicoplanin [Susceptibility] by Minimum inhibitory concentration (MIC),8442,0,No matching concept,109071,0.12,4,4,4,4,8,32
+KCCH,3005241,Linezolid [Susceptibility] by Minimum inhibitory concentration (MIC),8409,0,No matching concept,106610,1,2,2,2,4,4,8
+KCCH,3036339,rifAMPin [Susceptibility] by Minimum inhibitory concentration (MIC),8228,0,No matching concept,105176,0.03,1,1,1,2,2,32
+KCCH,3047148,Creatinine renal clearance in Urine and Serum or Plasma collected for unspecified duration,8204,8795,milliliter per minute,35806,0,46,68.86,94.11,121.1,149.9,1150.0
+KCCH,3026782,Osmolality of Urine,8094,0,No matching concept,4197,38,261,341,465,611,757,1292
+KCCH,3026782,Osmolality of Urine,8094,8991,milliosmole per kilogram of H20,9257,18,251,340.0,464,607,744,1464
+KCCH,3027974,Hepatitis B virus e Ag [Presence] in Serum,7956,0,No matching concept,33222,-1,-1,0.086,0.113,1,11.61,2665
+KCCH,3001612,Ticarcillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),7902,0,No matching concept,103512,8,16,16,16,64,64,128
+KCCH,3010340,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,7812,8842,nanogram per milliliter,39602,0.11,0.8,0.88,1,1.14,1.3,8.97
+KCCH,3013945,Hepatitis B virus e Ab [Presence] in Serum,7676,0,No matching concept,30669,-1,-1,0.002,0.964,1,1.21,104.1
+KCCH,3037061,DAPTOmycin [Susceptibility] by Minimum inhibitory concentration (MIC),7576,0,No matching concept,92163,1,1,1,1,1,2,4
+KCCH,3023414,Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC),7570,0,No matching concept,101378,2,42,42,84,84,168,168
+KCCH,3002112,Folate [Mass/volume] in Blood,7404,8842,nanogram per milliliter,9447,0,3.6,5.3,8.2,12.6,16.3,48
+KCCH,3002179,Metamyelocytes/100 leukocytes in Blood,7348,8554,percent,21924,0,1,1,2,4,8,46
+KCCH,3024507,Metamyelocytes [#/volume] in Blood,7339,0,No matching concept,21913,0,0.03,0.06,0.16,0.43,1.14,81.29
+KCCH,3006490,Calcium oxalate crystals [Presence] in Urine sediment by Light microscopy,7096,0,No matching concept,8494,11,25,310.0,430.0,41029,53012,53012
+KCCH,42529562,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay,6960,8842,nanogram per milliliter,16829,0.01,0.108,0.24,0.53,1.06,1.92,50.0
+KCCH,3003327,Ova and parasites identified in Stool by Light microscopy,6932,0,No matching concept,7246,,,,,,,
+KCCH,40760528,Thyrotropin receptor Ab [Units/volume] in Serum by Immunoassay,6898,8923,international unit per liter,29862,0.3,0.3,0.692,1.78,5.76,17.85,40.1
+KCCH,3037558,Colistin [Susceptibility] by Minimum inhibitory concentration (MIC),6820,0,No matching concept,85601,0.5,2,2,2,2,4,16
+KCCH,3021737,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,6748,8840,milligram per deciliter,10865,36,105,128,178,246,315,814
+KCCH,3028475,Transitional cells [Presence] in Urine sediment by Light microscopy,6546,0,No matching concept,10038,0,214,214,214,359,41029,53012
+KCCH,40759152,Doripenem [Susceptibility] by Minimum inhibitory concentration (MIC),6511,0,No matching concept,79861,0.5,1,1,1,1,1,2
+KCCH,1002070,Acarboxyprothrombin [Units/volume] in Serum or Plasma,6152,44777561,arbitrary unit per liter,27395,0.5,14,18,25,82,2000.0,20170622
+KCCH,3000034,Microalbumin [Mass/volume] in Urine,5982,8859,microgram per milliliter,17198,0.1,1.7,3.6,7.4,18.3,54.6,89980.0
+KCCH,3018337,Streptolysin O Ab [Presence] in Serum,5836,0,No matching concept,7264,,,,,,,
+KCCH,3014197,Oxacillin [Susceptibility] by Minimum inhibitory concentration (MIC),5703,0,No matching concept,71006,0.25,0.25,1,2,2,2,4
+KCCH,3011039,Fusidate [Susceptibility] by Minimum inhibitory concentration (MIC),5696,0,No matching concept,70939,0.5,2,2,2,16,16,32
+KCCH,3028048,Mycobacterium tuberculosis DNA [Presence] in Bronchial specimen by NAA with probe detection,5689,0,No matching concept,6895,,,,,,,
+KCCH,40764999,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)",5688,8795,milliliter per minute,9788,3.8,45,66.9,88.1,100.3,111.3,254.4
+KCCH,3015532,Bacteria identified in Bronchial specimen by Aerobe culture,5686,0,No matching concept,10666,,,,,,,
+KCCH,3025346,Microscopic observation [Identifier] in Bronchial specimen by Gram stain,5622,0,No matching concept,37989,10.0,10.0,10.0,10.0,10.0,10.0,25
+KCCH,3034485,Albumin/Creatinine [Mass Ratio] in Urine,5521,0,No matching concept,16472,0.1,2.7,4.7,8.3,19.3,60.8,37096
+KCCH,3016893,Erythromycin [Susceptibility] by Minimum inhibitory concentration (MIC),5476,0,No matching concept,70938,0.12,0.5,0.5,0.5,4,4,28
+KCCH,3030637,Fungus identified in Bronchial specimen by Fungus stain,5437,0,No matching concept,27741,,,,,,,
+KCCH,3021331,Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC),5423,0,No matching concept,70384,0.12,0.25,0.5,0.5,2,2,24
+KCCH,3010084,C peptide [Mass/volume] in Serum or Plasma,5369,8842,nanogram per milliliter,9438,0.009,1.14,1.59,2.16,3.04,4.36,231
+KCCH,3026024,Fosfomycin [Susceptibility] by Minimum inhibitory concentration (MIC),5298,0,No matching concept,66277,32,32,32,32,32,32,32
+KCCH,3016991,Thyroxine (T4) [Mass/volume] in Serum or Plasma,5287,8837,microgram per deciliter,24065,0.41,5.36,8.35,10.65,12.9,14.8,28.01
+KCCH,3016750,Collection duration of Urine,5234,0,No matching concept,22483,1,12,12,24,24,24,2200.0
+KCCH,3016485,Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain,5167,0,No matching concept,13755,30.0,30.0,30.0,30.0,30.0,30.0,2252501
+KCCH,3003785,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,5163,8842,nanogram per milliliter,25976,0.1,0.82,1.15,1.7,2.56,3.76,32080.0
+KCCH,3038369,Thyrotropin binding inhibitory immunoglobulins [Units/volume] in Serum,5160,8923,international unit per liter,17152,0.05,0.3,0.67,2.63,10.95,31.27,75.73
+KCCH,3001582,Protein/Creatinine [Mass Ratio] in Urine,5099,9511,gram per gram of creatinine,21767,0,0.07,0.09,0.17,0.52,1.5,116.67
+KCCH,3022058,Hepatitis B virus DNA [Presence] in Serum or Plasma by NAA with probe detection,5005,0,No matching concept,30718,,,,,,,
+KCCH,3036947,Moxifloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),4984,0,No matching concept,66146,0.06,0.5,0.5,0.5,1,1,4
+KCCH,3023421,Hepatitis B virus surface Ab [Units/volume] in Serum,4920,8923,international unit per liter,5037,0,2,2,38.2,314.5,1000.0,1000.0
+KCCH,3004437,Lymphocytes/100 leukocytes in Peritoneal fluid,4891,8554,percent,15041,0,7,15,28,46,64,99
+KCCH,3008838,Polymorphonuclear cells/100 leukocytes in Peritoneal fluid,4872,8554,percent,14859,0,1,4,11,37,70.0,100.0
+KCCH,3023487,Leukocytes [#/volume] in Peritoneal fluid,4784,0,No matching concept,15036,0,30.0,80.0,180.0,500.0,1400.0,320000.0
+KCCH,3009613,Erythrocytes [#/volume] in Peritoneal fluid,4784,0,No matching concept,15042,0,60.0,210.0,850.0,4500.0,34000.0,7120000.0
+KCCH,3022914,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,4766,8763,unit per milliliter,25150,0.1,2.44,5.11,8.44,14.32,24.13,1039250.0
+KCCH,3005543,Specific gravity of Peritoneal fluid by Refractometry,4667,0,No matching concept,14666,0.01,1.011,1.013,1.017,1.023,1.03,13012
+KCCH,3038315,Erythrocytes.dysmorphic/100 erythrocytes in Urine sediment by Light microscopy,4578,0,No matching concept,6224,0,2,10.0,20.0,50.0,70.0,98
+KCCH,3037501,Nitrofurantoin [Susceptibility] by Minimum inhibitory concentration (MIC),4522,0,No matching concept,34920,16,32,32,32,64,64,256
+KCCH,3000197,Beta lactamase.usual [Susceptibility],4448,0,No matching concept,54901,,,,,,,
+KCCH,3018793,Azithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),4446,0,No matching concept,59585,2,2,2,2,4,4,4
+KCCH,3041635,Macrophages/100 leukocytes in Peritoneal fluid by Manual count,4421,8554,percent,13936,0,12,24,43,62,76,99
+KCCH,3046697,Human papilloma virus DNA [Presence] in Specimen by Probe with signal amplification,4409,0,No matching concept,9934,12,86,310.0,565,4707,27820.0,2026000.0
+KCCH,3046572,Appearance of Specimen,4388,0,No matching concept,4946,,,,,,,
+KCCH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,4352,0,No matching concept,2842,0.1,0.33,2.9,10.68,24.2,34.6,518
+KCCH,42529220,Lutropin [Units/volume] in Serum or Plasma by Immunoassay,4352,9550,milli-international unit per milliliter,4770,0.1,3.61,8.7,21,34.21,45.04,200.0
+KCCH,3051245,Myoglobin [Mass/volume] in Blood,4335,8842,nanogram per milliliter,6864,1.1,35.6,53.5,96,220.0,500.0,500.0
+KCCH,3001355,Fungus identified in Sputum by Culture,4307,0,No matching concept,8158,,,,,,,
+KCCH,3026692,Albumin [Mass/volume] in Peritoneal fluid,4205,8713,gram per deciliter,7488,0.2,0.4,0.5,0.9,1.4,2.1,197
+KCCH,3033308,Hyaline casts [Presence] in Urine sediment by Light microscopy,4187,0,No matching concept,5078,11,214,359,620.0,41029,53012,53012
+KCCH,3004809,Band form neutrophils/100 leukocytes in Blood,4175,8554,percent,9529,0,1,1,2,5,10.0,64
+KCCH,3045168,Nucleated erythrocytes [Presence] in Blood,4140,0,No matching concept,6974,0,0,0,0,0,0,0.19
+KCCH,3002331,Protein [Mass/volume] in Peritoneal fluid,4129,8713,gram per deciliter,7427,0.1,0.7,1,1.7,3,4.2,2389
+KCCH,3000251,Influenza virus B Ag [Presence] in Throat,4025,0,No matching concept,4743,,,,,,,
+KCCH,3003551,Influenza virus A Ag [Presence] in Throat,4025,0,No matching concept,8876,,,,,,,
+KCCH,3002240,Glucose [Mass/volume] in Peritoneal fluid,4015,8840,milligram per deciliter,7011,1.3,77,99,122,152,207,9587
+KCCH,3016727,Bacteria identified in Body fluid by Culture,4004,0,No matching concept,15705,,,,,,,
+KCCH,40770975,Lactate dehydrogenase [Enzymatic activity/volume] in Peritoneal fluid by Lactate to pyruvate reaction,3982,8645,unit per liter,6897,4,48,94,233,472,1129,146100.0
+KCCH,3023323,Follitropin [Units/volume] in Serum or Plasma,3861,0,No matching concept,18786,0.06,0.82,1.45,3.68,9.03,14.1,121.01
+KCCH,3013327,Hepatitis A virus IgM Ab [Presence] in Serum,3857,0,No matching concept,4091,0.02,0.1,0.16,0.241,0.305,0.44,100.0
+KCCH,3002971,Nuclear Ab [Titer] in Serum by Immunofluorescence,3857,0,No matching concept,4445,-140.0,140.0,140.0,140.0,140.0,180.0,11280.0
+KCCH,40760485,Enolase.neuron specific [Mass/volume] in Serum or Plasma by Immunoassay,3833,8842,nanogram per milliliter,6352,0.71,7.7,9.56,12,15.1,21.31,740.0
+KCCH,3022284,Gentamicin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3818,0,No matching concept,36983,500.0,500.0,500.0,500.0,500.0,500.0,500.0
+KCCH,3013644,Streptomycin.high potency [Susceptibility] by Minimum inhibitory concentration (MIC),3817,0,No matching concept,36944,1000.0,1000.0,1000.0,1000.0,1000.0,1000.0,1000.0
+KCCH,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,3810,0,No matching concept,1442,0.12,0.3,0.38,0.61,1.44,94.48,3381300.0
+KCCH,3038136,Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma,3810,9550,milli-international unit per milliliter,7075,0.1,0.1,0.1,0.2,1.2,257.2,2356314
+KCCH,3034442,cefTRIAXone [Susceptibility] by Minimum inhibitory concentration (MIC),3710,0,No matching concept,54613,0.12,8,8,8,32,32,32
+KCCH,3009214,Lutropin [Units/volume] in Serum or Plasma,3638,0,No matching concept,18548,0.15,0.51,0.93,1.65,3.39,6.79,110.42
+KCCH,40765040,25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma,3598,8842,nanogram per milliliter,6139,1.09,11.39,14.79,19.44,28.6,37.7,121.91
+KCCH,3037052,Creatinine [Mass/volume] in Urine collected for unspecified duration,3590,8840,milligram per deciliter,16222,4.34,24.95,34.53,50.9,79.69,128.04,720.0
+KCCH,3004722,Prolactin [Mass/volume] in Serum or Plasma,3543,8842,nanogram per milliliter,6113,0.23,4.63,6.39,9.2,14.98,29.87,3708
+KCCH,3046425,Mycobacterium tuberculosis tuberculin stimulated gamma interferon [Presence] in Blood,3508,0,No matching concept,4408,,,,,,,
+KCCH,3005532,Lymphocytes/100 leukocytes in Pleural fluid,3481,8554,percent,5085,0,4,13,33,61,80.0,99
+KCCH,3026051,Polymorphonuclear cells/100 leukocytes in Pleural fluid,3475,8554,percent,5064,0,2,4,15,49,84,6637
+KCCH,3021440,Promyelocytes/100 leukocytes in Blood,3444,8554,percent,8666,0,1,1,2,4,7,73
+KCCH,3018731,Cancer Ag 72-4 [Units/volume] in Serum or Plasma,3414,8763,unit per milliliter,5676,0.1,0.967,1.42,1.66,3.4,9.69,7485
+KCCH,3002619,Bacteria identified in Specimen by Culture,3364,0,No matching concept,6299,,,,,,,
+KCCH,3004448,Specific gravity of Pleural fluid by Refractometry,3288,0,No matching concept,4843,1.003,1.02,1.025,1.03,1.034,1.036,1025
+KCCH,3039528,Macrophages/100 leukocytes in Pleural fluid by Manual count,3245,8554,percent,4763,0,5,10.0,21,38,59,99
+KCCH,36303326,Yeast [Presence] in Urine,3241,0,No matching concept,5557,11,214,359,41029,41029,53012,53012
+KCCH,3027813,Mycobacterium tuberculosis DNA [Presence] in Sputum by NAA with probe detection,3230,0,No matching concept,4486,,,,,,,
+KCCH,3007922,Insulin-like growth factor-I [Mass/volume] in Blood,3228,8842,nanogram per milliliter,11193,8,106,162.9,273,409,528,1840.0
+KCCH,3001426,Microscopic observation [Identifier] in Stool by Gram stain,3117,0,No matching concept,26519,3,10.0,10.0,25,25,25,25
+KCCH,3024212,Fungus identified in Bronchial specimen by Culture,3065,0,No matching concept,3771,,,,,,,
+KCCH,3025285,Estradiol (E2) [Mass/volume] in Serum or Plasma,3035,8845,picogram per milliliter,11047,0.409,24.37,32.54,44.6,67.27,125.38,2034.73
+KCCH,3031767,Vascular endothelial growth factor [Mass/volume] in Serum or Plasma,2985,8845,picogram per milliliter,3943,0,80.0,151,285,506,810.0,843200.0
+KCCH,3037167,Microscopic observation [Identifier] in Specimen by Gram stain,2937,0,No matching concept,24433,10.0,10.0,10.0,10.0,25,25,25
+KCCH,3025941,Bacteria identified in Stool by Culture,2918,0,No matching concept,4563,,,,,,,
+KCCH,3018954,Choriogonadotropin (pregnancy test) [Presence] in Urine,2842,0,No matching concept,3123,,,,,,,
+KCCH,3018672,pH of Body fluid,2771,0,No matching concept,4064,5,7.22,7.36,7.42,7.48,7.533,8.5
+KCCH,3019029,Microscopic observation [Identifier] in Pus by Gram stain,2673,0,No matching concept,41136,10.0,10.0,10.0,10.0,10.0,25,25
+KCCH,3035460,Platelet clump [Presence] in Blood by Light microscopy,2615,0,No matching concept,3856,0,0,0,0,0,0,0
+KCCH,3035814,Ertapenem [Susceptibility] by Minimum inhibitory concentration (MIC),2549,0,No matching concept,30320,0.12,0.5,1,1,1,1,8
+KCCH,3016288,Cephalothin [Susceptibility] by Minimum inhibitory concentration (MIC),2516,0,No matching concept,30738,8,8,8,16,16,16,16
+KCCH,3039499,"1,5-Anhydroglucitol [Mass/volume] in Serum or Plasma",2506,8859,microgram per milliliter,3576,0.3,4.1,8.2,15.7,23,29.2,98.3
+KCCH,3010521,Mycoplasma pneumoniae IgM Ab [Presence] in Serum by Immunoassay,2322,8779,signal to cutoff ratio,2814,0.02,0.08,0.14,0.26,0.48,0.84,6.17
+KCCH,3036405,Mupirocin [Susceptibility] by Minimum inhibitory concentration (MIC),2242,0,No matching concept,26618,2,4,4,4,4,256,512
+KCCH,3024194,Bacteria identified in Pleural fluid by Culture,2222,0,No matching concept,5499,,,,,,,
+KCCH,3041449,Collagen crosslinked C-telopeptide [Mass/volume] in Serum or Plasma,2179,8842,nanogram per milliliter,5546,0.01,0.067,0.117,0.217,0.382,0.599,6
+KCCH,3028308,Erythrocytes [#/volume] in Pleural fluid,2151,0,No matching concept,3176,0,110.0,700.0,3250.0,16000.0,50000.0,2000000.0
+KCCH,3023199,Leukocytes [#/volume] in Pleural fluid,2151,0,No matching concept,3176,0,80.0,210.0,610.0,1800.0,4800.0,1760000.0
+KCCH,3025037,Bacteria identified in Peritoneal fluid by Culture,2142,0,No matching concept,6250,,,,,,,
+KCCH,3027744,Microscopic observation [Identifier] in Specimen by Acid fast stain,2141,0,No matching concept,3484,30.0,30.0,30.0,30.0,30.0,30.0,2252501
+KCCH,3027370,Insulin-like growth factor binding protein 3 [Mass/volume] in Serum or Plasma,2137,8842,nanogram per milliliter,8529,412,3840.0,4830.0,5880.0,6960.0,7900.0,13400.0
+KCCH,3009986,Bacteria identified in Catheter tip by Culture,2111,0,No matching concept,5762,,,,,,,
+KCCH,3005384,Microscopic observation [Identifier] in Pleural fluid by Gram stain,2104,0,No matching concept,15671,10.0,10.0,10.0,10.0,25,25,25
+KCCH,3028061,Treponema pallidum Ab [Presence] in Serum by Hemagglutination,2082,0,No matching concept,2309,,,,,,,
+KCCH,36305335,Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ and CD8+ T-cells [Units/volume] corrected for background in Blood,2016,0,No matching concept,2378,0,5.05,29.62,37.19,44.18,53.78,135.47
+KCCH,40766800,Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] corrected for background in Blood,2016,0,No matching concept,2378,-0.75,-0.01,0,0.01,0.26,2.461,76.83
+KCCH,42869529,Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood,2015,0,No matching concept,2377,0.004,0.021,0.04,0.065,0.11,0.21,12.17
+KCCH,3005179,Beta lactamase.extended spectrum [Susceptibility],2009,0,No matching concept,21070,,,,,,,
+KCCH,3027475,Erythrocytes [#/volume] in Cerebral spinal fluid,1970,0,No matching concept,6670,0,0,0,10.0,170.0,1700.0,4920000.0
+KCCH,3016543,Leukocytes [#/volume] in Cerebral spinal fluid,1969,0,No matching concept,6665,0,0,0,0,10.0,100.0,19200.0
+KCCH,3020183,Specific gravity of Cerebral spinal fluid by Refractometry,1968,0,No matching concept,6654,0.009,1.006,1.007,1.008,1.01,1.012,1010.0
+KCCH,42529205,Cortisol [Mass/volume] in Serum or Plasma by Immunoassay,1933,0,No matching concept,4370,0.1,2.03,6.5,12.6,21.21,30.12,1121.9
+KCCH,3042857,Mean peroxidase activity index [Presence] in Blood,1930,8554,percent,2864,-20.7,-2.5,0,2.8,6.2,10.0,49.2
+KCCH,3049178,Platelets Large/Platelets in Blood by Automated count,1930,8554,percent,2864,0,2,3,4,6,9,43
+KCCH,3025159,Blasts/100 leukocytes in Blood,1918,8554,percent,10077,0,1,1,4,27,68,100.0
+KCCH,40758310,Human epididymis protein 4 [Moles/volume] in Serum or Plasma,1888,8729,picomole per liter,11198,15,42.52,50.7,67.02,98.86,205.1,6501
+KCCH,3033236,Creatine kinase.MB [Mass/volume] in Blood,1840,8842,nanogram per milliliter,2717,1,1,1,1,2.2,6.1,100.0
+KCCH,3008193,Fungus identified in Specimen by Fungus stain,1834,0,No matching concept,18013,,,,,,,
+KCCH,1175677,Microscopic observation [Identifier] in Catheter tip by Gram stain,1820,0,No matching concept,17646,10.0,10.0,10.0,10.0,10.0,10.0,25
+KCCH,3009306,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,1800,8842,nanogram per milliliter,4554,0.3,1.09,1.64,2.86,9.15,178.27,2070100.0
+KCCH,3000593,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,1797,8845,picogram per milliliter,2830,45,196,267,431,739,1458,2100.0
+KCCH,3025994,Estriol (E3) [Mass/volume] in Serum or Plasma,1705,8842,nanogram per milliliter,5553,0.3,3,3,3,4.4,5.89,13.36
+KCCH,3014173,Calcitriol [Mass/volume] in Serum or Plasma,1698,8845,picogram per milliliter,6910,1.4,16.1,22.7,32.48,44.38,57.27,200.0
+KCCH,36305723,Liver fibrosis score in Serum or Plasma by Calculated by ELF,1677,0,No matching concept,2836,5.51,7.7,8.35,9.03,9.85,10.86,14.43
+KCCH,3009931,Hyaluronate [Mass/volume] in Serum or Plasma,1677,0,No matching concept,2836,1.62,14.64,24.3,45.98,90.16,211.63,2662.64
+KCCH,44786758,Tissue inhibitor of metalloproteinases 1 [Mass/volume] in Serum or Plasma by Immunoassay,1677,0,No matching concept,2836,39.8,116.7,150.9,184.3,223,284.7,1300.0
+KCCH,40763949,Clindamycin.induced [Susceptibility],1667,0,No matching concept,15746,40.5,40.5,40.5,40.5,40.5,40.5,40.5
+KCCH,3008855,Leukocytes other/100 leukocytes in Peritoneal fluid,1570,8554,percent,4230,0,0,0,3,15,42,99
+KCCH,3029103,Nuclear Ab [Presence] in Serum by Immunofluorescence,1564,0,No matching concept,1616,,,,,,,
+KCCH,3022709,Promyelocytes [#/volume] in Blood,1546,0,No matching concept,3154,0,0.03,0.05,0.13,0.42,2.32,68.95
+KCCH,3013527,Hepatitis B virus core IgM Ab [Presence] in Serum,1531,0,No matching concept,2105,-1,-1,-1,0.087,0.1,0.14,13.4
+KCCH,3052087,Microscopic observation [Identifier] in Blood or Marrow by Prussian blue stain,1502,0,No matching concept,2939,,,,,,,
+KCCH,3018447,Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,1483,8985,international unit per milliliter,3130,1.0208102,15,15,15,15,791439,139000001.3907
+KCCH,3036987,Folate [Mass/volume] in Serum or Plasma,1435,8842,nanogram per milliliter,1717,0.69,3.8,5.69,9.21,14.89,20.68,1851
+KCCH,36305614,Microscopic observation [Identifier] in Lower respiratory specimen by Gram stain,1389,0,No matching concept,36890,10.0,10.0,10.0,10.0,10.0,25,25
+KCCH,3003714,Bacteria identified in Wound by Culture,1369,0,No matching concept,5505,,,,,,,
+KCCH,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),1363,0,No matching concept,627,61.8,80.95,113.65,237.6,546.57,1457.5,5600.0
+KCCH,3015352,Thyroperoxidase Ab [Units/volume] in Serum or Plasma by Radioimmunoassay (RIA),1363,8763,unit per milliliter,2062,60.29,132.33,413.03,1254,2827.7,3000.0,3000.0
+KCCH,3005105,Blasts [#/volume] in Blood,1339,0,No matching concept,6357,0,0.04,0.08,0.28,2.44,18.68,680.76
+KCCH,3027491,Helicobacter pylori IgG Ab [Units/volume] in Serum by Immunoassay,1293,8763,unit per milliliter,3080,0.1,0.5,0.8,2.22,7.1,23.1,100.0
+KCCH,3012133,Amylase [Enzymatic activity/volume] in Body fluid,1250,0,No matching concept,8367,2,19,51,329,3290.0,24700.0,1193900.0
+KCCH,3012133,Amylase [Enzymatic activity/volume] in Body fluid,1250,8645,unit per liter,5007,1,30.0,30.0,112,866,7036,2863000.0
+KCCH,3035956,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis,1238,0,No matching concept,8180,,,,,,,
+KCCH,3034962,Glucose [Mass/volume] in Capillary blood by Glucometer,1233,8840,milligram per deciliter,6664,6,107,129,164,215,272,518
+KCCH,3040138,Bacteria identified in Sputum tracheal aspirate by Culture,1229,0,No matching concept,8839,,,,,,,
+KCCH,3026286,Lipase [Enzymatic activity/volume] in Body fluid,1212,0,No matching concept,10039,3,15.5,85.4,1380.0,13892,64990.0,91030000.0
+KCCH,3026286,Lipase [Enzymatic activity/volume] in Body fluid,1212,8645,unit per liter,4879,1,20.0,100.0,1060.0,14790.0,90900.0,26150000.0
+KCCH,3007654,Microscopic observation [Identifier] in Wound by Gram stain,1202,0,No matching concept,16775,10.0,10.0,10.0,10.0,10.0,25,25
+KCCH,3000659,Cytokeratin 19 [Mass/volume] in Serum or Plasma,1198,8842,nanogram per milliliter,2393,0.1,1.09,1.45,2.09,3.25,5.91,367.6
+KCCH,3020951,Lymphocytes/100 leukocytes in Cerebral spinal fluid,1192,8554,percent,3403,0,0,4,21,58,80.0,100.0
+KCCH,3034860,Kappa light chains.free [Mass/volume] in Serum,1178,8751,milligram per liter,9047,0.37,6.83,11.38,20.3,54.28,252.73,29018.74
+KCCH,3053209,Kappa light chains.free/Lambda light chains.free [Mass Ratio] in Serum,1178,0,No matching concept,9046,0,0.114,0.75,1.26,3.368,28.31,25329.09
+KCCH,3047169,Lambda light chains.free [Mass/volume] in Serum or Plasma,1178,8751,milligram per liter,9046,0.45,5.98,9.31,14.5,27.41,111.3,90630.0
+KCCH,3022356,Polymorphonuclear cells/100 leukocytes in Cerebral spinal fluid,1178,8554,percent,3397,0,0,1,9,61,86,99
+KCCH,3029058,Nuclear matrix protein 22 [Presence] in Urine,1166,0,No matching concept,5628,,,,,,,
+KCCH,3014791,Apolipoprotein B [Mass/volume] in Serum or Plasma,1158,8840,milligram per deciliter,1635,28,73,86,100.0,117,131,200.0
+KCCH,3019473,Protein [Mass/volume] in Cerebral spinal fluid,1088,8840,milligram per deciliter,2802,0.3,15.7,23.3,32.7,52.8,109.8,3856
+KCCH,3022548,Glucose [Mass/volume] in Cerebral spinal fluid,1078,8840,milligram per deciliter,2693,3,48,58,71,87,106,292
+KCCH,3028502,Macrophages/100 leukocytes in Cerebral spinal fluid,1049,8554,percent,2988,0,0,4,12,25,46,99
+KCCH,3033336,Microscopic observation [Identifier] in Peritoneal fluid by Gram stain,1021,0,No matching concept,10435,10.0,10.0,10.0,10.0,10.0,25,25
+KCCH,3016244,Insulin [Units/volume] in Serum or Plasma,897,8860,microunit per milliliter,1180,0.2,4.2,7.5,12.6,23.2,39.8,1000.0
+KCCH,3016244,Insulin [Units/volume] in Serum or Plasma,897,9093,micro-international unit per milliliter,222,1,2.7,6.3,14.3,34.009,60.9,214
+KCCH,3016201,Valproate [Mass/volume] in Serum or Plasma,848,8859,microgram per milliliter,3044,0.6,29.8,46,62.7,80.2,96.6,150.0
+KCCH,3038222,Protein Fractions [Interpretation] in Serum or Plasma by Immunofixation,826,0,No matching concept,5597,,,,,,,
+KCCH,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,767,8751,milligram per liter,3515,0.1,0.243,0.42,0.9,2.707,8,20.0
+KCCH,3010156,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,767,8840,milligram per deciliter,988,0.002,0.041,0.07,0.185,0.486,1.389,150.0
+KCCH,3015592,Fungus identified in Body fluid by Culture,741,0,No matching concept,3289,,,,,,,
+KCCH,3029790,Creatine kinase.MB [Enzymatic activity/volume] in Serum or Plasma,709,8645,unit per liter,1093,1,1,3,9,21,59,1874
+KCCH,3023876,Chloramphenicol [Susceptibility] by Minimum inhibitory concentration (MIC),657,0,No matching concept,5743,1,2,8,8,8,16,25
+KCCH,3016526,cefoTEtan [Susceptibility] by Minimum inhibitory concentration (MIC),645,0,No matching concept,6299,16,16,16,16,16,16,32
+KCCH,3008308,Erythromycin [Susceptibility] by Disk diffusion (KB),610,0,No matching concept,4573,0,0,0,21,28,31,40.0
+KCCH,3008504,Vancomycin [Susceptibility] by Disk diffusion (KB),609,0,No matching concept,4572,0,19,20.0,22,24,25,40.0
+KCCH,3005158,Clindamycin [Susceptibility] by Disk diffusion (KB),609,0,No matching concept,4572,0,0,0,21,25,28,36
+KCCH,3021879,Hepatitis B virus core Ab [Presence] in Serum,583,0,No matching concept,603,,,,,,,
+KCCH,3006884,Penicillin [Susceptibility] by Disk diffusion (KB),534,0,No matching concept,3703,0,0.125,0.5,25,31,35,44
+KCCH,1176246,Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain,523,0,No matching concept,3340,30.0,30.0,30.0,30.0,30.0,30.0,2252501
+KCCH,3015406,Norfloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),510,0,No matching concept,3552,0.5,4,8,16,16,16,16
+KCCH,3008364,Apolipoprotein A-I [Mass/volume] in Serum or Plasma,473,8840,milligram per deciliter,589,22,112,125,141,160.0,174.3,223.3
+KCCH,3002653,Hepatitis C virus genotype [Identifier] in Serum or Plasma by NAA with probe detection,465,0,No matching concept,504,,,,,,,
+KCCH,3024716,Chloramphenicol [Susceptibility] by Disk diffusion (KB),451,0,No matching concept,2538,0,21,22,25,28,29,38
+KCCH,3012723,Ceftizoxime [Susceptibility] by Minimum inhibitory concentration (MIC),432,0,No matching concept,3990,4,4,4,64,64,64,64
+KCCH,3017429,Ofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC),425,0,No matching concept,4149,2,2,2,2,4,4,4
+KCCH,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,415,0,No matching concept,99,3.38,6.48,9.33,15.37,37.77,88.33,324.1
+KCCH,3001802,Microalbumin/Creatinine [Mass Ratio] in Urine,415,8723,milligram per gram,412,1.39,4.61,6.88,11.42,28.89,88,1418
+KCCH,3016724,Homocysteine [Moles/volume] in Serum or Plasma,401,8749,micromole per liter,418,3.83,7.5,8.8,10.7,13.6,17.4,65
+KCCH,3039945,Methotrexate [Moles/volume] in Serum or Plasma --48 hours post dose,382,8749,micromole per liter,2673,0.01,0.09,0.12,0.17,0.26,0.53,511.76
+KCCH,3039652,Methotrexate [Moles/volume] in Serum or Plasma --72 hours post dose,364,8749,micromole per liter,2545,0.01,0.03,0.05,0.06,0.09,0.16,184.23
+KCCH,3028772,Osteocalcin [Mass/volume] in Serum or Plasma,357,8842,nanogram per milliliter,547,0.26,2.7,4.6,7.6,13.1,24.7,85.8
+KCCH,3017115,Methotrexate [Moles/volume] in Serum or Plasma,354,0,No matching concept,9205,0,243.18,480.13,720.06,2413.72,41230.0,52138
+KCCH,3042373,Methotrexate [Moles/volume] in Serum or Plasma --24 hours post dose,353,8749,micromole per liter,2647,0.03,1.35,2,3.29,6.02,10.65,914.76
+KCCH,3040260,Methotrexate [Moles/volume] in Serum or Plasma --4 hours post dose,334,8749,micromole per liter,2587,267.27,828.18,1008,1215.72,1412.61,1601.43,2943.3
+KCCH,3018718,Plasma cells/100 leukocytes in Blood,320,8554,percent,527,0,1,1,3,8,33,93
+KCCH,3037551,Cancer Ag 125 [Units/volume] in Serum or Plasma,306,8763,unit per milliliter,401,3.64,8.21,10.94,14.93,25.89,69.07,8682
+KCCH,3026925,Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma,295,8845,picogram per milliliter,343,0.1,2,2.4,2.9,3.5,4.2,42
+KCCH,3006761,Bacteria identified in Synovial fluid by Culture,278,0,No matching concept,617,,,,,,,
+KCCH,3002389,Microscopic observation [Identifier] in Synovial fluid by Gram stain,256,0,No matching concept,2386,10.0,10.0,10.0,10.0,10.0,10.0,25
+KCCH,40761553,Hepatitis B virus surface Ag [Units/volume] in Serum,237,8985,international unit per milliliter,277,0.02,0.05,84.48,766.45,2257,5557,27815.54
+KCCH,1176187,Microscopic observation [Identifier] in Bile fluid by Gram stain,217,0,No matching concept,2814,10.0,10.0,10.0,10.0,25,25,25
+KCCH,3039448,Bacteria identified in Bile fluid by Culture,202,0,No matching concept,809,,,,,,,
+KCCH,3007234,Bacteria identified in Ear by Aerobe culture,196,0,No matching concept,530,,,,,,,
+KCCH,3018910,Alkaline phosphatase.bone [Mass/volume] in Serum or Plasma,190,8748,microgram per liter,259,2,11.6,16.7,21.1,27.2,36.8,108
+KCCH,3010391,Collagen crosslinked N-telopeptide/Creatinine [Molar ratio] in Urine,183,0,No matching concept,264,4.4,27.76,40.0,96,318,621,1919
+KCCH,3027003,Microscopic observation [Identifier] in Body fluid by Gram stain,174,0,No matching concept,870,10.0,10.0,10.0,10.0,25,25,25
+KCCH,3012222,Trimethoprim+Sulfamethoxazole [Susceptibility] by Disk diffusion (KB),165,0,No matching concept,2084,0,0,0,0,19,20.0,26
+KCCH,3003906,Oxacillin [Susceptibility] by Disk diffusion (KB),163,0,No matching concept,2059,0,0,0,0,0,25,34
+KCCH,3002850,Tetracycline [Susceptibility] by Disk diffusion (KB),163,0,No matching concept,2059,0,10.0,12,15,24,26,32
+KCCH,3035133,Fungus identified in Wound by Culture,144,0,No matching concept,598,,,,,,,
+KCCH,3040827,Bacteria identified in Anal by Culture,123,0,No matching concept,1192,,,,,,,
+KCCH,3015274,Minocycline [Susceptibility] by Minimum inhibitory concentration (MIC),118,0,No matching concept,1256,0.5,1,2,4,16,16,32
+KCCH,3039354,Thyroxine (T4) free [Mass/volume] in DBS,84,8817,nanogram per deciliter,84,1.1,1.3,1.6,2.1,2.6,3.4,4.5
+KCCH,3050896,Arbekacin [Susceptibility] by Minimum inhibitory concentration (MIC),70,0,No matching concept,532,1,1,1,1,1,1,16
+KCCH,3034592,Telithromycin [Susceptibility] by Minimum inhibitory concentration (MIC),70,0,No matching concept,532,0.25,0.25,0.25,0.25,0.25,4,4
+KCCH,40769783,Troponin T.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method,70,8842,nanogram per milliliter,94,0.003,0.003,0.004,0.008,0.013,0.023,0.443
+KCCH,40758562,Immature cells/100 leukocytes in Blood,64,8554,percent,247,0,1,2,5,18,31,66
+KCCH,40762243,Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture,64,0,No matching concept,1236,,,,,,,
+KCCH,3008974,cefTRIAXone [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),51,0,No matching concept,597,0.12,0.12,0.5,1,1,4,8
+KCCH,3007552,Cefotaxime [Susceptibility] for meningitis by Minimum inhibitory concentration (MIC),51,0,No matching concept,597,0.12,0.12,0.5,1,1,4,8
+KCCH,3013273,Insulin-like growth factor-I [Mass/volume] in Serum or Plasma,32,8842,nanogram per milliliter,49,109,148,192,391,911,1221,1522
+KCCH,3013603,Prostate specific Ag [Mass/volume] in Serum or Plasma,23,8842,nanogram per milliliter,24,0.092,0.262,0.402,0.922,1.81,3.29,3.68
+KCCH,3001467,Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma,17,8645,unit per liter,25,11.7,13.8,20.8,48.5,72.8,138.5,140.0
+KCCH,3008183,Lipoprotein fractions [Interpretation] in Serum or Plasma by Electrophoresis,16,0,No matching concept,16,,,,,,,
+KCCH,3001122,Ferritin [Mass/volume] in Serum or Plasma,8,8842,nanogram per milliliter,9,3.7,3.7,39.4,77.4,280.2,1650.0,1650.0
+KCCH,3038086,cefTAZidime [Susceptibility] by Disk diffusion (KB),7,0,No matching concept,30,24,24,24,24,27,27,27
+KCCH,3022747,cefTRIAXone [Susceptibility] by Disk diffusion (KB),7,0,No matching concept,30,22,22,22,22,26,26,26
+KCCH,3006122,Meropenem [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+KCCH,3016242,Piperacillin+Tazobactam [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,8,8,8,8,8,8,8
+KCCH,3022338,Retinol [Mass/volume] in Serum or Plasma,6,8751,milligram per liter,11,0.19,0.36,0.37,0.61,0.82,1.09,1.1
+KCCH,3022338,Retinol [Mass/volume] in Serum or Plasma,6,8837,microgram per deciliter,7,2.4,2.4,2.9,77.2,100.7,121,121
+KCCH,3005233,Cefotaxime [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,32,32,32,32,32,32,32
+KCCH,3006507,Aztreonam [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,16,16,16,16,16,16,16
+KCCH,3009314,Cefepime [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,2,2,2,2,2,2,2
+KCCH,3020153,Ciprofloxacin [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,4,4,4,4,4,4,4
+KCCH,3001950,Amikacin [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,8,8,8,8,8,8,8
+KCCH,3003793,Imipenem [Susceptibility] by Disk diffusion (KB),6,0,No matching concept,18,0.25,0.25,0.25,0.25,0.25,0.25,0.25
