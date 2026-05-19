@@ -80,6 +80,10 @@ data/measurement/drilldown_*/*broken*.csv
 # Drilldown errors-laden archive (pre-401-fix, deprecated; memory에 history 기록됨)
 data/measurement/drilldown_*/archive_pre_*/
 
+# Measurement archive raw drilldown (대용량 v4 survey json, archived as historical)
+data/measurement/archive/*/raw_drilldown/
+data/measurement/archive/*/khnmc_full_value_survey.csv
+
 # Legacy archive (2026-04-25 정리, 추후 안전 삭제 가능)
 _legacy/
 results/

@@ -126,9 +126,9 @@ build_table1 <- function(config) {
   # -------------------------------------------------------------------------
   all_cov <- vector("list", length(SITES))
   all_coh <- vector("list", length(SITES))
-  prior_ids <- integer(0)
+  prior_ids <- numeric(0)
   for (si in seq_along(SITES)) {
-    off <- (si - 1L) * 100000000L
+    off <- (as.numeric(si) - 1) * 100000000
     sqf <- list.files(cm_path(SITES[si]),
                        pattern = "\\.sqlite$", full.names = TRUE)[1]
     con <- dbConnect(SQLite(), sqf)
@@ -143,15 +143,15 @@ build_table1 <- function(config) {
       oc <- as.data.table(dbGetQuery(con, sprintf(
         "SELECT rowId FROM outcomes WHERE outcomeId IN (%s) AND daysToEvent < 0 AND daysToEvent >= %d",
         paste(PRI, collapse = ","), -LB)))
-      if (nrow(oc) > 0) prior_ids <- c(prior_ids, unique(as.integer(oc$rowId) + off))
+      if (nrow(oc) > 0) prior_ids <- c(prior_ids, unique(as.numeric(oc$rowId) + off))
     }
     dbDisconnect(con)
-    cov[, rowId := as.integer(rowId) + off]
+    cov[, rowId := as.numeric(rowId) + off]
     cov[, covariateId := as.numeric(covariateId)]
-    coh[, rowId := as.integer(rowId) + off]
+    coh[, rowId := as.numeric(rowId) + off]
     all_cov[[si]] <- cov; all_coh[[si]] <- coh
   }
-  if (!is.null(EXT_PRIOR)) prior_ids <- as.integer(EXT_PRIOR)
+  if (!is.null(EXT_PRIOR)) prior_ids <- as.numeric(EXT_PRIOR)
   cov_pool <- rbindlist(all_cov)
   coh_pool <- rbindlist(all_coh)
   cat(sprintf("[Table1] Pool raw: cohort %d, cov %d  | lookback excl: %d%s\n",
@@ -164,7 +164,7 @@ build_table1 <- function(config) {
   # Pre/post match exact N
   # -------------------------------------------------------------------------
   matched <- readRDS(config$matched_rds)
-  matched_ids <- as.integer(matched$rowId)
+  matched_ids <- as.numeric(matched$rowId)
   nT_pre  <- coh_pool[treatment == 1, .N]
   nC_pre  <- coh_pool[treatment == 0, .N]
   nT_post <- coh_pool[rowId %in% matched_ids & treatment == 1, .N]

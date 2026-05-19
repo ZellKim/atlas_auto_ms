@@ -85,7 +85,7 @@ ipd_build_pooled <- function(cmdata_root, sites, target_id, comparator_id,
   allC <- list(); allO <- list(); allCov <- list(); covRefL <- list()
   for (si in seq_along(sites)) {
     site <- sites[si]
-    offset <- (si - 1L) * 100000000L
+    offset <- (as.numeric(si) - 1) * 100000000
 
     cm_ref <- ipd_load_cmdata(cmdata_root, site, target_id, comparator_id,
                               analysis = ref_analysis)
@@ -94,12 +94,12 @@ ipd_build_pooled <- function(cmdata_root, sites, target_id, comparator_id,
       next
     }
     coh <- cm_ref$cohorts
-    coh$rowId <- as.integer(coh$rowId) + offset
+    coh$rowId <- as.numeric(coh$rowId) + offset
     if ("personSeqId" %in% names(coh)) coh$personSeqId <- NULL
     coh$site <- site
 
     covA <- cm_ref$covariates
-    covA$rowId <- as.integer(covA$rowId) + offset
+    covA$rowId <- as.numeric(covA$rowId) + offset
 
     # Gather outcomes from every analysis (single-analysis case = just ref)
     siteOc <- list()
@@ -108,7 +108,7 @@ ipd_build_pooled <- function(cmdata_root, sites, target_id, comparator_id,
                               analysis = a)
       if (is.null(cm_a)) next
       oc <- cm_a$outcomes
-      oc$rowId <- as.integer(oc$rowId) + offset
+      oc$rowId <- as.numeric(oc$rowId) + offset
       siteOc[[length(siteOc) + 1L]] <- oc
     }
     oc_all <- dplyr::bind_rows(siteOc) %>%
@@ -361,7 +361,25 @@ ipd_fit_null <- function(nc_res, min_events = 5L, max_abs_logHr = log(10)) {
 }
 
 # -----------------------------------------------------------------------------
-# Schuemie 2014 manual calibration (avoids calibrateConfidenceInterval legacy bug).
+# Schuemie 2014 simple null calibration (manual implementation).
+#
+# Why manual rather than EmpiricalCalibration::calibrateConfidenceInterval()?
+# Not a bug bypass — different framework.
+#   - fitNull() → (mean, sd) → Schuemie 2014 null-shift calibration:
+#       calLogHr = logHr - null_mean
+#       calSe    = sqrt(seLogHr^2 + null_sd^2)
+#   - calibrateConfidenceInterval() requires fitSystematicErrorModel() output
+#       (4-param: meanIntercept/meanSlope/sdIntercept/sdSlope) — Schuemie 2018
+#       systematic-error MODEL framework (effect-level dependent).
+# We use the 2014 simpler approach (OHDSI multi-site PSM standard); to switch
+# to the 2018 model framework, fit fitSystematicErrorModel(NC trueLogRr=0) first
+# and pass that 4-param model to calibrateConfidenceInterval().
+#
+# Verified 2026-05-11: EmpiricalCalibration 3.1.4 main branch's
+# calibrateConfidenceInterval() correctly derives `legacy` from model column
+# names (`legacy <- (names(model)[3] == "logSdIntercept")`); older notes about
+# a silent-NULL legacy bug do not apply to current package versions.
+#
 # Appends calHr, calCiLb, calCiUb, calP columns.
 # -----------------------------------------------------------------------------
 ipd_calibrate <- function(res, null_mean, null_sd, z = qnorm(0.975)) {
