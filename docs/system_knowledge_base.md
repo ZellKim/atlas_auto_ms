@@ -7,7 +7,7 @@
 
 | 데이터 | 파일 |
 |--------|------|
-| API 엔드포인트 (70+) | `data/atlas_reference/atlas_webapi_endpoints_full.csv` |
+| API 엔드포인트 | `data/atlas_reference/atlas_webapi_endpoints.csv` (8 category, pathway 포함) |
 | 기관 4종 ID 매핑 (24기관) | `data/site_mapping/site_id_mapping_full.csv` |
 | 기관 sourceKey 매핑 | `data/site_mapping/source_key_mapping.csv` |
 | **기관 총 환자수·데이터 기간·DB명** | `data/site_mapping/site_summary_23.csv` |
@@ -25,6 +25,7 @@
 | - OHDSI 공개 benchmark | `data/concept_frequency/benchmark/` |
 | R 환경 설정 | `data/reference/r_environment.csv` |
 | 이슈 히스토리 | `data/reference/issue_history.csv` |
+| **문서 렌더 QA 도구** (DOCX→PDF/PNG) | `data/scripts/render_docx_qa.py` (§10) |
 
 ---
 
@@ -59,6 +60,15 @@ Base URL: /api/v1/atlas/{group_id}/{site_id}/
 | GET | `/vocabulary/concept/{id}/descendants` | 하위 concept | |
 | GET | `/cdmresults/{sourceKey}/{domain}` | Achilles frequency | |
 | GET | `/cdmresults/{sourceKey}/measurement/{id}` | measurement drilldown | |
+| GET | `/pathway-analysis/` | Cohort Pathways 목록 | `content[]` 페이징. base `/pathway-analysis`(하이픈). 전체 17 endpoint는 CSV 참조 |
+| POST | `/pathway-analysis/{id}/generation/{sourceKey}` | pathway 실행 | |
+| GET | `/pathway-analysis/{id}/generation` | 실행 목록 | **미생성 pathway → 500**(정상, ↓1.4 함정). 생성됨 → status `COMPLETED` |
+| GET | `/pathway-analysis/generation/{genId}/result` | 실행 결과 | `{eventCodes, pathwayGroups}` |
+| GET | `/conceptset/` | concept set 목록/관리 | `/{id}/expression`=resolved, `/{id}/export`=**zip(bytes)** |
+| GET | `/ir/` | Incidence Rate 분석 | 실행=**GET** `/ir/{id}/execute/{sourceKey}`. `/info`=AnalysisInfoDTO[] (status는 executionInfo 내부) |
+| GET | `/prediction/` | Patient-Level Prediction | estimation/pathway와 동형(generation→result) |
+| GET | `/job/` | 범용 job 상태 | `/job/execution?jobName=` → Page, status `COMPLETED` |
+| GET | `/vocabulary/{sourceKey}/info` | vocab 메타 | lookup/identifiers·mapped·recommended는 **POST**(conceptId 배열). 전체는 CSV 참조 |
 
 ### 1.2 feedernet 포탈 API — 다기관 실행 관리
 
@@ -112,8 +122,14 @@ Base URL: /api/v1/
 | estimation spec | **string**으로 전송 (`json.dumps(spec)`) |
 | NC concept set | `conceptSets` + `crossReference`로 설정. `negativeControls[]` 배열 아님 |
 | NC items=0 | **정상**. ATLAS가 실행 시 conceptSetId로 자동 resolve |
+| Empty NC failure | `negativeControlOutcomeCohortDefinition`이 남아 있는데 `negativeControls`와 `conceptSetCrossReference`가 비어 있으면 feedernet이 NC cohort SQL `IN ()`류를 만들며 `syntax error at or near ")"`로 실패 가능. GD v0.1에서 2026-06-21에 10/10 site 실패 확인. |
 | cohortDefinitions | feedernet이 export 시 ATLAS에서 **자동 resolve**. spec에 expression 없어도 실행 가능 |
 | 500 에러 | **API 불안정이 아니라 호출 방식 오류** 가능성 먼저 확인 |
+| pathway generation 500 | `/pathway-analysis/{id}/generation`은 **한 번도 generate 안 한 pathway**에서 500(Spring ConversionFailed) — 경로/호출 오류 아닌 WebAPI 2.12.0 버그. 생성 이력 있으면 200. `get_pathway_generations()`가 []로 처리 (위 "500=호출오류"의 예외 케이스). feedernet site 7/203 live 검증 2026-06 |
+| IR 실행 = GET | Incidence Rate 실행은 `GET /ir/{id}/execute/{sourceKey}` (코호트 generate처럼 **GET**, POST 아님). 취소는 `DELETE` 같은 경로 |
+| 코호트 cancel = GET | `GET /cohortdefinition/{id}/cancel/{sourceKey}` (cancel도 GET) |
+| conceptset export = zip | `/conceptset/{id}/export`는 JSON이 아니라 **zip(bytes)** 반환 → `resp.json()` 금지(`export_concept_set`가 bytes로 처리) |
+| vocab lookup = POST | `/vocabulary/{sourceKey}/lookup/{identifiers,mapped,recommended}`는 **POST**(body=conceptId 배열). 단건 `/vocabulary/concept/{id}`만 GET |
 | concept set name 줄바꿈 | name에 `\n` 포함 시 R exportOutcomes에서 FATAL. ATLAS UI에서 복사 시 발생 가능 → strip() 필요 |
 | cohortdefinition PUT | expression은 **object**로 (string → 400). estimation PUT과 반대 |
 
@@ -181,6 +197,15 @@ for group in groups:
 
 상태값: `EXECUTING_PREPARING`, `EXECUTING_DOCKER`, `WAITING`, `FINISHED_SUCCESSFULLY`, `FINISHED_WITH_ERROR`, `CANCELED`
 
+**Monitor status classification fix (2026-06-21)**:
+`EXECUTING_PREPARING` is an active execution state, not a failure. During the
+GD v0.2 smoke execution, the raw feedernet API returned `EXECUTING_PREPARING`
+for newly started sites, but `data/scripts/v4_phase_e_monitor.py` classified it
+as `FAILED` because only `EXECUTING_DOCKER` and `RUNNING` were mapped to
+RUNNING. The monitor now maps `EXECUTING_PREPARING`, `EXECUTING_DOCKER`, and
+`RUNNING` to `RUNNING`. When reported counts look surprising, verify raw
+`executionStatus` before interpreting monitor categories.
+
 ### 2.3a Execution log 조회 (SUCCESS만 가능)
 
 ```python
@@ -206,6 +231,15 @@ log_text = resp.json().get('content', '')
 
 **예방 체크리스트** (실패 방지):
 - stopOnError=false ★
+- Keep ATLAS PS matching ON. 2026-06-19 user-confirmed operational bug:
+  turning PS matching off can make feedernet estimation execution error.
+  If final HRs come from central IPD pooled analysis, still leave site-level
+  PS/matching enabled and ignore ATLAS site-level HRs.
+- Appendectomy v4 live ATLAS pattern checked on 2026-06-19: base `212` and
+  copied estimations `222`-`227` used `createPs=true`, `matchOnPs=true`,
+  `matchOnPsArgs.caliper=10`, `matchOnPsArgs.caliperScale="standardized logit"`,
+  `matchOnPsArgs.maxRatio=0`, and `useCovariates=true`; copied `222`-`227`
+  used `createPsArgs.stopOnError=false`.
 - cohortDefinitions 전부 포함 (T + Cs + 모든 outcome)
 - NC 54 items + exclude 110 items 채움
 - concept set name `\n` strip
@@ -258,6 +292,30 @@ v4.2 검증 시퀀스는 (1) 2026-04-26 16:36 sequential trigger 132 + (2) 같�
 - 단일 execution이거나 startedAt이 있는 CANCELED는 진짜 cancel (예: UUH 2026-04-23 hang cancel 처럼) → 그대로 보고
 - `data/scripts/v4_phase_e_monitor.py`에 이 로직 반영 완료 (2026-04-28)
 - cloud_monitor는 이미 `e992f2b` commit에서 per-cdm any-state aggregation으로 처리
+
+### 2.4b v4_phase_e_monitor PID-first 리팩토링 (2026-05-29)
+
+**배경**: 기존 monitor는 단일 PID 가정 (`v4_analysis_map.json`에 aid 6개만 hardcode). `--pid 5126` 로 호출해도 v4.1 (PID 5115) aid를 query → 같은 결과를 다른 PID라고 잘못 보고. spec sensitivity 비교 (v4.1 vs v4.2) workflow에서 silent 오류 source.
+
+**근본 fix** (commit pending):
+- `discover_analyses(client, pid)` 함수 추가: `/api/v1/projects/{pid}/analysis` 자동 query → aid/name 매핑
+- `--map` flag는 explicit override (advanced only)
+- state path 자동 suffix: `data/v4_monitor_state_pid{PID}.json`
+- results dir 자동 suffix: `…/v4_results/pid{PID}/{analysis_name}/`
+
+**검증**:
+- PID 5115 (v4.1) → 6 aids `AD_v4_*_v4` (11034-11044)
+- PID 5126 (v4.2) → 6 aids `appendectomy_v8_*` (11070-11075)
+- 두 PID 동시 모니터링 가능, state 분리
+
+**다른 연구 적용**:
+- allergic_diseases, GLP-1 cancer, 기타 spec sensitivity 비교 시 `--pid {N}` 만 변경. 코드 수정 0.
+- 옛 `v4_analysis_map.json`은 보존 (v4.1 historical 참조 + `--map` explicit 호출 가능)
+- 옛 `v4_monitor_state.json`은 historical only — 신규 호출은 자동 `v4_monitor_state_pid{PID}.json` 사용
+
+**호환성**:
+- `--map`/`--state`/`--results` explicit override 모두 그대로 작동 (backward compat)
+- 기본 동작만 PID-aware 자동화로 변경
 
 ### 2.5 Achilles 수집
 
@@ -364,6 +422,51 @@ data['recordsByUnit']  # [{'conceptId': 8840, 'conceptName': 'milligram per deci
 - 매칭: 1:1 nearest-neighbor, caliper = 0.2 × SD(logit PS)
 - Outcome: Site-stratified Cox
 - Forest plot: outcome별 pooled HR (기관별 HR 미산출 — outcome N 부족)
+
+Implementation note (verified 2026-06-10): `R/lib/ipd_pooled.R` calls
+`ipd_add_site_covariates()` inside `run_ipd_pooled()` after lookback filtering
+and before `ipd_fit_ps()`. The helper adds `nSites - 1` synthetic site dummies
+to `pool$covariates` by default. Disable only intentionally with
+`config$add_site_covariates = FALSE`. Verification on local R 4.6.0:
+`source("R/lib/ipd_pooled.R")` passed after installing `Cyclops 3.7.1`,
+`EmpiricalCalibration 3.1.4`, `DBI 1.3.0`, `RSQLite 3.53.1`, and `dplyr 1.2.1`;
+a synthetic 3-site Cyclops PS fit completed with 2 site dummies. If broad
+dependency installation pulls `duckdb` or `Andromeda 1.x` into the user library,
+remove them; this repo still documents `duckdb` as incompatible and Andromeda
+0.6.0 as the CmData-compatible line.
+
+**PS covariate 축소 매칭 옵션 (2026-06-26 기록)**:
+Large-scale matching에서 caliper 탈락이 과도하면 domain/analysis set 단위뿐 아니라
+`covariateId` 단위로 PS 입력 변수를 줄일 수 있다. `CmData`의 `covariates`
+테이블은 sparse long format(`rowId`, `covariateId`, `covariateValue`)이므로
+`ipd_fit_ps()` 호출 전에 `pool$covariates`와 `pool$covariateRef`를 같은
+`keep_ids`로 필터링하면 된다. `outcomes`/follow-up time은 PS 매칭 변수로
+넣지 않고, 매칭 후 Cox 단계에서만 붙인다.
+
+```r
+pool <- ipd_build_pooled(cmdata_root, sites, target_id, comparator_id)
+pool <- ipd_apply_lookback(pool, primary_outcomes, 365L)
+
+keep_ids <- c(
+  8507001, 8532001,        # sex
+  3, 1003, 2003, 3003,     # age groups 예시
+  901,                     # Charlson
+  1920                     # visit count
+  # + 사전 지정한 condition/drug covariateIds
+)
+
+pool$covariates <- pool$covariates[pool$covariates$covariateId %in% keep_ids, ]
+pool$covariateRef <- pool$covariateRef[pool$covariateRef$covariateId %in% keep_ids, ]
+pool <- ipd_add_site_covariates(pool)
+
+psCoh <- ipd_fit_ps(pool)
+matched <- ipd_match_1to1(psCoh)
+```
+
+권장 비교 tier: (1) age + sex + site + visit count + Charlson, (2) + 주요
+condition confounder, (3) + 주요 drug confounder, (4) full high-dimensional PS.
+각 tier마다 matched pairs, post-match SMD, primary HR/CI 변화를 같이 보고
+yield 개선이 confounding 악화로 이어졌는지 판단한다.
 
 ### 5.2 시간 구간별 분석 (Landmark)
 PS matching 1회 → 구간별 Cox. 구간: 1-30d, 31-90d, 91-365d, 366-1095d, 1096-3650d, 1-3650d.
@@ -605,7 +708,7 @@ m3 <- update(m2, . ~ . + resp_drug + sense_drug)                                
 
 **Smart LOSO (`ipd_loso_fast()`)**: primary 결과의 matched cohort + null fit 재활용. iter마다 site별 row drop + Cox만 재실행. **iter당 ~30초 → 60 iter 총 ~10분 (~70× 빠름)**.
 
-**가능한 이유**: `run_ipd_pooled()` 의 Cyclops LASSO PSM이 기본적으로 **site indicator를 covariate로 포함**하므로 PS 모델은 이미 site-aware. LOSO는 본질적으로 "이 site의 데이터를 분석에서 빼면" 인데, site-stratified Cox에 한 stratum이 없는 것과 등가 → 매칭된 cohort에서 그 site 행만 drop하면 됨.
+**가능한 이유**: `run_ipd_pooled()` 의 Cyclops LASSO PSM이 기본적으로 **site indicator를 covariate로 포함**하므로 PS 모델은 이미 site-aware. 구현 위치는 `ipd_add_site_covariates()` 호출부다. LOSO는 본질적으로 "이 site의 데이터를 분석에서 빼면" 인데, site-stratified Cox에 한 stratum이 없는 것과 등가 → 매칭된 cohort에서 그 site 행만 drop하면 됨.
 
 **API**:
 ```r
@@ -688,6 +791,9 @@ loso <- ipd_loso_fast(
 
 - **500 에러**: API 불안정이 아니라 **호출 방식 오류** 가능성 먼저 확인 (Generate GET/POST, expression string/object)
 - **estimation 실패 (수시간 후)**: stopOnError=True + 특정 outcome 에러 → stopOnError=False로 변경
+- **estimation 실패 (PS matching off)**: 2026-06-19 사용자 확인 ATLAS 버그. 최종 IPD pooled에서 ATLAS site-level matching을 쓰지 않더라도 ATLAS/feedernet package에서는 PS matching을 켜둔다. Appendectomy v4에서 확인한 workaround는 `matchOnPs=true`, `caliper=10`, `maxRatio=0`, `stopOnError=false`.
+- **estimation 실패 (diagnostics export)**: 2026-06-21 GD v0.2에서 EUMC/MJH가 `exportDiagnostics - preference_score_dist table` 직후 `FATAL readr write_delim is.data.frame(x) is not TRUE`로 실패. 같은 spec에서 8/10 sites는 성공했으므로 global spec/NC 문제와 구분. site-specific diagnostics-export/data-shape edge case로 분류하고, 실패 상태에서는 files API가 code 7020으로 result.zip 다운로드를 막는다.
+- **MJH historical site-quality caveat**: Appendectomy v4 measurement-estimation execution excluded MJH before execution (`data/scripts/v4_phase_d_execute.py`, `EXCLUDED_CODES = {'MJH'}`). The recorded reason was observation-period median `53` days, `46.5%` with less than `30` days, and only `1` qualifying target after the `365`-day prior-observation requirement. MJH may still have substantial measurement rows, so distinguish "measurement volume exists" from "site is estimation-ready with clean observation-period/unit structure." For GD, see `studies/gestational_dysglycemia/docs/mjh_site_quality_review_v0.1.md`.
 - **R 패키지**: Andromeda 0.6.0 필수, duckdb 제거, VS Code R 터미널에서 source() 실행
 
 ---
@@ -798,7 +904,39 @@ Step 3-4: IPD Pooled + NC Calibration (R) — **R/lib/ipd_pooled.R 사용**
 
 수정·비활성화: `/hooks` 또는 `.claude/settings.json` 직접 편집.
 
-## 10. 시스템 TODO
+## 10. 문서 렌더 QA — DOCX → PDF/PNG (캐노니컬 도구, 2026-06-30 확립)
+
+**원고/보충 DOCX를 렌더해서 시각·구조 QA 할 때는 매번 즉석 스크립트 짜지 말고 이 도구 사용**:
+
+```bash
+python data/scripts/render_docx_qa.py <원고.docx>
+# 출력: <docx 디렉터리>/render_qa_<stem>/  (PDF + page_01.png… + contact_sheet.png + qa_report.md)
+python data/scripts/render_docx_qa.py ms.docx --out render_qa_ms --dpi 150 --backend chrome
+python data/scripts/render_docx_qa.py already.pdf   # PDF 입력이면 변환 건너뛰고 PNG/QA만
+```
+
+**백엔드 자동 폴백** (`--backend auto` 기본, 우선순위 **word → soffice → chrome**):
+| 백엔드 | 동작 | 비고 |
+|---|---|---|
+| `word` | MS Word COM `ExportAsFixedFormat` | **최고 충실도** — reviewer가 Word로 열었을 때 실제 페이지 레이아웃 그대로. 첫 export는 cold-start로 60~120초 걸릴 수 있어 `--word-timeout` 기본 180s. timeout 초과 시 폴백 |
+| `soffice` | LibreOffice headless `--convert-to pdf` | 설치 시 빠르고 충실. **현재 이 PC에 미설치** |
+| `chrome` | DOCX→HTML(mammoth)→Chrome/Edge `--headless --print-to-pdf` | 브라우저만 있으면 어디서든(최종 폴백). HTML 재배치라 Word 페이지와 pixel 일치 X (내용·표·그림·mojibake 검수엔 충분) |
+
+`qa_report.md` 자동 산출: 페이지 수, 단락/표 shape/section orientation(python-docx), **mojibake 스캔**(U+FFFD·literal `??` 카운트 → PASS/CHECK).
+
+**⚠️ 함정 — Word COM은 데드락이 아니라 "느린 cold-start"** (2026-06-30 검증·정정):
+- 첫 `ExportAsFixedFormat` 호출이 PDF 엔진을 초기화하느라 이미지 많은 문서에서 **60~120초** 걸림. 짧은 timeout(45~90s)으로 기다리면 hang으로 **오진**하기 쉬움(실제로 처음에 그렇게 오진했음).
+- subprocess + `--word-timeout 120` 이상으로 주면 **정상 렌더 확인됨**(260623 원고 11페이지, pixel-exact Word 레이아웃). → 그래서 auto 우선순위를 word로 둠.
+- `Documents.Open`은 빠르고 렌더 단계만 느린 게 정상 동작. 즉 Office만 있으면 이 도구로 **Word 렌더가 기본 경로**.
+- 정말 멈추는 환경(데스크톱 분리 등)이면 timeout 후 자동으로 soffice→chrome 폴백하므로 어디서든 결과는 나옴.
+
+**의존성**: `pypdfium2`(PDF→PNG), `Pillow`(contact sheet), `mammoth`(chrome 백엔드용 DOCX→HTML), `python-docx`(구조 스캔). 없으면 해당 기능만 graceful degrade.
+
+**탄생 배경** (이 도구가 생긴 이유): 2026-06-30 Antibiotics 원고 렌더 QA 갱신 작업 중, Word COM의 느린 cold-start를 데드락으로 오진해 짧은 timeout으로 여러 번 잘라먹으며 시간 낭비. 매 연구 반복되는 작업인데 글로벌 자산이 없어서 매번 재발명하던 것을, 백엔드 폴백 + 충분한 timeout으로 캡슐화해 도구화.
+
+---
+
+## 11. 시스템 TODO
 
 - [x] measurement unit 전수조사: 13/23기관 완료
 - [x] feedernet analysis 생성 API 확인: `POST /projects/{pid}/analysis`
