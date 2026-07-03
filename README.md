@@ -49,6 +49,8 @@ from atlas_auto import FedernetClient, EstimationBuilder, StudyProtocol
 
 ## 프로젝트 구조
 
+> 🗺️ **전체 아키텍처 개요**: [docs/architecture_overview.md](docs/architecture_overview.md) — 8개 레이어·데이터 흐름·의존 다이어그램(mermaid)·12단계 가이드 투어. `/understand` 지식 그래프 기반 구조 기록.
+
 ```
 atlas_auto_ms/
 ├── pyproject.toml                      # pip install 지원
@@ -77,6 +79,7 @@ atlas_auto_ms/
 │   ├── reference/                      #   R 환경설정, 이슈 히스토리
 │   └── scripts/                        #   데이터 수집/생성 Python 스크립트
 ├── docs/                               # 시스템 문서
+│   ├── architecture_overview.md        #   ★ 전체 구조 지도 (레이어·의존·다이어그램)
 │   ├── system_knowledge_base.md        #   API 레시피, 운영 지식, 체크리스트
 │   └── concept_selection_guide.md      #   Concept ID 선정 가이드
 ├── R/                                  # R 분석 코드
