@@ -1,7 +1,7 @@
 """17개 바이오마커 × 5 시간구간 Characterization 생성 + 14개 기관 배포"""
 import sys, json, re
 sys.stdout.reconfigure(encoding="utf-8")
-sys.path.insert(0, r"g:\내 드라이브\KHNMC\atlas_auto_with_claude\automation")
+sys.path.insert(0, r"g:\내 드라이브\0.claude_workspace\data_analysis\atlas_auto_with_claude\automation")
 from credentials import get_feedernet_credentials
 from feedernet_client import FedernetClient
 
@@ -152,7 +152,7 @@ print("\n=== Phase 2: 13개 기관 배포 ===")
 sites_13 = [
     (9, 191, "AUMC"), (95, 227, "CHNUH"), (16, 196, "DCMC"),
     (86, 224, "GNUCH"), (88, 198, "GNUH"), (117, 256, "HUMC"),
-    (81, 222, "ISH"), (69, 226, "JCMJ"), (4, 201, "KDH"),
+    (81, 222, "ISH"), (93, 226, "JCMJ"), (4, 201, "KDH"),
     (10, 213, "KWMC"), (28, 207, "SCHCA"), (30, 208, "SCHGM"),
     (27, 209, "SCHSU"),
 ]

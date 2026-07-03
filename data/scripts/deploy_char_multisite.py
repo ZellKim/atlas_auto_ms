@@ -1,7 +1,7 @@
 """다기관 Characterization 배포 — KHNMC export → 각 기관 import + 실행"""
 import sys, json, re, time
 sys.stdout.reconfigure(encoding="utf-8")
-sys.path.insert(0, r"g:\내 드라이브\KHNMC\atlas_auto_with_claude\automation")
+sys.path.insert(0, r"g:\내 드라이브\0.claude_workspace\data_analysis\atlas_auto_with_claude\automation")
 from credentials import get_feedernet_credentials
 from feedernet_client import FedernetClient
 
@@ -44,7 +44,7 @@ sites = [
     (88, 198, "GNUH", "경상국립대학교병원"),
     (117, 256, "HUMC", "동탄성심병원"),
     (81, 222, "ISH", "국제성모병원"),
-    (69, 226, "JCMJ", "제천명지병원"),
+    (93, 226, "JCMJ", "제천명지병원"),  # group_id=93 (ATLAS), 69는 portal_orgId — site_id_mapping_full.csv
     (4, 201, "KDH", "강동성심병원"),
     # (7, 203, "KHNMC", "강동경희대학교병원"),  # 이미 실행 중
     (10, 213, "KWMC", "강원대학교병원"),
