@@ -1,5 +1,5 @@
-import sys
-sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'automation'))
 from credentials import get_feedernet_credentials
 
 """v4b 43 cohort 전체 batch import + KHNMC generate + count 집계"""

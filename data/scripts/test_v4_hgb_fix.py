@@ -1,5 +1,5 @@
-import sys
-sys.path.insert(0, r'G:\My Drive\KHNMC\atlas_auto_with_claude\automation')
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'automation'))
 from credentials import get_feedernet_credentials
 
 """Hgb_low_sex 재import 테스트 (fallback 추가 후 count 증가 확인)"""

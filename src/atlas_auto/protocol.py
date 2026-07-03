@@ -123,6 +123,15 @@ class StudyProtocol:
                 comparator_id=cohort_roles["comparator"],
                 outcome_ids=outcome_ids,
             )
+        else:
+            # TCO 없이 진행하면 빈 estimation 스펙이 조용히 생성됨 → 명시적 경고.
+            missing = [k for k in ("target", "comparator") if k not in cohort_roles]
+            if not outcome_ids:
+                missing.append("outcomes")
+            logger.warning(
+                f"TCO 미생성 — 코호트 역할 누락: {missing}. "
+                f"estimation 스펙에 targetComparatorOutcomes가 비게 됩니다(실행 시 무의미)."
+            )
 
         # 분석 메서드 설정
         for method_def in self.analysis_def.get("methods", []):
@@ -293,7 +302,15 @@ class StudyProtocol:
             client.login_portal(portal["email"], portal["password"])
 
         # 첫 번째 remote_site에 연결
+        # ⚠️ StudyProtocol.run() 은 단일 site 파이프라인이다. 다기관 fan-out(본원 R +
+        # 여러 타기관)은 runner.run_study() / `atlas-auto run` 을 사용할 것.
         sites = config.get("remote_sites", [])
+        if len(sites) > 1:
+            logger.warning(
+                f"remote_sites {len(sites)}개가 설정됐으나 StudyProtocol.run()은 "
+                f"첫 번째({sites[0].get('name', sites[0].get('group_id'))})만 실행합니다. "
+                f"다기관 실행은 runner.run_study() 또는 `atlas-auto run` 사용."
+            )
         if sites:
             site = sites[0]
             client.connect_site(site.get("group_id"), site.get("site_id"))

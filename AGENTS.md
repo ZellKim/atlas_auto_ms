@@ -30,7 +30,7 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
 적용 대상:
 - **새 스크립트 작성 전**: `Glob`/`Grep`로 `data/scripts/`, `automation/`, `studies/{연구}/`, `R/lib/` 검색. 비슷한 이름·기능 있으면 그것부터 검토.
-- **API 호출 전**: 직접 endpoint 추측 X. `data/atlas_reference/atlas_webapi_endpoints.csv` + `automation/feedernet_client.py` 메서드 + 기존 호출 사례 grep.
+- **API 호출 전**: 직접 endpoint 추측 X. `data/atlas_reference/atlas_webapi_endpoints.csv` + **`src/atlas_auto/client.py`(캐노니컬 정본, git 추적)** 메서드 + 기존 호출 사례 grep. (`automation/feedernet_client.py`는 gitignored 사본이며 divergence 가능 — 정본은 `src/`.)
 - **분석 데이터 수집 전**: `data/measurement/`, `data/concept_frequency/`, `studies/{연구}/docs/`, `C:\Users\adam\Desktop\atlas_auto_result\` 먼저 확인.
 - **모니터링/상태 조회 전**: `v4_phase_e_monitor.py` (estimation), monitor state 파일, cloud_monitor 등 캐노니컬 도구 사용. 직접 API call 작성 X.
 - **Credential 작성 전**: `automation/credentials.py` 사용 (env → GCP Secret → local file fallback). 하드코딩 X.
@@ -112,7 +112,7 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
 ```python
 import sys
-sys.path.insert(0, r"G:\My Drive\KHNMC\atlas_auto_with_claude\automation")
+sys.path.insert(0, r"G:\My Drive\0.claude_workspace\data_analysis\atlas_auto_with_claude\automation")
 from credentials import get_feedernet_credentials, get_telegram_credentials
 
 # feedernet

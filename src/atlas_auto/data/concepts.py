@@ -73,7 +73,8 @@ CONDITIONS = {
     # 자가면역/알레르기
     "rheumatoid_arthritis": 80809,              # 류마티스 관절염
     "atopic_dermatitis": 200160,                # 아토피 피부염
-    "psoriasis": 257628,                        # 건선
+    # TODO(verify): psoriasis ID 오류 — 257628은 SLE 값이었음(중복). vocabulary 재조회 후 복원.
+    # "psoriasis": <올바른 concept_id>,          # 건선
     "systemic_lupus": 257628,                   # SLE
 
     # 감염
@@ -110,7 +111,8 @@ CONDITIONS = {
     # 간
     "liver_cirrhosis": 4212540,                 # 간경변
     "hepatitis_b": 4291005,                     # B형 간염
-    "hepatitis_c": 192671,                      # C형 간염
+    # TODO(verify): hepatitis_c ID 오류 — 192671은 gi_bleeding(소화관 출혈) 값이었음(중복). vocabulary 재조회 후 복원.
+    # "hepatitis_c": <올바른 concept_id>,        # C형 간염
 
     # 기타
     "anaphylaxis": 441202,                      # 아나필락시스
@@ -186,7 +188,8 @@ DRUGS = {
     "lansoprazole": 929887,
 
     # 기타
-    "prednisone": 1518254,
+    # TODO(verify): prednisone ID 오류 — 1518254는 dexamethasone 값이었음(중복). vocabulary 재조회 후 복원.
+    # "prednisone": <올바른 concept_id>,
     "dexamethasone": 1518254,
     "heparin": 1367571,
 }
@@ -197,7 +200,8 @@ DRUGS = {
 
 MEASUREMENTS = {
     # 혈액검사
-    "glucose": 3004410,                         # 혈당
+    # TODO(verify): glucose ID 오류 — 3004410은 HbA1c 값이었음(중복). vocabulary 재조회 후 복원.
+    # "glucose": <올바른 concept_id>,             # 혈당
     "hba1c": 3004410,                           # HbA1c (glycated hemoglobin)
     "hemoglobin": 3000963,                      # 혈색소
     "wbc": 3000905,                             # 백혈구
