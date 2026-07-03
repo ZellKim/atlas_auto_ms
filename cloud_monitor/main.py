@@ -225,9 +225,15 @@ def monitor(request):
         if c["FAILED"] > 0:
             line += f"\n  실패: {', '.join(status['details']['FAILED'])}"
 
-        # Auto-retire when all done
+        # Auto-retire when settled (더 이상 RUNNING/WAITING 없음).
+        # FAILED 가 있으면 성공으로 오인시키지 않도록 메시지를 명확히 구분.
+        # (재시도는 cloud_monitor 범위 밖 — v4_phase_e_monitor.py 가 담당)
         if status["all_done"]:
-            line += "\n  ✅ ALL DONE — 이후 모니터링 중단"
+            if c["FAILED"] > 0:
+                line += (f"\n  ⚠️ 종료 — 단 FAILED {c['FAILED']}개 (조치 필요): "
+                         f"{', '.join(status['details']['FAILED'])} — 모니터링 중단")
+            else:
+                line += "\n  ✅ ALL DONE — 이후 모니터링 중단"
             retired.add(key)
             newly_retired.append(name)
             should_notify = True

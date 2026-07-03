@@ -30,6 +30,26 @@ from urllib.parse import urlparse
 logger = logging.getLogger(__name__)
 
 
+# feedernet 포탈 execution 상태 → 요약 버킷 매핑 (캐노니컬).
+# data/scripts/v4_phase_e_monitor.py:classify() 및 cloud_monitor/main.py 와 동일 규칙.
+# 주의: EXECUTING_PREPARING / SAVING_RESULT_FILES 는 정상 활성 상태이므로 RUNNING 이다.
+# (2026-06-21 KB §2.3: 이 두 상태를 FAILED 로 오분류한 버그가 monitor 에서 수정된 이력)
+_RUNNING_STATUSES = ("EXECUTING_PREPARING", "EXECUTING_DOCKER", "SAVING_RESULT_FILES", "RUNNING")
+
+
+def classify_execution_status(status: str) -> str:
+    """executionStatus 문자열을 COMPLETE/RUNNING/WAITING/CANCELED/FAILED 로 분류."""
+    if status == "FINISHED_SUCCESSFULLY":
+        return "COMPLETE"
+    if status in _RUNNING_STATUSES:
+        return "RUNNING"
+    if status == "WAITING":
+        return "WAITING"
+    if status == "CANCELED":
+        return "CANCELED"
+    return "FAILED"
+
+
 class FedernetClient:
     """FEDERnet 포탈 + 기관별 ATLAS WebAPI 클라이언트"""
 
@@ -139,7 +159,9 @@ class FedernetClient:
         """feedernet에 등록된 기관 목록 조회"""
         resp = self.session.get(f"{self.portal_url}/api/v1/dashboard/organizations")
         resp.raise_for_status()
-        orgs = resp.json()
+        data = resp.json()
+        # 포탈 API 는 응답을 {"content": [...]} 로 감싸는 경우가 있어 방어적으로 언랩.
+        orgs = data.get("content", data) if isinstance(data, dict) else data
         logger.info(f"기관 목록: {len(orgs)}개")
         return orgs
 
@@ -297,7 +319,13 @@ class FedernetClient:
         return result
 
     def import_estimation(self, full_spec: dict) -> dict:
-        """Estimation Import (export JSON 형식)"""
+        """Estimation Import (export JSON 형식)
+
+        ⚠️ 주의: `/estimation/import` 엔드포인트는 endpoints CSV 에서 used_in_project=N
+        (프로덕션 미검증)이다. 검증된 프로덕션 등록 방식은
+        `GET /estimation/{id}/copy → PUT /estimation/{id}` copy+PUT 패턴이며,
+        `data/scripts/v4_phase_b_build.py` 및 KB §1.1 참조. 신규 코드는 그 패턴을 권장.
+        """
         resp = self.session.post(f"{self.webapi_url}/estimation/import", json=full_spec)
         resp.raise_for_status()
         result = resp.json()
@@ -360,7 +388,7 @@ class FedernetClient:
                 info = self.get_estimation_generation_info(gen_id)
                 status = info.get("status", {}).get("name", "UNKNOWN")
 
-                if status == "COMPLETE":
+                if status.startswith("COMPLET"):  # COMPLETE / COMPLETED 모두 허용
                     logger.info(f"Estimation {estimation_id} 완료")
                     return info
                 elif status in ("FAILED", "CANCELED"):
@@ -418,26 +446,36 @@ class FedernetClient:
         """
         groups = self.get_analysis_executions(project_id, analysis_id)
 
-        latest_by_cdm = {}
+        # cdm별 전체 execution 수집 → id 순 정렬 후 '최신'을 채택.
+        # (기존 버그: content[] 첫 execution 을 채택 → 재실행 시 구버전 상태 보고)
+        by_cdm = {}
         for group in groups:
             for ex in group.get("executionList", []):
                 cdm = ex.get("cdmName", "?")
-                if cdm not in latest_by_cdm:
-                    latest_by_cdm[cdm] = ex
+                by_cdm.setdefault(cdm, []).append(ex)
+
+        latest_by_cdm = {}
+        for cdm, execs in by_cdm.items():
+            execs_sorted = sorted(execs, key=lambda e: (e.get("id") or 0))
+            chosen = execs_sorted[-1]
+            # preempted-duplicate CANCELED walk-back (KB §2.4a):
+            # bulk POST 안전검증 시 생성된 즉시 CANCELED(startedAt/completedAt 모두 None)
+            # execution 이 최신이면, 그 직전의 실제 execution 을 라이브 상태로 채택.
+            if (len(execs_sorted) >= 2
+                    and chosen.get("executionStatus") == "CANCELED"
+                    and chosen.get("startedAt") is None
+                    and chosen.get("completedAt") is None):
+                for ex in reversed(execs_sorted[:-1]):
+                    if not (ex.get("executionStatus") == "CANCELED"
+                            and ex.get("startedAt") is None
+                            and ex.get("completedAt") is None):
+                        chosen = ex
+                        break
+            latest_by_cdm[cdm] = chosen
 
         counts = {"COMPLETE": 0, "RUNNING": 0, "FAILED": 0, "WAITING": 0, "CANCELED": 0}
         for ex in latest_by_cdm.values():
-            status = ex.get("executionStatus", "")
-            if status == "FINISHED_SUCCESSFULLY":
-                counts["COMPLETE"] += 1
-            elif status == "EXECUTING_DOCKER":
-                counts["RUNNING"] += 1
-            elif status == "WAITING":
-                counts["WAITING"] += 1
-            elif status == "CANCELED":
-                counts["CANCELED"] += 1
-            else:
-                counts["FAILED"] += 1
+            counts[classify_execution_status(ex.get("executionStatus", ""))] += 1
 
         return {"by_cdm": latest_by_cdm, "counts": counts, "total": len(latest_by_cdm)}
 
@@ -716,7 +754,11 @@ class FedernetClient:
             return False
 
     def refresh_token(self):
-        """토큰 갱신"""
+        """토큰 갱신
+
+        ⚠️ 미사용(dead) + 미검증 엔드포인트. `/user/refresh` 는 endpoints CSV/KB 에
+        문서화되어 있지 않다. 세션 만료 대응이 필요하면 login_portal 재호출을 사용할 것.
+        """
         try:
             resp = self.session.get(f"{self.webapi_url}/user/refresh", timeout=10)
             if resp.status_code == 200:

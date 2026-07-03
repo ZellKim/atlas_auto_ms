@@ -43,17 +43,15 @@ def cmd_run(args):
 
 def cmd_status(args):
     """실행 상태 확인"""
-    from atlas_auto.client import FedernetClient
+    from atlas_auto.client import FedernetClient, classify_execution_status
 
     config = _load_config(args.config)
     client = _login(config)
 
     summary = client.get_analysis_execution_summary(args.project, args.analysis)
 
-    status_order = {
-        "EXECUTING_DOCKER": 0, "WAITING": 1, "FINISHED_SUCCESSFULLY": 2,
-        "FINISHED_WITH_ERROR": 3, "CANCELED": 4,
-    }
+    # 정렬 우선순위는 요약 버킷(classify) 기준 — 원시 상태값 누락으로 인한 오정렬 방지.
+    bucket_order = {"RUNNING": 0, "WAITING": 1, "COMPLETE": 2, "FAILED": 3, "CANCELED": 4}
 
     print("=" * 100)
     print(f"Project {args.project} / Analysis {args.analysis} 실행 현황")
@@ -63,7 +61,8 @@ def cmd_status(args):
 
     sorted_cdms = sorted(
         summary["by_cdm"].items(),
-        key=lambda x: status_order.get(x[1].get("executionStatus", ""), 99),
+        key=lambda x: bucket_order.get(
+            classify_execution_status(x[1].get("executionStatus", "")), 99),
     )
 
     for cdm, ex in sorted_cdms:
@@ -72,13 +71,7 @@ def cmd_status(args):
         started = (ex.get("startedAt") or "?")[:16]
         exec_time = ex.get("executingTime") or "-"
 
-        tag_map = {
-            "FINISHED_SUCCESSFULLY": "COMPLETE",
-            "EXECUTING_DOCKER": "RUNNING",
-            "WAITING": "WAITING",
-            "CANCELED": "CANCELED",
-        }
-        tag = tag_map.get(status, "FAILED")
+        tag = classify_execution_status(status)
         print(f"{tag:<12} {org:<30} {cdm:<28} {started:<18} {exec_time:<12}")
 
     print("-" * 100)

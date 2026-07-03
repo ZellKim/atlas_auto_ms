@@ -126,7 +126,9 @@ def flatten_latest_per_cdm(groups):
 def classify(status):
     if status == 'FINISHED_SUCCESSFULLY':
         return 'COMPLETE'
-    if status in ('EXECUTING_DOCKER', 'RUNNING'):
+    # SAVING_RESULT_FILES 는 결과 저장 중인 정상 활성 상태 → RUNNING (FAILED 아님).
+    # 누락 시 저장 중 site 가 재시도 대상이 되어 실행 중 execution 위에 중복 POST 됨.
+    if status in ('EXECUTING_PREPARING', 'EXECUTING_DOCKER', 'SAVING_RESULT_FILES', 'RUNNING'):
         return 'RUNNING'
     if status == 'WAITING':
         return 'WAITING'
@@ -231,7 +233,11 @@ def handle_analysis(client, est_name, info, state):
             files = list_files(client, aid, eid)
             if not files:
                 continue
-            fid = files[0].get('id')
+            # result.zip 우선 선택 (files[0] 무조건 채택 시 로그/보조 파일을 받을 위험)
+            chosen_file = next(
+                (f for f in files if str(f.get('fileName', '')).lower() == 'result.zip'),
+                files[0])
+            fid = chosen_file.get('id')
             if fid is None:
                 continue
             out_dir = os.path.join(RESULT_DIR, est_name)
@@ -254,9 +260,13 @@ def handle_analysis(client, est_name, info, state):
             if n >= MAX_RETRIES:
                 continue
             code, body = re_trigger_site(client, aid, research_name, cdm_id)
-            st['retries'][sid] = n + 1
-            retries_done += 1
-            print(f'  ↻ retry #{n+1} {org} (cdm={cdm_id}): {code}')
+            # POST 성공(2xx)일 때만 retry budget 소모 — 실패 시 다음 poll 에서 재시도.
+            if 200 <= code < 300:
+                st['retries'][sid] = n + 1
+                retries_done += 1
+                print(f'  ↻ retry #{n+1} {org} (cdm={cdm_id}): {code}')
+            else:
+                print(f'  ✗ retry POST 실패 {org} (cdm={cdm_id}): {code} {body} — budget 미소모')
 
     print(f'  retries_done_this_run={retries_done}, new_downloads={1 if downloaded_any_new else 0}')
 

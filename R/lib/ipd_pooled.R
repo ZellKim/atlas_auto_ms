@@ -292,8 +292,11 @@ ipd_cox_outcomes <- function(matched, outcomes, outcome_ids,
     d <- merge(matched[, c("rowId", "treatment", "daysToObsEnd", "site")],
                firstEv, by = "rowId", all.x = TRUE)
     d$maxFU <- pmin(d$daysToObsEnd, risk_end)
-    d <- d[d$maxFU > 0, ]
-    d$event <- as.integer(!is.na(d$tte) & d$tte <= d$maxFU)
+    # left-truncation: time-window(risk_start > 1) 시작 전 관찰이 끝난 대상 제외.
+    # risk_start = 1 이면 (maxFU > 0 & maxFU >= 1) == (maxFU > 0) [정수 일수]이므로
+    # primary 결과는 bit-for-bit 불변. archive(v4_ipd_supplemental.R:239)에서 이식.
+    d <- d[d$maxFU > 0 & d$maxFU >= risk_start, ]
+    d$event <- as.integer(!is.na(d$tte) & d$tte <= d$maxFU & d$tte >= risk_start)
     d$time  <- ifelse(d$event == 1, d$tte, d$maxFU)
     d$time  <- pmax(d$time, 0.5)
 
