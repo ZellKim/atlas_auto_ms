@@ -13,6 +13,7 @@
 | **기관 총 환자수·데이터 기간·DB명** | `data/site_mapping/site_summary_23.csv` |
 | PRESET FA 목록 (105개) | `data/atlas_reference/atlas_preset_fa_list.csv` |
 | ETRI measurement 리스트 | `data/atlas_reference/etri_measurement_list.csv` |
+| **FeatureExtraction analysis_id 정본** (covariate_id 디코드용, 118행) | `data/atlas_reference/featureextraction_analysis_ref.csv` (OHDSI FeatureExtraction `PrespecAnalyses.csv` 원본. `covariate_id = concept_id × 1000 + analysisId`) |
 | **Measurement 연구 시작 키트** | `data/measurement/` (README 있음) |
 | - 기관별 biomarker 최종 선택 | `data/measurement/site_concept_matrix.csv` |
 | - biomarker 안정성 요약 | `data/measurement/stability_summary.csv` |
