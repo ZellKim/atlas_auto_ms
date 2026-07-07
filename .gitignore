@@ -18,6 +18,7 @@ build/
 .idea/
 *.swp
 .codex/
+.codex-remote-attachments/
 
 # OS
 Thumbs.db
@@ -65,6 +66,10 @@ docs/irb_*.md
 data/v4_*_raw.json
 data/v4_monitor_state.json
 data/v4_2_monitor_state.json
+data/v4_*_monitor_state*.json*
+data/v4_monitor_state_pid*.json
+data/*monitor_state_pid*.json
+data/v4*_retrigger*_log.json
 data/measurement/raw_drilldown/
 data/measurement/characterization/raw_3sites/
 reference/
