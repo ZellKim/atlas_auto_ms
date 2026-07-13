@@ -110,5 +110,8 @@ R/archive/pooled_analysis/matched_results_cyclops_v7/
 # /understand 지식 그래프 스크래치·출력 (regenerable — 사람용 기록은 docs/architecture_overview.md)
 .understand-anything/
 
+# Codex isolated implementation worktrees
+.worktrees/
+
 # 발표자료 (연구 자산 아님 — .pptx/슬라이드 이미지)
 CDM발표/
