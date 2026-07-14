@@ -13,7 +13,7 @@
 2. 중복된 `automation/feedernet_client.py`와 `src/atlas_auto/client.py`의 구현 차이를 제거한다.
 3. 단일기관 분석 lifecycle과 다기관 배포 orchestration을 HTTP client에서 분리한다.
 4. 재실행 시 불필요한 FA, Characterization, generation 중복 생성을 줄인다.
-5. 완료 대기와 결과 페이지 수집을 재현 가능한 코드로 남긴다.
+5. 완료 대기와 결과 수집을 재현 가능한 코드로 남긴다.
 6. API 동작을 실제 서버 쓰기 없이 자동 테스트할 수 있게 한다.
 
 원시 HTTP 속도 개선은 목표가 아니다. 동일한 `requests.Session`을 사용하므로 단순 메서드 호출 전환만으로 네트워크 왕복 횟수는 줄지 않는다. 속도 개선은 중복 작업 방지와 중단 지점 재개에서 얻는다.
@@ -77,10 +77,10 @@
 - `generate_characterization(characterization_id, source_key)`
 - `get_characterization_generations(characterization_id)`
 - `get_characterization_result_count(generation_id)`
-- `get_characterization_result_page(generation_id, page=0, size=500)`
+- `get_characterization_results(generation_id, threshold_level=0.01)`
 - `delete_characterization_generation(generation_id)`
 
-목록 응답은 WebAPI가 list를 반환하든 `{"content": [...]}` Page를 반환하든 list로 정규화한다. 결과 페이지 메서드는 원 응답을 보존하고 서비스가 `content`를 정규화한다.
+목록 응답은 WebAPI가 list를 반환하든 `{"content": [...]}` Page를 반환하든 list로 정규화한다. WebAPI 2.12의 결과 GET은 pagination을 받지 않고 전체 `List<CcResult>`를 반환하므로 `size`나 `page`를 보내지 않는다.
 
 ### 4.2 `CharacterizationService`: 단일기관 lifecycle
 
@@ -92,7 +92,7 @@
 - 새 FA 처리 중 실패하면 그 실행에서 생성한 FA만 best-effort 삭제
 - Characterization create 또는 import
 - source별 기존 generation의 상태를 보고 재사용·대기·재실행 결정
-- 완료 대기와 전체 결과 페이지 수집
+- 완료 대기와 전체 결과 수집
 
 FA payload 변환은 연구별 규칙을 서비스에 하드코딩하지 않는다. 서비스는 `prepare_first(copy_payload)`와 선택적 `prepare_second(first_update_response)` callable을 받아 기존 스크립트의 검증된 payload 조립 코드를 그대로 사용할 수 있게 한다.
 
@@ -124,7 +124,7 @@ credential 취득은 기존 원칙대로 `automation/credentials.py`를 사용�
 새 저수준 메서드는 private 공통 요청 함수를 사용한다.
 
 - 기본 timeout: connect 10초, read 30초
-- 결과 페이지 조회: connect 10초, read 120초
+- 결과 조회: connect 10초, read 120초
 - 오류에는 HTTP method, credential이 제거된 endpoint path, status, 응답 본문 앞부분만 포함
 - cookie, Authorization header, 비밀번호, 전체 연구 payload는 오류와 로그에 기록하지 않음
 - JSON이 필요한 성공 응답이 비어 있거나 JSON이 아니면 구조화된 client 오류 발생
@@ -160,7 +160,7 @@ source key가 같은 최신 generation을 기준으로 판단한다.
 
 - `COMPLETE`: 결과를 재사용하고 새 generation을 만들지 않음
 - 실행 중 상태: 기존 generation을 기다림
-- `FAILED` 또는 `CANCELED`: 새 generation 시작
+- WebAPI 2.12의 `ERROR` 또는 호환 응답의 `FAILED`, `CANCELED`: 새 generation 시작
 - generation 없음: 새 generation 시작
 - `force=True`: 상태와 관계없이 새 generation 시작
 
@@ -185,7 +185,7 @@ source key가 같은 최신 generation을 기준으로 판단한다.
 - 안전한 조회의 일시 오류 재시도
 - FA copy와 Characterization generate의 재시도 금지
 - 오류 메시지의 credential·payload 비노출
-- 결과 count와 페이지 처리
+- 결과 count와 전체 list 처리
 
 `tests/test_characterization_service.py`:
 
@@ -193,7 +193,7 @@ source key가 같은 최신 generation을 기준으로 판단한다.
 - FA 2단계 PUT 순서
 - 1차 또는 2차 PUT 실패 시 신규 FA 정리
 - COMPLETE/RUNNING/FAILED/CANCELED/unknown generation 처리
-- 결과 페이지 전체 수집
+- 결과 전체 수집
 
 `tests/test_multisite_characterization.py`:
 
@@ -219,7 +219,7 @@ source key가 같은 최신 generation을 기준으로 판단한다.
 1. 네 Characterization 스크립트에 Feature Analysis / Characterization 직접 session 호출이 없다.
 2. legacy와 package import가 동일한 canonical class를 사용한다.
 3. 기존 FA 1단계·2단계 update 흐름과 기관별 계속 진행이 테스트로 고정된다.
-4. Characterization generation 완료 대기와 결과 페이지 수집을 package API로 수행할 수 있다.
-5. `python -m pip install -e ".[dev]"`, 전체 pytest, Ruff, 대상 파일 compile 검증을 통과한다.
+4. Characterization generation 완료 대기와 결과 수집을 package API로 수행할 수 있다.
+5. `python -m pip install -e ".[dev]"`, 전체 package pytest, 변경 대상 Ruff, 대상 파일 compile 검증을 통과한다. 기존 범위 밖 Ruff 오류는 별도로 기록한다.
 6. 실제 Feedernet 쓰기 없이 모든 자동 검증이 완료된다.
 7. 사용자 미커밋 변경과 관련 없는 파일을 되돌리거나 포함하지 않는다.
