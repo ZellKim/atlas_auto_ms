@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas-auto/study-kickoff/study_design_spec.schema.json",
+  "title": "study-kickoff Design Spec Contract",
+  "description": "Phase 1(Interview) 산출 = 설계 single source of truth. study 블록은 paper-writing L1 계약의 study 블록과 동일 구조(상위집합) → 설계 완료 후 results만 채우면 논문으로 무손실 연결. 미확인 값은 문자열 필드에 '[UNVERIFIED: 출처?]' 마커 허용.",
+  "type": "object",
+  "required": ["spec_meta", "study"],
+  "additionalProperties": false,
+  "properties": {
+    "spec_meta": {
+      "type": "object",
+      "required": ["study_code", "version", "mode", "approval_status"],
+      "properties": {
+        "study_code": { "type": "string", "description": "studies/{study_code}/ 디렉토리명 (e.g., allergic_diseases)" },
+        "version": { "type": "string", "description": "예: v1 (신규) / v2 (활성 연구 재점검)" },
+        "mode": { "enum": ["new", "active-recheck"], "description": "신규 vs 활성 연구 재적용" },
+        "approval_status": {
+          "enum": ["draft", "pending approval", "approved"],
+          "description": "Phase 2 승인 전엔 draft/pending. approved 전 cohort 생성·feedernet 실행 금지."
+        },
+        "irb_number": { "type": ["string", "null"], "description": "예: KHNMC IRB 2025-xx-xxx (미정이면 null)" },
+        "site_set": {
+          "type": "object",
+          "required": ["source_keys", "rationale"],
+          "properties": {
+            "source_keys": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "대상 site sourceKey 목록. data/site_mapping/source_key_mapping.csv 로 검증."
+            },
+            "n_sites": { "type": "integer" },
+            "rationale": { "type": "string", "description": "왜 이 site 집합인가 (concept/event 가용성 근거). 위반 전례: appendectomy 22→15 뒤늦게 확정." }
+          }
+        }
+      }
+    },
+    "study": {
+      "type": "object",
+      "description": "paper-writing study_input.schema.json 의 study 블록과 동일 필드 구조.",
+      "required": ["design", "data_source", "population", "exposure", "outcome", "covariates", "analysis"],
+      "properties": {
+        "design": { "type": "string" },
+        "data_source": {
+          "type": "object",
+          "required": ["name", "n_sites"],
+          "properties": {
+            "name": { "type": "string" },
+            "n_sites": { "type": "integer" },
+            "period_start": { "type": "string" },
+            "period_end": { "type": "string" },
+            "cdm_version": { "type": "string" }
+          }
+        },
+        "population": {
+          "type": "object",
+          "required": ["inclusion", "exclusion"],
+          "properties": {
+            "inclusion": { "type": "array", "items": { "type": "string" } },
+            "exclusion": { "type": "array", "items": { "type": "string" } },
+            "index_event": { "type": "string", "description": "index date 정의" },
+            "n_target": { "type": ["integer", "null"], "description": "설계 단계 미확정이면 null" },
+            "n_comparators": { "type": "object", "patternProperties": { "^[a-z_]+$": { "type": ["integer", "null"] } } }
+          }
+        },
+        "exposure": {
+          "type": "object",
+          "required": ["target", "comparators"],
+          "properties": {
+            "target": { "type": "string" },
+            "comparators": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "rationale"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "rationale": { "type": "string" }
+                }
+              }
+            },
+            "operationalization": { "type": "string", "description": "OMOP cohort 정의 참조 (concept_id list). data/ 조회 후 기재." }
+          }
+        },
+        "outcome": {
+          "type": "object",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "definition", "endpoint_type"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "definition": { "type": "string" },
+                  "endpoint_type": { "enum": ["time-to-event", "binary", "continuous"] },
+                  "followup_days": { "type": ["integer", "null"] }
+                }
+              }
+            },
+            "secondary": { "type": "array", "items": { "type": "object" } },
+            "negative_controls": {
+              "type": "array",
+              "items": { "type": "object" },
+              "description": "NC outcomes for empirical calibration (Schuemie). 설계 단계에서 후보 목록 확정."
+            }
+          }
+        },
+        "covariates": { "type": "array", "items": { "type": "string" } },
+        "analysis": {
+          "type": "object",
+          "required": ["matching", "primary_model", "calibration"],
+          "properties": {
+            "matching": { "type": "string" },
+            "primary_model": { "type": "string" },
+            "calibration": { "type": "string" },
+            "sensitivity": { "type": "array", "items": { "type": "string" } },
+            "subgroups": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "hypotheses": {
+      "type": "object",
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
