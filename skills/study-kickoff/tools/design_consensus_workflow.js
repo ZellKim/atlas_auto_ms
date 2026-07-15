@@ -95,10 +95,15 @@ const gate = blocks.length > 0 ? 'ITERATE' : 'PASS'
 
 log(`iteration ${iter}: ${gate} — BLOCK=${blocks.length} WATCH=${watches.length} CLEAR=${verdicts.length - blocks.length - watches.length}`)
 
+// severity별 집계는 verdict가 아니라 finding.severity로 — BLOCK verdict 안의
+// watch-severity finding도 놓치지 않게 전체 verdict를 훑는다.
+const allFindings = verdicts.flatMap((v) => (v.findings || []).map((f) => ({ lens: v.lens, ...f })))
+
 return {
   iteration: iter,
   gate, // PASS → reconciliation+승인 단계로 / ITERATE → spec 수정 후 재실행 (최대 5)
   verdicts,
-  blocking_findings: blocks.flatMap((v) => v.findings.filter((f) => f.severity === 'block').map((f) => ({ lens: v.lens, ...f }))),
-  watch_findings: watches.flatMap((v) => v.findings.filter((f) => f.severity === 'watch').map((f) => ({ lens: v.lens, ...f }))),
+  blocking_findings: allFindings.filter((f) => f.severity === 'block'),
+  watch_findings: allFindings.filter((f) => f.severity === 'watch'),
+  note_findings: allFindings.filter((f) => f.severity === 'note'),
 }
