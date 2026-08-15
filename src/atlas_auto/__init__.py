@@ -13,6 +13,14 @@ from atlas_auto.characterization import (
     GenerationResult,
 )
 from atlas_auto.attrition import cumulative_attrition, format_attrition
+from atlas_auto.concept_coverage import (
+    CoverageRow,
+    concept_name_from_path,
+    coverage_by_group,
+    load_group_map,
+    parse_site_frequency,
+    uncovered_groups,
+)
 from atlas_auto.generation_safety import (
     GenerationNotValidError,
     assert_generation_valid,
@@ -79,6 +87,13 @@ __all__ = [
     # attrition — never chain countSatisfying; read treemapData bit strings
     "cumulative_attrition",
     "format_attrition",
+    # concept_coverage — a whitelist set is silent where a site's mapping misses
+    "CoverageRow",
+    "concept_name_from_path",
+    "coverage_by_group",
+    "load_group_map",
+    "parse_site_frequency",
+    "uncovered_groups",
     # study_runner — build→deploy→inspect→trigger→capture→monitor→snapshot
     "STAGES",
     "StageOrderError",

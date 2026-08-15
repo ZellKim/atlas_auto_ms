@@ -89,6 +89,7 @@
 | 2026-08-15 | create 응답 유실 시 blind retry = 서버 객체 중복 | `study_runner.StudyRun.creating` / `assert_no_uncertain_create` |
 | 2026-08-15 | live 정의가 prepared와 달라진 채 실행 | `study_runner.StudyRun.assert_definition_unchanged` |
 | 2026-08-16 | feature 행은 코호트 분할이 아님 (중복 membership) | `characterization_safety.membership_overlap` |
+| 2026-08-16 | whitelist concept set 다기관 커버리지는 중앙에서 확인. concept **개수**는 코딩 입도이지 포착률이 아님 | `atlas_auto.concept_coverage`, `data/scripts/audit_concept_whitelist_coverage.py`, `system_knowledge_base.md` §4.3 |
 
 **2026-08-16 승격 사례 — 이 프로토콜이 작동한 첫 건.**
 "feature 행은 분할이 아니다"는 이미 알려져 있었고 `build_khnmc_v1_15_persistence_by_drug.py`에

@@ -38,6 +38,13 @@ GUARDS = [
     # attrition: never chain countSatisfying
     "cumulative_attrition",
     "format_attrition",
+    # concept_coverage: a whitelist concept set is silent when a site misses it
+    "CoverageRow",
+    "concept_name_from_path",
+    "coverage_by_group",
+    "load_group_map",
+    "parse_site_frequency",
+    "uncovered_groups",
     # study_runner: the required deploy-inspect-trigger-monitor sequence
     "STAGES",
     "StageOrderError",

@@ -488,6 +488,43 @@ GLP-1 3기관 실측 — Achilles 추정 vs cohort generation 실제 (`studies/S
 
 ---
 
+### 4.3 Whitelist concept set 다기관 커버리지 (2026-08-16 확립)
+
+`includeDescendants=false`인 고정 concept set은 **whitelist**다. 기관 로컬 매핑이
+그 밖으로 가면 그 기관은 코호트에 아무도 기여하지 않고, **에러도 경고도 없다.**
+N만 작아지고 그게 진료 차이로 읽힌다.
+
+```
+python data/scripts/audit_concept_whitelist_coverage.py
+```
+
+`data/concept_frequency/by_site/*.csv`로 **중앙에서** 확인한다. 기관에 감사를
+시킬 일이 아니다. 헬퍼는 `atlas_auto.concept_coverage`.
+
+**⛔ concept 개수를 커버리지로 읽지 말 것 — 그건 코딩 입도를 잰다.**
+2026-08-16 실측(fracture whitelist 85개): KHNMC 57, DSMC 32로 보여서 DSMC가
+환자를 잃는 것처럼 보였지만 **틀렸다**. KHNMC는 요추 골절을 5개 concept으로
+쪼개 쓰고(분절 전체 + 제1~4요추) DSMC는 1개(`Fracture of lumbar spine`)로 쓴다.
+같은 패턴이 세트 전체에 걸쳐 있다 — KHNMC는 `Closed fracture of X`, DSMC는
+`Fracture of X`를 쓰고 **whitelist는 양쪽을 다 담고 있다.**
+
+**판정 지표는 "부위 그룹 중 concept이 0개인 것"이다.** 연구가 보고하는 부위가
+그 기관에서 안 보인다는 뜻. 실측 결과 **23기관 전부 7/7 부위 커버, 미커버 0**.
+
+두 가지 한계를 인용 시 반드시 같이 적을 것:
+- 스냅샷에 소셀 바닥이 있다 (전 기관 `numPersons` 최소 6). 모든 수치는 하한.
+- 스냅샷은 DB 전체지 연구 코호트가 아니다. 커버됨은 코호트가 찬다는 증명이 아니고,
+  미커버는 안 찬다는 강한 증거다.
+
+부수 실측: **sacrum이 전 기관에서 얇다** (최소 37명 KCCH, 중앙값 527). KCCH는
+전 부위가 얇다. 부위별 보고 시 소셀 억제 대상.
+
+**함정**: `by_site/*.csv`의 concept 이름은 `conceptPath`의 마지막 `||` 세그먼트다.
+`name`이 들어간 컬럼은 없다. 이걸 놓치면 이름이 하나도 안 읽히고,
+"이 기관엔 골절 concept이 없다"는 정반대 결론이 나온다 (2026-08-16 실제 발생).
+
+---
+
 ## 5. 분석 방법론
 
 ### 5.1 IPD Pooled Analysis (기본)
