@@ -82,6 +82,31 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 **위반 전례**:
 - 2026-08-03: Semaglutide 타당성검토 의뢰자 회신문을 프로토콜 없이 작성 → 판정 체계 누락(GO/REVISE/STOP), 기관 한글명 6곳 추측으로 오기(KDH를 경기도의료원으로), "데이터 없음"과 "처방 기록 미확인"을 구분 안 함 → 재작성. 이후 프로토콜로 정립.
 
+## ⛔ git 디렉터리는 로컬 디스크에 있다 (2026-08-15)
+
+**작업 트리는 Drive, `.git`은 로컬.** repo 루트의 `.git`은 디렉터리가 아니라
+`gitdir: C:/dev/atlas_auto_gitdir`를 담은 **포인터 파일**이다.
+
+```
+C:\dev\atlas_auto_gitdir\                 ← git 실체 (157 MB, 로컬 디스크)
+G:\...\atlas_auto_with_claude\
+  .git                                    ← 포인터 파일
+  src/ data/ studies/ ...                 ← 작업 트리 (Drive 백업 유지)
+```
+
+- 이유: repo가 Google Drive에 있어 git **lock 경합**이 발생했다. 6주 묵은
+  `packed-refs.lock`이 ref 쓰기를 막고 있었고 커밋도 걸렸다. lock은 전부 `.git`
+  안에 살므로 그것만 로컬로 옮겨 원인을 제거했다. 절대경로 수정은 0곳.
+- `core.worktree`는 **worktree 스코프**에 설정돼 있다 (`extensions.worktreeConfig=true`).
+  공유 config에 넣으면 linked worktree 2개가 오염된다.
+- `git worktree list`가 main worktree를 `C:/dev/atlas_auto_gitdir`로 표시하는 건
+  separate-gitdir의 표시 특성이며 동작에 영향 없다. `git rev-parse --show-toplevel`이
+  정본이다.
+- **`.git` 포인터 파일을 지우거나 디렉터리로 바꾸지 말 것.** repo가 끊긴다.
+- 되돌리려면: `C:\dev\atlas_auto_gitdir`를 repo 루트에 `.git`으로 복사하고
+  포인터 파일을 제거한 뒤 `git worktree repair`.
+- 백업 사본: `C:\dev\_atlas_auto_git_backup_20260815` (이동 직전 상태).
+
 ## 대화 시작 시
 
 1. `cat docs/system_knowledge_base.md` — API 레시피, 운영 지식, 체크리스트

@@ -114,6 +114,9 @@ R/archive/pooled_analysis/matched_results_cyclops_v7/
 .worktrees/
 .claude/worktrees/
 
+# 2026-08-15 gitdir 분리 잔여 빈 디렉터리 (Drive 잠금으로 즉시 삭제 불가)
+_git_old_*/
+
 # 연구별 버전 테스트 (Drive 백업, git 미추적).
 # studies/{연구}/scripts/*를 import하는데 studies/ 자체가 미추적이므로,
 # 커밋하면 fresh clone에서 통과할 수 없는 suite가 된다. 각 디렉터리의
