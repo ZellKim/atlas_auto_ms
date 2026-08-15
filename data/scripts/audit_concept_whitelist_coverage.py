@@ -1,4 +1,4 @@
-"""Audit a whitelist concept set's coverage across every site snapshot.
+﻿"""Audit a whitelist concept set's coverage across every site snapshot.
 
 A cohort built on a fixed concept set with `includeDescendants=false` is a
 whitelist: a site whose local source-code mapping lands outside it contributes
@@ -24,8 +24,12 @@ deliberately holds both the `Closed fracture of X` and plain `Fracture of X`
 members of each pair. Grouped by body site both are covered. The finding that
 requires action is `uncovered_groups` being non-empty.
 
+It also audits every other whitelist concept set the deployed cohorts carry, so
+an exclusion criterion that matches nothing at a site is surfaced rather than
+silently excluding nobody.
+
 Two limits carry into any figure quoted from here. The snapshots have a
-small-cell floor — every site's minimum `numPersons` is 6 — so each count is a
+small-cell floor - every site's minimum `numPersons` is 6 - so each count is a
 lower bound. And a snapshot counts the whole database, not the study cohort, so
 a covered group is not proof the cohort will populate; an uncovered one is
 strong evidence it will not.
@@ -34,6 +38,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import sys
 from pathlib import Path
 
@@ -41,11 +46,22 @@ REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO / "src"))
 
 from atlas_auto.concept_coverage import (  # noqa: E402
+    concept_set_coverage,
     coverage_by_group,
     load_group_map,
     parse_site_frequency,
     uncovered_groups,
+    whitelist_concept_sets,
 )
+
+DEFAULT_COHORTS = (
+    REPO / "studies" / "fracture_treatment" / "portable_assets" / "cohorts"
+)
+
+DOMAIN_FILE = {
+    "Condition": "condition", "Drug": "drug", "Procedure": "procedure",
+    "Measurement": "measurement", "Observation": "observation",
+}
 
 DEFAULT_AUDIT = (
     REPO / "studies" / "fracture_treatment" / "extracted_concepts"
@@ -74,6 +90,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--domain", default="condition",
                         help="which snapshot domain to read (default: condition)")
     parser.add_argument("--group-column", default="site_sets")
+    parser.add_argument("--cohorts", type=Path, default=DEFAULT_COHORTS,
+                        help="deployed cohort JSONs; every whitelist concept "
+                             "set in them is audited too")
     parser.add_argument("--out-dir", type=Path, default=None,
                         help="defaults to the audit table's directory")
     args = parser.parse_args(argv)
@@ -159,7 +178,81 @@ def main(argv: list[str] | None = None) -> int:
         print("An uncovered group means the study reports on a body site that is "
               "invisible at that institution. Confirm with a live Achilles "
               "drilldown before acting; the snapshot has a 6-person floor.")
+
+    if args.cohorts and args.cohorts.is_dir():
+        audit_every_whitelist_set(args)
     return 0
+
+
+def audit_every_whitelist_set(args) -> None:
+    """Every whitelist concept set in the deployed cohorts, at every site.
+
+    The body-site check above answers one question. A cohort carries many more
+    concept sets, and each one that is a whitelist can fail the same way. An
+    exclusion criterion whose set matches nothing at a site does not raise; it
+    silently excludes nobody, and the cohort then means a different thing there.
+
+    Judging a zero needs the clinical prior. For a rare disease, matching nothing
+    is expected and harmless ??excluding zero patients equals not excluding. For
+    a common condition it means the criterion is inert, which is a real
+    cross-site difference in what the cohort selects.
+    """
+    bodies = []
+    for path in sorted(args.cohorts.glob("*.json")):
+        bodies.append(json.loads(path.read_text(encoding="utf-8")))
+    sets = whitelist_concept_sets(bodies)
+    if not sets:
+        return
+
+    print()
+    print("=" * 78)
+    print(f"whitelist concept sets in {len(bodies)} deployed cohorts: {len(sets)}")
+    print("(sets with includeDescendants=true are robust and are not listed)")
+    print()
+
+    snapshots: dict[tuple[str, str], dict[int, tuple[int, str]]] = {}
+    sites = set()
+    for path in args.snapshots.glob("*_*.csv"):
+        site, domain = path.name[:-4].split("_", 1)
+        if domain not in DOMAIN_FILE.values():
+            continue
+        snapshots[(site, domain)] = parse_site_frequency(path)
+        sites.add(site)
+    sites = sorted(sites)
+
+    out_rows = []
+    print(f"{'concept set':<52}{'n':>4}{'domain':>11}  sites matching nothing")
+    print("-" * 108)
+    for name, spec in sorted(sets.items(), key=lambda kv: -len(kv[1].concept_ids)):
+        domain_file = DOMAIN_FILE.get(spec.domain or "")
+        if domain_file is None:
+            print(f"{name[:52]:<52}{len(spec.concept_ids):>4}"
+                  f"{str(spec.domain):>11}  (no snapshot for this domain)")
+            continue
+        empty = []
+        for site in sites:
+            seen = snapshots.get((site, domain_file), {})
+            row = concept_set_coverage(site, seen, {name: spec.concept_ids})[0]
+            out_rows.append(row)
+            if row.concepts_seen == 0:
+                empty.append(site)
+        print(f"{name[:52]:<52}{len(spec.concept_ids):>4}{spec.domain:>11}  "
+              f"{(str(len(empty)) + ': ' + ','.join(empty)) if empty else '-'}")
+
+    out_dir = args.out_dir or args.audit.parent
+    path = out_dir / f"{args.audit.stem}_concept_set_coverage.csv"
+    with open(path, "w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["site", "concept_set", "concepts_seen",
+                         "concepts_total", "persons"])
+        for row in out_rows:
+            writer.writerow([row.site, row.group, row.concepts_seen,
+                             row.concepts_total, row.persons])
+    print()
+    print(f"wrote {path.relative_to(REPO)}")
+    print("A zero is only actionable once you know whether the condition is rare "
+          "at that site. Excluding nobody for a disease nobody has is fine; "
+          "excluding nobody for a common condition changes what the cohort means.")
 
 
 if __name__ == "__main__":

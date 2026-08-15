@@ -523,6 +523,18 @@ python data/scripts/audit_concept_whitelist_coverage.py
 `name`이 들어간 컬럼은 없다. 이걸 놓치면 이름이 하나도 안 읽히고,
 "이 기관엔 골절 concept이 없다"는 정반대 결론이 나온다 (2026-08-16 실제 발생).
 
+**부위 커버리지만 보면 안 된다 — 축(axis)도 봐야 한다.** 같은 도구가 배포 코호트의
+**모든** whitelist concept set을 기관별로 점검한다 (`includeDescendants=true`인
+set은 robust라 제외). Fracture 실측에서 부위는 23/23 통과했지만, open/closed 축을
+보니 DSMC만 open concept 0개 — 골절 환자 27,232명 중 27,201명이 축 없는 일반
+concept이었다. 그 결과 **DSMC 코호트만 open fracture를 index로 받는다**
+(다른 22곳은 open이 별도 concept이라 85 whitelist 밖). DSMC 제외 결정.
+
+**제외 기준 set이 0개 매칭이어도 대부분은 결함이 아니다.** 희귀질환
+(Paget 9기관, osteogenesis imperfecta 6기관 매칭 0)은 스냅샷 6명 바닥 때문이며,
+없는 병을 0명 제외하는 건 안 제외하는 것과 같다. **판별 기준은 "그 질환이 다른
+concept으로 존재하는가"**다. open fracture는 존재해서 문제였고 Paget은 아니다.
+
 ---
 
 ## 5. 분석 방법론

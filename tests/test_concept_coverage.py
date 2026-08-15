@@ -19,9 +19,11 @@ import pytest
 from atlas_auto.concept_coverage import (
     CoverageRow,
     concept_name_from_path,
+    concept_set_coverage,
     coverage_by_group,
     parse_site_frequency,
     uncovered_groups,
+    whitelist_concept_sets,
 )
 
 # Three concepts for one body site, two for another.
@@ -147,3 +149,92 @@ def test_uncovered_groups_are_returned_in_a_stable_order():
 def test_a_group_map_that_is_empty_is_refused():
     with pytest.raises(ValueError):
         list(coverage_by_group("S", {101: (1, "a")}, {}))
+
+
+# ── which concept sets are whitelists at all ──────────────────────────────
+#
+# includeDescendants=true is robust: any descendant of the named concept counts,
+# so a site's choice among siblings does not matter and the snapshots cannot
+# check it anyway. includeDescendants=false is a whitelist and is exactly what
+# needs checking. Separating the two is the first step of any such audit.
+
+
+def _cohort(*concept_sets):
+    return {"expression": {"ConceptSets": list(concept_sets)}}
+
+
+def _cs(name, items):
+    return {
+        "name": name,
+        "expression": {"items": [
+            {"concept": {"CONCEPT_ID": cid, "DOMAIN_ID": domain},
+             "includeDescendants": desc}
+            for cid, domain, desc in items
+        ]},
+    }
+
+
+def test_a_set_with_no_descendants_anywhere_is_a_whitelist():
+    body = _cohort(_cs("exact", [(1, "Condition", False), (2, "Condition", False)]))
+
+    found = whitelist_concept_sets([body])
+
+    assert set(found) == {"exact"}
+    assert found["exact"].concept_ids == {1, 2}
+    assert found["exact"].domain == "Condition"
+
+
+def test_a_set_with_any_descendant_item_is_not_a_whitelist():
+    body = _cohort(_cs("robust", [(1, "Drug", True), (2, "Drug", False)]))
+
+    assert whitelist_concept_sets([body]) == {}
+
+
+def test_an_expression_delivered_as_a_json_string_is_parsed():
+    import json
+    body = {"expression": json.dumps(
+        _cohort(_cs("exact", [(1, "Condition", False)]))["expression"])}
+
+    assert set(whitelist_concept_sets([body])) == {"exact"}
+
+
+def test_sets_with_the_same_name_across_cohorts_are_merged_once():
+    a = _cohort(_cs("shared", [(1, "Condition", False)]))
+    b = _cohort(_cs("shared", [(1, "Condition", False)]))
+
+    found = whitelist_concept_sets([a, b])
+
+    assert found["shared"].used_by_count == 2
+
+
+def test_a_set_with_no_concepts_is_skipped():
+    body = _cohort({"name": "empty", "expression": {"items": []}})
+
+    assert whitelist_concept_sets([body]) == {}
+
+
+# ── per-set coverage ──────────────────────────────────────────────────────
+
+
+def test_concept_set_coverage_reports_one_row_per_set():
+    sets = {"fracture": {101, 102}, "paget": {901}}
+    seen = {101: (500, "a"), 102: (300, "b")}
+
+    rows = {r.group: r for r in concept_set_coverage("SITE", seen, sets)}
+
+    assert rows["fracture"] == CoverageRow("SITE", "fracture", 2, 2, 800)
+    assert rows["paget"] == CoverageRow("SITE", "paget", 0, 1, 0)
+
+
+def test_a_concept_in_two_sets_counts_in_both():
+    """Group maps cannot express this; exclusion sets genuinely overlap."""
+    sets = {"a": {101}, "b": {101}}
+
+    rows = {r.group: r for r in concept_set_coverage("S", {101: (7, "x")}, sets)}
+
+    assert rows["a"].persons == rows["b"].persons == 7
+
+
+def test_an_empty_set_collection_is_refused():
+    with pytest.raises(ValueError):
+        concept_set_coverage("S", {101: (1, "a")}, {})

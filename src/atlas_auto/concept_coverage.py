@@ -34,6 +34,7 @@ Two limits worth stating whenever this is quoted:
 from __future__ import annotations
 
 import csv
+import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Mapping
@@ -127,6 +128,103 @@ def uncovered_groups(rows: Iterable[CoverageRow]) -> list[str]:
     This, not a low concept count, is the finding that requires action.
     """
     return sorted({row.group for row in rows if not row.covered})
+
+
+@dataclass(frozen=True)
+class WhitelistSet:
+    """A concept set that admits only the concepts named in it."""
+
+    name: str
+    concept_ids: frozenset
+    domain: str | None
+    used_by_count: int
+
+
+def _expression_of(body: Mapping[str, Any]) -> dict:
+    expr = body.get("expression", body)
+    if isinstance(expr, str):
+        expr = json.loads(expr)
+    return expr or {}
+
+
+def whitelist_concept_sets(
+    cohort_bodies: Iterable[Mapping[str, Any]],
+) -> dict[str, WhitelistSet]:
+    """The concept sets that are whitelists, keyed by name.
+
+    `includeDescendants=true` on any item makes a set robust: a site coding a
+    descendant still matches, and the local frequency snapshots cannot check it
+    anyway because they do not carry the hierarchy. `includeDescendants=false`
+    everywhere makes the set a whitelist, which is exactly the kind that fails
+    silently when an institution's mapping lands on a sibling.
+
+    Sets appearing in several cohorts are merged and counted once.
+    """
+    concepts: dict[str, set[int]] = {}
+    domains: dict[str, set[str]] = {}
+    descendants: dict[str, set[bool]] = {}
+    uses: dict[str, int] = {}
+
+    for body in cohort_bodies:
+        for concept_set in _expression_of(body).get("ConceptSets", []) or []:
+            name = concept_set.get("name")
+            if not name:
+                continue
+            items = (concept_set.get("expression") or {}).get("items") or []
+            found = set()
+            for item in items:
+                concept = item.get("concept") or {}
+                concept_id = concept.get("CONCEPT_ID")
+                if concept_id is None:
+                    continue
+                found.add(int(concept_id))
+                descendants.setdefault(name, set()).add(
+                    bool(item.get("includeDescendants"))
+                )
+                if concept.get("DOMAIN_ID"):
+                    domains.setdefault(name, set()).add(concept["DOMAIN_ID"])
+            if not found:
+                continue
+            concepts.setdefault(name, set()).update(found)
+            uses[name] = uses.get(name, 0) + 1
+
+    result: dict[str, WhitelistSet] = {}
+    for name, ids in concepts.items():
+        if descendants.get(name) != {False}:
+            continue
+        site_domains = sorted(domains.get(name, ()))
+        result[name] = WhitelistSet(
+            name=name,
+            concept_ids=frozenset(ids),
+            domain=site_domains[0] if len(site_domains) == 1 else None,
+            used_by_count=uses[name],
+        )
+    return result
+
+
+def concept_set_coverage(
+    site: str,
+    seen: Mapping[int, tuple[int, str]],
+    sets: Mapping[str, Iterable[int]],
+) -> list[CoverageRow]:
+    """One row per concept set, however the sets overlap.
+
+    `coverage_by_group` assumes a concept belongs to one group. Exclusion sets
+    genuinely overlap — the same concept can sit in a site set and in an
+    exclusion — so this counts each set independently.
+    """
+    if not sets:
+        raise ValueError("no concept sets given; there is nothing to measure")
+
+    rows = []
+    for name in sorted(sets):
+        ids = list(sets[name])
+        found = [cid for cid in ids if cid in seen]
+        rows.append(CoverageRow(
+            site, name, len(found), len(ids),
+            sum(seen[cid][0] for cid in found),
+        ))
+    return rows
 
 
 def load_group_map(
