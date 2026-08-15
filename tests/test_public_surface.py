@@ -37,6 +37,14 @@ GUARDS = [
     # attrition: never chain countSatisfying
     "cumulative_attrition",
     "format_attrition",
+    # study_runner: the required deploy-inspect-trigger-monitor sequence
+    "STAGES",
+    "StageOrderError",
+    "StudyRun",
+    "UncertainCreateError",
+    "canonical_json",
+    "digest",
+    "write_evidence",
 ]
 
 

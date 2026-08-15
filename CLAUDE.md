@@ -37,11 +37,15 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 - **Cohort/biomarker 매핑 전**: `data/site_mapping/` 우선. `site_concept_matrix.csv`/`stability_summary.csv`는 스냅샷별로 버전됨 → 최신은 `studies/measurement_phenotype_methods/<snapshot>/`, 아카이브는 `data/measurement/archive/2026-04-16_to_18_derived/` 참조.
 
 **⛔ 신규 연구는 기존 `studies/*/scripts/v1_*.py` 복제 금지.** R의
-`R/lib/ipd_pooled.R` + 60줄 driver 규칙과 동일하게 Python도 공유 가드를 호출하는
-얇은 스크립트로 시작한다. 착수 전 `python -c "import atlas_auto; print(atlas_auto.__all__)"`로
-이미 강제되는 계약을 확인할 것 — 자체 poll 루프·자체 payload·자체 `isValid` 검사
-재작성 금지. 재사용 가능한 계약을 새로 발견하면
-`docs/knowledge_promotion_protocol.md` 절차로 `src/atlas_auto/`에 승격한다.
+`R/lib/ipd_pooled.R` + 60줄 driver 규칙과 동일하게 Python도
+**`examples/study_driver_template.py`를 복사해서 시작**한다.
+`atlas_auto.StudyRun`이 build→deploy→inspect→trigger→capture→monitor→snapshot
+순서를 강제하고 operation journal·uncertain-create 정지·readback 게이트를
+소유한다 (`docs/system_knowledge_base.md` §7.4). 착수 전
+`python -c "import atlas_auto; print(atlas_auto.__all__)"`로 이미 강제되는 계약을
+확인할 것 — 자체 poll 루프·자체 payload·자체 `isValid` 검사 재작성 금지.
+재사용 가능한 계약을 새로 발견하면 `docs/knowledge_promotion_protocol.md` 절차로
+`src/atlas_auto/`에 승격한다.
 
 **검색 순서** (어떤 task든):
 1. `Glob` — 파일명 패턴 (`*monitor*.py`, `*deploy*char*.py`, `build_table*`)

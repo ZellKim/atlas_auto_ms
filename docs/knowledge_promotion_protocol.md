@@ -84,4 +84,7 @@
 | 2026-08-15 | readback member order 불보장 | `characterization_safety.assert_membership` |
 | 2026-08-15 | PRESET `design`은 이름, 결과 행은 `analysisName`으로 매칭 | `characterization_safety.preset_name`, `counts_by_analysis` |
 | 2026-08-15 | empty `design` read는 손상 아님 | `characterization_safety.design_of` |
-| 2026-08-15 | `Path.write_text` CRLF → digest 불일치 | `system_knowledge_base.md` §1.4 (문서만) |
+| 2026-08-15 | `Path.write_text` CRLF → digest 불일치 | `study_runner.write_evidence` (파일 바이트 digest 반환), `system_knowledge_base.md` §1.4 |
+| 2026-08-15 | deploy→inspect→trigger→monitor 필수 순서 | `study_runner.StudyRun.record` / `assert_ready_to_trigger` |
+| 2026-08-15 | create 응답 유실 시 blind retry = 서버 객체 중복 | `study_runner.StudyRun.creating` / `assert_no_uncertain_create` |
+| 2026-08-15 | live 정의가 prepared와 달라진 채 실행 | `study_runner.StudyRun.assert_definition_unchanged` |

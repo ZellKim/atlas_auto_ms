@@ -55,6 +55,15 @@ from atlas_auto.estimation_validation import (
     validate_estimation_export,
 )
 from atlas_auto.protocol import StudyProtocol
+from atlas_auto.study_runner import (
+    STAGES,
+    StageOrderError,
+    StudyRun,
+    UncertainCreateError,
+    canonical_json,
+    digest,
+    write_evidence,
+)
 from atlas_auto.runner import run_remote_site, run_local_r_study, run_study
 
 __version__ = "0.2.0"
@@ -69,6 +78,14 @@ __all__ = [
     # attrition — never chain countSatisfying; read treemapData bit strings
     "cumulative_attrition",
     "format_attrition",
+    # study_runner — build→deploy→inspect→trigger→capture→monitor→snapshot
+    "STAGES",
+    "StageOrderError",
+    "StudyRun",
+    "UncertainCreateError",
+    "canonical_json",
+    "digest",
+    "write_evidence",
     # generation_safety — COMPLETE alone is not success (AUMC 2026-08-15)
     "GenerationNotValidError",
     "assert_generation_valid",

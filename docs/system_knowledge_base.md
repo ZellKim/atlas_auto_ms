@@ -887,6 +887,9 @@ loso <- ipd_loso_fast(
     generate 대기는 client.wait_for_cohort_generation(id, source_key)
     결과 수집은 CharacterizationService.collect_results / fetch_results
     attrition은 atlas_auto.cumulative_attrition
+0d. ★ runner는 examples/study_driver_template.py 복사해서 시작.
+    atlas_auto.StudyRun이 build→deploy→inspect→trigger→capture→monitor
+    →snapshot 순서를 강제한다 (§7.4)
 1.  ATLAS에서 코호트 + estimation 설계 (기존 copy → TCO 변경)
 2.  ★ Achilles로 기관별 concept 검증 → 기관 선정
 3.  feedernet analysis 생성 + import + execution
@@ -961,6 +964,47 @@ Step 3-4: IPD Pooled + NC Calibration (R) — **R/lib/ipd_pooled.R 사용**
 - `R/v4_main_365d_analysis*.R`, `R/v4_loso_sensitivity*.R`, `R/v4_ipd_*.R`, `R/v4_clinical_*.R` — v4 monolithic
 - `R/pooled_analysis/00-04_*.R`, `R/pooled_analysis/ipd_pooled_cyclops*.R` — 구형 4-step pipeline
 - `R/allergic_ipd_pilot.R` — 3-site allergic pilot (v1)
+
+### 7.4 Study runner — `atlas_auto.StudyRun` (2026-08-15 확립)
+
+**신규 연구·신규 버전은 `examples/study_driver_template.py`를 복사해서 시작한다.**
+R의 `R/lib/ipd_pooled.R` + 60줄 driver와 같은 구조: 공유 패키지가 순서와 게이트를
+소유하고, driver는 이 연구가 실제로 묻는 것만 소유한다.
+
+강제되는 단계 순서 (`STAGES`):
+
+```
+build     정의를 로컬 생성. 서버 접촉 없음
+deploy    import/create만. 같은 스텝에서 실행 금지
+inspect   배포된 산출물을 readback해서 build한 것과 비교
+trigger   정확히 의도한 분석 1개 실행
+capture   반환된 execution identifier 기록
+monitor   그 identifier만 polling
+snapshot  raw 상태 원본 보존
+```
+
+`StudyRun.record(stage, key)`는 선행 단계가 없으면 `StageOrderError`를 낸다.
+같은 단계 반복은 허용(수정 후 재실행은 정상 작업).
+
+소유 기능:
+
+| 기능 | 닫는 함정 |
+|---|---|
+| `record` / `completed` | 순서 위반. deploy 승인을 검증으로 착각 |
+| `assert_ready_to_trigger` | build·deploy·inspect 없이 실행 |
+| `creating` (context manager) | **create 응답 유실 시 blind retry = 서버 객체 중복.** 요청/응답 2단계 저널링 |
+| `assert_no_uncertain_create` | 위 상태로 다음 세션이 진행하는 것 |
+| `assert_definition_unchanged(..., unordered=…)` | live 정의가 바뀐 채 실행. `unordered` 필드는 multiset 비교 (readback 순서 불보장) |
+| `write_evidence` | `Path.write_text` CRLF → digest 불일치. **파일 바이트의 digest 반환** |
+| `snapshot` | 이력 파일을 현재 상태로 착각. 매번 새 파일, 덮어쓰기 없음 |
+| `journal_records` | 저널 truncation을 조용히 무시 → 잘리면 hard stop |
+
+`operation_journal.jsonl`이 resume state다. 같은 디렉터리에 새 `StudyRun`을 만들면
+이전 실행이 어디까지 갔는지 읽는다. 각 줄은 flush + fsync.
+
+출처: `studies/fracture_treatment/scripts/run_khnmc_v1_11_nonestimation.py`
+(1,472줄)에서 연구 중립적인 절반을 승격. v1.13-v1.17이 그 절반을 못 써서 같은
+함정을 반복한 것이 승격 사유다.
 
 ### 7.3 교훈
 1. 데이터 검증을 estimation 전에 수행
