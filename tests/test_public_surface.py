@@ -31,6 +31,7 @@ GUARDS = [
     "fetch_results",
     "import_characterization_checked",
     "import_characterization_mapped",
+    "membership_overlap",
     "preset_name",
     # characterization: a short result list is an error, not a zero
     "CharacterizationResultCountError",

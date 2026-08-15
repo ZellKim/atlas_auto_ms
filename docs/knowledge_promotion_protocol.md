@@ -88,3 +88,12 @@
 | 2026-08-15 | deploy→inspect→trigger→monitor 필수 순서 | `study_runner.StudyRun.record` / `assert_ready_to_trigger` |
 | 2026-08-15 | create 응답 유실 시 blind retry = 서버 객체 중복 | `study_runner.StudyRun.creating` / `assert_no_uncertain_create` |
 | 2026-08-15 | live 정의가 prepared와 달라진 채 실행 | `study_runner.StudyRun.assert_definition_unchanged` |
+| 2026-08-16 | feature 행은 코호트 분할이 아님 (중복 membership) | `characterization_safety.membership_overlap` |
+
+**2026-08-16 승격 사례 — 이 프로토콜이 작동한 첫 건.**
+"feature 행은 분할이 아니다"는 이미 알려져 있었고 `build_khnmc_v1_15_persistence_by_drug.py`에
+`sum >= denominator` 가드까지 있었다. 그런데 그 가드가 **한 버전 스크립트에만** 살아서,
+다기관 배포 경로(AUMC)가 타지 않았고 중복이 2건에서 24건으로 12배 커진 것을 아무도
+못 봤다. 산문(v1.15 VALIDATION.md)과 코드(한 스크립트)에 둘 다 있었는데도 재발했다 —
+**공유 표면에 없으면 없는 것과 같다.** 절차 §2 "같은 함정 2회 = 즉시 승격"이
+정확히 이 경우다.

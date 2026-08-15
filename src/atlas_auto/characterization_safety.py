@@ -61,7 +61,7 @@ from __future__ import annotations
 
 import copy
 import json
-from typing import Any
+from typing import Any, Mapping
 
 __all__ = [
     "CharacterizationSafetyError",
@@ -188,6 +188,41 @@ def counts_by_analysis(results: list[dict], cohort_id: int) -> dict[int, int]:
             )
         counts[analysis_id] = row.get("count")
     return counts
+
+
+def membership_overlap(
+    counts: Mapping[Any, int], denominator: int, *, label: Any = None,
+) -> int:
+    """How many memberships the feature rows carry beyond the cohort's N.
+
+    **A characterization's rows do not partition its cohort.** A subject can
+    satisfy several CRITERIA_SET features at once, so the counts sum to at least
+    the cohort N and usually to more. Asserting equality fails on correct data;
+    asserting nothing lets a growing overlap pass unnoticed and lets a reader
+    reconcile a column that was never meant to add up.
+
+    Established twice in the fracture-treatment study. Fracture-site membership
+    at KHNMC summed to 1,979 against a cohort of 1,864. Then initial-ingredient
+    membership, where a patient starting two agents on the same day is counted
+    under both: KHNMC totalled 2 duplicated memberships across the two P2 arms,
+    AUMC 24 — twelve times as many, tracking that site's 27-versus-3 same-day
+    cross-class ties. The guard existed in one version's build script and the
+    later multi-site path did not run it, which is why it lives here now.
+
+    Returns the overlap. Raises when the sum falls **below** the denominator,
+    which is a different defect: some subject matched no feature at all.
+    """
+    if denominator < 0:
+        raise ValueError(f"denominator must not be negative, got {denominator}")
+    total = sum(counts.values())
+    if total < denominator:
+        where = f" for {label}" if label is not None else ""
+        raise ValueError(
+            f"feature counts{where} sum to {total}, below the cohort denominator "
+            f"{denominator}; some subjects matched no feature, which is a hole in "
+            f"the definitions rather than an overlap"
+        )
+    return total - denominator
 
 
 def cohort_entry(client: Any, template_entry: dict, cohort_id: int) -> dict[str, Any]:

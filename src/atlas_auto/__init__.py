@@ -35,6 +35,7 @@ from atlas_auto.characterization_safety import (
     fetch_results,
     import_characterization_checked,
     import_characterization_mapped,
+    membership_overlap,
     preset_name,
 )
 from atlas_auto.multisite_characterization import (
@@ -107,6 +108,7 @@ __all__ = [
     "fetch_results",
     "import_characterization_checked",
     "import_characterization_mapped",
+    "membership_overlap",
     "preset_name",
     "MultisiteCharacterizationDeployer",
     "SiteTarget",

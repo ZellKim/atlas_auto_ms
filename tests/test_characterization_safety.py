@@ -21,7 +21,68 @@ from atlas_auto.characterization_safety import (
     import_characterization_checked,
     import_characterization_mapped,
     feature_identity,
+    membership_overlap,
 )
+
+
+# ── feature rows are not a partition ──────────────────────────────────────
+#
+# A subject can satisfy several CRITERIA_SET features at once, so a
+# characterization's rows do not partition its cohort. Established twice:
+# fracture-site membership at KHNMC, then initial-ingredient membership, where a
+# patient who started two agents on the same day is counted under both.
+# Asserting equality against the cohort N fails on correct data; asserting
+# nothing lets a growing overlap pass unnoticed. Record it instead.
+
+
+def test_an_exact_partition_has_no_overlap():
+    assert membership_overlap({"a": 300, "b": 208}, 508) == 0
+
+
+def test_overlapping_membership_is_reported_not_rejected():
+    """AUMC: eight ingredient rows sum to 526 against a p2_maintained of 508."""
+    counts = {
+        "bp_po": 127, "iv_ibandronate": 56, "zoledronic": 82, "denosumab": 143,
+        "serm": 30, "teriparatide": 55, "romosozumab": 33, "unclassified": 0,
+    }
+
+    assert membership_overlap(counts, 508) == 18
+
+
+def test_the_same_measure_at_two_sites_gives_very_different_overlap():
+    """KHNMC totals 2 duplicated memberships where AUMC has 24."""
+    khnmc = membership_overlap(
+        {"a": 67, "b": 78, "c": 91, "d": 145, "e": 10, "f": 31, "g": 0}, 421,
+    ) + membership_overlap(
+        {"a": 678, "b": 77, "c": 0, "d": 105, "e": 18, "f": 370, "g": 4}, 1251,
+    )
+
+    assert khnmc == 2
+
+
+def test_a_sum_below_the_denominator_raises():
+    """Someone in the cohort matched no feature; that is a definition hole."""
+    with pytest.raises(ValueError) as excinfo:
+        membership_overlap({"a": 100, "b": 200}, 508)
+
+    assert "300" in str(excinfo.value)
+    assert "508" in str(excinfo.value)
+
+
+def test_the_label_appears_in_the_message():
+    with pytest.raises(ValueError) as excinfo:
+        membership_overlap({"a": 1}, 10, label="p2_maintained")
+
+    assert "p2_maintained" in str(excinfo.value)
+
+
+def test_a_zero_denominator_with_no_counts_is_zero_overlap():
+    assert membership_overlap({}, 0) == 0
+
+
+def test_a_negative_denominator_is_refused():
+    with pytest.raises(ValueError):
+        membership_overlap({"a": 1}, -1)
 
 
 class FakeClient:
