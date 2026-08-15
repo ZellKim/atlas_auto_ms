@@ -112,6 +112,14 @@ R/archive/pooled_analysis/matched_results_cyclops_v7/
 
 # Codex isolated implementation worktrees
 .worktrees/
+.claude/worktrees/
+
+# 연구별 버전 테스트 (Drive 백업, git 미추적).
+# studies/{연구}/scripts/*를 import하는데 studies/ 자체가 미추적이므로,
+# 커밋하면 fresh clone에서 통과할 수 없는 suite가 된다. 각 디렉터리의
+# conftest.py가 study 부재 시 skip 처리한다.
+# 계약 테스트는 tests/*.py이고 추적된다 — tests/README.md 참조.
+tests/*/
 
 # 발표자료 (연구 자산 아님 — .pptx/슬라이드 이미지)
 CDM발표/
