@@ -13,7 +13,7 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 - 파일 출처 — 여러 sensitivity 공존 시 파일명 prefix + pair 수 cross-check 후 해석
 - Concept ID, cohort ID, estimation ID — 직접 조회 또는 매핑 파일 확인
 - 기관명, sourceKey, cdmId, groupId — `data/site_mapping/` 참조
-- Biomarker cutoff, unit — `data/biomarker/` 참조
+- Biomarker cutoff, unit — `data/atlas_reference/biomarker_fa_ids.json` + `data/scripts/`(biomarker 관련 스크립트) 참조
 
 **사용자에게 숫자/상태 보고 전 체크리스트**:
 1. 이 값의 출처 파일/API를 지금 세션에서 직접 읽었는가?
@@ -31,10 +31,17 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 적용 대상:
 - **새 스크립트 작성 전**: `Glob`/`Grep`로 `data/scripts/`, `automation/`, `studies/{연구}/`, `R/lib/` 검색. 비슷한 이름·기능 있으면 그것부터 검토.
 - **API 호출 전**: 직접 endpoint 추측 X. `data/atlas_reference/atlas_webapi_endpoints.csv` + **`src/atlas_auto/client.py`(캐노니컬 정본, git 추적)** 메서드 + 기존 호출 사례 grep. (`automation/feedernet_client.py`는 gitignored 사본이며 divergence 가능 — 정본은 `src/`.)
-- **분석 데이터 수집 전**: `data/measurement/`, `data/concept_frequency/`, `studies/{연구}/docs/`, `C:\Users\adam\Desktop\atlas_auto_result\` 먼저 확인.
+- **분석 데이터 수집 전**: `data/measurement/`, `data/concept_frequency/`, `studies/{연구}/docs/`, `C:\Users\data1\Desktop\atlas_auto_cmdata\` 먼저 확인.
 - **모니터링/상태 조회 전**: `v4_phase_e_monitor.py` (estimation), monitor state 파일, cloud_monitor 등 캐노니컬 도구 사용. 직접 API call 작성 X.
 - **Credential 작성 전**: `automation/credentials.py` 사용 (env → GCP Secret → local file fallback). 하드코딩 X.
-- **Cohort/biomarker 매핑 전**: `data/site_mapping/`, `data/measurement/site_concept_matrix.csv`, `stability_summary.csv` 우선 참조.
+- **Cohort/biomarker 매핑 전**: `data/site_mapping/` 우선. `site_concept_matrix.csv`/`stability_summary.csv`는 스냅샷별로 버전됨 → 최신은 `studies/measurement_phenotype_methods/<snapshot>/`, 아카이브는 `data/measurement/archive/2026-04-16_to_18_derived/` 참조.
+
+**⛔ 신규 연구는 기존 `studies/*/scripts/v1_*.py` 복제 금지.** R의
+`R/lib/ipd_pooled.R` + 60줄 driver 규칙과 동일하게 Python도 공유 가드를 호출하는
+얇은 스크립트로 시작한다. 착수 전 `python -c "import atlas_auto; print(atlas_auto.__all__)"`로
+이미 강제되는 계약을 확인할 것 — 자체 poll 루프·자체 payload·자체 `isValid` 검사
+재작성 금지. 재사용 가능한 계약을 새로 발견하면
+`docs/knowledge_promotion_protocol.md` 절차로 `src/atlas_auto/`에 승격한다.
 
 **검색 순서** (어떤 task든):
 1. `Glob` — 파일명 패턴 (`*monitor*.py`, `*deploy*char*.py`, `build_table*`)
@@ -45,6 +52,31 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 **위반 전례** (이 규칙이 생긴 이유):
 - 2026-04-30: estimation live status 조회 — `v4_phase_e_monitor.py` 표준 도구 있는데 직접 `dashboard/project/...` URL 추측 → 404 → grep으로 정답 찾고 → 직접 Counter 작성 → cdmName 위치 잘못 → 다시 raw inspect → 5-10분 낭비. 정답: `python data/scripts/v4_phase_e_monitor.py [--pid 5126]` 한 줄.
 - 2026-04-29: Δ analysis 위해 char data 새로 수집하려다 → 실은 `data/measurement/characterization/char_preset_all.csv`에 47K rows 이미 존재.
+- 2026-08-15: fracture_treatment `scripts/*.py` 64개 중 `client.wait_for_cohort_generation` 호출 0개, 자체 폴링 루프 17개, `isValid` 손수 타이핑 18개 파일. 공유 함수에 가드가 없어서 아무도 안 썼고, 가드 없는 그 함수를 신규 연구가 부르면 AUMC 실패(COMPLETE + isValid=false)를 그대로 재현한다. → `generation_safety` 신설 + client 수정으로 해소.
+
+### ⛔ 작업 착수 전 프로토콜 확인 (문서 = 코드와 동급 자산)
+
+**아래 트리거에 해당하면 코드·문서를 쓰기 전에 해당 프로토콜을 먼저 `Read`한다.**
+"이미 있는지 검색"이 코드에만 적용된다고 착각하지 말 것 — 문서 작성에도 적용된다.
+
+| 트리거 (이런 요청·상황이면) | 먼저 읽을 문서 |
+|---|---|
+| 타당성검토 결과를 **의뢰자/임상의에게 회신**, "의뢰자용", "보고서 써줘", GO/REVISE/STOP 판정 | `docs/feasibility_report_for_requester_protocol.md` |
+| 논문·공개문서에 **기관 실명 vs 마스킹** 판단, per-site 결함 귀속 | `docs/site_disclosure_masking_protocol.md` |
+| **새 연구 착수·집필·투고 전** 선점 확인, novelty 주장 | `docs/prior_art_novelty_gate_protocol.md` |
+| 새 주제 → 코호트 feasibility → estimation 파이프라인 | `docs/new_study_topic_to_estimation_protocol.md` |
+| study KB에서 **연구 중립적 WebAPI/CDM 사실**을 확립·재발견, 같은 함정 2회 | `docs/knowledge_promotion_protocol.md` |
+| feedernet project/analysis **버전 올리기** | `docs/feedernet_project_analysis_versioning_guideline.md` |
+| Concept ID 선정 | `docs/concept_selection_guide.md` |
+| Characterization / Feature Analysis 생성·재개·다기관 배포 | `docs/characterization_client_workflow.md` |
+| 원고 버전·릴리스 관리 | `docs/manuscript_versioning_policy.md` |
+| estimation 산출물 구성 | `docs/estimation_output_template.md` |
+
+- **md → docx 변환은 `python data/scripts/md2docx.py in.md out.docx`** (repo house style: Calibri 11pt / 맑은 고딕, 여백 2.5cm, 표 `Light Grid Accent 1`). 변환기 새로 짜지 말 것.
+- 새 프로토콜을 만들면 **이 표에 트리거와 함께 등재**한다. 등재 안 하면 다음 세션이 못 찾는다.
+
+**위반 전례**:
+- 2026-08-03: Semaglutide 타당성검토 의뢰자 회신문을 프로토콜 없이 작성 → 판정 체계 누락(GO/REVISE/STOP), 기관 한글명 6곳 추측으로 오기(KDH를 경기도의료원으로), "데이터 없음"과 "처방 기록 미확인"을 구분 안 함 → 재작성. 이후 프로토콜로 정립.
 
 ## 대화 시작 시
 
@@ -63,8 +95,8 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
 ## 현재 활성 연구
 
-**studies/allergic_diseases/** — 소아 알레르기-틱/ADHD 다기관 연구
-(studies/appendectomy/ — 충수절제술 연구, 22-site로 시작 → 15-site로 확정 (v4.1 β + v7 paper draft 완료, 2026-05-05))
+`studies/` 아래 다수 연구 폴더가 병존한다. **활성 연구·진행 상태의 정본은 각 `studies/{연구}/PROGRESS.md`** — 단일 연구명을 여기 하드코딩하지 말고 각 PROGRESS.md의 mtime·내용으로 현재 상태 확인.
+(최근 활성 예: `measurement_phenotype_methods`, `gi_high_impact_pilots`, `uterine_fibroids`, `appendectomy`, `allergic_diseases` 등)
 
 ## feedernet 핵심 함정 (매번 확인)
 
@@ -85,8 +117,7 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 ├── data/                            ← 연구 공통 참조 데이터 (git push)
 │   ├── site_mapping/                ← 기관 ID, sourceKey
 │   ├── concept_frequency/           ← Achilles 23기관×5domain
-│   ├── atlas_reference/             ← API endpoints, ETRI list
-│   ├── biomarker/                   ← unit 매핑
+│   ├── atlas_reference/             ← API endpoints, ETRI list, biomarker_fa_ids.json (unit 매핑)
 │   └── reference/                   ← R 환경, 이슈 히스토리
 ├── docs/system_knowledge_base.md    ← 시스템 운영 지식 (git push)
 ├── studies/                         ← 연구별 폴더 (.gitignore, Drive 백업)
@@ -112,7 +143,7 @@ OHDSI ATLAS / feedernet 다기관 임상연구 자동화 시스템.
 
 ```python
 import sys
-sys.path.insert(0, r"G:\My Drive\0.claude_workspace\data_analysis\atlas_auto_with_claude\automation")
+sys.path.insert(0, r"G:\내 드라이브\0.claude_workspace\data_analysis\atlas_auto_with_claude\automation")
 from credentials import get_feedernet_credentials, get_telegram_credentials
 
 # feedernet
@@ -129,7 +160,7 @@ token, chat_id = get_telegram_credentials()
 4. 실패 → 명확한 에러 (어디 설정해야 하는지 알려줌)
 
 **금지**:
-- `client.login_portal("20230172@khnmc.or.kr", "rlaaudtjr1!")` 같은 하드코딩
+- `client.login_portal("user@example.com", "<password>")` 같은 하드코딩
 - `EMAIL = "..."` / `PASSWORD = "..."` 변수 직접 정의
 - `.env` 파일을 git에 커밋
 

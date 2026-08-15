@@ -2,6 +2,9 @@
 
 > 신규 연구 시 이 문서를 **처음부터 끝까지 읽고** 시작할 것.
 > **API 호출 전 반드시 이 문서를 참조.** 추측으로 호출하지 말 것.
+> **신규 연구 착수 전(G0) 반드시 prior-art / novelty 게이트 실행** → `docs/prior_art_novelty_gate_protocol.md` (핵심 아이디어가 이미 출판됐는지 적대적으로 확인; 워크플로우 `prior-art-gate`). 착수 후 뒤늦게 발견하는 사고 방지(2026-07-10 Bradwell/N3C 전례).
+> **출판 전 site 실명/마스킹 결정** → `docs/site_disclosure_masking_protocol.md` ("명단은 실명, 책임은 마스킹"; 결함 귀속 시 재셔플 마스킹; 템플릿 `data/scripts/mask_sites_template.py`). RFZ에 공개 정책 문서 없음 → 마스킹 택하면 거버넌스 사인오프 불요.
+> **원고 파일을 고치기 전 버전 판정** → `docs/manuscript_versioning_policy.md` (재생성은 제자리, 계약 변경은 버전업, 반출은 불변 스냅샷; 표·그림 인벤토리 변경도 버전 트리거).
 
 ## 참조 데이터 위치
 
@@ -121,9 +124,12 @@ Base URL: /api/v1/
 | Generate | **GET** (POST → 500) |
 | 코호트 expression | **object**로 전송 (string → 400) |
 | estimation spec | **string**으로 전송 (`json.dumps(spec)`) |
-| NC concept set | `conceptSets` + `crossReference`로 설정. `negativeControls[]` 배열 아님 |
-| NC items=0 | **정상**. ATLAS가 실행 시 conceptSetId로 자동 resolve |
-| Empty NC failure | `negativeControlOutcomeCohortDefinition`이 남아 있는데 `negativeControls`와 `conceptSetCrossReference`가 비어 있으면 feedernet이 NC cohort SQL `IN ()`류를 만들며 `syntax error at or near ")"`로 실패 가능. GD v0.1에서 2026-06-21에 10/10 site 실패 확인. |
+| NC concept set | 설계는 `conceptSets` + `conceptSetCrossReference`로 연결하고, 실행용 최종 `/export`에서는 유효한 `negativeControls[]`가 실제로 resolve되어야 한다. |
+| NC stored spec vs export | 채워진 NC concept set을 cross-reference하는 **저장/PUT spec은 `negativeControls=[]`로 둔다**. 같은 NC를 `negativeControls` 59행과 cross-reference에 동시에 넣으면 WebAPI `/export`가 118행(각 triple 2회)을 낸 사례가 2026-08-13 Fracture v1.10 `#294`에서 확인됐다. 저장 spec은 empty explicit rows, 최종 export는 exact resolved rows를 각각 다른 stage contract로 검증한다. |
+| NC items=0 | 원본/복사 spec 또는 최종 export에서 concept-set `items`가 0일 수는 있지만, **최종 export의 effective `negativeControls`가 1개 이상이고 T/C/outcome 매핑이 검증될 때만** 허용한다. 빈 placeholder 자체는 정상 근거가 아니다. |
+| Concept-set items PUT | `/conceptset/{id}/items`는 CIRCE nested ConceptDTO item이 아니라 flat persistence DTO `{"conceptId": id, "isExcluded": 0, "includeDescendants": 1, "includeMapped": 0}` 배열을 받는다. nested object/boolean은 WebAPI 2.12에서 400 deserialize error를 낸다. PUT 후 GET readback을 normalized semantic contract로 검증한다. |
+| Empty NC failure | `negativeControlOutcomeCohortDefinition` 또는 NC cross-reference가 남아 있는데 effective `negativeControls`가 0이면 Feedernet NC cohort SQL `IN ()`류 실패 위험이 있다. GD v0.1은 2026-06-21에 empty NC로 10/10 site SQL 실패. Fracture v1.9 `#291/#292`는 `#524` empty placeholder + valid xref + `negativeControls=[]`였고 `/estimation/check` 경고 0개였지만 2026-08-12 두 23-site 실행에서 성공 0건이었다. 실패 로그가 비어 있어 v1.9의 단독 root cause로 확정할 수는 없으나, 이 구조는 실행 금지다. |
+| NC canonical guard | 모든 Estimation은 NC 필수다. `src/atlas_auto/estimation_validation.py`를 `EstimationBuilder.build/save`와 ATLAS `create/update/import` 경계에서 fail-closed로 적용하고, 실행 전에는 `get_validated_estimation_export()` 또는 동등한 exact export contract를 저장한다. 범용 `run_analysis_execution()`은 Estimation ID/proof 입력이 없으므로 그 자체가 이 증명을 대신하지 못한다. 연구별 runner가 live Estimation identity, final-export proof, imported research binding을 검증한 뒤에만 호출해야 한다. |
 | cohortDefinitions | feedernet이 export 시 ATLAS에서 **자동 resolve**. spec에 expression 없어도 실행 가능 |
 | 500 에러 | **API 불안정이 아니라 호출 방식 오류** 가능성 먼저 확인 |
 | pathway generation 500 | `/pathway-analysis/{id}/generation`은 **한 번도 generate 안 한 pathway**에서 500(Spring ConversionFailed) — 경로/호출 오류 아닌 WebAPI 2.12.0 버그. 생성 이력 있으면 200. `get_pathway_generations()`가 []로 처리 (위 "500=호출오류"의 예외 케이스). feedernet site 7/203 live 검증 2026-06 |
@@ -133,6 +139,26 @@ Base URL: /api/v1/
 | vocab lookup = POST | `/vocabulary/{sourceKey}/lookup/{identifiers,mapped,recommended}`는 **POST**(body=conceptId 배열). 단건 `/vocabulary/concept/{id}`만 GET |
 | concept set name 줄바꿈 | name에 `\n` 포함 시 R exportOutcomes에서 FATAL. ATLAS UI에서 복사 시 발생 가능 → strip() 필요 |
 | cohortdefinition PUT | expression은 **object**로 (string → 400). estimation PUT과 반대 |
+| cohortdefinition check | `POST /cohortdefinition/check`는 **expression을 그대로** body에 (감싸면 500 NullPointerException). `{"expression":…}`·`{"expressionString":…}`·`{"name":…,"expression":…}` 전부 실패. `client.check_cohort_definition(spec)` 시그니처가 오해 소지 — `spec = expression` 자체. 2026-07-30 검증 |
+| **`COMPLETE` ≠ 성공** | Generate가 끝나도 못 쓸 수 있다. AUMC 2026-08-15: 2.2/1.7시간 실행 후 `{"status":"COMPLETE","isValid":false,"personCount":null}`. 성공 조건은 **`status in {COMPLETE, COMPLETED}` AND `isValid is True`** 둘 다. 플래그 부재는 참이 아니고, truthy 문자열도 참이 아니다. → `atlas_auto.assert_generation_valid` / `is_usable_generation` |
+| generation 행 = source마다 1개 | CDM source가 여러 개인 기관은 `GET /cohortdefinition/{id}/info`에서 source마다 한 행을 낸다. `id.sourceId`로 좁히지 않으면 다른 source의 결과를 우리 것으로 오인한다. → `atlas_auto.rows_for_source` + `resolve_source_id` (sourceKey→sourceId, 없으면 `LookupError`). `client.wait_for_cohort_generation(id, source_key)`가 이 둘을 적용 |
+| Characterization 결과 무음 절단 | `/cohort-characterization/generation/{id}/result`의 WebAPI 기본 `thresholdLevel=0.01`이 1% 미만 covariate를 **보고 없이 삭제**한다. 2026-08-14 KHNMC: count 57, 반환 51 (index year 6개 소실). 절단된 표도 그럴듯하게 렌더된다. → `client.get_characterization_results` 기본값을 **0**으로 고정, `CharacterizationService.collect_results`가 count 불일치 시 `CharacterizationResultCountError` **raise**(경고 아님), `characterization_safety.fetch_results` |
+| 결과 행 없음 ≠ 0 | 요청한 analysis id가 결과에 없으면 그건 에러다. `dict.get(id, 0)`은 부재를 0%로 바꿔 보고한다. → `characterization_safety.fetch_results` / `counts_by_analysis` |
+| PRESET 결과 행의 analysisId | PRESET feature의 결과 행은 Feature Analysis id가 아니라 **FeatureExtraction analysis id**를 달고 온다 (Demographics Index Year = FA `#80`인데 행은 `analysisId=6`). `analysisName`으로 매칭할 것. CRITERIA_SET은 자기 id를 유지 |
+| PRESET `design`은 이름 | PRESET Feature Analysis의 `design`은 criteria list가 아니라 built-in 분석의 **이름** 문자열 (`CharlsonIndex`, `DemographicsGender`). `conceptSets`는 `null`. JSON 파싱 실패는 결함이 아니다. → `characterization_safety.preset_name` (CRITERIA_SET은 `design_of`) |
+| empty `design` read ≠ 손상 | `GET /feature-analysis/{id}`와 characterization export가 정상 동작하는 CRITERIA_SET feature에 대해 **간헐적으로 빈 `design`**을 반환한다 (KHNMC `#851`-`#858`, 같은 날 populated → empty, 쓰기 없음). 저장된 정의는 멀쩡하다. **분석 로직을 여기에 분기시키지 말 것.** → `design_of`가 "미보고"에 `None` 반환. 방금 생성한 feature에만 `assert_design_present` |
+| design ≠ feature 식별자 | `#851`-`#858`은 **같은 design 하나**를 공유하고, 구분하는 건 codeset 0에 묶인 concept set이다 (`conceptSets`는 `design`의 형제). design만으로 매칭하면 한 제출에 5건이 매치된다. → `characterization_safety.feature_identity` |
+| readback member order | 어떤 readback도 member 순서를 보존하지 않는다. 요청 `[77,71,74,80,49,252]` → create `[74,77,71,80,252,49]` → export `[49,71,74,77,80,252]`. **집합으로 비교**. → `characterization_safety.assert_membership` |
+| import는 이름 무시 가능 | 제출한 feature의 design이 이미 존재하면 서버가 **기존 feature를 재사용하고 제출 이름을 버린다**. 결과 행을 이름으로 되돌려 매칭하는 코드는 그 행을 잃는다. → `characterization_safety.import_characterization_mapped` (제출 이름 → 저장 id) |
+| export = portable, read ≠ portable | **모든 ATLAS artifact에서 `/export`가 정본 이식 형태이고 read DTO는 아니다.** `GET /pathway-analysis/{id}`는 expression 없는 id 참조만 준다(2 KB); `/export`는 cohort expression 전체를 인라인으로 준다(162 KB). characterization도 동일 (`/{id}/export` vs 메타데이터 GET). `pathwayCohortId`는 서버가 만든 별도 id 공간의 surrogate — remap 말고 **버릴 것** |
+| import는 expression으로 resolve | characterization·pathway를 import하면 그 안의 cohort definition도 **함께 생성**된다. 결합 키는 **expression**이지 id도 이름도 아니다. cohort 먼저 import → body 나중 = 중복 없음. **cohort를 편집한 뒤 body를 import하면 중복 생성**되고 분석은 편집 전 버전에 붙는다. 로컬 수정은 전부 import 후에. (appendectomy 2026-05: KHNMC `1072/1074/1121` → CHNUH `586/587/588`, WKUH `264/266/267`) |
+| `countSatisfying` 체이닝 금지 | `inclusionRuleStats[i].countSatisfying`는 rule *i*를 **단독으로** 만족하는 수이지 "i단계 후 잔존"이 아니다. 체이닝하면 첫 행 빼고 전부 틀린 waterfall이 그럴듯하게 나온다. 정본은 `treemapData` 비트열: k단계 후 잔존 = 앞 k비트가 모두 `1`인 leaf의 합. 검증 불변식 2개 — leaf 합 = `baseCount`, all-ones leaf = `finalCount`. rule 순서는 정의의 일부다. → `atlas_auto.cumulative_attrition` |
+| flow-chart step별 코호트 금지 | ATLAS가 일반 generation 중에 이미 rule별 attrition을 계산한다 (`GET /cohortdefinition/{id}/report/{sourceKey}`). 해상도 = inclusion rule 개수이므로, 11단계 차트가 필요하면 **eligibility rule을 criterion 하나당 rule 하나로 쪼갠 변형 코호트 1개**를 만든다. rule을 쪼갤 때 중첩 correlated criteria를 통째로 복사하고, 최종 count가 원본과 같은지 assert |
+| `write_text` CRLF digest | Windows에서 `Path.write_text`가 `\n`을 `\r\n`으로 바꾼다. 메모리 문자열을 해시하고 `write_text`로 쓰면 파일이 자기 index의 digest와 절대 안 맞는다 (2026-08-15 `INDEX.csv` 34행 전부). digest·byte count를 발행할 땐 `open(..., newline="\n")` |
+| 배포 사본 drift | `studies/*/portable_assets/scripts/`의 공유 모듈 사본은 조용히 낡는다 (fracture 사본은 `design_key`/`feature_identity`/`import_characterization_mapped` 획득 전 시점 사본이었다). `VENDORED.json`에 출처를 적고 `python data/scripts/sync_vendored_modules.py`로 동기화. `tests/test_vendored_modules.py`가 drift를 잡는다 |
+
+승격 규칙은 `docs/knowledge_promotion_protocol.md`. 위 행 중 함수명이 붙은 것은
+코드가 강제하므로 외울 필요가 없다. 함수명이 없는 행만 호출부에서 지켜야 한다.
 
 ---
 
@@ -169,6 +195,12 @@ spec['estimationAnalysisSettings']['analysisSpecification']['targetComparatorOut
 
 est_data['specification'] = json.dumps(spec)
 client.session.put(f'{client.webapi_url}/estimation/{new_id}', json=est_data)
+
+# ━━━ Step 2b: effective-NC export preflight ━━━  [WebAPI, 필수]
+exported = client.export_estimation(new_id)
+# 모든 Estimation은 NC 필수. NC xref가 가리키는 TCO별로 effective NC >= 1,
+# outcomeId/T-C 매핑/중복/선정 ID 집합을 검증한다. 0이면 즉시 STOP.
+# /estimation/check 통과는 이 검사를 대체하지 않는다.
 
 # ━━━ Step 3: feedernet analysis 생성 ━━━  [포탈, 복수 projects]
 session.post(f'{base}/api/v1/projects/{pid}/analysis', json={'name': '...'})
@@ -242,7 +274,7 @@ log_text = resp.json().get('content', '')
   `matchOnPsArgs.maxRatio=0`, and `useCovariates=true`; copied `222`-`227`
   used `createPsArgs.stopOnError=false`.
 - cohortDefinitions 전부 포함 (T + Cs + 모든 outcome)
-- NC 54 items + exclude 110 items 채움
+- Step 2b의 effective-NC `/export` preflight 통과(모든 Estimation에서 필수)
 - concept set name `\n` strip
 - specification=string (json.dumps)
 
@@ -413,6 +445,45 @@ data['recordsByUnit']  # [{'conceptId': 8840, 'conceptName': 'milligram per deci
 1. `cdmName`을 `sourceKey` 자리에 넣음 → 502 에러. **반드시** `data/site_mapping/source_key_mapping.csv` 3번째 컬럼
 2. drilldown JSON에서 `recordsByUnit` 대신 다른 필드 파싱 → unit 정보 누락
 3. Python stdout 버퍼링 → redirect 시 `python -u` 또는 `print(..., flush=True)` 필수. 안 하면 "정지한 줄 알았는데 실은 돌고 있음" 상황 발생
+
+### 4.2 Achilles `numPersons`로 N 추정하지 말 것 — 하한일 뿐 (2026-07-30 실측)
+
+**Achilles `numPersons`는 concept별 환자 수다. 환자 단위가 아니다.** 한 환자가 여러 concept에
+걸리면(용량 적정, 제형 전환, 브랜드 변경) 각 concept에 중복 계상된다. 따라서 distinct 환자수는
+
+```
+max(concept별 numPersons)  ≤  distinct  ≤  sum(concept별 numPersons)
+```
+
+이고, **max도 sum도 N이 아니다.** 어디에 떨어지는지는 최다 concept이 환자 집합을 얼마나
+덮느냐에 달려 있어 사전에 알 수 없다.
+
+GLP-1 3기관 실측 — Achilles 추정 vs cohort generation 실제 (`studies/Semaglutide`):
+
+| 기관 | 약제 | concept 수 | max (하한) | sum (상한) | **실제 distinct** | distinct/max |
+|---|---|---:|---:|---:|---:|---:|
+| KDH | tirzepatide | 4 | 274 | 577 | 292 | 1.07 |
+| KWMC | tirzepatide | 4 | 175 | 476 | 222 | 1.27 |
+| DCMC | tirzepatide | 4 | 88 | 220 | 110 | 1.25 |
+| KDH | semaglutide | 5 | 237 | 1,029 | 319 | 1.35 |
+| KWMC | semaglutide | 5 | 154 | 586 | 189 | 1.23 |
+| DCMC | semaglutide | 7 | 100 | 550 | 219 | **2.19** |
+
+**과소추정이 커지는 조건**:
+- 제형이 섞임 — DCMC semaglutide는 주사제 5종 + 경구(Rybelsus) 2종. 경구 사용자와 주사제
+  사용자는 서로 겹치지 않으므로 max 하나로는 절반밖에 못 본다 (2.19배)
+- 시작 용량이 분산됨 — KWMC tirzepatide는 최다 concept이 10 MG/ML(175)이고 시작 용량
+  5 MG/ML은 157. 전원이 한 용량을 거치지 않는다 (1.27배)
+- 반대로 **전원이 동일 시작 용량을 거치면 max ≈ distinct** — KDH tirzepatide 1.07배
+
+**규칙**:
+- Achilles max는 **feasibility 하한**으로만 보고한다. "N = 274" 식으로 쓰지 말 것
+- concept별 max의 **합을 네트워크 N으로 제시하지 말 것** — 기관 내 중복은 제거되지만
+  그 자체가 하한들의 합이라 실제보다 작다 (위 tirzepatide: 하한 합 537 vs 실제 604)
+- 정확한 N은 **cohort generation 외에 방법이 없다**. concept 수가 많거나 제형이 섞인
+  약제일수록 필수
+- small-cell floor(대부분 기관 6, KHMC 1) 미만 concept은 frequency 목록에 아예 없으므로
+  하한이 더 낮아진다
 
 ---
 
@@ -809,12 +880,30 @@ loso <- ipd_loso_fast(
 ### 7.1 새 연구 시작 순서
 ```
 0.  연구 폴더 생성 (studies/{연구}/) + CLAUDE.md 포인터 변경
+0a. ★ 공유 표면 확인 — python -c "import atlas_auto; print(atlas_auto.__all__)"
+    가드 헬퍼가 이미 있는 함정은 다시 구현하지 말 것
+0b. ★ 위 §1.4 함정표 통독. 함수명 붙은 행은 코드가 강제, 나머지는 호출부 책임
+0c. ★ 자체 poll 루프·자체 payload 작성 금지.
+    generate 대기는 client.wait_for_cohort_generation(id, source_key)
+    결과 수집은 CharacterizationService.collect_results / fetch_results
+    attrition은 atlas_auto.cumulative_attrition
 1.  ATLAS에서 코호트 + estimation 설계 (기존 copy → TCO 변경)
 2.  ★ Achilles로 기관별 concept 검증 → 기관 선정
 3.  feedernet analysis 생성 + import + execution
 4.  결과 다운로드 → CmData → IPD pooled → NC calibration
 5.  논문 정리
 ```
+
+**⛔ 신규 연구는 기존 `v1_*.py` 스크립트 복제 금지.** R쪽이 이미 푼 문제다
+(`R/lib/ipd_pooled.R` + 60줄 driver). Python도 같다: 공유 가드를 호출하는 얇은
+스크립트를 쓰고, 재사용 가능한 계약을 발견하면
+`docs/knowledge_promotion_protocol.md` 절차로 `src/atlas_auto/`에 승격한다.
+
+**측정된 실패 근거** (2026-08-15 감사): fracture_treatment `scripts/*.py` 64개 중
+`client.wait_for_cohort_generation` 호출 **0개**, 자체 `time.sleep` 폴링 재작성
+17개, `isValid` 손수 타이핑 18개 파일. 같은 연구 안에서 같은 가드를 18번 다시
+썼고, 그 가드가 없던 공유 함수를 신규 연구가 그대로 호출하면 AUMC 실패를 그대로
+재현한다.
 
 ### 7.2 결과 다운로드 → IPD pooled 프로세스 (강제 참조)
 
@@ -943,3 +1032,10 @@ python data/scripts/render_docx_qa.py already.pdf   # PDF 입력이면 변환 �
 - [x] feedernet analysis 생성 API 확인: `POST /projects/{pid}/analysis`
 - [ ] client.py에 Generate GET 방식 반영
 - [ ] measurement unit 나머지 10기관 수집
+# Feedernet Project/Analysis Versioning Index
+
+Common guideline: `docs/feedernet_project_analysis_versioning_guideline.md`
+
+Default rule from 2026-07-07: use one stable feedernet project per study and create a new feedernet analysis ID for each material design/spec version. Keep local artifacts versioned, and use the saved `analysis_map` file or live API as the source of truth for project ID, analysis ID, ATLAS ID, and site set.
+
+---
